@@ -48,21 +48,21 @@ jobs:
         run: yarn install
 
       - name: Prettier
-        uses: MansaGroup/nrwl-nx-action@v3.2.1
+        uses: MansaGroup/nrwl-nx-action@v3.2.2
         with:
           targets: format:check
           all: 'true'
           parallel: 'true'
 
       - name: Lint
-        uses: MansaGroup/nrwl-nx-action@v3.2.1
+        uses: MansaGroup/nrwl-nx-action@v3.2.2
         with:
           targets: lint
           all: 'true'
           parallel: 'true'
 
       - name: Build
-        uses: MansaGroup/nrwl-nx-action@v3.2.1
+        uses: MansaGroup/nrwl-nx-action@v3.2.2
         with:
           targets: build
           all: 'true'
