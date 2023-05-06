@@ -10,28 +10,10 @@
         "commands": ["rimraf ./dist/libs/api"]
       }
     },
-    "compile": {
-      "executor": "@nx/js:tsc",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "outputPath": "dist/libs/api",
-        "main": "libs/api/src/index.ts",
-        "tsConfig": "libs/api/tsconfig.lib.json",
-        "assets": []
-      }
-    },
     "build": {
-      "dependsOn": ["compile"],
       "executor": "nx:run-commands",
       "options": {
-        "commands": ["node dist/libs/api/src/index.js"],
-        "parallel": false
-      }
-    },
-    "start": {
-      "executor": "nx:run-commands",
-      "options": {
-        "commands": ["ts-node libs/api/src/index.ts --outputPath=./dist/libs/api"],
+        "commands": ["ts-node libs/api/src/index.ts --outputPath=./apps/pokedex/src/assets/api"],
         "parallel": false
       }
     },
