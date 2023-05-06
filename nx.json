@@ -56,5 +56,9 @@
     "@nx/angular:component": {
       "style": "scss"
     }
-  }
+  },
+  "cli": {
+    "packageManager": "yarn"
+  },
+  "defaultProject": "pokedex"
 }

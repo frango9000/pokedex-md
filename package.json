@@ -2,7 +2,16 @@
   "name": "pokedex-md",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "ngcc --properties es2020 browser module main",
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx run-many --target=test --all",
+    "format": "nx format",
+    "format:check": "nx format:check",
+    "lint": "nx run-many --target=lint --all",
+    "validate": "npm run format:check && npm run lint && npm run test && npm run build"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.0.0",
@@ -14,6 +23,7 @@
     "@angular/platform-browser-dynamic": "~16.0.0",
     "@angular/router": "~16.0.0",
     "@nx/angular": "16.1.1",
+    "lodash-es": "~4.17.21",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -37,6 +47,7 @@
     "@nx/workspace": "16.1.1",
     "@schematics/angular": "~16.0.0",
     "@types/jest": "^29.4.0",
+    "@types/lodash-es": "~4.17.7",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
