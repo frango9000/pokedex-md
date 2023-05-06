@@ -1,16 +1,11 @@
 import { ApiEffectChange, ApiEffectEntry } from '../domain/common';
-import {
-  ApiEntity,
-  ApiName,
-  LocalizedName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
 import { Language } from '../domain/language';
 import { VersionGroup } from '../games/version-group';
 
 export interface PxAbility extends ApiEntity {
   generation: number;
-  names: LocalizedName[];
+  names: LocalizedNames;
 }
 
 export interface Ability extends ApiEntity {

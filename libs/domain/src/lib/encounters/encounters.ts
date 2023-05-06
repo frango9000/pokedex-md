@@ -1,9 +1,4 @@
-import {
-  ApiEntity,
-  ApiName,
-  LocalizedName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiEntity, ApiName, NamedApiResource } from '../domain/domain';
 
 export interface EncounterMethod extends ApiEntity {
   order: number;
@@ -11,7 +6,7 @@ export interface EncounterMethod extends ApiEntity {
 }
 
 export interface PxEncounterMethod extends ApiEntity {
-  names: LocalizedName[];
+  names: LocalizedNames;
 }
 
 export interface EncounterCondition extends ApiEntity {
@@ -20,7 +15,7 @@ export interface EncounterCondition extends ApiEntity {
 }
 
 export interface PxEncounterCondition extends ApiEntity {
-  names: LocalizedName[];
+  names: LocalizedNames;
 }
 
 export interface EncounterConditionValue extends ApiEntity {
@@ -30,5 +25,5 @@ export interface EncounterConditionValue extends ApiEntity {
 
 export interface PxEncounterConditionValue extends ApiEntity {
   condition: string;
-  names: LocalizedName[];
+  names: LocalizedNames;
 }

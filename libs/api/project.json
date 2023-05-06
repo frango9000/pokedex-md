@@ -4,8 +4,15 @@
   "sourceRoot": "libs/api/src",
   "projectType": "library",
   "targets": {
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["rimraf ./dist/libs/api"]
+      }
+    },
     "compile": {
       "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/libs/api",
         "main": "libs/api/src/index.ts",
@@ -24,7 +31,7 @@
     "start": {
       "executor": "nx:run-commands",
       "options": {
-        "commands": ["ts-node libs/api/src/index.ts"],
+        "commands": ["ts-node libs/api/src/index.ts --outputPath=./dist/libs/api"],
         "parallel": false
       }
     },

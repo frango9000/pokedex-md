@@ -1,12 +1,5 @@
 import { ApiEffectChange, ApiEffectEntry } from '../domain/common';
-import {
-  ApiDescription,
-  ApiEntity,
-  ApiName,
-  LocalizedDescription,
-  LocalizedName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiDescription, ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
 import { Language } from '../domain/language';
 import { Generation } from '../games/generation';
 import { VersionGroup } from '../games/version-group';
@@ -19,7 +12,7 @@ export interface PxMove extends ApiEntity {
   type: string;
   crit_rate?: number;
   generation: number;
-  names: LocalizedName[];
+  names: LocalizedNames;
 }
 
 export interface Move extends ApiEntity {
@@ -104,8 +97,8 @@ export interface MoveDamageClass extends ApiEntity {
 }
 
 export interface PxMoveDamageClass extends ApiEntity {
-  names: LocalizedName[];
-  descriptions: LocalizedDescription[];
+  names: LocalizedNames;
+  descriptions: LocalizedNames;
 }
 
 export interface MoveLearnMethod extends ApiEntity {
@@ -119,8 +112,8 @@ export interface MoveLearnMethod extends ApiEntity {
 export interface PxMoveLearnMethod extends ApiEntity {
   id: number;
   name: string;
-  descriptions: LocalizedDescription[];
-  names: LocalizedName[];
+  descriptions: LocalizedNames;
+  names: LocalizedNames;
 }
 
 export interface MoveTarget extends ApiEntity {

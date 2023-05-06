@@ -1,15 +1,10 @@
-import {
-  ApiEntity,
-  ApiName,
-  LocalizedName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
 import { Move, MoveDamageClass } from '../moves/move';
 
 export interface PxStat extends ApiEntity {
   id: number;
   name: string;
-  names: LocalizedName[];
+  names: LocalizedNames;
 }
 
 export interface Stat extends ApiEntity {

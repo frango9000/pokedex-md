@@ -1,9 +1,4 @@
-import {
-  ApiEntity,
-  ApiName,
-  LocalizedName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
 import { Move } from '../moves/move';
 import { Ability } from '../pokemon/ability';
 import { Species } from '../pokemon/species';
@@ -12,7 +7,7 @@ import { VersionGroup } from './version-group';
 
 export interface PxGeneration extends ApiEntity {
   abilities: string[];
-  names: LocalizedName[];
+  names: LocalizedNames;
   main_region: string;
   moves: string[];
   pokemon_species: string[];

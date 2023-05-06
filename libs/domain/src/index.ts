@@ -1,7 +1,6 @@
 export * from './lib/domain/common';
 export * from './lib/domain/domain';
 export * from './lib/domain/language';
-export * from './lib/domain/merge-map';
 export * from './lib/encounters/encounters';
 export * from './lib/evolution/evolution-chain';
 export * from './lib/games/generation';

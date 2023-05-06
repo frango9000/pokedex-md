@@ -1,9 +1,4 @@
-import {
-  ApiEntity,
-  ApiName,
-  LocalizedName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
 
 export interface PxTypeDamageRelations {
   double_damage_from?: string[];
@@ -15,7 +10,7 @@ export interface PxTypeDamageRelations {
 }
 
 export interface PxType extends ApiEntity {
-  names?: LocalizedName[];
+  names?: LocalizedNames;
   generation: string;
   move_damage_class: string;
   damage_relations?: PxTypeDamageRelations;

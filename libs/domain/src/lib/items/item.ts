@@ -1,17 +1,5 @@
-import {
-  ApiEffectEntry,
-  GenerationGameIndex,
-  MachineVersionDetail,
-  VersionGroupFlavorText,
-} from '../domain/common';
-import {
-  ApiDescription,
-  ApiEntity,
-  ApiName,
-  LocalizedDescription,
-  LocalizedName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiEffectEntry, GenerationGameIndex, MachineVersionDetail, VersionGroupFlavorText } from '../domain/common';
+import { ApiDescription, ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
 import { EvolutionChain } from '../evolution/evolution-chain';
 import { GameVersion } from '../games/version';
 import { Pokemon } from '../pokemon/pokemon';
@@ -21,7 +9,7 @@ export interface PxItem extends ApiEntity {
   name: string;
   cost: number;
   sprite: string;
-  names: LocalizedName[];
+  names: LocalizedNames;
   category: string;
   pocket: string;
 }
@@ -47,7 +35,7 @@ export interface Item extends ApiEntity {
 export interface PxItemCategory extends ApiEntity {
   id: number;
   name: string;
-  names: LocalizedName[];
+  names: LocalizedNames;
   pocket: string;
 }
 
@@ -76,8 +64,8 @@ export interface ItemHolderPokemonVersionDetail {
 export interface PxItemAttribute extends ApiEntity {
   id: number;
   name: string;
-  names: LocalizedName[];
-  descriptions: LocalizedDescription[];
+  names: LocalizedNames;
+  descriptions: LocalizedNames;
 }
 
 export interface ItemAttribute extends ApiEntity {
@@ -91,7 +79,7 @@ export interface ItemAttribute extends ApiEntity {
 export interface PxItemPocket extends ApiEntity {
   id: number;
   name: string;
-  names: LocalizedName[];
+  names: LocalizedNames;
 }
 
 export interface ItemPocket extends ApiEntity {

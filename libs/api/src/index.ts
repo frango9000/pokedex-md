@@ -1,3 +1,3 @@
-console.log('libs\\api\\src\\index.ts: executed');
+import { buildApi } from './lib/api';
 
-export * from './lib/api';
+buildApi();

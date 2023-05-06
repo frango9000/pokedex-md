@@ -1,4 +1,4 @@
-import { ApiEntity, ApiName, LocalizedName } from './domain';
+import { ApiEntity, ApiName, LocalizedNames } from './domain';
 
 export interface Language extends ApiEntity {
   id: number;
@@ -11,5 +11,5 @@ export interface Language extends ApiEntity {
 
 export interface PxLanguage extends ApiEntity {
   iso3166: string;
-  names?: LocalizedName[];
+  names?: LocalizedNames;
 }

@@ -1,4 +1,4 @@
-import { ApiEntity, NamedApiResource } from '../domain/domain';
+import { ApiEntity, LocalizedNames, NamedApiResource } from '../domain/domain';
 import { GameVersion } from '../games/version';
 import { PxVersionGroup } from '../games/version-group';
 import { Item } from '../items/item';
@@ -10,6 +10,7 @@ import { PokemonType } from './type';
 export interface PxPokemon extends ApiEntity {
   types: string[];
   generation: number;
+  names: LocalizedNames;
 }
 
 export interface Pokemon extends ApiEntity {

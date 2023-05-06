@@ -10,51 +10,36 @@ export interface ApiResource<T extends ApiEntity = ApiEntity> {
   url: string;
 }
 
-export interface NamedApiResource<T extends ApiEntity = ApiEntity>
-  extends ApiResource<T> {
+export interface NamedApiResource<T extends ApiEntity = ApiEntity> extends ApiResource<T> {
   name: string;
 }
 
-export interface ApiResourceList<
-  T extends NamedApiResource = NamedApiResource
-> {
+export interface ApiResourceList<T extends NamedApiResource = NamedApiResource> {
   count: number;
   next: string;
   previous: string;
   results: T[];
 }
 
-export interface ApiName {
+export interface LocalizedApiEntity {
+  language: NamedApiResource<Language>;
+}
+
+export interface ApiName extends LocalizedApiEntity {
   name: string;
-  language: NamedApiResource<Language>;
 }
 
-export interface ApiDescription {
+export interface ApiDescription extends LocalizedApiEntity {
   description: string;
-  language: NamedApiResource<Language>;
-}
-
-export function getId(url: string): number {
-  try {
-    return Number(url?.split('/').reverse()[1]) || 0;
-  } catch (e) {
-    return 0;
-  }
 }
 
 //Non Api Content
 
-export interface LocalizedName {
-  name: string;
-  language: string;
+export interface LocalizedNames {
+  [language: string]: string;
 }
 
 export interface LocalizedDescription {
   description: string;
   language: string;
-}
-
-export interface SelectableResource<T> {
-  active: boolean;
-  resource: T;
 }
