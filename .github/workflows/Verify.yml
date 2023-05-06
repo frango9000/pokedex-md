@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.3.0
+        uses: actions/checkout@v3.5.2
         with:
           fetch-depth: 0
 
@@ -48,23 +48,10 @@ jobs:
         run: yarn install
 
       - name: Prettier
-        uses: MansaGroup/nrwl-nx-action@v3.2.1
-        with:
-          targets: format:check
-          all: 'true'
-          parallel: 'true'
+        run: yarn run format:check
 
       - name: Lint
-        uses: MansaGroup/nrwl-nx-action@v3.2.1
-        with:
-          targets: lint
-          all: 'true'
-          parallel: 'true'
+        run: yarn run lint
 
       - name: Build
-        uses: MansaGroup/nrwl-nx-action@v3.2.1
-        with:
-          targets: build
-          all: 'true'
-          parallel: 'true'
-          args: '--prod=true --base-href=/pokedex-md/'
+        run: yarn run build
