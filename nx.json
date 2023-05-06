@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "pokedex-md",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "development"
   },
   "tasksRunnerOptions": {
     "default": {
