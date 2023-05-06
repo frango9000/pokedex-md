@@ -1,0 +1,70 @@
+name: Verify
+
+on:
+  push:
+    branches-ignore:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.3.0
+        with:
+          fetch-depth: 0
+
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v6
+
+      - name: Sync PR with target
+        if: github.event_name == 'pull_request'
+        run: git merge ${{ github.event.pull_request.head.sha }}
+
+      - name: Use Node 16
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: '16'
+
+      - name: Cache Node modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.npm
+            ./node_modules
+            ./node
+          key: yarn-v3-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-${{ github.run_id }}
+          restore-keys: |
+            yarn-v3-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-
+            yarn-v3-${{ runner.os }}-
+
+      - name: Yarn Install
+        run: yarn install
+
+      - name: Prettier
+        uses: MansaGroup/nrwl-nx-action@v3.2.1
+        with:
+          targets: format:check
+          all: 'true'
+          parallel: 'true'
+
+      - name: Lint
+        uses: MansaGroup/nrwl-nx-action@v3.2.1
+        with:
+          targets: lint
+          all: 'true'
+          parallel: 'true'
+
+      - name: Build
+        uses: MansaGroup/nrwl-nx-action@v3.2.1
+        with:
+          targets: build
+          all: 'true'
+          parallel: 'true'
+          args: '--prod=true --base-href=/pokedex-md/'
