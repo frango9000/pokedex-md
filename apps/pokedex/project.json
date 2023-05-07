@@ -103,7 +103,8 @@
         "baseHref": "/pokedex-md/",
         "name": "Github Deploy Workflow",
         "email": "frango9000@gmail.com",
-        "cname": ""
+        "cname": "",
+        "noSilent": true
       }
     }
   }
