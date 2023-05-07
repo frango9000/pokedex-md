@@ -1,0 +1,23 @@
+:host {
+  overflow: auto;
+  height: 100%;
+
+  .sidenav-container {
+    height: 100%;
+
+    .sidenav {
+      width: 200px;
+
+      .mat-toolbar {
+        position: sticky;
+        background: inherit;
+        top: 0;
+        z-index: 1;
+      }
+    }
+  }
+
+  .mat-sidenav-content {
+    display: flex;
+  }
+}

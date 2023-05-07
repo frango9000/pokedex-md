@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { SidebarService } from '../services/sidebar.service';
 
 @Component({
-  selector: 'pokedex-md-root',
+  selector: 'pokedex-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'pokedex';
+  constructor(protected readonly sidebarService: SidebarService) {}
 }

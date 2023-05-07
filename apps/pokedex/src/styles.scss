@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$pokedex-primary: mat.define-palette(mat.$indigo-palette);
+$pokedex-accent: mat.define-palette(mat.$pink-palette);
+$pokedex-warn: mat.define-palette(mat.$red-palette);
+
+$pokedex-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $pokedex-primary,
+      accent: $pokedex-accent,
+      warn: $pokedex-warn,
+    ),
+  )
+);
+
+@include mat.all-component-themes($pokedex-theme);
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}

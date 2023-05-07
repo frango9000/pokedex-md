@@ -1,4 +1,4 @@
-import { ApiEntity, ApiName, NamedApiResource } from '../domain/domain';
+import { ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
 
 export interface EncounterMethod extends ApiEntity {
   order: number;

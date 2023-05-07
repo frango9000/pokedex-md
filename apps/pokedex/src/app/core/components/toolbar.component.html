@@ -1,0 +1,12 @@
+<mat-toolbar color="primary" isMobileClass>
+  <button type="button" aria-label="Toggle side Nav" mat-icon-button (click)="sidenavService.toggle()">
+    <mat-icon aria-label="Side Nav toggle icon">menu</mat-icon>
+  </button>
+  <span> Toolbar </span>
+  <div class="flex-stretch"></div>
+  <button mat-icon-button aria-label="Toggle Side Bar" (click)="sidebarService.toggle()">
+    <mat-icon>{{
+      (sidebarService.isOpen$ | async) ? 'keyboard_double_arrow_right' : 'keyboard_double_arrow_left'
+    }}</mat-icon>
+  </button>
+</mat-toolbar>

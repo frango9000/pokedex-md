@@ -2,7 +2,7 @@
   "name": "pokedex",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "pokedex-md",
+  "prefix": "pokedex",
   "sourceRoot": "apps/pokedex/src",
   "tags": [],
   "targets": {
@@ -24,7 +24,7 @@
           "budgets": [
             {
               "type": "initial",
-              "maximumWarning": "500kb",
+              "maximumWarning": "800kb",
               "maximumError": "1mb"
             },
             {
@@ -45,6 +45,12 @@
         }
       },
       "defaultConfiguration": "production"
+    },
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["rimraf ./dist/apps/pokedex"]
+      }
     },
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
