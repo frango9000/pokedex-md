@@ -33,8 +33,8 @@ export class PokemonGenerator extends Generator<PokemonWithSpecies, PxPokemon> {
   protected override fetchResource(resource: NamedApiResource<Pokemon>): Observable<PokemonWithSpecies> {
     return this._fetchOne(resource).pipe(
       mergeMap((pokemon: Pokemon) =>
-        this._fetchOne<Species>(pokemon.species).pipe(map((species) => ({ pokemon, species })))
-      )
+        this._fetchOne<Species>(pokemon.species).pipe(map((species) => ({ pokemon, species }))),
+      ),
     );
   }
 }

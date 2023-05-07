@@ -31,7 +31,7 @@ export class ItemGenerator extends Generator<ItemWithCategory, PxItem> {
 
   protected override fetchResource(namedApiResource: NamedApiResource<Item>): Observable<ItemWithCategory> {
     return this._fetchOne(namedApiResource).pipe(
-      mergeMap((item: Item) => this._fetchOne(item.category).pipe(map((category) => ({ item, category }))))
+      mergeMap((item: Item) => this._fetchOne(item.category).pipe(map((category) => ({ item, category })))),
     );
   }
 }

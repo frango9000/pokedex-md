@@ -9,7 +9,7 @@ export class IfIsDesktopDirective implements OnInit {
   constructor(
     private readonly templateRef: TemplateRef<unknown>,
     private readonly viewContainer: ViewContainerRef,
-    private readonly isMobileService: IsMobileService
+    private readonly isMobileService: IsMobileService,
   ) {}
 
   ngOnInit(): void {

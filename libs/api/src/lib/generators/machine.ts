@@ -36,8 +36,8 @@ export class MachineGenerator extends Generator<MachineWithItemAndMove, PxMachin
           machine: of(machine),
           item: this._fetchOne(machine.item),
           move: this._fetchOne(machine.move),
-        })
-      )
+        }),
+      ),
     );
   }
 }

@@ -29,6 +29,6 @@ export function buildApi(): void {
     new StatGenerator().generateResources(),
     new EncounterMethodGenerator().generateResources(),
     new EncounterConditionGenerator().generateResources(),
-    new EncounterConditionValueGenerator().generateResources()
+    new EncounterConditionValueGenerator().generateResources(),
   ).subscribe();
 }

@@ -1,12 +1,4 @@
-import {
-  ApiDescription,
-  ApiEntity,
-  ApiName,
-  ApiResourceList,
-  LocalizedApiEntity,
-  LocalizedNames,
-  NamedApiResource,
-} from '@pokedex-md/domain';
+import { ApiEntity, ApiResourceList, NamedApiResource } from '@pokedex-md/domain';
 import { AxiosResponse } from 'axios';
 import { Axios } from 'axios-observable';
 import * as fs from 'fs';
@@ -26,10 +18,10 @@ export class Generator<T extends ApiEntity = ApiEntity, N extends ApiEntity = Ap
         from(resources).pipe(
           concatMap((namedResource, index) =>
             this.fetchResource(namedResource).pipe(
-              tap(() => this._logResourceProgress(resources.length, index + 1, namedResource.name))
-            )
-          )
-        )
+              tap(() => this._logResourceProgress(resources.length, index + 1, namedResource.name)),
+            ),
+          ),
+        ),
       ),
       filter((resource: T) => this.filterResource(resource)),
       map((resource: T) => this.mapResource(resource)),
@@ -38,7 +30,7 @@ export class Generator<T extends ApiEntity = ApiEntity, N extends ApiEntity = Ap
       tap({
         next: (resources: N[]) => this._logResourceProgress(resources.length, resources.length),
         error: () => this._logError(),
-      })
+      }),
     );
   }
 
@@ -57,7 +49,7 @@ export class Generator<T extends ApiEntity = ApiEntity, N extends ApiEntity = Ap
   protected _fetchOne<R extends ApiEntity>(resource: NamedApiResource<R>): Observable<R> {
     return Axios.get<R>(resource.url).pipe(
       retry(10),
-      map((response: AxiosResponse<R>) => response.data)
+      map((response: AxiosResponse<R>) => responsedata),
     );
   }
 
@@ -72,7 +64,7 @@ export class Generator<T extends ApiEntity = ApiEntity, N extends ApiEntity = Ap
     const path = process.argv.find((arg) => arg.startsWith('--outputPath='))?.substring(13) || './dist/libs/api';
 
     return bindCallback(writeOrAppend)(`${path}/${this.resourceName}.json`, JSON.stringify(resources)).pipe(
-      map(() => resources)
+      map(() => resources),
     );
   }
 
@@ -83,9 +75,9 @@ export class Generator<T extends ApiEntity = ApiEntity, N extends ApiEntity = Ap
     readline.moveCursor(process.stdout, 0, -2);
     readline.clearLine(process.stdout, 0);
     process.stdout.write(
-      `${count === length ? '✅ ' : getClockEmojis(count)} Generat${count === length ? 'ed' : 'ing'} ${
+      `${ count === length ? '✅ ' : getClockEmojis(count) } Generat${ count === length ? 'ed' : 'ing' } ${
         this.resourceName
-      }${name?.length ? ' | ' + name : ''} | ${count}/${length} | ${Math.trunc((count * 100) / length)}%\n \n`
+      }${ name?.length ? ' | ' + name : '' } | ${ count }/${ length } | ${ Math.trunc((count * 100) / length) }%\n \n,
     );
   }
 
@@ -110,7 +102,7 @@ export function getGeneration(url: string): number {
 
 export function filterAndMapLocalizations<T extends LocalizedApiEntity, K extends keyof T>(
   entities: T[],
-  propertyName: K
+  propertyName: K,
 ): LocalizedNames {
   return entities
     .filter((entity) => LANGUAGES.includes(entity.language.name))

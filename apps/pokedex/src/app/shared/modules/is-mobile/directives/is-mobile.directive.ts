@@ -17,7 +17,7 @@ export class IsMobileDirective implements OnInit {
   constructor(
     private readonly templateRef: TemplateRef<IsMobileContext>,
     private readonly viewContainer: ViewContainerRef,
-    private readonly isMobileService: IsMobileService
+    private readonly isMobileService: IsMobileService,
   ) {}
 
   ngOnInit(): void {

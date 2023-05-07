@@ -8,7 +8,7 @@ export class IsMobileService {
   private readonly isHandset: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     distinctUntilChanged(),
     map((result) => result.matches),
-    shareReplay()
+    shareReplay(),
   );
 
   constructor(private readonly breakpointObserver: BreakpointObserver) {}

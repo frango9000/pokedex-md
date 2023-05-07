@@ -1,10 +1,5 @@
 import { FlavorText } from '../domain/common';
-import {
-  ApiDescription,
-  ApiEntity,
-  ApiName,
-  NamedApiResource,
-} from '../domain/domain';
+import { ApiDescription, ApiEntity, ApiName, NamedApiResource } from '../domain/domain';
 import { Language } from '../domain/language';
 
 export interface Species extends ApiEntity {

@@ -15,7 +15,7 @@ export class NgLetDirective<T> implements OnInit {
   // @formatter:off
   constructor(
     private readonly viewContainer: ViewContainerRef,
-    private readonly templateRef: TemplateRef<NgLetContext<T>>
+    private readonly templateRef: TemplateRef<NgLetContext<T>>,
   ) {}
   // @formatter:on
 
@@ -50,7 +50,7 @@ export class NgLetDirective<T> implements OnInit {
    */
   static ngTemplateContextGuard<T>(
     dir: NgLetDirective<T>,
-    ctx: any
+    ctx: any,
   ): ctx is NgLetContext<Exclude<T, false | 0 | '' | null | undefined>> {
     return true;
   }
