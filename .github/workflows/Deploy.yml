@@ -1,0 +1,42 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  verify:
+    uses: ./.github/workflows/Verify.yml
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: verify
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.3.0
+
+      - name: Use Node 16
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: '16'
+
+      - name: Cache Node modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.npm
+            ./node_modules
+            ./node
+          key: yarn-v3-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-${{ github.run_id }}
+          restore-keys: |
+            yarn-v3-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-
+            yarn-v3-${{ runner.os }}-
+
+      - name: Yarn Install
+        run: yarn install
+
+      - name: Deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: yarn run deploy

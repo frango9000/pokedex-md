@@ -96,6 +96,15 @@
       "options": {
         "buildTarget": "pokedex:build"
       }
+    },
+    "deploy": {
+      "executor": "angular-cli-ghpages:deploy",
+      "options": {
+        "baseHref": "/pokedex-md/",
+        "name": "Github Deploy Workflow",
+        "email": "frango9000@gmail.com",
+        "cname": ""
+      }
     }
   }
 }
