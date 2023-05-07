@@ -13,7 +13,7 @@
     "format": "nx format",
     "format:check": "nx format:check",
     "lint": "nx run-many --target=lint --all",
-    "validate": "yarn run format:check && yarn run lint && yarn run build"
+    "validate": "yarn run format:check --all && yarn run lint && yarn run build"
   },
   "private": true,
   "dependencies": {
