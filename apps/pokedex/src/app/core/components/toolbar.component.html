@@ -4,7 +4,20 @@
   </button>
   <span> Toolbar </span>
   <div class="flex-stretch"></div>
-  <button mat-icon-button aria-label="Toggle Side Bar" (click)="sidebarService.toggle()">
+  <button
+    mat-icon-button
+    aria-label="Toggle Bottom Bar"
+    (click)="bottomBarService.toggle()"
+    *ngIf="bottomBarService.isActive$ | async"
+  >
+    <mat-icon>{{ (bottomBarService.isOpen$ | async) ? 'filter_alt_off' : 'filter_alt' }}</mat-icon>
+  </button>
+  <button
+    mat-icon-button
+    aria-label="Toggle Side Bar"
+    (click)="sidebarService.toggle()"
+    *ngIf="sidebarService.isActive$ | async"
+  >
     <mat-icon>{{
       (sidebarService.isOpen$ | async) ? 'keyboard_double_arrow_right' : 'keyboard_double_arrow_left'
     }}</mat-icon>

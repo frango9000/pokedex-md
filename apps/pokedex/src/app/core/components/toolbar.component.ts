@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BottomBarService } from '../services/bottom-bar.service';
 import { SidebarService } from '../services/sidebar.service';
 import { SidenavService } from '../services/sidenav.service';
 
@@ -8,5 +9,9 @@ import { SidenavService } from '../services/sidenav.service';
   styleUrls: ['./toolbar.component.scss'],
 })
 export class ToolbarComponent {
-  constructor(protected readonly sidenavService: SidenavService, protected readonly sidebarService: SidebarService) {}
+  constructor(
+    protected readonly sidenavService: SidenavService,
+    protected readonly sidebarService: SidebarService,
+    protected readonly bottomBarService: BottomBarService,
+  ) {}
 }

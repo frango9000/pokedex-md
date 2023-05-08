@@ -1,0 +1,10 @@
+<div class="bottom-bar-header">
+  <span>FILTERS</span>
+  <button mat-icon-button color="primary" aria-label="Close Bottom Bar" (click)="_bottomSheetRef.dismiss()">
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+<mat-divider></mat-divider>
+<div class="bottom-bar-content">
+  <router-outlet name="bottom-bar"></router-outlet>
+</div>

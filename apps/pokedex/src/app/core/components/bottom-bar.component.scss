@@ -1,0 +1,12 @@
+:host {
+  [class^='bottom-bar-'] {
+    padding: 8px 16px;
+  }
+
+  .bottom-bar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4px;
+  }
+}

@@ -12,6 +12,7 @@
     "test": "nx run-many --target=test --all",
     "format": "nx format",
     "format:check": "nx format:check",
+    "format:check:all": "nx format:check --all",
     "lint": "nx run-many --target=lint --all",
     "validate": "yarn run format:check --all && yarn run lint && yarn run build"
   },
