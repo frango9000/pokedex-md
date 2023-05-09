@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
@@ -14,6 +15,7 @@ import { AppComponent } from './core/components/app.component';
 import { BottomBarComponent } from './core/components/bottom-bar.component';
 import { SidenavComponent } from './core/components/sidenav.component';
 import { ToolbarComponent } from './core/components/toolbar.component';
+import { TranslocoRootModule } from './core/transloco-root.module';
 import { IsMobileModule } from './shared/modules/is-mobile';
 import { NgLetModule } from './shared/modules/ng-let';
 
@@ -32,6 +34,8 @@ import { NgLetModule } from './shared/modules/ng-let';
     MatBottomSheetModule,
     IsMobileModule,
     NgLetModule,
+    HttpClientModule,
+    TranslocoRootModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

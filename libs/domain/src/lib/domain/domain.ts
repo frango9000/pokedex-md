@@ -1,8 +1,8 @@
 import { Language } from './language';
 
 export interface ApiEntity {
-  id?: number;
-  name?: string;
+  id: number;
+  name: string;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - development
 
 jobs:
   verify:
@@ -29,10 +29,8 @@ jobs:
           path: |
             ~/.npm
             ./node_modules
-            ./node
-          key: yarn-v3-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-${{ github.run_id }}
+          key: yarn-v3-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
-            yarn-v3-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-
             yarn-v3-${{ runner.os }}-
 
       - name: Yarn Install

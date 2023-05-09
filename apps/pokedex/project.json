@@ -17,7 +17,8 @@
         "tsConfig": "apps/pokedex/tsconfig.app.json",
         "assets": ["apps/pokedex/src/favicon.ico", "apps/pokedex/src/assets"],
         "styles": ["apps/pokedex/src/styles.scss"],
-        "scripts": []
+        "scripts": [],
+        "allowedCommonJsDependencies": ["flat"]
       },
       "configurations": {
         "production": {
