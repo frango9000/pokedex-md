@@ -2,10 +2,14 @@
 <pokedex-sidenav *isMobile="let isMobile" [ngClass]="{ mobile: isMobile }">
   <ng-container *ngLet="sidebarService.isOpen$ | async as showSidebar">
     <main [ngClass]="{ 'sidebar-open': showSidebar }">
-      <router-outlet></router-outlet>
+      <section>
+        <router-outlet></router-outlet>
+      </section>
     </main>
     <aside [ngClass]="{ 'sidebar-open': showSidebar }">
-      <router-outlet name="sidebar"></router-outlet>
+      <section>
+        <router-outlet name='sidebar'></router-outlet>
+      </section>
     </aside>
   </ng-container>
 </pokedex-sidenav>

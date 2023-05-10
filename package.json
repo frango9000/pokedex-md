@@ -19,7 +19,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.0.0",
-    "@angular/cdk": "^16.0.0",
+    "@angular/cdk": "~16.0.0",
     "@angular/common": "~16.0.0",
     "@angular/compiler": "~16.0.0",
     "@angular/core": "~16.0.0",
@@ -71,6 +71,7 @@
     "jest-environment-node": "^29.4.1",
     "jest-preset-angular": "~13.0.0",
     "nx": "16.1.1",
+    "ngx-infinite-scroll": "^15.0.0",
     "prettier": "^2.6.2",
     "rimraf": "5.0.0",
     "ts-jest": "^29.1.0",

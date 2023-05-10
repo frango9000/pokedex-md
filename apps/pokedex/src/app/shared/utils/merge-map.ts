@@ -22,7 +22,9 @@ export class MergingMap extends Map<string, HashMap> {
   ): MergingMap {
     const merged = new MergingMap();
     resources.forEach((resource) =>
-      Object.keys(resource[resourcesKey]).forEach((lang) => merged.merge(lang, getKey(resource, lang))),
+      Object.keys(resource[resourcesKey]).forEach((lang) =>
+        merged.merge(lang, getKey(resource, resource[resourcesKey][lang])),
+      ),
     );
     return merged;
   }
