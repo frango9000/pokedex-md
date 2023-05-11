@@ -1,7 +1,7 @@
 import { DataSource } from '@angular/cdk/collections';
 import { Sort } from '@angular/material/sort';
 import { untilDestroyed } from '@ngneat/until-destroy';
-import { BehaviorSubject, combineLatestWith, Observable } from 'rxjs';
+import { BehaviorSubject, combineLatestWith, Observable, shareReplay } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 export class GenericDatasource<T> implements DataSource<T> {
@@ -18,10 +18,11 @@ export class GenericDatasource<T> implements DataSource<T> {
     combineLatestWith(this._filters$),
     map(([resources, filters]) => resources.filter(this._filter(filters))),
     combineLatestWith(this._sort$),
-    map(([resources, sort]) => resources.sort(this._sort(sort))),
+    map(([resources, sort]) => [...resources].sort(this._sort(sort))),
     combineLatestWith(this._page$),
     map(([resources, page]) => resources.slice(0, this._pageSize * (page + 1))),
     untilDestroyed(this, 'disconnect'),
+    shareReplay(1),
   );
 
   connect(): Observable<T[]> {
@@ -86,7 +87,7 @@ export class GenericDatasource<T> implements DataSource<T> {
   protected _sort(sort: Sort | null): (a: T, b: T) => number {
     return function (a: T, b: T) {
       let comparison = 0;
-      if (sort) {
+      if (sort && sort.direction !== '') {
         const propA = a[sort.active as keyof T];
         const propB = b[sort.active as keyof T];
 
