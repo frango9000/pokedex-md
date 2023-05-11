@@ -264,6 +264,12 @@ THE SOFTWARE.
 @ngneat/until-destroy
 MIT
 
+@ngx-formly/core
+MIT
+
+@ngx-formly/material
+MIT
+
 flat
 BSD-3-Clause
 Copyright (c) 2014, Hugh Kennedy
