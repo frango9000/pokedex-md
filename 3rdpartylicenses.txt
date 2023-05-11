@@ -162,6 +162,9 @@ licenses; we recommend you read them, as their terms may differ from the
 terms above.
 
 
+ngx-infinite-scroll
+MIT
+
 rxjs
 Apache-2.0
                                Apache License
