@@ -16,7 +16,13 @@
         "polyfills": ["zone.js"],
         "tsConfig": "apps/pokedex/tsconfig.app.json",
         "assets": ["apps/pokedex/src/favicon.ico", "apps/pokedex/src/assets"],
-        "styles": ["apps/pokedex/src/styles.scss"],
+        "styles": [
+          "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+          "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+          "node_modules/@fortawesome/fontawesome-free/scss/regular.scss",
+          "node_modules/@fortawesome/fontawesome-free/scss/brands.scss",
+          "apps/pokedex/src/styles.scss"
+        ],
         "scripts": [],
         "allowedCommonJsDependencies": ["flat"]
       },
@@ -25,7 +31,7 @@
           "budgets": [
             {
               "type": "initial",
-              "maximumWarning": "800kb",
+              "maximumWarning": "900kb",
               "maximumError": "1mb"
             },
             {

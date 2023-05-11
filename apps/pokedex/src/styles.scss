@@ -31,3 +31,11 @@ body {
 .mat-bottom-sheet-container.mat-bottom-sheet-container {
   padding: 0;
 }
+
+.mat-icon {
+  &.fa,
+  &.fab,
+  &.far {
+    font-size: 24px;
+  }
+}

@@ -47,6 +47,7 @@
     "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "~16.0.0",
     "@angular/language-service": "~16.0.0",
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "@nx/cypress": "16.1.1",
     "@nx/eslint-plugin": "16.1.1",
     "@nx/jest": "16.1.1",
