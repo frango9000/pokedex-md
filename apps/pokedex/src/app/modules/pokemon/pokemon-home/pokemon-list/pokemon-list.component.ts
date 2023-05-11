@@ -6,8 +6,9 @@ import { UntilDestroy } from '@ngneat/until-destroy';
 import { PxPokemon } from '@pokedex-md/domain';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
-import { PokemonService } from '../../../shared/services/pokemon.service';
-import { GenericDatasource } from '../../../shared/utils/generic-datasource';
+import { FilterService } from '../../../../shared/services/filter.service';
+import { PokemonService } from '../../../../shared/services/pokemon.service';
+import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
 
 @UntilDestroy()
 @Component({
@@ -22,10 +23,14 @@ export class PokemonListComponent {
 
   protected readonly displayedColumns: string[] = ['id', 'sprite', 'name', 'generation', 'types'];
 
-  constructor(private readonly pokemonService: PokemonService) {
+  constructor(
+    private readonly pokemonService: PokemonService,
+    private readonly filterService: FilterService<PxPokemon>,
+  ) {
     this.pokemonService
       .getAll()
       .pipe(take(1))
       .subscribe((data) => (this.dataSource.resources = data));
+    this.filterService.filters$.subscribe((filters) => (this.dataSource.filters = filters));
   }
 }

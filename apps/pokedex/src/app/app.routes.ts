@@ -9,19 +9,7 @@ export const appRoutes: Route[] = [
   {
     path: 'pokemon',
     pathMatch: 'full',
-    children: [
-      {
-        path: '',
-        loadComponent: () =>
-          import('./modules/pokemon/pokemon-list/pokemon-list.component').then((m) => m.PokemonListComponent),
-      },
-      {
-        path: '',
-        loadComponent: () =>
-          import('./modules/pokemon/pokemon-filters/pokemon-filters.component').then((m) => m.PokemonFiltersComponent),
-        outlet: 'bottom-bar',
-      },
-    ],
+    loadChildren: () => import('./modules/pokemon/pokemon-home/pokemon-home.module').then((m) => m.PokemonHomeModule),
   },
   {
     path: 'pokemon/:pokemon',
