@@ -1,4 +1,4 @@
-import { ApiEntity, LocalizedNames, NamedApiResource } from '../domain/domain';
+import { LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { GameVersion } from '../games/version';
 import { PxVersionGroup } from '../games/version-group';
 import { Item } from '../items/item';
@@ -7,15 +7,13 @@ import { Ability } from './ability';
 import { Species } from './species';
 import { PokemonType } from './type';
 
-export interface PxPokemon extends ApiEntity {
+export interface PxPokemon extends NamedApiEntity {
   types: string[];
-  generation: number;
+  generation: string;
   names: LocalizedNames;
 }
 
-export interface Pokemon extends ApiEntity {
-  id: number;
-  name: string;
+export interface Pokemon extends NamedApiEntity {
   base_experience: number;
   height: number;
   weight: number;

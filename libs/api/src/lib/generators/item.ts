@@ -10,7 +10,7 @@ import {
 } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
 import { map, mergeMap } from 'rxjs/operators';
-import { filterAndMapNames, Generator } from '../model/generator';
+import { fetchOne, filterAndMapNames, Generator } from '../model/generator';
 
 export class ItemGenerator extends Generator<ItemWithCategory, PxItem> {
   constructor() {
@@ -29,9 +29,9 @@ export class ItemGenerator extends Generator<ItemWithCategory, PxItem> {
     };
   }
 
-  protected override fetchResource(namedApiResource: NamedApiResource<Item>): Observable<ItemWithCategory> {
-    return this._fetchOne(namedApiResource).pipe(
-      mergeMap((item: Item) => this._fetchOne(item.category).pipe(map((category) => ({ item, category })))),
+  protected override fetchResource(resource: NamedApiResource<Item>): Observable<ItemWithCategory> {
+    return fetchOne<Item>(resource).pipe(
+      mergeMap((item: Item) => fetchOne<ItemCategory>(item.category).pipe(map((category) => ({ item, category })))),
     );
   }
 }

@@ -1,7 +1,7 @@
 import { ApiEntity, Item, Machine, Move, NamedApiResource, PxMachine } from '@pokedex-md/domain';
 import { forkJoin, Observable, of } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
-import { Generator } from '../model/generator';
+import { fetchOne, Generator } from '../model/generator';
 
 export class MachineGenerator extends Generator<MachineWithItemAndMove, PxMachine> {
   constructor() {
@@ -29,13 +29,13 @@ export class MachineGenerator extends Generator<MachineWithItemAndMove, PxMachin
     };
   }
 
-  protected override fetchResource(namedApiResource: NamedApiResource<Machine>): Observable<MachineWithItemAndMove> {
-    return super._fetchOne(namedApiResource).pipe(
+  protected override fetchResource(resource: NamedApiResource<Machine>): Observable<MachineWithItemAndMove> {
+    return fetchOne<Machine>(resource).pipe(
       mergeMap((machine: Machine) =>
         forkJoin({
           machine: of(machine),
-          item: this._fetchOne(machine.item),
-          move: this._fetchOne(machine.move),
+          item: fetchOne<Item>(machine.item),
+          move: fetchOne<Move>(machine.move),
         }),
       ),
     );

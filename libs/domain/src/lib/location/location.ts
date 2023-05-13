@@ -1,32 +1,26 @@
 import { GenerationGameIndex } from '../domain/common';
-import { ApiEntity, ApiName, NamedApiResource } from '../domain/domain';
+import { ApiNameLocalization, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Generation } from '../games/generation';
 import { VersionGroup } from '../games/version-group';
 
-export interface PokemonLocation extends ApiEntity {
-  id: number;
-  name: string;
+export interface PokemonLocation extends NamedApiEntity {
   region: NamedApiResource<Region>;
-  names: ApiName[];
+  names: ApiNameLocalization[];
   game_indices: GenerationGameIndex[];
   areas: NamedApiResource<LocationArea>[];
 }
 
-export interface LocationArea extends ApiEntity {
-  id: number;
-  name: string;
+export interface LocationArea extends NamedApiEntity {
   game_index: number;
   encounter_method_rates: [];
   location: NamedApiResource<PokemonLocation>;
-  names: ApiName[];
+  names: ApiNameLocalization[];
   pokemon_encounters: [];
 }
 
-export interface Region extends ApiEntity {
-  id: number;
-  name: string;
+export interface Region extends NamedApiEntity {
   locations: NamedApiResource<PokemonLocation>[];
-  names: ApiName[];
+  names: ApiNameLocalization[];
   main_generation: NamedApiResource<Generation>;
   pokedexes: NamedApiResource[];
   version_groups: NamedApiResource<VersionGroup>[];

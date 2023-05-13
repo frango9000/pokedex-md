@@ -13,7 +13,7 @@ import {
 } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
 import { map, mergeMap } from 'rxjs/operators';
-import { filterAndMapNames, Generator, getGeneration } from '../model/generator';
+import { fetchOne, filterAndMapNames, Generator } from '../model/generator';
 
 export class PokemonGenerator extends Generator<PokemonWithSpecies, PxPokemon> {
   constructor() {
@@ -26,14 +26,19 @@ export class PokemonGenerator extends Generator<PokemonWithSpecies, PxPokemon> {
       name: resource.pokemon.name,
       names: filterAndMapNames(resource.species.names),
       types: resource.pokemon.types.map((slot) => slot.type.name),
-      generation: getGeneration(resource.species.generation.url),
+      generation: resource.species.generation.name,
     };
   }
 
   protected override fetchResource(resource: NamedApiResource<Pokemon>): Observable<PokemonWithSpecies> {
-    return this._fetchOne(resource).pipe(
+    return fetchOne<Pokemon>(resource).pipe(
       mergeMap((pokemon: Pokemon) =>
-        this._fetchOne<Species>(pokemon.species).pipe(map((species) => ({ pokemon, species }))),
+        fetchOne<Species>(pokemon.species).pipe(
+          map((species) => ({
+            pokemon,
+            species,
+          })),
+        ),
       ),
     );
   }
@@ -77,7 +82,7 @@ export class AbilitiesGenerator extends Generator<Ability, PxAbility> {
     return {
       id: resource.id,
       name: resource.name,
-      generation: getGeneration(resource.generation?.url),
+      generation: resource.generation.name,
       names: filterAndMapNames(resource.names),
     };
   }

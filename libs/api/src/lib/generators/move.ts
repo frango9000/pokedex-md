@@ -6,7 +6,7 @@ import {
   PxMoveDamageClass,
   PxMoveLearnMethod,
 } from '@pokedex-md/domain';
-import { filterAndMapDescriptions, filterAndMapNames, Generator, getGeneration } from '../model/generator';
+import { filterAndMapDescriptions, filterAndMapNames, Generator } from '../model/generator';
 
 export class MovesGenerator extends Generator<Move, PxMove> {
   constructor() {
@@ -19,7 +19,7 @@ export class MovesGenerator extends Generator<Move, PxMove> {
       name: resource.name,
       accuracy: resource.accuracy,
       crit_rate: resource.meta?.crit_rate,
-      generation: getGeneration(resource.generation?.url),
+      generation: resource.generation.name,
       names: filterAndMapNames(resource.names),
       power: resource.power,
       pp: resource.pp,

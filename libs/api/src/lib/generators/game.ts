@@ -1,5 +1,5 @@
 import { Generation, PxGeneration, PxVersionGroup, VersionGroup } from '@pokedex-md/domain';
-import { filterAndMapNames, Generator, getGeneration, mapResourcesName } from '../model/generator';
+import { filterAndMapNames, Generator, mapResourcesName } from '../model/generator';
 
 export class VersionGroupGenerator extends Generator<VersionGroup, PxVersionGroup> {
   constructor() {
@@ -10,7 +10,7 @@ export class VersionGroupGenerator extends Generator<VersionGroup, PxVersionGrou
     return {
       id: resource.id,
       name: resource.name,
-      generation: getGeneration(resource.generation.url),
+      generation: resource.generation.name,
       order: resource.order,
       versions: mapResourcesName(resource.versions),
     };

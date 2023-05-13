@@ -21,11 +21,12 @@ export class MergingMap extends Map<string, HashMap> {
     getKey: (resource: P, value: string) => HashMap,
   ): MergingMap {
     const merged = new MergingMap();
-    resources.forEach((resource) =>
-      Object.keys(resource[resourcesKey]).forEach((lang) =>
-        merged.merge(lang, getKey(resource, resource[resourcesKey][lang])),
-      ),
-    );
+    resources
+      .filter((resource) => !!resource[resourcesKey])
+      .forEach((resource) => {
+        const localizations = resource[resourcesKey] as LocalizedNames;
+        Object.keys(localizations).forEach((lang) => merged.merge(lang, getKey(resource, localizations[lang])));
+      });
     return merged;
   }
 

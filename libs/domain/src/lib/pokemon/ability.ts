@@ -1,22 +1,20 @@
 import { ApiEffectChange, ApiEffectEntry } from '../domain/common';
-import { ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
+import { ApiNameLocalization, LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Language } from '../domain/language';
 import { VersionGroup } from '../games/version-group';
 
-export interface PxAbility extends ApiEntity {
-  generation: number;
+export interface PxAbility extends NamedApiEntity {
+  generation: string;
   names: LocalizedNames;
 }
 
-export interface Ability extends ApiEntity {
-  id: number;
-  name: string;
+export interface Ability extends NamedApiEntity {
   is_main_series: boolean;
   effect_changes: ApiEffectChange[];
   effect_entries: ApiEffectEntry[];
   flavor_text_entries: AbilityFlavorText[];
   generation: NamedApiResource;
-  names: ApiName[];
+  names: ApiNameLocalization[];
   pokemon: {
     is_hidden: boolean;
     pokemon: NamedApiResource;

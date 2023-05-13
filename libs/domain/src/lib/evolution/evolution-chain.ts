@@ -1,12 +1,12 @@
 import { Observable } from 'rxjs';
-import { ApiEntity, ApiName, NamedApiResource } from '../domain/domain';
+import { ApiNameLocalization, IdApiEntity, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Item } from '../items/item';
 import { PokemonLocation } from '../location/location';
 import { Move } from '../moves/move';
 import { Species } from '../pokemon/species';
 import { PokemonType } from '../pokemon/type';
 
-export interface EvolutionChain extends ApiEntity {
+export interface EvolutionChain extends IdApiEntity {
   id: number;
   baby_trigger_item: NamedApiResource;
   chain: EvolutionChainLink;
@@ -46,10 +46,8 @@ export interface EvolutionDetail {
   processed_details?: PokemonEvolutionTriggerDetails;
 }
 
-export interface EvolutionTrigger {
-  id: number;
-  name: string;
-  names: ApiName[];
+export interface EvolutionTrigger extends NamedApiEntity {
+  names: ApiNameLocalization[];
   pokemon_species: NamedApiResource<Species>[];
 }
 

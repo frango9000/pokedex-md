@@ -1,9 +1,9 @@
-import { ApiEntity, NamedApiResource } from '../domain/domain';
+import { IdApiEntity, NamedApiResource } from '../domain/domain';
 import { VersionGroup } from '../games/version-group';
 import { Item } from '../items/item';
 import { Move } from '../moves/move';
 
-export interface PxMachine extends ApiEntity {
+export interface PxMachine extends IdApiEntity {
   id: number;
   item: { id: number; name: string; cost: number; sprite: string };
   move: {
@@ -17,7 +17,7 @@ export interface PxMachine extends ApiEntity {
   version_group: string;
 }
 
-export interface Machine extends ApiEntity {
+export interface Machine extends IdApiEntity {
   id: number;
   item: NamedApiResource<Item>;
   move: NamedApiResource<Move>;

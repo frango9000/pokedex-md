@@ -1,7 +1,7 @@
-import { ApiEntity, ApiName } from '../domain/domain';
+import { ApiEntity, ApiNameLocalization } from '../domain/domain';
 import { VersionGroup } from './version-group';
 
 export interface GameVersion extends ApiEntity {
-  names: ApiName[];
+  names: ApiNameLocalization[];
   version_group: VersionGroup;
 }

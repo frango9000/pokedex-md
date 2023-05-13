@@ -1,23 +1,27 @@
 import { ApiEffectChange, ApiEffectEntry } from '../domain/common';
-import { ApiDescription, ApiEntity, ApiName, LocalizedNames, NamedApiResource } from '../domain/domain';
+import {
+  ApiDescriptionLocalization,
+  ApiNameLocalization,
+  LocalizedNames,
+  NamedApiEntity,
+  NamedApiResource,
+} from '../domain/domain';
 import { Language } from '../domain/language';
 import { Generation } from '../games/generation';
 import { VersionGroup } from '../games/version-group';
 import { PokemonType } from '../pokemon/type';
 
-export interface PxMove extends ApiEntity {
+export interface PxMove extends NamedApiEntity {
   accuracy?: number;
   power?: number;
   pp?: number;
   type: string;
   crit_rate?: number;
-  generation: number;
+  generation: string;
   names: LocalizedNames;
 }
 
-export interface Move extends ApiEntity {
-  id: number;
-  name: string;
+export interface Move extends NamedApiEntity {
   accuracy: number;
   effect_chance: number;
   pp: number;
@@ -37,7 +41,7 @@ export interface Move extends ApiEntity {
     version_group: NamedApiResource;
   }[];
   meta: PokemonMoveMetadata;
-  names: ApiName[];
+  names: ApiNameLocalization[];
   past_values: [];
   stat_changes: {
     change: number;
@@ -74,54 +78,42 @@ interface PokemonMoveContestCombos {
   };
 }
 
-export interface MoveAilment extends ApiEntity {
-  id: number;
-  name: string;
+export interface MoveAilment extends NamedApiEntity {
   moves: NamedApiResource<Move>[];
-  names: ApiName[];
+  names: ApiNameLocalization[];
 }
 
-export interface MoveCategory extends ApiEntity {
-  id: number;
-  name: string;
+export interface MoveCategory extends NamedApiEntity {
   moves: NamedApiResource<Move>[];
-  descriptions: ApiDescription[];
+  descriptions: ApiDescriptionLocalization[];
 }
 
-export interface MoveDamageClass extends ApiEntity {
-  id: number;
-  name: string;
-  descriptions: ApiDescription[];
+export interface MoveDamageClass extends NamedApiEntity {
+  descriptions: ApiDescriptionLocalization[];
   moves: NamedApiResource<Move>[];
-  names: ApiName[];
+  names: ApiNameLocalization[];
 }
 
-export interface PxMoveDamageClass extends ApiEntity {
+export interface PxMoveDamageClass extends NamedApiEntity {
   names: LocalizedNames;
   descriptions: LocalizedNames;
 }
 
-export interface MoveLearnMethod extends ApiEntity {
-  id: number;
-  name: string;
-  descriptions: ApiDescription[];
-  names: ApiName[];
+export interface MoveLearnMethod extends NamedApiEntity {
+  descriptions: ApiDescriptionLocalization[];
+  names: ApiNameLocalization[];
   version_groups: NamedApiResource<VersionGroup>[];
 }
 
-export interface PxMoveLearnMethod extends ApiEntity {
-  id: number;
-  name: string;
+export interface PxMoveLearnMethod extends NamedApiEntity {
   descriptions: LocalizedNames;
   names: LocalizedNames;
 }
 
-export interface MoveTarget extends ApiEntity {
-  id: number;
-  name: string;
-  descriptions: ApiDescription[];
+export interface MoveTarget extends NamedApiEntity {
+  descriptions: ApiDescriptionLocalization[];
   moves: NamedApiResource<Move>[];
-  names: ApiName[];
+  names: ApiNameLocalization[];
 }
 
 export interface MoveFlavorText {

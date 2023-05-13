@@ -1,0 +1,16 @@
+<mat-select
+  [id]="id"
+  [formControl]="formControl"
+  [formlyAttributes]="field"
+  [placeholder]="props.placeholder || 'Select Types'"
+  [tabIndex]="props.tabindex"
+  [required]="false"
+  [multiple]="true"
+  [errorStateMatcher]="errorStateMatcher"
+  [aria-label]="'Select Pokemon Types'"
+  [disableOptionCentering]="true"
+>
+  <mat-option *ngFor="let type of service.getAll() | async" [value]="type.name">
+    {{ type.name }}
+  </mat-option>
+</mat-select>

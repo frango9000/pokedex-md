@@ -100,6 +100,11 @@ export class GenericDatasource<T> implements DataSource<T> {
                 return filter.value.includes(value as string);
               } else return false;
 
+            case 'any-contains':
+              return (
+                Array.isArray(value) && !Array.isArray(filter.value) && value.some((v) => v.includes(filter.value))
+              );
+
             case 'contains-any':
               return Array.isArray(value) && Array.isArray(filter.value) && filter.value.some((v) => value.includes(v));
 
@@ -147,7 +152,16 @@ export class GenericDatasource<T> implements DataSource<T> {
 }
 
 export interface Filter<T> {
-  type: 'equal' | 'contains' | 'among' | 'contains-any' | 'contains-all' | 'greater-than' | 'less-than' | 'in-range';
+  type:
+    | 'equal'
+    | 'contains'
+    | 'among'
+    | 'any-contains'
+    | 'contains-any'
+    | 'contains-all'
+    | 'greater-than'
+    | 'less-than'
+    | 'in-range';
   property: keyof T;
   value?: string | number | (string | number)[] | RangeFilterValue;
 }

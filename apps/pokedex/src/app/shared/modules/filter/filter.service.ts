@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { Filter } from '../utils/generic-datasource';
+import { Filter } from '../../utils/generic-datasource';
 
 @Injectable()
 export class FilterService<T> {

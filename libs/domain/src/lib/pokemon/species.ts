@@ -1,10 +1,8 @@
 import { FlavorText } from '../domain/common';
-import { ApiDescription, ApiEntity, ApiName, NamedApiResource } from '../domain/domain';
+import { ApiDescriptionLocalization, ApiNameLocalization, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Language } from '../domain/language';
 
-export interface Species extends ApiEntity {
-  id: number;
-  name: string;
+export interface Species extends NamedApiEntity {
   base_happiness: number;
   capture_rate: number;
   forms_switchable: boolean;
@@ -27,7 +25,7 @@ export interface Species extends ApiEntity {
     description: string;
     language: NamedApiResource;
   }[];
-  names: ApiName[];
+  names: ApiNameLocalization[];
   park_pal_encounters: {
     area: NamedApiResource;
     base_score: number;
@@ -48,40 +46,30 @@ export interface PokemonSpeciesGenera {
   language: NamedApiResource;
 }
 
-export interface EggGroup extends ApiEntity {
-  id: number;
-  name: string;
-  names: ApiName[];
+export interface EggGroup extends NamedApiEntity {
+  names: ApiNameLocalization[];
   pokemon_species: NamedApiResource<Species>[];
 }
 
-export interface GrowthRate extends ApiEntity {
-  id: number;
-  name: string;
+export interface GrowthRate extends NamedApiEntity {
   formula: string;
-  descriptions: ApiDescription[];
+  descriptions: ApiDescriptionLocalization[];
   levels: { level: number; experience: number }[];
   pokemon_species: NamedApiResource<Species>[];
 }
 
-export interface PokemonColor extends ApiEntity {
-  id: number;
-  name: string;
-  names: ApiName[];
+export interface PokemonColor extends NamedApiEntity {
+  names: ApiNameLocalization[];
   pokemon_species: NamedApiResource<Species>[];
 }
 
-export interface PokemonHabitat extends ApiEntity {
-  id: number;
-  name: string;
-  names: ApiName[];
+export interface PokemonHabitat extends NamedApiEntity {
+  names: ApiNameLocalization[];
   pokemon_species: NamedApiResource<Species>[];
 }
 
-export interface PokemonShape extends ApiEntity {
-  id: number;
-  name: string;
-  names: ApiName[];
+export interface PokemonShape extends NamedApiEntity {
+  names: ApiNameLocalization[];
   awesome_names: AwesomeName[];
   pokemon_species: NamedApiResource<Species>[];
 }

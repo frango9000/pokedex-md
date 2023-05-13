@@ -5,11 +5,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatSelectModule } from '@angular/material/select';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import { FormlyModule } from '@ngx-formly/core';
 import { appRoutes } from './app.routes';
 import { AppComponent } from './core/components/app.component';
 import { BottomBarComponent } from './core/components/bottom-bar.component';
@@ -33,10 +35,12 @@ import { NgLetModule } from './shared/modules/ng-let';
     MatListModule,
     MatCardModule,
     MatBottomSheetModule,
+    MatSelectModule,
     IsMobileModule,
     NgLetModule,
     HttpClientModule,
     TranslocoRootModule,
+    FormlyModule.forRoot(),
   ],
   providers: [InitializationProvider],
   bootstrap: [AppComponent],

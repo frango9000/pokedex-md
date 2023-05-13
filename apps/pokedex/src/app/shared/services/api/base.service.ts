@@ -1,16 +1,18 @@
 import { HttpClient } from '@angular/common/http';
+import { inject } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
-import { ApiEntity, ApiResourceList, NamedApiResource } from '@pokedex-md/domain';
+import { ApiResourceList, IdApiEntity, NamedApiResource } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable, of, switchMap } from 'rxjs';
 import { catchError, map, take, tap } from 'rxjs/operators';
-import { MergingMap } from '../utils/merge-map';
+import { MergingMap } from '../../utils/merge-map';
 
 const API_URL = 'https://pokeapi.co/api/v2';
 
-export abstract class BaseService<T extends ApiEntity, P extends ApiEntity> {
-  protected readonly resources$ = new BehaviorSubject<P[]>([]);
+export abstract class BaseService<T extends IdApiEntity = IdApiEntity, P extends IdApiEntity = IdApiEntity> {
+  private readonly _http: HttpClient = inject(HttpClient);
+  protected readonly resources$: BehaviorSubject<P[]> = new BehaviorSubject<P[]>([]);
 
-  protected constructor(protected readonly name: string, protected http: HttpClient) {}
+  abstract get name(): string;
 
   public initialize(): Observable<P[]> {
     return this._fetchAll().pipe(
@@ -28,28 +30,25 @@ export abstract class BaseService<T extends ApiEntity, P extends ApiEntity> {
   }
 
   public _fetchAll(): Observable<P[]> {
-    return this.http.get<P[]>(`assets/api/${this.name}.json`);
+    return this._http.get<P[]>(`assets/api/${this.name}.json`);
   }
 
   public fetchApiAll({ offset = 0, limit = 9999 } = {}): Observable<NamedApiResource<T>[]> {
-    return this.http
+    return this._http
       .get<ApiResourceList<NamedApiResource<T>>>(`${API_URL}/${this.name}`, { params: { offset, limit } })
       .pipe(map((value) => value.results));
   }
 
   public fetchApiOne(id: string | number): Observable<T> {
-    return this.http.get<T>(`${API_URL}/${this.name}/${id}`);
+    return this._http.get<T>(`${API_URL}/${this.name}/${id}`);
   }
 }
 
-export abstract class TranslatedService<T extends ApiEntity, P extends ApiEntity> extends BaseService<T, P> {
-  constructor(
-    protected override name: string,
-    protected override http: HttpClient,
-    protected translocoService: TranslocoService,
-  ) {
-    super(name, http);
-  }
+export abstract class TranslatedService<
+  T extends IdApiEntity = IdApiEntity,
+  P extends IdApiEntity = IdApiEntity,
+> extends BaseService<T, P> {
+  protected readonly translocoService: TranslocoService = inject(TranslocoService);
 
   protected abstract _parseAllTranslations(resources: P[]): Observable<MergingMap>;
 
@@ -77,14 +76,13 @@ export abstract class TranslatedService<T extends ApiEntity, P extends ApiEntity
           translations.forEach((translation, language) =>
             this.translocoService.setTranslation(translation, language, { merge: true }),
           );
-          console.log(this.translocoService.getTranslation());
         }),
       );
     };
   }
 }
 
-export abstract class SingleTranslatedService<T extends ApiEntity> extends TranslatedService<T, T> {
+export abstract class SingleTranslatedService<T extends IdApiEntity = IdApiEntity> extends TranslatedService<T> {
   public override fetchApiOne(id: string | number): Observable<T> {
     return super.fetchApiOne(id).pipe(switchMap((resource) => this._translateOne(resource)));
   }
@@ -98,7 +96,10 @@ export abstract class SingleTranslatedService<T extends ApiEntity> extends Trans
   }
 }
 
-export abstract class MultiTranslatedService<T extends ApiEntity, P extends ApiEntity> extends TranslatedService<T, P> {
+export abstract class MultiTranslatedService<
+  T extends IdApiEntity = IdApiEntity,
+  P extends IdApiEntity = IdApiEntity,
+> extends TranslatedService<T, P> {
   public override _fetchAll(): Observable<P[]> {
     return super._fetchAll().pipe(switchMap((resources) => this._translateAll(resources)));
   }
@@ -108,7 +109,10 @@ export abstract class MultiTranslatedService<T extends ApiEntity, P extends ApiE
   }
 }
 
-export abstract class FullyTranslatedService<T extends ApiEntity, P extends ApiEntity> extends TranslatedService<T, P> {
+export abstract class FullyTranslatedService<
+  T extends IdApiEntity = IdApiEntity,
+  P extends IdApiEntity = IdApiEntity,
+> extends TranslatedService<T, P> {
   public override fetchApiOne(id: string | number): Observable<T> {
     return super.fetchApiOne(id).pipe(switchMap((resource) => this._translateOne(resource)));
   }

@@ -6,8 +6,8 @@ import { UntilDestroy } from '@ngneat/until-destroy';
 import { PxPokemon } from '@pokedex-md/domain';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
-import { FilterService } from '../../../../shared/services/filter.service';
-import { PokemonService } from '../../../../shared/services/pokemon.service';
+import { FilterService } from '../../../../shared/modules/filter/filter.service';
+import { PokemonService } from '../../../../shared/services/api/pokemon.service';
 import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
 
 @UntilDestroy()

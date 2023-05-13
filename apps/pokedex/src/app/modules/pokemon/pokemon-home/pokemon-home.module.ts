@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FilterService } from '../../../shared/services/filter.service';
+import { FilterService } from '../../../shared/modules/filter/filter.service';
 
 const routes: Routes = [
   {
