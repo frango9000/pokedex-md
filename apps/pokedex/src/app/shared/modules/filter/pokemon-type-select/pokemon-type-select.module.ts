@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyMatFormFieldModule } from '@ngx-formly/material/form-field';
+import { TypeButtonComponent } from '../../../../modules/type/type-button/type-button.component';
 import { PokemonTypeSelectComponent } from './pokemon-type-select.component';
 
 @NgModule({
@@ -23,6 +24,8 @@ import { PokemonTypeSelectComponent } from './pokemon-type-select.component';
         },
       ],
     }),
+
+    TypeButtonComponent,
   ],
 })
 export class PokemonTypeSelectModule {}

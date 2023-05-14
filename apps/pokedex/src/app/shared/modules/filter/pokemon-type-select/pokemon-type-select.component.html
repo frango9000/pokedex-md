@@ -11,6 +11,6 @@
   [disableOptionCentering]="true"
 >
   <mat-option *ngFor="let type of service.getAll() | async" [value]="type.name">
-    {{ type.name }}
+    <pokedex-type-button [types]="[type.name]"></pokedex-type-button>
   </mat-option>
 </mat-select>

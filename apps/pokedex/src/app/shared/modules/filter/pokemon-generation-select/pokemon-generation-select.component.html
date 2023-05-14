@@ -9,8 +9,9 @@
   [errorStateMatcher]="errorStateMatcher"
   [aria-label]="'Select Pokemon Generations'"
   [disableOptionCentering]="true"
+  *transloco="let t"
 >
   <mat-option *ngFor="let generation of service.getAll() | async" [value]="generation.name">
-    {{ generation.name }}
+    {{ t('GENERATION.' + generation.name + '.NAME') }}
   </mat-option>
 </mat-select>

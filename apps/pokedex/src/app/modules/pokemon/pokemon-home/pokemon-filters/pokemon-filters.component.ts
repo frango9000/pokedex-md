@@ -64,11 +64,9 @@ export class PokemonFiltersComponent {
     },
   ];
 
-  constructor(private readonly filterService: FilterService<PxPokemon>) {
-    this.filterService.filters$.subscribe(console.log);
-  }
+  constructor(private readonly filterService: FilterService<PxPokemon>) {}
 
-  onChanges(filterModel: PokemonFilterModel) {
+  onChanges(filterModel: PokemonFilterModel): void {
     const { search, types, typesExclusiveness, generations } = filterModel;
     const filters: Filters<PxPokemon> = {};
     if (search) {
