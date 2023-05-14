@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 
 export class GenericDatasource<T> implements DataSource<T> {
   private readonly _resources$: BehaviorSubject<T[]> = new BehaviorSubject<T[]>([]);
-  private readonly _filters$: BehaviorSubject<Filter<T>[]> = new BehaviorSubject<Filter<T>[]>([]);
+  private readonly _filters$: BehaviorSubject<Filters<T>> = new BehaviorSubject<Filters<T>>({});
   private readonly _page$: BehaviorSubject<number> = new BehaviorSubject<number>(0);
   private readonly _pageSize: number = 40;
   private readonly _sort$: BehaviorSubject<Sort | null> = new BehaviorSubject<Sort | null>({
@@ -60,12 +60,12 @@ export class GenericDatasource<T> implements DataSource<T> {
     this._sort$.next(sort);
   }
 
-  get filters$(): Observable<Filter<T>[]> {
+  get filters$(): Observable<Filters<T>> {
     return this._filters$.asObservable();
   }
 
-  set filters(filters: Filter<T>[]) {
-    this._filters$.next(filters);
+  set filters(filter: Filters<T>) {
+    this._filters$.next(filter);
   }
 
   get page$(): Observable<number> {
@@ -77,52 +77,81 @@ export class GenericDatasource<T> implements DataSource<T> {
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  protected _filter(filters: Filter<T>[]): (resource: T) => boolean {
+  protected _filter(filters: Filters<T>): (resource: T) => boolean {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    return (item: T) => {
-      filters = filters.filter((filter) => filter.value !== undefined);
+    return (resource: T) => {
+      const exclusive = Object.keys(filters);
       return (
-        !filters.length ||
-        filters.some((filter) => {
-          const value = item[filter.property];
+        !exclusive.length ||
+        exclusive.every((key) => {
+          const inclusive = filters[key]?.filter((filter) => filter.value !== undefined);
+          return (
+            !inclusive?.length ||
+            inclusive.some((filter) => {
+              const actual = resource[filter.property];
+              switch (filter.type) {
+                case 'equal':
+                  return actual === filter.value;
 
-          switch (filter.type) {
-            case 'equal':
-              return value === filter.value;
+                case 'contains':
+                  return (
+                    (typeof actual === 'string' || Array.isArray(actual)) && actual.includes(filter.value as string)
+                  );
 
-            case 'contains':
-              return (typeof value === 'string' || Array.isArray(value)) && value.includes(filter.value as string);
+                case 'among':
+                  if (Array.isArray(actual) && Array.isArray(filter.value)) {
+                    return actual.every((item) => (filter.value as (string | number)[]).includes(item));
+                  } else if (typeof filter.value === 'string' || Array.isArray(filter.value)) {
+                    return filter.value.includes(actual as string);
+                  } else return false;
 
-            case 'among':
-              if (Array.isArray(value) && Array.isArray(filter.value)) {
-                return value.every((item) => (filter.value as (string | number)[]).includes(item));
-              } else if (typeof filter.value === 'string' || Array.isArray(filter.value)) {
-                return filter.value.includes(value as string);
-              } else return false;
+                case 'any-contains':
+                  return (
+                    Array.isArray(actual) &&
+                    !Array.isArray(filter.value) &&
+                    actual.some((v) => v.includes(filter.value))
+                  );
 
-            case 'any-contains':
-              return (
-                Array.isArray(value) && !Array.isArray(filter.value) && value.some((v) => v.includes(filter.value))
-              );
+                case 'contains-any':
+                  return (
+                    Array.isArray(actual) && Array.isArray(filter.value) && filter.value.some((v) => actual.includes(v))
+                  );
 
-            case 'contains-any':
-              return Array.isArray(value) && Array.isArray(filter.value) && filter.value.some((v) => value.includes(v));
+                case 'contains-all':
+                  return (
+                    Array.isArray(actual) &&
+                    Array.isArray(filter.value) &&
+                    filter.value.every((v) => actual.includes(v))
+                  );
 
-            case 'contains-all':
-              return (
-                Array.isArray(value) && Array.isArray(filter.value) && filter.value.every((v) => value.includes(v))
-              );
+                case 'greater-than':
+                  return !filter.value || filter.value < actual;
 
-            case 'in-range': {
-              const { start, end, inclusiveStart, inclusiveEnd } = filter.value as RangeFilterValue;
-              return (
-                (start === undefined || (inclusiveStart ? value >= start : value > start)) &&
-                (end === undefined || (inclusiveEnd ? value <= end : value < end))
-              );
-            }
-            default:
-              throw new Error(`Invalid filter type: ${filter.type}`);
-          }
+                case 'less-than':
+                  return !filter.value || filter.value > actual;
+
+                case 'greater-than-or-equal':
+                  return !filter.value || filter.value <= actual;
+
+                case 'less-than-or-equal':
+                  return !filter.value || filter.value >= actual;
+
+                case 'in-range': {
+                  const { start, end, inclusiveStart, inclusiveEnd } = filter.value as RangeFilterValue;
+                  return (
+                    (start === undefined || (inclusiveStart ? actual >= start : actual > start)) &&
+                    (end === undefined || (inclusiveEnd ? actual <= end : actual < end))
+                  );
+                }
+
+                case 'custom':
+                  return typeof filter.value !== 'function' || filter.value(resource);
+
+                default:
+                  throw new Error(`Invalid filter type: ${filter.type}`);
+              }
+            })
+          );
         })
       );
     };
@@ -151,7 +180,9 @@ export class GenericDatasource<T> implements DataSource<T> {
   }
 }
 
-export interface Filter<T> {
+export type Filters<T> = Record<string, PropFilter<T>[] | undefined>;
+
+export interface PropFilter<T> {
   type:
     | 'equal'
     | 'contains'
@@ -160,10 +191,13 @@ export interface Filter<T> {
     | 'contains-any'
     | 'contains-all'
     | 'greater-than'
+    | 'greater-than-or-equal'
     | 'less-than'
-    | 'in-range';
+    | 'less-than-or-equal'
+    | 'in-range'
+    | 'custom';
   property: keyof T;
-  value?: string | number | (string | number)[] | RangeFilterValue;
+  value?: string | number | (string | number)[] | RangeFilterValue | ((resource: T) => boolean);
 }
 
 export interface RangeFilterValue {

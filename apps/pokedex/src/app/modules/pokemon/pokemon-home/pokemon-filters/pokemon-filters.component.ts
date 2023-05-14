@@ -8,7 +8,7 @@ import { PxPokemon } from '@pokedex-md/domain';
 import { FilterService } from '../../../../shared/modules/filter/filter.service';
 import { PokemonGenerationSelectModule } from '../../../../shared/modules/filter/pokemon-generation-select/pokemon-generation-select.module';
 import { PokemonTypeSelectModule } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
-import { Filter } from '../../../../shared/utils/generic-datasource';
+import { Filters } from '../../../../shared/utils/generic-datasource';
 
 @Component({
   selector: 'pokedex-pokemon-filters',
@@ -70,32 +70,38 @@ export class PokemonFiltersComponent {
 
   onChanges(filterModel: PokemonFilterModel) {
     const { search, types, typesExclusiveness, generations } = filterModel;
-    const filters: Filter<PxPokemon>[] = [];
+    const filters: Filters<PxPokemon> = {};
     if (search) {
-      filters.push({
-        property: 'id',
-        type: 'contains',
-        value: search,
-      });
-      filters.push({
-        property: 'name',
-        type: 'contains',
-        value: search,
-      });
+      filters['search'] = [
+        {
+          property: 'name',
+          type: 'contains',
+          value: search,
+        },
+        {
+          property: 'id',
+          type: 'contains',
+          value: search,
+        },
+      ];
     }
     if (types?.length) {
-      filters.push({
-        property: 'types',
-        type: typesExclusiveness ? 'contains-all' : 'contains-any',
-        value: types,
-      });
+      filters['types'] = [
+        {
+          property: 'types',
+          type: typesExclusiveness ? 'contains-all' : 'contains-any',
+          value: types,
+        },
+      ];
     }
     if (generations?.length) {
-      filters.push({
-        property: 'generation',
-        type: 'among',
-        value: generations,
-      });
+      filters['generation'] = [
+        {
+          property: 'generation',
+          type: 'among',
+          value: generations,
+        },
+      ];
     }
     this.filterService.filters = filters;
   }

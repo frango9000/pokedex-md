@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { Filter } from '../../utils/generic-datasource';
+import { Filters } from '../../utils/generic-datasource';
 
 @Injectable()
 export class FilterService<T> {
-  private readonly _filters: BehaviorSubject<Filter<T>[]> = new BehaviorSubject<Filter<T>[]>([]);
+  private readonly _filters: BehaviorSubject<Filters<T>> = new BehaviorSubject<Filters<T>>({});
 
-  set filters(filters: Filter<T>[]) {
+  set filters(filters: Filters<T>) {
     this._filters.next(filters);
   }
 
-  get filters$(): Observable<Filter<T>[]> {
+  get filters$(): Observable<Filters<T>> {
     return this._filters.asObservable();
   }
 }
