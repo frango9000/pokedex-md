@@ -21,6 +21,10 @@ $pokedex-theme: mat.define-light-theme(
 html,
 body {
   height: 100%;
+
+  &.cdk-global-scrollblock {
+    overflow: hidden;
+  }
 }
 
 body {
@@ -30,6 +34,7 @@ body {
 
 .mat-bottom-sheet-container.mat-bottom-sheet-container {
   padding: 0;
+  min-width: unset;
 }
 
 .mat-icon {

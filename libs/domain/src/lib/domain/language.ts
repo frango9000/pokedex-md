@@ -9,5 +9,5 @@ export interface Language extends NamedApiEntity {
 
 export interface PxLanguage extends NamedApiEntity {
   iso3166: string;
-  names?: LocalizedNames;
+  names: LocalizedNames;
 }

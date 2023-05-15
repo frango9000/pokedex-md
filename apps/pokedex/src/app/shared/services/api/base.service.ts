@@ -12,7 +12,7 @@ export abstract class BaseService<T extends IdApiEntity = IdApiEntity, P extends
   private readonly _http: HttpClient = inject(HttpClient);
   protected readonly resources$: BehaviorSubject<P[]> = new BehaviorSubject<P[]>([]);
 
-  abstract get name(): string;
+  protected abstract get name(): string;
 
   public initialize(): Observable<P[]> {
     return this._fetchAll().pipe(

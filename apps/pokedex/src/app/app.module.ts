@@ -1,13 +1,5 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
-import { MatSelectModule } from '@angular/material/select';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
@@ -23,24 +15,20 @@ import { IsMobileModule } from './shared/modules/is-mobile';
 import { NgLetModule } from './shared/modules/ng-let';
 
 @NgModule({
-  declarations: [AppComponent, SidenavComponent, ToolbarComponent, BottomBarComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     BrowserAnimationsModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
-    MatCardModule,
-    MatBottomSheetModule,
-    MatSelectModule,
     IsMobileModule,
     NgLetModule,
     HttpClientModule,
     TranslocoRootModule,
     FormlyModule.forRoot(),
+
+    SidenavComponent,
+    ToolbarComponent,
+    BottomBarComponent,
   ],
   providers: [InitializationProvider],
   bootstrap: [AppComponent],
