@@ -1,6 +1,7 @@
 import { DataSource } from '@angular/cdk/collections';
 import { Sort } from '@angular/material/sort';
 import { untilDestroyed } from '@ngneat/until-destroy';
+import { LocalizedNames } from '@pokedex-md/domain';
 import { BehaviorSubject, combineLatestWith, Observable, shareReplay } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -94,9 +95,9 @@ export class GenericDatasource<T> implements DataSource<T> {
                   return actual === filter.value;
 
                 case 'contains':
-                  return (
-                    (typeof actual === 'string' || Array.isArray(actual)) && actual.includes(filter.value as string)
-                  );
+                  return Array.isArray(actual)
+                    ? actual.includes(filter.value)
+                    : String(actual).toLowerCase().includes(String(filter.value).toLowerCase());
 
                 case 'among':
                   if (Array.isArray(actual) && Array.isArray(filter.value)) {
@@ -137,15 +138,24 @@ export class GenericDatasource<T> implements DataSource<T> {
                   return !filter.value || filter.value >= actual;
 
                 case 'in-range': {
-                  const { start, end, inclusiveStart, inclusiveEnd } = filter.value as RangeFilterValue;
+                  if (!filter.range) return true;
+                  const { start, end, inclusiveStart, inclusiveEnd } = filter.range;
                   return (
                     (start === undefined || (inclusiveStart ? actual >= start : actual > start)) &&
                     (end === undefined || (inclusiveEnd ? actual <= end : actual < end))
                   );
                 }
 
+                case 'localized-contains':
+                  return (
+                    !filter.locale ||
+                    String((actual as LocalizedNames)[filter.locale])
+                      .toLowerCase()
+                      .includes(String(filter.value).toLowerCase())
+                  );
+
                 case 'custom':
-                  return typeof filter.value !== 'function' || filter.value(resource);
+                  return typeof filter.filterFn !== 'function' || filter.filterFn(resource);
 
                 default:
                   throw new Error(`Invalid filter type: ${filter.type}`);
@@ -195,9 +205,13 @@ export interface PropFilter<T> {
     | 'less-than'
     | 'less-than-or-equal'
     | 'in-range'
+    | 'localized-contains'
     | 'custom';
   property: keyof T;
-  value?: string | number | (string | number)[] | RangeFilterValue | ((resource: T) => boolean);
+  value?: string | number | (string | number)[];
+  range?: RangeFilterValue;
+  locale?: string;
+  filterFn?: (resource: T) => boolean;
 }
 
 export interface RangeFilterValue {

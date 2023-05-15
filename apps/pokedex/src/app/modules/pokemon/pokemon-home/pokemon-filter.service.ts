@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
+import { TranslocoService } from '@ngneat/transloco';
 import { PxPokemon } from '@pokedex-md/domain';
 import { distinctUntilChanged, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -7,6 +8,8 @@ import { Filters } from '../../../shared/utils/generic-datasource';
 
 @Injectable()
 export class PokemonFilterService extends FilterService<PxPokemon, PokemonFilterModel> {
+  private readonly translocoService: TranslocoService = inject(TranslocoService);
+
   override get filters$(): Observable<Filters<PxPokemon>> {
     return super.filterModel$.pipe(
       distinctUntilChanged(),
@@ -16,9 +19,10 @@ export class PokemonFilterService extends FilterService<PxPokemon, PokemonFilter
         if (search) {
           filters['search'] = [
             {
-              property: 'name',
-              type: 'contains',
+              property: 'names',
+              type: 'localized-contains',
               value: search,
+              locale: this.translocoService.getActiveLang(),
             },
             {
               property: 'id',
