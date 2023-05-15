@@ -4,11 +4,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormlyFieldConfig, FormlyModule } from '@ngx-formly/core';
 import { FormlyMaterialModule } from '@ngx-formly/material';
 import { FormlyMatToggleModule } from '@ngx-formly/material/toggle';
-import { PxPokemon } from '@pokedex-md/domain';
-import { FilterService } from '../../../../shared/modules/filter/filter.service';
 import { PokemonGenerationSelectModule } from '../../../../shared/modules/filter/pokemon-generation-select/pokemon-generation-select.module';
 import { PokemonTypeSelectModule } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
-import { Filters } from '../../../../shared/utils/generic-datasource';
+import { PokemonFilterModel, PokemonFilterService } from '../pokemon-filter.service';
 
 @Component({
   selector: 'pokedex-pokemon-filters',
@@ -64,50 +62,5 @@ export class PokemonFiltersComponent {
     },
   ];
 
-  constructor(private readonly filterService: FilterService<PxPokemon>) {}
-
-  onChanges(filterModel: PokemonFilterModel): void {
-    const { search, types, typesExclusiveness, generations } = filterModel;
-    const filters: Filters<PxPokemon> = {};
-    if (search) {
-      filters['search'] = [
-        {
-          property: 'name',
-          type: 'contains',
-          value: search,
-        },
-        {
-          property: 'id',
-          type: 'contains',
-          value: search,
-        },
-      ];
-    }
-    if (types?.length) {
-      filters['types'] = [
-        {
-          property: 'types',
-          type: typesExclusiveness ? 'contains-all' : 'contains-any',
-          value: types,
-        },
-      ];
-    }
-    if (generations?.length) {
-      filters['generation'] = [
-        {
-          property: 'generation',
-          type: 'among',
-          value: generations,
-        },
-      ];
-    }
-    this.filterService.filters = filters;
-  }
-}
-
-interface PokemonFilterModel {
-  search?: string;
-  types?: string[];
-  typesExclusiveness?: boolean;
-  generations?: string[];
+  constructor(protected readonly filterService: PokemonFilterService) {}
 }

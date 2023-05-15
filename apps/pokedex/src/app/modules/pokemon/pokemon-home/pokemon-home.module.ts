@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FilterService } from '../../../shared/modules/filter/filter.service';
+import { PokemonFilterService } from './pokemon-filter.service';
 
 const routes: Routes = [
   {
@@ -16,8 +16,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [],
   imports: [CommonModule, RouterModule.forChild(routes)],
-  providers: [FilterService],
+  providers: [PokemonFilterService],
 })
 export class PokemonHomeModule {}
