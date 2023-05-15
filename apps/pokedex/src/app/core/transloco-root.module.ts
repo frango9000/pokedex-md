@@ -1,5 +1,6 @@
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Injectable, isDevMode, NgModule } from '@angular/core';
+import { Inject, Injectable, isDevMode, NgModule } from '@angular/core';
 import {
   Translation,
   TRANSLOCO_CONFIG,
@@ -11,10 +12,10 @@ import {
 
 @Injectable({ providedIn: 'root' })
 export class TranslocoHttpLoader implements TranslocoLoader {
-  constructor(private readonly http: HttpClient) {}
+  constructor(private readonly http: HttpClient, @Inject(APP_BASE_HREF) private readonly baseHref: string) {}
 
   getTranslation(lang: string) {
-    return this.http.get<Translation>(`/assets/i18n/${lang}.json`);
+    return this.http.get<Translation>(this.baseHref + `assets/i18n/${lang}.json`);
   }
 }
 
@@ -37,6 +38,11 @@ export class TranslocoHttpLoader implements TranslocoLoader {
       }),
     },
     { provide: TRANSLOCO_LOADER, useClass: TranslocoHttpLoader },
+    {
+      provide: APP_BASE_HREF,
+      useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),
+      deps: [PlatformLocation],
+    },
   ],
 })
 export class TranslocoRootModule {}
