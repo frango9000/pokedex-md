@@ -1,7 +1,10 @@
 <div class="bottom-bar-header">
+  <button mat-icon-button aria-label="Clear" (click)="bottomBarService.clear()" [matTooltip]="'Clear'">
+    <mat-icon class="material-icons-outlined">backspace</mat-icon>
+  </button>
   <span>FILTERS</span>
-  <button mat-icon-button color="primary" aria-label="Close Bottom Bar" (click)="_bottomSheetRef.dismiss()">
-    <mat-icon>close</mat-icon>
+  <button mat-icon-button aria-label="Hide Bottom Bar" (click)="bottomSheetRef.dismiss()" [matTooltip]="'Close'">
+    <mat-icon>keyboard_double_arrow_down</mat-icon>
   </button>
 </div>
 <mat-divider></mat-divider>

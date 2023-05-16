@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { MatBottomSheet, MatBottomSheetRef } from '@angular/material/bottom-sheet';
 import { ActivatedRouteSnapshot, NavigationEnd, Router } from '@angular/router';
-import { BehaviorSubject, combineLatest, distinctUntilChanged, filter, Observable, Subscription } from 'rxjs';
+import { BehaviorSubject, combineLatest, distinctUntilChanged, filter, Observable, Subject, Subscription } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { BottomBarComponent } from '../components/bottom-bar.component';
 
@@ -14,6 +14,7 @@ export class BottomBarService {
 
   private _bottomBar?: MatBottomSheetRef<BottomBarComponent>;
   private _dismissalSubscription?: Subscription;
+  private readonly _onClear$: Subject<void> = new Subject<void>();
 
   constructor(private readonly _bottomSheet: MatBottomSheet, private readonly _router: Router) {
     this._router.events
@@ -47,6 +48,14 @@ export class BottomBarService {
 
   get isActive$(): Observable<boolean> {
     return this._isActive$.asObservable();
+  }
+
+  get onClear$(): Observable<void> {
+    return this._onClear$.asObservable();
+  }
+
+  clear(): void {
+    this._onClear$.next();
   }
 
   private _isBottomBarConfigured(route: ActivatedRouteSnapshot): boolean {
