@@ -1,0 +1,12 @@
+<button
+  *ngIf="bottomBarService.isActive$ | async"
+  class="bottom-bar-fab"
+  mat-fab
+  color="primary"
+  aria-label="Open Bottom Bar"
+  (click)="bottomBarService.toggle()"
+>
+  <mat-icon
+  >{{ (bottomBarService.isOpen$ | async) ? 'keyboard_double_arrow_down' : 'keyboard_double_arrow_up' }}
+  </mat-icon>
+</button>

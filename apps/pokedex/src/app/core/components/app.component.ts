@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BottomBarService } from '../services/bottom-bar.service';
 import { SidebarService } from '../services/sidebar.service';
 
 @Component({
@@ -7,5 +8,5 @@ import { SidebarService } from '../services/sidebar.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor(protected readonly sidebarService: SidebarService) {}
+  constructor(protected readonly sidebarService: SidebarService, private readonly bottomBarService: BottomBarService) {}
 }

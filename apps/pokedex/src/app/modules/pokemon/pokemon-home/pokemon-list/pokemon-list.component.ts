@@ -8,6 +8,7 @@ import { UntilDestroy } from '@ngneat/until-destroy';
 import { PxPokemon } from '@pokedex-md/domain';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
+import { BottomBarFabComponent } from '../../../../shared/components/bottom-bar-fab/bottom-bar-fab.component';
 import { PokemonService } from '../../../../shared/services/api/pokemon.service';
 import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
 import { TypeButtonComponent } from '../../../type/type-button/type-button.component';
@@ -26,6 +27,8 @@ import { PokemonFilterService } from '../pokemon-filter.service';
     TypeButtonComponent,
     TranslocoModule,
     MatCardModule,
+    BottomBarFabComponent,
+    BottomBarFabComponent,
   ],
   templateUrl: './pokemon-list.component.html',
   styleUrls: ['./pokemon-list.component.scss'],

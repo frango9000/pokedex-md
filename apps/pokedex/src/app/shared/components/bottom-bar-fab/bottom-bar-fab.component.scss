@@ -1,0 +1,7 @@
+:host {
+  width: 56px;
+  position: sticky;
+  left: calc(100% - 56px - 16px);
+  bottom: 16px;
+  z-index: 1;
+}

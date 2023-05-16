@@ -4,6 +4,7 @@ import { ActivatedRouteSnapshot, NavigationEnd, Router } from '@angular/router';
 import { BehaviorSubject, combineLatest, distinctUntilChanged, filter, Observable, Subject, Subscription } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { BottomBarComponent } from '../components/bottom-bar.component';
+import { SidebarService } from './sidebar.service';
 
 @Injectable({
   providedIn: 'root',
@@ -16,7 +17,11 @@ export class BottomBarService {
   private _dismissalSubscription?: Subscription;
   private readonly _onClear$: Subject<void> = new Subject<void>();
 
-  constructor(private readonly _bottomSheet: MatBottomSheet, private readonly _router: Router) {
+  constructor(
+    private readonly _bottomSheet: MatBottomSheet,
+    private readonly _router: Router,
+    protected readonly sidebarService: SidebarService,
+  ) {
     this._router.events
       .pipe(
         filter((event) => event instanceof NavigationEnd),
@@ -24,9 +29,19 @@ export class BottomBarService {
         distinctUntilChanged(),
       )
       .subscribe((isActive: boolean) => this._isActive$.next(isActive));
+
+    this.sidebarService.isOpen$.pipe(filter((isOpen) => isOpen)).subscribe(() => this.close());
   }
 
-  public toggle(): MatBottomSheetRef<BottomBarComponent> | undefined {
+  public toggle(): void {
+    if (!this._bottomBar) {
+      this.open();
+    } else {
+      this.close();
+    }
+  }
+
+  public open(): void {
     if (!this._bottomBar) {
       this._bottomBar = this._bottomSheet.open(BottomBarComponent, { hasBackdrop: false });
       this._dismissalSubscription?.unsubscribe();
@@ -34,16 +49,23 @@ export class BottomBarService {
         this._bottomBar = undefined;
         this._isOpen$.next(false);
       });
-    } else {
+    }
+    this._isOpen$.next(!!this._bottomBar);
+  }
+
+  public close(): void {
+    if (this._bottomBar) {
       this._bottomBar.dismiss();
       this._bottomBar = undefined;
     }
     this._isOpen$.next(!!this._bottomBar);
-    return this._bottomBar;
   }
 
   get isOpen$(): Observable<boolean> {
-    return combineLatest([this._isOpen$, this._isActive$]).pipe(map(([isOpen, isActive]) => isOpen && isActive));
+    return combineLatest([this._isOpen$, this._isActive$]).pipe(
+      map(([isOpen, isActive]) => isOpen && isActive),
+      distinctUntilChanged(),
+    );
   }
 
   get isActive$(): Observable<boolean> {
