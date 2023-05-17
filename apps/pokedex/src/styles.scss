@@ -13,10 +13,25 @@ $pokedex-theme: mat.define-light-theme(
       accent: $pokedex-accent,
       warn: $pokedex-warn,
     ),
+    typography: mat.define-typography-config(),
+  )
+);
+
+$pokedex-dark-theme: mat.define-dark-theme(
+  (
+    color: (
+      primary: $pokedex-primary,
+      accent: $pokedex-accent,
+      warn: $pokedex-warn,
+    ),
   )
 );
 
 @include mat.all-component-themes($pokedex-theme);
+
+.dark-mode {
+  @include mat.all-component-colors($pokedex-dark-theme);
+}
 
 html,
 body {

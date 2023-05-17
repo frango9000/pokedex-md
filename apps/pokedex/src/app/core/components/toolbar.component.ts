@@ -8,6 +8,7 @@ import { IsMobileModule } from '../../shared/modules/is-mobile';
 import { SidebarService } from '../services/sidebar.service';
 import { SidenavService } from '../services/sidenav.service';
 import { LanguagePickerComponent } from './language-picker.component';
+import { ThemePickerComponent } from './theme-picker.component';
 
 @Component({
   selector: 'pokedex-toolbar',
@@ -20,6 +21,7 @@ import { LanguagePickerComponent } from './language-picker.component';
     TranslocoModule,
     IsMobileModule,
     LanguagePickerComponent,
+    ThemePickerComponent,
   ],
   templateUrl: './toolbar.component.html',
   styleUrls: ['./toolbar.component.scss'],
