@@ -1,7 +1,8 @@
 import { ChangeDetectorRef, Directive, HostBinding, inject } from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { IsMobileService } from '../is-mobile.service';
 
+@UntilDestroy()
 // eslint-disable-next-line @angular-eslint/directive-selector
 @Directive({ selector: '[isMobileClass]' })
 export class IsMobileClassDirective {
@@ -10,7 +11,7 @@ export class IsMobileClassDirective {
   @HostBinding('class.mobile') private isMobile = false;
 
   constructor() {
-    this.isMobileService.isMobile$.pipe(takeUntilDestroyed()).subscribe((isMobile) => {
+    this.isMobileService.isMobile$.pipe(untilDestroyed(this)).subscribe((isMobile) => {
       this.isMobile = isMobile;
       this.cdr.markForCheck();
     });

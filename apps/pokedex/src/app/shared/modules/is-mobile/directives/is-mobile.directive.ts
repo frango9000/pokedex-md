@@ -1,5 +1,5 @@
 import { Directive, EmbeddedViewRef, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { IsMobileService } from '../is-mobile.service';
 
 interface IsMobileContext {
@@ -7,6 +7,7 @@ interface IsMobileContext {
   $implicit: boolean;
 }
 
+@UntilDestroy()
 // eslint-disable-next-line @angular-eslint/directive-selector
 @Directive({ selector: '[isMobile]' })
 export class IsMobileDirective implements OnInit {
@@ -21,7 +22,7 @@ export class IsMobileDirective implements OnInit {
 
   ngOnInit(): void {
     this.embeddedViewRef = this.viewContainer.createEmbeddedView(this.templateRef, this.context);
-    this.isMobileService.isMobile$.pipe(takeUntilDestroyed()).subscribe((isMobile) => {
+    this.isMobileService.isMobile$.pipe(untilDestroyed(this)).subscribe((isMobile) => {
       this.context.$implicit = this.context.isMobile = isMobile;
       this.embeddedViewRef?.rootNodes?.forEach((node) => node.classList?.toggle('mobile', isMobile));
       this.embeddedViewRef?.markForCheck();

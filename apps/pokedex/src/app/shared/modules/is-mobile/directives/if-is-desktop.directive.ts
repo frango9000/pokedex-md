@@ -1,7 +1,8 @@
 import { Directive, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { IsMobileService } from '../is-mobile.service';
 
+@UntilDestroy()
 // eslint-disable-next-line @angular-eslint/directive-selector
 @Directive({ selector: '[ifIsDesktop]' })
 export class IfIsDesktopDirective implements OnInit {
@@ -12,7 +13,7 @@ export class IfIsDesktopDirective implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.isMobileService.isDesktop$.pipe(takeUntilDestroyed()).subscribe((isDesktop) => {
+    this.isMobileService.isDesktop$.pipe(untilDestroyed(this)).subscribe((isDesktop) => {
       if (isDesktop && !this.viewContainer.length) {
         this.viewContainer.createEmbeddedView(this.templateRef);
       } else {

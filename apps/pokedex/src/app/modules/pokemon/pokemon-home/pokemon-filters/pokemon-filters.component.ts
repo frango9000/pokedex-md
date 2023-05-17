@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { FormlyFieldConfig, FormlyModule } from '@ngx-formly/core';
 import { FormlyMaterialModule } from '@ngx-formly/material';
 import { FormlyMatToggleModule } from '@ngx-formly/material/toggle';
@@ -10,6 +10,7 @@ import { PokemonGenerationSelectModule } from '../../../../shared/modules/filter
 import { PokemonTypeSelectModule } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
 import { PokemonFilterModel, PokemonFilterService } from '../pokemon-filter.service';
 
+@UntilDestroy()
 @Component({
   selector: 'pokedex-pokemon-filters',
   standalone: true,
@@ -68,7 +69,7 @@ export class PokemonFiltersComponent {
     protected readonly filterService: PokemonFilterService,
     protected readonly bottomBarService: BottomBarService,
   ) {
-    this.bottomBarService.onClear$.pipe(takeUntilDestroyed()).subscribe(() => {
+    this.bottomBarService.onClear$.pipe(untilDestroyed(this)).subscribe(() => {
       this.model = {};
       this.filterService.filterModel = this.model;
     });
