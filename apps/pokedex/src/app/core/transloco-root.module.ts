@@ -15,7 +15,7 @@ export class TranslocoHttpLoader implements TranslocoLoader {
   constructor(private readonly http: HttpClient, @Inject(APP_BASE_HREF) private readonly baseHref: string) {}
 
   getTranslation(lang: string) {
-    return this.http.get<Translation>(this.baseHref + `assets/i18n/${lang}.json`);
+    return this.http.get<Translation>(`${this.baseHref}assets/i18n/${lang}.json`);
   }
 }
 
@@ -32,7 +32,6 @@ export class TranslocoHttpLoader implements TranslocoLoader {
           logMissingKey: false,
           useFallbackTranslation: true,
         },
-        // Remove this option if your application doesn't support changing language in runtime.
         reRenderOnLangChange: true,
         prodMode: !isDevMode(),
       }),
