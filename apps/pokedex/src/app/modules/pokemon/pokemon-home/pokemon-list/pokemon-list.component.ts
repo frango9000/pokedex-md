@@ -1,10 +1,10 @@
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { TranslocoModule } from '@ngneat/transloco';
-import { UntilDestroy } from '@ngneat/until-destroy';
 import { PxPokemon } from '@pokedex-md/domain';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
@@ -14,7 +14,6 @@ import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
 import { TypeButtonComponent } from '../../../type/type-button/type-button.component';
 import { PokemonFilterService } from '../pokemon-filter.service';
 
-@UntilDestroy()
 @Component({
   selector: 'pokedex-pokemon-list',
   standalone: true,
@@ -43,6 +42,6 @@ export class PokemonListComponent {
       .getAll()
       .pipe(take(1))
       .subscribe((data) => (this.dataSource.resources = data));
-    this.filterService.filters$.subscribe((filters) => (this.dataSource.filters = filters));
+    this.filterService.filters$.pipe(takeUntilDestroyed()).subscribe((filters) => (this.dataSource.filters = filters));
   }
 }
