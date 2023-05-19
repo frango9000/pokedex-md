@@ -28,7 +28,6 @@ import { PokemonFilterService } from '../pokemon-filter.service';
     TranslocoModule,
     MatCardModule,
     BottomBarFabComponent,
-    BottomBarFabComponent,
   ],
   templateUrl: './pokemon-list.component.html',
   styleUrls: ['./pokemon-list.component.scss'],
