@@ -1,5 +1,10 @@
 <ng-container *transloco="let t">
-  <button mat-flat-button *ngFor="let type of types" [style.background-color]="type | typeColor">
+  <button
+    mat-flat-button
+    *ngFor="let type of types"
+    [style.background-color]="type | typeColor"
+    (click)="typeDetailService.openDialog()"
+  >
     <b> {{ t('TYPE.' + type + '.NAME') | uppercase }} </b>
   </button>
 </ng-container>
