@@ -15,31 +15,35 @@ export abstract class BaseService<T extends IdApiEntity = IdApiEntity, P extends
   protected abstract get name(): string;
 
   public initialize(): Observable<P[]> {
-    return this._fetchAll().pipe(
+    return this._fetchAll$().pipe(
       catchError(() => of([])),
       tap((resources) => this.resources$.next(resources)),
     );
   }
 
-  public getAll(): Observable<P[]> {
+  public getAll$(): Observable<P[]> {
     return this.resources$.asObservable();
   }
 
-  public getAllIds$(): Observable<number[]> {
-    return this.getAll().pipe(map((resources) => resources.map((resource) => resource.id)));
+  public getAll(): P[] {
+    return this.resources$.getValue();
   }
 
-  public _fetchAll(): Observable<P[]> {
+  public getAllIds$(): Observable<number[]> {
+    return this.getAll$().pipe(map((resources) => resources.map((resource) => resource.id)));
+  }
+
+  public _fetchAll$(): Observable<P[]> {
     return this._http.get<P[]>(`assets/api/${this.name}.json`);
   }
 
-  public fetchApiAll({ offset = 0, limit = 9999 } = {}): Observable<NamedApiResource<T>[]> {
+  public fetchApiAll$({ offset = 0, limit = 9999 } = {}): Observable<NamedApiResource<T>[]> {
     return this._http
       .get<ApiResourceList<NamedApiResource<T>>>(`${API_URL}/${this.name}`, { params: { offset, limit } })
       .pipe(map((value) => value.results));
   }
 
-  public fetchApiOne(id: string | number): Observable<T> {
+  public fetchApiOne$(id: string | number): Observable<T> {
     return this._http.get<T>(`${API_URL}/${this.name}/${id}`);
   }
 }
@@ -83,11 +87,11 @@ export abstract class TranslatedService<
 }
 
 export abstract class SingleTranslatedService<T extends IdApiEntity = IdApiEntity> extends TranslatedService<T> {
-  public override fetchApiOne(id: string | number): Observable<T> {
-    return super.fetchApiOne(id).pipe(switchMap((resource) => this._translateOne(resource)));
+  public override fetchApiOne$(id: string | number): Observable<T> {
+    return super.fetchApiOne$(id).pipe(switchMap((resource) => this._translateOne(resource)));
   }
 
-  public override _fetchAll(): Observable<T[]> {
+  public override _fetchAll$(): Observable<T[]> {
     return of([]);
   }
 
@@ -100,8 +104,8 @@ export abstract class MultiTranslatedService<
   T extends IdApiEntity = IdApiEntity,
   P extends IdApiEntity = IdApiEntity,
 > extends TranslatedService<T, P> {
-  public override _fetchAll(): Observable<P[]> {
-    return super._fetchAll().pipe(switchMap((resources) => this._translateAll(resources)));
+  public override _fetchAll$(): Observable<P[]> {
+    return super._fetchAll$().pipe(switchMap((resources) => this._translateAll(resources)));
   }
 
   protected override _parseOneTranslation(): Observable<MergingMap> {
@@ -113,11 +117,11 @@ export abstract class FullyTranslatedService<
   T extends IdApiEntity = IdApiEntity,
   P extends IdApiEntity = IdApiEntity,
 > extends TranslatedService<T, P> {
-  public override fetchApiOne(id: string | number): Observable<T> {
-    return super.fetchApiOne(id).pipe(switchMap((resource) => this._translateOne(resource)));
+  public override fetchApiOne$(id: string | number): Observable<T> {
+    return super.fetchApiOne$(id).pipe(switchMap((resource) => this._translateOne(resource)));
   }
 
-  public override _fetchAll(): Observable<P[]> {
-    return super._fetchAll().pipe(switchMap((resources) => this._translateAll(resources)));
+  public override _fetchAll$(): Observable<P[]> {
+    return super._fetchAll$().pipe(switchMap((resources) => this._translateAll(resources)));
   }
 }

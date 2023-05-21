@@ -7,18 +7,16 @@ import { MultiTranslatedService } from './base.service';
 @Injectable({
   providedIn: 'root',
 })
-export class PokemonTypeService extends MultiTranslatedService<PokemonType, PxType> {
+export class TypeService extends MultiTranslatedService<PokemonType, PxType> {
   override get name(): string {
     return 'type';
   }
 
   protected _parseAllTranslations(resources: PxType[]): Observable<MergingMap> {
     return of(
-      MergingMap.ofMultipleResources(resources, 'names', (type, localized) => {
-        return {
-          TYPE: { [type.name]: { NAME: localized } },
-        };
-      }),
+      MergingMap.ofMultipleResources(resources, 'names', (type, localized) => ({
+        TYPE: { [type.name]: { NAME: localized } },
+      })),
     );
   }
 }

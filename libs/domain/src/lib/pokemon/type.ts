@@ -1,19 +1,19 @@
 import { ApiNameLocalization, LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 
 export interface PxTypeDamageRelations {
-  double_damage_from?: string[];
-  double_damage_to?: string[];
-  half_damage_from?: string[];
-  half_damage_to?: string[];
-  no_damage_from?: string[];
-  no_damage_to?: string[];
+  double_damage_from: string[];
+  double_damage_to: string[];
+  half_damage_from: string[];
+  half_damage_to: string[];
+  no_damage_from: string[];
+  no_damage_to: string[];
 }
 
 export interface PxType extends NamedApiEntity {
   names: LocalizedNames;
   generation: string;
   move_damage_class: string;
-  damage_relations?: PxTypeDamageRelations;
+  damage_relations: PxTypeDamageRelations;
 }
 
 export interface PokemonType extends NamedApiEntity {

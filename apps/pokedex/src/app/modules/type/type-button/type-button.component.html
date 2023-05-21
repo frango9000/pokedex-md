@@ -1,10 +1,18 @@
 <ng-container *transloco="let t">
-  <button
-    mat-flat-button
-    *ngFor="let type of types"
-    [style.background-color]="type | typeColor"
-    (click)="typeDetailService.openDialog()"
+  <span
+    matRipple
+    class="types-container"
+    [class.multi-type]="types.length > 1"
+    (click)="typeDetailService.openTypesDialog(types)"
   >
-    <b> {{ t('TYPE.' + type + '.NAME') | uppercase }} </b>
-  </button>
+    <button mat-flat-button class="type-1" *ngIf="types?.[0] as type1" [style.background-color]="type1 | typeColor">
+      <b> {{ t('TYPE.' + type1 + '.NAME') | uppercase }} </b>
+    </button>
+    <ng-container *ngIf="types?.[1] as type2">
+      <mat-icon [style.background-color]="types[0] | typeColor : types[1]">merge</mat-icon>
+      <button mat-flat-button class="type-2" [style.background-color]="type2 | typeColor">
+        <b> {{ t('TYPE.' + type2 + '.NAME') | uppercase }} </b>
+      </button>
+    </ng-container>
+  </span>
 </ng-container>

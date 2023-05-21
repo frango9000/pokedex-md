@@ -16,7 +16,7 @@
 <mat-menu #menu="matMenu">
   <button
     mat-menu-item
-    *ngFor="let language of languageService.getAll() | async"
+    *ngFor="let language of languageService.getAll$() | async"
     (click)="languageService.activeLanguage = language.name"
   >
     <img

@@ -39,7 +39,7 @@ export class PokemonListComponent {
 
   constructor(private readonly pokemonService: PokemonService, private readonly filterService: PokemonFilterService) {
     this.pokemonService
-      .getAll()
+      .getAll$()
       .pipe(take(1))
       .subscribe((data) => (this.dataSource.resources = data));
     this.filterService.filters$.subscribe((filters) => (this.dataSource.filters = filters));

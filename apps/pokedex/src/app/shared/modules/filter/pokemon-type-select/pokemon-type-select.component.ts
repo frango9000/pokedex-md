@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject, Type } from '@angular/core';
 import { FieldTypeConfig, FormlyFieldConfig } from '@ngx-formly/core';
 import { FieldType, FormlyFieldProps } from '@ngx-formly/material/form-field';
-import { PokemonTypeService } from '../../../services/api/pokemon-type.service';
+import { TypeService } from '../../../services/api/type.service';
 
 export interface PokemonTypeSelectFieldConfig extends FormlyFieldConfig<FormlyFieldProps> {
   type: 'pokemon-type-select' | Type<PokemonTypeSelectComponent>;
@@ -14,5 +14,5 @@ export interface PokemonTypeSelectFieldConfig extends FormlyFieldConfig<FormlyFi
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PokemonTypeSelectComponent extends FieldType<FieldTypeConfig<FormlyFieldProps>> {
-  protected readonly service: PokemonTypeService = inject(PokemonTypeService);
+  protected readonly service: TypeService = inject(TypeService);
 }

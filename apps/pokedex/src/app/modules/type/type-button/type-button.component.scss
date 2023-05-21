@@ -1,8 +1,29 @@
 :host {
-  .mdc-button {
-    padding-left: 6px;
-    padding-right: 6px;
-    height: 24px;
-    min-width: 24px;
+  span.mat-mdc-button-ripple {
+    display: none;
+  }
+
+  .types-container {
+    display: inline-flex;
+    cursor: pointer;
+
+    .mdc-button {
+      padding-left: 6px;
+      padding-right: 6px;
+      height: 24px;
+      min-width: 24px;
+    }
+
+    &.multi-type {
+      .type-1 {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+
+      .type-2 {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+      }
+    }
   }
 }

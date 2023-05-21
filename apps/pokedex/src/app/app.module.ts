@@ -1,5 +1,6 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { MatDialogModule } from '@angular/material/dialog';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
@@ -25,7 +26,7 @@ import { NgLetModule } from './shared/modules/ng-let';
     HttpClientModule,
     TranslocoRootModule,
     FormlyModule.forRoot(),
-
+    MatDialogModule,
     SidenavComponent,
     ToolbarComponent,
     BottomBarComponent,

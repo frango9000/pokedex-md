@@ -1,1 +1,17 @@
-<p>type-detail works!</p>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      <button mat-icon-button aria-label="Type Title">
+        <mat-icon>title</mat-icon>
+      </button>
+      Type
+      <button mat-icon-button aria-label="Close">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-divider></mat-divider>
+  <mat-card-content>
+    <pokedex-type-damages [types]="data"></pokedex-type-damages>
+  </mat-card-content>
+</mat-card>

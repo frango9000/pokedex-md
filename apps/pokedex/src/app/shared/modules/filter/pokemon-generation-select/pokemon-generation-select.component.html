@@ -11,7 +11,7 @@
   [disableOptionCentering]="true"
   *transloco="let t"
 >
-  <mat-option *ngFor="let generation of service.getAll() | async" [value]="generation.name">
+  <mat-option *ngFor="let generation of service.getAll$() | async" [value]="generation.name">
     {{ t('GENERATION.' + generation.name + '.NAME') }}
   </mat-option>
 </mat-select>
