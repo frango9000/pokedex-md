@@ -1,0 +1,19 @@
+pokedex-type-detail {
+  .mat-mdc-card-header {
+    padding: 4px;
+
+    .mat-mdc-card-header-text {
+      width: 100%;
+
+      .mat-mdc-card-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title-icon {
+          padding: 12px;
+        }
+      }
+    }
+  }
+}

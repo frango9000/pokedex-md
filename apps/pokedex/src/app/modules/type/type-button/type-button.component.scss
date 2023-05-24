@@ -25,5 +25,21 @@
         border-top-left-radius: 0;
       }
     }
+
+    &:not(.clickable) {
+      .type-1,
+      .type-merge,
+      .type-2 {
+        cursor: default;
+      }
+    }
+
+    &.full-width {
+      width: 100%;
+
+      .mdc-button {
+        width: 100%;
+      }
+    }
   }
 }

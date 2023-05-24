@@ -1,12 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
+import { TranslocoModule } from '@ngneat/transloco';
 import { TypeDamages } from '@pokedex-md/domain';
 import { TypeService } from '../../../shared/services/api/type.service';
+import { TypeButtonComponent } from '../type-button/type-button.component';
 
 @Component({
   selector: 'pokedex-type-damages',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslocoModule, TypeButtonComponent],
   templateUrl: './type-damages.component.html',
   styleUrls: ['./type-damages.component.scss'],
 })

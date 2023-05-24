@@ -1,1 +1,38 @@
-<p>{{ typeDamages | json }}</p>
+<ng-container *transloco="let t">
+  <div *ngIf="typeDamages?.attacking" class="type-damages-type">
+    <span class="type-damages-title">Attacking</span>
+    <div class="type-damages">
+      <ng-container
+        [ngTemplateOutlet]="typeDamagesTemplate"
+        [ngTemplateOutletContext]="{ title: t('weaknesses'), damages: typeDamages!.attacking.weaknesses }"
+      ></ng-container>
+      <ng-container
+        [ngTemplateOutlet]="typeDamagesTemplate"
+        [ngTemplateOutletContext]="{ title: t('strengths'), damages: typeDamages!.attacking.strengths }"
+      ></ng-container>
+    </div>
+  </div>
+  <div *ngIf="typeDamages?.defending" class="type-damages-type">
+    <span class="type-damages-title">Defending</span>
+    <div class="type-damages">
+      <ng-container
+        [ngTemplateOutlet]="typeDamagesTemplate"
+        [ngTemplateOutletContext]="{ title: t('weaknesses'), damages: typeDamages!.defending.weaknesses }"
+      ></ng-container>
+      <ng-container
+        [ngTemplateOutlet]="typeDamagesTemplate"
+        [ngTemplateOutletContext]="{ title: t('resistances'), damages: typeDamages!.defending.resistances }"
+      ></ng-container>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #typeDamagesTemplate let-title="title" let-damages="damages">
+  <div class="type-damages-block">
+    <span class="type-damages-block-title">{{ title }}</span>
+    <div *ngFor="let typeDamage of damages" class="type-damage">
+      <pokedex-type-button [types]="[typeDamage.name + '']" [fullWidth]="true"></pokedex-type-button>
+      <span class="type-damage-multiplier">x{{ typeDamage.multiplier }}</span>
+    </div>
+  </div>
+</ng-template>

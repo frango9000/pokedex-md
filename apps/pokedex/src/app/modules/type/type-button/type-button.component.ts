@@ -26,6 +26,8 @@ import { TypeDetailService } from '../type-detail/type-detail.service';
 })
 export class TypeButtonComponent {
   @Input() public types: string[] = [];
+  @Input() public clickable = false;
+  @Input() public fullWidth = false;
 
   constructor(protected readonly typeDetailService: TypeDetailService) {}
 }
