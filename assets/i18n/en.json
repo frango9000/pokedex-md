@@ -1,1 +1,16 @@
-{}
+{
+  "type": {
+    "damages": {
+      "defending": {
+        "title": "Defending",
+        "weaknesses": "Weaknesses",
+        "resistances": "Resistances"
+      },
+      "attacking": {
+        "title": "Attacking",
+        "weaknesses": "Weaknesses",
+        "strengths": "Strengths"
+      }
+    }
+  }
+}
