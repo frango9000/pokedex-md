@@ -4,19 +4,20 @@ import { TranslocoModule } from '@ngneat/transloco';
 import { TypeDamages } from '@pokedex-md/domain';
 import { TypeService } from '../../../shared/services/api/type.service';
 import { TypeButtonComponent } from '../type-button/type-button.component';
+import { TypeDamagesMultiplierColorPipe } from './type-damage-multiplier-color.pipe';
 
 @Component({
   selector: 'pokedex-type-damages',
   standalone: true,
-  imports: [CommonModule, TranslocoModule, TypeButtonComponent],
+  imports: [CommonModule, TranslocoModule, TypeButtonComponent, TypeDamagesMultiplierColorPipe],
   templateUrl: './type-damages.component.html',
   styleUrls: ['./type-damages.component.scss'],
 })
 export class TypeDamagesComponent implements OnInit {
   @Input() public types: string[] = [];
 
-  @Input() public showDefending = false;
-  @Input() public showAttacking = false;
+  @Input() public defending: boolean | undefined = false;
+  @Input() public attacking: boolean | undefined = false;
   @Input() public clickableTitle = false;
   @Input() public clickableEntries = false;
 
@@ -31,7 +32,7 @@ export class TypeDamagesComponent implements OnInit {
   private generateTypeDamages(): TypeDamages {
     const allTypes = this.typeService.getAll();
     const pokeTypes = allTypes.filter((type) => this.types.includes(type.name));
-    let defendingTypeDamages = allTypes.map((type) => ({ name: type.name, multiplier: 1 }));
+    const defendingTypeDamages = allTypes.map((type) => ({ name: type.name, multiplier: 1 }));
 
     pokeTypes.forEach((type) => {
       type.damage_relations.double_damage_from.forEach((double) => {
@@ -47,9 +48,8 @@ export class TypeDamagesComponent implements OnInit {
         defendingTypeDamages[found].multiplier *= 0;
       });
     });
-    defendingTypeDamages = defendingTypeDamages.filter((value) => value.multiplier !== 1);
 
-    let attackingTypeDamages = allTypes.map((value1) => ({ name: value1.name, multiplier: 1 }));
+    const attackingTypeDamages = allTypes.map((value1) => ({ name: value1.name, multiplier: 1 }));
     pokeTypes.forEach((type) => {
       type.damage_relations.double_damage_to.forEach((double) => {
         const found = attackingTypeDamages.findIndex((value) => value.name === double);
@@ -64,16 +64,23 @@ export class TypeDamagesComponent implements OnInit {
         attackingTypeDamages[found].multiplier *= 0;
       });
     });
-    attackingTypeDamages = attackingTypeDamages.filter((value) => value.multiplier !== 1);
 
     return {
       attacking: {
-        weaknesses: attackingTypeDamages.filter((value) => value.multiplier < 1),
-        strengths: attackingTypeDamages.filter((value) => value.multiplier > 1),
+        weaknesses: attackingTypeDamages
+          .filter((value) => value.multiplier < 1)
+          .sort((a, b) => b.multiplier - a.multiplier),
+        strengths: attackingTypeDamages
+          .filter((value) => value.multiplier > 1)
+          .sort((a, b) => a.multiplier - b.multiplier),
       },
       defending: {
-        weaknesses: defendingTypeDamages.filter((value) => value.multiplier > 1),
-        resistances: defendingTypeDamages.filter((value) => value.multiplier < 1),
+        weaknesses: defendingTypeDamages
+          .filter((value) => value.multiplier > 1)
+          .sort((a, b) => b.multiplier - a.multiplier),
+        resistances: defendingTypeDamages
+          .filter((value) => value.multiplier < 1)
+          .sort((a, b) => a.multiplier - b.multiplier),
       },
     };
   }

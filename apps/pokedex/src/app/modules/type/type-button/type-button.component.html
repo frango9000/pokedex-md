@@ -5,7 +5,7 @@
     [class.multi-type]="types.length > 1"
     [class.clickable]="clickable"
     [class.full-width]="fullWidth"
-    (click)="clickable && typeDetailService.openTypesDialog(types)"
+    (click)="clickable && (attacking || defending) && typeDetailService.openTypesDialog({types, attacking, defending})"
   >
     <button mat-flat-button class="type-1" *ngIf="types?.[0] as type1" [style.background-color]="type1 | typeColor">
       <b> {{ t('TYPE.' + type1 + '.NAME') | uppercase }} </b>

@@ -28,6 +28,8 @@ export class TypeButtonComponent {
   @Input() public types: string[] = [];
   @Input() public clickable = false;
   @Input() public fullWidth = false;
+  @Input() public defending: boolean | undefined = false;
+  @Input() public attacking: boolean | undefined = false;
 
   constructor(protected readonly typeDetailService: TypeDetailService) {}
 }

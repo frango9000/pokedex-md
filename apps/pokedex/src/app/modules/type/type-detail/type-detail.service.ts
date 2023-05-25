@@ -8,11 +8,13 @@ import { map } from 'rxjs/operators';
 export class TypeDetailService {
   constructor(private readonly dialog: MatDialog) {}
 
-  openTypesDialog(data: string[] = []): void {
+  openTypesDialog({ types = [] as string[], attacking = false, defending = false }): void {
     from(import(`./type-detail.component`))
       .pipe(
         map((chunk) => Object.values(chunk)[0] as ComponentType<unknown>),
-        switchMap((dialogComponent) => this.dialog.open(dialogComponent, { data }).afterClosed()),
+        switchMap((dialogComponent) =>
+          this.dialog.open(dialogComponent, { data: { types, attacking, defending } }).afterClosed(),
+        ),
       )
       .subscribe();
   }

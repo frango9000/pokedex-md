@@ -1,23 +1,28 @@
 :host {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 
   .type-damages-type {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 
     .type-damages-title {
       width: 100%;
       text-align: center;
+      font-weight: bold;
     }
 
     .type-damages {
       display: flex;
+      gap: 16px;
 
       .type-damages-block {
         flex: 1;
         display: flex;
         flex-direction: column;
+        gap: 4px;
 
         .type-damages-block-title {
           width: 100%;
@@ -34,6 +39,7 @@
           .type-damage-multiplier {
             width: 50px;
             text-align: end;
+            font-weight: bold;
           }
         }
       }

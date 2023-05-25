@@ -26,5 +26,12 @@ import { TypeDamagesComponent } from '../type-damages/type-damages.component';
   encapsulation: ViewEncapsulation.None,
 })
 export class TypeDetailComponent {
-  constructor(@Inject(MAT_DIALOG_DATA) public types: string[]) {}
+  constructor(
+    @Inject(MAT_DIALOG_DATA)
+    protected readonly data: {
+      types: string[];
+      attacking?: boolean;
+      defending?: boolean;
+    },
+  ) {}
 }

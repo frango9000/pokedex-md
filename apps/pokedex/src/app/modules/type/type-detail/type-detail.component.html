@@ -2,7 +2,7 @@
   <mat-card-header>
     <mat-card-title>
       <mat-icon class="title-icon">title</mat-icon>
-      <pokedex-type-button [types]="types"></pokedex-type-button>
+      <pokedex-type-button [types]="data.types"></pokedex-type-button>
       <button mat-icon-button aria-label="Close" mat-dialog-close>
         <mat-icon>close</mat-icon>
       </button>
@@ -10,6 +10,10 @@
   </mat-card-header>
   <mat-divider></mat-divider>
   <mat-card-content>
-    <pokedex-type-damages [types]="types"></pokedex-type-damages>
+    <pokedex-type-damages
+      [types]="data.types"
+      [attacking]="data.attacking"
+      [defending]="data.defending"
+    ></pokedex-type-damages>
   </mat-card-content>
 </mat-card>
