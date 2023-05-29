@@ -53,7 +53,12 @@
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
-      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      <tr
+        mat-row
+        *matRowDef="let row; columns: displayedColumns"
+        [routerLink]="['/', { outlets: { sidebar: ['pokemon', row.name] } }]"
+        [routerLinkActive]="'mat-row-selected'"
+      ></tr>
     </table>
     <pokedex-bottom-bar-fab></pokedex-bottom-bar-fab>
   </mat-card>

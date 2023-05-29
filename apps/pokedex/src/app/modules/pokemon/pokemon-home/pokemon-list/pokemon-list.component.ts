@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { TranslocoModule } from '@ngneat/transloco';
 import { UntilDestroy } from '@ngneat/until-destroy';
 import { PxPokemon } from '@pokedex-md/domain';
@@ -28,6 +29,8 @@ import { PokemonFilterService } from '../pokemon-filter.service';
     TranslocoModule,
     MatCardModule,
     BottomBarFabComponent,
+    RouterLink,
+    RouterLinkActive,
   ],
   templateUrl: './pokemon-list.component.html',
   styleUrls: ['./pokemon-list.component.scss'],

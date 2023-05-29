@@ -1,0 +1,16 @@
+:host {
+  .mat-mdc-card {
+    margin-bottom: 16px;
+  }
+
+  .mat-accordion {
+    .mat-expansion-panel-header-title {
+      flex: 5;
+    }
+
+    .mat-expansion-panel-header-description {
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

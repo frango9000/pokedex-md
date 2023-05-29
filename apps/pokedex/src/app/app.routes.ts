@@ -1,4 +1,6 @@
-import { Route } from '@angular/router';
+import { inject } from '@angular/core';
+import { ActivatedRouteSnapshot, Route } from '@angular/router';
+import { PokemonService } from './shared/services/api/pokemon.service';
 
 export const appRoutes: Route[] = [
   {
@@ -16,5 +18,8 @@ export const appRoutes: Route[] = [
     loadComponent: () =>
       import('./modules/pokemon/pokemon-detail/pokemon-detail.component').then((m) => m.PokemonDetailComponent),
     outlet: 'sidebar',
+    resolve: {
+      pokemon: (route: ActivatedRouteSnapshot) => inject(PokemonService).fetchApiOne$(route.params['pokemon']),
+    },
   },
 ];
