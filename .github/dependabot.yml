@@ -7,7 +7,7 @@ updates:
     ignore:
       - dependency-name: '@angular*'
       - dependency-name: '@nx*'
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 20
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
