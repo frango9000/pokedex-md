@@ -1,0 +1,12 @@
+:host {
+  .mat-mdc-card {
+    .mat-mdc-card-header {
+      justify-content: center;
+    }
+
+    .mat-mdc-card-content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

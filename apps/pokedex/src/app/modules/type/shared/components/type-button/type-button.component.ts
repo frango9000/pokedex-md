@@ -5,8 +5,8 @@ import { MatRippleModule } from '@angular/material/core';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { TranslocoModule } from '@ngneat/transloco';
-import { TypeColorPipe } from '../type-color.pipe';
-import { TypeDetailService } from '../type-detail/type-detail.service';
+import { TypeDetailService } from '../../../type-detail/type-detail.service';
+import { TypeColorPipe } from '../../pipes/type-color.pipe';
 
 @Component({
   selector: 'pokedex-type-button',

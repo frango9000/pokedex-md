@@ -5,8 +5,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
-import { TypeButtonComponent } from '../type-button/type-button.component';
-import { TypeDamagesComponent } from '../type-damages/type-damages.component';
+import { TypeButtonComponent } from '../shared/components/type-button/type-button.component';
+import { TypeDamagesComponent } from '../shared/components/type-damages/type-damages.component';
 
 @Component({
   selector: 'pokedex-type-detail',

@@ -1,0 +1,20 @@
+<ng-container *transloco="let t">
+  <mat-card appearance="outlined" *ngIf="pokemon$ | async as pokemon">
+    <mat-card-header>
+      <mat-card-title>{{ t('POKEMON.' + pokemon.name + '.NAME') }}</mat-card-title>
+    </mat-card-header>
+    <img
+      mat-card-image
+      src="{{ pokemon.sprites.front_default }}"
+      [alt]="pokemon.name"
+      imgFallback="assets/images/default-pokemon.png"
+    />
+    <mat-card-content>
+      <pokedex-type-button
+        [types]="pokemon.types | typeSlotNames"
+        [clickable]="true"
+        [defending]="true"
+      ></pokedex-type-button>
+    </mat-card-content>
+  </mat-card>
+</ng-container>

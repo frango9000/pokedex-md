@@ -10,9 +10,10 @@ import { PxPokemon } from '@pokedex-md/domain';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
 import { BottomBarFabComponent } from '../../../../shared/components/bottom-bar-fab/bottom-bar-fab.component';
+import { ImgFallbackDirective } from '../../../../shared/directives/img-fallback.directive';
 import { PokemonService } from '../../../../shared/services/api/pokemon.service';
 import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
-import { TypeButtonComponent } from '../../../type/type-button/type-button.component';
+import { TypeButtonComponent } from '../../../type/shared/components/type-button/type-button.component';
 import { PokemonFilterService } from '../pokemon-filter.service';
 
 @UntilDestroy()
@@ -31,6 +32,7 @@ import { PokemonFilterService } from '../pokemon-filter.service';
     BottomBarFabComponent,
     RouterLink,
     RouterLinkActive,
+    ImgFallbackDirective,
   ],
   templateUrl: './pokemon-list.component.html',
   styleUrls: ['./pokemon-list.component.scss'],
