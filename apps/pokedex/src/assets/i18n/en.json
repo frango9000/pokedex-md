@@ -12,5 +12,20 @@
         "strengths": "Strengths"
       }
     }
+  },
+  "ui": {
+    "pokemon": {
+      "detail": {
+        "info": {
+          "id": "ID",
+          "xp": "Experience",
+          "xp_unit": "xp",
+          "weight": "Weight",
+          "weight_unit": "kg",
+          "height": "Height",
+          "height_unit": "m"
+        }
+      }
+    }
   }
 }

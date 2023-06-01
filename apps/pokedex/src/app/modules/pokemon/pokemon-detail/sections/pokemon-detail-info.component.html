@@ -1,0 +1,33 @@
+<ng-container *transloco="let t; read: 'ui.pokemon.detail.info'">
+  <div class="mat-table" *ngIf="pokemon$ | async as pokemon">
+    <mat-divider></mat-divider>
+    <div class="mat-header-row">
+      <div class="mat-header-cell">{{ t('id') }}</div>
+      <div class="mat-header-cell">{{ pokemon.id }}</div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('xp') }}</div>
+      <div class="mat-cell">
+        {{ pokemon.base_experience }}
+        {{ t('xp_unit') | transloco }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('weight') }}</div>
+      <div class="mat-cell">
+        {{ pokemon.weight / 10 }}
+        {{ t('weight_unit') | transloco }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('height') }}</div>
+      <div class="mat-cell">
+        {{ pokemon.height / 10 }}
+        {{ t('height_unit') | transloco }}
+      </div>
+    </div>
+  </div>
+</ng-container>

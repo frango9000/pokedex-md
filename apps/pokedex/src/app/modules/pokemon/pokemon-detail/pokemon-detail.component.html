@@ -1,7 +1,7 @@
 <pokedex-pokemon-detail-profile></pokedex-pokemon-detail-profile>
 
-<mat-accordion>
-  <mat-expansion-panel>
+<mat-accordion *transloco="let t">
+  <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
       <mat-panel-title> Info</mat-panel-title>
       <mat-panel-description>
@@ -9,9 +9,12 @@
         <mat-icon>account_circle</mat-icon>
       </mat-panel-description>
     </mat-expansion-panel-header>
+    <ng-template matExpansionPanelContent>
+      <pokedex-pokemon-detail-info></pokedex-pokemon-detail-info>
+    </ng-template>
   </mat-expansion-panel>
 
-  <mat-expansion-panel>
+  <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
       <mat-panel-title> Species</mat-panel-title>
       <mat-panel-description>
@@ -19,6 +22,9 @@
         <mat-icon>map</mat-icon>
       </mat-panel-description>
     </mat-expansion-panel-header>
+    <ng-template matExpansionPanelContent>
+      <pokedex-pokemon-detail-species></pokedex-pokemon-detail-species>
+    </ng-template>
   </mat-expansion-panel>
 
   <mat-expansion-panel>
