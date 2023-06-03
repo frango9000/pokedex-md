@@ -1,11 +1,24 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { MatDividerModule } from '@angular/material/divider';
+import { ActivatedRoute } from '@angular/router';
+import { TranslocoModule } from '@ngneat/transloco';
+import { PxVersionGroup, Species } from '@pokedex-md/domain';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { VersionGroupMenuComponent } from '../../../../shared/components/version-group-menu/version-group-menu.component';
+import { VersionMenuComponent } from '../../../../shared/components/version-menu/version-menu.component';
 
 @Component({
   selector: 'pokedex-pokemon-detail-species',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, MatDividerModule, TranslocoModule, VersionMenuComponent, VersionGroupMenuComponent],
   templateUrl: './pokemon-detail-species.component.html',
   styleUrls: ['./pokemon-detail-species.component.scss'],
 })
-export class PokemonDetailSpeciesComponent {}
+export class PokemonDetailSpeciesComponent {
+  public readonly species$: Observable<Species> = this.route.data.pipe(map(({ detail }) => detail.species));
+  protected versionGroup?: PxVersionGroup;
+
+  constructor(private readonly route: ActivatedRoute) {}
+}

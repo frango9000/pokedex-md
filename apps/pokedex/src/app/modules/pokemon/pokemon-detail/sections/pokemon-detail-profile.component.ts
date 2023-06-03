@@ -18,7 +18,7 @@ import { TypeSlotNamesPipe } from '../../../type/shared/pipes/type-slot-names.pi
   styleUrls: ['./pokemon-detail-profile.component.scss'],
 })
 export class PokemonDetailProfileComponent {
-  public readonly pokemon$: Observable<Pokemon> = this.route.data.pipe(map(({ pokemon }) => pokemon));
+  public readonly pokemon$: Observable<Pokemon> = this.route.data.pipe(map(({ detail }) => detail.pokemon));
 
   constructor(private readonly route: ActivatedRoute) {}
 }

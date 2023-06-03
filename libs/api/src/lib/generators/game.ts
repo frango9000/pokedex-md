@@ -1,4 +1,4 @@
-import { Generation, PxGeneration, PxVersionGroup, VersionGroup } from '@pokedex-md/domain';
+import { GameVersion, Generation, PxGameVersion, PxGeneration, PxVersionGroup, VersionGroup } from '@pokedex-md/domain';
 import { filterAndMapNames, Generator, mapResourcesName } from '../model/generator';
 
 export class VersionGroupGenerator extends Generator<VersionGroup, PxVersionGroup> {
@@ -13,6 +13,21 @@ export class VersionGroupGenerator extends Generator<VersionGroup, PxVersionGrou
       generation: resource.generation.name,
       order: resource.order,
       versions: mapResourcesName(resource.versions),
+    };
+  }
+}
+
+export class VersionGenerator extends Generator<GameVersion, PxGameVersion> {
+  constructor() {
+    super('version');
+  }
+
+  protected override mapResource(resource: GameVersion): PxGameVersion {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+      version_group: resource.version_group.name,
     };
   }
 }

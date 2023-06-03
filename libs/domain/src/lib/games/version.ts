@@ -1,7 +1,11 @@
-import { ApiEntity, ApiNameLocalization } from '../domain/domain';
-import { VersionGroup } from './version-group';
+import { ApiNameLocalization, LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 
-export interface GameVersion extends ApiEntity {
+export interface PxGameVersion extends NamedApiEntity {
+  names: LocalizedNames;
+  version_group: string;
+}
+
+export interface GameVersion extends NamedApiEntity {
   names: ApiNameLocalization[];
-  version_group: VersionGroup;
+  version_group: NamedApiResource<GameVersion>;
 }

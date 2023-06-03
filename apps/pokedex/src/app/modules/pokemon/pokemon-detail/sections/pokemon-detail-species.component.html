@@ -1,1 +1,18 @@
-<p>pokemon-detail-species works!</p>
+<ng-container *transloco="let t; read: 'ui.pokemon.detail.species'">
+  <div class="mat-table mat-static-table" *ngIf="species$ | async as species">
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">
+        <div>{{ 'species.' + species.name + '.flavor_text.' + versionGroup?.name | transloco }}</div>
+        <pokedex-version-group-menu (versionGroup$)="versionGroup = $event"></pokedex-version-group-menu>
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('genera') }}</div>
+      <div class="mat-cell">
+        {{ 'species.' + species.name + '.genus' | transloco }}
+      </div>
+    </div>
+  </div>
+</ng-container>

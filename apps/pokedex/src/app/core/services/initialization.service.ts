@@ -1,8 +1,10 @@
 import { APP_INITIALIZER, Injectable } from '@angular/core';
 import { forkJoin, Observable } from 'rxjs';
-import { GenerationService } from '../../shared/services/api/generation.service';
-import { PokemonService } from '../../shared/services/api/pokemon.service';
-import { TypeService } from '../../shared/services/api/type.service';
+import { GenerationService } from '../../shared/services/api/games/generation.service';
+import { VersionGroupService } from '../../shared/services/api/games/version-group.service';
+import { VersionService } from '../../shared/services/api/games/version.service';
+import { PokemonService } from '../../shared/services/api/pokemon/pokemon.service';
+import { TypeService } from '../../shared/services/api/pokemon/type.service';
 import { LanguageService } from './language.service';
 
 @Injectable({
@@ -14,6 +16,8 @@ export class InitializationService {
     private readonly pokemonTypeService: TypeService,
     private readonly generationService: GenerationService,
     private readonly languageService: LanguageService,
+    private readonly versionService: VersionService,
+    private readonly versionGroupService: VersionGroupService,
   ) {}
 
   initialize(): Observable<unknown> {
@@ -22,6 +26,8 @@ export class InitializationService {
       this.pokemonTypeService.initialize(),
       this.pokemonService.initialize(),
       this.generationService.initialize(),
+      this.versionService.initialize(),
+      this.versionGroupService.initialize(),
     ]);
   }
 }

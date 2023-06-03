@@ -4,7 +4,7 @@ import {
   EncounterConditionValueGenerator,
   EncounterMethodGenerator,
 } from './generators/encounters';
-import { GenerationGenerator, VersionGroupGenerator } from './generators/game';
+import { GenerationGenerator, VersionGenerator, VersionGroupGenerator } from './generators/game';
 import { ItemCategoryGenerator, ItemGenerator, ItemPocketGenerator } from './generators/item';
 import { LanguageGenerator } from './generators/language';
 import { MachineGenerator } from './generators/machine';
@@ -19,6 +19,7 @@ export function buildApi(): void {
     new MoveDamageClassGenerator().generateResources(),
     new AbilitiesGenerator().generateResources(),
     new VersionGroupGenerator().generateResources(),
+    new VersionGenerator().generateResources(),
     new LanguageGenerator().generateResources(),
     new TypeGenerator().generateResources(),
     new ItemGenerator().generateResources(),

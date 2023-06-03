@@ -33,13 +33,21 @@ export abstract class BaseService<T extends IdApiEntity = IdApiEntity, P extends
     return this.getAll$().pipe(map((resources) => resources.map((resource) => resource.id)));
   }
 
+  public getOne(id: number): P | undefined {
+    return this.getAll().find((resource) => resource.id === id);
+  }
+
+  public findOne(fn: (resource: P) => boolean): P | undefined {
+    return this.getAll().find(fn);
+  }
+
   public _fetchAll$(): Observable<P[]> {
-    return this._http.get<P[]>(`assets/api/${this.name}.json`);
+    return this._http.get<P[]>(`assets/api/${ this.name }.json`);
   }
 
   public fetchApiAll$({ offset = 0, limit = 9999 } = {}): Observable<NamedApiResource<T>[]> {
     return this._http
-      .get<ApiResourceList<NamedApiResource<T>>>(`${API_URL}/${this.name}`, { params: { offset, limit } })
+      .get<ApiResourceList<NamedApiResource<T>>>(`${ API_URL }/${ this.name }`, { params: { offset, limit } })
       .pipe(map((value) => value.results));
   }
 

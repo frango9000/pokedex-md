@@ -11,7 +11,7 @@ import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
 import { BottomBarFabComponent } from '../../../../shared/components/bottom-bar-fab/bottom-bar-fab.component';
 import { ImgFallbackDirective } from '../../../../shared/directives/img-fallback.directive';
-import { PokemonService } from '../../../../shared/services/api/pokemon.service';
+import { PokemonService } from '../../../../shared/services/api/pokemon/pokemon.service';
 import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
 import { TypeButtonComponent } from '../../../type/shared/components/type-button/type-button.component';
 import { PokemonFilterService } from '../pokemon-filter.service';

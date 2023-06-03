@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Pokemon, PxPokemon } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
-import { MergingMap } from '../../utils/merge-map';
-import { MultiTranslatedService } from './base.service';
+import { MergingMap } from '../../../utils/merge-map';
+import { MultiTranslatedService } from '../base.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PokemonService extends MultiTranslatedService<Pokemon, PxPokemon> {
-  override get name(): string {
+  protected override get name(): string {
     return 'pokemon';
   }
 
