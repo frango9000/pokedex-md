@@ -1,18 +1,101 @@
-<ng-container *transloco="let t; read: 'ui.pokemon.detail.species'">
+<ng-container *transloco="let t">
   <div class="mat-table mat-static-table" *ngIf="species$ | async as species">
     <mat-divider></mat-divider>
     <div class="mat-row">
       <div class="mat-cell">
-        <div>{{ 'species.' + species.name + '.flavor_text.' + versionGroup?.name | transloco }}</div>
+        <div>{{ t('species.' + species.name + '.flavor_text.' + versionGroup?.name) }}</div>
         <pokedex-version-group-menu (versionGroup$)="versionGroup = $event"></pokedex-version-group-menu>
       </div>
     </div>
     <mat-divider></mat-divider>
     <div class="mat-row">
-      <div class="mat-cell">{{ t('genera') }}</div>
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.genera') }}</div>
       <div class="mat-cell">
-        {{ 'species.' + species.name + '.genus' | transloco }}
+        {{ t('species.' + species.name + '.genus') }}
       </div>
     </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.shape') }}</div>
+      <div class="mat-cell">
+        {{ t('pokemon_shape.' + species.shape.name + '.name') }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.awesome_shape') }}</div>
+      <div class="mat-cell">
+        {{ t('pokemon_shape.' + species.shape.name + '.awesome_name') }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.color') }}</div>
+      <div class="mat-cell">
+        {{ t('pokemon_color.' + species.color.name) }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.growth_rate') }}</div>
+      <div class="mat-cell" [matTooltip]="t('growth_rate.' + species.growth_rate.name + '.formula')">
+        {{ t('growth_rate.' + species.growth_rate.name + '.description') | titlecase }}
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.egg_groups') }}</div>
+      <div class="mat-cell">
+        <span *ngFor="let eggGroup of species.egg_groups | pluck : 'name'">
+          {{ t('egg_group.' + eggGroup) }}
+        </span>
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.hatch_steps') }}</div>
+      <div class="mat-cell">{{ (+species.hatch_counter + 1) * 255 }}</div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.generation') }}</div>
+      <div class="mat-cell">{{ t('generation.' + species.generation.name + '.name') }}</div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.habitat') }}</div>
+      <div class="mat-cell">
+        <div class="mat-cell">{{ t('pokemon_habitat.' + species.habitat.name) | titlecase }}</div>
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.happiness') }}</div>
+      <div class="mat-cell">{{ species.base_happiness / 255 | percent : '1.0-2' }}</div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.pokemon.detail.species.catch_rate') }}</div>
+      <div class="mat-cell">{{ species.capture_rate / 255 | percent : '1.0-2' }}</div>
+    </div>
+    <ng-container *ngIf="species.gender_rate >= 0; else genderless">
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.pokemon.detail.species.female_rate') }}</div>
+        <div class="mat-cell">{{ species.gender_rate / 8 | percent : '1.0-2' }}</div>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.pokemon.detail.species.male_rate') }}</div>
+        <div class="mat-cell">{{ (8 - species.gender_rate) / 8 | percent : '1.0-2' }}</div>
+      </div>
+    </ng-container>
+    <ng-template #genderless>
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.pokemon.detail.species.gender_rate') }}</div>
+        <div class="mat-cell">{{ t('ui.pokemon.detail.species.genderless') }}</div>
+      </div>
+    </ng-template>
   </div>
 </ng-container>

@@ -16,6 +16,7 @@
       matSortActive="id"
       matSortDirection="asc"
       (matSortChange)="dataSource.sort = $event"
+      aria-describedby="pokemon list"
     >
       <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>No.</th>
@@ -43,7 +44,7 @@
 
       <ng-container matColumnDef="generation">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Gen.</th>
-        <td mat-cell *matCellDef="let pokemon">{{ t('GENERATION.' + pokemon.generation + '.NAME') }}</td>
+        <td mat-cell *matCellDef="let pokemon">{{ t('generation.' + pokemon.generation + '.name') }}</td>
       </ng-container>
 
       <ng-container matColumnDef="types">

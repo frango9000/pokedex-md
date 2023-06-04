@@ -12,6 +12,6 @@
   *transloco="let t"
 >
   <mat-option *ngFor="let generation of service.getAll$() | async" [value]="generation.name">
-    {{ t('GENERATION.' + generation.name + '.NAME') }}
+    {{ t('generation.' + generation.name + '.name') }}
   </mat-option>
 </mat-select>

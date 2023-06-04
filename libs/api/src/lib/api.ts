@@ -9,7 +9,17 @@ import { ItemCategoryGenerator, ItemGenerator, ItemPocketGenerator } from './gen
 import { LanguageGenerator } from './generators/language';
 import { MachineGenerator } from './generators/machine';
 import { MoveDamageClassGenerator, MoveLearnMethodGenerator, MovesGenerator } from './generators/move';
-import { AbilitiesGenerator, PokemonGenerator, StatGenerator, TypeGenerator } from './generators/pokemon';
+import {
+  AbilitiesGenerator,
+  EggGroupGenerator,
+  GrowthRateGenerator,
+  PokemonColorGenerator,
+  PokemonGenerator,
+  PokemonHabitatGenerator,
+  PokemonShapeGenerator,
+  StatGenerator,
+  TypeGenerator,
+} from './generators/pokemon';
 
 export function buildApi(): void {
   concat(
@@ -31,5 +41,10 @@ export function buildApi(): void {
     new EncounterMethodGenerator().generateResources(),
     new EncounterConditionGenerator().generateResources(),
     new EncounterConditionValueGenerator().generateResources(),
+    new GrowthRateGenerator().generateResources(),
+    new PokemonHabitatGenerator().generateResources(),
+    new PokemonColorGenerator().generateResources(),
+    new PokemonShapeGenerator().generateResources(),
+    new EggGroupGenerator().generateResources(),
   ).subscribe();
 }

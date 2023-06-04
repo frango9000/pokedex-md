@@ -3,7 +3,13 @@ import { LocalizedNames } from '@pokedex-md/domain';
 import { merge } from 'lodash-es';
 
 export class MergingMap extends Map<string, HashMap> {
-  static mergeMaps(maps: MergingMap[]): MergingMap {
+  // static mergeMaps(maps: MergingMap[]): MergingMap {
+  //   const merged = new MergingMap();
+  //   maps.forEach((map) => map.forEach((value: HashMap, key: string) => merged.merge(key, value)));
+  //   return merged;
+  // }
+
+  static mergeMaps(...maps: MergingMap[]): MergingMap {
     const merged = new MergingMap();
     maps.forEach((map) => map.forEach((value: HashMap, key: string) => merged.merge(key, value)));
     return merged;

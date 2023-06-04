@@ -1,6 +1,14 @@
 import { FlavorText } from '../domain/common';
-import { ApiDescriptionLocalization, ApiNameLocalization, NamedApiEntity, NamedApiResource } from '../domain/domain';
+import {
+  ApiDescriptionLocalization,
+  ApiNameLocalization,
+  LocalizedNames,
+  NamedApiEntity,
+  NamedApiResource,
+} from '../domain/domain';
 import { Language } from '../domain/language';
+import { EvolutionChain } from '../evolution/evolution-chain';
+import { Generation } from '../games/generation';
 
 export interface Species extends NamedApiEntity {
   base_happiness: number;
@@ -12,14 +20,14 @@ export interface Species extends NamedApiEntity {
   hatch_counter: number;
   is_baby: boolean;
   order: number;
-  generation: NamedApiResource;
-  growth_rate: NamedApiResource;
-  habitat: NamedApiResource;
-  shape: NamedApiResource;
-  color: NamedApiResource;
-  evolves_from_species: NamedApiResource;
-  evolution_chain: NamedApiResource;
-  egg_groups: NamedApiResource[];
+  generation: NamedApiResource<Generation>;
+  growth_rate: NamedApiResource<GrowthRate>;
+  habitat: NamedApiResource<PokemonHabitat>;
+  shape: NamedApiResource<PokemonShape>;
+  color: NamedApiResource<PokemonColor>;
+  evolves_from_species: NamedApiResource<Species>;
+  evolution_chain: NamedApiResource<EvolutionChain>;
+  egg_groups: NamedApiResource<EggGroup>[];
   flavor_text_entries: FlavorText[];
   form_descriptions: {
     description: string;
@@ -51,6 +59,10 @@ export interface EggGroup extends NamedApiEntity {
   pokemon_species: NamedApiResource<Species>[];
 }
 
+export interface PxEggGroup extends NamedApiEntity {
+  names: LocalizedNames;
+}
+
 export interface GrowthRate extends NamedApiEntity {
   formula: string;
   descriptions: ApiDescriptionLocalization[];
@@ -58,9 +70,18 @@ export interface GrowthRate extends NamedApiEntity {
   pokemon_species: NamedApiResource<Species>[];
 }
 
+export interface PxGrowthRate extends NamedApiEntity {
+  formula: string;
+  descriptions: LocalizedNames;
+}
+
 export interface PokemonColor extends NamedApiEntity {
   names: ApiNameLocalization[];
   pokemon_species: NamedApiResource<Species>[];
+}
+
+export interface PxPokemonColor extends NamedApiEntity {
+  names: LocalizedNames;
 }
 
 export interface PokemonHabitat extends NamedApiEntity {
@@ -68,10 +89,19 @@ export interface PokemonHabitat extends NamedApiEntity {
   pokemon_species: NamedApiResource<Species>[];
 }
 
+export interface PxPokemonHabitat extends NamedApiEntity {
+  names: LocalizedNames;
+}
+
 export interface PokemonShape extends NamedApiEntity {
   names: ApiNameLocalization[];
   awesome_names: AwesomeName[];
   pokemon_species: NamedApiResource<Species>[];
+}
+
+export interface PxPokemonShape extends NamedApiEntity {
+  names: LocalizedNames;
+  awesome_names: LocalizedNames;
 }
 
 export interface AwesomeName {

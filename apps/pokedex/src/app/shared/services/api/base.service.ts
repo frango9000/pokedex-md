@@ -42,12 +42,12 @@ export abstract class BaseService<T extends IdApiEntity = IdApiEntity, P extends
   }
 
   public _fetchAll$(): Observable<P[]> {
-    return this._http.get<P[]>(`assets/api/${ this.name }.json`);
+    return this._http.get<P[]>(`assets/api/${this.name}.json`);
   }
 
   public fetchApiAll$({ offset = 0, limit = 9999 } = {}): Observable<NamedApiResource<T>[]> {
     return this._http
-      .get<ApiResourceList<NamedApiResource<T>>>(`${ API_URL }/${ this.name }`, { params: { offset, limit } })
+      .get<ApiResourceList<NamedApiResource<T>>>(`${API_URL}/${this.name}`, { params: { offset, limit } })
       .pipe(map((value) => value.results));
   }
 

@@ -1,11 +1,21 @@
 import {
   Ability,
   ApiEntity,
+  EggGroup,
+  GrowthRate,
   NamedApiResource,
   Pokemon,
+  PokemonColor,
+  PokemonHabitat,
+  PokemonShape,
   PokemonType,
   PxAbility,
+  PxEggGroup,
+  PxGrowthRate,
   PxPokemon,
+  PxPokemonColor,
+  PxPokemonHabitat,
+  PxPokemonShape,
   PxStat,
   PxType,
   Species,
@@ -13,7 +23,13 @@ import {
 } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
 import { map, mergeMap } from 'rxjs/operators';
-import { fetchOne, filterAndMapNames, Generator } from '../model/generator';
+import {
+  fetchOne,
+  filterAndMapDescriptions,
+  filterAndMapLocalizations,
+  filterAndMapNames,
+  Generator,
+} from '../model/generator';
 
 export class PokemonGenerator extends Generator<PokemonWithSpecies, PxPokemon> {
   constructor() {
@@ -94,6 +110,78 @@ export class StatGenerator extends Generator<Stat, PxStat> {
   }
 
   protected override mapResource(resource: Stat): PxStat {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+    };
+  }
+}
+
+export class GrowthRateGenerator extends Generator<GrowthRate, PxGrowthRate> {
+  constructor() {
+    super('growth-rate');
+  }
+
+  protected override mapResource(resource: GrowthRate): PxGrowthRate {
+    return {
+      id: resource.id,
+      name: resource.name,
+      formula: resource.formula,
+      descriptions: filterAndMapDescriptions(resource.descriptions),
+    };
+  }
+}
+
+export class PokemonHabitatGenerator extends Generator<PokemonHabitat, PxPokemonHabitat> {
+  constructor() {
+    super('pokemon-habitat');
+  }
+
+  protected override mapResource(resource: PokemonHabitat): PxPokemonHabitat {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+    };
+  }
+}
+
+export class PokemonShapeGenerator extends Generator<PokemonShape, PxPokemonShape> {
+  constructor() {
+    super('pokemon-shape');
+  }
+
+  protected override mapResource(resource: PokemonShape): PxPokemonShape {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+      awesome_names: filterAndMapLocalizations(resource.awesome_names, 'awesome_name'),
+    };
+  }
+}
+
+export class PokemonColorGenerator extends Generator<PokemonColor, PxPokemonColor> {
+  constructor() {
+    super('pokemon-color');
+  }
+
+  protected override mapResource(resource: PokemonColor): PxPokemonColor {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+    };
+  }
+}
+
+export class EggGroupGenerator extends Generator<EggGroup, PxEggGroup> {
+  constructor() {
+    super('egg-group');
+  }
+
+  protected override mapResource(resource: EggGroup): PxEggGroup {
     return {
       id: resource.id,
       name: resource.name,

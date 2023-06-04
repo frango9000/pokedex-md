@@ -26,8 +26,21 @@
           "height_unit": "m"
         },
         "species": {
-          "version-group": "Games",
-          "genera": "Genera"
+          "genera": "Genera",
+          "shape": "Shape",
+          "awesome_shape": "Awesome Shape",
+          "color": "Color",
+          "growth_rate": "Growth Rate",
+          "egg_groups": "Egg Groups",
+          "hatch_steps": "Hatch Steps",
+          "generation": "Generation",
+          "habitat": "Habitat",
+          "happiness": "Happiness",
+          "catch_rate": "Catch Rate",
+          "female_rate": "Female Rate",
+          "male_rate": "Male Rate",
+          "gender_rate": "Gender Rate",
+          "genderless": "Genderless"
         }
       }
     }

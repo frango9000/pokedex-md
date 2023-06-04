@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "ball",
+    "names": {
+      "fr": "Balle",
+      "en": "Ball"
+    },
+    "awesome_names": {
+      "fr": "Pomacé",
+      "en": "Pomaceous"
+    }
+  },
+  {
+    "id": 2,
+    "name": "squiggle",
+    "names": {
+      "fr": "Sinueux",
+      "en": "Squiggle"
+    },
+    "awesome_names": {
+      "fr": "Caudal",
+      "en": "Caudal"
+    }
+  },
+  {
+    "id": 3,
+    "name": "fish",
+    "names": {
+      "fr": "Poisson",
+      "en": "Fish"
+    },
+    "awesome_names": {
+      "fr": "Ichtyque",
+      "en": "Ichthyic"
+    }
+  },
+  {
+    "id": 4,
+    "name": "arms",
+    "names": {
+      "fr": "Bras",
+      "en": "Arms"
+    },
+    "awesome_names": {
+      "fr": "Brachial",
+      "en": "Brachial"
+    }
+  },
+  {
+    "id": 5,
+    "name": "blob",
+    "names": {
+      "fr": "Goutte",
+      "en": "Blob"
+    },
+    "awesome_names": {
+      "fr": "Alvin",
+      "en": "Alvine"
+    }
+  },
+  {
+    "id": 6,
+    "name": "upright",
+    "names": {
+      "fr": "Droit",
+      "en": "Upright"
+    },
+    "awesome_names": {
+      "fr": "Sciurine",
+      "en": "Sciurine"
+    }
+  },
+  {
+    "id": 7,
+    "name": "legs",
+    "names": {
+      "fr": "Jambes",
+      "en": "Legs"
+    },
+    "awesome_names": {
+      "fr": "Crural",
+      "en": "Crural"
+    }
+  },
+  {
+    "id": 8,
+    "name": "quadruped",
+    "names": {
+      "fr": "Quadrupède",
+      "en": "Quadruped"
+    },
+    "awesome_names": {
+      "fr": "Mensal",
+      "en": "Mensal"
+    }
+  },
+  {
+    "id": 9,
+    "name": "wings",
+    "names": {
+      "fr": "Ailes",
+      "en": "Wings"
+    },
+    "awesome_names": {
+      "fr": "Alaire",
+      "en": "Alar"
+    }
+  },
+  {
+    "id": 10,
+    "name": "tentacles",
+    "names": {
+      "fr": "Tentacules",
+      "en": "Tentacles"
+    },
+    "awesome_names": {
+      "fr": "Ciliaire",
+      "en": "Cilial"
+    }
+  },
+  {
+    "id": 11,
+    "name": "heads",
+    "names": {
+      "fr": "Têtes",
+      "en": "Heads"
+    },
+    "awesome_names": {
+      "fr": "Polycéphale",
+      "en": "Polycephalic"
+    }
+  },
+  {
+    "id": 12,
+    "name": "humanoid",
+    "names": {
+      "fr": "Humanoïde",
+      "en": "Humanoid"
+    },
+    "awesome_names": {
+      "fr": "Anthropomorphique",
+      "en": "Anthropomorphic"
+    }
+  },
+  {
+    "id": 13,
+    "name": "bug-wings",
+    "names": {
+      "fr": "Ailes d'insecte",
+      "en": "Bug wings"
+    },
+    "awesome_names": {
+      "fr": "Lépidoptère",
+      "en": "Lepidopterous"
+    }
+  },
+  {
+    "id": 14,
+    "name": "armor",
+    "names": {
+      "fr": "Armure",
+      "en": "Armor"
+    },
+    "awesome_names": {
+      "fr": "Chitineux",
+      "en": "Chitinous"
+    }
+  }
+]
