@@ -15,9 +15,7 @@ export class PokemonColorService extends MultiTranslatedService<PokemonColor, Px
   protected _parseAllTranslations(resources: PxPokemonColor[]): Observable<MergingMap> {
     return of(
       MergingMap.ofMultipleResources(resources, 'names', (color, localized) => {
-        return {
-          pokemon_color: { [color.name]: localized },
-        };
+        return { pokemon_color: { [color.name]: localized } };
       }),
     );
   }

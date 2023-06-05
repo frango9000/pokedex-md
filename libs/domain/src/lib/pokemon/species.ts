@@ -2,6 +2,7 @@ import { FlavorText } from '../domain/common';
 import {
   ApiDescriptionLocalization,
   ApiNameLocalization,
+  ApiResource,
   LocalizedNames,
   NamedApiEntity,
   NamedApiResource,
@@ -26,7 +27,7 @@ export interface Species extends NamedApiEntity {
   shape: NamedApiResource<PokemonShape>;
   color: NamedApiResource<PokemonColor>;
   evolves_from_species: NamedApiResource<Species>;
-  evolution_chain: NamedApiResource<EvolutionChain>;
+  evolution_chain: ApiResource<EvolutionChain>;
   egg_groups: NamedApiResource<EggGroup>[];
   flavor_text_entries: FlavorText[];
   form_descriptions: {

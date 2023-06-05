@@ -1,0 +1,5 @@
+<pokedex-pokemon-detail-evolution-chain-link
+  *ngFor="let descendant of evolutionLink.evolves_to"
+  [evolutionLink]="descendant"
+></pokedex-pokemon-detail-evolution-chain-link>
+{{ evolutionLink.species.name }}

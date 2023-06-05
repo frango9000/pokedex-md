@@ -1,5 +1,6 @@
 import { APP_INITIALIZER, Injectable } from '@angular/core';
 import { forkJoin, Observable } from 'rxjs';
+import { EvolutionTriggerService } from '../../shared/services/api/evolution/evolution-trigger.service';
 import { GenerationService } from '../../shared/services/api/games/generation.service';
 import { VersionGroupService } from '../../shared/services/api/games/version-group.service';
 import { VersionService } from '../../shared/services/api/games/version.service';
@@ -28,6 +29,7 @@ export class InitializationService {
     private readonly pokemonColorService: PokemonColorService,
     private readonly pokemonShapeService: PokemonShapeService,
     private readonly pokemonHabitatService: PokemonHabitatService,
+    private readonly evolutionTriggerService: EvolutionTriggerService,
   ) {}
 
   initialize(): Observable<unknown> {
@@ -36,6 +38,7 @@ export class InitializationService {
       ...this._pokemonServices(),
       ...this._gameServices(),
       ...this._speciesServices(),
+      this.evolutionTriggerService.initialize(),
     ]);
   }
 

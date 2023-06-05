@@ -1,5 +1,4 @@
-import { Observable } from 'rxjs';
-import { ApiNameLocalization, IdApiEntity, NamedApiEntity, NamedApiResource } from '../domain/domain';
+import { ApiNameLocalization, IdApiEntity, LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Item } from '../items/item';
 import { PokemonLocation } from '../location/location';
 import { Move } from '../moves/move';
@@ -8,18 +7,15 @@ import { PokemonType } from '../pokemon/type';
 
 export interface EvolutionChain extends IdApiEntity {
   id: number;
-  baby_trigger_item: NamedApiResource;
+  baby_trigger_item: NamedApiResource<Item>;
   chain: EvolutionChainLink;
 }
 
 export interface EvolutionChainLink {
   is_baby: boolean;
-  species: NamedApiResource;
+  species: NamedApiResource<Species>;
   evolution_details: EvolutionDetail[];
   evolves_to?: EvolutionChainLink[];
-
-  //Non Api Content, Used in templates
-  self$?: Observable<EvolutionChainLink>;
 }
 
 export interface EvolutionDetail {
@@ -43,7 +39,7 @@ export interface EvolutionDetail {
   turn_upside_down: boolean;
 
   //Non Api Content, Used in templates
-  processed_details?: PokemonEvolutionTriggerDetails;
+  // processed_details?: PokemonEvolutionTriggerDetails;
 }
 
 export interface EvolutionTrigger extends NamedApiEntity {
@@ -51,15 +47,19 @@ export interface EvolutionTrigger extends NamedApiEntity {
   pokemon_species: NamedApiResource<Species>[];
 }
 
+export interface PxEvolutionTrigger extends NamedApiEntity {
+  names: LocalizedNames;
+}
+
 //Non Api Content, Used in templates
 
-export interface PokemonEvolutionTriggerDetails {
-  trigger: PokemonEvolutionTriggerDetail;
-  conditions: PokemonEvolutionTriggerDetail[];
-}
-
-export interface PokemonEvolutionTriggerDetail {
-  title: string;
-  value?: number | string;
-  translation?: string;
-}
+// export interface PokemonEvolutionTriggerDetails {
+//   trigger: PokemonEvolutionTriggerDetail;
+//   conditions: PokemonEvolutionTriggerDetail[];
+// }
+//
+// export interface PokemonEvolutionTriggerDetail {
+//   title: string;
+//   value?: number | string;
+//   translation?: string;
+// }

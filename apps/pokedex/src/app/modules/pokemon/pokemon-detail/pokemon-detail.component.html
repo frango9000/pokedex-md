@@ -27,7 +27,7 @@
     </ng-template>
   </mat-expansion-panel>
 
-  <mat-expansion-panel>
+  <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
       <mat-panel-title> Evolution Chain</mat-panel-title>
       <mat-panel-description>
@@ -35,6 +35,9 @@
         <mat-icon>date_range</mat-icon>
       </mat-panel-description>
     </mat-expansion-panel-header>
+    <ng-template matExpansionPanelContent>
+      <pokedex-pokemon-detail-evolution-chain></pokedex-pokemon-detail-evolution-chain>
+    </ng-template>
   </mat-expansion-panel>
 
   <mat-expansion-panel>

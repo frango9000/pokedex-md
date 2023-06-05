@@ -1,21 +1,29 @@
 import { inject } from '@angular/core';
 import { ActivatedRouteSnapshot, ResolveFn } from '@angular/router';
-import { Pokemon, Species } from '@pokedex-md/domain';
+import { EvolutionChain, Pokemon, Species } from '@pokedex-md/domain';
 import { switchMap } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { EvolutionChainService } from '../../../shared/services/api/evolution/evolution-chain.service';
 import { PokemonService } from '../../../shared/services/api/pokemon/pokemon.service';
 import { SpeciesService } from '../../../shared/services/api/pokemon/species.service';
+import { getResourceId } from '../../../shared/utils/resource.utils';
 
 export const pokemonDetailResolver: ResolveFn<PokemonDetailResolverData> = (route: ActivatedRouteSnapshot) => {
   const pokemonService = inject(PokemonService);
   const speciesService = inject(SpeciesService);
+  const evolutionChainService = inject(EvolutionChainService);
   return pokemonService.fetchApiOne$(route.params['pokemon']).pipe(
     switchMap((pokemon) =>
       speciesService.fetchApiOne$(pokemon.species.name).pipe(
-        map((species) => ({
-          pokemon,
-          species,
-        })),
+        switchMap((species) =>
+          evolutionChainService.fetchApiOne$(getResourceId(species.evolution_chain.url)).pipe(
+            map((evolutionChain) => ({
+              pokemon,
+              species,
+              evolutionChain,
+            })),
+          ),
+        ),
       ),
     ),
   );
@@ -24,4 +32,5 @@ export const pokemonDetailResolver: ResolveFn<PokemonDetailResolverData> = (rout
 export interface PokemonDetailResolverData {
   pokemon: Pokemon;
   species: Species;
+  evolutionChain: EvolutionChain;
 }

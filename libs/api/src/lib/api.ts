@@ -4,6 +4,7 @@ import {
   EncounterConditionValueGenerator,
   EncounterMethodGenerator,
 } from './generators/encounters';
+import { EvolutionTriggerGenerator } from './generators/evolution';
 import { GenerationGenerator, VersionGenerator, VersionGroupGenerator } from './generators/game';
 import { ItemCategoryGenerator, ItemGenerator, ItemPocketGenerator } from './generators/item';
 import { LanguageGenerator } from './generators/language';
@@ -46,5 +47,6 @@ export function buildApi(): void {
     new PokemonColorGenerator().generateResources(),
     new PokemonShapeGenerator().generateResources(),
     new EggGroupGenerator().generateResources(),
+    new EvolutionTriggerGenerator().generateResources(),
   ).subscribe();
 }
