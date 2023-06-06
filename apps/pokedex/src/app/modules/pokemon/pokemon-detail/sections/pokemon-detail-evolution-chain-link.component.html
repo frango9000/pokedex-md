@@ -1,5 +1,25 @@
-<pokedex-pokemon-detail-evolution-chain-link
-  *ngFor="let descendant of evolutionLink.evolves_to"
-  [evolutionLink]="descendant"
-></pokedex-pokemon-detail-evolution-chain-link>
-{{ evolutionLink.species.name }}
+<ng-container *ngFor="let descendant of link.evolves_to">
+  <div class="chain-link" *transloco="let t">
+    <div class="chain-link-info">
+      <ng-container *ngTemplateOutlet="pokemonLinkTemplate; context: { link: link }"></ng-container>
+      <mat-icon>double_arrow</mat-icon>
+      <ng-container *ngTemplateOutlet="pokemonLinkTemplate; context: { link: descendant }"></ng-container>
+
+      <ng-template #pokemonLinkTemplate let-link="link">
+        <a [routerLink]="['/', { outlets: { sidebar: ['pokemon', link.species.name] } }]" class="chain-half-link">
+          <img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{
+              link.species.url | resourceId
+            }}.png"
+            alt="Pokemon Image"
+            imgFallback="assets/images/default-pokemon.png"
+          />
+          <div class="species-name">{{ t('POKEMON.' + link.species.name + '.NAME') }}</div>
+        </a>
+      </ng-template>
+    </div>
+    <div class="chain-link-details"></div>
+  </div>
+  <mat-divider></mat-divider>
+  <pokedex-pokemon-detail-evolution-chain-link [link]="descendant"></pokedex-pokemon-detail-evolution-chain-link>
+</ng-container>

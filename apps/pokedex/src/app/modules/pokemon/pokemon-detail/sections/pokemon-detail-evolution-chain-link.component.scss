@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  .chain-link {
+    display: flex;
+    flex-direction: column;
+
+    .chain-link-info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .chain-half-link {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: unset;
+
+        .species-name {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

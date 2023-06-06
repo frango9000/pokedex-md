@@ -9,7 +9,7 @@ import { Observable, pluck } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { VersionGroupMenuComponent } from '../../../../shared/components/version-group-menu/version-group-menu.component';
 import { VersionMenuComponent } from '../../../../shared/components/version-menu/version-menu.component';
-import { PluckPipe } from '../../../../shared/directives/pluck.pipe';
+import { PluckPipe } from '../../../../shared/pipes/pluck.pipe';
 
 @Component({
   selector: 'pokedex-pokemon-detail-species',
