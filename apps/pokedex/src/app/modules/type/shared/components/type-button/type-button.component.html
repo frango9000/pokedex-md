@@ -8,12 +8,12 @@
     (click)="clickable && (attacking || defending) && typeDetailService.openTypesDialog({types, attacking, defending})"
   >
     <button mat-flat-button class="type-1" *ngIf="types?.[0] as type1" [style.background-color]="type1 | typeColor">
-      <b> {{ t('TYPE.' + type1 + '.NAME') | uppercase }} </b>
+      <b> {{ t('type.' + type1 + '.name') | uppercase }} </b>
     </button>
     <ng-container *ngIf="types?.[1] as type2">
       <mat-icon class="type-merge" [style.background-color]="types[0] | typeColor : types[1]">merge</mat-icon>
       <button mat-flat-button class="type-2" [style.background-color]="type2 | typeColor">
-        <b> {{ t('TYPE.' + type2 + '.NAME') | uppercase }} </b>
+        <b> {{ t('type.' + type2 + '.name') | uppercase }} </b>
       </button>
     </ng-container>
   </span>

@@ -4,6 +4,10 @@ import { EvolutionTriggerService } from '../../shared/services/api/evolution/evo
 import { GenerationService } from '../../shared/services/api/games/generation.service';
 import { VersionGroupService } from '../../shared/services/api/games/version-group.service';
 import { VersionService } from '../../shared/services/api/games/version.service';
+import { ItemService } from '../../shared/services/api/items/item.service';
+import { LocationService } from '../../shared/services/api/locations/location.service';
+import { RegionService } from '../../shared/services/api/locations/region.service';
+import { MoveService } from '../../shared/services/api/moves/move.service';
 import { EggGroupService } from '../../shared/services/api/pokemon/egg-group.service';
 import { GrowthRateService } from '../../shared/services/api/pokemon/growth-rate.service';
 import { PokemonColorService } from '../../shared/services/api/pokemon/pokemon-color.service';
@@ -29,7 +33,11 @@ export class InitializationService {
     private readonly pokemonColorService: PokemonColorService,
     private readonly pokemonShapeService: PokemonShapeService,
     private readonly pokemonHabitatService: PokemonHabitatService,
+    private readonly itemService: ItemService,
     private readonly evolutionTriggerService: EvolutionTriggerService,
+    private readonly moveService: MoveService,
+    private readonly locationService: LocationService,
+    private readonly regionService: RegionService,
   ) {}
 
   initialize(): Observable<unknown> {
@@ -37,7 +45,10 @@ export class InitializationService {
       this.languageService.initialize(),
       ...this._pokemonServices(),
       ...this._gameServices(),
+      ...this._locationServices(),
       ...this._speciesServices(),
+      this.itemService.initialize(),
+      this.moveService.initialize(),
       this.evolutionTriggerService.initialize(),
     ]);
   }
@@ -52,6 +63,10 @@ export class InitializationService {
       this.versionService.initialize(),
       this.versionGroupService.initialize(),
     ];
+  }
+
+  private _locationServices(): Observable<unknown>[] {
+    return [this.regionService.initialize(), this.locationService.initialize()];
   }
 
   private _speciesServices(): Observable<unknown>[] {

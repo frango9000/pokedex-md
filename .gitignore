@@ -40,3 +40,5 @@ Thumbs.db
 
 .angular
 migrations.json
+
+/apps/pokedex/src/assets/api/evolution-chain.json

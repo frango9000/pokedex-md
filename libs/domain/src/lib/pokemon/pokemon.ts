@@ -1,4 +1,4 @@
-import { LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
+import { ApiEntity, LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { GameVersion } from '../games/version';
 import { PxVersionGroup } from '../games/version-group';
 import { Item } from '../items/item';
@@ -110,4 +110,14 @@ export interface PokemonVersionGroupDetails {
   level_learned_at: number;
   version_group: PxVersionGroup;
   move_learn_method: NamedApiResource;
+}
+
+export interface Gender extends NamedApiEntity {
+  pokemon_species_details: PokemonSpeciesGender[];
+  required_for_evolution: NamedApiResource<Species>[];
+}
+
+export interface PokemonSpeciesGender extends ApiEntity {
+  rate: number;
+  pokemon_species: NamedApiResource<Species>;
 }

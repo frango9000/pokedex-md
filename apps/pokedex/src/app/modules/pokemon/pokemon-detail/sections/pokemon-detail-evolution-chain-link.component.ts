@@ -7,6 +7,7 @@ import { TranslocoModule } from '@ngneat/transloco';
 import { EvolutionChainLink } from '@pokedex-md/domain';
 import { ImgFallbackDirective } from '../../../../shared/directives/img-fallback.directive';
 import { ResourceIdPipe } from '../../../../shared/pipes/resource-id.pipe';
+import { LocationRegionPipe } from '../../../../shared/services/api/locations/location-region.pipe';
 
 @Component({
   selector: 'pokedex-pokemon-detail-evolution-chain-link',
@@ -20,6 +21,7 @@ import { ResourceIdPipe } from '../../../../shared/pipes/resource-id.pipe';
     RouterLink,
     ImgFallbackDirective,
     TranslocoModule,
+    LocationRegionPipe,
   ],
   templateUrl: './pokemon-detail-evolution-chain-link.component.html',
   styleUrls: ['./pokemon-detail-evolution-chain-link.component.scss'],

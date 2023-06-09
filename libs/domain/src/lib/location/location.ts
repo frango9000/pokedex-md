@@ -1,7 +1,12 @@
 import { GenerationGameIndex } from '../domain/common';
-import { ApiNameLocalization, NamedApiEntity, NamedApiResource } from '../domain/domain';
+import { ApiNameLocalization, LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Generation } from '../games/generation';
 import { VersionGroup } from '../games/version-group';
+
+export interface PxLocation extends NamedApiEntity {
+  names: LocalizedNames;
+  region?: string;
+}
 
 export interface PokemonLocation extends NamedApiEntity {
   region: NamedApiResource<Region>;
@@ -16,6 +21,10 @@ export interface LocationArea extends NamedApiEntity {
   location: NamedApiResource<PokemonLocation>;
   names: ApiNameLocalization[];
   pokemon_encounters: [];
+}
+
+export interface PxRegion extends NamedApiEntity {
+  names: LocalizedNames;
 }
 
 export interface Region extends NamedApiEntity {

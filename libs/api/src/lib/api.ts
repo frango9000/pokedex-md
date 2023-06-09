@@ -8,6 +8,7 @@ import { EvolutionTriggerGenerator } from './generators/evolution';
 import { GenerationGenerator, VersionGenerator, VersionGroupGenerator } from './generators/game';
 import { ItemCategoryGenerator, ItemGenerator, ItemPocketGenerator } from './generators/item';
 import { LanguageGenerator } from './generators/language';
+import { LocationGenerator, RegionGenerator } from './generators/location';
 import { MachineGenerator } from './generators/machine';
 import { MoveDamageClassGenerator, MoveLearnMethodGenerator, MovesGenerator } from './generators/move';
 import {
@@ -48,5 +49,7 @@ export function buildApi(): void {
     new PokemonShapeGenerator().generateResources(),
     new EggGroupGenerator().generateResources(),
     new EvolutionTriggerGenerator().generateResources(),
+    new LocationGenerator().generateResources(),
+    new RegionGenerator().generateResources(),
   ).subscribe();
 }

@@ -189,3 +189,13 @@ export class EggGroupGenerator extends Generator<EggGroup, PxEggGroup> {
     };
   }
 }
+
+export class PokemonSpeciesGenerator extends Generator<Species, Species> {
+  constructor() {
+    super('pokemon-species');
+  }
+
+  protected override mapResource(resource: Species): Species {
+    return resource;
+  }
+}

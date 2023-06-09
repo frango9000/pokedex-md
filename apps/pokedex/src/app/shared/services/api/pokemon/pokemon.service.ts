@@ -16,7 +16,7 @@ export class PokemonService extends MultiTranslatedService<Pokemon, PxPokemon> {
     return of(
       MergingMap.ofMultipleResources(resources, 'names', (pokemon, localized) => {
         return {
-          POKEMON: { [pokemon.name]: { NAME: localized } },
+          pokemon: { [pokemon.name]: localized },
         };
       }),
     );
