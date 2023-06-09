@@ -25,48 +25,48 @@
         <span *ngIf="detail.min_level">{{ t('ui.pokemon.detail.evolution.level', { level: detail.min_level }) }}</span>
         <span *ngIf="detail.item">{{
           t('ui.pokemon.detail.evolution.item', { item: t('item.' + detail.item.name + '.name') })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.gender">{{ t('ui.pokemon.detail.evolution.gender.' + detail.gender) }}</span>
         <span *ngIf="detail.held_item">{{
           t('ui.pokemon.detail.evolution.held_item', { item: t('item.' + detail.held_item.name + '.name') })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.known_move">{{
           t('ui.pokemon.detail.evolution.known_move', { move: t('move.' + detail.known_move.name + '.name') })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.known_move_type">{{
           t('ui.pokemon.detail.evolution.known_move_type', { type: t('type.' + detail.known_move_type.name + '.name') })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.location">{{
           t('ui.pokemon.detail.evolution.location', {
             location: t('location.' + detail.location.name),
             region: t('region.' + (detail.location.name | locationRegion))
           })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.min_happiness">{{
           t('ui.pokemon.detail.evolution.happiness', { happiness: detail.min_happiness })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.min_beauty">{{
           t('ui.pokemon.detail.evolution.beauty', { beauty: detail.min_beauty })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.min_affection">{{
           t('ui.pokemon.detail.evolution.affection', { affection: detail.min_affection })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.needs_overworld_rain">{{ t('ui.pokemon.detail.evolution.needs_rain') }}</span>
         <span *ngIf="detail.party_species">{{
           t('ui.pokemon.detail.evolution.party_species', { species: t('pokemon.' + detail.party_species.name) })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.party_type">{{
           t('ui.pokemon.detail.evolution.party_type', { type: t('type.' + detail.party_type.name + '.name') })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.relative_physical_stats || detail.relative_physical_stats === 0">{{
           t('ui.pokemon.detail.evolution.relative_physical_stats.' + detail.relative_physical_stats)
-          }}</span>
+        }}</span>
         <span *ngIf="detail.time_of_day?.length && detail.time_of_day.length > 0">{{
           t('ui.pokemon.detail.evolution.time_of_day.' + detail.time_of_day)
-          }}</span>
+        }}</span>
         <span *ngIf="detail.trade_species">{{
           t('ui.pokemon.detail.evolution.trade_species', { species: t('pokemon.' + detail.trade_species.name) })
-          }}</span>
+        }}</span>
         <span *ngIf="detail.turn_upside_down">{{ t('ui.pokemon.detail.evolution.turn_upside_down') }}</span>
       </ng-container>
     </div>
