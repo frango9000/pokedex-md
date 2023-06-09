@@ -41,6 +41,38 @@
           "male_rate": "Male Rate",
           "gender_rate": "Gender Rate",
           "genderless": "Genderless"
+        },
+        "evolution": {
+          "level": "@ Level {{level}}",
+          "item": "Item: {{item}}",
+          "held_item": "Held item: {{item}}",
+          "gender": {
+            "male": "Male",
+            "female": "Female",
+            "genderless": "Genderless"
+          },
+          "known_move": "Known move: {{move}}",
+          "known_move_type": "Known move type: {{type}}",
+          "location": "Location: {{location}} @ {{region}}",
+          "happiness": "Min happiness: {{happiness}}",
+          "beauty": "Min beauty: {{beauty}}",
+          "affection": "Min affection: {{affection}}",
+          "needs_rain": "Needs rain",
+          "party_species": "Party species: {{species}}",
+          "party_type": "Party type: {{type}}",
+          "time_of_day": {
+            "day": "Day",
+            "night": "Night",
+            "dusk": "Dusk",
+            "full_moon": "Full Moon"
+          },
+          "trade_species": "Trade species: {{species}}",
+          "turn_upside_down": "Turn 3DS upside down",
+          "relative_physical_stats": {
+            "-1": "Attack < Defense",
+            "0": "Attack = Defense",
+            "1": "Attack > Defense"
+          }
         }
       }
     }
