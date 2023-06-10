@@ -61,9 +61,13 @@
         <mat-icon>date_range</mat-icon>
       </mat-panel-description>
     </mat-expansion-panel-header>
+
+    <ng-template matExpansionPanelContent>
+      <pokedex-pokemon-detail-type-damages></pokedex-pokemon-detail-type-damages>
+    </ng-template>
   </mat-expansion-panel>
 
-  <mat-expansion-panel>
+  <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
       <mat-panel-title> Abilities</mat-panel-title>
       <mat-panel-description>
@@ -73,7 +77,7 @@
     </mat-expansion-panel-header>
   </mat-expansion-panel>
 
-  <mat-expansion-panel>
+  <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
       <mat-panel-title> Moves</mat-panel-title>
       <mat-panel-description>
@@ -83,7 +87,7 @@
     </mat-expansion-panel-header>
   </mat-expansion-panel>
 
-  <mat-expansion-panel>
+  <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
       <mat-panel-title> Machines Moves</mat-panel-title>
       <mat-panel-description>

@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  ::ng-deep pokedex-type-damages {
+    .types-container {
+      .type-1,
+      .type-2 {
+        font-size: 12px;
+      }
+    }
+
+    .type-damage-multiplier {
+      font-size: 12px;
+    }
+  }
+}

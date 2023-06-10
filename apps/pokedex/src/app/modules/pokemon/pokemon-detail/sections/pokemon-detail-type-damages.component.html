@@ -1,0 +1,7 @@
+<ng-container *ngIf="pokemon$ | async as pokemon">
+  <ng-container *ngIf="pokemon.types | pluck : 'type' | pluck : 'name' as typeNames">
+    <pokedex-type-button [types]="typeNames"></pokedex-type-button>
+    <br />
+    <pokedex-type-damages [types]="typeNames" [defending]="true"></pokedex-type-damages>
+  </ng-container>
+</ng-container>

@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { TranslocoModule } from '@ngneat/transloco';
 import { TypeDamages } from '@pokedex-md/domain';
 import { TypeService } from '../../../../../api/pokemon/type.service';
@@ -13,7 +13,7 @@ import { TypeButtonComponent } from '../type-button/type-button.component';
   templateUrl: './type-damages.component.html',
   styleUrls: ['./type-damages.component.scss'],
 })
-export class TypeDamagesComponent implements OnInit {
+export class TypeDamagesComponent implements OnChanges {
   @Input() public types: string[] = [];
 
   @Input() public defending: boolean | undefined = false;
@@ -24,10 +24,6 @@ export class TypeDamagesComponent implements OnInit {
   protected typeDamages?: TypeDamages;
 
   constructor(private readonly typeService: TypeService) {}
-
-  ngOnInit(): void {
-    this.typeDamages = this.generateTypeDamages();
-  }
 
   private generateTypeDamages(): TypeDamages {
     const allTypes = this.typeService.getAll();
@@ -83,5 +79,11 @@ export class TypeDamagesComponent implements OnInit {
           .sort((a, b) => a.multiplier - b.multiplier),
       },
     };
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes['types']) {
+      this.typeDamages = this.generateTypeDamages();
+    }
   }
 }
