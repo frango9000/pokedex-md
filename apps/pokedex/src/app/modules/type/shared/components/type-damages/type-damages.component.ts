@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { TranslocoModule } from '@ngneat/transloco';
 import { TypeDamages } from '@pokedex-md/domain';
-import { TypeService } from '../../../../../shared/services/api/pokemon/type.service';
+import { TypeService } from '../../../../../api/pokemon/type.service';
 import { TypeDamagesMultiplierColorPipe } from '../../pipes/type-damage-multiplier-color.pipe';
 import { TypeButtonComponent } from '../type-button/type-button.component';
 

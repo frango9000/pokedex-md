@@ -73,6 +73,11 @@
             "0": "Attack = Defense",
             "1": "Attack > Defense"
           }
+        },
+        "stats": {
+          "stat": "Stat",
+          "base": "Base",
+          "ev": "EV"
         }
       }
     }

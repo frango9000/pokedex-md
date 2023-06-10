@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Generation, PxGeneration } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
-import { MergingMap } from '../../../utils/merge-map';
+import { MergingMap } from '../../shared/utils/merge-map';
 import { MultiTranslatedService } from '../base.service';
 
 @Injectable({

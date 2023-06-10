@@ -1,20 +1,21 @@
 import { APP_INITIALIZER, Injectable } from '@angular/core';
 import { forkJoin, Observable } from 'rxjs';
-import { EvolutionTriggerService } from '../../shared/services/api/evolution/evolution-trigger.service';
-import { GenerationService } from '../../shared/services/api/games/generation.service';
-import { VersionGroupService } from '../../shared/services/api/games/version-group.service';
-import { VersionService } from '../../shared/services/api/games/version.service';
-import { ItemService } from '../../shared/services/api/items/item.service';
-import { LocationService } from '../../shared/services/api/locations/location.service';
-import { RegionService } from '../../shared/services/api/locations/region.service';
-import { MoveService } from '../../shared/services/api/moves/move.service';
-import { EggGroupService } from '../../shared/services/api/pokemon/egg-group.service';
-import { GrowthRateService } from '../../shared/services/api/pokemon/growth-rate.service';
-import { PokemonColorService } from '../../shared/services/api/pokemon/pokemon-color.service';
-import { PokemonHabitatService } from '../../shared/services/api/pokemon/pokemon-habitat.service';
-import { PokemonShapeService } from '../../shared/services/api/pokemon/pokemon-shape.service';
-import { PokemonService } from '../../shared/services/api/pokemon/pokemon.service';
-import { TypeService } from '../../shared/services/api/pokemon/type.service';
+import { EvolutionTriggerService } from '../../api/evolution/evolution-trigger.service';
+import { GenerationService } from '../../api/games/generation.service';
+import { VersionGroupService } from '../../api/games/version-group.service';
+import { VersionService } from '../../api/games/version.service';
+import { ItemService } from '../../api/items/item.service';
+import { LocationService } from '../../api/locations/location.service';
+import { RegionService } from '../../api/locations/region.service';
+import { MoveService } from '../../api/moves/move.service';
+import { EggGroupService } from '../../api/pokemon/egg-group.service';
+import { GrowthRateService } from '../../api/pokemon/growth-rate.service';
+import { PokemonColorService } from '../../api/pokemon/pokemon-color.service';
+import { PokemonHabitatService } from '../../api/pokemon/pokemon-habitat.service';
+import { PokemonShapeService } from '../../api/pokemon/pokemon-shape.service';
+import { PokemonService } from '../../api/pokemon/pokemon.service';
+import { StatService } from '../../api/pokemon/stat.service';
+import { TypeService } from '../../api/pokemon/type.service';
 import { LanguageService } from './language.service';
 
 @Injectable({
@@ -33,6 +34,7 @@ export class InitializationService {
     private readonly pokemonColorService: PokemonColorService,
     private readonly pokemonShapeService: PokemonShapeService,
     private readonly pokemonHabitatService: PokemonHabitatService,
+    private readonly statService: StatService,
     private readonly itemService: ItemService,
     private readonly evolutionTriggerService: EvolutionTriggerService,
     private readonly moveService: MoveService,
@@ -54,7 +56,7 @@ export class InitializationService {
   }
 
   private _pokemonServices(): Observable<unknown>[] {
-    return [this.pokemonService.initialize(), this.pokemonTypeService.initialize()];
+    return [this.pokemonService.initialize(), this.pokemonTypeService.initialize(), this.statService.initialize()];
   }
 
   private _gameServices(): Observable<unknown>[] {

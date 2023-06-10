@@ -1,0 +1,16 @@
+<div class="mat-table mat-static-table" *ngIf="pokemon$ | async as pokemon">
+  <mat-divider></mat-divider>
+  <div class="mat-header-row" *transloco="let t; read: 'ui.pokemon.detail.stats'">
+    <div class="mat-header-cell">{{ t('stat') }}</div>
+    <div class="mat-header-cell">{{ t('base') }}</div>
+    <div class="mat-header-cell">{{ t('ev') }}</div>
+  </div>
+  <ng-container *ngFor="let stat of pokemon.stats">
+    <mat-divider></mat-divider>
+    <div class="mat-row" *transloco="let t; read: 'stat'">
+      <div class="mat-cell">{{ t(stat.stat.name) }}</div>
+      <div class="mat-cell">{{ stat.base_stat }}</div>
+      <div class="mat-cell">{{ stat.effort }}</div>
+    </div>
+  </ng-container>
+</div>

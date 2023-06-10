@@ -4,7 +4,7 @@ import { TranslocoService } from '@ngneat/transloco';
 import { ApiResourceList, IdApiEntity, NamedApiResource } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable, of, switchMap } from 'rxjs';
 import { catchError, map, take, tap } from 'rxjs/operators';
-import { MergingMap } from '../../utils/merge-map';
+import { MergingMap } from '../shared/utils/merge-map';
 
 const API_URL = 'https://pokeapi.co/api/v2';
 

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { NgLetModule } from '../../shared/modules/ng-let';
-import { ThemeService } from '../../shared/services/theme.service';
+import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'pokedex-theme-picker',

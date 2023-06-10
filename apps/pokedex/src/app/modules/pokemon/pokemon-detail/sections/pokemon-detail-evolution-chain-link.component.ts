@@ -5,9 +5,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { RouterLink } from '@angular/router';
 import { TranslocoModule } from '@ngneat/transloco';
 import { EvolutionChainLink } from '@pokedex-md/domain';
+import { LocationRegionPipe } from '../../../../api/locations/location-region.pipe';
 import { ImgFallbackDirective } from '../../../../shared/directives/img-fallback.directive';
 import { ResourceIdPipe } from '../../../../shared/pipes/resource-id.pipe';
-import { LocationRegionPipe } from '../../../../shared/services/api/locations/location-region.pipe';
 
 @Component({
   selector: 'pokedex-pokemon-detail-evolution-chain-link',

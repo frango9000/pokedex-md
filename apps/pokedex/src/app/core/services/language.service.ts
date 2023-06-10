@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Language, PxLanguage } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { MultiTranslatedService } from '../../shared/services/api/base.service';
+import { MultiTranslatedService } from '../../api/base.service';
 import { MergingMap } from '../../shared/utils/merge-map';
 
 @Injectable({

@@ -1,9 +1,9 @@
 import { OverlayContainer } from '@angular/cdk/overlay';
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { ThemeService } from '../../shared/services/theme.service';
 import { BottomBarService } from '../services/bottom-bar.service';
 import { SidebarService } from '../services/sidebar.service';
+import { ThemeService } from '../services/theme.service';
 
 @UntilDestroy()
 @Component({

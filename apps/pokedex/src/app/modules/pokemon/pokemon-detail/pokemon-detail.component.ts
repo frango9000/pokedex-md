@@ -8,6 +8,7 @@ import { PokemonDetailEvolutionChainComponent } from './sections/pokemon-detail-
 import { PokemonDetailInfoComponent } from './sections/pokemon-detail-info.component';
 import { PokemonDetailProfileComponent } from './sections/pokemon-detail-profile.component';
 import { PokemonDetailSpeciesComponent } from './sections/pokemon-detail-species.component';
+import { PokemonDetailStatsComponent } from './sections/pokemon-detail-stats.component';
 
 @Component({
   selector: 'pokedex-pokemon-detail',
@@ -22,6 +23,7 @@ import { PokemonDetailSpeciesComponent } from './sections/pokemon-detail-species
     PokemonDetailSpeciesComponent,
     TranslocoModule,
     PokemonDetailEvolutionChainComponent,
+    PokemonDetailStatsComponent,
   ],
   templateUrl: './pokemon-detail.component.html',
   styleUrls: ['./pokemon-detail.component.scss'],

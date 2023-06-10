@@ -3,9 +3,9 @@ import { ActivatedRouteSnapshot, ResolveFn } from '@angular/router';
 import { EvolutionChain, Pokemon, Species } from '@pokedex-md/domain';
 import { switchMap } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { EvolutionChainService } from '../../../shared/services/api/evolution/evolution-chain.service';
-import { PokemonService } from '../../../shared/services/api/pokemon/pokemon.service';
-import { SpeciesService } from '../../../shared/services/api/pokemon/species.service';
+import { EvolutionChainService } from '../../../api/evolution/evolution-chain.service';
+import { PokemonService } from '../../../api/pokemon/pokemon.service';
+import { SpeciesService } from '../../../api/pokemon/species.service';
 import { getResourceId } from '../../../shared/utils/resource.utils';
 
 export const pokemonDetailResolver: ResolveFn<PokemonDetailResolverData> = (route: ActivatedRouteSnapshot) => {
