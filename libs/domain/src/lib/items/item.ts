@@ -1,4 +1,4 @@
-import { ApiEffectEntry, GenerationGameIndex, MachineVersionDetail, VersionGroupFlavorText } from '../domain/common';
+import { EffectEntry, GenerationGameIndex, MachineVersionDetail, VersionGroupFlavorText } from '../domain/common';
 import {
   ApiDescriptionLocalization,
   ApiNameLocalization,
@@ -24,7 +24,7 @@ export interface Item extends NamedApiEntity {
   fling_effect: NamedApiResource;
   attributes: NamedApiResource<ItemAttribute>[];
   category: NamedApiResource<ItemCategory>;
-  effect_entries: ApiEffectEntry[];
+  effect_entries: EffectEntry[];
   flavor_text_entries: VersionGroupFlavorText[];
   game_indices: GenerationGameIndex[];
   names: ApiNameLocalization[];
@@ -87,5 +87,5 @@ export interface ItemCategory extends NamedApiEntity {
 
 export interface ItemFlingEffect extends NamedApiEntity {
   items: NamedApiResource<Item>[];
-  effect_entries: ApiEffectEntry[];
+  effect_entries: EffectEntry[];
 }

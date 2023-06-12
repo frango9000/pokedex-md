@@ -1,4 +1,4 @@
-import { ApiEffectChange, ApiEffectEntry } from '../domain/common';
+import { EffectChange, EffectEntry } from '../domain/common';
 import {
   ApiDescriptionLocalization,
   ApiNameLocalization,
@@ -32,8 +32,8 @@ export interface Move extends NamedApiEntity {
   contest_type: NamedApiResource;
   contest_effect: NamedApiResource;
   damage_class: NamedApiResource;
-  effect_changes: ApiEffectChange[];
-  effect_entries: ApiEffectEntry[];
+  effect_changes: EffectChange[];
+  effect_entries: EffectEntry[];
   flavor_text_entries: MoveFlavorText[];
   generation: NamedApiResource<Generation>;
   machines: {

@@ -1,4 +1,4 @@
-import { ApiEffectChange, ApiEffectEntry } from '../domain/common';
+import { EffectChange, EffectEntry } from '../domain/common';
 import { ApiNameLocalization, LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Language } from '../domain/language';
 import { VersionGroup } from '../games/version-group';
@@ -10,8 +10,8 @@ export interface PxAbility extends NamedApiEntity {
 
 export interface Ability extends NamedApiEntity {
   is_main_series: boolean;
-  effect_changes: ApiEffectChange[];
-  effect_entries: ApiEffectEntry[];
+  effect_changes: EffectChange[];
+  effect_entries: EffectEntry[];
   flavor_text_entries: AbilityFlavorText[];
   generation: NamedApiResource;
   names: ApiNameLocalization[];

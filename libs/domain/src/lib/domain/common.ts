@@ -4,14 +4,14 @@ import { VersionGroup } from '../games/version-group';
 import { NamedApiResource } from './domain';
 import { Language } from './language';
 
-export interface ApiEffectEntry {
+export interface EffectEntry {
   effect: string;
   short_effect: string;
   language: NamedApiResource<Language>;
 }
 
-export interface ApiEffectChange {
-  effect_entries: ApiEffectEntry[];
+export interface EffectChange {
+  effect_entries: EffectEntry[];
   version_group: NamedApiResource<VersionGroup>;
 }
 
