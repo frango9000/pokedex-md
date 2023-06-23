@@ -7,6 +7,7 @@
     "reset": "nx reset && yarn run clean",
     "deploy": "nx deploy",
     "start": "nx serve",
+    "start:codespace": "nx serve --host=0.0.0.0",
     "build": "nx build",
     "build:api": "nx run api:build",
     "test": "nx run-many --target=test --all",
