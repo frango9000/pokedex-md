@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+      "extensions": ["vscjava.vscode-java-pack", "dbaeumer.vscode-eslint", "johnpapa.angular-essentials"],
+      "postCreateCommand": "yarn install && mvn dependency:go-offline"
+}
