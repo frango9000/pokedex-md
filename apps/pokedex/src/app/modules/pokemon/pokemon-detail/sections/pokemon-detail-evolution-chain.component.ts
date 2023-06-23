@@ -1,10 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
-import { ActivatedRoute } from '@angular/router';
 import { EvolutionChain } from '@pokedex-md/domain';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
 import { PokemonDetailEvolutionChainLinkComponent } from './pokemon-detail-evolution-chain-link.component';
 
 @Component({
@@ -15,9 +12,5 @@ import { PokemonDetailEvolutionChainLinkComponent } from './pokemon-detail-evolu
   styleUrls: ['./pokemon-detail-evolution-chain.component.scss'],
 })
 export class PokemonDetailEvolutionChainComponent {
-  public readonly evolutionChain$: Observable<EvolutionChain> = this.route.data.pipe(
-    map(({ detail }) => detail.evolutionChain),
-  );
-
-  constructor(private readonly route: ActivatedRoute) {}
+  @Input({ required: true }) evolutionChain?: EvolutionChain | null;
 }

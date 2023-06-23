@@ -1,4 +1,4 @@
-<ng-container *ngIf="evolutionChain$ | async as evolutionChain">
+<ng-container *ngIf="evolutionChain">
   <mat-divider></mat-divider>
   <pokedex-pokemon-detail-evolution-chain-link
     [link]="evolutionChain.chain"

@@ -1,0 +1,13 @@
+<ng-container *transloco="let t">
+  <div class="mat-table mat-static-table" *ngIf="ability">
+    <mat-divider></mat-divider>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.ability.detail.info.name') }}</div>
+      <div class="mat-cell">{{ t('ability.' + ability.name + '.name') }}</div>
+    </div>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.ability.detail.info.name') }}</div>
+      <div class="mat-cell">{{ t('ability.' + ability.name + '.name') }}</div>
+    </div>
+  </div>
+</ng-container>

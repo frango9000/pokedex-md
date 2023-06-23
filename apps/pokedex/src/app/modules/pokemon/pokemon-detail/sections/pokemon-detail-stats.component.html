@@ -1,4 +1,4 @@
-<div class="mat-table mat-static-table" *ngIf="pokemon$ | async as pokemon">
+<div class="mat-table mat-static-table" *ngIf="pokemon">
   <mat-divider></mat-divider>
   <div class="mat-header-row" *transloco="let t; read: 'ui.pokemon.detail.stats'">
     <div class="mat-header-cell">{{ t('stat') }}</div>

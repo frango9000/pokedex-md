@@ -1,6 +1,6 @@
 <pokedex-pokemon-detail-profile></pokedex-pokemon-detail-profile>
 
-<mat-accordion *transloco="let t">
+<mat-accordion *transloco="let t" class="mat-icon-accordion">
   <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
       <mat-panel-title> Info</mat-panel-title>
@@ -10,7 +10,7 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
-      <pokedex-pokemon-detail-info></pokedex-pokemon-detail-info>
+      <pokedex-pokemon-detail-info [pokemon]="pokemon$ | async"></pokedex-pokemon-detail-info>
     </ng-template>
   </mat-expansion-panel>
 
@@ -23,7 +23,7 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
-      <pokedex-pokemon-detail-species></pokedex-pokemon-detail-species>
+      <pokedex-pokemon-detail-species [species]="species$ | async"></pokedex-pokemon-detail-species>
     </ng-template>
   </mat-expansion-panel>
 
@@ -36,7 +36,8 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
-      <pokedex-pokemon-detail-evolution-chain></pokedex-pokemon-detail-evolution-chain>
+      <pokedex-pokemon-detail-evolution-chain
+        [evolutionChain]="evolutionChain$ | async"></pokedex-pokemon-detail-evolution-chain>
     </ng-template>
   </mat-expansion-panel>
 
@@ -49,13 +50,13 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
-      <pokedex-pokemon-detail-stats></pokedex-pokemon-detail-stats>
+      <pokedex-pokemon-detail-stats [pokemon]="pokemon$ | async"></pokedex-pokemon-detail-stats>
     </ng-template>
   </mat-expansion-panel>
 
   <mat-expansion-panel>
     <mat-expansion-panel-header>
-      <mat-panel-title> Type Damages</mat-panel-title>
+      <mat-panel-title> Type</mat-panel-title>
       <mat-panel-description>
         &nbsp;
         <mat-icon>date_range</mat-icon>
@@ -63,11 +64,11 @@
     </mat-expansion-panel-header>
 
     <ng-template matExpansionPanelContent>
-      <pokedex-pokemon-detail-type-damages></pokedex-pokemon-detail-type-damages>
+      <pokedex-pokemon-detail-type-damages [pokemon]="pokemon$ | async"></pokedex-pokemon-detail-type-damages>
     </ng-template>
   </mat-expansion-panel>
 
-  <mat-expansion-panel class="unpadded">
+  <mat-expansion-panel>
     <mat-expansion-panel-header>
       <mat-panel-title> Abilities</mat-panel-title>
       <mat-panel-description>
@@ -75,6 +76,9 @@
         <mat-icon>date_range</mat-icon>
       </mat-panel-description>
     </mat-expansion-panel-header>
+    <ng-template matExpansionPanelContent>
+      <pokedex-pokemon-detail-abilities [abilities]="abilities$ | async"></pokedex-pokemon-detail-abilities>
+    </ng-template>
   </mat-expansion-panel>
 
   <mat-expansion-panel class="unpadded">

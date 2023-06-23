@@ -8,6 +8,7 @@ import { ItemService } from '../../api/items/item.service';
 import { LocationService } from '../../api/locations/location.service';
 import { RegionService } from '../../api/locations/region.service';
 import { MoveService } from '../../api/moves/move.service';
+import { AbilityService } from '../../api/pokemon/ability.service';
 import { EggGroupService } from '../../api/pokemon/egg-group.service';
 import { GrowthRateService } from '../../api/pokemon/growth-rate.service';
 import { PokemonColorService } from '../../api/pokemon/pokemon-color.service';
@@ -24,6 +25,7 @@ import { LanguageService } from './language.service';
 export class InitializationService {
   constructor(
     private readonly pokemonService: PokemonService,
+    private readonly pokemonAbilityService: AbilityService,
     private readonly pokemonTypeService: TypeService,
     private readonly generationService: GenerationService,
     private readonly languageService: LanguageService,
@@ -56,7 +58,12 @@ export class InitializationService {
   }
 
   private _pokemonServices(): Observable<unknown>[] {
-    return [this.pokemonService.initialize(), this.pokemonTypeService.initialize(), this.statService.initialize()];
+    return [
+      this.pokemonService.initialize(),
+      this.pokemonTypeService.initialize(),
+      this.statService.initialize(),
+      this.pokemonAbilityService.initialize(),
+    ];
   }
 
   private _gameServices(): Observable<unknown>[] {

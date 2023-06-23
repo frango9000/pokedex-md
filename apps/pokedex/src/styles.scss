@@ -7,24 +7,24 @@ $pokedex-accent: mat.define-palette(mat.$pink-palette);
 $pokedex-warn: mat.define-palette(mat.$red-palette);
 
 $pokedex-theme: mat.define-light-theme(
-  (
-    color: (
-      primary: $pokedex-primary,
-      accent: $pokedex-accent,
-      warn: $pokedex-warn,
-    ),
-    typography: mat.define-typography-config(),
-  )
+    (
+      color: (
+        primary: $pokedex-primary,
+        accent: $pokedex-accent,
+        warn: $pokedex-warn,
+      ),
+      typography: mat.define-typography-config(),
+    )
 );
 
 $pokedex-dark-theme: mat.define-dark-theme(
-  (
-    color: (
-      primary: $pokedex-primary,
-      accent: $pokedex-accent,
-      warn: $pokedex-warn,
-    ),
-  )
+    (
+      color: (
+        primary: $pokedex-primary,
+        accent: $pokedex-accent,
+        warn: $pokedex-warn,
+      ),
+    )
 );
 
 @include mat.all-component-themes($pokedex-theme);
@@ -81,5 +81,19 @@ body {
     flex: 1;
     overflow: hidden;
     word-wrap: break-word;
+  }
+}
+
+
+.mat-accordion.mat-icon-accordion {
+  .mat-expansion-panel {
+    .mat-expansion-panel-header-title {
+      flex: 5;
+    }
+
+    .mat-expansion-panel-header-description {
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }

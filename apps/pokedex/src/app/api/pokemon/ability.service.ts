@@ -20,7 +20,7 @@ export class AbilityService extends FullyTranslatedService<Ability, PxAbility> {
   protected _parseAllTranslations(resources: PxAbility[]): Observable<MergingMap> {
     return of(
       MergingMap.ofMultipleResources(resources, 'names', (ability, localized) => ({
-        type: { [ability.name]: { name: localized } },
+        ability: { [ability.name]: { name: localized } },
       })),
     );
   }
@@ -29,7 +29,7 @@ export class AbilityService extends FullyTranslatedService<Ability, PxAbility> {
     const translations = new MergingMap();
     ability.effect_entries.forEach((entry) => {
       translations.merge(entry.language.name, {
-        ABILITY: { [ability.name]: { EFFECT_ENTRY: { SHORT: entry.short_effect, EFFECT: entry.effect } } },
+        ability: { [ability.name]: { effect_entry: { short: entry.short_effect, effect: entry.effect } } },
       });
     });
     const defaultFlavorText =
@@ -37,12 +37,12 @@ export class AbilityService extends FullyTranslatedService<Ability, PxAbility> {
       'ABILITY_TRANSLATE_ERROR_001';
     this.versionGroupService.getAll().forEach((versionGroup) => {
       translations.merge('en', {
-        ABILITY: { [ability.name]: { FLAVOR_TEXT: { [versionGroup.name]: defaultFlavorText } } },
+        ability: { [ability.name]: { flavor_text: { [versionGroup.name]: defaultFlavorText } } },
       });
     });
     ability.flavor_text_entries.forEach((entry) => {
       translations.merge(entry.language.name, {
-        ABILITY: { [ability.name]: { FLAVOR_TEXT: { [entry.version_group.name]: entry.flavor_text } } },
+        ability: { [ability.name]: { flavor_text: { [entry.version_group.name]: entry.flavor_text } } },
       });
     });
     return of(translations);
