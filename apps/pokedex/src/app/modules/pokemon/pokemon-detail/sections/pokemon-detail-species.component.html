@@ -2,9 +2,8 @@
   <div class="mat-table mat-static-table" *ngIf="species">
     <mat-divider></mat-divider>
     <div class="mat-row">
-      <div class="mat-cell">
+      <div class="mat-cell" *withVersionGroup="let versionGroup">
         <div>{{ t('species.' + species.name + '.flavor_text.' + versionGroup?.name) }}</div>
-        <pokedex-version-group-menu (versionGroup$)="versionGroup = $event"></pokedex-version-group-menu>
       </div>
     </div>
     <mat-divider></mat-divider>

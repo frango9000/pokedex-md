@@ -7,6 +7,7 @@ import { PxVersionGroup, Species } from '@pokedex-md/domain';
 import { PluckPipe } from '../../../../shared/pipes/pluck.pipe';
 import { VersionGroupMenuComponent } from '../../../version/shared/components/version-group-menu/version-group-menu.component';
 import { VersionMenuComponent } from '../../../version/shared/components/version-menu/version-menu.component';
+import { WithVersionGroupDirective } from '../../../version/shared/directives/with-version-group.directive';
 
 @Component({
   selector: 'pokedex-pokemon-detail-species',
@@ -19,6 +20,7 @@ import { VersionMenuComponent } from '../../../version/shared/components/version
     VersionGroupMenuComponent,
     MatTooltipModule,
     PluckPipe,
+    WithVersionGroupDirective,
   ],
   templateUrl: './pokemon-detail-species.component.html',
   styleUrls: ['./pokemon-detail-species.component.scss'],

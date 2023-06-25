@@ -27,6 +27,10 @@ export class VersionGroupService extends TranslatedNamedService<VersionGroup, Px
     return this._versionGroup$.asObservable();
   }
 
+  set versionGroup(versionGroup: PxVersionGroup) {
+    this._versionGroup$.next(versionGroup);
+  }
+
   public findByVersion(version: string): PxVersionGroup | undefined {
     return this.findOne((resource) => resource.versions.includes(version));
   }
