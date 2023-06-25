@@ -2,13 +2,13 @@ import { Injectable } from '@angular/core';
 import { Species } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
 import { MergingMap } from '../../shared/utils/merge-map';
-import { SingleTranslatedService } from '../base.service';
+import { TranslatedService } from '../base.service';
 import { VersionGroupService } from '../games/version-group.service';
 
 @Injectable({
   providedIn: 'root',
 })
-export class SpeciesService extends SingleTranslatedService<Species> {
+export class SpeciesService extends TranslatedService<Species> {
   protected override get name(): string {
     return 'pokemon-species';
   }
@@ -17,7 +17,7 @@ export class SpeciesService extends SingleTranslatedService<Species> {
     super();
   }
 
-  protected _parseOneTranslation(specie: Species): Observable<MergingMap> {
+  protected override _parseOneTranslation(specie: Species): Observable<MergingMap> {
     const translations = new MergingMap();
     specie.genera.forEach((name) =>
       translations.merge(name.language.name, { species: { [specie.name]: { genus: name.genus } } }),

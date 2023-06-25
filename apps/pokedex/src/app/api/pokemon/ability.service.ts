@@ -2,13 +2,13 @@ import { Injectable } from '@angular/core';
 import { Ability, PxAbility } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
 import { MergingMap } from '../../shared/utils/merge-map';
-import { FullyTranslatedService } from '../base.service';
+import { TranslatedService } from '../base.service';
 import { VersionGroupService } from '../games/version-group.service';
 
 @Injectable({
   providedIn: 'root',
 })
-export class AbilityService extends FullyTranslatedService<Ability, PxAbility> {
+export class AbilityService extends TranslatedService<Ability, PxAbility> {
   constructor(protected readonly versionGroupService: VersionGroupService) {
     super();
   }
@@ -17,7 +17,7 @@ export class AbilityService extends FullyTranslatedService<Ability, PxAbility> {
     return 'ability';
   }
 
-  protected _parseAllTranslations(resources: PxAbility[]): Observable<MergingMap> {
+  protected override _parseAllTranslations(resources: PxAbility[]): Observable<MergingMap> {
     return of(
       MergingMap.ofMultipleResources(resources, 'names', (ability, localized) => ({
         ability: { [ability.name]: { name: localized } },
@@ -25,7 +25,7 @@ export class AbilityService extends FullyTranslatedService<Ability, PxAbility> {
     );
   }
 
-  protected _parseOneTranslation(ability: Ability): Observable<MergingMap> {
+  protected override _parseOneTranslation(ability: Ability): Observable<MergingMap> {
     const translations = new MergingMap();
     ability.effect_entries.forEach((entry) => {
       translations.merge(entry.language.name, {

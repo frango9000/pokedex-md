@@ -2,12 +2,12 @@ import { Injectable } from '@angular/core';
 import { GameVersion, PxGameVersion } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
 import { MergingMap } from '../../shared/utils/merge-map';
-import { MultiTranslatedService } from '../base.service';
+import { TranslatedService } from '../base.service';
 
 @Injectable({
   providedIn: 'root',
 })
-export class VersionService extends MultiTranslatedService<GameVersion, PxGameVersion> {
+export class VersionService extends TranslatedService<GameVersion, PxGameVersion> {
   protected override get name(): string {
     return 'version';
   }

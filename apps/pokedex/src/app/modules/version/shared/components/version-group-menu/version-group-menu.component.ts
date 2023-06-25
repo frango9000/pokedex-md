@@ -6,7 +6,7 @@ import { TranslocoModule } from '@ngneat/transloco';
 import { PxVersionGroup } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { VersionGroupService } from '../../../api/games/version-group.service';
+import { VersionGroupService } from '../../../../../api/games/version-group.service';
 
 @Component({
   selector: 'pokedex-version-group-menu',

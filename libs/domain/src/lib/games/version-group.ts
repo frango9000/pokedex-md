@@ -1,8 +1,9 @@
-import { NamedApiEntity, NamedApiResource } from '../domain/domain';
+import { LocalizedNames, NamedApiEntity, NamedApiResource } from '../domain/domain';
 import { Generation } from './generation';
 import { GameVersion } from './version';
 
 export interface PxVersionGroup extends NamedApiEntity {
+  names: LocalizedNames;
   generation: string;
   order: number;
   versions: string[];

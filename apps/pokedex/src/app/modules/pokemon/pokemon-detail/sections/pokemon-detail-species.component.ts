@@ -4,9 +4,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { TranslocoModule } from '@ngneat/transloco';
 import { PxVersionGroup, Species } from '@pokedex-md/domain';
-import { VersionGroupMenuComponent } from '../../../../shared/components/version-group-menu/version-group-menu.component';
-import { VersionMenuComponent } from '../../../../shared/components/version-menu/version-menu.component';
 import { PluckPipe } from '../../../../shared/pipes/pluck.pipe';
+import { VersionGroupMenuComponent } from '../../../version/shared/components/version-group-menu/version-group-menu.component';
+import { VersionMenuComponent } from '../../../version/shared/components/version-menu/version-menu.component';
 
 @Component({
   selector: 'pokedex-pokemon-detail-species',

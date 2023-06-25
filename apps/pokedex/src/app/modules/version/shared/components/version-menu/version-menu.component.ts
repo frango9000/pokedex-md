@@ -6,8 +6,8 @@ import { TranslocoModule } from '@ngneat/transloco';
 import { PxGameVersion } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { VersionGroupService } from '../../../api/games/version-group.service';
-import { VersionService } from '../../../api/games/version.service';
+import { VersionGroupService } from '../../../../../api/games/version-group.service';
+import { VersionService } from '../../../../../api/games/version.service';
 
 @Component({
   selector: 'pokedex-version-menu',

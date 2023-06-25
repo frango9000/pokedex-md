@@ -1,20 +1,65 @@
-import { GameVersion, Generation, PxGameVersion, PxGeneration, PxVersionGroup, VersionGroup } from '@pokedex-md/domain';
-import { filterAndMapNames, Generator, mapResourcesName } from '../model/generator';
+import {
+  ApiEntity,
+  GameVersion,
+  Generation,
+  NamedApiResource,
+  PxGameVersion,
+  PxGeneration,
+  PxVersionGroup,
+  VersionGroup,
+} from '@pokedex-md/domain';
+import { forkJoin, Observable } from 'rxjs';
+import { map, mergeMap } from 'rxjs/operators';
+import { fetchOne, filterAndMapNames, Generator, mapResourcesName } from '../model/generator';
 
-export class VersionGroupGenerator extends Generator<VersionGroup, PxVersionGroup> {
+export class VersionGroupGenerator extends Generator<VersionGroupWithVersions, PxVersionGroup> {
   constructor() {
     super('version-group');
   }
 
-  protected override mapResource(resource: VersionGroup): PxVersionGroup {
+  protected override mapResource(resource: VersionGroupWithVersions): PxVersionGroup {
     return {
-      id: resource.id,
-      name: resource.name,
-      generation: resource.generation.name,
-      order: resource.order,
-      versions: mapResourcesName(resource.versions),
+      id: resource.versionGroup.id,
+      name: resource.versionGroup.name,
+      generation: resource.versionGroup.generation.name,
+      order: resource.versionGroup.order,
+      versions: mapResourcesName(resource.versionGroup.versions),
+      names: this.mergeVersionsNames(resource.versions),
     };
   }
+
+  private mergeVersionsNames(versions: GameVersion[]) {
+    return versions
+      .map((version) => filterAndMapNames(version.names))
+      .reduce((acc, curr) => {
+        for (const key in curr) {
+          if (acc[key]?.length) {
+            acc[key] += ` / ${curr[key]}`;
+          } else {
+            acc[key] = curr[key];
+          }
+        }
+        return acc;
+      }, {});
+  }
+
+  protected override fetchResource(resource: NamedApiResource<VersionGroup>): Observable<VersionGroupWithVersions> {
+    return fetchOne<VersionGroup>(resource).pipe(
+      mergeMap((versionGroup: VersionGroup) =>
+        forkJoin(versionGroup.versions.map((version) => fetchOne<GameVersion>(version))).pipe(
+          map((versions) => ({
+            versionGroup,
+            versions,
+          })),
+        ),
+      ),
+    );
+  }
+}
+
+interface VersionGroupWithVersions extends ApiEntity {
+  versionGroup: VersionGroup;
+  versions: GameVersion[];
 }
 
 export class VersionGenerator extends Generator<GameVersion, PxGameVersion> {

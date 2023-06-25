@@ -2,13 +2,13 @@ import { Injectable } from '@angular/core';
 import { Language, PxLanguage } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { MultiTranslatedService } from '../../api/base.service';
+import { TranslatedService } from '../../api/base.service';
 import { MergingMap } from '../../shared/utils/merge-map';
 
 @Injectable({
   providedIn: 'root',
 })
-export class LanguageService extends MultiTranslatedService<Language, PxLanguage> {
+export class LanguageService extends TranslatedService<Language, PxLanguage> {
   private readonly DEFAULT_LANGUAGE: PxLanguage = { name: 'en', id: 9, iso3166: 'us', names: {} };
   private readonly _activeLanguage$ = new BehaviorSubject<PxLanguage>(this.DEFAULT_LANGUAGE);
 
@@ -36,7 +36,7 @@ export class LanguageService extends MultiTranslatedService<Language, PxLanguage
     this.activeLanguage = this._activeLanguage$.value.name;
   }
 
-  protected _parseAllTranslations(resources: PxLanguage[]): Observable<MergingMap> {
+  protected override _parseAllTranslations(resources: PxLanguage[]): Observable<MergingMap> {
     return of(
       MergingMap.ofMultipleResources(resources, 'names', (language, localized) => {
         return {
