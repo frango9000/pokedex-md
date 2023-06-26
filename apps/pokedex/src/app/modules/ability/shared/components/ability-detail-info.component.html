@@ -5,9 +5,21 @@
       <div class="mat-cell">{{ t('ui.ability.detail.info.name') }}</div>
       <div class="mat-cell">{{ t('ability.' + ability.name + '.name') }}</div>
     </div>
+    <div class="mat-row" *withVersionGroup="let versionGroup">
+      <div class="mat-cell">{{ t('ui.ability.detail.info.description') }}</div>
+      <div class="mat-cell">{{ t('ability.' + ability.name + '.flavor_text.' + versionGroup.name) }}</div>
+    </div>
     <div class="mat-row">
-      <div class="mat-cell">{{ t('ui.ability.detail.info.name') }}</div>
-      <div class="mat-cell">{{ t('ability.' + ability.name + '.name') }}</div>
+      <div class="mat-cell">{{ t('ui.ability.detail.info.generation') }}</div>
+      <div class="mat-cell">{{ t('generation.' + ability.generation.name) }}</div>
+    </div>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.ability.detail.info.effect') }}</div>
+      <div class="mat-cell">{{ t('ability.' + ability.name + '.effect_entry.effect') }}</div>
+    </div>
+    <div class="mat-row">
+      <div class="mat-cell">{{ t('ui.ability.detail.info.short') }}</div>
+      <div class="mat-cell">{{ t('ability.' + ability.name + '.effect_entry.short') }}</div>
     </div>
   </div>
 </ng-container>

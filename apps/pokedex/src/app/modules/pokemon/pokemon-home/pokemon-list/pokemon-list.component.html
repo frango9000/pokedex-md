@@ -44,7 +44,7 @@
 
       <ng-container matColumnDef="generation">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>Gen.</th>
-        <td mat-cell *matCellDef="let pokemon">{{ t('generation.' + pokemon.generation + '.name') }}</td>
+        <td mat-cell *matCellDef="let pokemon">{{ t('generation.' + pokemon.generation) }}</td>
       </ng-container>
 
       <ng-container matColumnDef="types">

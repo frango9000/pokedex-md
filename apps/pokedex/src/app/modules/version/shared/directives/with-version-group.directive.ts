@@ -4,8 +4,8 @@ import { PxVersionGroup } from '@pokedex-md/domain';
 import { VersionGroupService } from '../../../../api/games/version-group.service';
 
 interface WithVersionGroupContext {
-  versionGroup?: PxVersionGroup;
-  $implicit?: PxVersionGroup;
+  versionGroup: PxVersionGroup;
+  $implicit: PxVersionGroup;
 }
 
 @UntilDestroy()
@@ -15,7 +15,10 @@ interface WithVersionGroupContext {
   standalone: true,
 })
 export class WithVersionGroupDirective implements OnInit {
-  private readonly context: WithVersionGroupContext = {};
+  private readonly context: WithVersionGroupContext = {
+    versionGroup: this.service.versionGroup,
+    $implicit: this.service.versionGroup,
+  };
   private embeddedViewRef?: EmbeddedViewRef<WithVersionGroupContext>;
 
   constructor(

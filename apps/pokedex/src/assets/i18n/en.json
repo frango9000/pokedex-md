@@ -80,12 +80,21 @@
           "ev": "EV"
         }
       }
+    },
+    "ability": {
+      "detail": {
+        "info": {
+          "name": "Effect",
+          "description": "Description",
+          "generation": "Generation",
+          "effect": "Effect",
+          "short": "Short"
+        }
+      }
     }
   },
-  "api": {
-    "version-group": {
-      "the-teal-mask": "The Teal Mask",
-      "the-indigo-disk": "The Indigo Disk"
-    }
+  "version-group": {
+    "the-teal-mask": "The Teal Mask",
+    "the-indigo-disk": "The Indigo Disk"
   }
 }

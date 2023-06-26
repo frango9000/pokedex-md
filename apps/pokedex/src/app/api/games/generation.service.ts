@@ -16,7 +16,7 @@ export class GenerationService extends TranslatedService<Generation, PxGeneratio
     return of(
       MergingMap.ofMultipleResources(resources, 'names', (type, localized) => {
         return {
-          generation: { [type.name]: { name: localized } },
+          generation: { [type.name]: localized },
         };
       }),
     );
