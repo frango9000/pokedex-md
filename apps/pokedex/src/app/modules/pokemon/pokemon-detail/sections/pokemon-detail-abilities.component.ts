@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input, Pipe, PipeTransform } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { TranslocoModule } from '@ngneat/transloco';
 import { Ability } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
@@ -32,6 +33,7 @@ export class PokemonAbilityPipe implements PipeTransform {
     PokemonDetailInfoComponent,
     TranslocoModule,
     PokemonAbilityPipe,
+    MatProgressBarModule,
   ],
   templateUrl: './pokemon-detail-abilities.component.html',
   styleUrls: ['./pokemon-detail-abilities.component.scss'],
