@@ -1,14 +1,7 @@
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Inject, Injectable, isDevMode, NgModule } from '@angular/core';
-import {
-  Translation,
-  TRANSLOCO_CONFIG,
-  TRANSLOCO_LOADER,
-  translocoConfig,
-  TranslocoLoader,
-  TranslocoModule,
-} from '@ngneat/transloco';
+import { provideTransloco, Translation, TranslocoLoader, TranslocoModule } from '@ngneat/transloco';
 
 @Injectable({ providedIn: 'root' })
 export class TranslocoHttpLoader implements TranslocoLoader {
@@ -22,9 +15,8 @@ export class TranslocoHttpLoader implements TranslocoLoader {
 @NgModule({
   exports: [TranslocoModule],
   providers: [
-    {
-      provide: TRANSLOCO_CONFIG,
-      useValue: translocoConfig({
+    provideTransloco({
+      config: {
         availableLangs: ['en', 'es', 'ja-Hrkt', 'roomaji', 'ko', 'zh-Hant', 'fr', 'de', 'it'],
         defaultLang: 'en',
         fallbackLang: 'en',
@@ -34,9 +26,9 @@ export class TranslocoHttpLoader implements TranslocoLoader {
         },
         reRenderOnLangChange: true,
         prodMode: !isDevMode(),
-      }),
-    },
-    { provide: TRANSLOCO_LOADER, useClass: TranslocoHttpLoader },
+      },
+      loader: TranslocoHttpLoader,
+    }),
     {
       provide: APP_BASE_HREF,
       useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),
