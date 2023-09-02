@@ -13,5 +13,5 @@ import { WithVersionGroupDirective } from '../../../version/shared/directives/wi
   styleUrls: ['./ability-detail-info.component.scss'],
 })
 export class AbilityDetailInfoComponent {
-  @Input({ required: true }) ability?: Ability;
+  @Input({ required: true }) ability?: Ability | null;
 }

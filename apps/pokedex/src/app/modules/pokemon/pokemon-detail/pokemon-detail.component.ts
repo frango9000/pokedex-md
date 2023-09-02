@@ -5,7 +5,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 import { ActivatedRoute } from '@angular/router';
 import { TranslocoModule } from '@ngneat/transloco';
-import { Ability, EvolutionChain, Pokemon, Species } from '@pokedex-md/domain';
+import { EvolutionChain, Pokemon, Species } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { PokemonDetailResolverData } from './pokemon-detail.resolver';
@@ -38,14 +38,18 @@ import { PokemonDetailTypeDamagesComponent } from './sections/pokemon-detail-typ
   styleUrls: ['./pokemon-detail.component.scss'],
 })
 export class PokemonDetailComponent {
-  public readonly detail$: Observable<PokemonDetailResolverData> = this.route.data.pipe(map(({ detail }) => detail));
+  public readonly detail$: Observable<PokemonDetailResolverData> = this.route.data.pipe(
+    map(({ pokemonDetail }) => pokemonDetail),
+  );
   public readonly pokemon$: Observable<Pokemon> = this.detail$.pipe(map(({ pokemon }) => pokemon));
   public readonly species$: Observable<Species> = this.detail$.pipe(map(({ species }) => species));
   public readonly evolutionChain$: Observable<EvolutionChain> = this.detail$.pipe(
     map(({ evolutionChain }) => evolutionChain),
   );
 
-  public readonly abilities$: Observable<Ability[]> = this.detail$.pipe(map(({ abilities }) => abilities));
+  public readonly abilities$: Observable<string[]> = this.pokemon$.pipe(
+    map(({ abilities }) => abilities.map((value) => value.ability.name)),
+  );
 
   constructor(private readonly route: ActivatedRoute) {}
 }

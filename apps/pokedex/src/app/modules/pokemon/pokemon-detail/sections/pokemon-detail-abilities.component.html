@@ -1,15 +1,12 @@
 <ng-container *ngIf="abilities?.length; else noAbilities">
-  <mat-accordion *transloco="let t" class="mat-icon-accordion">
-    <mat-expansion-panel class="unpadded" *ngFor="let ability of abilities">
+  <mat-accordion *transloco="let t" class="mat-icon-accordion" multi>
+    <mat-expansion-panel class="unpadded" *ngFor="let abilityName of abilities">
       <mat-expansion-panel-header>
-        <mat-panel-title>{{ t('ability.' + ability.name + '.name') }}</mat-panel-title>
-        <mat-panel-description>
-          &nbsp;
-          <mat-icon>account_circle</mat-icon>
-        </mat-panel-description>
+        <mat-panel-title>{{ t('ability.' + abilityName + '.name') }}</mat-panel-title>
+        <mat-panel-description> &nbsp; </mat-panel-description>
       </mat-expansion-panel-header>
       <ng-template matExpansionPanelContent>
-        <pokedex-ability-detail-info [ability]="ability"></pokedex-ability-detail-info>
+        <pokedex-ability-detail-info [ability]="abilityName | pokemonAbility$ | async"></pokedex-ability-detail-info>
       </ng-template>
     </mat-expansion-panel>
   </mat-accordion>

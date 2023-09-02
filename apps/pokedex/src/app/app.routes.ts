@@ -18,7 +18,7 @@ export const appRoutes: Route[] = [
       import('./modules/pokemon/pokemon-detail/pokemon-detail.component').then((m) => m.PokemonDetailComponent),
     outlet: 'sidebar',
     resolve: {
-      detail: pokemonDetailResolver,
+      pokemonDetail: pokemonDetailResolver,
     },
   },
 ];
