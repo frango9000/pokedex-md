@@ -70,10 +70,12 @@ export abstract class TranslatedService<
     return super.fetchApiOne$(id).pipe(switchMap((resource) => this._translateOne(resource)));
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   protected _parseAllTranslations(_: P[]): Observable<MergingMap | null> {
     return of(new MergingMap());
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   protected _parseOneTranslation(_: T): Observable<MergingMap | null> {
     return of(null);
   }
