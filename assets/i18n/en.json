@@ -17,6 +17,7 @@
     "pokemon": {
       "detail": {
         "info": {
+          "expansion_title": "Info",
           "id": "ID",
           "xp": "Experience",
           "xp_unit": "xp",
@@ -26,6 +27,7 @@
           "height_unit": "m"
         },
         "species": {
+          "expansion_title": "Species",
           "genera": "Genera",
           "shape": "Shape",
           "awesome_shape": "Awesome Shape",
@@ -43,6 +45,7 @@
           "genderless": "Genderless"
         },
         "evolution": {
+          "expansion_title": "Evolution",
           "level": "@ Level {{level}}",
           "item": "Item: {{item}}",
           "held_item": "Held item: {{item}}",
@@ -75,9 +78,19 @@
           }
         },
         "stats": {
+          "expansion_title": "Stats",
           "stat": "Stat",
           "base": "Base",
           "ev": "EV"
+        },
+        "types": {
+          "expansion_title": "Types"
+        },
+        "abilities": {
+          "expansion_title": "Abilities"
+        },
+        "moves": {
+          "method": "{{method}} Moves"
         }
       }
     },
@@ -89,6 +102,40 @@
           "generation": "Generation",
           "effect": "Effect",
           "short": "Short"
+        }
+      }
+    },
+    "move": {
+      "detail": {
+        "info": {
+          "name": "Name",
+          "category": "Category",
+          "generation": "Gen",
+          "damage_type": "Type",
+          "damage_class": "Class",
+          "pp": "PP",
+          "accuracy": "Accuracy",
+          "power": "Power",
+          "priority": "Priority",
+          "stat_change_chance": "Stat Change Chance",
+          "critical_rate": "Critical",
+          "healing": "Healing",
+          "drain": "Drain",
+          "recoil": "Recoil",
+          "ailment": "Ailment",
+          "ailment_chance": "Ailment Rate",
+          "flinch_chance": "Flinch Rate",
+          "target": "Target",
+          "hits": "Hits",
+          "min_hits": "Min Hits",
+          "max_hits": "Max Hits",
+          "turns": "Turns",
+          "min_turns": "Min Turns",
+          "max_turns": "Max Turns",
+          "description": "Description",
+          "effect_chance": "Effect Chance",
+          "effect": "Effect",
+          "effect_short": "Short"
         }
       }
     }
