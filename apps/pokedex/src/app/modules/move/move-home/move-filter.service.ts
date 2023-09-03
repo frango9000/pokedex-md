@@ -1,21 +1,21 @@
 import { inject, Injectable } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
-import { PxPokemon } from '@pokedex-md/domain';
+import { PxMove } from '@pokedex-md/domain';
 import { distinctUntilChanged, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { FilterService } from '../../../shared/modules/filter/filter.service';
 import { Filters } from '../../../shared/utils/generic-datasource';
 
 @Injectable()
-export class PokemonFilterService extends FilterService<PxPokemon, PokemonFilterModel> {
+export class MoveFilterService extends FilterService<PxMove, MoveFilterModel> {
   private readonly translocoService: TranslocoService = inject(TranslocoService);
 
-  override get filters$(): Observable<Filters<PxPokemon>> {
+  override get filters$(): Observable<Filters<PxMove>> {
     return super.filterModel$.pipe(
       distinctUntilChanged(),
       map((filterModel) => {
-        const { search, types, typesExclusiveness, generations } = filterModel;
-        const filters: Filters<PxPokemon> = {};
+        const { search, types, generations } = filterModel;
+        const filters: Filters<PxMove> = {};
         if (search) {
           filters['search'] = [
             {
@@ -32,10 +32,10 @@ export class PokemonFilterService extends FilterService<PxPokemon, PokemonFilter
           ];
         }
         if (types?.length) {
-          filters['types'] = [
+          filters['type'] = [
             {
-              property: 'types',
-              type: typesExclusiveness ? 'contains-all' : 'contains-any',
+              property: 'type',
+              type: 'among',
               value: types,
             },
           ];
@@ -55,9 +55,8 @@ export class PokemonFilterService extends FilterService<PxPokemon, PokemonFilter
   }
 }
 
-export interface PokemonFilterModel {
+export interface MoveFilterModel {
   search?: string;
   types?: string[];
-  typesExclusiveness?: boolean;
   generations?: string[];
 }

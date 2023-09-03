@@ -89,7 +89,9 @@ export class GenericDatasource<T> implements DataSource<T> {
           return (
             !inclusive?.length ||
             inclusive.some((filter) => {
-              const actual = resource[filter.property];
+              const actual = filter.locale
+                ? (resource[filter.property] as LocalizedNames)[filter.locale]
+                : resource[filter.property];
               switch (filter.type) {
                 case 'equal':
                   return actual === filter.value;
@@ -146,14 +148,6 @@ export class GenericDatasource<T> implements DataSource<T> {
                   );
                 }
 
-                case 'localized-contains':
-                  return (
-                    !filter.locale ||
-                    String((actual as LocalizedNames)[filter.locale])
-                      .toLowerCase()
-                      .includes(String(filter.value).toLowerCase())
-                  );
-
                 case 'custom':
                   return typeof filter.filterFn !== 'function' || filter.filterFn(resource);
 
@@ -205,7 +199,6 @@ export interface PropFilter<T> {
     | 'less-than'
     | 'less-than-or-equal'
     | 'in-range'
-    | 'localized-contains'
     | 'custom';
   property: keyof T;
   value?: string | number | (string | number)[];
