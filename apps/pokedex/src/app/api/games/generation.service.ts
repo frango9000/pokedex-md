@@ -14,11 +14,9 @@ export class GenerationService extends TranslatedService<Generation, PxGeneratio
 
   protected override _parseAllTranslations(resources: PxGeneration[]): Observable<MergingMap> {
     return of(
-      MergingMap.ofMultipleResources(resources, 'names', (type, localized) => {
-        return {
-          generation: { [type.name]: localized },
-        };
-      }),
+      MergingMap.ofMultipleResources(resources, 'names', (type, localized) => ({
+        generation: { [type.name]: localized },
+      })),
     );
   }
 }

@@ -3,11 +3,8 @@
 <mat-accordion *transloco="let t" class="mat-icon-accordion">
   <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
-      <mat-panel-title> Info</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>account_circle</mat-icon>
-      </mat-panel-description>
+      <mat-panel-title>{{ t('ui.pokemon.detail.info.expansion_title') }}</mat-panel-title>
+      <mat-panel-description> &nbsp; </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
       <pokedex-pokemon-detail-info [pokemon]="pokemon$ | async"></pokedex-pokemon-detail-info>
@@ -16,11 +13,8 @@
 
   <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
-      <mat-panel-title> Species</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>map</mat-icon>
-      </mat-panel-description>
+      <mat-panel-title>{{ t('ui.pokemon.detail.species.expansion_title') }}</mat-panel-title>
+      <mat-panel-description> &nbsp; </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
       <pokedex-pokemon-detail-species [species]="species$ | async"></pokedex-pokemon-detail-species>
@@ -29,11 +23,8 @@
 
   <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
-      <mat-panel-title> Evolution Chain</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>date_range</mat-icon>
-      </mat-panel-description>
+      <mat-panel-title>{{ t('ui.pokemon.detail.evolution.expansion_title') }}</mat-panel-title>
+      <mat-panel-description> &nbsp; </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
       <pokedex-pokemon-detail-evolution-chain
@@ -44,11 +35,8 @@
 
   <mat-expansion-panel class="unpadded">
     <mat-expansion-panel-header>
-      <mat-panel-title> Stats</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>date_range</mat-icon>
-      </mat-panel-description>
+      <mat-panel-title>{{ t('ui.pokemon.detail.stats.expansion_title') }}</mat-panel-title>
+      <mat-panel-description> &nbsp; </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
       <pokedex-pokemon-detail-stats [pokemon]="pokemon$ | async"></pokedex-pokemon-detail-stats>
@@ -57,11 +45,8 @@
 
   <mat-expansion-panel>
     <mat-expansion-panel-header>
-      <mat-panel-title> Type</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>date_range</mat-icon>
-      </mat-panel-description>
+      <mat-panel-title>{{ t('ui.pokemon.detail.types.expansion_title') }}</mat-panel-title>
+      <mat-panel-description> &nbsp; </mat-panel-description>
     </mat-expansion-panel-header>
 
     <ng-template matExpansionPanelContent>
@@ -71,34 +56,27 @@
 
   <mat-expansion-panel>
     <mat-expansion-panel-header>
-      <mat-panel-title> Abilities</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>date_range</mat-icon>
-      </mat-panel-description>
+      <mat-panel-title>{{ t('ui.pokemon.detail.abilities.expansion_title') }}</mat-panel-title>
+      <mat-panel-description> &nbsp; </mat-panel-description>
     </mat-expansion-panel-header>
     <ng-template matExpansionPanelContent>
       <pokedex-pokemon-detail-abilities [abilities]="abilities$ | async"></pokedex-pokemon-detail-abilities>
     </ng-template>
   </mat-expansion-panel>
 
-  <mat-expansion-panel class="unpadded">
-    <mat-expansion-panel-header>
-      <mat-panel-title> Moves</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>date_range</mat-icon>
-      </mat-panel-description>
-    </mat-expansion-panel-header>
-  </mat-expansion-panel>
-
-  <mat-expansion-panel class="unpadded">
-    <mat-expansion-panel-header>
-      <mat-panel-title> Machines Moves</mat-panel-title>
-      <mat-panel-description>
-        &nbsp;
-        <mat-icon>date_range</mat-icon>
-      </mat-panel-description>
-    </mat-expansion-panel-header>
-  </mat-expansion-panel>
+  <ng-container *ngFor="let moveByLearnMethod of movesByLearnMethods$ | async">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>{{
+          t('ui.pokemon.detail.moves.method', {
+            method: t('move_learn_method.' + moveByLearnMethod.learnMethod + '.name')
+          })
+        }}</mat-panel-title>
+        <mat-panel-description> &nbsp; ({{ moveByLearnMethod.moves.length }})</mat-panel-description>
+      </mat-expansion-panel-header>
+      <ng-template matExpansionPanelContent>
+        <pokedex-pokemon-detail-moves [moves]="moveByLearnMethod.moves"></pokedex-pokemon-detail-moves>
+      </ng-template>
+    </mat-expansion-panel>
+  </ng-container>
 </mat-accordion>

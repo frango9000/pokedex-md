@@ -6,7 +6,7 @@
         <mat-panel-description> &nbsp;</mat-panel-description>
       </mat-expansion-panel-header>
       <ng-template matExpansionPanelContent>
-        <ng-container *ngIf="abilityName | pokemonAbility$ | async as ability; else loading">
+        <ng-container *ngIf="abilityName | abilityResolver | async as ability; else loading">
           <pokedex-ability-detail-info [ability]="ability"></pokedex-ability-detail-info>
         </ng-container>
         <ng-template #loading>

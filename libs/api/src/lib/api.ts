@@ -10,7 +10,14 @@ import { ItemCategoryGenerator, ItemGenerator, ItemPocketGenerator } from './gen
 import { LanguageGenerator } from './generators/language';
 import { LocationGenerator, RegionGenerator } from './generators/location';
 import { MachineGenerator } from './generators/machine';
-import { MoveDamageClassGenerator, MoveLearnMethodGenerator, MovesGenerator } from './generators/move';
+import {
+  MoveAilmentGenerator,
+  MoveCategoryGenerator,
+  MoveDamageClassGenerator,
+  MoveLearnMethodGenerator,
+  MovesGenerator,
+  MoveTargetGenerator,
+} from './generators/move';
 import {
   AbilitiesGenerator,
   EggGroupGenerator,
@@ -29,6 +36,9 @@ export function buildApi(): void {
     new MovesGenerator().generateResources(),
     new MoveLearnMethodGenerator().generateResources(),
     new MoveDamageClassGenerator().generateResources(),
+    new MoveAilmentGenerator().generateResources(),
+    new MoveCategoryGenerator().generateResources(),
+    new MoveTargetGenerator().generateResources(),
     new AbilitiesGenerator().generateResources(),
     new VersionGroupGenerator().generateResources(),
     new VersionGenerator().generateResources(),

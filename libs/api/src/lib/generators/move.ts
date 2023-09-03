@@ -1,10 +1,16 @@
 import {
   Move,
+  MoveAilment,
+  MoveCategory,
   MoveDamageClass,
   MoveLearnMethod,
+  MoveTarget,
   PxMove,
+  PxMoveAilment,
+  PxMoveCategory,
   PxMoveDamageClass,
   PxMoveLearnMethod,
+  PxMoveTarget,
 } from '@pokedex-md/domain';
 import { filterAndMapDescriptions, filterAndMapNames, Generator } from '../model/generator';
 
@@ -49,6 +55,49 @@ export class MoveDamageClassGenerator extends Generator<MoveDamageClass, PxMoveD
   }
 
   protected override mapResource(resource: MoveDamageClass): PxMoveDamageClass {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+      descriptions: filterAndMapDescriptions(resource.descriptions),
+    };
+  }
+}
+
+export class MoveAilmentGenerator extends Generator<MoveAilment, PxMoveAilment> {
+  constructor() {
+    super('move-ailment');
+  }
+
+  protected override mapResource(resource: MoveAilment): PxMoveAilment {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+    };
+  }
+}
+
+export class MoveCategoryGenerator extends Generator<MoveCategory, PxMoveCategory> {
+  constructor() {
+    super('move-category');
+  }
+
+  protected override mapResource(resource: MoveCategory): PxMoveCategory {
+    return {
+      id: resource.id,
+      name: resource.name,
+      descriptions: filterAndMapDescriptions(resource.descriptions),
+    };
+  }
+}
+
+export class MoveTargetGenerator extends Generator<MoveTarget, PxMoveTarget> {
+  constructor() {
+    super('move-target');
+  }
+
+  protected override mapResource(resource: MoveTarget): PxMoveTarget {
     return {
       id: resource.id,
       name: resource.name,

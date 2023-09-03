@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { inject } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
 import { ApiResourceList, IdApiEntity, NamedApiEntity, NamedApiResource } from '@pokedex-md/domain';
-import { BehaviorSubject, Observable, of, switchMap } from 'rxjs';
+import { BehaviorSubject, Observable, of, shareReplay, switchMap } from 'rxjs';
 import { catchError, map, take, tap } from 'rxjs/operators';
 import { MergingMap } from '../shared/utils/merge-map';
 
@@ -11,6 +11,7 @@ const API_URL = 'https://pokeapi.co/api/v2';
 export abstract class BaseService<T extends IdApiEntity = IdApiEntity, P extends IdApiEntity = T> {
   private readonly _http: HttpClient = inject(HttpClient);
   protected readonly resources$: BehaviorSubject<P[]> = new BehaviorSubject<P[]>([]);
+  protected readonly fetchApiOneCache: { [key: string]: Observable<T> } = {};
 
   protected abstract get name(): string;
 
@@ -52,7 +53,10 @@ export abstract class BaseService<T extends IdApiEntity = IdApiEntity, P extends
   }
 
   public fetchApiOne$(id: string | number): Observable<T> {
-    return this._http.get<T>(`${API_URL}/${this.name}/${id}`);
+    if (!this.fetchApiOneCache[id]) {
+      this.fetchApiOneCache[id] = this._http.get<T>(`${API_URL}/${this.name}/${id}`).pipe(shareReplay(1));
+    }
+    return this.fetchApiOneCache[id];
   }
 }
 

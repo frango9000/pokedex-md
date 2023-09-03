@@ -7,6 +7,11 @@ import { VersionService } from '../../api/games/version.service';
 import { ItemService } from '../../api/items/item.service';
 import { LocationService } from '../../api/locations/location.service';
 import { RegionService } from '../../api/locations/region.service';
+import { MoveAilmentService } from '../../api/moves/move-ailment.service';
+import { MoveCategoryService } from '../../api/moves/move-category.service';
+import { MoveDamageClassService } from '../../api/moves/move-damage-class.service';
+import { MoveLearnMethodService } from '../../api/moves/move-learn-method.service';
+import { MoveTargetService } from '../../api/moves/move-target.service';
 import { MoveService } from '../../api/moves/move.service';
 import { AbilityService } from '../../api/pokemon/ability.service';
 import { EggGroupService } from '../../api/pokemon/egg-group.service';
@@ -40,6 +45,11 @@ export class InitializationService {
     private readonly itemService: ItemService,
     private readonly evolutionTriggerService: EvolutionTriggerService,
     private readonly moveService: MoveService,
+    private readonly moveLearnMethodService: MoveLearnMethodService,
+    private readonly moveTargetService: MoveTargetService,
+    private readonly moveCategoryService: MoveCategoryService,
+    private readonly moveAilmentService: MoveAilmentService,
+    private readonly moveDamageClassService: MoveDamageClassService,
     private readonly locationService: LocationService,
     private readonly regionService: RegionService,
   ) {}
@@ -51,8 +61,9 @@ export class InitializationService {
       ...this._gameServices(),
       ...this._locationServices(),
       ...this._speciesServices(),
+      ...this._moveServices(),
       this.itemService.initialize(),
-      this.moveService.initialize(),
+
       this.evolutionTriggerService.initialize(),
     ]);
   }
@@ -71,6 +82,17 @@ export class InitializationService {
       this.generationService.initialize(),
       this.versionService.initialize(),
       this.versionGroupService.initialize(),
+    ];
+  }
+
+  private _moveServices(): Observable<unknown>[] {
+    return [
+      this.moveService.initialize(),
+      this.moveLearnMethodService.initialize(),
+      this.moveTargetService.initialize(),
+      this.moveCategoryService.initialize(),
+      this.moveAilmentService.initialize(),
+      this.moveDamageClassService.initialize(),
     ];
   }
 

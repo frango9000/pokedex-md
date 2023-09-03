@@ -14,11 +14,9 @@ export class GrowthRateService extends TranslatedService<GrowthRate, PxGrowthRat
 
   protected override _parseAllTranslations(resources: PxGrowthRate[]): Observable<MergingMap> {
     return of(
-      MergingMap.ofMultipleResources(resources, 'descriptions', (growthRate, localized) => {
-        return {
-          growth_rate: { [growthRate.name]: { description: localized, formula: growthRate.formula } },
-        };
-      }),
+      MergingMap.ofMultipleResources(resources, 'descriptions', (growthRate, localized) => ({
+        growth_rate: { [growthRate.name]: { description: localized, formula: growthRate.formula } },
+      })),
     );
   }
 }

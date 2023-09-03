@@ -37,11 +37,9 @@ export class VersionGroupService extends TranslatedNamedService<VersionGroup, Px
 
   protected override _parseAllTranslations(resources: PxVersionGroup[]): Observable<MergingMap> {
     return of(
-      MergingMap.ofMultipleResources(resources, 'names', (type, localized) => {
-        return {
-          'version-group': { [type.name]: localized },
-        };
-      }),
+      MergingMap.ofMultipleResources(resources, 'names', (type, localized) => ({
+        'version-group': { [type.name]: localized },
+      })),
     );
   }
 }

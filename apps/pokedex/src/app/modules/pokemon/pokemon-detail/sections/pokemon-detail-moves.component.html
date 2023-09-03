@@ -1,0 +1,21 @@
+<ng-container *ngIf="moves?.length; else noMoves">
+  <mat-accordion *transloco="let t" class="mat-icon-accordion">
+    <mat-expansion-panel class="unpadded" *ngFor="let moveDetail of moves">
+      <mat-expansion-panel-header>
+        <mat-panel-title>{{ t('move.' + moveDetail.move + '.name') }}</mat-panel-title>
+        <mat-panel-description *ngIf="moveDetail.levelLearnedAt">{{ moveDetail.levelLearnedAt }}</mat-panel-description>
+      </mat-expansion-panel-header>
+      <ng-template matExpansionPanelContent>
+        <ng-container *ngIf="moveDetail.move | moveResolver | async as move; else loading">
+          <pokedex-move-detail-info [move]="move"></pokedex-move-detail-info>
+        </ng-container>
+        <ng-template #loading>
+          <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+        </ng-template>
+      </ng-template>
+    </mat-expansion-panel>
+  </mat-accordion>
+</ng-container>
+<ng-template #noMoves>
+  <div>No moves</div>
+</ng-template>

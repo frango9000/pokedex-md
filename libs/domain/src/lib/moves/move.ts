@@ -83,9 +83,17 @@ export interface MoveAilment extends NamedApiEntity {
   names: ApiNameLocalization[];
 }
 
+export interface PxMoveAilment extends NamedApiEntity {
+  names: LocalizedNames;
+}
+
 export interface MoveCategory extends NamedApiEntity {
   moves: NamedApiResource<Move>[];
   descriptions: ApiDescriptionLocalization[];
+}
+
+export interface PxMoveCategory extends NamedApiEntity {
+  descriptions: LocalizedNames;
 }
 
 export interface MoveDamageClass extends NamedApiEntity {
@@ -114,6 +122,11 @@ export interface MoveTarget extends NamedApiEntity {
   descriptions: ApiDescriptionLocalization[];
   moves: NamedApiResource<Move>[];
   names: ApiNameLocalization[];
+}
+
+export interface PxMoveTarget extends NamedApiEntity {
+  descriptions: LocalizedNames;
+  names: LocalizedNames;
 }
 
 export interface MoveFlavorText {
