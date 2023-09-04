@@ -9,6 +9,7 @@ import { FormlyMatToggleModule } from '@ngx-formly/material/toggle';
 import { BottomBarService } from '../../../../core/services/bottom-bar.service';
 import { PokemonGenerationSelectModule } from '../../../../shared/modules/filter/pokemon-generation-select/pokemon-generation-select.module';
 import { PokemonTypeSelectModule } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
+import { FormlyMatRangeSliderModule } from '../../../../shared/modules/filter/range-slider/range-slider.module';
 import { MoveFilterModel, MoveFilterService } from '../move-filter.service';
 
 @UntilDestroy()
@@ -22,6 +23,7 @@ import { MoveFilterModel, MoveFilterService } from '../move-filter.service';
     FormlyMaterialModule,
     FormlyMatToggleModule,
     FormlyMatSliderModule,
+    FormlyMatRangeSliderModule,
     PokemonTypeSelectModule,
     PokemonGenerationSelectModule,
   ],
@@ -37,21 +39,42 @@ export class MoveFiltersComponent {
       props: {
         label: 'Search',
         placeholder: 'Search',
-        appearance: 'outline',
       },
     },
     {
       key: 'generations',
       type: 'pokemon-generation-select',
-      props: {
-        appearance: 'outline',
-      },
+      props: {},
     },
     {
       key: 'types',
       type: 'pokemon-type-select',
+      props: {},
+    },
+    {
+      key: 'power',
+      type: 'range-slider',
       props: {
-        appearance: 'outline',
+        label: 'Power',
+        discrete: true,
+        max: 300,
+      },
+    },
+    {
+      key: 'pp',
+      type: 'range-slider',
+      props: {
+        label: 'PP',
+        discrete: true,
+        max: 40,
+      },
+    },
+    {
+      key: 'accuracy',
+      type: 'range-slider',
+      props: {
+        label: 'Accuracy',
+        discrete: true,
       },
     },
   ];

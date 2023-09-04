@@ -85,7 +85,7 @@ export class GenericDatasource<T> implements DataSource<T> {
       return (
         !exclusive.length ||
         exclusive.every((key) => {
-          const inclusive = filters[key]?.filter((filter) => filter.value !== undefined);
+          const inclusive = filters[key]?.filter((filter) => filter.value !== undefined || filter.range !== undefined);
           return (
             !inclusive?.length ||
             inclusive.some((filter) => {
@@ -141,10 +141,10 @@ export class GenericDatasource<T> implements DataSource<T> {
 
                 case 'in-range': {
                   if (!filter.range) return true;
-                  const { start, end, inclusiveStart, inclusiveEnd } = filter.range;
+                  const { start, end, exclusiveStart, exclusiveEnd } = filter.range;
                   return (
-                    (start === undefined || (inclusiveStart ? actual >= start : actual > start)) &&
-                    (end === undefined || (inclusiveEnd ? actual <= end : actual < end))
+                    (start === undefined || (exclusiveStart ? actual > start : actual >= start)) &&
+                    (end === undefined || (exclusiveEnd ? actual < end : actual <= end))
                   );
                 }
 
@@ -210,6 +210,6 @@ export interface PropFilter<T> {
 export interface RangeFilterValue {
   start?: string | number;
   end?: string | number;
-  inclusiveStart?: boolean;
-  inclusiveEnd?: boolean;
+  exclusiveStart?: boolean;
+  exclusiveEnd?: boolean;
 }

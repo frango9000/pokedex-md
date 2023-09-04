@@ -4,7 +4,7 @@ import { PxMove } from '@pokedex-md/domain';
 import { distinctUntilChanged, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { FilterService } from '../../../shared/modules/filter/filter.service';
-import { Filters } from '../../../shared/utils/generic-datasource';
+import { Filters, RangeFilterValue } from '../../../shared/utils/generic-datasource';
 
 @Injectable()
 export class MoveFilterService extends FilterService<PxMove, MoveFilterModel> {
@@ -14,7 +14,7 @@ export class MoveFilterService extends FilterService<PxMove, MoveFilterModel> {
     return super.filterModel$.pipe(
       distinctUntilChanged(),
       map((filterModel) => {
-        const { search, types, generations } = filterModel;
+        const { search, types, generations, power, pp, accuracy } = filterModel;
         const filters: Filters<PxMove> = {};
         if (search) {
           filters['search'] = [
@@ -49,6 +49,33 @@ export class MoveFilterService extends FilterService<PxMove, MoveFilterModel> {
             },
           ];
         }
+        if (power?.start || power?.end) {
+          filters['power'] = [
+            {
+              property: 'power',
+              type: 'in-range',
+              range: power,
+            },
+          ];
+        }
+        if (pp?.start || pp?.end) {
+          filters['pp'] = [
+            {
+              property: 'pp',
+              type: 'in-range',
+              range: pp,
+            },
+          ];
+        }
+        if (accuracy?.start || accuracy?.end) {
+          filters['accuracy'] = [
+            {
+              property: 'accuracy',
+              type: 'in-range',
+              range: accuracy,
+            },
+          ];
+        }
         return filters;
       }),
     );
@@ -59,4 +86,7 @@ export interface MoveFilterModel {
   search?: string;
   types?: string[];
   generations?: string[];
+  power?: RangeFilterValue;
+  pp?: RangeFilterValue;
+  accuracy?: RangeFilterValue;
 }
