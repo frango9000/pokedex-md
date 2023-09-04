@@ -1,0 +1,70 @@
+<ng-container *transloco="let t">
+  <mat-card
+    appearance="outlined"
+    class="table-container"
+    infiniteScroll
+    [infiniteScrollDistance]="2"
+    [infiniteScrollThrottle]="50"
+    (scrolled)="dataSource.nextPage()"
+    [scrollWindow]="false"
+  >
+    <table
+      mat-table
+      [dataSource]="dataSource"
+      [fixedLayout]="true"
+      matSort
+      matSortActive="id"
+      matSortDirection="asc"
+      (matSortChange)="dataSource.sort = $event"
+      aria-describedby="item list"
+    >
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>No.</th>
+        <td mat-cell *matCellDef="let item">{{ item.id }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="sprite">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let item">
+          <img
+            ngSrc="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/{{ item.sprite }}"
+            alt="{{ item.name }}"
+            width="48"
+            height="48"
+            priority
+            imgFallback="assets/images/default-pokemon.png"
+          />
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+        <td mat-cell *matCellDef="let item">{{ t('item.' + item.name + '.name') }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="cost">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Cost</th>
+        <td mat-cell *matCellDef="let item">{{ item.cost }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="category">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Category</th>
+        <td mat-cell *matCellDef="let item">{{ t('item_category.' + item.category) }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="pocket">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Pocket</th>
+        <td mat-cell *matCellDef="let item">{{ t('item_pocket.' + item.pocket) }}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+      <tr
+        mat-row
+        *matRowDef="let row; columns: displayedColumns"
+        [routerLink]="['/', { outlets: { sidebar: ['item', row.name] } }]"
+        [routerLinkActive]="'mat-row-selected'"
+      ></tr>
+    </table>
+    <pokedex-bottom-bar-fab></pokedex-bottom-bar-fab>
+  </mat-card>
+</ng-container>

@@ -6,7 +6,7 @@ import {
 } from './generators/encounters';
 import { EvolutionTriggerGenerator } from './generators/evolution';
 import { GenerationGenerator, VersionGenerator, VersionGroupGenerator } from './generators/game';
-import { ItemCategoryGenerator, ItemGenerator, ItemPocketGenerator } from './generators/item';
+import { ItemAttributeGenerator, ItemCategoryGenerator, ItemGenerator, ItemPocketGenerator } from './generators/item';
 import { LanguageGenerator } from './generators/language';
 import { LocationGenerator, RegionGenerator } from './generators/location';
 import { MachineGenerator } from './generators/machine';
@@ -47,6 +47,7 @@ export function buildApi(): void {
     new ItemGenerator().generateResources(),
     new ItemCategoryGenerator().generateResources(),
     new ItemPocketGenerator().generateResources(),
+    new ItemAttributeGenerator().generateResources(),
     new MachineGenerator().generateResources(),
     new GenerationGenerator().generateResources(),
     new StatGenerator().generateResources(),

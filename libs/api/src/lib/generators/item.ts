@@ -1,16 +1,18 @@
 import {
   ApiEntity,
   Item,
+  ItemAttribute,
   ItemCategory,
   ItemPocket,
   NamedApiResource,
   PxItem,
+  PxItemAttribute,
   PxItemCategory,
   PxItemPocket,
 } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
 import { map, mergeMap } from 'rxjs/operators';
-import { fetchOne, filterAndMapNames, Generator } from '../model/generator';
+import { fetchOne, filterAndMapDescriptions, filterAndMapNames, Generator } from '../model/generator';
 
 export class ItemGenerator extends Generator<ItemWithCategory, PxItem> {
   constructor() {
@@ -66,6 +68,21 @@ export class ItemPocketGenerator extends Generator<ItemPocket, PxItemPocket> {
       id: resource.id,
       name: resource.name,
       names: filterAndMapNames(resource.names),
+    };
+  }
+}
+
+export class ItemAttributeGenerator extends Generator<ItemAttribute, PxItemAttribute> {
+  constructor() {
+    super('item-attribute');
+  }
+
+  protected override mapResource(resource: ItemAttribute): PxItemAttribute {
+    return {
+      id: resource.id,
+      name: resource.name,
+      names: filterAndMapNames(resource.names),
+      descriptions: filterAndMapDescriptions(resource.descriptions),
     };
   }
 }

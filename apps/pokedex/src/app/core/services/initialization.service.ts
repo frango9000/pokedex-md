@@ -4,6 +4,9 @@ import { EvolutionTriggerService } from '../../api/evolution/evolution-trigger.s
 import { GenerationService } from '../../api/games/generation.service';
 import { VersionGroupService } from '../../api/games/version-group.service';
 import { VersionService } from '../../api/games/version.service';
+import { ItemAttributeService } from '../../api/items/item-attribute.service';
+import { ItemCategoryService } from '../../api/items/item-category.service';
+import { ItemPocketService } from '../../api/items/item-pocket.service';
 import { ItemService } from '../../api/items/item.service';
 import { LocationService } from '../../api/locations/location.service';
 import { RegionService } from '../../api/locations/region.service';
@@ -43,6 +46,9 @@ export class InitializationService {
     private readonly pokemonHabitatService: PokemonHabitatService,
     private readonly statService: StatService,
     private readonly itemService: ItemService,
+    private readonly itemCategoryService: ItemCategoryService,
+    private readonly itemAttributeService: ItemAttributeService,
+    private readonly itemPocketService: ItemPocketService,
     private readonly evolutionTriggerService: EvolutionTriggerService,
     private readonly moveService: MoveService,
     private readonly moveLearnMethodService: MoveLearnMethodService,
@@ -62,8 +68,7 @@ export class InitializationService {
       ...this._locationServices(),
       ...this._speciesServices(),
       ...this._moveServices(),
-      this.itemService.initialize(),
-
+      ...this._itemServices(),
       this.evolutionTriggerService.initialize(),
     ]);
   }
@@ -107,6 +112,15 @@ export class InitializationService {
       this.pokemonColorService.initialize(),
       this.pokemonShapeService.initialize(),
       this.pokemonHabitatService.initialize(),
+    ];
+  }
+
+  private _itemServices(): Observable<unknown>[] {
+    return [
+      this.itemService.initialize(),
+      this.itemCategoryService.initialize(),
+      this.itemAttributeService.initialize(),
+      this.itemPocketService.initialize(),
     ];
   }
 }
