@@ -139,6 +139,19 @@
           "effect_short": "Short"
         }
       }
+    },
+    "item": {
+      "detail": {
+        "info": {
+          "id": "ID",
+          "name": "Name",
+          "category": "Category",
+          "cost": "Cost",
+          "effect": "Effect",
+          "effect_short": "Short",
+          "description": "Description"
+        }
+      }
     }
   },
   "version-group": {
