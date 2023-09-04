@@ -4,7 +4,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { FormlyFieldConfig, FormlyModule } from '@ngx-formly/core';
 import { FormlyMaterialModule } from '@ngx-formly/material';
-import { FormlyMatSliderModule } from '@ngx-formly/material/slider';
 import { FormlyMatToggleModule } from '@ngx-formly/material/toggle';
 import { BottomBarService } from '../../../../core/services/bottom-bar.service';
 import { PokemonGenerationSelectModule } from '../../../../shared/modules/filter/pokemon-generation-select/pokemon-generation-select.module';
@@ -22,7 +21,6 @@ import { MoveFilterModel, MoveFilterService } from '../move-filter.service';
     FormlyModule,
     FormlyMaterialModule,
     FormlyMatToggleModule,
-    FormlyMatSliderModule,
     FormlyMatRangeSliderModule,
     PokemonTypeSelectModule,
     PokemonGenerationSelectModule,
@@ -44,12 +42,10 @@ export class MoveFiltersComponent {
     {
       key: 'generations',
       type: 'pokemon-generation-select',
-      props: {},
     },
     {
       key: 'types',
       type: 'pokemon-type-select',
-      props: {},
     },
     {
       key: 'power',

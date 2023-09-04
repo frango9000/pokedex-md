@@ -13,6 +13,7 @@ import { BottomBarFabComponent } from '../../../../shared/components/bottom-bar-
 import { ImgFallbackDirective } from '../../../../shared/directives/img-fallback.directive';
 import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
 import { TypeButtonComponent } from '../../../type/shared/components/type-button/type-button.component';
+import { ItemFilterService } from '../item-filter.service';
 
 @Component({
   selector: 'pokedex-item-list',
@@ -38,10 +39,11 @@ export class ItemListComponent {
   protected readonly dataSource: GenericDatasource<PxItem> = new GenericDatasource<PxItem>();
   protected readonly displayedColumns: string[] = ['id', 'sprite', 'name', 'cost', 'category', 'pocket'];
 
-  constructor(private readonly itemService: ItemService) {
+  constructor(private readonly itemService: ItemService, private readonly filterService: ItemFilterService) {
     this.itemService
       .getAll$()
       .pipe(take(1))
       .subscribe((data) => (this.dataSource.resources = data));
+    this.filterService.filters$.subscribe((filters) => (this.dataSource.filters = filters));
   }
 }

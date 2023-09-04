@@ -1,0 +1,17 @@
+<mat-select
+  [id]="id"
+  [formControl]="formControl"
+  [formlyAttributes]="field"
+  [placeholder]="props.placeholder || 'Select Pockets'"
+  [tabIndex]="props.tabindex"
+  [required]="false"
+  [multiple]="true"
+  [errorStateMatcher]="errorStateMatcher"
+  [aria-label]="'Select Item Pocket Types'"
+  [disableOptionCentering]="true"
+  *transloco="let t"
+>
+  <mat-option *ngFor="let itemPocket of service.getAll$() | async" [value]="itemPocket.name">
+    {{ t('item_pocket.' + itemPocket.name) }}
+  </mat-option>
+</mat-select>

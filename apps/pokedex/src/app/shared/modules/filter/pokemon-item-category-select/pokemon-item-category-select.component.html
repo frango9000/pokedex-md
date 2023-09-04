@@ -1,0 +1,17 @@
+<mat-select
+  [id]="id"
+  [formControl]="formControl"
+  [formlyAttributes]="field"
+  [placeholder]="props.placeholder || 'Select Categories'"
+  [tabIndex]="props.tabindex"
+  [required]="false"
+  [multiple]="true"
+  [errorStateMatcher]="errorStateMatcher"
+  [aria-label]="'Select Item Category Types'"
+  [disableOptionCentering]="true"
+  *transloco="let t"
+>
+  <mat-option *ngFor="let itemCategory of service.getAll$() | async" [value]="itemCategory.name">
+    {{ t('item_category.' + itemCategory.name) }}
+  </mat-option>
+</mat-select>

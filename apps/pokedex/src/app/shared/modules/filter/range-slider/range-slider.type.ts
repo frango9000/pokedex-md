@@ -55,7 +55,6 @@ export class FormlyFieldRangeSlider extends FieldType<FieldTypeConfig<SliderProp
 
   ngOnInit(): void {
     this.formControl.valueChanges.pipe(startWith(this.formControl.value)).subscribe((value) => {
-      console.log('123');
       this.start = value?.start ?? this.props.min ?? 0;
       this.end = value?.end ?? this.props.max ?? 100;
     });
