@@ -1,5 +1,5 @@
 import { Route } from '@angular/router';
-import { moveDetailResolver } from './modules/move/move-detail/move-detail.resolver';
+import { moveResolver } from './modules/move/move-detail/move.resolver';
 import { pokemonDetailResolver } from './modules/pokemon/pokemon-detail/pokemon-detail.resolver';
 
 export const appRoutes: Route[] = [
@@ -29,6 +29,6 @@ export const appRoutes: Route[] = [
     path: 'move/:move',
     loadComponent: () => import('./modules/move/move-detail/move-detail.component').then((m) => m.MoveDetailComponent),
     outlet: 'sidebar',
-    resolve: { moveDetail: moveDetailResolver },
+    resolve: { move: moveResolver },
   },
 ];

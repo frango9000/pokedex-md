@@ -108,6 +108,7 @@
     "move": {
       "detail": {
         "info": {
+          "title": "Move",
           "name": "Name",
           "category": "Category",
           "generation": "Gen",
