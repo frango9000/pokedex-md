@@ -1,5 +1,5 @@
 import { Route } from '@angular/router';
-import { itemResolver } from './modules/item/item-detail/move.resolver';
+import { itemResolver } from './modules/item/item-detail/item.resolver';
 import { moveResolver } from './modules/move/move-detail/move.resolver';
 import { pokemonDetailResolver } from './modules/pokemon/pokemon-detail/pokemon-detail.resolver';
 

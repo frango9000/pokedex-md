@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
@@ -41,6 +41,9 @@ import { PokemonDetailTypeDamagesComponent } from './sections/pokemon-detail-typ
   styleUrls: ['./pokemon-detail.component.scss'],
 })
 export class PokemonDetailComponent {
+  private readonly route: ActivatedRoute = inject(ActivatedRoute);
+  private readonly versionGroupService: VersionGroupService = inject(VersionGroupService);
+
   public readonly detail$: Observable<PokemonDetailResolverData> = this.route.data.pipe(
     map(({ pokemonDetail }) => pokemonDetail),
   );
@@ -96,8 +99,6 @@ export class PokemonDetailComponent {
       movesByMethod.forEach(({ moves }) => moves.sort((a, b) => (a?.levelLearnedAt || 0) - (b?.levelLearnedAt || 0))),
     ),
   );
-
-  constructor(private readonly route: ActivatedRoute, private readonly versionGroupService: VersionGroupService) {}
 }
 
 export interface PokemonMovesByLearnMethods {

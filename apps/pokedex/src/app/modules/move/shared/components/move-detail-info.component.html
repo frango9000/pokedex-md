@@ -5,141 +5,201 @@
       <div class="mat-cell">{{ t('ui.move.detail.info.name') }}</div>
       <div class="mat-cell">{{ t('move.' + move.name + '.name') }}</div>
     </div>
-    <div class="mat-row" *ngIf="move.meta?.category">
-      <div class="mat-cell">{{ t('ui.move.detail.info.category') }}</div>
-      <div class="mat-cell">{{ t('move_category.' + move.meta.category.name) }}</div>
-    </div>
-    <div class="mat-row">
-      <div class="mat-cell">{{ t('ui.move.detail.info.generation') }}</div>
-      <div class="mat-cell">{{ t('generation.' + move.generation.name) }}</div>
-    </div>
-    <div class="mat-row" *ngIf="move.type">
-      <div class="mat-cell">{{ t('ui.move.detail.info.damage_type') }}</div>
-      <div class="mat-cell">
-        <pokedex-type-button [types]="[move.type.name]" [defending]="false"></pokedex-type-button>
-      </div>
-    </div>
-    <div class="mat-row" *ngIf="move.damage_class">
-      <div class="mat-cell">{{ t('ui.move.detail.info.damage_class') }}</div>
-      <div class="mat-cell">
-        {{ t('move_damage_class.' + move.damage_class.name + '.name') | titlecase }}:<br />
-        {{ t('move_damage_class.' + move.damage_class.name + '.description') }}
-      </div>
-    </div>
-    <div class="mat-row" *ngIf="move.pp">
-      <div class="mat-cell">{{ t('ui.move.detail.info.pp') }}</div>
-      <div class="mat-cell">{{ move.pp }}</div>
-    </div>
-    <div class="mat-row" *ngIf="move.accuracy">
-      <div class="mat-cell">{{ t('ui.move.detail.info.accuracy') }}</div>
-      <div class="mat-cell">{{ move.accuracy / 100 | percent }}</div>
-    </div>
-    <div class="mat-row">
-      <div class="mat-cell">{{ t('ui.move.detail.info.power') }}</div>
-      <div class="mat-cell">{{ move.power ? move.power : 'N/A' }}</div>
-    </div>
-    <div class="mat-row" *ngIf="move.priority">
-      <div class="mat-cell">{{ t('ui.move.detail.info.priority') }}</div>
-      <div class="mat-cell">{{ move.priority }}</div>
-    </div>
-    <div class="mat-row" *ngIf="move.meta?.stat_chance">
-      <div class="mat-cell">{{ t('ui.move.detail.info.stat_change_chance') }}</div>
-      <div class="mat-cell">{{ move.meta.stat_chance / 100 | percent }}</div>
-    </div>
-    <ng-container *ngIf="move.stat_changes.length > 0">
-      <div class="mat-row" *ngFor="let statChange of move.stat_changes">
-        <div class="mat-cell">{{ t('STAT.' + statChange.stat.name) }}</div>
-        <div class="mat-cell">{{ statChange.change }}</div>
-      </div>
-    </ng-container>
-    <div class="mat-row" *ngIf="move.meta?.crit_rate">
-      <div class="mat-cell">{{ t('ui.move.detail.info.critical_rate') }}</div>
-      <div class="mat-cell">{{ move.meta.crit_rate / 100 | percent }}</div>
-    </div>
-    <div class="mat-row" *ngIf="move.meta?.healing">
-      <div class="mat-cell">{{ t('ui.move.detail.info.healing') }}</div>
-      <div class="mat-cell">{{ move.meta.healing }}</div>
-    </div>
-    <div class="mat-row" *ngIf="move.meta?.drain">
-      <div class="mat-cell">
-        {{ move.meta.drain > 0 ? t('ui.move.detail.info.drain') : t('ui.move.detail.info.recoil') }}
-      </div>
-      <div class="mat-cell">{{ move.meta.drain / 100 | percent }}</div>
-    </div>
-    <ng-container *ngIf="move.meta?.ailment_chance">
+    <ng-container *ngIf="move.meta?.category">
+      <mat-divider></mat-divider>
       <div class="mat-row">
-        <div class="mat-cell">{{ t('ui.move.detail.info.ailment') }}</div>
+        <div class="mat-cell">{{ t('ui.move.detail.info.category') }}</div>
+        <div class="mat-cell">{{ t('move_category.' + move.meta.category.name) }}</div>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.move.detail.info.generation') }}</div>
+        <div class="mat-cell">{{ t('generation.' + move.generation.name) }}</div>
+      </div>
+      <ng-container *ngIf="move.type">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.damage_type') }}</div>
+          <div class="mat-cell">
+            <pokedex-type-button [types]="[move.type.name]" [defending]="false"></pokedex-type-button>
+          </div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.damage_class">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.damage_class') }}</div>
+          <div class="mat-cell">
+            {{ t('move_damage_class.' + move.damage_class.name + '.name') | titlecase }}:<br />
+            {{ t('move_damage_class.' + move.damage_class.name + '.description') }}
+          </div>
+        </div>
+      </ng-container>
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.move.detail.info.pp') }}</div>
+        <div class="mat-cell">{{ move.pp }}</div>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.move.detail.info.accuracy') }}</div>
+        <div class="mat-cell">{{ move.accuracy / 100 | percent }}</div>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.move.detail.info.power') }}</div>
+        <div class="mat-cell">{{ move.power ? move.power : 'N/A' }}</div>
+      </div>
+      <ng-container *ngIf="move.priority">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.priority') }}</div>
+          <div class="mat-cell">{{ move.priority }}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.meta?.stat_chance">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.stat_change_chance') }}</div>
+          <div class="mat-cell">{{ move.meta.stat_chance / 100 | percent }}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.stat_changes.length > 0">
+        <mat-divider></mat-divider>
+        <div class="mat-row" *ngFor="let statChange of move.stat_changes">
+          <div class="mat-cell">{{ t('STAT.' + statChange.stat.name) }}</div>
+          <div class="mat-cell">{{ statChange.change }}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.meta?.crit_rate">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.critical_rate') }}</div>
+          <div class="mat-cell">{{ move.meta.crit_rate / 100 | percent }}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.meta?.healing">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.healing') }}</div>
+          <div class="mat-cell">{{ move.meta.healing }}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.meta?.drain">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">
+            {{ move.meta.drain > 0 ? t('ui.move.detail.info.drain') : t('ui.move.detail.info.recoil') }}
+          </div>
+          <div class="mat-cell">{{ move.meta.drain / 100 | percent }}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.meta?.ailment_chance">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.ailment') }}</div>
+          <div class="mat-cell">
+            {{ t('move_ailment.' + move.meta.ailment.name) }}
+          </div>
+        </div>
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.ailment_chance') }}</div>
+          <div class="mat-cell">{{ move.meta.ailment_chance / 100 | percent }}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="move.meta?.flinch_chance">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.flinch_chance') }}</div>
+          <div class="mat-cell">{{ move.meta.flinch_chance / 100 | percent }}</div>
+        </div>
+      </ng-container>
+      <mat-divider></mat-divider>
+      <div class="mat-row">
+        <div class="mat-cell">{{ t('ui.move.detail.info.target') }}</div>
         <div class="mat-cell">
-          {{ t('move_ailment.' + move.meta.ailment.name) }}
+          {{ t('move_target.' + move.target.name + '.name') }}: <br />
+          {{ t('move_target.' + move.target.name + '.description') }}
         </div>
       </div>
+      <ng-container *ngIf="move.meta?.min_hits && move.meta.min_hits === move.meta.max_hits; else hitsMinMax">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.hits') }}</div>
+          <div class="mat-cell">{{ move.meta.min_hits }}</div>
+        </div>
+      </ng-container>
+      <ng-template #hitsMinMax>
+        <ng-container *ngIf="move.meta?.min_hits">
+          <mat-divider></mat-divider>
+          <div class="mat-row">
+            <div class="mat-cell">{{ t('ui.move.detail.info.min_hits') }}</div>
+            <div class="mat-cell">{{ move.meta.min_hits }}</div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="move.meta?.max_hits">
+          <mat-divider></mat-divider>
+          <div class="mat-row">
+            <div class="mat-cell">{{ t('ui.move.detail.info.max_hits') }}</div>
+            <div class="mat-cell">{{ move.meta.max_hits }}</div>
+          </div>
+        </ng-container>
+      </ng-template>
+      <ng-container *ngIf="move.meta?.min_turns && move.meta.min_turns === move.meta.max_turns; else turnsMinMax">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.turns') }}</div>
+          <div class="mat-cell">{{ move.meta.min_turns }}</div>
+        </div>
+      </ng-container>
+      <ng-template #turnsMinMax>
+        <ng-container *ngIf="move.meta?.min_turns">
+          <mat-divider></mat-divider>
+          <div class="mat-row">
+            <div class="mat-cell">{{ t('ui.move.detail.info.min_turns') }}</div>
+            <div class="mat-cell">{{ move.meta.min_turns }}</div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="move.meta?.max_turns">
+          <mat-divider></mat-divider>
+          <div class="mat-row">
+            <div class="mat-cell">{{ t('ui.move.detail.info.max_turns') }}</div>
+            <div class="mat-cell">{{ move.meta.max_turns }}</div>
+          </div>
+        </ng-container>
+      </ng-template>
+      <mat-divider></mat-divider>
       <div class="mat-row">
-        <div class="mat-cell">{{ t('ui.move.detail.info.ailment_chance') }}</div>
-        <div class="mat-cell">{{ move.meta.ailment_chance / 100 | percent }}</div>
-      </div>
-    </ng-container>
-    <div class="mat-row" *ngIf="move.meta?.flinch_chance">
-      <div class="mat-cell">{{ t('ui.move.detail.info.flinch_chance') }}</div>
-      <div class="mat-cell">{{ move.meta.flinch_chance / 100 | percent }}</div>
-    </div>
-    <div class="mat-row">
-      <div class="mat-cell">{{ t('ui.move.detail.info.target') }}</div>
-      <div class="mat-cell">
-        {{ t('move_target.' + move.target.name + '.name') }}: <br />
-        {{ t('move_target.' + move.target.name + '.description') }}
-      </div>
-    </div>
-    <div class="mat-row" *ngIf="move.meta?.min_hits && move.meta.min_hits === move.meta.max_hits; else hitsMinMax">
-      <div class="mat-cell">{{ t('ui.move.detail.info.hits') }}</div>
-      <div class="mat-cell">{{ move.meta.min_hits }}</div>
-    </div>
-    <ng-template #hitsMinMax>
-      <div class="mat-row" *ngIf="move.meta?.min_hits">
-        <div class="mat-cell">{{ t('ui.move.detail.info.min_hits') }}</div>
-        <div class="mat-cell">{{ move.meta.min_hits }}</div>
-      </div>
-      <div class="mat-row" *ngIf="move.meta?.max_hits">
-        <div class="mat-cell">{{ t('ui.move.detail.info.max_hits') }}</div>
-        <div class="mat-cell">{{ move.meta.max_hits }}</div>
-      </div>
-    </ng-template>
-    <div class="mat-row" *ngIf="move.meta?.min_turns && move.meta.min_turns === move.meta.max_turns; else turnsMinMax">
-      <div class="mat-cell">{{ t('ui.move.detail.info.turns') }}</div>
-      <div class="mat-cell">{{ move.meta.min_turns }}</div>
-    </div>
-    <ng-template #turnsMinMax>
-      <div class="mat-row" *ngIf="move.meta?.min_turns">
-        <div class="mat-cell">{{ t('ui.move.detail.info.min_turns') }}</div>
-        <div class="mat-cell">{{ move.meta.min_turns }}</div>
-      </div>
-      <div class="mat-row" *ngIf="move.meta?.max_turns">
-        <div class="mat-cell">{{ t('ui.move.detail.info.max_turns') }}</div>
-        <div class="mat-cell">{{ move.meta.max_turns }}</div>
-      </div>
-    </ng-template>
-    <div class="mat-row">
-      <div class="mat-cell">{{ t('ui.move.detail.info.description') }}</div>
-      <div class="mat-cell" *withVersionGroup="let versionGroup">
-        {{ t('move.' + move.name + '.flavor_text.' + versionGroup.name) }}
-      </div>
-    </div>
-    <div class="mat-row" *ngIf="move.effect_chance">
-      <div class="mat-cell">{{ t('ui.move.detail.info.effect_chance') }}</div>
-      <div class="mat-cell">{{ move.effect_chance / 100 | percent }}</div>
-    </div>
-    <ng-container *ngLet="move.effect_chance ? move.effect_chance : '' as effect_chance">
-      <div class="mat-row">
-        <div class="mat-cell">{{ t('ui.move.detail.info.effect') }}</div>
-        <div class="mat-cell">
-          {{ t('move.' + move.name + '.effect_entry.effect', { effect_chance: effect_chance }) }}
+        <div class="mat-cell">{{ t('ui.move.detail.info.description') }}</div>
+        <div class="mat-cell" *withVersionGroup="let versionGroup">
+          {{ t('move.' + move.name + '.flavor_text.' + versionGroup.name) }}
         </div>
       </div>
-      <div class="mat-row">
-        <div class="mat-cell">{{ t('ui.move.detail.info.effect_short') }}</div>
-        <div class="mat-cell">
-          {{ t('move.' + move.name + '.effect_entry.short', { effect_chance: effect_chance }) }}
+      <ng-container *ngIf="move.effect_chance">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.effect_chance') }}</div>
+          <div class="mat-cell">{{ move.effect_chance / 100 | percent }}</div>
         </div>
-      </div>
+      </ng-container>
+      <ng-container *ngLet="move.effect_chance ? move.effect_chance : '' as effect_chance">
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.effect') }}</div>
+          <div class="mat-cell">
+            {{ t('move.' + move.name + '.effect_entry.effect', { effect_chance: effect_chance }) }}
+          </div>
+        </div>
+
+        <mat-divider></mat-divider>
+        <div class="mat-row">
+          <div class="mat-cell">{{ t('ui.move.detail.info.effect_short') }}</div>
+          <div class="mat-cell">
+            {{ t('move.' + move.name + '.effect_entry.short', { effect_chance: effect_chance }) }}
+          </div>
+        </div>
+      </ng-container>
     </ng-container>
   </div>
 </ng-container>

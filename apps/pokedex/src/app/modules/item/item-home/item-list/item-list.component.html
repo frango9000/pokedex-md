@@ -27,12 +27,12 @@
         <th mat-header-cell *matHeaderCellDef></th>
         <td mat-cell *matCellDef="let item">
           <img
+            *ngIf="item.sprite?.length"
             ngSrc="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/{{ item.sprite }}"
-            alt="{{ item.name }}"
+            [alt]="item.name"
             width="48"
             height="48"
             priority
-            imgFallback="assets/images/default-pokemon.png"
           />
         </td>
       </ng-container>

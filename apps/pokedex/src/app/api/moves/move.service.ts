@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { Move, PxMove } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
 import { MergingMap } from '../../shared/utils/merge-map';
@@ -9,12 +9,10 @@ import { VersionGroupService } from '../games/version-group.service';
   providedIn: 'root',
 })
 export class MoveService extends TranslatedService<Move, PxMove> {
+  private readonly versionGroupService: VersionGroupService = inject(VersionGroupService);
+
   protected get name(): string {
     return 'move';
-  }
-
-  constructor(private readonly versionGroupService: VersionGroupService) {
-    super();
   }
 
   protected override _parseAllTranslations(resources: PxMove[]): Observable<MergingMap> {
