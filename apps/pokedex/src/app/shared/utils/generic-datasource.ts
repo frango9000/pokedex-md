@@ -165,8 +165,16 @@ export class GenericDatasource<T> implements DataSource<T> {
     return function (a: T, b: T) {
       let comparison = 0;
       if (sort && sort.direction !== '') {
-        const propA = a[sort.active as keyof T];
-        const propB = b[sort.active as keyof T];
+        const keys = sort.active.split('.');
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        let propA: any = a;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        let propB: any = b;
+
+        for (const key of keys) {
+          propA = propA?.[key];
+          propB = propB?.[key];
+        }
 
         if (propA > propB) {
           comparison = 1;

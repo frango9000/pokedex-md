@@ -10,6 +10,7 @@ import { ItemPocketService } from '../../api/items/item-pocket.service';
 import { ItemService } from '../../api/items/item.service';
 import { LocationService } from '../../api/locations/location.service';
 import { RegionService } from '../../api/locations/region.service';
+import { MachineService } from '../../api/machine/machine.service';
 import { MoveAilmentService } from '../../api/moves/move-ailment.service';
 import { MoveCategoryService } from '../../api/moves/move-category.service';
 import { MoveDamageClassService } from '../../api/moves/move-damage-class.service';
@@ -58,6 +59,7 @@ export class InitializationService {
     private readonly moveDamageClassService: MoveDamageClassService,
     private readonly locationService: LocationService,
     private readonly regionService: RegionService,
+    private readonly machineService: MachineService,
   ) {}
 
   initialize(): Observable<unknown> {
@@ -70,6 +72,7 @@ export class InitializationService {
       ...this._moveServices(),
       ...this._itemServices(),
       this.evolutionTriggerService.initialize(),
+      this.machineService.initialize(),
     ]);
   }
 
