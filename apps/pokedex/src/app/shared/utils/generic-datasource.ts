@@ -89,9 +89,15 @@ export class GenericDatasource<T> implements DataSource<T> {
           return (
             !inclusive?.length ||
             inclusive.some((filter) => {
-              const actual = filter.locale
-                ? (resource[filter.property] as LocalizedNames)[filter.locale]
-                : resource[filter.property];
+              const keys = filter.property?.split('.');
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              let actual = resource as any;
+              for (const key of keys) {
+                actual = actual?.[key];
+              }
+              if (filter.locale) {
+                actual = (actual as LocalizedNames)?.[filter.locale];
+              }
               switch (filter.type) {
                 case 'equal':
                   return actual === filter.value;
@@ -208,7 +214,7 @@ export interface PropFilter<T> {
     | 'less-than-or-equal'
     | 'in-range'
     | 'custom';
-  property: keyof T;
+  property: string;
   value?: string | number | (string | number)[];
   range?: RangeFilterValue;
   locale?: string;

@@ -64,15 +64,15 @@ export class InitializationService {
 
   initialize(): Observable<unknown> {
     return forkJoin([
+      this.machineService.initialize(),
       this.languageService.initialize(),
+      ...this._itemServices(),
       ...this._pokemonServices(),
       ...this._gameServices(),
       ...this._locationServices(),
       ...this._speciesServices(),
       ...this._moveServices(),
-      ...this._itemServices(),
       this.evolutionTriggerService.initialize(),
-      this.machineService.initialize(),
     ]);
   }
 
