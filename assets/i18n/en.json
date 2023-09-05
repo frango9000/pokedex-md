@@ -143,6 +143,7 @@
     "item": {
       "detail": {
         "info": {
+          "title": "Item",
           "id": "ID",
           "name": "Name",
           "category": "Category",
