@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
 import { itemResolver } from './modules/item/item-detail/item.resolver';
-import { machineResolver } from './modules/machine/machine-detail/machine.resolver';
+import { machineDetailResolver } from './modules/machine/machine-detail/machine.resolver';
 import { moveResolver } from './modules/move/move-detail/move.resolver';
 import { pokemonDetailResolver } from './modules/pokemon/pokemon-detail/pokemon-detail.resolver';
 
@@ -54,6 +54,6 @@ export const appRoutes: Route[] = [
     loadComponent: () =>
       import('./modules/machine/machine-detail/machine-detail.component').then((m) => m.MachineDetailComponent),
     outlet: 'sidebar',
-    resolve: { machine: machineResolver },
+    resolve: { machineDetail: machineDetailResolver },
   },
 ];

@@ -1,1 +1,41 @@
-<p>machine-detail works!</p>
+<ng-container *transloco="let t">
+  <mat-card appearance="outlined" *ngIf="item$ | async as item">
+    <mat-card-header>
+      <mat-card-title>{{ t('item.' + item.name + '.name') }}</mat-card-title>
+    </mat-card-header>
+    <img
+      *ngIf="item.sprites?.default"
+      mat-card-image
+      ngSrc="{{ item.sprites.default }}"
+      [alt]="item.name"
+      width="96"
+      height="96"
+      priority
+      imgFallback="assets/images/default-pokemon.png"
+    />
+
+    <mat-card-content>
+      <mat-accordion class="mat-icon-accordion" multi>
+        <mat-expansion-panel class="unpadded" expanded>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ t('ui.move.detail.info.title') }}</mat-panel-title>
+            <mat-panel-description> &nbsp;</mat-panel-description>
+          </mat-expansion-panel-header>
+          <ng-template matExpansionPanelContent>
+            <pokedex-item-detail-info [item]="item"></pokedex-item-detail-info>
+          </ng-template>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel class="unpadded" expanded>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ t('ui.item.detail.info.title') }}</mat-panel-title>
+            <mat-panel-description> &nbsp;</mat-panel-description>
+          </mat-expansion-panel-header>
+          <ng-template matExpansionPanelContent>
+            <pokedex-move-detail-info [move]="move$ | async"></pokedex-move-detail-info>
+          </ng-template>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>
+</ng-container>

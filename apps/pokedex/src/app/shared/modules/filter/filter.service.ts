@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable, of } from 'rxjs';
+import { BehaviorSubject, distinctUntilChanged, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { Filters } from '../../utils/generic-datasource';
 
 @Injectable()
-export class FilterService<T, M> {
+export abstract class FilterService<T, M> {
   private readonly _filterModel: BehaviorSubject<M> = new BehaviorSubject<M>({} as M);
 
   get filterModel$(): Observable<M> {
@@ -19,6 +20,8 @@ export class FilterService<T, M> {
   }
 
   get filters$(): Observable<Filters<T>> {
-    return of({});
+    return this.filterModel$.pipe(distinctUntilChanged(), map(this.mapFilterModel));
   }
+
+  protected abstract mapFilterModel(filterModel: M): Filters<T>;
 }

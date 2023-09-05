@@ -11,6 +11,7 @@ import { ImgFallbackDirective } from '../../../shared/directives/img-fallback.di
 import { TypeButtonComponent } from '../../type/shared/components/type-button/type-button.component';
 import { TypeSlotNamesPipe } from '../../type/shared/pipes/type-slot-names.pipe';
 import { WithVersionGroupDirective } from '../../version/shared/directives/with-version-group.directive';
+import { ItemDetailInfoComponent } from '../shared/components/item-detail-info.component';
 
 @Component({
   selector: 'pokedex-item-detail',
@@ -25,6 +26,7 @@ import { WithVersionGroupDirective } from '../../version/shared/directives/with-
     NgOptimizedImage,
     MatDividerModule,
     WithVersionGroupDirective,
+    ItemDetailInfoComponent,
   ],
   templateUrl: './item-detail.component.html',
   styleUrls: ['./item-detail.component.scss'],

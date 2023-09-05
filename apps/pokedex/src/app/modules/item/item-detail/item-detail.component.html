@@ -16,55 +16,7 @@
       />
 
       <mat-card-content>
-        <div class="mat-table mat-static-table">
-          <mat-divider></mat-divider>
-          <div class="mat-header-row">
-            <div class="mat-header-cell">{{ t('ui.item.detail.info.id') }}</div>
-            <div class="mat-header-cell">{{ item.id }}</div>
-          </div>
-          <mat-divider></mat-divider>
-          <div class="mat-row">
-            <div class="mat-cell">{{ t('ui.item.detail.info.name') }}</div>
-            <div class="mat-cell">
-              {{ t('item.' + item.name + '.name') }}
-            </div>
-          </div>
-          <mat-divider></mat-divider>
-          <div class="mat-row">
-            <div class="mat-cell">{{ t('ui.item.detail.info.cost') }}</div>
-            <div class="mat-cell">{{ item.cost }}</div>
-          </div>
-          <mat-divider></mat-divider>
-          <div class="mat-row">
-            <div class="mat-cell">{{ t('ui.item.detail.info.category') }}</div>
-            <div class="mat-cell">{{ t('item_category.' + item.category.name) }}</div>
-          </div>
-          <ng-container *ngFor="let attribute of item.attributes">
-            <mat-divider></mat-divider>
-            <div class="mat-row">
-              <div class="mat-cell">{{ t('item_attribute.' + attribute.name + '.name') }}</div>
-              <div class="mat-cell">{{ t('item_attribute.' + attribute.name + '.description') }}</div>
-            </div>
-          </ng-container>
-
-          <mat-divider></mat-divider>
-          <div class="mat-row">
-            <div class="mat-cell">{{ t('ui.item.detail.info.description') }}</div>
-            <div class="mat-cell" *withVersionGroup="let versionGroup">
-              {{ t('item.' + item.name + '.flavor_text.' + versionGroup.name) }}
-            </div>
-          </div>
-          <mat-divider></mat-divider>
-          <div class="mat-row">
-            <div class="mat-cell">{{ t('ui.item.detail.info.effect') }}</div>
-            <div class="mat-cell">{{ t('item.' + item.name + '.effect_entry.effect') }}</div>
-          </div>
-          <mat-divider></mat-divider>
-          <div class="mat-row">
-            <div class="mat-cell">{{ t('ui.item.detail.info.effect_short') }}</div>
-            <div class="mat-cell">{{ t('item.' + item.name + '.effect_entry.short') }}</div>
-          </div>
-        </div>
+        <pokedex-item-detail-info [item]="item"></pokedex-item-detail-info>
       </mat-card-content>
     </mat-card>
   </ng-container>
