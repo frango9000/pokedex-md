@@ -1,16 +1,38 @@
 import { inject, Injectable } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
 import { PxMachine } from '@pokedex-md/domain';
+import { combineLatestWith, distinctUntilChanged, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { VersionGroupService } from '../../../api/games/version-group.service';
 import { FilterService } from '../../../shared/modules/filter/filter.service';
 import { Filters, RangeFilterValue } from '../../../shared/utils/generic-datasource';
 
 @Injectable()
 export class MachineFilterService extends FilterService<PxMachine, MachineFilterModel> {
   private readonly translocoService: TranslocoService = inject(TranslocoService);
+  private readonly versionGroupService: VersionGroupService = inject(VersionGroupService);
+
+  override get filters$(): Observable<Filters<PxMachine>> {
+    return this.filterModel$.pipe(
+      distinctUntilChanged(),
+      combineLatestWith(this.versionGroupService.versionGroup$),
+      map(([filterModel, versionGroup]) => ({ ...filterModel, versionGroup: versionGroup.name })),
+      map(this.mapFilterModel),
+    );
+  }
 
   protected mapFilterModel(filterModel: MachineFilterModel): Filters<PxMachine> {
-    const { search, cost, types, power, pp, accuracy } = filterModel;
+    const { search, cost, types, power, pp, accuracy, versionGroup } = filterModel;
     const filters: Filters<PxMachine> = {};
+    if (versionGroup) {
+      filters['versionGroup'] = [
+        {
+          property: 'version_group',
+          type: 'equal',
+          value: versionGroup,
+        },
+      ];
+    }
     if (search) {
       filters['search'] = [
         {
@@ -92,6 +114,7 @@ export class MachineFilterService extends FilterService<PxMachine, MachineFilter
 }
 
 export interface MachineFilterModel {
+  versionGroup?: string;
   search?: string;
   cost?: RangeFilterValue;
   types?: string[];
