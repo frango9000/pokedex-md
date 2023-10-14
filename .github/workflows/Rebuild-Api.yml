@@ -39,7 +39,7 @@ jobs:
         id: git_diff_check
         run: |
           git fetch origin
-          git diff --quiet origin/development || echo "{changes: 'yes'}" >> $GITHUB_OUTPUT
+          git diff --quiet origin/development || echo "{changes}='yes'" >> $GITHUB_OUTPUT
 
       - name: Commit and push if there were changes
         if: steps.git_diff_check.outputs.changes == 'yes'
