@@ -46,8 +46,9 @@ jobs:
         run: |
           git config user.name "Poke Bot"
           git config user.email "frango9000@users.noreply.github.com"
-          git checkout -b api/$(date +%Y-%U)
-          git add .
-          git commit -m "API changes - $(date +%Y-%U)"
-          git push origin api/$(date +%Y-%U)
-          gh pr create --base development --title "API changes - $(date +%Y-%U)" --body "API changes - $(date +%Y-%U)"
+          CURRENT_BRANCH=api/$(date +%Y-%U)
+          git checkout -b $CURRENT_BRANCH
+          git add ./apps/pokedex/src/assets/api
+          git commit -m "Chore(api): $CURRENT_BRANCH"
+          git push -f origin $CURRENT_BRANCH
+          gh pr create --base development --title "Chore(api): $CURRENT_BRANCH" --body "Chore(api): $CURRENT_BRANCH"

@@ -168,30 +168,6 @@
     "move_damage_class": "physical"
   },
   {
-    "id": 9,
-    "name": "steel",
-    "damage_relations": {
-      "double_damage_from": ["fighting", "ground", "fire"],
-      "double_damage_to": ["rock", "ice", "fairy"],
-      "half_damage_from": ["normal", "flying", "rock", "bug", "steel", "grass", "psychic", "ice", "dragon", "fairy"],
-      "half_damage_to": ["steel", "fire", "water", "electric"],
-      "no_damage_from": ["poison"],
-      "no_damage_to": []
-    },
-    "names": {
-      "ja-Hrkt": "はがね",
-      "ko": "강철",
-      "zh-Hant": "鋼",
-      "fr": "Acier",
-      "de": "Stahl",
-      "es": "Acero",
-      "it": "Acciaio",
-      "en": "Steel"
-    },
-    "generation": "generation-ii",
-    "move_damage_class": "physical"
-  },
-  {
     "id": 10,
     "name": "fire",
     "damage_relations": {
