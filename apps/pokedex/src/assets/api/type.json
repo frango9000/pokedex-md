@@ -24,30 +24,6 @@
     "move_damage_class": "physical"
   },
   {
-    "id": 2,
-    "name": "fighting",
-    "damage_relations": {
-      "double_damage_from": ["flying", "psychic", "fairy"],
-      "double_damage_to": ["normal", "rock", "steel", "ice", "dark"],
-      "half_damage_from": ["rock", "bug", "dark"],
-      "half_damage_to": ["flying", "poison", "bug", "psychic", "fairy"],
-      "no_damage_from": [],
-      "no_damage_to": ["ghost"]
-    },
-    "names": {
-      "ja-Hrkt": "かくとう",
-      "ko": "격투",
-      "zh-Hant": "格鬥",
-      "fr": "Combat",
-      "de": "Kampf",
-      "es": "Lucha",
-      "it": "Lotta",
-      "en": "Fighting"
-    },
-    "generation": "generation-i",
-    "move_damage_class": "physical"
-  },
-  {
     "id": 3,
     "name": "flying",
     "damage_relations": {
