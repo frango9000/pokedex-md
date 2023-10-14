@@ -1,1 +1,114 @@
-[{"id":1,"name":"hp","names":{"ja-Hrkt":"HP","ko":"HP","zh-Hant":"HP","fr":"PV","de":"KP","es":"PS","it":"PS","en":"HP"}},{"id":2,"name":"attack","names":{"ja-Hrkt":"こうげき","ko":"공격","zh-Hant":"攻擊","fr":"Attaque","de":"Angriff","es":"Ataque","it":"Attacco","en":"Attack"}},{"id":3,"name":"defense","names":{"ja-Hrkt":"ぼうぎょ","ko":"방어","zh-Hant":"防禦","fr":"Défense","de":"Verteidigung","es":"Defensa","it":"Difesa","en":"Defense"}},{"id":4,"name":"special-attack","names":{"ja-Hrkt":"とくこう","ko":"특수공격","zh-Hant":"特攻","fr":"Attaque Spéciale","de":"Spezialangriff","es":"Ataque Especial","it":"Attacco Speciale","en":"Special Attack"}},{"id":5,"name":"special-defense","names":{"ja-Hrkt":"とくぼう","ko":"특수방어","zh-Hant":"特防","fr":"Défense Spéciale","de":"Spezialverteidigung","es":"Defensa Especial","it":"Difesa Speciale","en":"Special Defense"}},{"id":6,"name":"speed","names":{"ja-Hrkt":"すばやさ","ko":"스피드","zh-Hant":"速度","fr":"Vitesse","de":"Initiative","es":"Velocidad","it":"Velocità","en":"Speed"}},{"id":7,"name":"accuracy","names":{"ja-Hrkt":"めいちゅう","ko":"명중률","zh-Hant":"命中","fr":"Précision","de":"Genauigkeit","es":"Precisión","it":"precisione","en":"accuracy"}},{"id":8,"name":"evasion","names":{"ja-Hrkt":"かいひ","ko":"회피율","zh-Hant":"閃避","fr":"Esquive","de":"Fluchtwert","es":"Evasión","it":"elusione","en":"evasion"}}]
+[
+  {
+    "id": 1,
+    "name": "hp",
+    "names": {
+      "ja-Hrkt": "HP",
+      "ko": "HP",
+      "zh-Hant": "HP",
+      "fr": "PV",
+      "de": "KP",
+      "es": "PS",
+      "it": "PS",
+      "en": "HP"
+    }
+  },
+  {
+    "id": 2,
+    "name": "attack",
+    "names": {
+      "ja-Hrkt": "こうげき",
+      "ko": "공격",
+      "zh-Hant": "攻擊",
+      "fr": "Attaque",
+      "de": "Angriff",
+      "es": "Ataque",
+      "it": "Attacco",
+      "en": "Attack"
+    }
+  },
+  {
+    "id": 3,
+    "name": "defense",
+    "names": {
+      "ja-Hrkt": "ぼうぎょ",
+      "ko": "방어",
+      "zh-Hant": "防禦",
+      "fr": "Défense",
+      "de": "Verteidigung",
+      "es": "Defensa",
+      "it": "Difesa",
+      "en": "Defense"
+    }
+  },
+  {
+    "id": 4,
+    "name": "special-attack",
+    "names": {
+      "ja-Hrkt": "とくこう",
+      "ko": "특수공격",
+      "zh-Hant": "特攻",
+      "fr": "Attaque Spéciale",
+      "de": "Spezialangriff",
+      "es": "Ataque Especial",
+      "it": "Attacco Speciale",
+      "en": "Special Attack"
+    }
+  },
+  {
+    "id": 5,
+    "name": "special-defense",
+    "names": {
+      "ja-Hrkt": "とくぼう",
+      "ko": "특수방어",
+      "zh-Hant": "特防",
+      "fr": "Défense Spéciale",
+      "de": "Spezialverteidigung",
+      "es": "Defensa Especial",
+      "it": "Difesa Speciale",
+      "en": "Special Defense"
+    }
+  },
+  {
+    "id": 6,
+    "name": "speed",
+    "names": {
+      "ja-Hrkt": "すばやさ",
+      "ko": "스피드",
+      "zh-Hant": "速度",
+      "fr": "Vitesse",
+      "de": "Initiative",
+      "es": "Velocidad",
+      "it": "Velocità",
+      "en": "Speed"
+    }
+  },
+  {
+    "id": 7,
+    "name": "accuracy",
+    "names": {
+      "ja-Hrkt": "めいちゅう",
+      "ko": "명중률",
+      "zh-Hant": "命中",
+      "fr": "Précision",
+      "de": "Genauigkeit",
+      "es": "Precisión",
+      "it": "precisione",
+      "en": "accuracy"
+    }
+  },
+  {
+    "id": 8,
+    "name": "evasion",
+    "names": {
+      "ja-Hrkt": "かいひ",
+      "ko": "회피율",
+      "zh-Hant": "閃避",
+      "fr": "Esquive",
+      "de": "Fluchtwert",
+      "es": "Evasión",
+      "it": "elusione",
+      "en": "evasion"
+    }
+  }
+]

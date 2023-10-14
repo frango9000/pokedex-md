@@ -1,1 +1,132 @@
-[{"id":1,"name":"kanto","names":{"ja-Hrkt":"カントー","ko":"관동","zh-Hant":"關都","fr":"Kanto","de":"Kanto","it":"Kanto","en":"Kanto"}},{"id":2,"name":"johto","names":{"ja-Hrkt":"ジョウト","ko":"성도","zh-Hant":"城都","fr":"Johto","de":"Johto","it":"Johto","en":"Johto"}},{"id":3,"name":"hoenn","names":{"ja-Hrkt":"ホウエン","ko":"호연","zh-Hant":"豐緣","fr":"Hoenn","de":"Hoenn","it":"Hoenn","en":"Hoenn"}},{"id":4,"name":"sinnoh","names":{"ja-Hrkt":"シンオウ","ko":"신오","zh-Hant":"神奧","fr":"Sinnoh","de":"Sinnoh","it":"Sinnoh","en":"Sinnoh"}},{"id":5,"name":"unova","names":{"ja-Hrkt":"イッシュ","ko":"하나","zh-Hant":"合眾","fr":"Unys","de":"Einall","it":"Unima","en":"Unova"}},{"id":6,"name":"kalos","names":{"ja-Hrkt":"カロス","ko":"칼로스","zh-Hant":"卡洛斯","fr":"Kalos","de":"Kalos","it":"Kalos","en":"Kalos"}},{"id":7,"name":"alola","names":{"ja-Hrkt":"アローラ","ko":"알로라","zh-Hant":"阿羅拉","fr":"Alola","de":"Alola","it":"Alola","en":"Alola"}},{"id":8,"name":"galar","names":{"ja-Hrkt":"ガラル","ko":"가라르","zh-Hant":"伽勒爾","fr":"Galar","de":"Galar","it":"Galar","en":"Galar"}},{"id":9,"name":"hisui","names":{"ja-Hrkt":"ヒスイ","ko":"히스이","zh-Hant":"洗翠","fr":"Hisui","de":"Hisui","it":"Hisui","en":"Hisui"}},{"id":10,"name":"paldea","names":{"ja-Hrkt":"パルデア","ko":"팔데아","zh-Hant":"帕底亞","fr":"Paldea","de":"Paldea","it":"Paldea","en":"Paldea"}}]
+[
+  {
+    "id": 1,
+    "name": "kanto",
+    "names": {
+      "ja-Hrkt": "カントー",
+      "ko": "관동",
+      "zh-Hant": "關都",
+      "fr": "Kanto",
+      "de": "Kanto",
+      "it": "Kanto",
+      "en": "Kanto"
+    }
+  },
+  {
+    "id": 2,
+    "name": "johto",
+    "names": {
+      "ja-Hrkt": "ジョウト",
+      "ko": "성도",
+      "zh-Hant": "城都",
+      "fr": "Johto",
+      "de": "Johto",
+      "it": "Johto",
+      "en": "Johto"
+    }
+  },
+  {
+    "id": 3,
+    "name": "hoenn",
+    "names": {
+      "ja-Hrkt": "ホウエン",
+      "ko": "호연",
+      "zh-Hant": "豐緣",
+      "fr": "Hoenn",
+      "de": "Hoenn",
+      "it": "Hoenn",
+      "en": "Hoenn"
+    }
+  },
+  {
+    "id": 4,
+    "name": "sinnoh",
+    "names": {
+      "ja-Hrkt": "シンオウ",
+      "ko": "신오",
+      "zh-Hant": "神奧",
+      "fr": "Sinnoh",
+      "de": "Sinnoh",
+      "it": "Sinnoh",
+      "en": "Sinnoh"
+    }
+  },
+  {
+    "id": 5,
+    "name": "unova",
+    "names": {
+      "ja-Hrkt": "イッシュ",
+      "ko": "하나",
+      "zh-Hant": "合眾",
+      "fr": "Unys",
+      "de": "Einall",
+      "it": "Unima",
+      "en": "Unova"
+    }
+  },
+  {
+    "id": 6,
+    "name": "kalos",
+    "names": {
+      "ja-Hrkt": "カロス",
+      "ko": "칼로스",
+      "zh-Hant": "卡洛斯",
+      "fr": "Kalos",
+      "de": "Kalos",
+      "it": "Kalos",
+      "en": "Kalos"
+    }
+  },
+  {
+    "id": 7,
+    "name": "alola",
+    "names": {
+      "ja-Hrkt": "アローラ",
+      "ko": "알로라",
+      "zh-Hant": "阿羅拉",
+      "fr": "Alola",
+      "de": "Alola",
+      "it": "Alola",
+      "en": "Alola"
+    }
+  },
+  {
+    "id": 8,
+    "name": "galar",
+    "names": {
+      "ja-Hrkt": "ガラル",
+      "ko": "가라르",
+      "zh-Hant": "伽勒爾",
+      "fr": "Galar",
+      "de": "Galar",
+      "it": "Galar",
+      "en": "Galar"
+    }
+  },
+  {
+    "id": 9,
+    "name": "hisui",
+    "names": {
+      "ja-Hrkt": "ヒスイ",
+      "ko": "히스이",
+      "zh-Hant": "洗翠",
+      "fr": "Hisui",
+      "de": "Hisui",
+      "it": "Hisui",
+      "en": "Hisui"
+    }
+  },
+  {
+    "id": 10,
+    "name": "paldea",
+    "names": {
+      "ja-Hrkt": "パルデア",
+      "ko": "팔데아",
+      "zh-Hant": "帕底亞",
+      "fr": "Paldea",
+      "de": "Paldea",
+      "it": "Paldea",
+      "en": "Paldea"
+    }
+  }
+]

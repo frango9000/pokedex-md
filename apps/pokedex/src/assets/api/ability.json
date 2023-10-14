@@ -1,1 +1,4964 @@
-[{"id":1,"name":"stench","generation":"generation-iii","names":{"ja-Hrkt":"あくしゅう","ko":"악취","zh-Hant":"惡臭","fr":"Puanteur","de":"Duftnote","es":"Hedor","it":"Tanfo","en":"Stench"}},{"id":2,"name":"drizzle","generation":"generation-iii","names":{"ja-Hrkt":"あめふらし","ko":"잔비","zh-Hant":"降雨","fr":"Crachin","de":"Niesel","es":"Llovizna","it":"Piovischio","en":"Drizzle"}},{"id":3,"name":"speed-boost","generation":"generation-iii","names":{"ja-Hrkt":"かそく","ko":"가속","zh-Hant":"加速","fr":"Turbo","de":"Temposchub","es":"Impulso","it":"Acceleratore","en":"Speed Boost"}},{"id":4,"name":"battle-armor","generation":"generation-iii","names":{"ja-Hrkt":"カブトアーマー","ko":"전투무장","zh-Hant":"戰鬥盔甲","fr":"Armurbaston","de":"Kampfpanzer","es":"Armadura Batalla","it":"Lottascudo","en":"Battle Armor"}},{"id":5,"name":"sturdy","generation":"generation-iii","names":{"ja-Hrkt":"がんじょう","ko":"옹골참","zh-Hant":"結實","fr":"Fermeté","de":"Robustheit","es":"Robustez","it":"Vigore","en":"Sturdy"}},{"id":6,"name":"damp","generation":"generation-iii","names":{"ja-Hrkt":"しめりけ","ko":"습기","zh-Hant":"濕氣","fr":"Moiteur","de":"Feuchtigkeit","es":"Humedad","it":"Umidità","en":"Damp"}},{"id":7,"name":"limber","generation":"generation-iii","names":{"ja-Hrkt":"じゅうなん","ko":"유연","zh-Hant":"柔軟","fr":"Échauffement","de":"Flexibilität","es":"Flexibilidad","it":"Scioltezza","en":"Limber"}},{"id":8,"name":"sand-veil","generation":"generation-iii","names":{"ja-Hrkt":"すながくれ","ko":"모래숨기","zh-Hant":"沙隱","fr":"Voile Sable","de":"Sandschleier","es":"Velo Arena","it":"Sabbiavelo","en":"Sand Veil"}},{"id":9,"name":"static","generation":"generation-iii","names":{"ja-Hrkt":"せいでんき","ko":"정전기","zh-Hant":"靜電","fr":"Statik","de":"Statik","es":"Elec. Estática","it":"Statico","en":"Static"}},{"id":10,"name":"volt-absorb","generation":"generation-iii","names":{"ja-Hrkt":"ちくでん","ko":"축전","zh-Hant":"蓄電","fr":"Absorbe-Volt","de":"Voltabsorber","es":"Absorbe Elec","it":"Assorbivolt","en":"Volt Absorb"}},{"id":11,"name":"water-absorb","generation":"generation-iii","names":{"ja-Hrkt":"ちょすい","ko":"저수","zh-Hant":"儲水","fr":"Absorbe-Eau","de":"H2O-Absorber","es":"Absorbe Agua","it":"Assorbacqua","en":"Water Absorb"}},{"id":12,"name":"oblivious","generation":"generation-iii","names":{"ja-Hrkt":"どんかん","ko":"둔감","zh-Hant":"遲鈍","fr":"Benêt","de":"Dösigkeit","es":"Despiste","it":"Indifferenza","en":"Oblivious"}},{"id":13,"name":"cloud-nine","generation":"generation-iii","names":{"ja-Hrkt":"ノーてんき","ko":"날씨부정","zh-Hant":"無關天氣","fr":"Ciel Gris","de":"Wolke Sieben","es":"Aclimatación","it":"Antimeteo","en":"Cloud Nine"}},{"id":14,"name":"compound-eyes","generation":"generation-iii","names":{"ja-Hrkt":"ふくがん","ko":"복안","zh-Hant":"複眼","fr":"Œil Composé","de":"Facettenauge","es":"Ojo Compuesto","it":"Insettocchi","en":"Compound Eyes"}},{"id":15,"name":"insomnia","generation":"generation-iii","names":{"ja-Hrkt":"ふみん","ko":"불면","zh-Hant":"不眠","fr":"Insomnia","de":"Insomnia","es":"Insomnio","it":"Insonnia","en":"Insomnia"}},{"id":16,"name":"color-change","generation":"generation-iii","names":{"ja-Hrkt":"へんしょく","ko":"변색","zh-Hant":"變色","fr":"Homochromie","de":"Farbwechsel","es":"Cambio Color","it":"Cambiacolore","en":"Color Change"}},{"id":17,"name":"immunity","generation":"generation-iii","names":{"ja-Hrkt":"めんえき","ko":"면역","zh-Hant":"免疫","fr":"Vaccin","de":"Immunität","es":"Inmunidad","it":"Immunità","en":"Immunity"}},{"id":18,"name":"flash-fire","generation":"generation-iii","names":{"ja-Hrkt":"もらいび","ko":"타오르는불꽃","zh-Hant":"引火","fr":"Torche","de":"Feuerfänger","es":"Absorbe Fuego","it":"Fuocardore","en":"Flash Fire"}},{"id":19,"name":"shield-dust","generation":"generation-iii","names":{"ja-Hrkt":"りんぷん","ko":"인분","zh-Hant":"鱗粉","fr":"Écran Poudre","de":"Puderabwehr","es":"Polvo Escudo","it":"Polvoscudo","en":"Shield Dust"}},{"id":20,"name":"own-tempo","generation":"generation-iii","names":{"ja-Hrkt":"マイペース","ko":"마이페이스","zh-Hant":"我行我素","fr":"Tempo Perso","de":"Tempomacher","es":"Ritmo Propio","it":"Mente Locale","en":"Own Tempo"}},{"id":21,"name":"suction-cups","generation":"generation-iii","names":{"ja-Hrkt":"きゅうばん","ko":"흡반","zh-Hant":"吸盤","fr":"Ventouse","de":"Saugnapf","es":"Ventosas","it":"Ventose","en":"Suction Cups"}},{"id":22,"name":"intimidate","generation":"generation-iii","names":{"ja-Hrkt":"いかく","ko":"위협","zh-Hant":"威嚇","fr":"Intimidation","de":"Bedroher","es":"Intimidación","it":"Prepotenza","en":"Intimidate"}},{"id":23,"name":"shadow-tag","generation":"generation-iii","names":{"ja-Hrkt":"かげふみ","ko":"그림자밟기","zh-Hant":"踩影","fr":"Marque Ombre","de":"Wegsperre","es":"Sombra Trampa","it":"Pedinombra","en":"Shadow Tag"}},{"id":24,"name":"rough-skin","generation":"generation-iii","names":{"ja-Hrkt":"さめはだ","ko":"까칠한피부","zh-Hant":"粗糙皮膚","fr":"Peau Dure","de":"Rauhaut","es":"Piel Tosca","it":"Cartavetro","en":"Rough Skin"}},{"id":25,"name":"wonder-guard","generation":"generation-iii","names":{"ja-Hrkt":"ふしぎなまもり","ko":"불가사의부적","zh-Hant":"神奇守護","fr":"Garde Mystik","de":"Wunderwache","es":"Superguarda","it":"Magidifesa","en":"Wonder Guard"}},{"id":26,"name":"levitate","generation":"generation-iii","names":{"ja-Hrkt":"ふゆう","ko":"부유","zh-Hant":"飄浮","fr":"Lévitation","de":"Schwebe","es":"Levitación","it":"Levitazione","en":"Levitate"}},{"id":27,"name":"effect-spore","generation":"generation-iii","names":{"ja-Hrkt":"ほうし","ko":"포자","zh-Hant":"孢子","fr":"Pose Spore","de":"Sporenwirt","es":"Efecto Espora","it":"Spargispora","en":"Effect Spore"}},{"id":28,"name":"synchronize","generation":"generation-iii","names":{"ja-Hrkt":"シンクロ","ko":"싱크로","zh-Hant":"同步","fr":"Synchro","de":"Synchro","es":"Sincronía","it":"Sincronismo","en":"Synchronize"}},{"id":29,"name":"clear-body","generation":"generation-iii","names":{"ja-Hrkt":"クリアボディ","ko":"클리어바디","zh-Hant":"恆淨之軀","fr":"Corps Sain","de":"Neutraltorso","es":"Cuerpo Puro","it":"Corpochiaro","en":"Clear Body"}},{"id":30,"name":"natural-cure","generation":"generation-iii","names":{"ja-Hrkt":"しぜんかいふく","ko":"자연회복","zh-Hant":"自然回復","fr":"Médic Nature","de":"Innere Kraft","es":"Cura Natural","it":"Alternacura","en":"Natural Cure"}},{"id":31,"name":"lightning-rod","generation":"generation-iii","names":{"ja-Hrkt":"ひらいしん","ko":"피뢰침","zh-Hant":"避雷針","fr":"Paratonnerre","de":"Blitzfänger","es":"Pararrayos","it":"Parafulmine","en":"Lightning Rod"}},{"id":32,"name":"serene-grace","generation":"generation-iii","names":{"ja-Hrkt":"てんのめぐみ","ko":"하늘의은총","zh-Hant":"天恩","fr":"Sérénité","de":"Edelmut","es":"Dicha","it":"Leggiadro","en":"Serene Grace"}},{"id":33,"name":"swift-swim","generation":"generation-iii","names":{"ja-Hrkt":"すいすい","ko":"쓱쓱","zh-Hant":"悠游自如","fr":"Glissade","de":"Wassertempo","es":"Nado Rápido","it":"Nuotovelox","en":"Swift Swim"}},{"id":34,"name":"chlorophyll","generation":"generation-iii","names":{"ja-Hrkt":"ようりょくそ","ko":"엽록소","zh-Hant":"葉綠素","fr":"Chlorophylle","de":"Chlorophyll","es":"Clorofila","it":"Clorofilla","en":"Chlorophyll"}},{"id":35,"name":"illuminate","generation":"generation-iii","names":{"ja-Hrkt":"はっこう","ko":"발광","zh-Hant":"發光","fr":"Lumiattirance","de":"Erleuchtung","es":"Iluminación","it":"Risplendi","en":"Illuminate"}},{"id":36,"name":"trace","generation":"generation-iii","names":{"ja-Hrkt":"トレース","ko":"트레이스","zh-Hant":"複製","fr":"Calque","de":"Erfassen","es":"Rastro","it":"Traccia","en":"Trace"}},{"id":37,"name":"huge-power","generation":"generation-iii","names":{"ja-Hrkt":"ちからもち","ko":"천하장사","zh-Hant":"大力士","fr":"Coloforce","de":"Kraftkoloss","es":"Potencia","it":"Macroforza","en":"Huge Power"}},{"id":38,"name":"poison-point","generation":"generation-iii","names":{"ja-Hrkt":"どくのトゲ","ko":"독가시","zh-Hant":"毒刺","fr":"Point Poison","de":"Giftdorn","es":"Punto Tóxico","it":"Velenopunto","en":"Poison Point"}},{"id":39,"name":"inner-focus","generation":"generation-iii","names":{"ja-Hrkt":"せいしんりょく","ko":"정신력","zh-Hant":"精神力","fr":"Attention","de":"Konzentrator","es":"Foco Interno","it":"Forza Interiore","en":"Inner Focus"}},{"id":40,"name":"magma-armor","generation":"generation-iii","names":{"ja-Hrkt":"マグマのよろい","ko":"마그마의무장","zh-Hant":"熔岩鎧甲","fr":"Armumagma","de":"Magmapanzer","es":"Escudo Magma","it":"Magmascudo","en":"Magma Armor"}},{"id":41,"name":"water-veil","generation":"generation-iii","names":{"ja-Hrkt":"みずのベール","ko":"수의베일","zh-Hant":"水幕","fr":"Ignifu-Voile","de":"Aquahülle","es":"Velo Agua","it":"Idrovelo","en":"Water Veil"}},{"id":42,"name":"magnet-pull","generation":"generation-iii","names":{"ja-Hrkt":"じりょく","ko":"자력","zh-Hant":"磁力","fr":"Magnépiège","de":"Magnetfalle","es":"Imán","it":"Magnetismo","en":"Magnet Pull"}},{"id":43,"name":"soundproof","generation":"generation-iii","names":{"ja-Hrkt":"ぼうおん","ko":"방음","zh-Hant":"隔音","fr":"Anti-Bruit","de":"Lärmschutz","es":"Insonorizar","it":"Antisuono","en":"Soundproof"}},{"id":44,"name":"rain-dish","generation":"generation-iii","names":{"ja-Hrkt":"あめうけざら","ko":"젖은접시","zh-Hant":"雨盤","fr":"Cuvette","de":"Regengenuss","es":"Cura Lluvia","it":"Copripioggia","en":"Rain Dish"}},{"id":45,"name":"sand-stream","generation":"generation-iii","names":{"ja-Hrkt":"すなおこし","ko":"모래날림","zh-Hant":"揚沙","fr":"Sable Volant","de":"Sandsturm","es":"Chorro Arena","it":"Sabbiafiume","en":"Sand Stream"}},{"id":46,"name":"pressure","generation":"generation-iii","names":{"ja-Hrkt":"プレッシャー","ko":"프레셔","zh-Hant":"壓迫感","fr":"Pression","de":"Erzwinger","es":"Presión","it":"Pressione","en":"Pressure"}},{"id":47,"name":"thick-fat","generation":"generation-iii","names":{"ja-Hrkt":"あついしぼう","ko":"두꺼운지방","zh-Hant":"厚脂肪","fr":"Isograisse","de":"Speckschicht","es":"Sebo","it":"Grassospesso","en":"Thick Fat"}},{"id":48,"name":"early-bird","generation":"generation-iii","names":{"ja-Hrkt":"はやおき","ko":"일찍기상","zh-Hant":"早起","fr":"Matinal","de":"Frühwecker","es":"Madrugar","it":"Sveglialampo","en":"Early Bird"}},{"id":49,"name":"flame-body","generation":"generation-iii","names":{"ja-Hrkt":"ほのおのからだ","ko":"불꽃몸","zh-Hant":"火焰之軀","fr":"Corps Ardent","de":"Flammkörper","es":"Cuerpo Llama","it":"Corpodifuoco","en":"Flame Body"}},{"id":50,"name":"run-away","generation":"generation-iii","names":{"ja-Hrkt":"にげあし","ko":"도주","zh-Hant":"逃跑","fr":"Fuite","de":"Angsthase","es":"Fuga","it":"Fugafacile","en":"Run Away"}},{"id":51,"name":"keen-eye","generation":"generation-iii","names":{"ja-Hrkt":"するどいめ","ko":"날카로운눈","zh-Hant":"銳利目光","fr":"Regard Vif","de":"Adlerauge","es":"Vista Lince","it":"Sguardofermo","en":"Keen Eye"}},{"id":52,"name":"hyper-cutter","generation":"generation-iii","names":{"ja-Hrkt":"かいりきバサミ","ko":"괴력집게","zh-Hant":"怪力鉗","fr":"Hyper Cutter","de":"Scherenmacht","es":"Corte Fuerte","it":"Ipertaglio","en":"Hyper Cutter"}},{"id":53,"name":"pickup","generation":"generation-iii","names":{"ja-Hrkt":"ものひろい","ko":"픽업","zh-Hant":"撿拾","fr":"Ramassage","de":"Mitnahme","es":"Recogida","it":"Raccolta","en":"Pickup"}},{"id":54,"name":"truant","generation":"generation-iii","names":{"ja-Hrkt":"なまけ","ko":"게으름","zh-Hant":"懶惰","fr":"Absentéisme","de":"Schnarchnase","es":"Ausente","it":"Pigrone","en":"Truant"}},{"id":55,"name":"hustle","generation":"generation-iii","names":{"ja-Hrkt":"はりきり","ko":"의욕","zh-Hant":"活力","fr":"Agitation","de":"Übereifer","es":"Entusiasmo","it":"Tuttafretta","en":"Hustle"}},{"id":56,"name":"cute-charm","generation":"generation-iii","names":{"ja-Hrkt":"メロメロボディ","ko":"헤롱헤롱바디","zh-Hant":"迷人之軀","fr":"Joli Sourire","de":"Charmebolzen","es":"Gran Encanto","it":"Incantevole","en":"Cute Charm"}},{"id":57,"name":"plus","generation":"generation-iii","names":{"ja-Hrkt":"プラス","ko":"플러스","zh-Hant":"正電","fr":"Plus","de":"Plus","es":"Más","it":"Più","en":"Plus"}},{"id":58,"name":"minus","generation":"generation-iii","names":{"ja-Hrkt":"マイナス","ko":"마이너스","zh-Hant":"負電","fr":"Moins","de":"Minus","es":"Menos","it":"Meno","en":"Minus"}},{"id":59,"name":"forecast","generation":"generation-iii","names":{"ja-Hrkt":"てんきや","ko":"기분파","zh-Hant":"陰晴不定","fr":"Météo","de":"Prognose","es":"Predicción","it":"Previsioni","en":"Forecast"}},{"id":60,"name":"sticky-hold","generation":"generation-iii","names":{"ja-Hrkt":"ねんちゃく","ko":"점착","zh-Hant":"黏著","fr":"Glu","de":"Klebekörper","es":"Viscosidad","it":"Antifurto","en":"Sticky Hold"}},{"id":61,"name":"shed-skin","generation":"generation-iii","names":{"ja-Hrkt":"だっぴ","ko":"탈피","zh-Hant":"蛻皮","fr":"Mue","de":"Expidermis","es":"Mudar","it":"Muta","en":"Shed Skin"}},{"id":62,"name":"guts","generation":"generation-iii","names":{"ja-Hrkt":"こんじょう","ko":"근성","zh-Hant":"毅力","fr":"Cran","de":"Adrenalin","es":"Agallas","it":"Dentistretti","en":"Guts"}},{"id":63,"name":"marvel-scale","generation":"generation-iii","names":{"ja-Hrkt":"ふしぎなうろこ","ko":"이상한비늘","zh-Hant":"神奇鱗片","fr":"Écaille Spéciale","de":"Notschutz","es":"Escama Especial","it":"Pelledura","en":"Marvel Scale"}},{"id":64,"name":"liquid-ooze","generation":"generation-iii","names":{"ja-Hrkt":"ヘドロえき","ko":"해감액","zh-Hant":"污泥漿","fr":"Suintement","de":"Kloakensoße","es":"Lodo Líquido","it":"Melma","en":"Liquid Ooze"}},{"id":65,"name":"overgrow","generation":"generation-iii","names":{"ja-Hrkt":"しんりょく","ko":"심록","zh-Hant":"茂盛","fr":"Engrais","de":"Notdünger","es":"Espesura","it":"Erbaiuto","en":"Overgrow"}},{"id":66,"name":"blaze","generation":"generation-iii","names":{"ja-Hrkt":"もうか","ko":"맹화","zh-Hant":"猛火","fr":"Brasier","de":"Großbrand","es":"Mar Llamas","it":"Aiutofuoco","en":"Blaze"}},{"id":67,"name":"torrent","generation":"generation-iii","names":{"ja-Hrkt":"げきりゅう","ko":"급류","zh-Hant":"激流","fr":"Torrent","de":"Sturzbach","es":"Torrente","it":"Acquaiuto","en":"Torrent"}},{"id":68,"name":"swarm","generation":"generation-iii","names":{"ja-Hrkt":"むしのしらせ","ko":"벌레의알림","zh-Hant":"蟲之預感","fr":"Essaim","de":"Hexaplaga","es":"Enjambre","it":"Aiutinsetto","en":"Swarm"}},{"id":69,"name":"rock-head","generation":"generation-iii","names":{"ja-Hrkt":"いしあたま","ko":"돌머리","zh-Hant":"堅硬腦袋","fr":"Tête de Roc","de":"Steinhaupt","es":"Cabeza Roca","it":"Testadura","en":"Rock Head"}},{"id":70,"name":"drought","generation":"generation-iii","names":{"ja-Hrkt":"ひでり","ko":"가뭄","zh-Hant":"日照","fr":"Sécheresse","de":"Dürre","es":"Sequía","it":"Siccità","en":"Drought"}},{"id":71,"name":"arena-trap","generation":"generation-iii","names":{"ja-Hrkt":"ありじごく","ko":"개미지옥","zh-Hant":"沙穴","fr":"Piège Sable","de":"Ausweglos","es":"Trampa Arena","it":"Trappoarena","en":"Arena Trap"}},{"id":72,"name":"vital-spirit","generation":"generation-iii","names":{"ja-Hrkt":"やるき","ko":"의기양양","zh-Hant":"幹勁","fr":"Esprit Vital","de":"Munterkeit","es":"Espíritu Vital","it":"Spiritovivo","en":"Vital Spirit"}},{"id":73,"name":"white-smoke","generation":"generation-iii","names":{"ja-Hrkt":"しろいけむり","ko":"하얀연기","zh-Hant":"白色煙霧","fr":"Écran Fumée","de":"Pulverrauch","es":"Humo Blanco","it":"Fumochiaro","en":"White Smoke"}},{"id":74,"name":"pure-power","generation":"generation-iii","names":{"ja-Hrkt":"ヨガパワー","ko":"순수한힘","zh-Hant":"瑜伽之力","fr":"Force Pure","de":"Mentalkraft","es":"Energía Pura","it":"Forzapura","en":"Pure Power"}},{"id":75,"name":"shell-armor","generation":"generation-iii","names":{"ja-Hrkt":"シェルアーマー","ko":"조가비갑옷","zh-Hant":"硬殼盔甲","fr":"Coque Armure","de":"Panzerhaut","es":"Caparazón","it":"Guscioscudo","en":"Shell Armor"}},{"id":76,"name":"air-lock","generation":"generation-iii","names":{"ja-Hrkt":"エアロック","ko":"에어록","zh-Hant":"氣閘","fr":"Air Lock","de":"Klimaschutz","es":"Bucle Aire","it":"Riparo","en":"Air Lock"}},{"id":77,"name":"tangled-feet","generation":"generation-iv","names":{"ja-Hrkt":"ちどりあし","ko":"갈지자걸음","zh-Hant":"蹣跚","fr":"Pieds Confus","de":"Fußangel","es":"Tumbos","it":"Intricopiedi","en":"Tangled Feet"}},{"id":78,"name":"motor-drive","generation":"generation-iv","names":{"ja-Hrkt":"でんきエンジン","ko":"전기엔진","zh-Hant":"電氣引擎","fr":"Motorisé","de":"Starthilfe","es":"Electromotor","it":"Elettrorapid","en":"Motor Drive"}},{"id":79,"name":"rivalry","generation":"generation-iv","names":{"ja-Hrkt":"とうそうしん","ko":"투쟁심","zh-Hant":"鬥爭心","fr":"Rivalité","de":"Rivalität","es":"Rivalidad","it":"Antagonismo","en":"Rivalry"}},{"id":80,"name":"steadfast","generation":"generation-iv","names":{"ja-Hrkt":"ふくつのこころ","ko":"불굴의마음","zh-Hant":"不屈之心","fr":"Impassible","de":"Felsenfest","es":"Impasible","it":"Cuordeciso","en":"Steadfast"}},{"id":81,"name":"snow-cloak","generation":"generation-iv","names":{"ja-Hrkt":"ゆきがくれ","ko":"눈숨기","zh-Hant":"雪隱","fr":"Rideau Neige","de":"Schneemantel","es":"Manto Níveo","it":"Mantelneve","en":"Snow Cloak"}},{"id":82,"name":"gluttony","generation":"generation-iv","names":{"ja-Hrkt":"くいしんぼう","ko":"먹보","zh-Hant":"貪吃鬼","fr":"Gloutonnerie","de":"Völlerei","es":"Gula","it":"Voracità","en":"Gluttony"}},{"id":83,"name":"anger-point","generation":"generation-iv","names":{"ja-Hrkt":"いかりのつぼ","ko":"분노의경혈","zh-Hant":"憤怒穴位","fr":"Colérique","de":"Kurzschluss","es":"Irascible","it":"Grancollera","en":"Anger Point"}},{"id":84,"name":"unburden","generation":"generation-iv","names":{"ja-Hrkt":"かるわざ","ko":"곡예","zh-Hant":"輕裝","fr":"Délestage","de":"Entlastung","es":"Liviano","it":"Agiltecnica","en":"Unburden"}},{"id":85,"name":"heatproof","generation":"generation-iv","names":{"ja-Hrkt":"たいねつ","ko":"내열","zh-Hant":"耐熱","fr":"Ignifugé","de":"Hitzeschutz","es":"Ignífugo","it":"Antifuoco","en":"Heatproof"}},{"id":86,"name":"simple","generation":"generation-iv","names":{"ja-Hrkt":"たんじゅん","ko":"단순","zh-Hant":"單純","fr":"Simple","de":"Wankelmut","es":"Simple","it":"Disinvoltura","en":"Simple"}},{"id":87,"name":"dry-skin","generation":"generation-iv","names":{"ja-Hrkt":"かんそうはだ","ko":"건조피부","zh-Hant":"乾燥皮膚","fr":"Peau Sèche","de":"Trockenheit","es":"Piel Seca","it":"Pellearsa","en":"Dry Skin"}},{"id":88,"name":"download","generation":"generation-iv","names":{"ja-Hrkt":"ダウンロード","ko":"다운로드","zh-Hant":"下載","fr":"Télécharge","de":"Download","es":"Descarga","it":"Download","en":"Download"}},{"id":89,"name":"iron-fist","generation":"generation-iv","names":{"ja-Hrkt":"てつのこぶし","ko":"철주먹","zh-Hant":"鐵拳","fr":"Poing de Fer","de":"Eisenfaust","es":"Puño Férreo","it":"Ferropugno","en":"Iron Fist"}},{"id":90,"name":"poison-heal","generation":"generation-iv","names":{"ja-Hrkt":"ポイズンヒール","ko":"포이즌힐","zh-Hant":"毒療","fr":"Soin Poison","de":"Aufheber","es":"Antídoto","it":"Velencura","en":"Poison Heal"}},{"id":91,"name":"adaptability","generation":"generation-iv","names":{"ja-Hrkt":"てきおうりょく","ko":"적응력","zh-Hant":"適應力","fr":"Adaptabilité","de":"Anpassung","es":"Adaptable","it":"Adattabilità","en":"Adaptability"}},{"id":92,"name":"skill-link","generation":"generation-iv","names":{"ja-Hrkt":"スキルリンク","ko":"스킬링크","zh-Hant":"連續攻擊","fr":"Multi-Coups","de":"Wertelink","es":"Encadenado","it":"Abillegame","en":"Skill Link"}},{"id":93,"name":"hydration","generation":"generation-iv","names":{"ja-Hrkt":"うるおいボディ","ko":"촉촉바디","zh-Hant":"濕潤之軀","fr":"Hydratation","de":"Hydration","es":"Hidratación","it":"Idratazione","en":"Hydration"}},{"id":94,"name":"solar-power","generation":"generation-iv","names":{"ja-Hrkt":"サンパワー","ko":"선파워","zh-Hant":"太陽之力","fr":"Force Soleil","de":"Solarkraft","es":"Poder Solar","it":"Solarpotere","en":"Solar Power"}},{"id":95,"name":"quick-feet","generation":"generation-iv","names":{"ja-Hrkt":"はやあし","ko":"속보","zh-Hant":"飛毛腿","fr":"Pied Véloce","de":"Rasanz","es":"Pies Rápidos","it":"Piedisvelti","en":"Quick Feet"}},{"id":96,"name":"normalize","generation":"generation-iv","names":{"ja-Hrkt":"ノーマルスキン","ko":"노말스킨","zh-Hant":"一般皮膚","fr":"Normalise","de":"Regulierung","es":"Normalidad","it":"Normalità","en":"Normalize"}},{"id":97,"name":"sniper","generation":"generation-iv","names":{"ja-Hrkt":"スナイパー","ko":"스나이퍼","zh-Hant":"狙擊手","fr":"Sniper","de":"Superschütze","es":"Francotirador","it":"Cecchino","en":"Sniper"}},{"id":98,"name":"magic-guard","generation":"generation-iv","names":{"ja-Hrkt":"マジックガード","ko":"매직가드","zh-Hant":"魔法防守","fr":"Garde Magik","de":"Magieschild","es":"Muro Mágico","it":"Magicscudo","en":"Magic Guard"}},{"id":99,"name":"no-guard","generation":"generation-iv","names":{"ja-Hrkt":"ノーガード","ko":"노가드","zh-Hant":"無防守","fr":"Annule Garde","de":"Schildlos","es":"Indefenso","it":"Nullodifesa","en":"No Guard"}},{"id":100,"name":"stall","generation":"generation-iv","names":{"ja-Hrkt":"あとだし","ko":"시간벌기","zh-Hant":"慢出","fr":"Frein","de":"Zeitspiel","es":"Rezagado","it":"Rallentatore","en":"Stall"}},{"id":101,"name":"technician","generation":"generation-iv","names":{"ja-Hrkt":"テクニシャン","ko":"테크니션","zh-Hant":"技術高手","fr":"Technicien","de":"Techniker","es":"Experto","it":"Tecnico","en":"Technician"}},{"id":102,"name":"leaf-guard","generation":"generation-iv","names":{"ja-Hrkt":"リーフガード","ko":"리프가드","zh-Hant":"葉子防守","fr":"Feuille Garde","de":"Floraschild","es":"Defensa Hoja","it":"Fogliamanto","en":"Leaf Guard"}},{"id":103,"name":"klutz","generation":"generation-iv","names":{"ja-Hrkt":"ぶきよう","ko":"서투름","zh-Hant":"笨拙","fr":"Maladresse","de":"Tollpatsch","es":"Zoquete","it":"Impaccio","en":"Klutz"}},{"id":104,"name":"mold-breaker","generation":"generation-iv","names":{"ja-Hrkt":"かたやぶり","ko":"틀깨기","zh-Hant":"破格","fr":"Brise Moule","de":"Überbrückung","es":"Rompemoldes","it":"Rompiforma","en":"Mold Breaker"}},{"id":105,"name":"super-luck","generation":"generation-iv","names":{"ja-Hrkt":"きょううん","ko":"대운","zh-Hant":"超幸運","fr":"Chanceux","de":"Glückspilz","es":"Afortunado","it":"Supersorte","en":"Super Luck"}},{"id":106,"name":"aftermath","generation":"generation-iv","names":{"ja-Hrkt":"ゆうばく","ko":"유폭","zh-Hant":"引爆","fr":"Boom Final","de":"Finalschlag","es":"Detonación","it":"Scoppio","en":"Aftermath"}},{"id":107,"name":"anticipation","generation":"generation-iv","names":{"ja-Hrkt":"きけんよち","ko":"위험예지","zh-Hant":"危險預知","fr":"Anticipation","de":"Vorahnung","es":"Anticipación","it":"Presagio","en":"Anticipation"}},{"id":108,"name":"forewarn","generation":"generation-iv","names":{"ja-Hrkt":"よちむ","ko":"예지몽","zh-Hant":"預知夢","fr":"Prédiction","de":"Vorwarnung","es":"Alerta","it":"Premonizione","en":"Forewarn"}},{"id":109,"name":"unaware","generation":"generation-iv","names":{"ja-Hrkt":"てんねん","ko":"천진","zh-Hant":"純樸","fr":"Inconscient","de":"Unkenntnis","es":"Ignorante","it":"Imprudenza","en":"Unaware"}},{"id":110,"name":"tinted-lens","generation":"generation-iv","names":{"ja-Hrkt":"いろめがね","ko":"색안경","zh-Hant":"有色眼鏡","fr":"Lentiteintée","de":"Aufwertung","es":"Cromolente","it":"Lentifumé","en":"Tinted Lens"}},{"id":111,"name":"filter","generation":"generation-iv","names":{"ja-Hrkt":"フィルター","ko":"필터","zh-Hant":"過濾","fr":"Filtre","de":"Filter","es":"Filtro","it":"Filtro","en":"Filter"}},{"id":112,"name":"slow-start","generation":"generation-iv","names":{"ja-Hrkt":"スロースタート","ko":"슬로스타트","zh-Hant":"慢啟動","fr":"Début Calme","de":"Saumselig","es":"Inicio Lento","it":"Lentoinizio","en":"Slow Start"}},{"id":113,"name":"scrappy","generation":"generation-iv","names":{"ja-Hrkt":"きもったま","ko":"배짱","zh-Hant":"膽量","fr":"Querelleur","de":"Rauflust","es":"Intrépido","it":"Nervisaldi","en":"Scrappy"}},{"id":114,"name":"storm-drain","generation":"generation-iv","names":{"ja-Hrkt":"よびみず","ko":"마중물","zh-Hant":"引水","fr":"Lavabo","de":"Sturmsog","es":"Colector","it":"Acquascolo","en":"Storm Drain"}},{"id":115,"name":"ice-body","generation":"generation-iv","names":{"ja-Hrkt":"アイスボディ","ko":"아이스바디","zh-Hant":"冰凍之軀","fr":"Corps Gel","de":"Eishaut","es":"Gélido","it":"Corpogelo","en":"Ice Body"}},{"id":116,"name":"solid-rock","generation":"generation-iv","names":{"ja-Hrkt":"ハードロック","ko":"하드록","zh-Hant":"堅硬岩石","fr":"Solide Roc","de":"Felskern","es":"Roca Sólida","it":"Solidroccia","en":"Solid Rock"}},{"id":117,"name":"snow-warning","generation":"generation-iv","names":{"ja-Hrkt":"ゆきふらし","ko":"눈퍼뜨리기","zh-Hant":"降雪","fr":"Alerte Neige","de":"Hagelalarm","es":"Nevada","it":"Scendineve","en":"Snow Warning"}},{"id":118,"name":"honey-gather","generation":"generation-iv","names":{"ja-Hrkt":"みつあつめ","ko":"꿀모으기","zh-Hant":"採蜜","fr":"Cherche Miel","de":"Honigmaul","es":"Recogemiel","it":"Mielincetta","en":"Honey Gather"}},{"id":119,"name":"frisk","generation":"generation-iv","names":{"ja-Hrkt":"おみとおし","ko":"통찰","zh-Hant":"察覺","fr":"Fouille","de":"Schnüffler","es":"Cacheo","it":"Indagine","en":"Frisk"}},{"id":120,"name":"reckless","generation":"generation-iv","names":{"ja-Hrkt":"すてみ","ko":"이판사판","zh-Hant":"捨身","fr":"Téméraire","de":"Achtlos","es":"Audaz","it":"Temerarietà","en":"Reckless"}},{"id":121,"name":"multitype","generation":"generation-iv","names":{"ja-Hrkt":"マルチタイプ","ko":"멀티타입","zh-Hant":"多屬性","fr":"Multi-Type","de":"Variabilität","es":"Multitipo","it":"Multitipo","en":"Multitype"}},{"id":122,"name":"flower-gift","generation":"generation-iv","names":{"ja-Hrkt":"フラワーギフト","ko":"플라워기프트","zh-Hant":"花之禮","fr":"Don Floral","de":"Pflanzengabe","es":"Don Floral","it":"Regalfiore","en":"Flower Gift"}},{"id":123,"name":"bad-dreams","generation":"generation-iv","names":{"ja-Hrkt":"ナイトメア","ko":"나이트메어","zh-Hant":"夢魘","fr":"Mauvais Rêve","de":"Alptraum","es":"Mal Sueño","it":"Sogniamari","en":"Bad Dreams"}},{"id":124,"name":"pickpocket","generation":"generation-v","names":{"ja-Hrkt":"わるいてぐせ","ko":"나쁜손버릇","zh-Hant":"順手牽羊","fr":"Pickpocket","de":"Langfinger","es":"Hurto","it":"Arraffalesto","en":"Pickpocket"}},{"id":125,"name":"sheer-force","generation":"generation-v","names":{"ja-Hrkt":"ちからずく","ko":"우격다짐","zh-Hant":"強行","fr":"Sans Limite","de":"Rohe Gewalt","es":"Potencia Bruta","it":"Forzabruta","en":"Sheer Force"}},{"id":126,"name":"contrary","generation":"generation-v","names":{"ja-Hrkt":"あまのじゃく","ko":"심술꾸러기","zh-Hant":"唱反調","fr":"Contestation","de":"Umkehrung","es":"Respondón","it":"Inversione","en":"Contrary"}},{"id":127,"name":"unnerve","generation":"generation-v","names":{"ja-Hrkt":"きんちょうかん","ko":"긴장감","zh-Hant":"緊張感","fr":"Tension","de":"Anspannung","es":"Nerviosismo","it":"Agitazione","en":"Unnerve"}},{"id":128,"name":"defiant","generation":"generation-v","names":{"ja-Hrkt":"まけんき","ko":"오기","zh-Hant":"不服輸","fr":"Acharné","de":"Siegeswille","es":"Competitivo","it":"Agonismo","en":"Defiant"}},{"id":129,"name":"defeatist","generation":"generation-v","names":{"ja-Hrkt":"よわき","ko":"무기력","zh-Hant":"軟弱","fr":"Défaitiste","de":"Schwächling","es":"Flaqueza","it":"Sconforto","en":"Defeatist"}},{"id":130,"name":"cursed-body","generation":"generation-v","names":{"ja-Hrkt":"のろわれボディ","ko":"저주받은바디","zh-Hant":"詛咒之軀","fr":"Corps Maudit","de":"Tastfluch","es":"Cuerpo Maldito","it":"Corpofunesto","en":"Cursed Body"}},{"id":131,"name":"healer","generation":"generation-v","names":{"ja-Hrkt":"いやしのこころ","ko":"치유의마음","zh-Hant":"治癒之心","fr":"Cœur Soin","de":"Heilherz","es":"Alma Cura","it":"Curacuore","en":"Healer"}},{"id":132,"name":"friend-guard","generation":"generation-v","names":{"ja-Hrkt":"フレンドガード","ko":"프렌드가드","zh-Hant":"友情防守","fr":"Garde-Ami","de":"Freundeshut","es":"Compiescolta","it":"Amicoscudo","en":"Friend Guard"}},{"id":133,"name":"weak-armor","generation":"generation-v","names":{"ja-Hrkt":"くだけるよろい","ko":"깨어진갑옷","zh-Hant":"碎裂鎧甲","fr":"Armurouillée","de":"Bruchrüstung","es":"Armadura Frágil","it":"Sottilguscio","en":"Weak Armor"}},{"id":134,"name":"heavy-metal","generation":"generation-v","names":{"ja-Hrkt":"ヘヴィメタル","ko":"헤비메탈","zh-Hant":"重金屬","fr":"Heavy Metal","de":"Schwermetall","es":"Metal Pesado","it":"Metalpesante","en":"Heavy Metal"}},{"id":135,"name":"light-metal","generation":"generation-v","names":{"ja-Hrkt":"ライトメタル","ko":"라이트메탈","zh-Hant":"輕金屬","fr":"Light Metal","de":"Leichtmetall","es":"Metal Liviano","it":"Metalleggero","en":"Light Metal"}},{"id":136,"name":"multiscale","generation":"generation-v","names":{"ja-Hrkt":"マルチスケイル","ko":"멀티스케일","zh-Hant":"多重鱗片","fr":"Multiécaille","de":"Multischuppe","es":"Multiescamas","it":"Multisquame","en":"Multiscale"}},{"id":137,"name":"toxic-boost","generation":"generation-v","names":{"ja-Hrkt":"どくぼうそう","ko":"독폭주","zh-Hant":"中毒激升","fr":"Rage Poison","de":"Giftwahn","es":"Ímpetu Tóxico","it":"Velenimpeto","en":"Toxic Boost"}},{"id":138,"name":"flare-boost","generation":"generation-v","names":{"ja-Hrkt":"ねつぼうそう","ko":"열폭주","zh-Hant":"受熱激升","fr":"Rage Brûlure","de":"Hitzewahn","es":"Ímpetu Ardiente","it":"Bruciaimpeto","en":"Flare Boost"}},{"id":139,"name":"harvest","generation":"generation-v","names":{"ja-Hrkt":"しゅうかく","ko":"수확","zh-Hant":"收穫","fr":"Récolte","de":"Reiche Ernte","es":"Cosecha","it":"Coglibacche","en":"Harvest"}},{"id":140,"name":"telepathy","generation":"generation-v","names":{"ja-Hrkt":"テレパシー","ko":"텔레파시","zh-Hant":"心靈感應","fr":"Télépathe","de":"Telepathie","es":"Telepatía","it":"Telepatia","en":"Telepathy"}},{"id":141,"name":"moody","generation":"generation-v","names":{"ja-Hrkt":"ムラっけ","ko":"변덕쟁이","zh-Hant":"心情不定","fr":"Lunatique","de":"Gefühlswippe","es":"Veleta","it":"Altalena","en":"Moody"}},{"id":142,"name":"overcoat","generation":"generation-v","names":{"ja-Hrkt":"ぼうじん","ko":"방진","zh-Hant":"防塵","fr":"Envelocape","de":"Partikelschutz","es":"Funda","it":"Copricapo","en":"Overcoat"}},{"id":143,"name":"poison-touch","generation":"generation-v","names":{"ja-Hrkt":"どくしゅ","ko":"독수","zh-Hant":"毒手","fr":"Toxitouche","de":"Giftgriff","es":"Toque Tóxico","it":"Velentocco","en":"Poison Touch"}},{"id":144,"name":"regenerator","generation":"generation-v","names":{"ja-Hrkt":"さいせいりょく","ko":"재생력","zh-Hant":"再生力","fr":"Régé-Force","de":"Belebekraft","es":"Regeneración","it":"Rigenergia","en":"Regenerator"}},{"id":145,"name":"big-pecks","generation":"generation-v","names":{"ja-Hrkt":"はとむね","ko":"부풀린가슴","zh-Hant":"健壯胸肌","fr":"Cœur de Coq","de":"Brustbieter","es":"Sacapecho","it":"Pettinfuori","en":"Big Pecks"}},{"id":146,"name":"sand-rush","generation":"generation-v","names":{"ja-Hrkt":"すなかき","ko":"모래헤치기","zh-Hant":"撥沙","fr":"Baigne Sable","de":"Sandscharrer","es":"Ímpetu Arena","it":"Remasabbia","en":"Sand Rush"}},{"id":147,"name":"wonder-skin","generation":"generation-v","names":{"ja-Hrkt":"ミラクルスキン","ko":"미라클스킨","zh-Hant":"奇跡皮膚","fr":"Peau Miracle","de":"Wunderhaut","es":"Piel Milagro","it":"Splendicute","en":"Wonder Skin"}},{"id":148,"name":"analytic","generation":"generation-v","names":{"ja-Hrkt":"アナライズ","ko":"애널라이즈","zh-Hant":"分析","fr":"Analyste","de":"Analyse","es":"Cálculo Final","it":"Ponderazione","en":"Analytic"}},{"id":149,"name":"illusion","generation":"generation-v","names":{"ja-Hrkt":"イリュージョン","ko":"일루전","zh-Hant":"幻覺","fr":"Illusion","de":"Trugbild","es":"Ilusión","it":"Illusione","en":"Illusion"}},{"id":150,"name":"imposter","generation":"generation-v","names":{"ja-Hrkt":"かわりもの","ko":"괴짜","zh-Hant":"變身者","fr":"Imposteur","de":"Doppelgänger","es":"Impostor","it":"Sosia","en":"Imposter"}},{"id":151,"name":"infiltrator","generation":"generation-v","names":{"ja-Hrkt":"すりぬけ","ko":"틈새포착","zh-Hant":"穿透","fr":"Infiltration","de":"Schwebedurch","es":"Allanamiento","it":"Intrapasso","en":"Infiltrator"}},{"id":152,"name":"mummy","generation":"generation-v","names":{"ja-Hrkt":"ミイラ","ko":"미라","zh-Hant":"木乃伊","fr":"Momie","de":"Mumie","es":"Momia","it":"Mummia","en":"Mummy"}},{"id":153,"name":"moxie","generation":"generation-v","names":{"ja-Hrkt":"じしんかじょう","ko":"자기과신","zh-Hant":"自信過度","fr":"Impudence","de":"Hochmut","es":"Autoestima","it":"Arroganza","en":"Moxie"}},{"id":154,"name":"justified","generation":"generation-v","names":{"ja-Hrkt":"せいぎのこころ","ko":"정의의마음","zh-Hant":"正義之心","fr":"Cœur Noble","de":"Redlichkeit","es":"Justiciero","it":"Giustizia","en":"Justified"}},{"id":155,"name":"rattled","generation":"generation-v","names":{"ja-Hrkt":"びびり","ko":"주눅","zh-Hant":"膽怯","fr":"Phobique","de":"Hasenfuß","es":"Cobardía","it":"Paura","en":"Rattled"}},{"id":156,"name":"magic-bounce","generation":"generation-v","names":{"ja-Hrkt":"マジックミラー","ko":"매직미러","zh-Hant":"魔法鏡","fr":"Miroir Magik","de":"Magiespiegel","es":"Espejo Mágico","it":"Magispecchio","en":"Magic Bounce"}},{"id":157,"name":"sap-sipper","generation":"generation-v","names":{"ja-Hrkt":"そうしょく","ko":"초식","zh-Hant":"食草","fr":"Herbivore","de":"Vegetarier","es":"Herbívoro","it":"Mangiaerba","en":"Sap Sipper"}},{"id":158,"name":"prankster","generation":"generation-v","names":{"ja-Hrkt":"いたずらごころ","ko":"짓궂은마음","zh-Hant":"惡作劇之心","fr":"Farceur","de":"Strolch","es":"Bromista","it":"Burla","en":"Prankster"}},{"id":159,"name":"sand-force","generation":"generation-v","names":{"ja-Hrkt":"すなのちから","ko":"모래의힘","zh-Hant":"沙之力","fr":"Force Sable","de":"Sandgewalt","es":"Poder Arena","it":"Silicoforza","en":"Sand Force"}},{"id":160,"name":"iron-barbs","generation":"generation-v","names":{"ja-Hrkt":"てつのトゲ","ko":"철가시","zh-Hant":"鐵刺","fr":"Épine de Fer","de":"Eisenstachel","es":"Punta Acero","it":"Spineferrate","en":"Iron Barbs"}},{"id":161,"name":"zen-mode","generation":"generation-v","names":{"ja-Hrkt":"ダルマモード","ko":"달마모드","zh-Hant":"達摩模式","fr":"Mode Transe","de":"Trance-Modus","es":"Modo Daruma","it":"Stato Zen","en":"Zen Mode"}},{"id":162,"name":"victory-star","generation":"generation-v","names":{"ja-Hrkt":"しょうりのほし","ko":"승리의별","zh-Hant":"勝利之星","fr":"Victorieux","de":"Triumphstern","es":"Tinovictoria","it":"Vittorstella","en":"Victory Star"}},{"id":163,"name":"turboblaze","generation":"generation-v","names":{"ja-Hrkt":"ターボブレイズ","ko":"터보블레이즈","zh-Hant":"渦輪火焰","fr":"Turbo Brasier","de":"Turbobrand","es":"Turbollama","it":"Piroturbina","en":"Turboblaze"}},{"id":164,"name":"teravolt","generation":"generation-v","names":{"ja-Hrkt":"テラボルテージ","ko":"테라볼티지","zh-Hant":"兆級電壓","fr":"Téra-Voltage","de":"Teravolt","es":"Terravoltaje","it":"Teravolt","en":"Teravolt"}},{"id":165,"name":"aroma-veil","generation":"generation-vi","names":{"ja-Hrkt":"アロマベール","ko":"아로마베일","zh-Hant":"芳香幕","fr":"Aroma-Voile","de":"Dufthülle","es":"Velo Aroma","it":"Aromavelo","en":"Aroma Veil"}},{"id":166,"name":"flower-veil","generation":"generation-vi","names":{"ja-Hrkt":"フラワーベール","ko":"플라워베일","zh-Hant":"花幕","fr":"Flora-Voile","de":"Blütenhülle","es":"Velo Flor","it":"Fiorvelo","en":"Flower Veil"}},{"id":167,"name":"cheek-pouch","generation":"generation-vi","names":{"ja-Hrkt":"ほおぶくろ","ko":"볼주머니","zh-Hant":"頰囊","fr":"Bajoues","de":"Backentaschen","es":"Carrillo","it":"Guancegonfie","en":"Cheek Pouch"}},{"id":168,"name":"protean","generation":"generation-vi","names":{"ja-Hrkt":"へんげんじざい","ko":"변환자재","zh-Hant":"變幻自如","fr":"Protéen","de":"Wandlungskunst","es":"Mutatipo","it":"Mutatipo","en":"Protean"}},{"id":169,"name":"fur-coat","generation":"generation-vi","names":{"ja-Hrkt":"ファーコート","ko":"퍼코트","zh-Hant":"毛皮大衣","fr":"Toison Épaisse","de":"Fellkleid","es":"Pelaje Recio","it":"Foltopelo","en":"Fur Coat"}},{"id":170,"name":"magician","generation":"generation-vi","names":{"ja-Hrkt":"マジシャン","ko":"매지션","zh-Hant":"魔術師","fr":"Magicien","de":"Zauberer","es":"Prestidigitador","it":"Prestigiatore","en":"Magician"}},{"id":171,"name":"bulletproof","generation":"generation-vi","names":{"ja-Hrkt":"ぼうだん","ko":"방탄","zh-Hant":"防彈","fr":"Pare-Balles","de":"Kugelsicher","es":"Antibalas","it":"Antiproiettile","en":"Bulletproof"}},{"id":172,"name":"competitive","generation":"generation-vi","names":{"ja-Hrkt":"かちき","ko":"승기","zh-Hant":"好勝","fr":"Battant","de":"Unbeugsamkeit","es":"Tenacidad","it":"Tenacia","en":"Competitive"}},{"id":173,"name":"strong-jaw","generation":"generation-vi","names":{"ja-Hrkt":"がんじょうあご","ko":"옹골찬턱","zh-Hant":"強壯之顎","fr":"Prognathe","de":"Titankiefer","es":"Mandíbula Fuerte","it":"Ferromascella","en":"Strong Jaw"}},{"id":174,"name":"refrigerate","generation":"generation-vi","names":{"ja-Hrkt":"フリーズスキン","ko":"프리즈스킨","zh-Hant":"冰凍皮膚","fr":"Peau Gelée","de":"Frostschicht","es":"Piel Helada","it":"Pellegelo","en":"Refrigerate"}},{"id":175,"name":"sweet-veil","generation":"generation-vi","names":{"ja-Hrkt":"スイートベール","ko":"스위트베일","zh-Hant":"甜幕","fr":"Gluco-Voile","de":"Zuckerhülle","es":"Velo Dulce","it":"Dolcevelo","en":"Sweet Veil"}},{"id":176,"name":"stance-change","generation":"generation-vi","names":{"ja-Hrkt":"バトルスイッチ","ko":"배틀스위치","zh-Hant":"戰鬥切換","fr":"Déclic Tactique","de":"Taktikwechsel","es":"Cambio Táctico","it":"Accendilotta","en":"Stance Change"}},{"id":177,"name":"gale-wings","generation":"generation-vi","names":{"ja-Hrkt":"はやてのつばさ","ko":"질풍날개","zh-Hant":"疾風之翼","fr":"Ailes Bourrasque","de":"Orkanschwingen","es":"Alas Vendaval","it":"Aliraffica","en":"Gale Wings"}},{"id":178,"name":"mega-launcher","generation":"generation-vi","names":{"ja-Hrkt":"メガランチャー","ko":"메가런처","zh-Hant":"超級發射器","fr":"Méga Blaster","de":"Megawumme","es":"Megadisparador","it":"Megalancio","en":"Mega Launcher"}},{"id":179,"name":"grass-pelt","generation":"generation-vi","names":{"ja-Hrkt":"くさのけがわ","ko":"풀모피","zh-Hant":"草之毛皮","fr":"Toison Herbue","de":"Pflanzenpelz","es":"Manto Frondoso","it":"Peloderba","en":"Grass Pelt"}},{"id":180,"name":"symbiosis","generation":"generation-vi","names":{"ja-Hrkt":"きょうせい","ko":"공생","zh-Hant":"共生","fr":"Symbiose","de":"Nutznießer","es":"Simbiosis","it":"Simbiosi","en":"Symbiosis"}},{"id":181,"name":"tough-claws","generation":"generation-vi","names":{"ja-Hrkt":"かたいツメ","ko":"단단한발톱","zh-Hant":"硬爪","fr":"Griffe Dure","de":"Krallenwucht","es":"Garra Dura","it":"Unghiedure","en":"Tough Claws"}},{"id":182,"name":"pixilate","generation":"generation-vi","names":{"ja-Hrkt":"フェアリースキン","ko":"페어리스킨","zh-Hant":"妖精皮膚","fr":"Peau Féérique","de":"Feenschicht","es":"Piel Feérica","it":"Pellefolletto","en":"Pixilate"}},{"id":183,"name":"gooey","generation":"generation-vi","names":{"ja-Hrkt":"ぬめぬめ","ko":"미끈미끈","zh-Hant":"黏滑","fr":"Poisseux","de":"Viskosität","es":"Baba","it":"Viscosità","en":"Gooey"}},{"id":184,"name":"aerilate","generation":"generation-vi","names":{"ja-Hrkt":"スカイスキン","ko":"스카이스킨","zh-Hant":"飛行皮膚","fr":"Peau Céleste","de":"Zenithaut","es":"Piel Celeste","it":"Pellecielo","en":"Aerilate"}},{"id":185,"name":"parental-bond","generation":"generation-vi","names":{"ja-Hrkt":"おやこあい","ko":"부자유친","zh-Hant":"親子愛","fr":"Amour Filial","de":"Familienbande","es":"Amor Filial","it":"Amorefiliale","en":"Parental Bond"}},{"id":186,"name":"dark-aura","generation":"generation-vi","names":{"ja-Hrkt":"ダークオーラ","ko":"다크오라","zh-Hant":"暗黑氣場","fr":"Aura Ténébreuse","de":"Dunkelaura","es":"Aura Oscura","it":"Auratetra","en":"Dark Aura"}},{"id":187,"name":"fairy-aura","generation":"generation-vi","names":{"ja-Hrkt":"フェアリーオーラ","ko":"페어리오라","zh-Hant":"妖精氣場","fr":"Aura Féérique","de":"Feenaura","es":"Aura Feérica","it":"Aurafolletto","en":"Fairy Aura"}},{"id":188,"name":"aura-break","generation":"generation-vi","names":{"ja-Hrkt":"オーラブレイク","ko":"오라브레이크","zh-Hant":"氣場破壞","fr":"Aura Inversée","de":"Aura-Umkehr","es":"Rompeaura","it":"Frangiaura","en":"Aura Break"}},{"id":189,"name":"primordial-sea","generation":"generation-vi","names":{"ja-Hrkt":"はじまりのうみ","ko":"시작의바다","zh-Hant":"始源之海","fr":"Mer Primaire","de":"Urmeer","es":"Mar del Albor","it":"Mare Primordiale","en":"Primordial Sea"}},{"id":190,"name":"desolate-land","generation":"generation-vi","names":{"ja-Hrkt":"おわりのだいち","ko":"끝의대지","zh-Hant":"終結之地","fr":"Terre Finale","de":"Endland","es":"Tierra del Ocaso","it":"Terra Estrema","en":"Desolate Land"}},{"id":191,"name":"delta-stream","generation":"generation-vi","names":{"ja-Hrkt":"デルタストリーム","ko":"델타스트림","zh-Hant":"德爾塔氣流","fr":"Souffle Delta","de":"Delta-Wind","es":"Ráfaga Delta","it":"Flusso Delta","en":"Delta Stream"}},{"id":192,"name":"stamina","generation":"generation-vii","names":{"ja-Hrkt":"じきゅうりょく","ko":"지구력","zh-Hant":"持久力","fr":"Endurance","de":"Zähigkeit","es":"Firmeza","it":"Sopportazione","en":"Stamina"}},{"id":193,"name":"wimp-out","generation":"generation-vii","names":{"ja-Hrkt":"にげごし","ko":"도망태세","zh-Hant":"躍躍欲逃","fr":"Escampette","de":"Reißaus","es":"Huida","it":"Fuggifuggi","en":"Wimp Out"}},{"id":194,"name":"emergency-exit","generation":"generation-vii","names":{"ja-Hrkt":"ききかいひ","ko":"위기회피","zh-Hant":"危險迴避","fr":"Repli Tactique","de":"Rückzug","es":"Retirada","it":"Passoindietro","en":"Emergency Exit"}},{"id":195,"name":"water-compaction","generation":"generation-vii","names":{"ja-Hrkt":"みずがため","ko":"꾸덕꾸덕굳기","zh-Hant":"遇水凝固","fr":"Sable Humide","de":"Verklumpen","es":"Hidrorrefuerzo","it":"Idrorinforzo","en":"Water Compaction"}},{"id":196,"name":"merciless","generation":"generation-vii","names":{"ja-Hrkt":"ひとでなし","ko":"무도한행동","zh-Hant":"不仁不義","fr":"Cruauté","de":"Quälerei","es":"Ensañamiento","it":"Spietatezza","en":"Merciless"}},{"id":197,"name":"shields-down","generation":"generation-vii","names":{"ja-Hrkt":"リミットシールド","ko":"리밋실드","zh-Hant":"界限盾殼","fr":"Bouclier-Carcan","de":"Limitschild","es":"Escudo Limitado","it":"Scudosoglia","en":"Shields Down"}},{"id":198,"name":"stakeout","generation":"generation-vii","names":{"ja-Hrkt":"はりこみ","ko":"잠복","zh-Hant":"監視","fr":"Filature","de":"Beschattung","es":"Vigilante","it":"Sorveglianza","en":"Stakeout"}},{"id":199,"name":"water-bubble","generation":"generation-vii","names":{"ja-Hrkt":"すいほう","ko":"수포","zh-Hant":"水泡","fr":"Aquabulle","de":"Wasserblase","es":"Pompa","it":"Bolladacqua","en":"Water Bubble"}},{"id":200,"name":"steelworker","generation":"generation-vii","names":{"ja-Hrkt":"はがねつかい","ko":"강철술사","zh-Hant":"鋼能力者","fr":"Expert Acier","de":"Stahlprofi","es":"Acero Templado","it":"Tempracciaio","en":"Steelworker"}},{"id":201,"name":"berserk","generation":"generation-vii","names":{"ja-Hrkt":"ぎゃくじょう","ko":"발끈","zh-Hant":"怒火沖天","fr":"Dracolère","de":"Wutausbruch","es":"Cólera","it":"Furore","en":"Berserk"}},{"id":202,"name":"slush-rush","generation":"generation-vii","names":{"ja-Hrkt":"ゆきかき","ko":"눈치우기","zh-Hant":"撥雪","fr":"Chasse-Neige","de":"Schneescharrer","es":"Quitanieves","it":"Spalaneve","en":"Slush Rush"}},{"id":203,"name":"long-reach","generation":"generation-vii","names":{"ja-Hrkt":"えんかく","ko":"원격","zh-Hant":"遠隔","fr":"Longue Portée","de":"Langstrecke","es":"Remoto","it":"Distacco","en":"Long Reach"}},{"id":204,"name":"liquid-voice","generation":"generation-vii","names":{"ja-Hrkt":"うるおいボイス","ko":"촉촉보이스","zh-Hant":"濕潤之聲","fr":"Hydrata-Son","de":"Plätscherstimme","es":"Voz Fluida","it":"Idrovoce","en":"Liquid Voice"}},{"id":205,"name":"triage","generation":"generation-vii","names":{"ja-Hrkt":"ヒーリングシフト","ko":"힐링시프트","zh-Hant":"先行治療","fr":"Prioguérison","de":"Heilwandel","es":"Primer Auxilio","it":"Primacura","en":"Triage"}},{"id":206,"name":"galvanize","generation":"generation-vii","names":{"ja-Hrkt":"エレキスキン","ko":"일렉트릭스킨","zh-Hant":"電氣皮膚","fr":"Peau Électrique","de":"Elektrohaut","es":"Piel Eléctrica","it":"Pellelettro","en":"Galvanize"}},{"id":207,"name":"surge-surfer","generation":"generation-vii","names":{"ja-Hrkt":"サーフテール","ko":"서핑테일","zh-Hant":"衝浪之尾","fr":"Surf Caudal","de":"Surf-Schweif","es":"Cola Surf","it":"Codasurf","en":"Surge Surfer"}},{"id":208,"name":"schooling","generation":"generation-vii","names":{"ja-Hrkt":"ぎょぐん","ko":"어군","zh-Hant":"魚群","fr":"Banc","de":"Fischschwarm","es":"Banco","it":"Banco","en":"Schooling"}},{"id":209,"name":"disguise","generation":"generation-vii","names":{"ja-Hrkt":"ばけのかわ","ko":"탈","zh-Hant":"畫皮","fr":"Fantômasque","de":"Kostümspuk","es":"Disfraz","it":"Fantasmanto","en":"Disguise"}},{"id":210,"name":"battle-bond","generation":"generation-vii","names":{"ja-Hrkt":"きずなへんげ","ko":"유대변화","zh-Hant":"牽絆變身","fr":"Synergie","de":"Freundschaftsakt","es":"Fuerte Afecto","it":"Morfosintonia","en":"Battle Bond"}},{"id":211,"name":"power-construct","generation":"generation-vii","names":{"ja-Hrkt":"スワームチェンジ","ko":"스웜체인지","zh-Hant":"群聚變形","fr":"Rassemblement","de":"Scharwandel","es":"Agrupamiento","it":"Sciamefusione","en":"Power Construct"}},{"id":212,"name":"corrosion","generation":"generation-vii","names":{"ja-Hrkt":"ふしょく","ko":"부식","zh-Hant":"腐蝕","fr":"Corrosion","de":"Korrosion","es":"Corrosión","it":"Corrosione","en":"Corrosion"}},{"id":213,"name":"comatose","generation":"generation-vii","names":{"ja-Hrkt":"ぜったいねむり","ko":"절대안깸","zh-Hant":"絕對睡眠","fr":"Hypersommeil","de":"Dauerschlaf","es":"Letargo Perenne","it":"Sonno Assoluto","en":"Comatose"}},{"id":214,"name":"queenly-majesty","generation":"generation-vii","names":{"ja-Hrkt":"じょおうのいげん","ko":"여왕의위엄","zh-Hant":"女王的威嚴","fr":"Prestance Royale","de":"Majestät","es":"Regia Presencia","it":"Regalità","en":"Queenly Majesty"}},{"id":215,"name":"innards-out","generation":"generation-vii","names":{"ja-Hrkt":"とびだすなかみ","ko":"내용물분출","zh-Hant":"飛出的內在物","fr":"Expuls’Organes","de":"Magenkrempler","es":"Revés","it":"Espellinterno","en":"Innards Out"}},{"id":216,"name":"dancer","generation":"generation-vii","names":{"ja-Hrkt":"おどりこ","ko":"무희","zh-Hant":"舞者","fr":"Danseuse","de":"Tänzer","es":"Pareja de Baile","it":"Sincrodanza","en":"Dancer"}},{"id":217,"name":"battery","generation":"generation-vii","names":{"ja-Hrkt":"バッテリー","ko":"배터리","zh-Hant":"蓄電池","fr":"Batterie","de":"Batterie","es":"Batería","it":"Batteria","en":"Battery"}},{"id":218,"name":"fluffy","generation":"generation-vii","names":{"ja-Hrkt":"もふもふ","ko":"복슬복슬","zh-Hant":"毛茸茸","fr":"Boule de Poils","de":"Flauschigkeit","es":"Peluche","it":"Morbidone","en":"Fluffy"}},{"id":219,"name":"dazzling","generation":"generation-vii","names":{"ja-Hrkt":"ビビッドボディ","ko":"비비드바디","zh-Hant":"鮮艷之軀","fr":"Corps Coloré","de":"Buntkörper","es":"Cuerpo Vívido","it":"Corposgargiante","en":"Dazzling"}},{"id":220,"name":"soul-heart","generation":"generation-vii","names":{"ja-Hrkt":"ソウルハート","ko":"소울하트","zh-Hant":"魂心","fr":"Animacœur","de":"Seelenherz","es":"Coránima","it":"Cuoreanima","en":"Soul-Heart"}},{"id":221,"name":"tangling-hair","generation":"generation-vii","names":{"ja-Hrkt":"カーリーヘアー","ko":"컬리헤어","zh-Hant":"捲髮","fr":"Mèche Rebelle","de":"Lockenkopf","es":"Rizos Rebeldes","it":"Boccolidoro","en":"Tangling Hair"}},{"id":222,"name":"receiver","generation":"generation-vii","names":{"ja-Hrkt":"レシーバー","ko":"리시버","zh-Hant":"接球手","fr":"Receveur","de":"Receiver","es":"Receptor","it":"Ricezione","en":"Receiver"}},{"id":223,"name":"power-of-alchemy","generation":"generation-vii","names":{"ja-Hrkt":"かがくのちから","ko":"과학의힘","zh-Hant":"化學之力","fr":"Osmose","de":"Chemiekraft","es":"Reacción Química","it":"Forza Chimica","en":"Power of Alchemy"}},{"id":224,"name":"beast-boost","generation":"generation-vii","names":{"ja-Hrkt":"ビーストブースト","ko":"비스트부스트","zh-Hant":"異獸提升","fr":"Boost Chimère","de":"Bestien-Boost","es":"Ultraimpulso","it":"Ultraboost","en":"Beast Boost"}},{"id":225,"name":"rks-system","generation":"generation-vii","names":{"ja-Hrkt":"ＡＲシステム","ko":"AR시스템","zh-Hant":"ＡＲ系統","fr":"Système Alpha","de":"Alpha-System","es":"Sistema Alfa","it":"Sistema Primevo","en":"RKS System"}},{"id":226,"name":"electric-surge","generation":"generation-vii","names":{"ja-Hrkt":"エレキメイカー","ko":"일렉트릭메이커","zh-Hant":"電氣製造者","fr":"Créa-Élec","de":"Elektro-Erzeuger","es":"Electrogénesis","it":"Elettrogenesi","en":"Electric Surge"}},{"id":227,"name":"psychic-surge","generation":"generation-vii","names":{"ja-Hrkt":"サイコメイカー","ko":"사이코메이커","zh-Hant":"精神製造者","fr":"Créa-Psy","de":"Psycho-Erzeuger","es":"Psicogénesis","it":"Psicogenesi","en":"Psychic Surge"}},{"id":228,"name":"misty-surge","generation":"generation-vii","names":{"ja-Hrkt":"ミストメイカー","ko":"미스트메이커","zh-Hant":"薄霧製造者","fr":"Créa-Brume","de":"Nebel-Erzeuger","es":"Nebulogénesis","it":"Nebbiogenesi","en":"Misty Surge"}},{"id":229,"name":"grassy-surge","generation":"generation-vii","names":{"ja-Hrkt":"グラスメイカー","ko":"그래스메이커","zh-Hant":"青草製造者","fr":"Créa-Herbe","de":"Gras-Erzeuger","es":"Herbogénesis","it":"Erbogenesi","en":"Grassy Surge"}},{"id":230,"name":"full-metal-body","generation":"generation-vii","names":{"ja-Hrkt":"メタルプロテクト","ko":"메탈프로텍트","zh-Hant":"金屬防護","fr":"Métallo-Garde","de":"Metallprotektor","es":"Guardia Metálica","it":"Metalprotezione","en":"Full Metal Body"}},{"id":231,"name":"shadow-shield","generation":"generation-vii","names":{"ja-Hrkt":"ファントムガード","ko":"스펙터가드","zh-Hant":"幻影防守","fr":"Spectro-Bouclier","de":"Phantomschutz","es":"Guardia Espectro","it":"Spettroguardia","en":"Shadow Shield"}},{"id":232,"name":"prism-armor","generation":"generation-vii","names":{"ja-Hrkt":"プリズムアーマー","ko":"프리즘아머","zh-Hant":"稜鏡裝甲","fr":"Prisme-Armure","de":"Prismarüstung","es":"Armadura Prisma","it":"Scudoprisma","en":"Prism Armor"}},{"id":233,"name":"neuroforce","generation":"generation-vii","names":{"ja-Hrkt":"ブレインフォース","ko":"브레인포스","zh-Hant":"腦核之力","fr":"Cérébro-Force","de":"Zerebralmacht","es":"Fuerza Cerebral","it":"Cerebroforza","en":"Neuroforce"}},{"id":234,"name":"intrepid-sword","generation":"generation-viii","names":{"ja-Hrkt":"ふとうのけん","ko":"불요의검","zh-Hant":"不撓之劍","fr":"Lame Indomptable","de":"Kühnes Schwert","es":"Espada Indómita","it":"Spada Indomita","en":"Intrepid Sword"}},{"id":235,"name":"dauntless-shield","generation":"generation-viii","names":{"ja-Hrkt":"ふくつのたて","ko":"불굴의방패","zh-Hant":"不屈之盾","fr":"Égide Inflexible","de":"Wackerer Schild","es":"Escudo Recio","it":"Scudo Saldo","en":"Dauntless Shield"}},{"id":236,"name":"libero","generation":"generation-viii","names":{"ja-Hrkt":"リベロ","ko":"리베로","zh-Hant":"自由者","fr":"Libéro","de":"Libero","es":"Líbero","it":"Libero","en":"Libero"}},{"id":237,"name":"ball-fetch","generation":"generation-viii","names":{"ja-Hrkt":"たまひろい","ko":"볼줍기","zh-Hant":"撿球","fr":"Ramasse Ball","de":"Apport","es":"Recogebolas","it":"Raccattapalle","en":"Ball Fetch"}},{"id":238,"name":"cotton-down","generation":"generation-viii","names":{"ja-Hrkt":"わたげ","ko":"솜털","zh-Hant":"棉絮","fr":"Effilochage","de":"Wollflaum","es":"Pelusa","it":"Lanugine","en":"Cotton Down"}},{"id":239,"name":"propeller-tail","generation":"generation-viii","names":{"ja-Hrkt":"スクリューおびれ","ko":"스크루지느러미","zh-Hant":"螺旋尾鰭","fr":"Propulseur","de":"Schraubflosse","es":"Hélice Caudal","it":"Elicopinna","en":"Propeller Tail"}},{"id":240,"name":"mirror-armor","generation":"generation-viii","names":{"ja-Hrkt":"ミラーアーマー","ko":"미러아머","zh-Hant":"鏡甲","fr":"Armure Miroir","de":"Spiegelrüstung","es":"Coraza Reflejo","it":"Blindospecchio","en":"Mirror Armor"}},{"id":241,"name":"gulp-missile","generation":"generation-viii","names":{"ja-Hrkt":"うのミサイル","ko":"그대로꿀꺽미사일","zh-Hant":"一口飛彈","fr":"Dégobage","de":"Würggeschoss","es":"Tragamisil","it":"Inghiottimissile","en":"Gulp Missile"}},{"id":242,"name":"stalwart","generation":"generation-viii","names":{"ja-Hrkt":"すじがねいり","ko":"굳건한신념","zh-Hant":"堅毅","fr":"Nerfs d’Acier","de":"Stahlrückgrat","es":"Acérrimo","it":"Volontà di Ferro","en":"Stalwart"}},{"id":243,"name":"steam-engine","generation":"generation-viii","names":{"ja-Hrkt":"じょうききかん","ko":"증기기관","zh-Hant":"蒸汽機","fr":"Turbine","de":"Dampfantrieb","es":"Combustible","it":"Vapormacchina","en":"Steam Engine"}},{"id":244,"name":"punk-rock","generation":"generation-viii","names":{"ja-Hrkt":"パンクロック","ko":"펑크록","zh-Hant":"龐克搖滾","fr":"Punk Rock","de":"Punk Rock","es":"Punk Rock","it":"Punk Rock","en":"Punk Rock"}},{"id":245,"name":"sand-spit","generation":"generation-viii","names":{"ja-Hrkt":"すなはき","ko":"모래뿜기","zh-Hant":"吐沙","fr":"Expul’Sable","de":"Sandspeier","es":"Expulsarena","it":"Sputasabbia","en":"Sand Spit"}},{"id":246,"name":"ice-scales","generation":"generation-viii","names":{"ja-Hrkt":"こおりのりんぷん","ko":"얼음인분","zh-Hant":"冰鱗粉","fr":"Écailles Glacées","de":"Eisflügelstaub","es":"Escama de Hielo","it":"Geloscaglie","en":"Ice Scales"}},{"id":247,"name":"ripen","generation":"generation-viii","names":{"ja-Hrkt":"じゅくせい","ko":"숙성","zh-Hant":"熟成","fr":"Mûrissement","de":"Heranreifen","es":"Maduración","it":"Maturazione","en":"Ripen"}},{"id":248,"name":"ice-face","generation":"generation-viii","names":{"ja-Hrkt":"アイスフェイス","ko":"아이스페이스","zh-Hant":"結凍頭","fr":"Tête de Gel","de":"Tiefkühlkopf","es":"Cara de Hielo","it":"Gelofaccia","en":"Ice Face"}},{"id":249,"name":"power-spot","generation":"generation-viii","names":{"ja-Hrkt":"パワースポット","ko":"파워스폿","zh-Hant":"能量點","fr":"Cercle d’Énergie","de":"Kraftquelle","es":"Fuente Energía","it":"Fonte Energetica","en":"Power Spot"}},{"id":250,"name":"mimicry","generation":"generation-viii","names":{"ja-Hrkt":"ぎたい","ko":"의태","zh-Hant":"擬態","fr":"Mimétisme","de":"Mimese","es":"Mimetismo","it":"Mimetismo","en":"Mimicry"}},{"id":251,"name":"screen-cleaner","generation":"generation-viii","names":{"ja-Hrkt":"バリアフリー","ko":"배리어프리","zh-Hant":"除障","fr":"Brise-Barrière","de":"Hemmungslos","es":"Antibarrera","it":"Annullabarriere","en":"Screen Cleaner"}},{"id":252,"name":"steely-spirit","generation":"generation-viii","names":{"ja-Hrkt":"はがねのせいしん","ko":"강철정신","zh-Hant":"鋼之意志","fr":"Boost Acier","de":"Stählerner Wille","es":"Alma Acerada","it":"Spiritoferreo","en":"Steely Spirit"}},{"id":253,"name":"perish-body","generation":"generation-viii","names":{"ja-Hrkt":"ほろびのボディ","ko":"멸망의바디","zh-Hant":"滅亡之軀","fr":"Corps Condamné","de":"Unheilskörper","es":"Cuerpo Mortal","it":"Ultimotocco","en":"Perish Body"}},{"id":254,"name":"wandering-spirit","generation":"generation-viii","names":{"ja-Hrkt":"さまようたましい","ko":"떠도는영혼","zh-Hant":"遊魂","fr":"Âme Vagabonde","de":"Rastlose Seele","es":"Alma Errante","it":"Anima Errante","en":"Wandering Spirit"}},{"id":255,"name":"gorilla-tactics","generation":"generation-viii","names":{"ja-Hrkt":"ごりむちゅう","ko":"무아지경","zh-Hant":"一猩一意","fr":"Entêtement","de":"Affenfokus","es":"Monotema","it":"Vigorilla","en":"Gorilla Tactics"}},{"id":256,"name":"neutralizing-gas","generation":"generation-viii","names":{"ja-Hrkt":"かがくへんかガス","ko":"화학변화가스","zh-Hant":"化學變化氣體","fr":"Gaz Inhibiteur","de":"Reaktionsgas","es":"Gas Reactivo","it":"Gas Reagente","en":"Neutralizing Gas"}},{"id":257,"name":"pastel-veil","generation":"generation-viii","names":{"ja-Hrkt":"パステルベール","ko":"파스텔베일","zh-Hant":"粉彩護幕","fr":"Voile Pastel","de":"Pastellhülle","es":"Velo Pastel","it":"Pastelvelo","en":"Pastel Veil"}},{"id":258,"name":"hunger-switch","generation":"generation-viii","names":{"ja-Hrkt":"はらぺこスイッチ","ko":"꼬르륵스위치","zh-Hant":"飽了又餓","fr":"Déclic Fringale","de":"Heißhunger","es":"Mutapetito","it":"Pancialterna","en":"Hunger Switch"}},{"id":259,"name":"quick-draw","generation":"generation-viii","names":{"ja-Hrkt":"クイックドロウ","ko":"퀵드로","zh-Hant":"速擊","fr":"Tir Vif","de":"Schnellschuss","es":"Mano Rápida","it":"Colpolesto","en":"Quick Draw"}},{"id":260,"name":"unseen-fist","generation":"generation-viii","names":{"ja-Hrkt":"ふかしのこぶし","ko":"보이지않는주먹","zh-Hant":"無形拳","fr":"Poing Invisible","de":"Verborgene Faust","es":"Puño Invisible","it":"Pugni Invisibili","en":"Unseen Fist"}},{"id":261,"name":"curious-medicine","generation":"generation-viii","names":{"ja-Hrkt":"きみょうなくすり","ko":"기묘한약","zh-Hant":"怪藥","fr":"Breuvage Suspect","de":"Kuriose Arznei","es":"Medicina Extraña","it":"Stranofarmaco","en":"Curious Medicine"}},{"id":262,"name":"transistor","generation":"generation-viii","names":{"ja-Hrkt":"トランジスタ","ko":"트랜지스터","zh-Hant":"電晶體","fr":"Transistor","de":"Transistor","es":"Transistor","it":"Transistor","en":"Transistor"}},{"id":263,"name":"dragons-maw","generation":"generation-viii","names":{"ja-Hrkt":"りゅうのあぎと","ko":"용의턱","zh-Hant":"龍顎","fr":"Dent de Dragon","de":"Drachenkiefer","es":"Mandíbula Dragón","it":"Dragomascelle","en":"Dragon’s Maw"}},{"id":264,"name":"chilling-neigh","generation":"generation-viii","names":{"ja-Hrkt":"しろのいななき","ko":"백의울음","zh-Hant":"蒼白嘶鳴","fr":"Blanche Ruade","de":"Helles Wiehern","es":"Relincho Blanco","it":"Nitrito Bianco","en":"Chilling Neigh"}},{"id":265,"name":"grim-neigh","generation":"generation-viii","names":{"ja-Hrkt":"くろのいななき","ko":"흑의울음","zh-Hant":"漆黑嘶鳴","fr":"Sombre Ruade","de":"Dunkles Wiehern","es":"Relincho Negro","it":"Nitrito Nero","en":"Grim Neigh"}},{"id":266,"name":"as-one-glastrier","generation":"generation-viii","names":{"ja-Hrkt":"じんばいったい","ko":"혼연일체","zh-Hant":"人馬一體","fr":"Osmose Équine","de":"Reitgespann","es":"Unidad Ecuestre","it":"Sintonia Equina","en":"As One"}},{"id":267,"name":"as-one-spectrier","generation":"generation-viii","names":{"ja-Hrkt":"じんばいったい","ko":"혼연일체","zh-Hant":"人馬一體","fr":"Osmose Équine","de":"Reitgespann","es":"Unidad Ecuestre","it":"Sintonia Equina","en":"As One"}},{"id":268,"name":"lingering-aroma","generation":"generation-ix","names":{"ja-Hrkt":"とれないにおい","fr":"Odeur Tenace","de":"Duftschwade","es":"Olor Persistente","it":"Odore Tenace","en":"Lingering Aroma"}},{"id":269,"name":"seed-sower","generation":"generation-ix","names":{"ja-Hrkt":"こぼれダネ","fr":"Semencier","de":"Streusaat","es":"Disemillar","it":"Spargisemi","en":"Seed Sower"}},{"id":270,"name":"thermal-exchange","generation":"generation-ix","names":{"ja-Hrkt":"ねつこうかん","fr":"Thermodynamique","de":"Thermowandel","es":"Termoscambio","it":"Termoscambio","en":"Thermal Exchange"}},{"id":271,"name":"anger-shell","generation":"generation-ix","names":{"ja-Hrkt":"いかりのこうら","fr":"Courroupace","de":"Wutpanzer","es":"Coraza Ira","it":"Iraguscio","en":"Anger Shell"}},{"id":272,"name":"purifying-salt","generation":"generation-ix","names":{"ja-Hrkt":"きよめのしお","fr":"Sel Purificateur","de":"Läutersalz","es":"Sal Purificadora","it":"Sale Purificante","en":"Purifying Salt"}},{"id":273,"name":"well-baked-body","generation":"generation-ix","names":{"ja-Hrkt":"こんがりボディ","fr":"Bien Cuit","de":"Knusperkruste","es":"Cuerpo Horneado","it":"Bentostato","en":"Well-Baked Body"}},{"id":274,"name":"wind-rider","generation":"generation-ix","names":{"ja-Hrkt":"かぜのり","fr":"Aéroporté","de":"Windreiter","es":"Surcavientos","it":"Vento Propizio","en":"Wind Rider"}},{"id":275,"name":"guard-dog","generation":"generation-ix","names":{"ja-Hrkt":"ばんけん","fr":"Chien de Garde","de":"Wachhund","es":"Perro Guardián","it":"Cane da Guardia","en":"Guard Dog"}},{"id":276,"name":"rocky-payload","generation":"generation-ix","names":{"ja-Hrkt":"いわはこび","fr":"Porte-Roche","de":"Steinträger","es":"Transportarrocas","it":"Portamassi","en":"Rocky Payload"}},{"id":277,"name":"wind-power","generation":"generation-ix","names":{"ja-Hrkt":"ふうりょくでんき","fr":"Turbine Éolienne","de":"Windkraft","es":"Energía Eólica","it":"Energia Eolica","en":"Wind Power"}},{"id":278,"name":"zero-to-hero","generation":"generation-ix","names":{"ja-Hrkt":"マイティチェンジ","fr":"Supermutation","de":"Superwechsel","es":"Cambio Heroico","it":"Supercambio","en":"Zero to Hero"}},{"id":279,"name":"commander","generation":"generation-ix","names":{"ja-Hrkt":"しれいとう","fr":"Commandant","de":"Kommandant","es":"Comandar","it":"Torre di Comando","en":"Commander"}},{"id":280,"name":"electromorphosis","generation":"generation-ix","names":{"ja-Hrkt":"でんきにかえる","fr":"Grecharge","de":"Dynamo","es":"Dinamo","it":"Convertivolt","en":"Electromorphosis"}},{"id":281,"name":"protosynthesis","generation":"generation-ix","names":{"ja-Hrkt":"こだいかっせい","fr":"Paléosynthèse","de":"Paläosynthese","es":"Paleosíntesis","it":"Paleoattivazione","en":"Protosynthesis"}},{"id":282,"name":"quark-drive","generation":"generation-ix","names":{"ja-Hrkt":"クォークチャージ","fr":"Charge Quantique","de":"Quantenantrieb","es":"Carga Cuark","it":"Carica Quark","en":"Quark Drive"}},{"id":283,"name":"good-as-gold","generation":"generation-ix","names":{"ja-Hrkt":"おうごんのからだ","fr":"Corps en Or","de":"Goldkörper","es":"Cuerpo Áureo","it":"Corpo Aureo","en":"Good as Gold"}},{"id":284,"name":"vessel-of-ruin","generation":"generation-ix","names":{"ja-Hrkt":"わざわいのうつわ","fr":"Urne du Fléau","de":"Unheilsgefäß","es":"Caldero Debacle","it":"Vaso Nefasto","en":"Vessel of Ruin"}},{"id":285,"name":"sword-of-ruin","generation":"generation-ix","names":{"ja-Hrkt":"わざわいのつるぎ","fr":"Épée du Fléau","de":"Unheilsschwert","es":"Espada Debacle","it":"Spada Nefasta","en":"Sword of Ruin"}},{"id":286,"name":"tablets-of-ruin","generation":"generation-ix","names":{"ja-Hrkt":"わざわいのおふだ","fr":"Bois du Fléau","de":"Unheilstafeln","es":"Tablilla Debacle","it":"Amuleto Nefasto","en":"Tablets of Ruin"}},{"id":287,"name":"beads-of-ruin","generation":"generation-ix","names":{"ja-Hrkt":"わざわいのたま","fr":"Perles du Fléau","de":"Unheilsjuwelen","es":"Abalorio Debacle","it":"Monile Nefasto","en":"Beads of Ruin"}},{"id":288,"name":"orichalcum-pulse","generation":"generation-ix","names":{"ja-Hrkt":"ひひいろのこどう","fr":"Pouls Orichalque","de":"Orichalkum-Puls","es":"Latido Oricalco","it":"Ritmo d’Oricalco","en":"Orichalcum Pulse"}},{"id":289,"name":"hadron-engine","generation":"generation-ix","names":{"ja-Hrkt":"ハドロンエンジン","fr":"Moteur à Hadrons","de":"Hadronen-Motor","es":"Motor Hadrónico","it":"Motore Adronico","en":"Hadron Engine"}},{"id":290,"name":"opportunist","generation":"generation-ix","names":{"ja-Hrkt":"びんじょう","fr":"Opportuniste","de":"Profiteur","es":"Oportunista","it":"Scrocco","en":"Opportunist"}},{"id":291,"name":"cud-chew","generation":"generation-ix","names":{"ja-Hrkt":"はんすう","fr":"Ruminant","de":"Wiederkäuer","es":"Rumia","it":"Ruminante","en":"Cud Chew"}},{"id":292,"name":"sharpness","generation":"generation-ix","names":{"ja-Hrkt":"きれあじ","fr":"Incisif","de":"Scharfkantig","es":"Cortante","it":"Affilama","en":"Sharpness"}},{"id":293,"name":"supreme-overlord","generation":"generation-ix","names":{"ja-Hrkt":"そうだいしょう","fr":"Général Suprême","de":"Feldherr","es":"General Supremo","it":"Generale Supremo","en":"Supreme Overlord"}},{"id":294,"name":"costar","generation":"generation-ix","names":{"ja-Hrkt":"きょうえん","fr":"Collab","de":"Synchronauftritt","es":"Unísono","it":"Coprotagonismo","en":"Costar"}},{"id":295,"name":"toxic-debris","generation":"generation-ix","names":{"ja-Hrkt":"どくげしょう","fr":"Dépôt Toxique","de":"Giftbelag","es":"Capa Tóxica","it":"Mantossina","en":"Toxic Debris"}},{"id":296,"name":"armor-tail","generation":"generation-ix","names":{"ja-Hrkt":"テイルアーマー","fr":"Armure Caudale","de":"Schweifrüstung","es":"Cola Armadura","it":"Codarmatura","en":"Armor Tail"}},{"id":297,"name":"earth-eater","generation":"generation-ix","names":{"ja-Hrkt":"どしょく","fr":"Absorbe-Terre","de":"Bodenschmaus","es":"Geofagia","it":"Mangiaterra","en":"Earth Eater"}},{"id":298,"name":"mycelium-might","generation":"generation-ix","names":{"ja-Hrkt":"きんしのちから","fr":"Force Fongique","de":"Myzelienkraft","es":"Poder Fúngico","it":"Micoforza","en":"Mycelium Might"}},{"id":299,"name":"minds-eye","generation":"generation-ix","names":{"ja-Hrkt":"しんがん","ko":"심안","zh-Hant":"心眼","fr":"Œil Révélateur ","es":"Ojo Mental ","it":"Occhio Interiore ","en":"Minds Eye"}},{"id":300,"name":"supersweet-syrup","generation":"generation-ix","names":{"ja-Hrkt":"かんろなミツ","ko":"감미로운꿀","zh-Hant":"甘露之蜜","fr":"Nectar Mielleux","de":"Süßer Nektar","es":"Néctar Dulce","it":"Sciroppo Sublime","en":"Supersweet Syrup"}},{"id":301,"name":"hospitality","generation":"generation-ix","names":{"ja-Hrkt":"おもてなし","ko":"대접","zh-Hant":"款待","fr":"Aux Petits Soins","de":"Gastlichkeit","es":"Hospitalidad","it":"Ospitalità","en":"Hospitality"}},{"id":302,"name":"toxic-chain","generation":"generation-ix","names":{"ja-Hrkt":"どくのくさり","ko":"독사슬","zh-Hant":"毒鎖鏈","fr":"Chaîne Toxique","de":"Giftkette","es":"Cadena Tóxica","it":"Catena Tossica","en":"Toxic Chain"}},{"id":303,"name":"embody-aspect","generation":"generation-ix","names":{"ja-Hrkt":"おもかげやどし","ko":"초상투영","zh-Hant":"面影輝映","fr":"Force Mémorielle","de":"Erinnerungskraft","es":"Evocarrecuerdos","it":"Albergamemorie","en":"Embody Aspect"}},{"id":10001,"name":"mountaineer","generation":"generation-v","names":{"en":"Mountaineer"}},{"id":10002,"name":"wave-rider","generation":"generation-v","names":{"en":"Wave Rider"}},{"id":10003,"name":"skater","generation":"generation-v","names":{"en":"Skater"}},{"id":10004,"name":"thrust","generation":"generation-v","names":{"en":"Thrust"}},{"id":10005,"name":"perception","generation":"generation-v","names":{"en":"Perception"}},{"id":10006,"name":"parry","generation":"generation-v","names":{"en":"Parry"}},{"id":10007,"name":"instinct","generation":"generation-v","names":{"en":"Instinct"}},{"id":10008,"name":"dodge","generation":"generation-v","names":{"en":"Dodge"}},{"id":10009,"name":"jagged-edge","generation":"generation-v","names":{"en":"Jagged Edge"}},{"id":10010,"name":"frostbite","generation":"generation-v","names":{"en":"Frostbite"}},{"id":10011,"name":"tenacity","generation":"generation-v","names":{"en":"Tenacity"}},{"id":10012,"name":"pride","generation":"generation-v","names":{"en":"Pride"}},{"id":10013,"name":"deep-sleep","generation":"generation-v","names":{"en":"Deep Sleep"}},{"id":10014,"name":"power-nap","generation":"generation-v","names":{"en":"Power Nap"}},{"id":10015,"name":"spirit","generation":"generation-v","names":{"en":"Spirit"}},{"id":10016,"name":"warm-blanket","generation":"generation-v","names":{"en":"Warm Blanket"}},{"id":10017,"name":"gulp","generation":"generation-v","names":{"en":"Gulp"}},{"id":10018,"name":"herbivore","generation":"generation-v","names":{"en":"Herbivore"}},{"id":10019,"name":"sandpit","generation":"generation-v","names":{"en":"Sandpit"}},{"id":10020,"name":"hot-blooded","generation":"generation-v","names":{"en":"Hot Blooded"}},{"id":10021,"name":"medic","generation":"generation-v","names":{"en":"Medic"}},{"id":10022,"name":"life-force","generation":"generation-v","names":{"en":"Life Force"}},{"id":10023,"name":"lunchbox","generation":"generation-v","names":{"en":"Lunchbox"}},{"id":10024,"name":"nurse","generation":"generation-v","names":{"en":"Nurse"}},{"id":10025,"name":"melee","generation":"generation-v","names":{"en":"Melee"}},{"id":10026,"name":"sponge","generation":"generation-v","names":{"en":"Sponge"}},{"id":10027,"name":"bodyguard","generation":"generation-v","names":{"en":"Bodyguard"}},{"id":10028,"name":"hero","generation":"generation-v","names":{"en":"Hero"}},{"id":10029,"name":"last-bastion","generation":"generation-v","names":{"en":"Last Bastion"}},{"id":10030,"name":"stealth","generation":"generation-v","names":{"en":"Stealth"}},{"id":10031,"name":"vanguard","generation":"generation-v","names":{"en":"Vanguard"}},{"id":10032,"name":"nomad","generation":"generation-v","names":{"en":"Nomad"}},{"id":10033,"name":"sequence","generation":"generation-v","names":{"en":"Sequence"}},{"id":10034,"name":"grass-cloak","generation":"generation-v","names":{"en":"Grass Cloak"}},{"id":10035,"name":"celebrate","generation":"generation-v","names":{"en":"Celebrate"}},{"id":10036,"name":"lullaby","generation":"generation-v","names":{"en":"Lullaby"}},{"id":10037,"name":"calming","generation":"generation-v","names":{"en":"Calming"}},{"id":10038,"name":"daze","generation":"generation-v","names":{"en":"Daze"}},{"id":10039,"name":"frighten","generation":"generation-v","names":{"en":"Frighten"}},{"id":10040,"name":"interference","generation":"generation-v","names":{"en":"Interference"}},{"id":10041,"name":"mood-maker","generation":"generation-v","names":{"en":"Mood Maker"}},{"id":10042,"name":"confidence","generation":"generation-v","names":{"en":"Confidence"}},{"id":10043,"name":"fortune","generation":"generation-v","names":{"en":"Fortune"}},{"id":10044,"name":"bonanza","generation":"generation-v","names":{"en":"Bonanza"}},{"id":10045,"name":"explode","generation":"generation-v","names":{"en":"Explode"}},{"id":10046,"name":"omnipotent","generation":"generation-v","names":{"en":"Omnipotent"}},{"id":10047,"name":"share","generation":"generation-v","names":{"en":"Share"}},{"id":10048,"name":"black-hole","generation":"generation-v","names":{"en":"Black Hole"}},{"id":10049,"name":"shadow-dash","generation":"generation-v","names":{"en":"Shadow Dash"}},{"id":10050,"name":"sprint","generation":"generation-v","names":{"en":"Sprint"}},{"id":10051,"name":"disgust","generation":"generation-v","names":{"en":"Disgust"}},{"id":10052,"name":"high-rise","generation":"generation-v","names":{"en":"High-rise"}},{"id":10053,"name":"climber","generation":"generation-v","names":{"en":"Climber"}},{"id":10054,"name":"flame-boost","generation":"generation-v","names":{"en":"Flame Boost"}},{"id":10055,"name":"aqua-boost","generation":"generation-v","names":{"en":"Aqua Boost"}},{"id":10056,"name":"run-up","generation":"generation-v","names":{"en":"Run Up"}},{"id":10057,"name":"conqueror","generation":"generation-v","names":{"en":"Conqueror"}},{"id":10058,"name":"shackle","generation":"generation-v","names":{"en":"Shackle"}},{"id":10059,"name":"decoy","generation":"generation-v","names":{"en":"Decoy"}},{"id":10060,"name":"shield","generation":"generation-v","names":{"en":"Shield"}}]
+[
+  {
+    "id": 1,
+    "name": "stench",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "あくしゅう",
+      "ko": "악취",
+      "zh-Hant": "惡臭",
+      "fr": "Puanteur",
+      "de": "Duftnote",
+      "es": "Hedor",
+      "it": "Tanfo",
+      "en": "Stench"
+    }
+  },
+  {
+    "id": 2,
+    "name": "drizzle",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "あめふらし",
+      "ko": "잔비",
+      "zh-Hant": "降雨",
+      "fr": "Crachin",
+      "de": "Niesel",
+      "es": "Llovizna",
+      "it": "Piovischio",
+      "en": "Drizzle"
+    }
+  },
+  {
+    "id": 3,
+    "name": "speed-boost",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "かそく",
+      "ko": "가속",
+      "zh-Hant": "加速",
+      "fr": "Turbo",
+      "de": "Temposchub",
+      "es": "Impulso",
+      "it": "Acceleratore",
+      "en": "Speed Boost"
+    }
+  },
+  {
+    "id": 4,
+    "name": "battle-armor",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "カブトアーマー",
+      "ko": "전투무장",
+      "zh-Hant": "戰鬥盔甲",
+      "fr": "Armurbaston",
+      "de": "Kampfpanzer",
+      "es": "Armadura Batalla",
+      "it": "Lottascudo",
+      "en": "Battle Armor"
+    }
+  },
+  {
+    "id": 5,
+    "name": "sturdy",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "がんじょう",
+      "ko": "옹골참",
+      "zh-Hant": "結實",
+      "fr": "Fermeté",
+      "de": "Robustheit",
+      "es": "Robustez",
+      "it": "Vigore",
+      "en": "Sturdy"
+    }
+  },
+  {
+    "id": 6,
+    "name": "damp",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "しめりけ",
+      "ko": "습기",
+      "zh-Hant": "濕氣",
+      "fr": "Moiteur",
+      "de": "Feuchtigkeit",
+      "es": "Humedad",
+      "it": "Umidità",
+      "en": "Damp"
+    }
+  },
+  {
+    "id": 7,
+    "name": "limber",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "じゅうなん",
+      "ko": "유연",
+      "zh-Hant": "柔軟",
+      "fr": "Échauffement",
+      "de": "Flexibilität",
+      "es": "Flexibilidad",
+      "it": "Scioltezza",
+      "en": "Limber"
+    }
+  },
+  {
+    "id": 8,
+    "name": "sand-veil",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "すながくれ",
+      "ko": "모래숨기",
+      "zh-Hant": "沙隱",
+      "fr": "Voile Sable",
+      "de": "Sandschleier",
+      "es": "Velo Arena",
+      "it": "Sabbiavelo",
+      "en": "Sand Veil"
+    }
+  },
+  {
+    "id": 9,
+    "name": "static",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "せいでんき",
+      "ko": "정전기",
+      "zh-Hant": "靜電",
+      "fr": "Statik",
+      "de": "Statik",
+      "es": "Elec. Estática",
+      "it": "Statico",
+      "en": "Static"
+    }
+  },
+  {
+    "id": 10,
+    "name": "volt-absorb",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ちくでん",
+      "ko": "축전",
+      "zh-Hant": "蓄電",
+      "fr": "Absorbe-Volt",
+      "de": "Voltabsorber",
+      "es": "Absorbe Elec",
+      "it": "Assorbivolt",
+      "en": "Volt Absorb"
+    }
+  },
+  {
+    "id": 11,
+    "name": "water-absorb",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ちょすい",
+      "ko": "저수",
+      "zh-Hant": "儲水",
+      "fr": "Absorbe-Eau",
+      "de": "H2O-Absorber",
+      "es": "Absorbe Agua",
+      "it": "Assorbacqua",
+      "en": "Water Absorb"
+    }
+  },
+  {
+    "id": 12,
+    "name": "oblivious",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "どんかん",
+      "ko": "둔감",
+      "zh-Hant": "遲鈍",
+      "fr": "Benêt",
+      "de": "Dösigkeit",
+      "es": "Despiste",
+      "it": "Indifferenza",
+      "en": "Oblivious"
+    }
+  },
+  {
+    "id": 13,
+    "name": "cloud-nine",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ノーてんき",
+      "ko": "날씨부정",
+      "zh-Hant": "無關天氣",
+      "fr": "Ciel Gris",
+      "de": "Wolke Sieben",
+      "es": "Aclimatación",
+      "it": "Antimeteo",
+      "en": "Cloud Nine"
+    }
+  },
+  {
+    "id": 14,
+    "name": "compound-eyes",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ふくがん",
+      "ko": "복안",
+      "zh-Hant": "複眼",
+      "fr": "Œil Composé",
+      "de": "Facettenauge",
+      "es": "Ojo Compuesto",
+      "it": "Insettocchi",
+      "en": "Compound Eyes"
+    }
+  },
+  {
+    "id": 15,
+    "name": "insomnia",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ふみん",
+      "ko": "불면",
+      "zh-Hant": "不眠",
+      "fr": "Insomnia",
+      "de": "Insomnia",
+      "es": "Insomnio",
+      "it": "Insonnia",
+      "en": "Insomnia"
+    }
+  },
+  {
+    "id": 16,
+    "name": "color-change",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "へんしょく",
+      "ko": "변색",
+      "zh-Hant": "變色",
+      "fr": "Homochromie",
+      "de": "Farbwechsel",
+      "es": "Cambio Color",
+      "it": "Cambiacolore",
+      "en": "Color Change"
+    }
+  },
+  {
+    "id": 17,
+    "name": "immunity",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "めんえき",
+      "ko": "면역",
+      "zh-Hant": "免疫",
+      "fr": "Vaccin",
+      "de": "Immunität",
+      "es": "Inmunidad",
+      "it": "Immunità",
+      "en": "Immunity"
+    }
+  },
+  {
+    "id": 18,
+    "name": "flash-fire",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "もらいび",
+      "ko": "타오르는불꽃",
+      "zh-Hant": "引火",
+      "fr": "Torche",
+      "de": "Feuerfänger",
+      "es": "Absorbe Fuego",
+      "it": "Fuocardore",
+      "en": "Flash Fire"
+    }
+  },
+  {
+    "id": 19,
+    "name": "shield-dust",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "りんぷん",
+      "ko": "인분",
+      "zh-Hant": "鱗粉",
+      "fr": "Écran Poudre",
+      "de": "Puderabwehr",
+      "es": "Polvo Escudo",
+      "it": "Polvoscudo",
+      "en": "Shield Dust"
+    }
+  },
+  {
+    "id": 20,
+    "name": "own-tempo",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "マイペース",
+      "ko": "마이페이스",
+      "zh-Hant": "我行我素",
+      "fr": "Tempo Perso",
+      "de": "Tempomacher",
+      "es": "Ritmo Propio",
+      "it": "Mente Locale",
+      "en": "Own Tempo"
+    }
+  },
+  {
+    "id": 21,
+    "name": "suction-cups",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "きゅうばん",
+      "ko": "흡반",
+      "zh-Hant": "吸盤",
+      "fr": "Ventouse",
+      "de": "Saugnapf",
+      "es": "Ventosas",
+      "it": "Ventose",
+      "en": "Suction Cups"
+    }
+  },
+  {
+    "id": 22,
+    "name": "intimidate",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "いかく",
+      "ko": "위협",
+      "zh-Hant": "威嚇",
+      "fr": "Intimidation",
+      "de": "Bedroher",
+      "es": "Intimidación",
+      "it": "Prepotenza",
+      "en": "Intimidate"
+    }
+  },
+  {
+    "id": 23,
+    "name": "shadow-tag",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "かげふみ",
+      "ko": "그림자밟기",
+      "zh-Hant": "踩影",
+      "fr": "Marque Ombre",
+      "de": "Wegsperre",
+      "es": "Sombra Trampa",
+      "it": "Pedinombra",
+      "en": "Shadow Tag"
+    }
+  },
+  {
+    "id": 24,
+    "name": "rough-skin",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "さめはだ",
+      "ko": "까칠한피부",
+      "zh-Hant": "粗糙皮膚",
+      "fr": "Peau Dure",
+      "de": "Rauhaut",
+      "es": "Piel Tosca",
+      "it": "Cartavetro",
+      "en": "Rough Skin"
+    }
+  },
+  {
+    "id": 25,
+    "name": "wonder-guard",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ふしぎなまもり",
+      "ko": "불가사의부적",
+      "zh-Hant": "神奇守護",
+      "fr": "Garde Mystik",
+      "de": "Wunderwache",
+      "es": "Superguarda",
+      "it": "Magidifesa",
+      "en": "Wonder Guard"
+    }
+  },
+  {
+    "id": 26,
+    "name": "levitate",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ふゆう",
+      "ko": "부유",
+      "zh-Hant": "飄浮",
+      "fr": "Lévitation",
+      "de": "Schwebe",
+      "es": "Levitación",
+      "it": "Levitazione",
+      "en": "Levitate"
+    }
+  },
+  {
+    "id": 27,
+    "name": "effect-spore",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ほうし",
+      "ko": "포자",
+      "zh-Hant": "孢子",
+      "fr": "Pose Spore",
+      "de": "Sporenwirt",
+      "es": "Efecto Espora",
+      "it": "Spargispora",
+      "en": "Effect Spore"
+    }
+  },
+  {
+    "id": 28,
+    "name": "synchronize",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "シンクロ",
+      "ko": "싱크로",
+      "zh-Hant": "同步",
+      "fr": "Synchro",
+      "de": "Synchro",
+      "es": "Sincronía",
+      "it": "Sincronismo",
+      "en": "Synchronize"
+    }
+  },
+  {
+    "id": 29,
+    "name": "clear-body",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "クリアボディ",
+      "ko": "클리어바디",
+      "zh-Hant": "恆淨之軀",
+      "fr": "Corps Sain",
+      "de": "Neutraltorso",
+      "es": "Cuerpo Puro",
+      "it": "Corpochiaro",
+      "en": "Clear Body"
+    }
+  },
+  {
+    "id": 30,
+    "name": "natural-cure",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "しぜんかいふく",
+      "ko": "자연회복",
+      "zh-Hant": "自然回復",
+      "fr": "Médic Nature",
+      "de": "Innere Kraft",
+      "es": "Cura Natural",
+      "it": "Alternacura",
+      "en": "Natural Cure"
+    }
+  },
+  {
+    "id": 31,
+    "name": "lightning-rod",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ひらいしん",
+      "ko": "피뢰침",
+      "zh-Hant": "避雷針",
+      "fr": "Paratonnerre",
+      "de": "Blitzfänger",
+      "es": "Pararrayos",
+      "it": "Parafulmine",
+      "en": "Lightning Rod"
+    }
+  },
+  {
+    "id": 32,
+    "name": "serene-grace",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "てんのめぐみ",
+      "ko": "하늘의은총",
+      "zh-Hant": "天恩",
+      "fr": "Sérénité",
+      "de": "Edelmut",
+      "es": "Dicha",
+      "it": "Leggiadro",
+      "en": "Serene Grace"
+    }
+  },
+  {
+    "id": 33,
+    "name": "swift-swim",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "すいすい",
+      "ko": "쓱쓱",
+      "zh-Hant": "悠游自如",
+      "fr": "Glissade",
+      "de": "Wassertempo",
+      "es": "Nado Rápido",
+      "it": "Nuotovelox",
+      "en": "Swift Swim"
+    }
+  },
+  {
+    "id": 34,
+    "name": "chlorophyll",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ようりょくそ",
+      "ko": "엽록소",
+      "zh-Hant": "葉綠素",
+      "fr": "Chlorophylle",
+      "de": "Chlorophyll",
+      "es": "Clorofila",
+      "it": "Clorofilla",
+      "en": "Chlorophyll"
+    }
+  },
+  {
+    "id": 35,
+    "name": "illuminate",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "はっこう",
+      "ko": "발광",
+      "zh-Hant": "發光",
+      "fr": "Lumiattirance",
+      "de": "Erleuchtung",
+      "es": "Iluminación",
+      "it": "Risplendi",
+      "en": "Illuminate"
+    }
+  },
+  {
+    "id": 36,
+    "name": "trace",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "トレース",
+      "ko": "트레이스",
+      "zh-Hant": "複製",
+      "fr": "Calque",
+      "de": "Erfassen",
+      "es": "Rastro",
+      "it": "Traccia",
+      "en": "Trace"
+    }
+  },
+  {
+    "id": 37,
+    "name": "huge-power",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ちからもち",
+      "ko": "천하장사",
+      "zh-Hant": "大力士",
+      "fr": "Coloforce",
+      "de": "Kraftkoloss",
+      "es": "Potencia",
+      "it": "Macroforza",
+      "en": "Huge Power"
+    }
+  },
+  {
+    "id": 38,
+    "name": "poison-point",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "どくのトゲ",
+      "ko": "독가시",
+      "zh-Hant": "毒刺",
+      "fr": "Point Poison",
+      "de": "Giftdorn",
+      "es": "Punto Tóxico",
+      "it": "Velenopunto",
+      "en": "Poison Point"
+    }
+  },
+  {
+    "id": 39,
+    "name": "inner-focus",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "せいしんりょく",
+      "ko": "정신력",
+      "zh-Hant": "精神力",
+      "fr": "Attention",
+      "de": "Konzentrator",
+      "es": "Foco Interno",
+      "it": "Forza Interiore",
+      "en": "Inner Focus"
+    }
+  },
+  {
+    "id": 40,
+    "name": "magma-armor",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "マグマのよろい",
+      "ko": "마그마의무장",
+      "zh-Hant": "熔岩鎧甲",
+      "fr": "Armumagma",
+      "de": "Magmapanzer",
+      "es": "Escudo Magma",
+      "it": "Magmascudo",
+      "en": "Magma Armor"
+    }
+  },
+  {
+    "id": 41,
+    "name": "water-veil",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "みずのベール",
+      "ko": "수의베일",
+      "zh-Hant": "水幕",
+      "fr": "Ignifu-Voile",
+      "de": "Aquahülle",
+      "es": "Velo Agua",
+      "it": "Idrovelo",
+      "en": "Water Veil"
+    }
+  },
+  {
+    "id": 42,
+    "name": "magnet-pull",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "じりょく",
+      "ko": "자력",
+      "zh-Hant": "磁力",
+      "fr": "Magnépiège",
+      "de": "Magnetfalle",
+      "es": "Imán",
+      "it": "Magnetismo",
+      "en": "Magnet Pull"
+    }
+  },
+  {
+    "id": 43,
+    "name": "soundproof",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ぼうおん",
+      "ko": "방음",
+      "zh-Hant": "隔音",
+      "fr": "Anti-Bruit",
+      "de": "Lärmschutz",
+      "es": "Insonorizar",
+      "it": "Antisuono",
+      "en": "Soundproof"
+    }
+  },
+  {
+    "id": 44,
+    "name": "rain-dish",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "あめうけざら",
+      "ko": "젖은접시",
+      "zh-Hant": "雨盤",
+      "fr": "Cuvette",
+      "de": "Regengenuss",
+      "es": "Cura Lluvia",
+      "it": "Copripioggia",
+      "en": "Rain Dish"
+    }
+  },
+  {
+    "id": 45,
+    "name": "sand-stream",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "すなおこし",
+      "ko": "모래날림",
+      "zh-Hant": "揚沙",
+      "fr": "Sable Volant",
+      "de": "Sandsturm",
+      "es": "Chorro Arena",
+      "it": "Sabbiafiume",
+      "en": "Sand Stream"
+    }
+  },
+  {
+    "id": 46,
+    "name": "pressure",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "プレッシャー",
+      "ko": "프레셔",
+      "zh-Hant": "壓迫感",
+      "fr": "Pression",
+      "de": "Erzwinger",
+      "es": "Presión",
+      "it": "Pressione",
+      "en": "Pressure"
+    }
+  },
+  {
+    "id": 47,
+    "name": "thick-fat",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "あついしぼう",
+      "ko": "두꺼운지방",
+      "zh-Hant": "厚脂肪",
+      "fr": "Isograisse",
+      "de": "Speckschicht",
+      "es": "Sebo",
+      "it": "Grassospesso",
+      "en": "Thick Fat"
+    }
+  },
+  {
+    "id": 48,
+    "name": "early-bird",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "はやおき",
+      "ko": "일찍기상",
+      "zh-Hant": "早起",
+      "fr": "Matinal",
+      "de": "Frühwecker",
+      "es": "Madrugar",
+      "it": "Sveglialampo",
+      "en": "Early Bird"
+    }
+  },
+  {
+    "id": 49,
+    "name": "flame-body",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ほのおのからだ",
+      "ko": "불꽃몸",
+      "zh-Hant": "火焰之軀",
+      "fr": "Corps Ardent",
+      "de": "Flammkörper",
+      "es": "Cuerpo Llama",
+      "it": "Corpodifuoco",
+      "en": "Flame Body"
+    }
+  },
+  {
+    "id": 50,
+    "name": "run-away",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "にげあし",
+      "ko": "도주",
+      "zh-Hant": "逃跑",
+      "fr": "Fuite",
+      "de": "Angsthase",
+      "es": "Fuga",
+      "it": "Fugafacile",
+      "en": "Run Away"
+    }
+  },
+  {
+    "id": 51,
+    "name": "keen-eye",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "するどいめ",
+      "ko": "날카로운눈",
+      "zh-Hant": "銳利目光",
+      "fr": "Regard Vif",
+      "de": "Adlerauge",
+      "es": "Vista Lince",
+      "it": "Sguardofermo",
+      "en": "Keen Eye"
+    }
+  },
+  {
+    "id": 52,
+    "name": "hyper-cutter",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "かいりきバサミ",
+      "ko": "괴력집게",
+      "zh-Hant": "怪力鉗",
+      "fr": "Hyper Cutter",
+      "de": "Scherenmacht",
+      "es": "Corte Fuerte",
+      "it": "Ipertaglio",
+      "en": "Hyper Cutter"
+    }
+  },
+  {
+    "id": 53,
+    "name": "pickup",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ものひろい",
+      "ko": "픽업",
+      "zh-Hant": "撿拾",
+      "fr": "Ramassage",
+      "de": "Mitnahme",
+      "es": "Recogida",
+      "it": "Raccolta",
+      "en": "Pickup"
+    }
+  },
+  {
+    "id": 54,
+    "name": "truant",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "なまけ",
+      "ko": "게으름",
+      "zh-Hant": "懶惰",
+      "fr": "Absentéisme",
+      "de": "Schnarchnase",
+      "es": "Ausente",
+      "it": "Pigrone",
+      "en": "Truant"
+    }
+  },
+  {
+    "id": 55,
+    "name": "hustle",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "はりきり",
+      "ko": "의욕",
+      "zh-Hant": "活力",
+      "fr": "Agitation",
+      "de": "Übereifer",
+      "es": "Entusiasmo",
+      "it": "Tuttafretta",
+      "en": "Hustle"
+    }
+  },
+  {
+    "id": 56,
+    "name": "cute-charm",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "メロメロボディ",
+      "ko": "헤롱헤롱바디",
+      "zh-Hant": "迷人之軀",
+      "fr": "Joli Sourire",
+      "de": "Charmebolzen",
+      "es": "Gran Encanto",
+      "it": "Incantevole",
+      "en": "Cute Charm"
+    }
+  },
+  {
+    "id": 57,
+    "name": "plus",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "プラス",
+      "ko": "플러스",
+      "zh-Hant": "正電",
+      "fr": "Plus",
+      "de": "Plus",
+      "es": "Más",
+      "it": "Più",
+      "en": "Plus"
+    }
+  },
+  {
+    "id": 58,
+    "name": "minus",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "マイナス",
+      "ko": "마이너스",
+      "zh-Hant": "負電",
+      "fr": "Moins",
+      "de": "Minus",
+      "es": "Menos",
+      "it": "Meno",
+      "en": "Minus"
+    }
+  },
+  {
+    "id": 59,
+    "name": "forecast",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "てんきや",
+      "ko": "기분파",
+      "zh-Hant": "陰晴不定",
+      "fr": "Météo",
+      "de": "Prognose",
+      "es": "Predicción",
+      "it": "Previsioni",
+      "en": "Forecast"
+    }
+  },
+  {
+    "id": 60,
+    "name": "sticky-hold",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ねんちゃく",
+      "ko": "점착",
+      "zh-Hant": "黏著",
+      "fr": "Glu",
+      "de": "Klebekörper",
+      "es": "Viscosidad",
+      "it": "Antifurto",
+      "en": "Sticky Hold"
+    }
+  },
+  {
+    "id": 61,
+    "name": "shed-skin",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "だっぴ",
+      "ko": "탈피",
+      "zh-Hant": "蛻皮",
+      "fr": "Mue",
+      "de": "Expidermis",
+      "es": "Mudar",
+      "it": "Muta",
+      "en": "Shed Skin"
+    }
+  },
+  {
+    "id": 62,
+    "name": "guts",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "こんじょう",
+      "ko": "근성",
+      "zh-Hant": "毅力",
+      "fr": "Cran",
+      "de": "Adrenalin",
+      "es": "Agallas",
+      "it": "Dentistretti",
+      "en": "Guts"
+    }
+  },
+  {
+    "id": 63,
+    "name": "marvel-scale",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ふしぎなうろこ",
+      "ko": "이상한비늘",
+      "zh-Hant": "神奇鱗片",
+      "fr": "Écaille Spéciale",
+      "de": "Notschutz",
+      "es": "Escama Especial",
+      "it": "Pelledura",
+      "en": "Marvel Scale"
+    }
+  },
+  {
+    "id": 64,
+    "name": "liquid-ooze",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ヘドロえき",
+      "ko": "해감액",
+      "zh-Hant": "污泥漿",
+      "fr": "Suintement",
+      "de": "Kloakensoße",
+      "es": "Lodo Líquido",
+      "it": "Melma",
+      "en": "Liquid Ooze"
+    }
+  },
+  {
+    "id": 65,
+    "name": "overgrow",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "しんりょく",
+      "ko": "심록",
+      "zh-Hant": "茂盛",
+      "fr": "Engrais",
+      "de": "Notdünger",
+      "es": "Espesura",
+      "it": "Erbaiuto",
+      "en": "Overgrow"
+    }
+  },
+  {
+    "id": 66,
+    "name": "blaze",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "もうか",
+      "ko": "맹화",
+      "zh-Hant": "猛火",
+      "fr": "Brasier",
+      "de": "Großbrand",
+      "es": "Mar Llamas",
+      "it": "Aiutofuoco",
+      "en": "Blaze"
+    }
+  },
+  {
+    "id": 67,
+    "name": "torrent",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "げきりゅう",
+      "ko": "급류",
+      "zh-Hant": "激流",
+      "fr": "Torrent",
+      "de": "Sturzbach",
+      "es": "Torrente",
+      "it": "Acquaiuto",
+      "en": "Torrent"
+    }
+  },
+  {
+    "id": 68,
+    "name": "swarm",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "むしのしらせ",
+      "ko": "벌레의알림",
+      "zh-Hant": "蟲之預感",
+      "fr": "Essaim",
+      "de": "Hexaplaga",
+      "es": "Enjambre",
+      "it": "Aiutinsetto",
+      "en": "Swarm"
+    }
+  },
+  {
+    "id": 69,
+    "name": "rock-head",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "いしあたま",
+      "ko": "돌머리",
+      "zh-Hant": "堅硬腦袋",
+      "fr": "Tête de Roc",
+      "de": "Steinhaupt",
+      "es": "Cabeza Roca",
+      "it": "Testadura",
+      "en": "Rock Head"
+    }
+  },
+  {
+    "id": 70,
+    "name": "drought",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ひでり",
+      "ko": "가뭄",
+      "zh-Hant": "日照",
+      "fr": "Sécheresse",
+      "de": "Dürre",
+      "es": "Sequía",
+      "it": "Siccità",
+      "en": "Drought"
+    }
+  },
+  {
+    "id": 71,
+    "name": "arena-trap",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ありじごく",
+      "ko": "개미지옥",
+      "zh-Hant": "沙穴",
+      "fr": "Piège Sable",
+      "de": "Ausweglos",
+      "es": "Trampa Arena",
+      "it": "Trappoarena",
+      "en": "Arena Trap"
+    }
+  },
+  {
+    "id": 72,
+    "name": "vital-spirit",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "やるき",
+      "ko": "의기양양",
+      "zh-Hant": "幹勁",
+      "fr": "Esprit Vital",
+      "de": "Munterkeit",
+      "es": "Espíritu Vital",
+      "it": "Spiritovivo",
+      "en": "Vital Spirit"
+    }
+  },
+  {
+    "id": 73,
+    "name": "white-smoke",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "しろいけむり",
+      "ko": "하얀연기",
+      "zh-Hant": "白色煙霧",
+      "fr": "Écran Fumée",
+      "de": "Pulverrauch",
+      "es": "Humo Blanco",
+      "it": "Fumochiaro",
+      "en": "White Smoke"
+    }
+  },
+  {
+    "id": 74,
+    "name": "pure-power",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "ヨガパワー",
+      "ko": "순수한힘",
+      "zh-Hant": "瑜伽之力",
+      "fr": "Force Pure",
+      "de": "Mentalkraft",
+      "es": "Energía Pura",
+      "it": "Forzapura",
+      "en": "Pure Power"
+    }
+  },
+  {
+    "id": 75,
+    "name": "shell-armor",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "シェルアーマー",
+      "ko": "조가비갑옷",
+      "zh-Hant": "硬殼盔甲",
+      "fr": "Coque Armure",
+      "de": "Panzerhaut",
+      "es": "Caparazón",
+      "it": "Guscioscudo",
+      "en": "Shell Armor"
+    }
+  },
+  {
+    "id": 76,
+    "name": "air-lock",
+    "generation": "generation-iii",
+    "names": {
+      "ja-Hrkt": "エアロック",
+      "ko": "에어록",
+      "zh-Hant": "氣閘",
+      "fr": "Air Lock",
+      "de": "Klimaschutz",
+      "es": "Bucle Aire",
+      "it": "Riparo",
+      "en": "Air Lock"
+    }
+  },
+  {
+    "id": 77,
+    "name": "tangled-feet",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ちどりあし",
+      "ko": "갈지자걸음",
+      "zh-Hant": "蹣跚",
+      "fr": "Pieds Confus",
+      "de": "Fußangel",
+      "es": "Tumbos",
+      "it": "Intricopiedi",
+      "en": "Tangled Feet"
+    }
+  },
+  {
+    "id": 78,
+    "name": "motor-drive",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "でんきエンジン",
+      "ko": "전기엔진",
+      "zh-Hant": "電氣引擎",
+      "fr": "Motorisé",
+      "de": "Starthilfe",
+      "es": "Electromotor",
+      "it": "Elettrorapid",
+      "en": "Motor Drive"
+    }
+  },
+  {
+    "id": 79,
+    "name": "rivalry",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "とうそうしん",
+      "ko": "투쟁심",
+      "zh-Hant": "鬥爭心",
+      "fr": "Rivalité",
+      "de": "Rivalität",
+      "es": "Rivalidad",
+      "it": "Antagonismo",
+      "en": "Rivalry"
+    }
+  },
+  {
+    "id": 80,
+    "name": "steadfast",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ふくつのこころ",
+      "ko": "불굴의마음",
+      "zh-Hant": "不屈之心",
+      "fr": "Impassible",
+      "de": "Felsenfest",
+      "es": "Impasible",
+      "it": "Cuordeciso",
+      "en": "Steadfast"
+    }
+  },
+  {
+    "id": 81,
+    "name": "snow-cloak",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ゆきがくれ",
+      "ko": "눈숨기",
+      "zh-Hant": "雪隱",
+      "fr": "Rideau Neige",
+      "de": "Schneemantel",
+      "es": "Manto Níveo",
+      "it": "Mantelneve",
+      "en": "Snow Cloak"
+    }
+  },
+  {
+    "id": 82,
+    "name": "gluttony",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "くいしんぼう",
+      "ko": "먹보",
+      "zh-Hant": "貪吃鬼",
+      "fr": "Gloutonnerie",
+      "de": "Völlerei",
+      "es": "Gula",
+      "it": "Voracità",
+      "en": "Gluttony"
+    }
+  },
+  {
+    "id": 83,
+    "name": "anger-point",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "いかりのつぼ",
+      "ko": "분노의경혈",
+      "zh-Hant": "憤怒穴位",
+      "fr": "Colérique",
+      "de": "Kurzschluss",
+      "es": "Irascible",
+      "it": "Grancollera",
+      "en": "Anger Point"
+    }
+  },
+  {
+    "id": 84,
+    "name": "unburden",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "かるわざ",
+      "ko": "곡예",
+      "zh-Hant": "輕裝",
+      "fr": "Délestage",
+      "de": "Entlastung",
+      "es": "Liviano",
+      "it": "Agiltecnica",
+      "en": "Unburden"
+    }
+  },
+  {
+    "id": 85,
+    "name": "heatproof",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "たいねつ",
+      "ko": "내열",
+      "zh-Hant": "耐熱",
+      "fr": "Ignifugé",
+      "de": "Hitzeschutz",
+      "es": "Ignífugo",
+      "it": "Antifuoco",
+      "en": "Heatproof"
+    }
+  },
+  {
+    "id": 86,
+    "name": "simple",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "たんじゅん",
+      "ko": "단순",
+      "zh-Hant": "單純",
+      "fr": "Simple",
+      "de": "Wankelmut",
+      "es": "Simple",
+      "it": "Disinvoltura",
+      "en": "Simple"
+    }
+  },
+  {
+    "id": 87,
+    "name": "dry-skin",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "かんそうはだ",
+      "ko": "건조피부",
+      "zh-Hant": "乾燥皮膚",
+      "fr": "Peau Sèche",
+      "de": "Trockenheit",
+      "es": "Piel Seca",
+      "it": "Pellearsa",
+      "en": "Dry Skin"
+    }
+  },
+  {
+    "id": 88,
+    "name": "download",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ダウンロード",
+      "ko": "다운로드",
+      "zh-Hant": "下載",
+      "fr": "Télécharge",
+      "de": "Download",
+      "es": "Descarga",
+      "it": "Download",
+      "en": "Download"
+    }
+  },
+  {
+    "id": 89,
+    "name": "iron-fist",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "てつのこぶし",
+      "ko": "철주먹",
+      "zh-Hant": "鐵拳",
+      "fr": "Poing de Fer",
+      "de": "Eisenfaust",
+      "es": "Puño Férreo",
+      "it": "Ferropugno",
+      "en": "Iron Fist"
+    }
+  },
+  {
+    "id": 90,
+    "name": "poison-heal",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ポイズンヒール",
+      "ko": "포이즌힐",
+      "zh-Hant": "毒療",
+      "fr": "Soin Poison",
+      "de": "Aufheber",
+      "es": "Antídoto",
+      "it": "Velencura",
+      "en": "Poison Heal"
+    }
+  },
+  {
+    "id": 91,
+    "name": "adaptability",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "てきおうりょく",
+      "ko": "적응력",
+      "zh-Hant": "適應力",
+      "fr": "Adaptabilité",
+      "de": "Anpassung",
+      "es": "Adaptable",
+      "it": "Adattabilità",
+      "en": "Adaptability"
+    }
+  },
+  {
+    "id": 92,
+    "name": "skill-link",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "スキルリンク",
+      "ko": "스킬링크",
+      "zh-Hant": "連續攻擊",
+      "fr": "Multi-Coups",
+      "de": "Wertelink",
+      "es": "Encadenado",
+      "it": "Abillegame",
+      "en": "Skill Link"
+    }
+  },
+  {
+    "id": 93,
+    "name": "hydration",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "うるおいボディ",
+      "ko": "촉촉바디",
+      "zh-Hant": "濕潤之軀",
+      "fr": "Hydratation",
+      "de": "Hydration",
+      "es": "Hidratación",
+      "it": "Idratazione",
+      "en": "Hydration"
+    }
+  },
+  {
+    "id": 94,
+    "name": "solar-power",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "サンパワー",
+      "ko": "선파워",
+      "zh-Hant": "太陽之力",
+      "fr": "Force Soleil",
+      "de": "Solarkraft",
+      "es": "Poder Solar",
+      "it": "Solarpotere",
+      "en": "Solar Power"
+    }
+  },
+  {
+    "id": 95,
+    "name": "quick-feet",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "はやあし",
+      "ko": "속보",
+      "zh-Hant": "飛毛腿",
+      "fr": "Pied Véloce",
+      "de": "Rasanz",
+      "es": "Pies Rápidos",
+      "it": "Piedisvelti",
+      "en": "Quick Feet"
+    }
+  },
+  {
+    "id": 96,
+    "name": "normalize",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ノーマルスキン",
+      "ko": "노말스킨",
+      "zh-Hant": "一般皮膚",
+      "fr": "Normalise",
+      "de": "Regulierung",
+      "es": "Normalidad",
+      "it": "Normalità",
+      "en": "Normalize"
+    }
+  },
+  {
+    "id": 97,
+    "name": "sniper",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "スナイパー",
+      "ko": "스나이퍼",
+      "zh-Hant": "狙擊手",
+      "fr": "Sniper",
+      "de": "Superschütze",
+      "es": "Francotirador",
+      "it": "Cecchino",
+      "en": "Sniper"
+    }
+  },
+  {
+    "id": 98,
+    "name": "magic-guard",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "マジックガード",
+      "ko": "매직가드",
+      "zh-Hant": "魔法防守",
+      "fr": "Garde Magik",
+      "de": "Magieschild",
+      "es": "Muro Mágico",
+      "it": "Magicscudo",
+      "en": "Magic Guard"
+    }
+  },
+  {
+    "id": 99,
+    "name": "no-guard",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ノーガード",
+      "ko": "노가드",
+      "zh-Hant": "無防守",
+      "fr": "Annule Garde",
+      "de": "Schildlos",
+      "es": "Indefenso",
+      "it": "Nullodifesa",
+      "en": "No Guard"
+    }
+  },
+  {
+    "id": 100,
+    "name": "stall",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "あとだし",
+      "ko": "시간벌기",
+      "zh-Hant": "慢出",
+      "fr": "Frein",
+      "de": "Zeitspiel",
+      "es": "Rezagado",
+      "it": "Rallentatore",
+      "en": "Stall"
+    }
+  },
+  {
+    "id": 101,
+    "name": "technician",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "テクニシャン",
+      "ko": "테크니션",
+      "zh-Hant": "技術高手",
+      "fr": "Technicien",
+      "de": "Techniker",
+      "es": "Experto",
+      "it": "Tecnico",
+      "en": "Technician"
+    }
+  },
+  {
+    "id": 102,
+    "name": "leaf-guard",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "リーフガード",
+      "ko": "리프가드",
+      "zh-Hant": "葉子防守",
+      "fr": "Feuille Garde",
+      "de": "Floraschild",
+      "es": "Defensa Hoja",
+      "it": "Fogliamanto",
+      "en": "Leaf Guard"
+    }
+  },
+  {
+    "id": 103,
+    "name": "klutz",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ぶきよう",
+      "ko": "서투름",
+      "zh-Hant": "笨拙",
+      "fr": "Maladresse",
+      "de": "Tollpatsch",
+      "es": "Zoquete",
+      "it": "Impaccio",
+      "en": "Klutz"
+    }
+  },
+  {
+    "id": 104,
+    "name": "mold-breaker",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "かたやぶり",
+      "ko": "틀깨기",
+      "zh-Hant": "破格",
+      "fr": "Brise Moule",
+      "de": "Überbrückung",
+      "es": "Rompemoldes",
+      "it": "Rompiforma",
+      "en": "Mold Breaker"
+    }
+  },
+  {
+    "id": 105,
+    "name": "super-luck",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "きょううん",
+      "ko": "대운",
+      "zh-Hant": "超幸運",
+      "fr": "Chanceux",
+      "de": "Glückspilz",
+      "es": "Afortunado",
+      "it": "Supersorte",
+      "en": "Super Luck"
+    }
+  },
+  {
+    "id": 106,
+    "name": "aftermath",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ゆうばく",
+      "ko": "유폭",
+      "zh-Hant": "引爆",
+      "fr": "Boom Final",
+      "de": "Finalschlag",
+      "es": "Detonación",
+      "it": "Scoppio",
+      "en": "Aftermath"
+    }
+  },
+  {
+    "id": 107,
+    "name": "anticipation",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "きけんよち",
+      "ko": "위험예지",
+      "zh-Hant": "危險預知",
+      "fr": "Anticipation",
+      "de": "Vorahnung",
+      "es": "Anticipación",
+      "it": "Presagio",
+      "en": "Anticipation"
+    }
+  },
+  {
+    "id": 108,
+    "name": "forewarn",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "よちむ",
+      "ko": "예지몽",
+      "zh-Hant": "預知夢",
+      "fr": "Prédiction",
+      "de": "Vorwarnung",
+      "es": "Alerta",
+      "it": "Premonizione",
+      "en": "Forewarn"
+    }
+  },
+  {
+    "id": 109,
+    "name": "unaware",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "てんねん",
+      "ko": "천진",
+      "zh-Hant": "純樸",
+      "fr": "Inconscient",
+      "de": "Unkenntnis",
+      "es": "Ignorante",
+      "it": "Imprudenza",
+      "en": "Unaware"
+    }
+  },
+  {
+    "id": 110,
+    "name": "tinted-lens",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "いろめがね",
+      "ko": "색안경",
+      "zh-Hant": "有色眼鏡",
+      "fr": "Lentiteintée",
+      "de": "Aufwertung",
+      "es": "Cromolente",
+      "it": "Lentifumé",
+      "en": "Tinted Lens"
+    }
+  },
+  {
+    "id": 111,
+    "name": "filter",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "フィルター",
+      "ko": "필터",
+      "zh-Hant": "過濾",
+      "fr": "Filtre",
+      "de": "Filter",
+      "es": "Filtro",
+      "it": "Filtro",
+      "en": "Filter"
+    }
+  },
+  {
+    "id": 112,
+    "name": "slow-start",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "スロースタート",
+      "ko": "슬로스타트",
+      "zh-Hant": "慢啟動",
+      "fr": "Début Calme",
+      "de": "Saumselig",
+      "es": "Inicio Lento",
+      "it": "Lentoinizio",
+      "en": "Slow Start"
+    }
+  },
+  {
+    "id": 113,
+    "name": "scrappy",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "きもったま",
+      "ko": "배짱",
+      "zh-Hant": "膽量",
+      "fr": "Querelleur",
+      "de": "Rauflust",
+      "es": "Intrépido",
+      "it": "Nervisaldi",
+      "en": "Scrappy"
+    }
+  },
+  {
+    "id": 114,
+    "name": "storm-drain",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "よびみず",
+      "ko": "마중물",
+      "zh-Hant": "引水",
+      "fr": "Lavabo",
+      "de": "Sturmsog",
+      "es": "Colector",
+      "it": "Acquascolo",
+      "en": "Storm Drain"
+    }
+  },
+  {
+    "id": 115,
+    "name": "ice-body",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "アイスボディ",
+      "ko": "아이스바디",
+      "zh-Hant": "冰凍之軀",
+      "fr": "Corps Gel",
+      "de": "Eishaut",
+      "es": "Gélido",
+      "it": "Corpogelo",
+      "en": "Ice Body"
+    }
+  },
+  {
+    "id": 116,
+    "name": "solid-rock",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ハードロック",
+      "ko": "하드록",
+      "zh-Hant": "堅硬岩石",
+      "fr": "Solide Roc",
+      "de": "Felskern",
+      "es": "Roca Sólida",
+      "it": "Solidroccia",
+      "en": "Solid Rock"
+    }
+  },
+  {
+    "id": 117,
+    "name": "snow-warning",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ゆきふらし",
+      "ko": "눈퍼뜨리기",
+      "zh-Hant": "降雪",
+      "fr": "Alerte Neige",
+      "de": "Hagelalarm",
+      "es": "Nevada",
+      "it": "Scendineve",
+      "en": "Snow Warning"
+    }
+  },
+  {
+    "id": 118,
+    "name": "honey-gather",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "みつあつめ",
+      "ko": "꿀모으기",
+      "zh-Hant": "採蜜",
+      "fr": "Cherche Miel",
+      "de": "Honigmaul",
+      "es": "Recogemiel",
+      "it": "Mielincetta",
+      "en": "Honey Gather"
+    }
+  },
+  {
+    "id": 119,
+    "name": "frisk",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "おみとおし",
+      "ko": "통찰",
+      "zh-Hant": "察覺",
+      "fr": "Fouille",
+      "de": "Schnüffler",
+      "es": "Cacheo",
+      "it": "Indagine",
+      "en": "Frisk"
+    }
+  },
+  {
+    "id": 120,
+    "name": "reckless",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "すてみ",
+      "ko": "이판사판",
+      "zh-Hant": "捨身",
+      "fr": "Téméraire",
+      "de": "Achtlos",
+      "es": "Audaz",
+      "it": "Temerarietà",
+      "en": "Reckless"
+    }
+  },
+  {
+    "id": 121,
+    "name": "multitype",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "マルチタイプ",
+      "ko": "멀티타입",
+      "zh-Hant": "多屬性",
+      "fr": "Multi-Type",
+      "de": "Variabilität",
+      "es": "Multitipo",
+      "it": "Multitipo",
+      "en": "Multitype"
+    }
+  },
+  {
+    "id": 122,
+    "name": "flower-gift",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "フラワーギフト",
+      "ko": "플라워기프트",
+      "zh-Hant": "花之禮",
+      "fr": "Don Floral",
+      "de": "Pflanzengabe",
+      "es": "Don Floral",
+      "it": "Regalfiore",
+      "en": "Flower Gift"
+    }
+  },
+  {
+    "id": 123,
+    "name": "bad-dreams",
+    "generation": "generation-iv",
+    "names": {
+      "ja-Hrkt": "ナイトメア",
+      "ko": "나이트메어",
+      "zh-Hant": "夢魘",
+      "fr": "Mauvais Rêve",
+      "de": "Alptraum",
+      "es": "Mal Sueño",
+      "it": "Sogniamari",
+      "en": "Bad Dreams"
+    }
+  },
+  {
+    "id": 124,
+    "name": "pickpocket",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "わるいてぐせ",
+      "ko": "나쁜손버릇",
+      "zh-Hant": "順手牽羊",
+      "fr": "Pickpocket",
+      "de": "Langfinger",
+      "es": "Hurto",
+      "it": "Arraffalesto",
+      "en": "Pickpocket"
+    }
+  },
+  {
+    "id": 125,
+    "name": "sheer-force",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ちからずく",
+      "ko": "우격다짐",
+      "zh-Hant": "強行",
+      "fr": "Sans Limite",
+      "de": "Rohe Gewalt",
+      "es": "Potencia Bruta",
+      "it": "Forzabruta",
+      "en": "Sheer Force"
+    }
+  },
+  {
+    "id": 126,
+    "name": "contrary",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "あまのじゃく",
+      "ko": "심술꾸러기",
+      "zh-Hant": "唱反調",
+      "fr": "Contestation",
+      "de": "Umkehrung",
+      "es": "Respondón",
+      "it": "Inversione",
+      "en": "Contrary"
+    }
+  },
+  {
+    "id": 127,
+    "name": "unnerve",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "きんちょうかん",
+      "ko": "긴장감",
+      "zh-Hant": "緊張感",
+      "fr": "Tension",
+      "de": "Anspannung",
+      "es": "Nerviosismo",
+      "it": "Agitazione",
+      "en": "Unnerve"
+    }
+  },
+  {
+    "id": 128,
+    "name": "defiant",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "まけんき",
+      "ko": "오기",
+      "zh-Hant": "不服輸",
+      "fr": "Acharné",
+      "de": "Siegeswille",
+      "es": "Competitivo",
+      "it": "Agonismo",
+      "en": "Defiant"
+    }
+  },
+  {
+    "id": 129,
+    "name": "defeatist",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "よわき",
+      "ko": "무기력",
+      "zh-Hant": "軟弱",
+      "fr": "Défaitiste",
+      "de": "Schwächling",
+      "es": "Flaqueza",
+      "it": "Sconforto",
+      "en": "Defeatist"
+    }
+  },
+  {
+    "id": 130,
+    "name": "cursed-body",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "のろわれボディ",
+      "ko": "저주받은바디",
+      "zh-Hant": "詛咒之軀",
+      "fr": "Corps Maudit",
+      "de": "Tastfluch",
+      "es": "Cuerpo Maldito",
+      "it": "Corpofunesto",
+      "en": "Cursed Body"
+    }
+  },
+  {
+    "id": 131,
+    "name": "healer",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "いやしのこころ",
+      "ko": "치유의마음",
+      "zh-Hant": "治癒之心",
+      "fr": "Cœur Soin",
+      "de": "Heilherz",
+      "es": "Alma Cura",
+      "it": "Curacuore",
+      "en": "Healer"
+    }
+  },
+  {
+    "id": 132,
+    "name": "friend-guard",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "フレンドガード",
+      "ko": "프렌드가드",
+      "zh-Hant": "友情防守",
+      "fr": "Garde-Ami",
+      "de": "Freundeshut",
+      "es": "Compiescolta",
+      "it": "Amicoscudo",
+      "en": "Friend Guard"
+    }
+  },
+  {
+    "id": 133,
+    "name": "weak-armor",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "くだけるよろい",
+      "ko": "깨어진갑옷",
+      "zh-Hant": "碎裂鎧甲",
+      "fr": "Armurouillée",
+      "de": "Bruchrüstung",
+      "es": "Armadura Frágil",
+      "it": "Sottilguscio",
+      "en": "Weak Armor"
+    }
+  },
+  {
+    "id": 134,
+    "name": "heavy-metal",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ヘヴィメタル",
+      "ko": "헤비메탈",
+      "zh-Hant": "重金屬",
+      "fr": "Heavy Metal",
+      "de": "Schwermetall",
+      "es": "Metal Pesado",
+      "it": "Metalpesante",
+      "en": "Heavy Metal"
+    }
+  },
+  {
+    "id": 135,
+    "name": "light-metal",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ライトメタル",
+      "ko": "라이트메탈",
+      "zh-Hant": "輕金屬",
+      "fr": "Light Metal",
+      "de": "Leichtmetall",
+      "es": "Metal Liviano",
+      "it": "Metalleggero",
+      "en": "Light Metal"
+    }
+  },
+  {
+    "id": 136,
+    "name": "multiscale",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "マルチスケイル",
+      "ko": "멀티스케일",
+      "zh-Hant": "多重鱗片",
+      "fr": "Multiécaille",
+      "de": "Multischuppe",
+      "es": "Multiescamas",
+      "it": "Multisquame",
+      "en": "Multiscale"
+    }
+  },
+  {
+    "id": 137,
+    "name": "toxic-boost",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "どくぼうそう",
+      "ko": "독폭주",
+      "zh-Hant": "中毒激升",
+      "fr": "Rage Poison",
+      "de": "Giftwahn",
+      "es": "Ímpetu Tóxico",
+      "it": "Velenimpeto",
+      "en": "Toxic Boost"
+    }
+  },
+  {
+    "id": 138,
+    "name": "flare-boost",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ねつぼうそう",
+      "ko": "열폭주",
+      "zh-Hant": "受熱激升",
+      "fr": "Rage Brûlure",
+      "de": "Hitzewahn",
+      "es": "Ímpetu Ardiente",
+      "it": "Bruciaimpeto",
+      "en": "Flare Boost"
+    }
+  },
+  {
+    "id": 139,
+    "name": "harvest",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "しゅうかく",
+      "ko": "수확",
+      "zh-Hant": "收穫",
+      "fr": "Récolte",
+      "de": "Reiche Ernte",
+      "es": "Cosecha",
+      "it": "Coglibacche",
+      "en": "Harvest"
+    }
+  },
+  {
+    "id": 140,
+    "name": "telepathy",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "テレパシー",
+      "ko": "텔레파시",
+      "zh-Hant": "心靈感應",
+      "fr": "Télépathe",
+      "de": "Telepathie",
+      "es": "Telepatía",
+      "it": "Telepatia",
+      "en": "Telepathy"
+    }
+  },
+  {
+    "id": 141,
+    "name": "moody",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ムラっけ",
+      "ko": "변덕쟁이",
+      "zh-Hant": "心情不定",
+      "fr": "Lunatique",
+      "de": "Gefühlswippe",
+      "es": "Veleta",
+      "it": "Altalena",
+      "en": "Moody"
+    }
+  },
+  {
+    "id": 142,
+    "name": "overcoat",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ぼうじん",
+      "ko": "방진",
+      "zh-Hant": "防塵",
+      "fr": "Envelocape",
+      "de": "Partikelschutz",
+      "es": "Funda",
+      "it": "Copricapo",
+      "en": "Overcoat"
+    }
+  },
+  {
+    "id": 143,
+    "name": "poison-touch",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "どくしゅ",
+      "ko": "독수",
+      "zh-Hant": "毒手",
+      "fr": "Toxitouche",
+      "de": "Giftgriff",
+      "es": "Toque Tóxico",
+      "it": "Velentocco",
+      "en": "Poison Touch"
+    }
+  },
+  {
+    "id": 144,
+    "name": "regenerator",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "さいせいりょく",
+      "ko": "재생력",
+      "zh-Hant": "再生力",
+      "fr": "Régé-Force",
+      "de": "Belebekraft",
+      "es": "Regeneración",
+      "it": "Rigenergia",
+      "en": "Regenerator"
+    }
+  },
+  {
+    "id": 145,
+    "name": "big-pecks",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "はとむね",
+      "ko": "부풀린가슴",
+      "zh-Hant": "健壯胸肌",
+      "fr": "Cœur de Coq",
+      "de": "Brustbieter",
+      "es": "Sacapecho",
+      "it": "Pettinfuori",
+      "en": "Big Pecks"
+    }
+  },
+  {
+    "id": 146,
+    "name": "sand-rush",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "すなかき",
+      "ko": "모래헤치기",
+      "zh-Hant": "撥沙",
+      "fr": "Baigne Sable",
+      "de": "Sandscharrer",
+      "es": "Ímpetu Arena",
+      "it": "Remasabbia",
+      "en": "Sand Rush"
+    }
+  },
+  {
+    "id": 147,
+    "name": "wonder-skin",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ミラクルスキン",
+      "ko": "미라클스킨",
+      "zh-Hant": "奇跡皮膚",
+      "fr": "Peau Miracle",
+      "de": "Wunderhaut",
+      "es": "Piel Milagro",
+      "it": "Splendicute",
+      "en": "Wonder Skin"
+    }
+  },
+  {
+    "id": 148,
+    "name": "analytic",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "アナライズ",
+      "ko": "애널라이즈",
+      "zh-Hant": "分析",
+      "fr": "Analyste",
+      "de": "Analyse",
+      "es": "Cálculo Final",
+      "it": "Ponderazione",
+      "en": "Analytic"
+    }
+  },
+  {
+    "id": 149,
+    "name": "illusion",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "イリュージョン",
+      "ko": "일루전",
+      "zh-Hant": "幻覺",
+      "fr": "Illusion",
+      "de": "Trugbild",
+      "es": "Ilusión",
+      "it": "Illusione",
+      "en": "Illusion"
+    }
+  },
+  {
+    "id": 150,
+    "name": "imposter",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "かわりもの",
+      "ko": "괴짜",
+      "zh-Hant": "變身者",
+      "fr": "Imposteur",
+      "de": "Doppelgänger",
+      "es": "Impostor",
+      "it": "Sosia",
+      "en": "Imposter"
+    }
+  },
+  {
+    "id": 151,
+    "name": "infiltrator",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "すりぬけ",
+      "ko": "틈새포착",
+      "zh-Hant": "穿透",
+      "fr": "Infiltration",
+      "de": "Schwebedurch",
+      "es": "Allanamiento",
+      "it": "Intrapasso",
+      "en": "Infiltrator"
+    }
+  },
+  {
+    "id": 152,
+    "name": "mummy",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ミイラ",
+      "ko": "미라",
+      "zh-Hant": "木乃伊",
+      "fr": "Momie",
+      "de": "Mumie",
+      "es": "Momia",
+      "it": "Mummia",
+      "en": "Mummy"
+    }
+  },
+  {
+    "id": 153,
+    "name": "moxie",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "じしんかじょう",
+      "ko": "자기과신",
+      "zh-Hant": "自信過度",
+      "fr": "Impudence",
+      "de": "Hochmut",
+      "es": "Autoestima",
+      "it": "Arroganza",
+      "en": "Moxie"
+    }
+  },
+  {
+    "id": 154,
+    "name": "justified",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "せいぎのこころ",
+      "ko": "정의의마음",
+      "zh-Hant": "正義之心",
+      "fr": "Cœur Noble",
+      "de": "Redlichkeit",
+      "es": "Justiciero",
+      "it": "Giustizia",
+      "en": "Justified"
+    }
+  },
+  {
+    "id": 155,
+    "name": "rattled",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "びびり",
+      "ko": "주눅",
+      "zh-Hant": "膽怯",
+      "fr": "Phobique",
+      "de": "Hasenfuß",
+      "es": "Cobardía",
+      "it": "Paura",
+      "en": "Rattled"
+    }
+  },
+  {
+    "id": 156,
+    "name": "magic-bounce",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "マジックミラー",
+      "ko": "매직미러",
+      "zh-Hant": "魔法鏡",
+      "fr": "Miroir Magik",
+      "de": "Magiespiegel",
+      "es": "Espejo Mágico",
+      "it": "Magispecchio",
+      "en": "Magic Bounce"
+    }
+  },
+  {
+    "id": 157,
+    "name": "sap-sipper",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "そうしょく",
+      "ko": "초식",
+      "zh-Hant": "食草",
+      "fr": "Herbivore",
+      "de": "Vegetarier",
+      "es": "Herbívoro",
+      "it": "Mangiaerba",
+      "en": "Sap Sipper"
+    }
+  },
+  {
+    "id": 158,
+    "name": "prankster",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "いたずらごころ",
+      "ko": "짓궂은마음",
+      "zh-Hant": "惡作劇之心",
+      "fr": "Farceur",
+      "de": "Strolch",
+      "es": "Bromista",
+      "it": "Burla",
+      "en": "Prankster"
+    }
+  },
+  {
+    "id": 159,
+    "name": "sand-force",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "すなのちから",
+      "ko": "모래의힘",
+      "zh-Hant": "沙之力",
+      "fr": "Force Sable",
+      "de": "Sandgewalt",
+      "es": "Poder Arena",
+      "it": "Silicoforza",
+      "en": "Sand Force"
+    }
+  },
+  {
+    "id": 160,
+    "name": "iron-barbs",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "てつのトゲ",
+      "ko": "철가시",
+      "zh-Hant": "鐵刺",
+      "fr": "Épine de Fer",
+      "de": "Eisenstachel",
+      "es": "Punta Acero",
+      "it": "Spineferrate",
+      "en": "Iron Barbs"
+    }
+  },
+  {
+    "id": 161,
+    "name": "zen-mode",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ダルマモード",
+      "ko": "달마모드",
+      "zh-Hant": "達摩模式",
+      "fr": "Mode Transe",
+      "de": "Trance-Modus",
+      "es": "Modo Daruma",
+      "it": "Stato Zen",
+      "en": "Zen Mode"
+    }
+  },
+  {
+    "id": 162,
+    "name": "victory-star",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "しょうりのほし",
+      "ko": "승리의별",
+      "zh-Hant": "勝利之星",
+      "fr": "Victorieux",
+      "de": "Triumphstern",
+      "es": "Tinovictoria",
+      "it": "Vittorstella",
+      "en": "Victory Star"
+    }
+  },
+  {
+    "id": 163,
+    "name": "turboblaze",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "ターボブレイズ",
+      "ko": "터보블레이즈",
+      "zh-Hant": "渦輪火焰",
+      "fr": "Turbo Brasier",
+      "de": "Turbobrand",
+      "es": "Turbollama",
+      "it": "Piroturbina",
+      "en": "Turboblaze"
+    }
+  },
+  {
+    "id": 164,
+    "name": "teravolt",
+    "generation": "generation-v",
+    "names": {
+      "ja-Hrkt": "テラボルテージ",
+      "ko": "테라볼티지",
+      "zh-Hant": "兆級電壓",
+      "fr": "Téra-Voltage",
+      "de": "Teravolt",
+      "es": "Terravoltaje",
+      "it": "Teravolt",
+      "en": "Teravolt"
+    }
+  },
+  {
+    "id": 165,
+    "name": "aroma-veil",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "アロマベール",
+      "ko": "아로마베일",
+      "zh-Hant": "芳香幕",
+      "fr": "Aroma-Voile",
+      "de": "Dufthülle",
+      "es": "Velo Aroma",
+      "it": "Aromavelo",
+      "en": "Aroma Veil"
+    }
+  },
+  {
+    "id": 166,
+    "name": "flower-veil",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "フラワーベール",
+      "ko": "플라워베일",
+      "zh-Hant": "花幕",
+      "fr": "Flora-Voile",
+      "de": "Blütenhülle",
+      "es": "Velo Flor",
+      "it": "Fiorvelo",
+      "en": "Flower Veil"
+    }
+  },
+  {
+    "id": 167,
+    "name": "cheek-pouch",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "ほおぶくろ",
+      "ko": "볼주머니",
+      "zh-Hant": "頰囊",
+      "fr": "Bajoues",
+      "de": "Backentaschen",
+      "es": "Carrillo",
+      "it": "Guancegonfie",
+      "en": "Cheek Pouch"
+    }
+  },
+  {
+    "id": 168,
+    "name": "protean",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "へんげんじざい",
+      "ko": "변환자재",
+      "zh-Hant": "變幻自如",
+      "fr": "Protéen",
+      "de": "Wandlungskunst",
+      "es": "Mutatipo",
+      "it": "Mutatipo",
+      "en": "Protean"
+    }
+  },
+  {
+    "id": 169,
+    "name": "fur-coat",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "ファーコート",
+      "ko": "퍼코트",
+      "zh-Hant": "毛皮大衣",
+      "fr": "Toison Épaisse",
+      "de": "Fellkleid",
+      "es": "Pelaje Recio",
+      "it": "Foltopelo",
+      "en": "Fur Coat"
+    }
+  },
+  {
+    "id": 170,
+    "name": "magician",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "マジシャン",
+      "ko": "매지션",
+      "zh-Hant": "魔術師",
+      "fr": "Magicien",
+      "de": "Zauberer",
+      "es": "Prestidigitador",
+      "it": "Prestigiatore",
+      "en": "Magician"
+    }
+  },
+  {
+    "id": 171,
+    "name": "bulletproof",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "ぼうだん",
+      "ko": "방탄",
+      "zh-Hant": "防彈",
+      "fr": "Pare-Balles",
+      "de": "Kugelsicher",
+      "es": "Antibalas",
+      "it": "Antiproiettile",
+      "en": "Bulletproof"
+    }
+  },
+  {
+    "id": 172,
+    "name": "competitive",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "かちき",
+      "ko": "승기",
+      "zh-Hant": "好勝",
+      "fr": "Battant",
+      "de": "Unbeugsamkeit",
+      "es": "Tenacidad",
+      "it": "Tenacia",
+      "en": "Competitive"
+    }
+  },
+  {
+    "id": 173,
+    "name": "strong-jaw",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "がんじょうあご",
+      "ko": "옹골찬턱",
+      "zh-Hant": "強壯之顎",
+      "fr": "Prognathe",
+      "de": "Titankiefer",
+      "es": "Mandíbula Fuerte",
+      "it": "Ferromascella",
+      "en": "Strong Jaw"
+    }
+  },
+  {
+    "id": 174,
+    "name": "refrigerate",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "フリーズスキン",
+      "ko": "프리즈스킨",
+      "zh-Hant": "冰凍皮膚",
+      "fr": "Peau Gelée",
+      "de": "Frostschicht",
+      "es": "Piel Helada",
+      "it": "Pellegelo",
+      "en": "Refrigerate"
+    }
+  },
+  {
+    "id": 175,
+    "name": "sweet-veil",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "スイートベール",
+      "ko": "스위트베일",
+      "zh-Hant": "甜幕",
+      "fr": "Gluco-Voile",
+      "de": "Zuckerhülle",
+      "es": "Velo Dulce",
+      "it": "Dolcevelo",
+      "en": "Sweet Veil"
+    }
+  },
+  {
+    "id": 176,
+    "name": "stance-change",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "バトルスイッチ",
+      "ko": "배틀스위치",
+      "zh-Hant": "戰鬥切換",
+      "fr": "Déclic Tactique",
+      "de": "Taktikwechsel",
+      "es": "Cambio Táctico",
+      "it": "Accendilotta",
+      "en": "Stance Change"
+    }
+  },
+  {
+    "id": 177,
+    "name": "gale-wings",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "はやてのつばさ",
+      "ko": "질풍날개",
+      "zh-Hant": "疾風之翼",
+      "fr": "Ailes Bourrasque",
+      "de": "Orkanschwingen",
+      "es": "Alas Vendaval",
+      "it": "Aliraffica",
+      "en": "Gale Wings"
+    }
+  },
+  {
+    "id": 178,
+    "name": "mega-launcher",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "メガランチャー",
+      "ko": "메가런처",
+      "zh-Hant": "超級發射器",
+      "fr": "Méga Blaster",
+      "de": "Megawumme",
+      "es": "Megadisparador",
+      "it": "Megalancio",
+      "en": "Mega Launcher"
+    }
+  },
+  {
+    "id": 179,
+    "name": "grass-pelt",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "くさのけがわ",
+      "ko": "풀모피",
+      "zh-Hant": "草之毛皮",
+      "fr": "Toison Herbue",
+      "de": "Pflanzenpelz",
+      "es": "Manto Frondoso",
+      "it": "Peloderba",
+      "en": "Grass Pelt"
+    }
+  },
+  {
+    "id": 180,
+    "name": "symbiosis",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "きょうせい",
+      "ko": "공생",
+      "zh-Hant": "共生",
+      "fr": "Symbiose",
+      "de": "Nutznießer",
+      "es": "Simbiosis",
+      "it": "Simbiosi",
+      "en": "Symbiosis"
+    }
+  },
+  {
+    "id": 181,
+    "name": "tough-claws",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "かたいツメ",
+      "ko": "단단한발톱",
+      "zh-Hant": "硬爪",
+      "fr": "Griffe Dure",
+      "de": "Krallenwucht",
+      "es": "Garra Dura",
+      "it": "Unghiedure",
+      "en": "Tough Claws"
+    }
+  },
+  {
+    "id": 182,
+    "name": "pixilate",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "フェアリースキン",
+      "ko": "페어리스킨",
+      "zh-Hant": "妖精皮膚",
+      "fr": "Peau Féérique",
+      "de": "Feenschicht",
+      "es": "Piel Feérica",
+      "it": "Pellefolletto",
+      "en": "Pixilate"
+    }
+  },
+  {
+    "id": 183,
+    "name": "gooey",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "ぬめぬめ",
+      "ko": "미끈미끈",
+      "zh-Hant": "黏滑",
+      "fr": "Poisseux",
+      "de": "Viskosität",
+      "es": "Baba",
+      "it": "Viscosità",
+      "en": "Gooey"
+    }
+  },
+  {
+    "id": 184,
+    "name": "aerilate",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "スカイスキン",
+      "ko": "스카이스킨",
+      "zh-Hant": "飛行皮膚",
+      "fr": "Peau Céleste",
+      "de": "Zenithaut",
+      "es": "Piel Celeste",
+      "it": "Pellecielo",
+      "en": "Aerilate"
+    }
+  },
+  {
+    "id": 185,
+    "name": "parental-bond",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "おやこあい",
+      "ko": "부자유친",
+      "zh-Hant": "親子愛",
+      "fr": "Amour Filial",
+      "de": "Familienbande",
+      "es": "Amor Filial",
+      "it": "Amorefiliale",
+      "en": "Parental Bond"
+    }
+  },
+  {
+    "id": 186,
+    "name": "dark-aura",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "ダークオーラ",
+      "ko": "다크오라",
+      "zh-Hant": "暗黑氣場",
+      "fr": "Aura Ténébreuse",
+      "de": "Dunkelaura",
+      "es": "Aura Oscura",
+      "it": "Auratetra",
+      "en": "Dark Aura"
+    }
+  },
+  {
+    "id": 187,
+    "name": "fairy-aura",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "フェアリーオーラ",
+      "ko": "페어리오라",
+      "zh-Hant": "妖精氣場",
+      "fr": "Aura Féérique",
+      "de": "Feenaura",
+      "es": "Aura Feérica",
+      "it": "Aurafolletto",
+      "en": "Fairy Aura"
+    }
+  },
+  {
+    "id": 188,
+    "name": "aura-break",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "オーラブレイク",
+      "ko": "오라브레이크",
+      "zh-Hant": "氣場破壞",
+      "fr": "Aura Inversée",
+      "de": "Aura-Umkehr",
+      "es": "Rompeaura",
+      "it": "Frangiaura",
+      "en": "Aura Break"
+    }
+  },
+  {
+    "id": 189,
+    "name": "primordial-sea",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "はじまりのうみ",
+      "ko": "시작의바다",
+      "zh-Hant": "始源之海",
+      "fr": "Mer Primaire",
+      "de": "Urmeer",
+      "es": "Mar del Albor",
+      "it": "Mare Primordiale",
+      "en": "Primordial Sea"
+    }
+  },
+  {
+    "id": 190,
+    "name": "desolate-land",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "おわりのだいち",
+      "ko": "끝의대지",
+      "zh-Hant": "終結之地",
+      "fr": "Terre Finale",
+      "de": "Endland",
+      "es": "Tierra del Ocaso",
+      "it": "Terra Estrema",
+      "en": "Desolate Land"
+    }
+  },
+  {
+    "id": 191,
+    "name": "delta-stream",
+    "generation": "generation-vi",
+    "names": {
+      "ja-Hrkt": "デルタストリーム",
+      "ko": "델타스트림",
+      "zh-Hant": "德爾塔氣流",
+      "fr": "Souffle Delta",
+      "de": "Delta-Wind",
+      "es": "Ráfaga Delta",
+      "it": "Flusso Delta",
+      "en": "Delta Stream"
+    }
+  },
+  {
+    "id": 192,
+    "name": "stamina",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "じきゅうりょく",
+      "ko": "지구력",
+      "zh-Hant": "持久力",
+      "fr": "Endurance",
+      "de": "Zähigkeit",
+      "es": "Firmeza",
+      "it": "Sopportazione",
+      "en": "Stamina"
+    }
+  },
+  {
+    "id": 193,
+    "name": "wimp-out",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "にげごし",
+      "ko": "도망태세",
+      "zh-Hant": "躍躍欲逃",
+      "fr": "Escampette",
+      "de": "Reißaus",
+      "es": "Huida",
+      "it": "Fuggifuggi",
+      "en": "Wimp Out"
+    }
+  },
+  {
+    "id": 194,
+    "name": "emergency-exit",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ききかいひ",
+      "ko": "위기회피",
+      "zh-Hant": "危險迴避",
+      "fr": "Repli Tactique",
+      "de": "Rückzug",
+      "es": "Retirada",
+      "it": "Passoindietro",
+      "en": "Emergency Exit"
+    }
+  },
+  {
+    "id": 195,
+    "name": "water-compaction",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "みずがため",
+      "ko": "꾸덕꾸덕굳기",
+      "zh-Hant": "遇水凝固",
+      "fr": "Sable Humide",
+      "de": "Verklumpen",
+      "es": "Hidrorrefuerzo",
+      "it": "Idrorinforzo",
+      "en": "Water Compaction"
+    }
+  },
+  {
+    "id": 196,
+    "name": "merciless",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ひとでなし",
+      "ko": "무도한행동",
+      "zh-Hant": "不仁不義",
+      "fr": "Cruauté",
+      "de": "Quälerei",
+      "es": "Ensañamiento",
+      "it": "Spietatezza",
+      "en": "Merciless"
+    }
+  },
+  {
+    "id": 197,
+    "name": "shields-down",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "リミットシールド",
+      "ko": "리밋실드",
+      "zh-Hant": "界限盾殼",
+      "fr": "Bouclier-Carcan",
+      "de": "Limitschild",
+      "es": "Escudo Limitado",
+      "it": "Scudosoglia",
+      "en": "Shields Down"
+    }
+  },
+  {
+    "id": 198,
+    "name": "stakeout",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "はりこみ",
+      "ko": "잠복",
+      "zh-Hant": "監視",
+      "fr": "Filature",
+      "de": "Beschattung",
+      "es": "Vigilante",
+      "it": "Sorveglianza",
+      "en": "Stakeout"
+    }
+  },
+  {
+    "id": 199,
+    "name": "water-bubble",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "すいほう",
+      "ko": "수포",
+      "zh-Hant": "水泡",
+      "fr": "Aquabulle",
+      "de": "Wasserblase",
+      "es": "Pompa",
+      "it": "Bolladacqua",
+      "en": "Water Bubble"
+    }
+  },
+  {
+    "id": 200,
+    "name": "steelworker",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "はがねつかい",
+      "ko": "강철술사",
+      "zh-Hant": "鋼能力者",
+      "fr": "Expert Acier",
+      "de": "Stahlprofi",
+      "es": "Acero Templado",
+      "it": "Tempracciaio",
+      "en": "Steelworker"
+    }
+  },
+  {
+    "id": 201,
+    "name": "berserk",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ぎゃくじょう",
+      "ko": "발끈",
+      "zh-Hant": "怒火沖天",
+      "fr": "Dracolère",
+      "de": "Wutausbruch",
+      "es": "Cólera",
+      "it": "Furore",
+      "en": "Berserk"
+    }
+  },
+  {
+    "id": 202,
+    "name": "slush-rush",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ゆきかき",
+      "ko": "눈치우기",
+      "zh-Hant": "撥雪",
+      "fr": "Chasse-Neige",
+      "de": "Schneescharrer",
+      "es": "Quitanieves",
+      "it": "Spalaneve",
+      "en": "Slush Rush"
+    }
+  },
+  {
+    "id": 203,
+    "name": "long-reach",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "えんかく",
+      "ko": "원격",
+      "zh-Hant": "遠隔",
+      "fr": "Longue Portée",
+      "de": "Langstrecke",
+      "es": "Remoto",
+      "it": "Distacco",
+      "en": "Long Reach"
+    }
+  },
+  {
+    "id": 204,
+    "name": "liquid-voice",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "うるおいボイス",
+      "ko": "촉촉보이스",
+      "zh-Hant": "濕潤之聲",
+      "fr": "Hydrata-Son",
+      "de": "Plätscherstimme",
+      "es": "Voz Fluida",
+      "it": "Idrovoce",
+      "en": "Liquid Voice"
+    }
+  },
+  {
+    "id": 205,
+    "name": "triage",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ヒーリングシフト",
+      "ko": "힐링시프트",
+      "zh-Hant": "先行治療",
+      "fr": "Prioguérison",
+      "de": "Heilwandel",
+      "es": "Primer Auxilio",
+      "it": "Primacura",
+      "en": "Triage"
+    }
+  },
+  {
+    "id": 206,
+    "name": "galvanize",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "エレキスキン",
+      "ko": "일렉트릭스킨",
+      "zh-Hant": "電氣皮膚",
+      "fr": "Peau Électrique",
+      "de": "Elektrohaut",
+      "es": "Piel Eléctrica",
+      "it": "Pellelettro",
+      "en": "Galvanize"
+    }
+  },
+  {
+    "id": 207,
+    "name": "surge-surfer",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "サーフテール",
+      "ko": "서핑테일",
+      "zh-Hant": "衝浪之尾",
+      "fr": "Surf Caudal",
+      "de": "Surf-Schweif",
+      "es": "Cola Surf",
+      "it": "Codasurf",
+      "en": "Surge Surfer"
+    }
+  },
+  {
+    "id": 208,
+    "name": "schooling",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ぎょぐん",
+      "ko": "어군",
+      "zh-Hant": "魚群",
+      "fr": "Banc",
+      "de": "Fischschwarm",
+      "es": "Banco",
+      "it": "Banco",
+      "en": "Schooling"
+    }
+  },
+  {
+    "id": 209,
+    "name": "disguise",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ばけのかわ",
+      "ko": "탈",
+      "zh-Hant": "畫皮",
+      "fr": "Fantômasque",
+      "de": "Kostümspuk",
+      "es": "Disfraz",
+      "it": "Fantasmanto",
+      "en": "Disguise"
+    }
+  },
+  {
+    "id": 210,
+    "name": "battle-bond",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "きずなへんげ",
+      "ko": "유대변화",
+      "zh-Hant": "牽絆變身",
+      "fr": "Synergie",
+      "de": "Freundschaftsakt",
+      "es": "Fuerte Afecto",
+      "it": "Morfosintonia",
+      "en": "Battle Bond"
+    }
+  },
+  {
+    "id": 211,
+    "name": "power-construct",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "スワームチェンジ",
+      "ko": "스웜체인지",
+      "zh-Hant": "群聚變形",
+      "fr": "Rassemblement",
+      "de": "Scharwandel",
+      "es": "Agrupamiento",
+      "it": "Sciamefusione",
+      "en": "Power Construct"
+    }
+  },
+  {
+    "id": 212,
+    "name": "corrosion",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ふしょく",
+      "ko": "부식",
+      "zh-Hant": "腐蝕",
+      "fr": "Corrosion",
+      "de": "Korrosion",
+      "es": "Corrosión",
+      "it": "Corrosione",
+      "en": "Corrosion"
+    }
+  },
+  {
+    "id": 213,
+    "name": "comatose",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ぜったいねむり",
+      "ko": "절대안깸",
+      "zh-Hant": "絕對睡眠",
+      "fr": "Hypersommeil",
+      "de": "Dauerschlaf",
+      "es": "Letargo Perenne",
+      "it": "Sonno Assoluto",
+      "en": "Comatose"
+    }
+  },
+  {
+    "id": 214,
+    "name": "queenly-majesty",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "じょおうのいげん",
+      "ko": "여왕의위엄",
+      "zh-Hant": "女王的威嚴",
+      "fr": "Prestance Royale",
+      "de": "Majestät",
+      "es": "Regia Presencia",
+      "it": "Regalità",
+      "en": "Queenly Majesty"
+    }
+  },
+  {
+    "id": 215,
+    "name": "innards-out",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "とびだすなかみ",
+      "ko": "내용물분출",
+      "zh-Hant": "飛出的內在物",
+      "fr": "Expuls’Organes",
+      "de": "Magenkrempler",
+      "es": "Revés",
+      "it": "Espellinterno",
+      "en": "Innards Out"
+    }
+  },
+  {
+    "id": 216,
+    "name": "dancer",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "おどりこ",
+      "ko": "무희",
+      "zh-Hant": "舞者",
+      "fr": "Danseuse",
+      "de": "Tänzer",
+      "es": "Pareja de Baile",
+      "it": "Sincrodanza",
+      "en": "Dancer"
+    }
+  },
+  {
+    "id": 217,
+    "name": "battery",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "バッテリー",
+      "ko": "배터리",
+      "zh-Hant": "蓄電池",
+      "fr": "Batterie",
+      "de": "Batterie",
+      "es": "Batería",
+      "it": "Batteria",
+      "en": "Battery"
+    }
+  },
+  {
+    "id": 218,
+    "name": "fluffy",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "もふもふ",
+      "ko": "복슬복슬",
+      "zh-Hant": "毛茸茸",
+      "fr": "Boule de Poils",
+      "de": "Flauschigkeit",
+      "es": "Peluche",
+      "it": "Morbidone",
+      "en": "Fluffy"
+    }
+  },
+  {
+    "id": 219,
+    "name": "dazzling",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ビビッドボディ",
+      "ko": "비비드바디",
+      "zh-Hant": "鮮艷之軀",
+      "fr": "Corps Coloré",
+      "de": "Buntkörper",
+      "es": "Cuerpo Vívido",
+      "it": "Corposgargiante",
+      "en": "Dazzling"
+    }
+  },
+  {
+    "id": 220,
+    "name": "soul-heart",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ソウルハート",
+      "ko": "소울하트",
+      "zh-Hant": "魂心",
+      "fr": "Animacœur",
+      "de": "Seelenherz",
+      "es": "Coránima",
+      "it": "Cuoreanima",
+      "en": "Soul-Heart"
+    }
+  },
+  {
+    "id": 221,
+    "name": "tangling-hair",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "カーリーヘアー",
+      "ko": "컬리헤어",
+      "zh-Hant": "捲髮",
+      "fr": "Mèche Rebelle",
+      "de": "Lockenkopf",
+      "es": "Rizos Rebeldes",
+      "it": "Boccolidoro",
+      "en": "Tangling Hair"
+    }
+  },
+  {
+    "id": 222,
+    "name": "receiver",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "レシーバー",
+      "ko": "리시버",
+      "zh-Hant": "接球手",
+      "fr": "Receveur",
+      "de": "Receiver",
+      "es": "Receptor",
+      "it": "Ricezione",
+      "en": "Receiver"
+    }
+  },
+  {
+    "id": 223,
+    "name": "power-of-alchemy",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "かがくのちから",
+      "ko": "과학의힘",
+      "zh-Hant": "化學之力",
+      "fr": "Osmose",
+      "de": "Chemiekraft",
+      "es": "Reacción Química",
+      "it": "Forza Chimica",
+      "en": "Power of Alchemy"
+    }
+  },
+  {
+    "id": 224,
+    "name": "beast-boost",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ビーストブースト",
+      "ko": "비스트부스트",
+      "zh-Hant": "異獸提升",
+      "fr": "Boost Chimère",
+      "de": "Bestien-Boost",
+      "es": "Ultraimpulso",
+      "it": "Ultraboost",
+      "en": "Beast Boost"
+    }
+  },
+  {
+    "id": 225,
+    "name": "rks-system",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ＡＲシステム",
+      "ko": "AR시스템",
+      "zh-Hant": "ＡＲ系統",
+      "fr": "Système Alpha",
+      "de": "Alpha-System",
+      "es": "Sistema Alfa",
+      "it": "Sistema Primevo",
+      "en": "RKS System"
+    }
+  },
+  {
+    "id": 226,
+    "name": "electric-surge",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "エレキメイカー",
+      "ko": "일렉트릭메이커",
+      "zh-Hant": "電氣製造者",
+      "fr": "Créa-Élec",
+      "de": "Elektro-Erzeuger",
+      "es": "Electrogénesis",
+      "it": "Elettrogenesi",
+      "en": "Electric Surge"
+    }
+  },
+  {
+    "id": 227,
+    "name": "psychic-surge",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "サイコメイカー",
+      "ko": "사이코메이커",
+      "zh-Hant": "精神製造者",
+      "fr": "Créa-Psy",
+      "de": "Psycho-Erzeuger",
+      "es": "Psicogénesis",
+      "it": "Psicogenesi",
+      "en": "Psychic Surge"
+    }
+  },
+  {
+    "id": 228,
+    "name": "misty-surge",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ミストメイカー",
+      "ko": "미스트메이커",
+      "zh-Hant": "薄霧製造者",
+      "fr": "Créa-Brume",
+      "de": "Nebel-Erzeuger",
+      "es": "Nebulogénesis",
+      "it": "Nebbiogenesi",
+      "en": "Misty Surge"
+    }
+  },
+  {
+    "id": 229,
+    "name": "grassy-surge",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "グラスメイカー",
+      "ko": "그래스메이커",
+      "zh-Hant": "青草製造者",
+      "fr": "Créa-Herbe",
+      "de": "Gras-Erzeuger",
+      "es": "Herbogénesis",
+      "it": "Erbogenesi",
+      "en": "Grassy Surge"
+    }
+  },
+  {
+    "id": 230,
+    "name": "full-metal-body",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "メタルプロテクト",
+      "ko": "메탈프로텍트",
+      "zh-Hant": "金屬防護",
+      "fr": "Métallo-Garde",
+      "de": "Metallprotektor",
+      "es": "Guardia Metálica",
+      "it": "Metalprotezione",
+      "en": "Full Metal Body"
+    }
+  },
+  {
+    "id": 231,
+    "name": "shadow-shield",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ファントムガード",
+      "ko": "스펙터가드",
+      "zh-Hant": "幻影防守",
+      "fr": "Spectro-Bouclier",
+      "de": "Phantomschutz",
+      "es": "Guardia Espectro",
+      "it": "Spettroguardia",
+      "en": "Shadow Shield"
+    }
+  },
+  {
+    "id": 232,
+    "name": "prism-armor",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "プリズムアーマー",
+      "ko": "프리즘아머",
+      "zh-Hant": "稜鏡裝甲",
+      "fr": "Prisme-Armure",
+      "de": "Prismarüstung",
+      "es": "Armadura Prisma",
+      "it": "Scudoprisma",
+      "en": "Prism Armor"
+    }
+  },
+  {
+    "id": 233,
+    "name": "neuroforce",
+    "generation": "generation-vii",
+    "names": {
+      "ja-Hrkt": "ブレインフォース",
+      "ko": "브레인포스",
+      "zh-Hant": "腦核之力",
+      "fr": "Cérébro-Force",
+      "de": "Zerebralmacht",
+      "es": "Fuerza Cerebral",
+      "it": "Cerebroforza",
+      "en": "Neuroforce"
+    }
+  },
+  {
+    "id": 234,
+    "name": "intrepid-sword",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "ふとうのけん",
+      "ko": "불요의검",
+      "zh-Hant": "不撓之劍",
+      "fr": "Lame Indomptable",
+      "de": "Kühnes Schwert",
+      "es": "Espada Indómita",
+      "it": "Spada Indomita",
+      "en": "Intrepid Sword"
+    }
+  },
+  {
+    "id": 235,
+    "name": "dauntless-shield",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "ふくつのたて",
+      "ko": "불굴의방패",
+      "zh-Hant": "不屈之盾",
+      "fr": "Égide Inflexible",
+      "de": "Wackerer Schild",
+      "es": "Escudo Recio",
+      "it": "Scudo Saldo",
+      "en": "Dauntless Shield"
+    }
+  },
+  {
+    "id": 236,
+    "name": "libero",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "リベロ",
+      "ko": "리베로",
+      "zh-Hant": "自由者",
+      "fr": "Libéro",
+      "de": "Libero",
+      "es": "Líbero",
+      "it": "Libero",
+      "en": "Libero"
+    }
+  },
+  {
+    "id": 237,
+    "name": "ball-fetch",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "たまひろい",
+      "ko": "볼줍기",
+      "zh-Hant": "撿球",
+      "fr": "Ramasse Ball",
+      "de": "Apport",
+      "es": "Recogebolas",
+      "it": "Raccattapalle",
+      "en": "Ball Fetch"
+    }
+  },
+  {
+    "id": 238,
+    "name": "cotton-down",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "わたげ",
+      "ko": "솜털",
+      "zh-Hant": "棉絮",
+      "fr": "Effilochage",
+      "de": "Wollflaum",
+      "es": "Pelusa",
+      "it": "Lanugine",
+      "en": "Cotton Down"
+    }
+  },
+  {
+    "id": 239,
+    "name": "propeller-tail",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "スクリューおびれ",
+      "ko": "스크루지느러미",
+      "zh-Hant": "螺旋尾鰭",
+      "fr": "Propulseur",
+      "de": "Schraubflosse",
+      "es": "Hélice Caudal",
+      "it": "Elicopinna",
+      "en": "Propeller Tail"
+    }
+  },
+  {
+    "id": 240,
+    "name": "mirror-armor",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "ミラーアーマー",
+      "ko": "미러아머",
+      "zh-Hant": "鏡甲",
+      "fr": "Armure Miroir",
+      "de": "Spiegelrüstung",
+      "es": "Coraza Reflejo",
+      "it": "Blindospecchio",
+      "en": "Mirror Armor"
+    }
+  },
+  {
+    "id": 241,
+    "name": "gulp-missile",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "うのミサイル",
+      "ko": "그대로꿀꺽미사일",
+      "zh-Hant": "一口飛彈",
+      "fr": "Dégobage",
+      "de": "Würggeschoss",
+      "es": "Tragamisil",
+      "it": "Inghiottimissile",
+      "en": "Gulp Missile"
+    }
+  },
+  {
+    "id": 242,
+    "name": "stalwart",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "すじがねいり",
+      "ko": "굳건한신념",
+      "zh-Hant": "堅毅",
+      "fr": "Nerfs d’Acier",
+      "de": "Stahlrückgrat",
+      "es": "Acérrimo",
+      "it": "Volontà di Ferro",
+      "en": "Stalwart"
+    }
+  },
+  {
+    "id": 243,
+    "name": "steam-engine",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "じょうききかん",
+      "ko": "증기기관",
+      "zh-Hant": "蒸汽機",
+      "fr": "Turbine",
+      "de": "Dampfantrieb",
+      "es": "Combustible",
+      "it": "Vapormacchina",
+      "en": "Steam Engine"
+    }
+  },
+  {
+    "id": 244,
+    "name": "punk-rock",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "パンクロック",
+      "ko": "펑크록",
+      "zh-Hant": "龐克搖滾",
+      "fr": "Punk Rock",
+      "de": "Punk Rock",
+      "es": "Punk Rock",
+      "it": "Punk Rock",
+      "en": "Punk Rock"
+    }
+  },
+  {
+    "id": 245,
+    "name": "sand-spit",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "すなはき",
+      "ko": "모래뿜기",
+      "zh-Hant": "吐沙",
+      "fr": "Expul’Sable",
+      "de": "Sandspeier",
+      "es": "Expulsarena",
+      "it": "Sputasabbia",
+      "en": "Sand Spit"
+    }
+  },
+  {
+    "id": 246,
+    "name": "ice-scales",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "こおりのりんぷん",
+      "ko": "얼음인분",
+      "zh-Hant": "冰鱗粉",
+      "fr": "Écailles Glacées",
+      "de": "Eisflügelstaub",
+      "es": "Escama de Hielo",
+      "it": "Geloscaglie",
+      "en": "Ice Scales"
+    }
+  },
+  {
+    "id": 247,
+    "name": "ripen",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "じゅくせい",
+      "ko": "숙성",
+      "zh-Hant": "熟成",
+      "fr": "Mûrissement",
+      "de": "Heranreifen",
+      "es": "Maduración",
+      "it": "Maturazione",
+      "en": "Ripen"
+    }
+  },
+  {
+    "id": 248,
+    "name": "ice-face",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "アイスフェイス",
+      "ko": "아이스페이스",
+      "zh-Hant": "結凍頭",
+      "fr": "Tête de Gel",
+      "de": "Tiefkühlkopf",
+      "es": "Cara de Hielo",
+      "it": "Gelofaccia",
+      "en": "Ice Face"
+    }
+  },
+  {
+    "id": 249,
+    "name": "power-spot",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "パワースポット",
+      "ko": "파워스폿",
+      "zh-Hant": "能量點",
+      "fr": "Cercle d’Énergie",
+      "de": "Kraftquelle",
+      "es": "Fuente Energía",
+      "it": "Fonte Energetica",
+      "en": "Power Spot"
+    }
+  },
+  {
+    "id": 250,
+    "name": "mimicry",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "ぎたい",
+      "ko": "의태",
+      "zh-Hant": "擬態",
+      "fr": "Mimétisme",
+      "de": "Mimese",
+      "es": "Mimetismo",
+      "it": "Mimetismo",
+      "en": "Mimicry"
+    }
+  },
+  {
+    "id": 251,
+    "name": "screen-cleaner",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "バリアフリー",
+      "ko": "배리어프리",
+      "zh-Hant": "除障",
+      "fr": "Brise-Barrière",
+      "de": "Hemmungslos",
+      "es": "Antibarrera",
+      "it": "Annullabarriere",
+      "en": "Screen Cleaner"
+    }
+  },
+  {
+    "id": 252,
+    "name": "steely-spirit",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "はがねのせいしん",
+      "ko": "강철정신",
+      "zh-Hant": "鋼之意志",
+      "fr": "Boost Acier",
+      "de": "Stählerner Wille",
+      "es": "Alma Acerada",
+      "it": "Spiritoferreo",
+      "en": "Steely Spirit"
+    }
+  },
+  {
+    "id": 253,
+    "name": "perish-body",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "ほろびのボディ",
+      "ko": "멸망의바디",
+      "zh-Hant": "滅亡之軀",
+      "fr": "Corps Condamné",
+      "de": "Unheilskörper",
+      "es": "Cuerpo Mortal",
+      "it": "Ultimotocco",
+      "en": "Perish Body"
+    }
+  },
+  {
+    "id": 254,
+    "name": "wandering-spirit",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "さまようたましい",
+      "ko": "떠도는영혼",
+      "zh-Hant": "遊魂",
+      "fr": "Âme Vagabonde",
+      "de": "Rastlose Seele",
+      "es": "Alma Errante",
+      "it": "Anima Errante",
+      "en": "Wandering Spirit"
+    }
+  },
+  {
+    "id": 255,
+    "name": "gorilla-tactics",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "ごりむちゅう",
+      "ko": "무아지경",
+      "zh-Hant": "一猩一意",
+      "fr": "Entêtement",
+      "de": "Affenfokus",
+      "es": "Monotema",
+      "it": "Vigorilla",
+      "en": "Gorilla Tactics"
+    }
+  },
+  {
+    "id": 256,
+    "name": "neutralizing-gas",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "かがくへんかガス",
+      "ko": "화학변화가스",
+      "zh-Hant": "化學變化氣體",
+      "fr": "Gaz Inhibiteur",
+      "de": "Reaktionsgas",
+      "es": "Gas Reactivo",
+      "it": "Gas Reagente",
+      "en": "Neutralizing Gas"
+    }
+  },
+  {
+    "id": 257,
+    "name": "pastel-veil",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "パステルベール",
+      "ko": "파스텔베일",
+      "zh-Hant": "粉彩護幕",
+      "fr": "Voile Pastel",
+      "de": "Pastellhülle",
+      "es": "Velo Pastel",
+      "it": "Pastelvelo",
+      "en": "Pastel Veil"
+    }
+  },
+  {
+    "id": 258,
+    "name": "hunger-switch",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "はらぺこスイッチ",
+      "ko": "꼬르륵스위치",
+      "zh-Hant": "飽了又餓",
+      "fr": "Déclic Fringale",
+      "de": "Heißhunger",
+      "es": "Mutapetito",
+      "it": "Pancialterna",
+      "en": "Hunger Switch"
+    }
+  },
+  {
+    "id": 259,
+    "name": "quick-draw",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "クイックドロウ",
+      "ko": "퀵드로",
+      "zh-Hant": "速擊",
+      "fr": "Tir Vif",
+      "de": "Schnellschuss",
+      "es": "Mano Rápida",
+      "it": "Colpolesto",
+      "en": "Quick Draw"
+    }
+  },
+  {
+    "id": 260,
+    "name": "unseen-fist",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "ふかしのこぶし",
+      "ko": "보이지않는주먹",
+      "zh-Hant": "無形拳",
+      "fr": "Poing Invisible",
+      "de": "Verborgene Faust",
+      "es": "Puño Invisible",
+      "it": "Pugni Invisibili",
+      "en": "Unseen Fist"
+    }
+  },
+  {
+    "id": 261,
+    "name": "curious-medicine",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "きみょうなくすり",
+      "ko": "기묘한약",
+      "zh-Hant": "怪藥",
+      "fr": "Breuvage Suspect",
+      "de": "Kuriose Arznei",
+      "es": "Medicina Extraña",
+      "it": "Stranofarmaco",
+      "en": "Curious Medicine"
+    }
+  },
+  {
+    "id": 262,
+    "name": "transistor",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "トランジスタ",
+      "ko": "트랜지스터",
+      "zh-Hant": "電晶體",
+      "fr": "Transistor",
+      "de": "Transistor",
+      "es": "Transistor",
+      "it": "Transistor",
+      "en": "Transistor"
+    }
+  },
+  {
+    "id": 263,
+    "name": "dragons-maw",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "りゅうのあぎと",
+      "ko": "용의턱",
+      "zh-Hant": "龍顎",
+      "fr": "Dent de Dragon",
+      "de": "Drachenkiefer",
+      "es": "Mandíbula Dragón",
+      "it": "Dragomascelle",
+      "en": "Dragon’s Maw"
+    }
+  },
+  {
+    "id": 264,
+    "name": "chilling-neigh",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "しろのいななき",
+      "ko": "백의울음",
+      "zh-Hant": "蒼白嘶鳴",
+      "fr": "Blanche Ruade",
+      "de": "Helles Wiehern",
+      "es": "Relincho Blanco",
+      "it": "Nitrito Bianco",
+      "en": "Chilling Neigh"
+    }
+  },
+  {
+    "id": 265,
+    "name": "grim-neigh",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "くろのいななき",
+      "ko": "흑의울음",
+      "zh-Hant": "漆黑嘶鳴",
+      "fr": "Sombre Ruade",
+      "de": "Dunkles Wiehern",
+      "es": "Relincho Negro",
+      "it": "Nitrito Nero",
+      "en": "Grim Neigh"
+    }
+  },
+  {
+    "id": 266,
+    "name": "as-one-glastrier",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "じんばいったい",
+      "ko": "혼연일체",
+      "zh-Hant": "人馬一體",
+      "fr": "Osmose Équine",
+      "de": "Reitgespann",
+      "es": "Unidad Ecuestre",
+      "it": "Sintonia Equina",
+      "en": "As One"
+    }
+  },
+  {
+    "id": 267,
+    "name": "as-one-spectrier",
+    "generation": "generation-viii",
+    "names": {
+      "ja-Hrkt": "じんばいったい",
+      "ko": "혼연일체",
+      "zh-Hant": "人馬一體",
+      "fr": "Osmose Équine",
+      "de": "Reitgespann",
+      "es": "Unidad Ecuestre",
+      "it": "Sintonia Equina",
+      "en": "As One"
+    }
+  },
+  {
+    "id": 268,
+    "name": "lingering-aroma",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "とれないにおい",
+      "fr": "Odeur Tenace",
+      "de": "Duftschwade",
+      "es": "Olor Persistente",
+      "it": "Odore Tenace",
+      "en": "Lingering Aroma"
+    }
+  },
+  {
+    "id": 269,
+    "name": "seed-sower",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "こぼれダネ",
+      "fr": "Semencier",
+      "de": "Streusaat",
+      "es": "Disemillar",
+      "it": "Spargisemi",
+      "en": "Seed Sower"
+    }
+  },
+  {
+    "id": 270,
+    "name": "thermal-exchange",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ねつこうかん",
+      "fr": "Thermodynamique",
+      "de": "Thermowandel",
+      "es": "Termoscambio",
+      "it": "Termoscambio",
+      "en": "Thermal Exchange"
+    }
+  },
+  {
+    "id": 271,
+    "name": "anger-shell",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "いかりのこうら",
+      "fr": "Courroupace",
+      "de": "Wutpanzer",
+      "es": "Coraza Ira",
+      "it": "Iraguscio",
+      "en": "Anger Shell"
+    }
+  },
+  {
+    "id": 272,
+    "name": "purifying-salt",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "きよめのしお",
+      "fr": "Sel Purificateur",
+      "de": "Läutersalz",
+      "es": "Sal Purificadora",
+      "it": "Sale Purificante",
+      "en": "Purifying Salt"
+    }
+  },
+  {
+    "id": 273,
+    "name": "well-baked-body",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "こんがりボディ",
+      "fr": "Bien Cuit",
+      "de": "Knusperkruste",
+      "es": "Cuerpo Horneado",
+      "it": "Bentostato",
+      "en": "Well-Baked Body"
+    }
+  },
+  {
+    "id": 274,
+    "name": "wind-rider",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "かぜのり",
+      "fr": "Aéroporté",
+      "de": "Windreiter",
+      "es": "Surcavientos",
+      "it": "Vento Propizio",
+      "en": "Wind Rider"
+    }
+  },
+  {
+    "id": 275,
+    "name": "guard-dog",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ばんけん",
+      "fr": "Chien de Garde",
+      "de": "Wachhund",
+      "es": "Perro Guardián",
+      "it": "Cane da Guardia",
+      "en": "Guard Dog"
+    }
+  },
+  {
+    "id": 276,
+    "name": "rocky-payload",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "いわはこび",
+      "fr": "Porte-Roche",
+      "de": "Steinträger",
+      "es": "Transportarrocas",
+      "it": "Portamassi",
+      "en": "Rocky Payload"
+    }
+  },
+  {
+    "id": 277,
+    "name": "wind-power",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ふうりょくでんき",
+      "fr": "Turbine Éolienne",
+      "de": "Windkraft",
+      "es": "Energía Eólica",
+      "it": "Energia Eolica",
+      "en": "Wind Power"
+    }
+  },
+  {
+    "id": 278,
+    "name": "zero-to-hero",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "マイティチェンジ",
+      "fr": "Supermutation",
+      "de": "Superwechsel",
+      "es": "Cambio Heroico",
+      "it": "Supercambio",
+      "en": "Zero to Hero"
+    }
+  },
+  {
+    "id": 279,
+    "name": "commander",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "しれいとう",
+      "fr": "Commandant",
+      "de": "Kommandant",
+      "es": "Comandar",
+      "it": "Torre di Comando",
+      "en": "Commander"
+    }
+  },
+  {
+    "id": 280,
+    "name": "electromorphosis",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "でんきにかえる",
+      "fr": "Grecharge",
+      "de": "Dynamo",
+      "es": "Dinamo",
+      "it": "Convertivolt",
+      "en": "Electromorphosis"
+    }
+  },
+  {
+    "id": 281,
+    "name": "protosynthesis",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "こだいかっせい",
+      "fr": "Paléosynthèse",
+      "de": "Paläosynthese",
+      "es": "Paleosíntesis",
+      "it": "Paleoattivazione",
+      "en": "Protosynthesis"
+    }
+  },
+  {
+    "id": 282,
+    "name": "quark-drive",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "クォークチャージ",
+      "fr": "Charge Quantique",
+      "de": "Quantenantrieb",
+      "es": "Carga Cuark",
+      "it": "Carica Quark",
+      "en": "Quark Drive"
+    }
+  },
+  {
+    "id": 283,
+    "name": "good-as-gold",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "おうごんのからだ",
+      "fr": "Corps en Or",
+      "de": "Goldkörper",
+      "es": "Cuerpo Áureo",
+      "it": "Corpo Aureo",
+      "en": "Good as Gold"
+    }
+  },
+  {
+    "id": 284,
+    "name": "vessel-of-ruin",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "わざわいのうつわ",
+      "fr": "Urne du Fléau",
+      "de": "Unheilsgefäß",
+      "es": "Caldero Debacle",
+      "it": "Vaso Nefasto",
+      "en": "Vessel of Ruin"
+    }
+  },
+  {
+    "id": 285,
+    "name": "sword-of-ruin",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "わざわいのつるぎ",
+      "fr": "Épée du Fléau",
+      "de": "Unheilsschwert",
+      "es": "Espada Debacle",
+      "it": "Spada Nefasta",
+      "en": "Sword of Ruin"
+    }
+  },
+  {
+    "id": 286,
+    "name": "tablets-of-ruin",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "わざわいのおふだ",
+      "fr": "Bois du Fléau",
+      "de": "Unheilstafeln",
+      "es": "Tablilla Debacle",
+      "it": "Amuleto Nefasto",
+      "en": "Tablets of Ruin"
+    }
+  },
+  {
+    "id": 287,
+    "name": "beads-of-ruin",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "わざわいのたま",
+      "fr": "Perles du Fléau",
+      "de": "Unheilsjuwelen",
+      "es": "Abalorio Debacle",
+      "it": "Monile Nefasto",
+      "en": "Beads of Ruin"
+    }
+  },
+  {
+    "id": 288,
+    "name": "orichalcum-pulse",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ひひいろのこどう",
+      "fr": "Pouls Orichalque",
+      "de": "Orichalkum-Puls",
+      "es": "Latido Oricalco",
+      "it": "Ritmo d’Oricalco",
+      "en": "Orichalcum Pulse"
+    }
+  },
+  {
+    "id": 289,
+    "name": "hadron-engine",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ハドロンエンジン",
+      "fr": "Moteur à Hadrons",
+      "de": "Hadronen-Motor",
+      "es": "Motor Hadrónico",
+      "it": "Motore Adronico",
+      "en": "Hadron Engine"
+    }
+  },
+  {
+    "id": 290,
+    "name": "opportunist",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "びんじょう",
+      "fr": "Opportuniste",
+      "de": "Profiteur",
+      "es": "Oportunista",
+      "it": "Scrocco",
+      "en": "Opportunist"
+    }
+  },
+  {
+    "id": 291,
+    "name": "cud-chew",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "はんすう",
+      "fr": "Ruminant",
+      "de": "Wiederkäuer",
+      "es": "Rumia",
+      "it": "Ruminante",
+      "en": "Cud Chew"
+    }
+  },
+  {
+    "id": 292,
+    "name": "sharpness",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "きれあじ",
+      "fr": "Incisif",
+      "de": "Scharfkantig",
+      "es": "Cortante",
+      "it": "Affilama",
+      "en": "Sharpness"
+    }
+  },
+  {
+    "id": 293,
+    "name": "supreme-overlord",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "そうだいしょう",
+      "fr": "Général Suprême",
+      "de": "Feldherr",
+      "es": "General Supremo",
+      "it": "Generale Supremo",
+      "en": "Supreme Overlord"
+    }
+  },
+  {
+    "id": 294,
+    "name": "costar",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "きょうえん",
+      "fr": "Collab",
+      "de": "Synchronauftritt",
+      "es": "Unísono",
+      "it": "Coprotagonismo",
+      "en": "Costar"
+    }
+  },
+  {
+    "id": 295,
+    "name": "toxic-debris",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "どくげしょう",
+      "fr": "Dépôt Toxique",
+      "de": "Giftbelag",
+      "es": "Capa Tóxica",
+      "it": "Mantossina",
+      "en": "Toxic Debris"
+    }
+  },
+  {
+    "id": 296,
+    "name": "armor-tail",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "テイルアーマー",
+      "fr": "Armure Caudale",
+      "de": "Schweifrüstung",
+      "es": "Cola Armadura",
+      "it": "Codarmatura",
+      "en": "Armor Tail"
+    }
+  },
+  {
+    "id": 297,
+    "name": "earth-eater",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "どしょく",
+      "fr": "Absorbe-Terre",
+      "de": "Bodenschmaus",
+      "es": "Geofagia",
+      "it": "Mangiaterra",
+      "en": "Earth Eater"
+    }
+  },
+  {
+    "id": 298,
+    "name": "mycelium-might",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "きんしのちから",
+      "fr": "Force Fongique",
+      "de": "Myzelienkraft",
+      "es": "Poder Fúngico",
+      "it": "Micoforza",
+      "en": "Mycelium Might"
+    }
+  },
+  {
+    "id": 299,
+    "name": "minds-eye",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "しんがん",
+      "ko": "심안",
+      "zh-Hant": "心眼",
+      "fr": "Œil Révélateur ",
+      "es": "Ojo Mental ",
+      "it": "Occhio Interiore ",
+      "en": "Minds Eye"
+    }
+  },
+  {
+    "id": 300,
+    "name": "supersweet-syrup",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "かんろなミツ",
+      "ko": "감미로운꿀",
+      "zh-Hant": "甘露之蜜",
+      "fr": "Nectar Mielleux",
+      "de": "Süßer Nektar",
+      "es": "Néctar Dulce",
+      "it": "Sciroppo Sublime",
+      "en": "Supersweet Syrup"
+    }
+  },
+  {
+    "id": 301,
+    "name": "hospitality",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "おもてなし",
+      "ko": "대접",
+      "zh-Hant": "款待",
+      "fr": "Aux Petits Soins",
+      "de": "Gastlichkeit",
+      "es": "Hospitalidad",
+      "it": "Ospitalità",
+      "en": "Hospitality"
+    }
+  },
+  {
+    "id": 302,
+    "name": "toxic-chain",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "どくのくさり",
+      "ko": "독사슬",
+      "zh-Hant": "毒鎖鏈",
+      "fr": "Chaîne Toxique",
+      "de": "Giftkette",
+      "es": "Cadena Tóxica",
+      "it": "Catena Tossica",
+      "en": "Toxic Chain"
+    }
+  },
+  {
+    "id": 303,
+    "name": "embody-aspect",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "おもかげやどし",
+      "ko": "초상투영",
+      "zh-Hant": "面影輝映",
+      "fr": "Force Mémorielle",
+      "de": "Erinnerungskraft",
+      "es": "Evocarrecuerdos",
+      "it": "Albergamemorie",
+      "en": "Embody Aspect"
+    }
+  },
+  {
+    "id": 10001,
+    "name": "mountaineer",
+    "generation": "generation-v",
+    "names": {
+      "en": "Mountaineer"
+    }
+  },
+  {
+    "id": 10002,
+    "name": "wave-rider",
+    "generation": "generation-v",
+    "names": {
+      "en": "Wave Rider"
+    }
+  },
+  {
+    "id": 10003,
+    "name": "skater",
+    "generation": "generation-v",
+    "names": {
+      "en": "Skater"
+    }
+  },
+  {
+    "id": 10004,
+    "name": "thrust",
+    "generation": "generation-v",
+    "names": {
+      "en": "Thrust"
+    }
+  },
+  {
+    "id": 10005,
+    "name": "perception",
+    "generation": "generation-v",
+    "names": {
+      "en": "Perception"
+    }
+  },
+  {
+    "id": 10006,
+    "name": "parry",
+    "generation": "generation-v",
+    "names": {
+      "en": "Parry"
+    }
+  },
+  {
+    "id": 10007,
+    "name": "instinct",
+    "generation": "generation-v",
+    "names": {
+      "en": "Instinct"
+    }
+  },
+  {
+    "id": 10008,
+    "name": "dodge",
+    "generation": "generation-v",
+    "names": {
+      "en": "Dodge"
+    }
+  },
+  {
+    "id": 10009,
+    "name": "jagged-edge",
+    "generation": "generation-v",
+    "names": {
+      "en": "Jagged Edge"
+    }
+  },
+  {
+    "id": 10010,
+    "name": "frostbite",
+    "generation": "generation-v",
+    "names": {
+      "en": "Frostbite"
+    }
+  },
+  {
+    "id": 10011,
+    "name": "tenacity",
+    "generation": "generation-v",
+    "names": {
+      "en": "Tenacity"
+    }
+  },
+  {
+    "id": 10012,
+    "name": "pride",
+    "generation": "generation-v",
+    "names": {
+      "en": "Pride"
+    }
+  },
+  {
+    "id": 10013,
+    "name": "deep-sleep",
+    "generation": "generation-v",
+    "names": {
+      "en": "Deep Sleep"
+    }
+  },
+  {
+    "id": 10014,
+    "name": "power-nap",
+    "generation": "generation-v",
+    "names": {
+      "en": "Power Nap"
+    }
+  },
+  {
+    "id": 10015,
+    "name": "spirit",
+    "generation": "generation-v",
+    "names": {
+      "en": "Spirit"
+    }
+  },
+  {
+    "id": 10016,
+    "name": "warm-blanket",
+    "generation": "generation-v",
+    "names": {
+      "en": "Warm Blanket"
+    }
+  },
+  {
+    "id": 10017,
+    "name": "gulp",
+    "generation": "generation-v",
+    "names": {
+      "en": "Gulp"
+    }
+  },
+  {
+    "id": 10018,
+    "name": "herbivore",
+    "generation": "generation-v",
+    "names": {
+      "en": "Herbivore"
+    }
+  },
+  {
+    "id": 10019,
+    "name": "sandpit",
+    "generation": "generation-v",
+    "names": {
+      "en": "Sandpit"
+    }
+  },
+  {
+    "id": 10020,
+    "name": "hot-blooded",
+    "generation": "generation-v",
+    "names": {
+      "en": "Hot Blooded"
+    }
+  },
+  {
+    "id": 10021,
+    "name": "medic",
+    "generation": "generation-v",
+    "names": {
+      "en": "Medic"
+    }
+  },
+  {
+    "id": 10022,
+    "name": "life-force",
+    "generation": "generation-v",
+    "names": {
+      "en": "Life Force"
+    }
+  },
+  {
+    "id": 10023,
+    "name": "lunchbox",
+    "generation": "generation-v",
+    "names": {
+      "en": "Lunchbox"
+    }
+  },
+  {
+    "id": 10024,
+    "name": "nurse",
+    "generation": "generation-v",
+    "names": {
+      "en": "Nurse"
+    }
+  },
+  {
+    "id": 10025,
+    "name": "melee",
+    "generation": "generation-v",
+    "names": {
+      "en": "Melee"
+    }
+  },
+  {
+    "id": 10026,
+    "name": "sponge",
+    "generation": "generation-v",
+    "names": {
+      "en": "Sponge"
+    }
+  },
+  {
+    "id": 10027,
+    "name": "bodyguard",
+    "generation": "generation-v",
+    "names": {
+      "en": "Bodyguard"
+    }
+  },
+  {
+    "id": 10028,
+    "name": "hero",
+    "generation": "generation-v",
+    "names": {
+      "en": "Hero"
+    }
+  },
+  {
+    "id": 10029,
+    "name": "last-bastion",
+    "generation": "generation-v",
+    "names": {
+      "en": "Last Bastion"
+    }
+  },
+  {
+    "id": 10030,
+    "name": "stealth",
+    "generation": "generation-v",
+    "names": {
+      "en": "Stealth"
+    }
+  },
+  {
+    "id": 10031,
+    "name": "vanguard",
+    "generation": "generation-v",
+    "names": {
+      "en": "Vanguard"
+    }
+  },
+  {
+    "id": 10032,
+    "name": "nomad",
+    "generation": "generation-v",
+    "names": {
+      "en": "Nomad"
+    }
+  },
+  {
+    "id": 10033,
+    "name": "sequence",
+    "generation": "generation-v",
+    "names": {
+      "en": "Sequence"
+    }
+  },
+  {
+    "id": 10034,
+    "name": "grass-cloak",
+    "generation": "generation-v",
+    "names": {
+      "en": "Grass Cloak"
+    }
+  },
+  {
+    "id": 10035,
+    "name": "celebrate",
+    "generation": "generation-v",
+    "names": {
+      "en": "Celebrate"
+    }
+  },
+  {
+    "id": 10036,
+    "name": "lullaby",
+    "generation": "generation-v",
+    "names": {
+      "en": "Lullaby"
+    }
+  },
+  {
+    "id": 10037,
+    "name": "calming",
+    "generation": "generation-v",
+    "names": {
+      "en": "Calming"
+    }
+  },
+  {
+    "id": 10038,
+    "name": "daze",
+    "generation": "generation-v",
+    "names": {
+      "en": "Daze"
+    }
+  },
+  {
+    "id": 10039,
+    "name": "frighten",
+    "generation": "generation-v",
+    "names": {
+      "en": "Frighten"
+    }
+  },
+  {
+    "id": 10040,
+    "name": "interference",
+    "generation": "generation-v",
+    "names": {
+      "en": "Interference"
+    }
+  },
+  {
+    "id": 10041,
+    "name": "mood-maker",
+    "generation": "generation-v",
+    "names": {
+      "en": "Mood Maker"
+    }
+  },
+  {
+    "id": 10042,
+    "name": "confidence",
+    "generation": "generation-v",
+    "names": {
+      "en": "Confidence"
+    }
+  },
+  {
+    "id": 10043,
+    "name": "fortune",
+    "generation": "generation-v",
+    "names": {
+      "en": "Fortune"
+    }
+  },
+  {
+    "id": 10044,
+    "name": "bonanza",
+    "generation": "generation-v",
+    "names": {
+      "en": "Bonanza"
+    }
+  },
+  {
+    "id": 10045,
+    "name": "explode",
+    "generation": "generation-v",
+    "names": {
+      "en": "Explode"
+    }
+  },
+  {
+    "id": 10046,
+    "name": "omnipotent",
+    "generation": "generation-v",
+    "names": {
+      "en": "Omnipotent"
+    }
+  },
+  {
+    "id": 10047,
+    "name": "share",
+    "generation": "generation-v",
+    "names": {
+      "en": "Share"
+    }
+  },
+  {
+    "id": 10048,
+    "name": "black-hole",
+    "generation": "generation-v",
+    "names": {
+      "en": "Black Hole"
+    }
+  },
+  {
+    "id": 10049,
+    "name": "shadow-dash",
+    "generation": "generation-v",
+    "names": {
+      "en": "Shadow Dash"
+    }
+  },
+  {
+    "id": 10050,
+    "name": "sprint",
+    "generation": "generation-v",
+    "names": {
+      "en": "Sprint"
+    }
+  },
+  {
+    "id": 10051,
+    "name": "disgust",
+    "generation": "generation-v",
+    "names": {
+      "en": "Disgust"
+    }
+  },
+  {
+    "id": 10052,
+    "name": "high-rise",
+    "generation": "generation-v",
+    "names": {
+      "en": "High-rise"
+    }
+  },
+  {
+    "id": 10053,
+    "name": "climber",
+    "generation": "generation-v",
+    "names": {
+      "en": "Climber"
+    }
+  },
+  {
+    "id": 10054,
+    "name": "flame-boost",
+    "generation": "generation-v",
+    "names": {
+      "en": "Flame Boost"
+    }
+  },
+  {
+    "id": 10055,
+    "name": "aqua-boost",
+    "generation": "generation-v",
+    "names": {
+      "en": "Aqua Boost"
+    }
+  },
+  {
+    "id": 10056,
+    "name": "run-up",
+    "generation": "generation-v",
+    "names": {
+      "en": "Run Up"
+    }
+  },
+  {
+    "id": 10057,
+    "name": "conqueror",
+    "generation": "generation-v",
+    "names": {
+      "en": "Conqueror"
+    }
+  },
+  {
+    "id": 10058,
+    "name": "shackle",
+    "generation": "generation-v",
+    "names": {
+      "en": "Shackle"
+    }
+  },
+  {
+    "id": 10059,
+    "name": "decoy",
+    "generation": "generation-v",
+    "names": {
+      "en": "Decoy"
+    }
+  },
+  {
+    "id": 10060,
+    "name": "shield",
+    "generation": "generation-v",
+    "names": {
+      "en": "Shield"
+    }
+  }
+]

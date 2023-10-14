@@ -1,1 +1,62 @@
-[{"id":1,"name":"status","names":{"ja-Hrkt":"へんか","zh-Hant":"變化","fr":"statut","de":"status","es":"estado","en":"status"},"descriptions":{"ja-Hrkt":"ダメージない","zh-Hant":"沒有傷害","fr":"Aucun dégât","de":"Kein Schaden","es":"Sin Daño","en":"No damage"}},{"id":2,"name":"physical","names":{"ja-Hrkt":"ぶつり","zh-Hant":"物理","fr":"physique","de":"physisch","es":"físico","en":"physical"},"descriptions":{"ja-Hrkt":"ぶつりのダメージ。こうげきとぼうぎょを行使する","zh-Hant":"物理傷害，受攻擊和防禦影響","fr":"Dégâts physique, influencés par l'Attaque et la Défense","de":"Physischer Schaden, beeinflusst von Angriff und Verteidigung","es":"Daño Físico, controlado por el Ataque y Defensa","en":"Physical damage, controlled by Attack and Defense"}},{"id":3,"name":"special","names":{"ja-Hrkt":"とくしゅ","zh-Hant":"特殊","fr":"spéciale","de":"spezial","es":"especial","en":"special"},"descriptions":{"ja-Hrkt":"とくしゅのダメージ。とくこうととくぼうを行使する","zh-Hant":"特殊傷害，受特攻和特防影響","fr":"Dégâts spéciaux, influencés par l'Attaque Spéciale et la Défense Spéciale","de":"Spezieller Schaden, beeinflusst von Spezialangriff und Spezialverteidigung","es":"Daño Especial, controlado por el Ataque Esecieal y Defensa Especial","en":"Special damage, controlled by Special Attack and Special Defense"}}]
+[
+  {
+    "id": 1,
+    "name": "status",
+    "names": {
+      "ja-Hrkt": "へんか",
+      "zh-Hant": "變化",
+      "fr": "statut",
+      "de": "status",
+      "es": "estado",
+      "en": "status"
+    },
+    "descriptions": {
+      "ja-Hrkt": "ダメージない",
+      "zh-Hant": "沒有傷害",
+      "fr": "Aucun dégât",
+      "de": "Kein Schaden",
+      "es": "Sin Daño",
+      "en": "No damage"
+    }
+  },
+  {
+    "id": 2,
+    "name": "physical",
+    "names": {
+      "ja-Hrkt": "ぶつり",
+      "zh-Hant": "物理",
+      "fr": "physique",
+      "de": "physisch",
+      "es": "físico",
+      "en": "physical"
+    },
+    "descriptions": {
+      "ja-Hrkt": "ぶつりのダメージ。こうげきとぼうぎょを行使する",
+      "zh-Hant": "物理傷害，受攻擊和防禦影響",
+      "fr": "Dégâts physique, influencés par l'Attaque et la Défense",
+      "de": "Physischer Schaden, beeinflusst von Angriff und Verteidigung",
+      "es": "Daño Físico, controlado por el Ataque y Defensa",
+      "en": "Physical damage, controlled by Attack and Defense"
+    }
+  },
+  {
+    "id": 3,
+    "name": "special",
+    "names": {
+      "ja-Hrkt": "とくしゅ",
+      "zh-Hant": "特殊",
+      "fr": "spéciale",
+      "de": "spezial",
+      "es": "especial",
+      "en": "special"
+    },
+    "descriptions": {
+      "ja-Hrkt": "とくしゅのダメージ。とくこうととくぼうを行使する",
+      "zh-Hant": "特殊傷害，受特攻和特防影響",
+      "fr": "Dégâts spéciaux, influencés par l'Attaque Spéciale et la Défense Spéciale",
+      "de": "Spezieller Schaden, beeinflusst von Spezialangriff und Spezialverteidigung",
+      "es": "Daño Especial, controlado por el Ataque Esecieal y Defensa Especial",
+      "en": "Special damage, controlled by Special Attack and Special Defense"
+    }
+  }
+]

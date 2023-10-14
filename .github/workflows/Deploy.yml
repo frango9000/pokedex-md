@@ -36,7 +36,13 @@ jobs:
       - name: Yarn Install
         run: yarn install
 
+      - name: Build
+        run: yarn build
+
+      - name: Trim API
+        run: yarn trim
+
       - name: Deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn run deploy
+        run: yarn deploy

@@ -1,1 +1,511 @@
-[{"id":1,"name":"red-blue","generation":"generation-i","order":1,"versions":["red","blue"],"names":{"ja-Hrkt":"赤 / 緑","ko":"레드 / 블루","zh-Hant":"紅 / 藍","fr":"Rouge / Bleu","de":"Rot / Blau","es":"Rojo / Azul","it":"Rossa / Blu","en":"Red / Blue"}},{"id":2,"name":"yellow","generation":"generation-i","order":2,"versions":["yellow"],"names":{"ja-Hrkt":"ピカチュウ","ko":"피카츄","zh-Hant":"皮卡丘","fr":"Jaune","de":"Gelb","es":"Amarillo","it":"Gialla","en":"Yellow"}},{"id":3,"name":"gold-silver","generation":"generation-ii","order":3,"versions":["gold","silver"],"names":{"ja-Hrkt":"金 / 銀","ko":"골드 / 실버","zh-Hant":"金 / 銀","fr":"Or / Argent","de":"Gold / Silber","es":"Oro / Plata","it":"Oro / Argento","en":"Gold / Silver"}},{"id":4,"name":"crystal","generation":"generation-ii","order":4,"versions":["crystal"],"names":{"ja-Hrkt":"クリスタル","ko":"크리스탈","zh-Hant":"水晶","fr":"Cristal","de":"Kristall","es":"Cristal","it":"Cristallo","en":"Crystal"}},{"id":5,"name":"ruby-sapphire","generation":"generation-iii","order":5,"versions":["ruby","sapphire"],"names":{"ja-Hrkt":"ルビー / サファイア","ko":"루비 / 사파이어","zh-Hant":"紅寶石 / 藍寶石","fr":"Rubis / Saphir","de":"Rubin / Saphir","es":"Rubí / Zafiro","it":"Rubino / Zaffiro","en":"Ruby / Sapphire"}},{"id":6,"name":"emerald","generation":"generation-iii","order":6,"versions":["emerald"],"names":{"ja-Hrkt":"エメラルド","ko":"에메랄드","zh-Hant":"綠寶石","fr":"Émeraude","de":"Smaragd","es":"Esmeralda","it":"Smeraldo","en":"Emerald"}},{"id":7,"name":"firered-leafgreen","generation":"generation-iii","order":9,"versions":["firered","leafgreen"],"names":{"ja-Hrkt":"ファイアレッド / リーフグリーン","ko":"파이어레드 / 리프그린","zh-Hant":"火紅 / 葉綠","fr":"Rouge Feu / Vert Feuille","de":"Feuerrot / Blattgrün","es":"Rojo Fuego / Verde Hoja","it":"Rosso Fuoco / Verde Foglia","en":"FireRed / LeafGreen"}},{"id":8,"name":"diamond-pearl","generation":"generation-iv","order":10,"versions":["diamond","pearl"],"names":{"ja-Hrkt":"ダイヤモンド / パール","ko":"디아루가 / 펄기아","zh-Hant":"鑽石 / 珍珠","fr":"Diamant / Perle","de":"Diamant / Perl","es":"Diamante / Perla","it":"Diamante / Perla","en":"Diamond / Pearl"}},{"id":9,"name":"platinum","generation":"generation-iv","order":11,"versions":["platinum"],"names":{"ja-Hrkt":"プラチナ","ko":"기라티나","zh-Hant":"白金","fr":"Platine","de":"Platin","es":"Platino","it":"Platino","en":"Platinum"}},{"id":10,"name":"heartgold-soulsilver","generation":"generation-iv","order":12,"versions":["heartgold","soulsilver"],"names":{"ja-Hrkt":"ハートゴールド / ソウルシルバー","ko":"하트골드 / 소울실버","zh-Hant":"心金 / 魂銀","fr":"Or HeartGold / Argent SoulSilver","de":"HeartGold / SoulSilver","es":"Oro HeartGold / Plata SoulSilver","it":"Oro HeartGold / Argento SoulSilver","en":"HeartGold / SoulSilver"}},{"id":11,"name":"black-white","generation":"generation-v","order":13,"versions":["black","white"],"names":{"ja-Hrkt":"ブラック / ホワイト","ko":"블랙 / 화이트","zh-Hant":"黑 / 白","fr":"Noir / Blanc","de":"Schwarz / Weiß","es":"Negro / Blanco","it":"Nera / Bianca","en":"Black / White"}},{"id":12,"name":"colosseum","generation":"generation-iii","order":7,"versions":["colosseum"],"names":{"ja-Hrkt":"コロシアム","ko":"콜로세움","fr":"Colosseum","de":"Colosseum","es":"Colosseum","it":"Colosseum","en":"Colosseum"}},{"id":13,"name":"xd","generation":"generation-iii","order":8,"versions":["xd"],"names":{"ja-Hrkt":"XD","ko":"XD","fr":"XD","de":"XD","es":"XD","it":"XD","en":"XD"}},{"id":14,"name":"black-2-white-2","generation":"generation-v","order":14,"versions":["black-2","white-2"],"names":{"ja-Hrkt":"ブラック2 / ホワイト2","ko":"블랙 2 / 화이트 2","zh-Hant":"黑2 / 白","fr":"Noir 2 / Blanc 2","de":"Schwarz 2 / Weiß 2","es":"Negro 2 / Blanco 2","it":"Nera 2 / Bianca 2","en":"Black 2 / White 2"}},{"id":15,"name":"x-y","generation":"generation-vi","order":15,"versions":["x","y"],"names":{"ja-Hrkt":"X / Y","ko":"X / Y","zh-Hant":"X / Y","fr":"X / Y","de":"X / Y","es":"X / Y","it":"X / Y","en":"X / Y"}},{"id":16,"name":"omega-ruby-alpha-sapphire","generation":"generation-vi","order":16,"versions":["omega-ruby","alpha-sapphire"],"names":{"ja-Hrkt":"オメガルビー / アルファサファイア","ko":"오메가루비 / 알파사파이어","zh-Hant":"歐米加紅寶石 / 阿爾法藍寶石","fr":"Rubis Oméga / Saphir Alpha","de":"Omega Rubin / Alpha Saphir","es":"Rubí Omega / Zafiro Alfa","it":"Rubino Omega / Zaffiro Alpha","en":"Omega Ruby / Alpha Sapphire"}},{"id":17,"name":"sun-moon","generation":"generation-vii","order":17,"versions":["sun","moon"],"names":{"ja-Hrkt":"サン / ムーン","ko":"썬 / 문","zh-Hant":"太陽 / 月亮","fr":"Soleil / Lune","de":"Sonne / Mond","es":"Sol / Luna","it":"Sole / Luna","en":"Sun / Moon"}},{"id":18,"name":"ultra-sun-ultra-moon","generation":"generation-vii","order":18,"versions":["ultra-sun","ultra-moon"],"names":{"ja-Hrkt":"ウルトラサン / ウルトラムーン","ko":"울트라썬 / 울트라문","zh-Hant":"究極之日 / 究極之月","fr":"Ultra-Soleil / Ultra-Lune","de":"Ultrasonne / Ultramond","es":"Ultrasol / Ultraluna","it":"Ultrasole / Ultraluna","en":"Ultra Sun / Ultra Moon"}},{"id":19,"name":"lets-go-pikachu-lets-go-eevee","generation":"generation-vii","order":19,"versions":["lets-go-pikachu","lets-go-eevee"],"names":{"ja-Hrkt":"Let's Go! ピカチュウ / Let's Go! イーブイ","ko":"레츠고! 피카츄 / 레츠고! 이브이","zh-Hant":"Let's Go！皮卡丘 / Let's Go！伊布","fr":"Let's Go, Pikachu / Let's Go, Évoli","de":"Let's Go, Pikachu! / Let's Go, Evoli!","es":"Let's Go, Pikachu! / Let's Go, Eevee!","it":"Let's Go, Pikachu! / Let's Go, Eevee!","en":"Let's Go, Pikachu! / Let's Go, Eevee!"}},{"id":20,"name":"sword-shield","generation":"generation-viii","order":20,"versions":["sword","shield"],"names":{"ja-Hrkt":" ソード / シールド","ko":"소드 / 실드","zh-Hant":"劍 / 盾","fr":"Épée / Bouclier","de":"Schwert / Schild","es":"Espada / Escudo","it":"çSpada / Spada","en":"Sword / Shield"}},{"id":21,"name":"the-isle-of-armor","generation":"generation-viii","order":21,"versions":["the-isle-of-armor"],"names":{"ja-Hrkt":"鎧の孤島","ko":"갑옷의 외딴섬","zh-Hant":"鎧之孤島","fr":"L'île solitaire de l'Armure","de":"Die Insel der Rüstung","es":"La isla de la armadura","it":"L'isola solitaria dell'armatura","en":"The Isle of Armor"}},{"id":22,"name":"the-crown-tundra","generation":"generation-viii","order":22,"versions":["the-crown-tundra"],"names":{"ja-Hrkt":"冠の雪原","ko":"왕관의 설원","zh-Hant":"冠之雪原","fr":"Les terres enneigées de la Couronne","de":"Die Schneelande der Krone","es":"Las nieves de la corona","it":"Le terre innevate della corona","en":"The Crown Tundra"}},{"id":23,"name":"brilliant-diamond-and-shining-pearl","generation":"generation-viii","order":23,"versions":["brilliant-diamond","shining-pearl"],"names":{"ja-Hrkt":"ブリリアントダイヤモンド / シャイニングパール","ko":"브릴리언트 다이아몬드 / 샤이닝 펄","zh-Hant":"晶燦鑽石 / 明亮珍珠","fr":"Diamant Étincelant / Perle Scintillante","de":"Strahlender Diamant / Leuchtende Perle","es":"Diamante Brillante / Perla Reluciente","it":"Diamante Lucente / Perla Splendente","en":"Brilliant Diamond / Shining Pearl"}},{"id":24,"name":"legends-arceus","generation":"generation-viii","order":24,"versions":["legends-arceus"],"names":{"ja-Hrkt":"LEGENDS アルセウス","ko":"LEGENDS 아르세우스","zh-Hant":"傳說 阿爾宙斯","fr":"Légendes : Arceus","de":"Legenden: Arceus","es":"Leyendas: Arceus","it":"Leggende: Arceus","en":"Legends: Arceus"}},{"id":25,"name":"scarlet-violet","generation":"generation-ix","order":25,"versions":["scarlet","violet"],"names":{"ja-Hrkt":"スカーレット / バイオレット","ko":"스칼렛 / 바이올렛","zh-Hant":"朱 / 紫","fr":"Écarlate / Violet","de":"Karmesin / Purpur","es":"Escarlata / Púrpura","it":"Scarlatto / Violetto","en":"Scarlet / Violet"}},{"id":26,"name":"the-teal-mask","generation":"generation-ix","order":26,"versions":["the-teal-mask"],"names":{}},{"id":27,"name":"the-indigo-disk","generation":"generation-ix","order":27,"versions":["the-indigo-disk"],"names":{}}]
+[
+  {
+    "id": 1,
+    "name": "red-blue",
+    "generation": "generation-i",
+    "order": 1,
+    "versions": [
+      "red",
+      "blue"
+    ],
+    "names": {
+      "ja-Hrkt": "赤 / 緑",
+      "ko": "레드 / 블루",
+      "zh-Hant": "紅 / 藍",
+      "fr": "Rouge / Bleu",
+      "de": "Rot / Blau",
+      "es": "Rojo / Azul",
+      "it": "Rossa / Blu",
+      "en": "Red / Blue"
+    }
+  },
+  {
+    "id": 2,
+    "name": "yellow",
+    "generation": "generation-i",
+    "order": 2,
+    "versions": [
+      "yellow"
+    ],
+    "names": {
+      "ja-Hrkt": "ピカチュウ",
+      "ko": "피카츄",
+      "zh-Hant": "皮卡丘",
+      "fr": "Jaune",
+      "de": "Gelb",
+      "es": "Amarillo",
+      "it": "Gialla",
+      "en": "Yellow"
+    }
+  },
+  {
+    "id": 3,
+    "name": "gold-silver",
+    "generation": "generation-ii",
+    "order": 3,
+    "versions": [
+      "gold",
+      "silver"
+    ],
+    "names": {
+      "ja-Hrkt": "金 / 銀",
+      "ko": "골드 / 실버",
+      "zh-Hant": "金 / 銀",
+      "fr": "Or / Argent",
+      "de": "Gold / Silber",
+      "es": "Oro / Plata",
+      "it": "Oro / Argento",
+      "en": "Gold / Silver"
+    }
+  },
+  {
+    "id": 4,
+    "name": "crystal",
+    "generation": "generation-ii",
+    "order": 4,
+    "versions": [
+      "crystal"
+    ],
+    "names": {
+      "ja-Hrkt": "クリスタル",
+      "ko": "크리스탈",
+      "zh-Hant": "水晶",
+      "fr": "Cristal",
+      "de": "Kristall",
+      "es": "Cristal",
+      "it": "Cristallo",
+      "en": "Crystal"
+    }
+  },
+  {
+    "id": 5,
+    "name": "ruby-sapphire",
+    "generation": "generation-iii",
+    "order": 5,
+    "versions": [
+      "ruby",
+      "sapphire"
+    ],
+    "names": {
+      "ja-Hrkt": "ルビー / サファイア",
+      "ko": "루비 / 사파이어",
+      "zh-Hant": "紅寶石 / 藍寶石",
+      "fr": "Rubis / Saphir",
+      "de": "Rubin / Saphir",
+      "es": "Rubí / Zafiro",
+      "it": "Rubino / Zaffiro",
+      "en": "Ruby / Sapphire"
+    }
+  },
+  {
+    "id": 6,
+    "name": "emerald",
+    "generation": "generation-iii",
+    "order": 6,
+    "versions": [
+      "emerald"
+    ],
+    "names": {
+      "ja-Hrkt": "エメラルド",
+      "ko": "에메랄드",
+      "zh-Hant": "綠寶石",
+      "fr": "Émeraude",
+      "de": "Smaragd",
+      "es": "Esmeralda",
+      "it": "Smeraldo",
+      "en": "Emerald"
+    }
+  },
+  {
+    "id": 7,
+    "name": "firered-leafgreen",
+    "generation": "generation-iii",
+    "order": 9,
+    "versions": [
+      "firered",
+      "leafgreen"
+    ],
+    "names": {
+      "ja-Hrkt": "ファイアレッド / リーフグリーン",
+      "ko": "파이어레드 / 리프그린",
+      "zh-Hant": "火紅 / 葉綠",
+      "fr": "Rouge Feu / Vert Feuille",
+      "de": "Feuerrot / Blattgrün",
+      "es": "Rojo Fuego / Verde Hoja",
+      "it": "Rosso Fuoco / Verde Foglia",
+      "en": "FireRed / LeafGreen"
+    }
+  },
+  {
+    "id": 8,
+    "name": "diamond-pearl",
+    "generation": "generation-iv",
+    "order": 10,
+    "versions": [
+      "diamond",
+      "pearl"
+    ],
+    "names": {
+      "ja-Hrkt": "ダイヤモンド / パール",
+      "ko": "디아루가 / 펄기아",
+      "zh-Hant": "鑽石 / 珍珠",
+      "fr": "Diamant / Perle",
+      "de": "Diamant / Perl",
+      "es": "Diamante / Perla",
+      "it": "Diamante / Perla",
+      "en": "Diamond / Pearl"
+    }
+  },
+  {
+    "id": 9,
+    "name": "platinum",
+    "generation": "generation-iv",
+    "order": 11,
+    "versions": [
+      "platinum"
+    ],
+    "names": {
+      "ja-Hrkt": "プラチナ",
+      "ko": "기라티나",
+      "zh-Hant": "白金",
+      "fr": "Platine",
+      "de": "Platin",
+      "es": "Platino",
+      "it": "Platino",
+      "en": "Platinum"
+    }
+  },
+  {
+    "id": 10,
+    "name": "heartgold-soulsilver",
+    "generation": "generation-iv",
+    "order": 12,
+    "versions": [
+      "heartgold",
+      "soulsilver"
+    ],
+    "names": {
+      "ja-Hrkt": "ハートゴールド / ソウルシルバー",
+      "ko": "하트골드 / 소울실버",
+      "zh-Hant": "心金 / 魂銀",
+      "fr": "Or HeartGold / Argent SoulSilver",
+      "de": "HeartGold / SoulSilver",
+      "es": "Oro HeartGold / Plata SoulSilver",
+      "it": "Oro HeartGold / Argento SoulSilver",
+      "en": "HeartGold / SoulSilver"
+    }
+  },
+  {
+    "id": 11,
+    "name": "black-white",
+    "generation": "generation-v",
+    "order": 13,
+    "versions": [
+      "black",
+      "white"
+    ],
+    "names": {
+      "ja-Hrkt": "ブラック / ホワイト",
+      "ko": "블랙 / 화이트",
+      "zh-Hant": "黑 / 白",
+      "fr": "Noir / Blanc",
+      "de": "Schwarz / Weiß",
+      "es": "Negro / Blanco",
+      "it": "Nera / Bianca",
+      "en": "Black / White"
+    }
+  },
+  {
+    "id": 12,
+    "name": "colosseum",
+    "generation": "generation-iii",
+    "order": 7,
+    "versions": [
+      "colosseum"
+    ],
+    "names": {
+      "ja-Hrkt": "コロシアム",
+      "ko": "콜로세움",
+      "fr": "Colosseum",
+      "de": "Colosseum",
+      "es": "Colosseum",
+      "it": "Colosseum",
+      "en": "Colosseum"
+    }
+  },
+  {
+    "id": 13,
+    "name": "xd",
+    "generation": "generation-iii",
+    "order": 8,
+    "versions": [
+      "xd"
+    ],
+    "names": {
+      "ja-Hrkt": "XD",
+      "ko": "XD",
+      "fr": "XD",
+      "de": "XD",
+      "es": "XD",
+      "it": "XD",
+      "en": "XD"
+    }
+  },
+  {
+    "id": 14,
+    "name": "black-2-white-2",
+    "generation": "generation-v",
+    "order": 14,
+    "versions": [
+      "black-2",
+      "white-2"
+    ],
+    "names": {
+      "ja-Hrkt": "ブラック2 / ホワイト2",
+      "ko": "블랙 2 / 화이트 2",
+      "zh-Hant": "黑2 / 白",
+      "fr": "Noir 2 / Blanc 2",
+      "de": "Schwarz 2 / Weiß 2",
+      "es": "Negro 2 / Blanco 2",
+      "it": "Nera 2 / Bianca 2",
+      "en": "Black 2 / White 2"
+    }
+  },
+  {
+    "id": 15,
+    "name": "x-y",
+    "generation": "generation-vi",
+    "order": 15,
+    "versions": [
+      "x",
+      "y"
+    ],
+    "names": {
+      "ja-Hrkt": "X / Y",
+      "ko": "X / Y",
+      "zh-Hant": "X / Y",
+      "fr": "X / Y",
+      "de": "X / Y",
+      "es": "X / Y",
+      "it": "X / Y",
+      "en": "X / Y"
+    }
+  },
+  {
+    "id": 16,
+    "name": "omega-ruby-alpha-sapphire",
+    "generation": "generation-vi",
+    "order": 16,
+    "versions": [
+      "omega-ruby",
+      "alpha-sapphire"
+    ],
+    "names": {
+      "ja-Hrkt": "オメガルビー / アルファサファイア",
+      "ko": "오메가루비 / 알파사파이어",
+      "zh-Hant": "歐米加紅寶石 / 阿爾法藍寶石",
+      "fr": "Rubis Oméga / Saphir Alpha",
+      "de": "Omega Rubin / Alpha Saphir",
+      "es": "Rubí Omega / Zafiro Alfa",
+      "it": "Rubino Omega / Zaffiro Alpha",
+      "en": "Omega Ruby / Alpha Sapphire"
+    }
+  },
+  {
+    "id": 17,
+    "name": "sun-moon",
+    "generation": "generation-vii",
+    "order": 17,
+    "versions": [
+      "sun",
+      "moon"
+    ],
+    "names": {
+      "ja-Hrkt": "サン / ムーン",
+      "ko": "썬 / 문",
+      "zh-Hant": "太陽 / 月亮",
+      "fr": "Soleil / Lune",
+      "de": "Sonne / Mond",
+      "es": "Sol / Luna",
+      "it": "Sole / Luna",
+      "en": "Sun / Moon"
+    }
+  },
+  {
+    "id": 18,
+    "name": "ultra-sun-ultra-moon",
+    "generation": "generation-vii",
+    "order": 18,
+    "versions": [
+      "ultra-sun",
+      "ultra-moon"
+    ],
+    "names": {
+      "ja-Hrkt": "ウルトラサン / ウルトラムーン",
+      "ko": "울트라썬 / 울트라문",
+      "zh-Hant": "究極之日 / 究極之月",
+      "fr": "Ultra-Soleil / Ultra-Lune",
+      "de": "Ultrasonne / Ultramond",
+      "es": "Ultrasol / Ultraluna",
+      "it": "Ultrasole / Ultraluna",
+      "en": "Ultra Sun / Ultra Moon"
+    }
+  },
+  {
+    "id": 19,
+    "name": "lets-go-pikachu-lets-go-eevee",
+    "generation": "generation-vii",
+    "order": 19,
+    "versions": [
+      "lets-go-pikachu",
+      "lets-go-eevee"
+    ],
+    "names": {
+      "ja-Hrkt": "Let's Go! ピカチュウ / Let's Go! イーブイ",
+      "ko": "레츠고! 피카츄 / 레츠고! 이브이",
+      "zh-Hant": "Let's Go！皮卡丘 / Let's Go！伊布",
+      "fr": "Let's Go, Pikachu / Let's Go, Évoli",
+      "de": "Let's Go, Pikachu! / Let's Go, Evoli!",
+      "es": "Let's Go, Pikachu! / Let's Go, Eevee!",
+      "it": "Let's Go, Pikachu! / Let's Go, Eevee!",
+      "en": "Let's Go, Pikachu! / Let's Go, Eevee!"
+    }
+  },
+  {
+    "id": 20,
+    "name": "sword-shield",
+    "generation": "generation-viii",
+    "order": 20,
+    "versions": [
+      "sword",
+      "shield"
+    ],
+    "names": {
+      "ja-Hrkt": " ソード / シールド",
+      "ko": "소드 / 실드",
+      "zh-Hant": "劍 / 盾",
+      "fr": "Épée / Bouclier",
+      "de": "Schwert / Schild",
+      "es": "Espada / Escudo",
+      "it": "çSpada / Spada",
+      "en": "Sword / Shield"
+    }
+  },
+  {
+    "id": 21,
+    "name": "the-isle-of-armor",
+    "generation": "generation-viii",
+    "order": 21,
+    "versions": [
+      "the-isle-of-armor"
+    ],
+    "names": {
+      "ja-Hrkt": "鎧の孤島",
+      "ko": "갑옷의 외딴섬",
+      "zh-Hant": "鎧之孤島",
+      "fr": "L'île solitaire de l'Armure",
+      "de": "Die Insel der Rüstung",
+      "es": "La isla de la armadura",
+      "it": "L'isola solitaria dell'armatura",
+      "en": "The Isle of Armor"
+    }
+  },
+  {
+    "id": 22,
+    "name": "the-crown-tundra",
+    "generation": "generation-viii",
+    "order": 22,
+    "versions": [
+      "the-crown-tundra"
+    ],
+    "names": {
+      "ja-Hrkt": "冠の雪原",
+      "ko": "왕관의 설원",
+      "zh-Hant": "冠之雪原",
+      "fr": "Les terres enneigées de la Couronne",
+      "de": "Die Schneelande der Krone",
+      "es": "Las nieves de la corona",
+      "it": "Le terre innevate della corona",
+      "en": "The Crown Tundra"
+    }
+  },
+  {
+    "id": 23,
+    "name": "brilliant-diamond-and-shining-pearl",
+    "generation": "generation-viii",
+    "order": 23,
+    "versions": [
+      "brilliant-diamond",
+      "shining-pearl"
+    ],
+    "names": {
+      "ja-Hrkt": "ブリリアントダイヤモンド / シャイニングパール",
+      "ko": "브릴리언트 다이아몬드 / 샤이닝 펄",
+      "zh-Hant": "晶燦鑽石 / 明亮珍珠",
+      "fr": "Diamant Étincelant / Perle Scintillante",
+      "de": "Strahlender Diamant / Leuchtende Perle",
+      "es": "Diamante Brillante / Perla Reluciente",
+      "it": "Diamante Lucente / Perla Splendente",
+      "en": "Brilliant Diamond / Shining Pearl"
+    }
+  },
+  {
+    "id": 24,
+    "name": "legends-arceus",
+    "generation": "generation-viii",
+    "order": 24,
+    "versions": [
+      "legends-arceus"
+    ],
+    "names": {
+      "ja-Hrkt": "LEGENDS アルセウス",
+      "ko": "LEGENDS 아르세우스",
+      "zh-Hant": "傳說 阿爾宙斯",
+      "fr": "Légendes : Arceus",
+      "de": "Legenden: Arceus",
+      "es": "Leyendas: Arceus",
+      "it": "Leggende: Arceus",
+      "en": "Legends: Arceus"
+    }
+  },
+  {
+    "id": 25,
+    "name": "scarlet-violet",
+    "generation": "generation-ix",
+    "order": 25,
+    "versions": [
+      "scarlet",
+      "violet"
+    ],
+    "names": {
+      "ja-Hrkt": "スカーレット / バイオレット",
+      "ko": "스칼렛 / 바이올렛",
+      "zh-Hant": "朱 / 紫",
+      "fr": "Écarlate / Violet",
+      "de": "Karmesin / Purpur",
+      "es": "Escarlata / Púrpura",
+      "it": "Scarlatto / Violetto",
+      "en": "Scarlet / Violet"
+    }
+  },
+  {
+    "id": 26,
+    "name": "the-teal-mask",
+    "generation": "generation-ix",
+    "order": 26,
+    "versions": [
+      "the-teal-mask"
+    ],
+    "names": {}
+  },
+  {
+    "id": 27,
+    "name": "the-indigo-disk",
+    "generation": "generation-ix",
+    "order": 27,
+    "versions": [
+      "the-indigo-disk"
+    ],
+    "names": {}
+  }
+]

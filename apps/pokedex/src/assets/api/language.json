@@ -1,1 +1,118 @@
-[{"id":1,"name":"ja-Hrkt","iso3166":"jp","names":{"ja-Hrkt":"日本語","ko":"일본어","fr":"Japonais","de":"Japanisch","es":"Japonés","en":"Japanese"}},{"id":2,"name":"roomaji","iso3166":"jp","names":{"ja-Hrkt":"正式ローマジ","ko":"정식 로마자","fr":"Romaji","de":"Rōmaji","en":"Official roomaji"}},{"id":3,"name":"ko","iso3166":"kr","names":{"ja-Hrkt":"韓国語","ko":"한국어","fr":"Coréen","de":"Koreanisch","es":"Coreano","en":"Korean"}},{"id":4,"name":"zh-Hant","iso3166":"cn","names":{"ja-Hrkt":"中国語","ko":"중국어","fr":"Chinois","de":"Chinesisch","es":"Chino","en":"Chinese"}},{"id":5,"name":"fr","iso3166":"fr","names":{"ja-Hrkt":"フランス語","ko":"프랑스어","fr":"Français","de":"Französisch","es":"Francés","en":"French"}},{"id":6,"name":"de","iso3166":"de","names":{"ja-Hrkt":"ドイツ語","ko":"도이치어","fr":"Allemand","de":"Deutsch","es":"Alemán","en":"German"}},{"id":7,"name":"es","iso3166":"es","names":{"ja-Hrkt":"西語","ko":"스페인어","fr":"Espagnol","de":"Spanisch","es":"Español","en":"Spanish"}},{"id":8,"name":"it","iso3166":"it","names":{"ja-Hrkt":"伊語","ko":"이탈리아어","fr":"Italien","de":"Italienisch","es":"Italiano","en":"Italian"}},{"id":9,"name":"en","iso3166":"us","names":{"ja-Hrkt":"英語","ko":"영어","fr":"Anglais","de":"Englisch","es":"Inglés","en":"English"}}]
+[
+  {
+    "id": 1,
+    "name": "ja-Hrkt",
+    "iso3166": "jp",
+    "names": {
+      "ja-Hrkt": "日本語",
+      "ko": "일본어",
+      "fr": "Japonais",
+      "de": "Japanisch",
+      "es": "Japonés",
+      "en": "Japanese"
+    }
+  },
+  {
+    "id": 2,
+    "name": "roomaji",
+    "iso3166": "jp",
+    "names": {
+      "ja-Hrkt": "正式ローマジ",
+      "ko": "정식 로마자",
+      "fr": "Romaji",
+      "de": "Rōmaji",
+      "en": "Official roomaji"
+    }
+  },
+  {
+    "id": 3,
+    "name": "ko",
+    "iso3166": "kr",
+    "names": {
+      "ja-Hrkt": "韓国語",
+      "ko": "한국어",
+      "fr": "Coréen",
+      "de": "Koreanisch",
+      "es": "Coreano",
+      "en": "Korean"
+    }
+  },
+  {
+    "id": 4,
+    "name": "zh-Hant",
+    "iso3166": "cn",
+    "names": {
+      "ja-Hrkt": "中国語",
+      "ko": "중국어",
+      "fr": "Chinois",
+      "de": "Chinesisch",
+      "es": "Chino",
+      "en": "Chinese"
+    }
+  },
+  {
+    "id": 5,
+    "name": "fr",
+    "iso3166": "fr",
+    "names": {
+      "ja-Hrkt": "フランス語",
+      "ko": "프랑스어",
+      "fr": "Français",
+      "de": "Französisch",
+      "es": "Francés",
+      "en": "French"
+    }
+  },
+  {
+    "id": 6,
+    "name": "de",
+    "iso3166": "de",
+    "names": {
+      "ja-Hrkt": "ドイツ語",
+      "ko": "도이치어",
+      "fr": "Allemand",
+      "de": "Deutsch",
+      "es": "Alemán",
+      "en": "German"
+    }
+  },
+  {
+    "id": 7,
+    "name": "es",
+    "iso3166": "es",
+    "names": {
+      "ja-Hrkt": "西語",
+      "ko": "스페인어",
+      "fr": "Espagnol",
+      "de": "Spanisch",
+      "es": "Español",
+      "en": "Spanish"
+    }
+  },
+  {
+    "id": 8,
+    "name": "it",
+    "iso3166": "it",
+    "names": {
+      "ja-Hrkt": "伊語",
+      "ko": "이탈리아어",
+      "fr": "Italien",
+      "de": "Italienisch",
+      "es": "Italiano",
+      "en": "Italian"
+    }
+  },
+  {
+    "id": 9,
+    "name": "en",
+    "iso3166": "us",
+    "names": {
+      "ja-Hrkt": "英語",
+      "ko": "영어",
+      "fr": "Anglais",
+      "de": "Englisch",
+      "es": "Inglés",
+      "en": "English"
+    }
+  }
+]

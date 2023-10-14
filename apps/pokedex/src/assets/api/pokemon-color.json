@@ -1,1 +1,142 @@
-[{"id":1,"name":"black","names":{"ja-Hrkt":"くろいろ","ko":"검정","zh-Hant":"黑色","fr":"Noir","de":"Schwarz","es":"Negro","it":"Nero","en":"Black"}},{"id":2,"name":"blue","names":{"ja-Hrkt":"あおいろ","ko":"파랑","zh-Hant":"藍色","fr":"Bleu","de":"Blau","es":"Azul","it":"Blu","en":"Blue"}},{"id":3,"name":"brown","names":{"ja-Hrkt":"ちゃいろ","ko":"갈색","zh-Hant":"褐色","fr":"Brun","de":"Braun","es":"Marrón","it":"Marrone","en":"Brown"}},{"id":4,"name":"gray","names":{"ja-Hrkt":"はいいろ","ko":"회색","zh-Hant":"灰色","fr":"Gris","de":"Grau","es":"Gris","it":"Grigio","en":"Gray"}},{"id":5,"name":"green","names":{"ja-Hrkt":"みどりいろ","ko":"초록","zh-Hant":"綠色","fr":"Vert","de":"Grün","es":"Verde","it":"Verde","en":"Green"}},{"id":6,"name":"pink","names":{"ja-Hrkt":"ももいろ","ko":"담홍","zh-Hant":"粉紅色","fr":"Rose","de":"Rosa","es":"Rosa","it":"Rosa","en":"Pink"}},{"id":7,"name":"purple","names":{"ja-Hrkt":"むらさきいろ","ko":"보라","zh-Hant":"紫色","fr":"Violet","de":"Violett","es":"Morado","it":"Viola","en":"Purple"}},{"id":8,"name":"red","names":{"ja-Hrkt":"あかいろ","ko":"빨강","zh-Hant":"紅色","fr":"Rouge","de":"Rot","es":"Rojo","it":"Rosso","en":"Red"}},{"id":9,"name":"white","names":{"ja-Hrkt":"しろいろ","ko":"하양","zh-Hant":"白色","fr":"Blanc","de":"Weiß","es":"Blanco","it":"Bianco","en":"White"}},{"id":10,"name":"yellow","names":{"ja-Hrkt":"きいろ","ko":"노랑","zh-Hant":"黃色","fr":"Jaune","de":"Gelb","es":"Amarillo","it":"Giallo","en":"Yellow"}}]
+[
+  {
+    "id": 1,
+    "name": "black",
+    "names": {
+      "ja-Hrkt": "くろいろ",
+      "ko": "검정",
+      "zh-Hant": "黑色",
+      "fr": "Noir",
+      "de": "Schwarz",
+      "es": "Negro",
+      "it": "Nero",
+      "en": "Black"
+    }
+  },
+  {
+    "id": 2,
+    "name": "blue",
+    "names": {
+      "ja-Hrkt": "あおいろ",
+      "ko": "파랑",
+      "zh-Hant": "藍色",
+      "fr": "Bleu",
+      "de": "Blau",
+      "es": "Azul",
+      "it": "Blu",
+      "en": "Blue"
+    }
+  },
+  {
+    "id": 3,
+    "name": "brown",
+    "names": {
+      "ja-Hrkt": "ちゃいろ",
+      "ko": "갈색",
+      "zh-Hant": "褐色",
+      "fr": "Brun",
+      "de": "Braun",
+      "es": "Marrón",
+      "it": "Marrone",
+      "en": "Brown"
+    }
+  },
+  {
+    "id": 4,
+    "name": "gray",
+    "names": {
+      "ja-Hrkt": "はいいろ",
+      "ko": "회색",
+      "zh-Hant": "灰色",
+      "fr": "Gris",
+      "de": "Grau",
+      "es": "Gris",
+      "it": "Grigio",
+      "en": "Gray"
+    }
+  },
+  {
+    "id": 5,
+    "name": "green",
+    "names": {
+      "ja-Hrkt": "みどりいろ",
+      "ko": "초록",
+      "zh-Hant": "綠色",
+      "fr": "Vert",
+      "de": "Grün",
+      "es": "Verde",
+      "it": "Verde",
+      "en": "Green"
+    }
+  },
+  {
+    "id": 6,
+    "name": "pink",
+    "names": {
+      "ja-Hrkt": "ももいろ",
+      "ko": "담홍",
+      "zh-Hant": "粉紅色",
+      "fr": "Rose",
+      "de": "Rosa",
+      "es": "Rosa",
+      "it": "Rosa",
+      "en": "Pink"
+    }
+  },
+  {
+    "id": 7,
+    "name": "purple",
+    "names": {
+      "ja-Hrkt": "むらさきいろ",
+      "ko": "보라",
+      "zh-Hant": "紫色",
+      "fr": "Violet",
+      "de": "Violett",
+      "es": "Morado",
+      "it": "Viola",
+      "en": "Purple"
+    }
+  },
+  {
+    "id": 8,
+    "name": "red",
+    "names": {
+      "ja-Hrkt": "あかいろ",
+      "ko": "빨강",
+      "zh-Hant": "紅色",
+      "fr": "Rouge",
+      "de": "Rot",
+      "es": "Rojo",
+      "it": "Rosso",
+      "en": "Red"
+    }
+  },
+  {
+    "id": 9,
+    "name": "white",
+    "names": {
+      "ja-Hrkt": "しろいろ",
+      "ko": "하양",
+      "zh-Hant": "白色",
+      "fr": "Blanc",
+      "de": "Weiß",
+      "es": "Blanco",
+      "it": "Bianco",
+      "en": "White"
+    }
+  },
+  {
+    "id": 10,
+    "name": "yellow",
+    "names": {
+      "ja-Hrkt": "きいろ",
+      "ko": "노랑",
+      "zh-Hant": "黃色",
+      "fr": "Jaune",
+      "de": "Gelb",
+      "es": "Amarillo",
+      "it": "Giallo",
+      "en": "Yellow"
+    }
+  }
+]

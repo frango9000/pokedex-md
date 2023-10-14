@@ -1,1 +1,142 @@
-[{"id":1,"name":"level-up","names":{"fr":"Montée de niveau","de":"Level up","es":"Nivel","en":"Level up"},"descriptions":{"fr":"Appris lorsqu’un Pokémon atteint un certain niveau.","de":"Wird gelernt, wenn ein Pokémon ein bestimmtes Level erreicht.","es":"Se aprende cuando un pokemon alcanza un cierto nivel.","en":"Learned when a Pokémon reaches a certain level."}},{"id":2,"name":"egg","names":{"fr":"Œuf","de":"Ei","es":"Huevo","en":"Egg"},"descriptions":{"fr":"Apparaît à l’éclosion d’un œuf de Pokémon, si le père connaît ce mouvement.","de":"Erscheint bei einem frisch geschlüpften Pokémon, wenn der Vater die selbe Fähigkeit hatte.","es":"Aparece en un Pokémon recién nacido, si el padre tuvo el mismo movimiento.","en":"Appears on a newly-hatched Pokémon, if the father had the same move."}},{"id":3,"name":"tutor","names":{"fr":"Enseigné","de":"Tutor","es":"Tutor","en":"Tutor"},"descriptions":{"fr":"Enseigné par un PNJ","de":"Kann jederzeit von einem NPC erlernt werden.","es":" Puede ser enseñado en cualquier momento por un NPC.","en":"Can be taught at any time by an NPC."}},{"id":4,"name":"machine","names":{"fr":"Capsule","de":"Maschine","es":"Máquina","en":"Machine"},"descriptions":{"fr":"Peut être appris n’importe quand par une CT ou une CS.","de":"Kann jederzeit durch das benutzen eines TM oder VM erlernt werden.","es":"Se puede enseñar en cualquier momento usando una MT o MO.","en":"Can be taught at any time by using a TM or HM."}},{"id":5,"name":"stadium-surfing-pikachu","names":{"de":"Stadium: Surfendes Pikachu","en":"Stadium: Surfing Pikachu"},"descriptions":{"de":"Wird gelernt, wenn ein Pikachu dabei hilft den Premium-Cup in der Kategorie Meisterball ohne unterbrechung zu besiegen.  Es muss in jedem Kampf teilnehmen.","en":"Learned when a non-rental Pikachu helps beat Prime Cup Master Ball R-2.  It must participate in every battle, and you must win with no continues."}},{"id":6,"name":"light-ball-egg","names":{"de":"Volttackle Pichu","en":"Volt Tackle Pichu"},"descriptions":{"de":"Erscheint bei einem Pichu dessen Mutter einen Kugelblitz trug.  Der Vater darf nicht Ditto sein.","en":"Appears on a Pichu whose mother was holding a Light Ball.  The father cannot be Ditto."}},{"id":7,"name":"colosseum-purification","names":{"en":"Colosseum: Purification"},"descriptions":{"en":"Appears on a Shadow Pokémon as it becomes increasingly purified."}},{"id":8,"name":"xd-shadow","names":{"en":"XD: Shadow"},"descriptions":{"en":"Appears on a Snatched Shadow Pokémon."}},{"id":9,"name":"xd-purification","names":{"en":"XD: Purification"},"descriptions":{"en":"Appears on a Shadow Pokémon as it becomes increasingly purified."}},{"id":10,"name":"form-change","names":{"de":"Rotom Formen","en":"Form Change"},"descriptions":{"de":"Erscheint, wenn Rotom seine Form wechselt.  Verschwindet wenn Rotom eine andere Form an nimmt. Diese Fähigkeit kann nur durch wechseln der Form erlernt werden.","en":"Appears when Rotom or Cosplay Pikachu changes form.  Disappears if the Pokémon becomes another form and this move can only be learned by form change."}},{"id":11,"name":"zygarde-cube","names":{"en":"Zygarde Cube"},"descriptions":{"en":"Can be taught using the Zygarde Cube.  Must find the corresponding Zygarde Core first in Sun/Moon.  All moves are available immediately in Ultra Sun/Ultra Moon."}}]
+[
+  {
+    "id": 1,
+    "name": "level-up",
+    "names": {
+      "fr": "Montée de niveau",
+      "de": "Level up",
+      "es": "Nivel",
+      "en": "Level up"
+    },
+    "descriptions": {
+      "fr": "Appris lorsqu’un Pokémon atteint un certain niveau.",
+      "de": "Wird gelernt, wenn ein Pokémon ein bestimmtes Level erreicht.",
+      "es": "Se aprende cuando un pokemon alcanza un cierto nivel.",
+      "en": "Learned when a Pokémon reaches a certain level."
+    }
+  },
+  {
+    "id": 2,
+    "name": "egg",
+    "names": {
+      "fr": "Œuf",
+      "de": "Ei",
+      "es": "Huevo",
+      "en": "Egg"
+    },
+    "descriptions": {
+      "fr": "Apparaît à l’éclosion d’un œuf de Pokémon, si le père connaît ce mouvement.",
+      "de": "Erscheint bei einem frisch geschlüpften Pokémon, wenn der Vater die selbe Fähigkeit hatte.",
+      "es": "Aparece en un Pokémon recién nacido, si el padre tuvo el mismo movimiento.",
+      "en": "Appears on a newly-hatched Pokémon, if the father had the same move."
+    }
+  },
+  {
+    "id": 3,
+    "name": "tutor",
+    "names": {
+      "fr": "Enseigné",
+      "de": "Tutor",
+      "es": "Tutor",
+      "en": "Tutor"
+    },
+    "descriptions": {
+      "fr": "Enseigné par un PNJ",
+      "de": "Kann jederzeit von einem NPC erlernt werden.",
+      "es": " Puede ser enseñado en cualquier momento por un NPC.",
+      "en": "Can be taught at any time by an NPC."
+    }
+  },
+  {
+    "id": 4,
+    "name": "machine",
+    "names": {
+      "fr": "Capsule",
+      "de": "Maschine",
+      "es": "Máquina",
+      "en": "Machine"
+    },
+    "descriptions": {
+      "fr": "Peut être appris n’importe quand par une CT ou une CS.",
+      "de": "Kann jederzeit durch das benutzen eines TM oder VM erlernt werden.",
+      "es": "Se puede enseñar en cualquier momento usando una MT o MO.",
+      "en": "Can be taught at any time by using a TM or HM."
+    }
+  },
+  {
+    "id": 5,
+    "name": "stadium-surfing-pikachu",
+    "names": {
+      "de": "Stadium: Surfendes Pikachu",
+      "en": "Stadium: Surfing Pikachu"
+    },
+    "descriptions": {
+      "de": "Wird gelernt, wenn ein Pikachu dabei hilft den Premium-Cup in der Kategorie Meisterball ohne unterbrechung zu besiegen.  Es muss in jedem Kampf teilnehmen.",
+      "en": "Learned when a non-rental Pikachu helps beat Prime Cup Master Ball R-2.  It must participate in every battle, and you must win with no continues."
+    }
+  },
+  {
+    "id": 6,
+    "name": "light-ball-egg",
+    "names": {
+      "de": "Volttackle Pichu",
+      "en": "Volt Tackle Pichu"
+    },
+    "descriptions": {
+      "de": "Erscheint bei einem Pichu dessen Mutter einen Kugelblitz trug.  Der Vater darf nicht Ditto sein.",
+      "en": "Appears on a Pichu whose mother was holding a Light Ball.  The father cannot be Ditto."
+    }
+  },
+  {
+    "id": 7,
+    "name": "colosseum-purification",
+    "names": {
+      "en": "Colosseum: Purification"
+    },
+    "descriptions": {
+      "en": "Appears on a Shadow Pokémon as it becomes increasingly purified."
+    }
+  },
+  {
+    "id": 8,
+    "name": "xd-shadow",
+    "names": {
+      "en": "XD: Shadow"
+    },
+    "descriptions": {
+      "en": "Appears on a Snatched Shadow Pokémon."
+    }
+  },
+  {
+    "id": 9,
+    "name": "xd-purification",
+    "names": {
+      "en": "XD: Purification"
+    },
+    "descriptions": {
+      "en": "Appears on a Shadow Pokémon as it becomes increasingly purified."
+    }
+  },
+  {
+    "id": 10,
+    "name": "form-change",
+    "names": {
+      "de": "Rotom Formen",
+      "en": "Form Change"
+    },
+    "descriptions": {
+      "de": "Erscheint, wenn Rotom seine Form wechselt.  Verschwindet wenn Rotom eine andere Form an nimmt. Diese Fähigkeit kann nur durch wechseln der Form erlernt werden.",
+      "en": "Appears when Rotom or Cosplay Pikachu changes form.  Disappears if the Pokémon becomes another form and this move can only be learned by form change."
+    }
+  },
+  {
+    "id": 11,
+    "name": "zygarde-cube",
+    "names": {
+      "en": "Zygarde Cube"
+    },
+    "descriptions": {
+      "en": "Can be taught using the Zygarde Cube.  Must find the corresponding Zygarde Core first in Sun/Moon.  All moves are available immediately in Ultra Sun/Ultra Moon."
+    }
+  }
+]

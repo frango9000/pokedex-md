@@ -10,6 +10,13 @@
         "commands": ["rimraf ./dist/libs/api"]
       }
     },
+    "trim": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["ts-node libs/api/src/lib/trim.ts ./dist/apps/pokedex/assets/api"],
+        "parallel": false
+      }
+    },
     "build": {
       "executor": "nx:run-commands",
       "options": {

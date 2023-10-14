@@ -1,1 +1,83 @@
-[{"id":1,"name":"cave","names":{"fr":"grottes","es":"caverna","en":"cave"}},{"id":2,"name":"forest","names":{"fr":"forêts","es":"bosque","en":"forest"}},{"id":3,"name":"grassland","names":{"fr":"champs","es":"pradera","en":"grassland"}},{"id":4,"name":"mountain","names":{"fr":"montagnes","es":"montaña","en":"mountain"}},{"id":5,"name":"rare","names":{"fr":"rares","es":"raro","en":"rare"}},{"id":6,"name":"rough-terrain","names":{"fr":"milieux hostiles","es":"campo","en":"rough terrain"}},{"id":7,"name":"sea","names":{"fr":"mers","es":"mar","en":"sea"}},{"id":8,"name":"urban","names":{"fr":"urbains","es":"ciudad","en":"urban"}},{"id":9,"name":"waters-edge","names":{"fr":"marécages","es":"agua salada","en":"water's edge"}}]
+[
+  {
+    "id": 1,
+    "name": "cave",
+    "names": {
+      "fr": "grottes",
+      "es": "caverna",
+      "en": "cave"
+    }
+  },
+  {
+    "id": 2,
+    "name": "forest",
+    "names": {
+      "fr": "forêts",
+      "es": "bosque",
+      "en": "forest"
+    }
+  },
+  {
+    "id": 3,
+    "name": "grassland",
+    "names": {
+      "fr": "champs",
+      "es": "pradera",
+      "en": "grassland"
+    }
+  },
+  {
+    "id": 4,
+    "name": "mountain",
+    "names": {
+      "fr": "montagnes",
+      "es": "montaña",
+      "en": "mountain"
+    }
+  },
+  {
+    "id": 5,
+    "name": "rare",
+    "names": {
+      "fr": "rares",
+      "es": "raro",
+      "en": "rare"
+    }
+  },
+  {
+    "id": 6,
+    "name": "rough-terrain",
+    "names": {
+      "fr": "milieux hostiles",
+      "es": "campo",
+      "en": "rough terrain"
+    }
+  },
+  {
+    "id": 7,
+    "name": "sea",
+    "names": {
+      "fr": "mers",
+      "es": "mar",
+      "en": "sea"
+    }
+  },
+  {
+    "id": 8,
+    "name": "urban",
+    "names": {
+      "fr": "urbains",
+      "es": "ciudad",
+      "en": "urban"
+    }
+  },
+  {
+    "id": 9,
+    "name": "waters-edge",
+    "names": {
+      "fr": "marécages",
+      "es": "agua salada",
+      "en": "water's edge"
+    }
+  }
+]

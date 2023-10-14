@@ -1,1 +1,82 @@
-[{"id":1,"name":"countable","names":{"en":"Countable"},"descriptions":{"en":"Has a count in the bag"}},{"id":2,"name":"consumable","names":{"en":"Consumable"},"descriptions":{"en":"Consumed when used"}},{"id":3,"name":"usable-overworld","names":{"en":"Usable_overworld"},"descriptions":{"en":"Usable outside battle"}},{"id":4,"name":"usable-in-battle","names":{"en":"Usable_in_battle"},"descriptions":{"en":"Usable in battle"}},{"id":5,"name":"holdable","names":{"en":"Holdable"},"descriptions":{"en":"Can be held by a Pokémon"}},{"id":6,"name":"holdable-passive","names":{"en":"Holdable_passive"},"descriptions":{"en":"Works passively when held"}},{"id":7,"name":"holdable-active","names":{"en":"Holdable_active"},"descriptions":{"en":"Usable by a Pokémon when held"}},{"id":8,"name":"underground","names":{"en":"Underground"},"descriptions":{"en":"Appears in Sinnoh Underground"}}]
+[
+  {
+    "id": 1,
+    "name": "countable",
+    "names": {
+      "en": "Countable"
+    },
+    "descriptions": {
+      "en": "Has a count in the bag"
+    }
+  },
+  {
+    "id": 2,
+    "name": "consumable",
+    "names": {
+      "en": "Consumable"
+    },
+    "descriptions": {
+      "en": "Consumed when used"
+    }
+  },
+  {
+    "id": 3,
+    "name": "usable-overworld",
+    "names": {
+      "en": "Usable_overworld"
+    },
+    "descriptions": {
+      "en": "Usable outside battle"
+    }
+  },
+  {
+    "id": 4,
+    "name": "usable-in-battle",
+    "names": {
+      "en": "Usable_in_battle"
+    },
+    "descriptions": {
+      "en": "Usable in battle"
+    }
+  },
+  {
+    "id": 5,
+    "name": "holdable",
+    "names": {
+      "en": "Holdable"
+    },
+    "descriptions": {
+      "en": "Can be held by a Pokémon"
+    }
+  },
+  {
+    "id": 6,
+    "name": "holdable-passive",
+    "names": {
+      "en": "Holdable_passive"
+    },
+    "descriptions": {
+      "en": "Works passively when held"
+    }
+  },
+  {
+    "id": 7,
+    "name": "holdable-active",
+    "names": {
+      "en": "Holdable_active"
+    },
+    "descriptions": {
+      "en": "Usable by a Pokémon when held"
+    }
+  },
+  {
+    "id": 8,
+    "name": "underground",
+    "names": {
+      "en": "Underground"
+    },
+    "descriptions": {
+      "en": "Appears in Sinnoh Underground"
+    }
+  }
+]
