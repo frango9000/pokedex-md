@@ -2,6 +2,13 @@
   overflow: auto;
   height: 100%;
 
+  .mat-mdc-list-base {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+  }
+
   .sidenav-container {
     height: 100%;
 
@@ -20,5 +27,9 @@
   .mat-sidenav-content {
     display: flex;
     overflow-x: hidden;
+  }
+
+  .flex {
+    flex: 1 1 auto;
   }
 }

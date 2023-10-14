@@ -8,6 +8,7 @@ import { VersionGroupPickerComponent } from '../../modules/version/shared/compon
 import { IsMobileModule } from '../../shared/modules/is-mobile';
 import { SidebarService } from '../services/sidebar.service';
 import { SidenavService } from '../services/sidenav.service';
+import { TitleService } from '../services/title.service';
 import { LanguagePickerComponent } from './language-picker.component';
 import { ThemePickerComponent } from './theme-picker.component';
 
@@ -32,5 +33,6 @@ export class ToolbarComponent {
   constructor(
     protected readonly sidenavService: SidenavService,
     protected readonly sidebarService: SidebarService,
+    protected readonly titleService: TitleService,
   ) {}
 }

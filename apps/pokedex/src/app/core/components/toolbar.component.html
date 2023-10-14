@@ -2,7 +2,7 @@
   <button type="button" aria-label="Toggle side Nav" mat-icon-button (click)="sidenavService.toggle()">
     <mat-icon aria-label="Side Nav toggle icon">menu</mat-icon>
   </button>
-  <span> Toolbar </span>
+  <span> {{ titleService.title$ | async }} </span>
   <div class="flex-stretch"></div>
   <pokedex-version-group-picker></pokedex-version-group-picker>
   <pokedex-language-picker></pokedex-language-picker>

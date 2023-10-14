@@ -13,6 +13,7 @@ export const appRoutes: Route[] = [
   {
     path: 'pokemon',
     pathMatch: 'full',
+    data: { title: 'Pokemon' },
     loadChildren: () => import('./modules/pokemon/pokemon-home/pokemon-home.module').then((m) => m.PokemonHomeModule),
   },
   {
@@ -25,6 +26,7 @@ export const appRoutes: Route[] = [
   {
     path: 'move',
     pathMatch: 'full',
+    data: { title: 'Move' },
     loadChildren: () => import('./modules/move/move-home/move-home.module').then((m) => m.MoveHomeModule),
   },
   {
@@ -36,6 +38,7 @@ export const appRoutes: Route[] = [
   {
     path: 'item',
     pathMatch: 'full',
+    data: { title: 'Item' },
     loadChildren: () => import('./modules/item/item-home/item-home.module').then((m) => m.ItemHomeModule),
   },
   {
@@ -47,6 +50,7 @@ export const appRoutes: Route[] = [
   {
     path: 'machine',
     pathMatch: 'full',
+    data: { title: 'Machine' },
     loadChildren: () => import('./modules/machine/machine-home/machine-home.module').then((m) => m.MachineHomeModule),
   },
   {
