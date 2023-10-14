@@ -1,0 +1,53 @@
+name: Rebuild Api
+
+on:
+  workflow_call:
+  schedule:
+    - cron: '0 4 * * 4'
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.3.0
+
+      - name: Use Node 18
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: '18'
+
+      - name: Cache Node modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.npm
+            ./node_modules
+          key: yarn-v3-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            yarn-v3-${{ runner.os }}-
+
+      - name: Yarn Install
+        run: yarn install
+
+      - name: Build
+        run: |
+          yarn build:api
+          yarn format:all
+
+      - name: Check for changes
+        id: git_diff_check
+        run: |
+          git fetch origin
+          git diff --quiet origin/development || echo "{changes: 'yes'}" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if there were changes
+        if: steps.git_diff_check.outputs.changes == 'yes'
+        run: |
+          git config user.name "Poke Bot"
+          git config user.email "frango9000@users.noreply.github.com"
+          git checkout -b api/$(date +%Y-%U)
+          git add .
+          git commit -m "API changes - $(date +%Y-%U)"
+          git push origin api/$(date +%Y-%U)
+          gh pr create --base development --title "API changes - $(date +%Y-%U)" --body "API changes - $(date +%Y-%U)"

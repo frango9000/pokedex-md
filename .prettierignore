@@ -2,5 +2,4 @@
 /dist
 /coverage
 .angular
-/apps/pokedex/src/assets/api
 /.devcontainer

@@ -4,10 +4,7 @@
     "name": "red-blue",
     "generation": "generation-i",
     "order": 1,
-    "versions": [
-      "red",
-      "blue"
-    ],
+    "versions": ["red", "blue"],
     "names": {
       "ja-Hrkt": "赤 / 緑",
       "ko": "레드 / 블루",
@@ -24,9 +21,7 @@
     "name": "yellow",
     "generation": "generation-i",
     "order": 2,
-    "versions": [
-      "yellow"
-    ],
+    "versions": ["yellow"],
     "names": {
       "ja-Hrkt": "ピカチュウ",
       "ko": "피카츄",
@@ -43,10 +38,7 @@
     "name": "gold-silver",
     "generation": "generation-ii",
     "order": 3,
-    "versions": [
-      "gold",
-      "silver"
-    ],
+    "versions": ["gold", "silver"],
     "names": {
       "ja-Hrkt": "金 / 銀",
       "ko": "골드 / 실버",
@@ -63,9 +55,7 @@
     "name": "crystal",
     "generation": "generation-ii",
     "order": 4,
-    "versions": [
-      "crystal"
-    ],
+    "versions": ["crystal"],
     "names": {
       "ja-Hrkt": "クリスタル",
       "ko": "크리스탈",
@@ -82,10 +72,7 @@
     "name": "ruby-sapphire",
     "generation": "generation-iii",
     "order": 5,
-    "versions": [
-      "ruby",
-      "sapphire"
-    ],
+    "versions": ["ruby", "sapphire"],
     "names": {
       "ja-Hrkt": "ルビー / サファイア",
       "ko": "루비 / 사파이어",
@@ -102,9 +89,7 @@
     "name": "emerald",
     "generation": "generation-iii",
     "order": 6,
-    "versions": [
-      "emerald"
-    ],
+    "versions": ["emerald"],
     "names": {
       "ja-Hrkt": "エメラルド",
       "ko": "에메랄드",
@@ -121,10 +106,7 @@
     "name": "firered-leafgreen",
     "generation": "generation-iii",
     "order": 9,
-    "versions": [
-      "firered",
-      "leafgreen"
-    ],
+    "versions": ["firered", "leafgreen"],
     "names": {
       "ja-Hrkt": "ファイアレッド / リーフグリーン",
       "ko": "파이어레드 / 리프그린",
@@ -141,10 +123,7 @@
     "name": "diamond-pearl",
     "generation": "generation-iv",
     "order": 10,
-    "versions": [
-      "diamond",
-      "pearl"
-    ],
+    "versions": ["diamond", "pearl"],
     "names": {
       "ja-Hrkt": "ダイヤモンド / パール",
       "ko": "디아루가 / 펄기아",
@@ -161,9 +140,7 @@
     "name": "platinum",
     "generation": "generation-iv",
     "order": 11,
-    "versions": [
-      "platinum"
-    ],
+    "versions": ["platinum"],
     "names": {
       "ja-Hrkt": "プラチナ",
       "ko": "기라티나",
@@ -180,10 +157,7 @@
     "name": "heartgold-soulsilver",
     "generation": "generation-iv",
     "order": 12,
-    "versions": [
-      "heartgold",
-      "soulsilver"
-    ],
+    "versions": ["heartgold", "soulsilver"],
     "names": {
       "ja-Hrkt": "ハートゴールド / ソウルシルバー",
       "ko": "하트골드 / 소울실버",
@@ -200,10 +174,7 @@
     "name": "black-white",
     "generation": "generation-v",
     "order": 13,
-    "versions": [
-      "black",
-      "white"
-    ],
+    "versions": ["black", "white"],
     "names": {
       "ja-Hrkt": "ブラック / ホワイト",
       "ko": "블랙 / 화이트",
@@ -220,9 +191,7 @@
     "name": "colosseum",
     "generation": "generation-iii",
     "order": 7,
-    "versions": [
-      "colosseum"
-    ],
+    "versions": ["colosseum"],
     "names": {
       "ja-Hrkt": "コロシアム",
       "ko": "콜로세움",
@@ -238,9 +207,7 @@
     "name": "xd",
     "generation": "generation-iii",
     "order": 8,
-    "versions": [
-      "xd"
-    ],
+    "versions": ["xd"],
     "names": {
       "ja-Hrkt": "XD",
       "ko": "XD",
@@ -256,10 +223,7 @@
     "name": "black-2-white-2",
     "generation": "generation-v",
     "order": 14,
-    "versions": [
-      "black-2",
-      "white-2"
-    ],
+    "versions": ["black-2", "white-2"],
     "names": {
       "ja-Hrkt": "ブラック2 / ホワイト2",
       "ko": "블랙 2 / 화이트 2",
@@ -276,10 +240,7 @@
     "name": "x-y",
     "generation": "generation-vi",
     "order": 15,
-    "versions": [
-      "x",
-      "y"
-    ],
+    "versions": ["x", "y"],
     "names": {
       "ja-Hrkt": "X / Y",
       "ko": "X / Y",
@@ -296,10 +257,7 @@
     "name": "omega-ruby-alpha-sapphire",
     "generation": "generation-vi",
     "order": 16,
-    "versions": [
-      "omega-ruby",
-      "alpha-sapphire"
-    ],
+    "versions": ["omega-ruby", "alpha-sapphire"],
     "names": {
       "ja-Hrkt": "オメガルビー / アルファサファイア",
       "ko": "오메가루비 / 알파사파이어",
@@ -316,10 +274,7 @@
     "name": "sun-moon",
     "generation": "generation-vii",
     "order": 17,
-    "versions": [
-      "sun",
-      "moon"
-    ],
+    "versions": ["sun", "moon"],
     "names": {
       "ja-Hrkt": "サン / ムーン",
       "ko": "썬 / 문",
@@ -336,10 +291,7 @@
     "name": "ultra-sun-ultra-moon",
     "generation": "generation-vii",
     "order": 18,
-    "versions": [
-      "ultra-sun",
-      "ultra-moon"
-    ],
+    "versions": ["ultra-sun", "ultra-moon"],
     "names": {
       "ja-Hrkt": "ウルトラサン / ウルトラムーン",
       "ko": "울트라썬 / 울트라문",
@@ -356,10 +308,7 @@
     "name": "lets-go-pikachu-lets-go-eevee",
     "generation": "generation-vii",
     "order": 19,
-    "versions": [
-      "lets-go-pikachu",
-      "lets-go-eevee"
-    ],
+    "versions": ["lets-go-pikachu", "lets-go-eevee"],
     "names": {
       "ja-Hrkt": "Let's Go! ピカチュウ / Let's Go! イーブイ",
       "ko": "레츠고! 피카츄 / 레츠고! 이브이",
@@ -376,10 +325,7 @@
     "name": "sword-shield",
     "generation": "generation-viii",
     "order": 20,
-    "versions": [
-      "sword",
-      "shield"
-    ],
+    "versions": ["sword", "shield"],
     "names": {
       "ja-Hrkt": " ソード / シールド",
       "ko": "소드 / 실드",
@@ -396,9 +342,7 @@
     "name": "the-isle-of-armor",
     "generation": "generation-viii",
     "order": 21,
-    "versions": [
-      "the-isle-of-armor"
-    ],
+    "versions": ["the-isle-of-armor"],
     "names": {
       "ja-Hrkt": "鎧の孤島",
       "ko": "갑옷의 외딴섬",
@@ -415,9 +359,7 @@
     "name": "the-crown-tundra",
     "generation": "generation-viii",
     "order": 22,
-    "versions": [
-      "the-crown-tundra"
-    ],
+    "versions": ["the-crown-tundra"],
     "names": {
       "ja-Hrkt": "冠の雪原",
       "ko": "왕관의 설원",
@@ -434,10 +376,7 @@
     "name": "brilliant-diamond-and-shining-pearl",
     "generation": "generation-viii",
     "order": 23,
-    "versions": [
-      "brilliant-diamond",
-      "shining-pearl"
-    ],
+    "versions": ["brilliant-diamond", "shining-pearl"],
     "names": {
       "ja-Hrkt": "ブリリアントダイヤモンド / シャイニングパール",
       "ko": "브릴리언트 다이아몬드 / 샤이닝 펄",
@@ -454,9 +393,7 @@
     "name": "legends-arceus",
     "generation": "generation-viii",
     "order": 24,
-    "versions": [
-      "legends-arceus"
-    ],
+    "versions": ["legends-arceus"],
     "names": {
       "ja-Hrkt": "LEGENDS アルセウス",
       "ko": "LEGENDS 아르세우스",
@@ -473,10 +410,7 @@
     "name": "scarlet-violet",
     "generation": "generation-ix",
     "order": 25,
-    "versions": [
-      "scarlet",
-      "violet"
-    ],
+    "versions": ["scarlet", "violet"],
     "names": {
       "ja-Hrkt": "スカーレット / バイオレット",
       "ko": "스칼렛 / 바이올렛",
@@ -493,9 +427,7 @@
     "name": "the-teal-mask",
     "generation": "generation-ix",
     "order": 26,
-    "versions": [
-      "the-teal-mask"
-    ],
+    "versions": ["the-teal-mask"],
     "names": {}
   },
   {
@@ -503,9 +435,7 @@
     "name": "the-indigo-disk",
     "generation": "generation-ix",
     "order": 27,
-    "versions": [
-      "the-indigo-disk"
-    ],
+    "versions": ["the-indigo-disk"],
     "names": {}
   }
 ]

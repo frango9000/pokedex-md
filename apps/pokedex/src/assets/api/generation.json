@@ -350,10 +350,7 @@
       "ice",
       "dragon"
     ],
-    "version_groups": [
-      "red-blue",
-      "yellow"
-    ]
+    "version_groups": ["red-blue", "yellow"]
   },
   {
     "id": 2,
@@ -559,15 +556,8 @@
       "pupitar",
       "tyranitar"
     ],
-    "types": [
-      "steel",
-      "dark",
-      "unknown"
-    ],
-    "version_groups": [
-      "gold-silver",
-      "crystal"
-    ]
+    "types": ["steel", "dark", "unknown"],
+    "version_groups": ["gold-silver", "crystal"]
   },
   {
     "id": 3,
@@ -920,16 +910,8 @@
       "metang",
       "metagross"
     ],
-    "types": [
-      "shadow"
-    ],
-    "version_groups": [
-      "ruby-sapphire",
-      "emerald",
-      "firered-leafgreen",
-      "colosseum",
-      "xd"
-    ]
+    "types": ["shadow"],
+    "version_groups": ["ruby-sapphire", "emerald", "firered-leafgreen", "colosseum", "xd"]
   },
   {
     "id": 4,
@@ -1218,11 +1200,7 @@
       "froslass"
     ],
     "types": [],
-    "version_groups": [
-      "diamond-pearl",
-      "platinum",
-      "heartgold-soulsilver"
-    ]
+    "version_groups": ["diamond-pearl", "platinum", "heartgold-soulsilver"]
   },
   {
     "id": 5,
@@ -1593,10 +1571,7 @@
       "volcarona"
     ],
     "types": [],
-    "version_groups": [
-      "black-white",
-      "black-2-white-2"
-    ]
+    "version_groups": ["black-white", "black-2-white-2"]
   },
   {
     "id": 6,
@@ -1778,13 +1753,8 @@
       "avalugg",
       "noivern"
     ],
-    "types": [
-      "fairy"
-    ],
-    "version_groups": [
-      "x-y",
-      "omega-ruby-alpha-sapphire"
-    ]
+    "types": ["fairy"],
+    "version_groups": ["x-y", "omega-ruby-alpha-sapphire"]
   },
   {
     "id": 7,
@@ -2057,11 +2027,7 @@
       "melmetal"
     ],
     "types": [],
-    "version_groups": [
-      "sun-moon",
-      "ultra-sun-ultra-moon",
-      "lets-go-pikachu-lets-go-eevee"
-    ]
+    "version_groups": ["sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee"]
   },
   {
     "id": 8,
@@ -2551,10 +2517,6 @@
       "sinistcha"
     ],
     "types": [],
-    "version_groups": [
-      "scarlet-violet",
-      "the-teal-mask",
-      "the-indigo-disk"
-    ]
+    "version_groups": ["scarlet-violet", "the-teal-mask", "the-indigo-disk"]
   }
 ]
