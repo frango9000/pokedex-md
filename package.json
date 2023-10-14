@@ -8,7 +8,7 @@
     "deploy": "nx deploy",
     "start": "nx serve",
     "build": "nx build",
-    "build:api": "nx run api:build",
+    "build:api": "nx run api:build --skip-nx-cache",
     "trim": "nx run api:trim",
     "format": "nx format",
     "format:all": "nx format --all",
