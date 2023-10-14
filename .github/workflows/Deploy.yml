@@ -37,7 +37,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn build
+        run: yarn build --baseHref="/pokedex-md/"
 
       - name: Trim API
         run: yarn trim
