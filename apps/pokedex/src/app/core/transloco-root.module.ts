@@ -5,7 +5,10 @@ import { provideTransloco, Translation, TranslocoLoader, TranslocoModule } from 
 
 @Injectable({ providedIn: 'root' })
 export class TranslocoHttpLoader implements TranslocoLoader {
-  constructor(private readonly http: HttpClient, @Inject(APP_BASE_HREF) private readonly baseHref: string) {}
+  constructor(
+    private readonly http: HttpClient,
+    @Inject(APP_BASE_HREF) private readonly baseHref: string,
+  ) {}
 
   getTranslation(lang: string) {
     return this.http.get<Translation>(`${this.baseHref}assets/i18n/${lang}.json`);

@@ -42,7 +42,10 @@ export class PokemonListComponent {
 
   protected readonly displayedColumns: string[] = ['id', 'sprite', 'name', 'generation', 'types'];
 
-  constructor(private readonly pokemonService: PokemonService, private readonly filterService: PokemonFilterService) {
+  constructor(
+    private readonly pokemonService: PokemonService,
+    private readonly filterService: PokemonFilterService,
+  ) {
     this.pokemonService
       .getAll$()
       .pipe(take(1))

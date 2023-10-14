@@ -47,7 +47,10 @@ export class MachineListComponent {
     'move.accuracy',
   ];
 
-  constructor(private readonly machineService: MachineService, private readonly filterService: MachineFilterService) {
+  constructor(
+    private readonly machineService: MachineService,
+    private readonly filterService: MachineFilterService,
+  ) {
     this.machineService
       .getAll$()
       .pipe(take(1))

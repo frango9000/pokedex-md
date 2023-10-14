@@ -29,5 +29,8 @@ import { ThemePickerComponent } from './theme-picker.component';
   styleUrls: ['./toolbar.component.scss'],
 })
 export class ToolbarComponent {
-  constructor(protected readonly sidenavService: SidenavService, protected readonly sidebarService: SidebarService) {}
+  constructor(
+    protected readonly sidenavService: SidenavService,
+    protected readonly sidebarService: SidebarService,
+  ) {}
 }

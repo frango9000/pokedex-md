@@ -39,7 +39,10 @@ export class MoveListComponent {
   protected readonly dataSource: GenericDatasource<PxMove> = new GenericDatasource<PxMove>();
   protected readonly displayedColumns: string[] = ['id', 'name', 'generation', 'type', 'power', 'pp', 'accuracy'];
 
-  constructor(private readonly moveService: MoveService, private readonly filterService: MoveFilterService) {
+  constructor(
+    private readonly moveService: MoveService,
+    private readonly filterService: MoveFilterService,
+  ) {
     this.moveService
       .getAll$()
       .pipe(take(1))

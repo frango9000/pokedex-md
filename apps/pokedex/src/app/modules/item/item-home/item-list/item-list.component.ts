@@ -39,7 +39,10 @@ export class ItemListComponent {
   protected readonly dataSource: GenericDatasource<PxItem> = new GenericDatasource<PxItem>();
   protected readonly displayedColumns: string[] = ['id', 'sprite', 'name', 'cost', 'category', 'pocket'];
 
-  constructor(private readonly itemService: ItemService, private readonly filterService: ItemFilterService) {
+  constructor(
+    private readonly itemService: ItemService,
+    private readonly filterService: ItemFilterService,
+  ) {
     this.itemService
       .getAll$()
       .pipe(take(1))

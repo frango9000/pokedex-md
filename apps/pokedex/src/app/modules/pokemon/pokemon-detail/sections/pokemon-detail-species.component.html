@@ -45,7 +45,7 @@
     <div class="mat-row">
       <div class="mat-cell">{{ t('ui.pokemon.detail.species.egg_groups') }}</div>
       <div class="mat-cell">
-        <span *ngFor="let eggGroup of species.egg_groups | pluck : 'name'">
+        <span *ngFor="let eggGroup of species.egg_groups | pluck: 'name'">
           {{ t('egg_group.' + eggGroup) }}
         </span>
       </div>
@@ -70,23 +70,23 @@
     <mat-divider></mat-divider>
     <div class="mat-row">
       <div class="mat-cell">{{ t('ui.pokemon.detail.species.happiness') }}</div>
-      <div class="mat-cell">{{ species.base_happiness / 255 | percent : '1.0-2' }}</div>
+      <div class="mat-cell">{{ species.base_happiness / 255 | percent: '1.0-2' }}</div>
     </div>
     <mat-divider></mat-divider>
     <div class="mat-row">
       <div class="mat-cell">{{ t('ui.pokemon.detail.species.catch_rate') }}</div>
-      <div class="mat-cell">{{ species.capture_rate / 255 | percent : '1.0-2' }}</div>
+      <div class="mat-cell">{{ species.capture_rate / 255 | percent: '1.0-2' }}</div>
     </div>
     <ng-container *ngIf="species.gender_rate >= 0; else genderless">
       <mat-divider></mat-divider>
       <div class="mat-row">
         <div class="mat-cell">{{ t('ui.pokemon.detail.species.female_rate') }}</div>
-        <div class="mat-cell">{{ species.gender_rate / 8 | percent : '1.0-2' }}</div>
+        <div class="mat-cell">{{ species.gender_rate / 8 | percent: '1.0-2' }}</div>
       </div>
       <mat-divider></mat-divider>
       <div class="mat-row">
         <div class="mat-cell">{{ t('ui.pokemon.detail.species.male_rate') }}</div>
-        <div class="mat-cell">{{ (8 - species.gender_rate) / 8 | percent : '1.0-2' }}</div>
+        <div class="mat-cell">{{ (8 - species.gender_rate) / 8 | percent: '1.0-2' }}</div>
       </div>
     </ng-container>
     <ng-template #genderless>
