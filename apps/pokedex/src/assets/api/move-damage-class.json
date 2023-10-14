@@ -2,14 +2,7 @@
   {
     "id": 1,
     "name": "status",
-    "names": {
-      "ja-Hrkt": "へんか",
-      "zh-Hant": "變化",
-      "fr": "statut",
-      "de": "status",
-      "es": "estado",
-      "en": "status"
-    },
+    "names": { "ja-Hrkt": "へんか", "zh-Hant": "變化", "fr": "statut", "de": "status", "es": "estado", "en": "status" },
     "descriptions": {
       "ja-Hrkt": "ダメージない",
       "zh-Hant": "沒有傷害",

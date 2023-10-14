@@ -106,13 +106,6 @@
     "id": 9,
     "name": "en",
     "iso3166": "us",
-    "names": {
-      "ja-Hrkt": "英語",
-      "ko": "영어",
-      "fr": "Anglais",
-      "de": "Englisch",
-      "es": "Inglés",
-      "en": "English"
-    }
+    "names": { "ja-Hrkt": "英語", "ko": "영어", "fr": "Anglais", "de": "Englisch", "es": "Inglés", "en": "English" }
   }
 ]

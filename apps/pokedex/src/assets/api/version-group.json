@@ -208,15 +208,7 @@
     "generation": "generation-iii",
     "order": 8,
     "versions": ["xd"],
-    "names": {
-      "ja-Hrkt": "XD",
-      "ko": "XD",
-      "fr": "XD",
-      "de": "XD",
-      "es": "XD",
-      "it": "XD",
-      "en": "XD"
-    }
+    "names": { "ja-Hrkt": "XD", "ko": "XD", "fr": "XD", "de": "XD", "es": "XD", "it": "XD", "en": "XD" }
   },
   {
     "id": 14,

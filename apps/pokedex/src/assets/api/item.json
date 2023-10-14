@@ -7234,14 +7234,7 @@
     "name": "hm08",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ひでんマシン０８",
-      "fr": "CS08",
-      "de": "VM08",
-      "es": "MO08",
-      "it": "MN08",
-      "en": "HM08"
-    },
+    "names": { "ja-Hrkt": "ひでんマシン０８", "fr": "CS08", "de": "VM08", "es": "MO08", "it": "MN08", "en": "HM08" },
     "sprite": "hm-normal.png",
     "pocket": "machines"
   },
@@ -9965,14 +9958,7 @@
     "name": "ruby",
     "category": "plot-advancement",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ルビー",
-      "fr": "Rubis",
-      "de": "Rubin",
-      "es": "Rubí",
-      "it": "Rubino",
-      "en": "Ruby"
-    },
+    "names": { "ja-Hrkt": "ルビー", "fr": "Rubis", "de": "Rubin", "es": "Rubí", "it": "Rubino", "en": "Ruby" },
     "sprite": "ruby.png",
     "pocket": "key"
   },
@@ -11829,10 +11815,7 @@
     "name": "god-stone",
     "category": "unused",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ゴッドストーン",
-      "en": "god stone"
-    },
+    "names": { "ja-Hrkt": "ゴッドストーン", "en": "god stone" },
     "sprite": "god-stone.png",
     "pocket": "key"
   },
@@ -28179,11 +28162,7 @@
     "name": "adamant-crystal",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "だいこんごうだま",
-      "zh-Hant": "大金刚宝玉",
-      "en": "Adamant Crystal"
-    },
+    "names": { "ja-Hrkt": "だいこんごうだま", "zh-Hant": "大金刚宝玉", "en": "Adamant Crystal" },
     "pocket": "key"
   },
   {
@@ -28191,11 +28170,7 @@
     "name": "lustrous-globe",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "だいしらたま",
-      "zh-Hant": "大白宝玉",
-      "en": "Lustrous Globe"
-    },
+    "names": { "ja-Hrkt": "だいしらたま", "zh-Hant": "大白宝玉", "en": "Lustrous Globe" },
     "pocket": "key"
   },
   {
@@ -28203,11 +28178,7 @@
     "name": "griseous-core",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "だいはっきんだま",
-      "zh-Hant": "大白金宝玉",
-      "en": "Griseous Core"
-    },
+    "names": { "ja-Hrkt": "だいはっきんだま", "zh-Hant": "大白金宝玉", "en": "Griseous Core" },
     "pocket": "key"
   },
   {
@@ -28215,11 +28186,7 @@
     "name": "blank-plate",
     "category": "plates",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "まっさらプレート",
-      "zh-Hant": "净空石板",
-      "en": "Blank Plate"
-    },
+    "names": { "ja-Hrkt": "まっさらプレート", "zh-Hant": "净空石板", "en": "Blank Plate" },
     "pocket": "misc"
   },
   {
@@ -28227,11 +28194,7 @@
     "name": "strange-ball",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ストレンジボール",
-      "zh-Hant": "奇异球",
-      "en": "Strange Ball"
-    },
+    "names": { "ja-Hrkt": "ストレンジボール", "zh-Hant": "奇异球", "en": "Strange Ball" },
     "pocket": "key"
   },
   {
@@ -28239,11 +28202,7 @@
     "name": "legend-plate",
     "category": "plates",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "レジェンドプレート",
-      "zh-Hant": "传说石板",
-      "en": "Legend Plate"
-    },
+    "names": { "ja-Hrkt": "レジェンドプレート", "zh-Hant": "传说石板", "en": "Legend Plate" },
     "pocket": "misc"
   },
   {
@@ -28251,11 +28210,7 @@
     "name": "rotom-phone",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スマホロトム",
-      "zh-Hant": "手机洛托姆",
-      "en": "Rotom Phone"
-    },
+    "names": { "ja-Hrkt": "スマホロトム", "zh-Hant": "手机洛托姆", "en": "Rotom Phone" },
     "pocket": "key"
   },
   {
@@ -28263,11 +28218,7 @@
     "name": "sandwich",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "サンドウィッチ",
-      "zh-Hant": "三明治",
-      "en": "Sandwich"
-    },
+    "names": { "ja-Hrkt": "サンドウィッチ", "zh-Hant": "三明治", "en": "Sandwich" },
     "pocket": "key"
   },
   {
@@ -28275,11 +28226,7 @@
     "name": "koraidon’s-poké-ball",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "コライドンのボール",
-      "zh-Hant": "故勒顿的球",
-      "en": "Koraidon’s Poké Ball"
-    },
+    "names": { "ja-Hrkt": "コライドンのボール", "zh-Hant": "故勒顿的球", "en": "Koraidon’s Poké Ball" },
     "pocket": "key"
   },
   {
@@ -28287,11 +28234,7 @@
     "name": "miraidon’s-poké-ball",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ミライドンのボール",
-      "zh-Hant": "密勒顿的球",
-      "en": "Miraidon’s Poké Ball"
-    },
+    "names": { "ja-Hrkt": "ミライドンのボール", "zh-Hant": "密勒顿的球", "en": "Miraidon’s Poké Ball" },
     "pocket": "key"
   },
   {
@@ -28299,11 +28242,7 @@
     "name": "tera-orb",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "テラスタルオーブ",
-      "zh-Hant": "太晶珠",
-      "en": "Tera Orb"
-    },
+    "names": { "ja-Hrkt": "テラスタルオーブ", "zh-Hant": "太晶珠", "en": "Tera Orb" },
     "pocket": "key"
   },
   {
@@ -28311,11 +28250,7 @@
     "name": "scarlet-book",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スカーレットブック",
-      "zh-Hant": "朱之书",
-      "en": "Scarlet Book"
-    },
+    "names": { "ja-Hrkt": "スカーレットブック", "zh-Hant": "朱之书", "en": "Scarlet Book" },
     "pocket": "key"
   },
   {
@@ -28323,11 +28258,7 @@
     "name": "violet-book",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "バイオレットブック",
-      "zh-Hant": "紫之书",
-      "en": "Violet Book"
-    },
+    "names": { "ja-Hrkt": "バイオレットブック", "zh-Hant": "紫之书", "en": "Violet Book" },
     "pocket": "key"
   },
   {
@@ -28335,11 +28266,7 @@
     "name": "kofu’s-wallet",
     "category": "plot-advancement",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ハイダイのサイフ",
-      "zh-Hant": "海岱的钱包",
-      "en": "Kofu’s Wallet"
-    },
+    "names": { "ja-Hrkt": "ハイダイのサイフ", "zh-Hant": "海岱的钱包", "en": "Kofu’s Wallet" },
     "pocket": "key"
   },
   {
@@ -28347,11 +28274,7 @@
     "name": "tiny-bamboo-shoot",
     "category": "loot",
     "cost": 375,
-    "names": {
-      "ja-Hrkt": "ちいさなタケノコ",
-      "zh-Hant": "小竹笋",
-      "en": "Tiny Bamboo Shoot"
-    },
+    "names": { "ja-Hrkt": "ちいさなタケノコ", "zh-Hant": "小竹笋", "en": "Tiny Bamboo Shoot" },
     "pocket": "misc"
   },
   {
@@ -28359,11 +28282,7 @@
     "name": "big-bamboo-shoot",
     "category": "loot",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "おおきなタケノコ",
-      "zh-Hant": "大竹笋",
-      "en": "Big Bamboo Shoot"
-    },
+    "names": { "ja-Hrkt": "おおきなタケノコ", "zh-Hant": "大竹笋", "en": "Big Bamboo Shoot" },
     "pocket": "misc"
   },
   {
@@ -28371,11 +28290,7 @@
     "name": "scroll-of-darkness",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "あくのかけじく",
-      "zh-Hant": "恶之挂轴",
-      "en": "Scroll of Darkness"
-    },
+    "names": { "ja-Hrkt": "あくのかけじく", "zh-Hant": "恶之挂轴", "en": "Scroll of Darkness" },
     "pocket": "key"
   },
   {
@@ -28383,11 +28298,7 @@
     "name": "scroll-of-waters",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "みずのかけじく",
-      "zh-Hant": "水之挂轴",
-      "en": "Scroll of Waters"
-    },
+    "names": { "ja-Hrkt": "みずのかけじく", "zh-Hant": "水之挂轴", "en": "Scroll of Waters" },
     "pocket": "key"
   },
   {
@@ -28395,11 +28306,7 @@
     "name": "malicious-armor",
     "category": "evolution",
     "cost": 750,
-    "names": {
-      "ja-Hrkt": "ノロイノヨロイ",
-      "zh-Hant": "咒术之铠",
-      "en": "Malicious Armor"
-    },
+    "names": { "ja-Hrkt": "ノロイノヨロイ", "zh-Hant": "咒术之铠", "en": "Malicious Armor" },
     "pocket": "misc"
   },
   {
@@ -28407,11 +28314,7 @@
     "name": "normal-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースノーマル",
-      "zh-Hant": "一般太晶碎块",
-      "en": "Normal Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースノーマル", "zh-Hant": "一般太晶碎块", "en": "Normal Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28419,11 +28322,7 @@
     "name": "fire-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースほのお",
-      "zh-Hant": "火太晶碎块",
-      "en": "Fire Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースほのお", "zh-Hant": "火太晶碎块", "en": "Fire Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28431,11 +28330,7 @@
     "name": "water-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースみず",
-      "zh-Hant": "水太晶碎块",
-      "en": "Water Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースみず", "zh-Hant": "水太晶碎块", "en": "Water Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28443,11 +28338,7 @@
     "name": "electric-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースでんき",
-      "zh-Hant": "电太晶碎块",
-      "en": "Electric Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースでんき", "zh-Hant": "电太晶碎块", "en": "Electric Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28455,11 +28346,7 @@
     "name": "grass-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースくさ",
-      "zh-Hant": "草太晶碎块",
-      "en": "Grass Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースくさ", "zh-Hant": "草太晶碎块", "en": "Grass Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28467,11 +28354,7 @@
     "name": "ice-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースこおり",
-      "zh-Hant": "冰太晶碎块",
-      "en": "Ice Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースこおり", "zh-Hant": "冰太晶碎块", "en": "Ice Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28479,11 +28362,7 @@
     "name": "fighting-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースかくとう",
-      "zh-Hant": "格斗太晶碎块",
-      "en": "Fighting Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースかくとう", "zh-Hant": "格斗太晶碎块", "en": "Fighting Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28491,11 +28370,7 @@
     "name": "poison-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースどく",
-      "zh-Hant": "毒太晶碎块",
-      "en": "Poison Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースどく", "zh-Hant": "毒太晶碎块", "en": "Poison Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28503,11 +28378,7 @@
     "name": "ground-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースじめん",
-      "zh-Hant": "地面太晶碎块",
-      "en": "Ground Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースじめん", "zh-Hant": "地面太晶碎块", "en": "Ground Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28515,11 +28386,7 @@
     "name": "flying-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースひこう",
-      "zh-Hant": "飞行太晶碎块",
-      "en": "Flying Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースひこう", "zh-Hant": "飞行太晶碎块", "en": "Flying Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28527,11 +28394,7 @@
     "name": "psychic-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースエスパー",
-      "zh-Hant": "超能力太晶碎块",
-      "en": "Psychic Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースエスパー", "zh-Hant": "超能力太晶碎块", "en": "Psychic Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28539,11 +28402,7 @@
     "name": "bug-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースむし",
-      "zh-Hant": "虫太晶碎块",
-      "en": "Bug Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースむし", "zh-Hant": "虫太晶碎块", "en": "Bug Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28551,11 +28410,7 @@
     "name": "rock-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースいわ",
-      "zh-Hant": "岩石太晶碎块",
-      "en": "Rock Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースいわ", "zh-Hant": "岩石太晶碎块", "en": "Rock Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28563,11 +28418,7 @@
     "name": "ghost-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースゴースト",
-      "zh-Hant": "幽灵太晶碎块",
-      "en": "Ghost Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースゴースト", "zh-Hant": "幽灵太晶碎块", "en": "Ghost Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28575,11 +28426,7 @@
     "name": "dragon-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースドラゴン",
-      "zh-Hant": "龙太晶碎块",
-      "en": "Dragon Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースドラゴン", "zh-Hant": "龙太晶碎块", "en": "Dragon Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28587,11 +28434,7 @@
     "name": "dark-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースあく",
-      "zh-Hant": "恶太晶碎块",
-      "en": "Dark Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースあく", "zh-Hant": "恶太晶碎块", "en": "Dark Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28599,11 +28442,7 @@
     "name": "steel-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースはがね",
-      "zh-Hant": "钢太晶碎块",
-      "en": "Steel Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースはがね", "zh-Hant": "钢太晶碎块", "en": "Steel Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28611,11 +28450,7 @@
     "name": "fairy-tera-shard",
     "category": "tera-shard",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "テラピースフェアリー",
-      "zh-Hant": "妖精太晶碎块",
-      "en": "Fairy Tera Shard"
-    },
+    "names": { "ja-Hrkt": "テラピースフェアリー", "zh-Hant": "妖精太晶碎块", "en": "Fairy Tera Shard" },
     "pocket": "misc"
   },
   {
@@ -28623,11 +28458,7 @@
     "name": "booster-energy",
     "category": "held-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ブーストエナジー",
-      "zh-Hant": "驱劲能量",
-      "en": "Booster Energy"
-    },
+    "names": { "ja-Hrkt": "ブーストエナジー", "zh-Hant": "驱劲能量", "en": "Booster Energy" },
     "pocket": "misc"
   },
   {
@@ -28635,11 +28466,7 @@
     "name": "ability-shield",
     "category": "held-items",
     "cost": 20000,
-    "names": {
-      "ja-Hrkt": "とくせいガード",
-      "zh-Hant": "特性护具",
-      "en": "Ability Shield"
-    },
+    "names": { "ja-Hrkt": "とくせいガード", "zh-Hant": "特性护具", "en": "Ability Shield" },
     "pocket": "misc"
   },
   {
@@ -28647,11 +28474,7 @@
     "name": "clear-amulet",
     "category": "held-items",
     "cost": 30000,
-    "names": {
-      "ja-Hrkt": "クリアチャーム",
-      "zh-Hant": "清净坠饰",
-      "en": "Clear Amulet"
-    },
+    "names": { "ja-Hrkt": "クリアチャーム", "zh-Hant": "清净坠饰", "en": "Clear Amulet" },
     "pocket": "misc"
   },
   {
@@ -28659,11 +28482,7 @@
     "name": "mirror-herb",
     "category": "held-items",
     "cost": 30000,
-    "names": {
-      "ja-Hrkt": "ものまねハーブ",
-      "zh-Hant": "模仿香草",
-      "en": "Mirror Herb"
-    },
+    "names": { "ja-Hrkt": "ものまねハーブ", "zh-Hant": "模仿香草", "en": "Mirror Herb" },
     "pocket": "misc"
   },
   {
@@ -28671,11 +28490,7 @@
     "name": "punching-glove",
     "category": "held-items",
     "cost": 15000,
-    "names": {
-      "ja-Hrkt": "パンチグローブ",
-      "zh-Hant": "拳击手套",
-      "en": "Punching Glove"
-    },
+    "names": { "ja-Hrkt": "パンチグローブ", "zh-Hant": "拳击手套", "en": "Punching Glove" },
     "pocket": "misc"
   },
   {
@@ -28683,11 +28498,7 @@
     "name": "covert-cloak",
     "category": "held-items",
     "cost": 20000,
-    "names": {
-      "ja-Hrkt": "おんみつマント",
-      "zh-Hant": "密探斗篷",
-      "en": "Covert Cloak"
-    },
+    "names": { "ja-Hrkt": "おんみつマント", "zh-Hant": "密探斗篷", "en": "Covert Cloak" },
     "pocket": "misc"
   },
   {
@@ -28695,11 +28506,7 @@
     "name": "loaded-dice",
     "category": "held-items",
     "cost": 20000,
-    "names": {
-      "ja-Hrkt": "いかさまダイス",
-      "zh-Hant": "机变骰子",
-      "en": "Loaded Dice"
-    },
+    "names": { "ja-Hrkt": "いかさまダイス", "zh-Hant": "机变骰子", "en": "Loaded Dice" },
     "pocket": "misc"
   },
   {
@@ -28707,11 +28514,7 @@
     "name": "baguette",
     "category": "sandwich-ingredients",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "バケット",
-      "zh-Hant": "长棍面包",
-      "en": "Baguette"
-    },
+    "names": { "ja-Hrkt": "バケット", "zh-Hant": "长棍面包", "en": "Baguette" },
     "pocket": "misc"
   },
   {
@@ -28719,11 +28522,7 @@
     "name": "mayonnaise",
     "category": "sandwich-ingredients",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "マヨネーズ",
-      "zh-Hant": "蛋黄酱",
-      "en": "Mayonnaise"
-    },
+    "names": { "ja-Hrkt": "マヨネーズ", "zh-Hant": "蛋黄酱", "en": "Mayonnaise" },
     "pocket": "misc"
   },
   {
@@ -28731,11 +28530,7 @@
     "name": "ketchup",
     "category": "sandwich-ingredients",
     "cost": 110,
-    "names": {
-      "ja-Hrkt": "ケチャップ",
-      "zh-Hant": "番茄酱",
-      "en": "Ketchup"
-    },
+    "names": { "ja-Hrkt": "ケチャップ", "zh-Hant": "番茄酱", "en": "Ketchup" },
     "pocket": "misc"
   },
   {
@@ -28743,11 +28538,7 @@
     "name": "mustard",
     "category": "sandwich-ingredients",
     "cost": 130,
-    "names": {
-      "ja-Hrkt": "マスタード",
-      "zh-Hant": "黄芥末酱",
-      "en": "Mustard"
-    },
+    "names": { "ja-Hrkt": "マスタード", "zh-Hant": "黄芥末酱", "en": "Mustard" },
     "pocket": "misc"
   },
   {
@@ -28755,11 +28546,7 @@
     "name": "butter",
     "category": "sandwich-ingredients",
     "cost": 250,
-    "names": {
-      "ja-Hrkt": "バター",
-      "zh-Hant": "黄油",
-      "en": "Butter"
-    },
+    "names": { "ja-Hrkt": "バター", "zh-Hant": "黄油", "en": "Butter" },
     "pocket": "misc"
   },
   {
@@ -28767,11 +28554,7 @@
     "name": "peanut-butter",
     "category": "sandwich-ingredients",
     "cost": 300,
-    "names": {
-      "ja-Hrkt": "ピーナッツバター",
-      "zh-Hant": "花生酱",
-      "en": "Peanut Butter"
-    },
+    "names": { "ja-Hrkt": "ピーナッツバター", "zh-Hant": "花生酱", "en": "Peanut Butter" },
     "pocket": "misc"
   },
   {
@@ -28779,11 +28562,7 @@
     "name": "chili-sauce",
     "category": "sandwich-ingredients",
     "cost": 320,
-    "names": {
-      "ja-Hrkt": "チリソース",
-      "zh-Hant": "辣酱",
-      "en": "Chili Sauce"
-    },
+    "names": { "ja-Hrkt": "チリソース", "zh-Hant": "辣酱", "en": "Chili Sauce" },
     "pocket": "misc"
   },
   {
@@ -28791,11 +28570,7 @@
     "name": "salt",
     "category": "sandwich-ingredients",
     "cost": 90,
-    "names": {
-      "ja-Hrkt": "ソルト",
-      "zh-Hant": "盐",
-      "en": "Salt"
-    },
+    "names": { "ja-Hrkt": "ソルト", "zh-Hant": "盐", "en": "Salt" },
     "pocket": "misc"
   },
   {
@@ -28803,11 +28578,7 @@
     "name": "pepper",
     "category": "sandwich-ingredients",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ペッパー",
-      "zh-Hant": "胡椒",
-      "en": "Pepper"
-    },
+    "names": { "ja-Hrkt": "ペッパー", "zh-Hant": "胡椒", "en": "Pepper" },
     "pocket": "misc"
   },
   {
@@ -28815,11 +28586,7 @@
     "name": "yogurt",
     "category": "sandwich-ingredients",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "ヨーグルト",
-      "zh-Hant": "酸奶",
-      "en": "Yogurt"
-    },
+    "names": { "ja-Hrkt": "ヨーグルト", "zh-Hant": "酸奶", "en": "Yogurt" },
     "pocket": "misc"
   },
   {
@@ -28827,11 +28594,7 @@
     "name": "whipped-cream",
     "category": "sandwich-ingredients",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ホイップクリーム",
-      "zh-Hant": "鲜奶油",
-      "en": "Whipped Cream"
-    },
+    "names": { "ja-Hrkt": "ホイップクリーム", "zh-Hant": "鲜奶油", "en": "Whipped Cream" },
     "pocket": "misc"
   },
   {
@@ -28839,11 +28602,7 @@
     "name": "cream-cheese",
     "category": "sandwich-ingredients",
     "cost": 280,
-    "names": {
-      "ja-Hrkt": "クリームチーズ",
-      "zh-Hant": "奶油芝士",
-      "en": "Cream Cheese"
-    },
+    "names": { "ja-Hrkt": "クリームチーズ", "zh-Hant": "奶油芝士", "en": "Cream Cheese" },
     "pocket": "misc"
   },
   {
@@ -28851,11 +28610,7 @@
     "name": "jam",
     "category": "sandwich-ingredients",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "ベリージャム",
-      "zh-Hant": "莓果酱",
-      "en": "Jam"
-    },
+    "names": { "ja-Hrkt": "ベリージャム", "zh-Hant": "莓果酱", "en": "Jam" },
     "pocket": "misc"
   },
   {
@@ -28863,11 +28618,7 @@
     "name": "marmalade",
     "category": "sandwich-ingredients",
     "cost": 260,
-    "names": {
-      "ja-Hrkt": "マーマレード",
-      "zh-Hant": "橘子酱",
-      "en": "Marmalade"
-    },
+    "names": { "ja-Hrkt": "マーマレード", "zh-Hant": "橘子酱", "en": "Marmalade" },
     "pocket": "misc"
   },
   {
@@ -28875,11 +28626,7 @@
     "name": "olive-oil",
     "category": "sandwich-ingredients",
     "cost": 300,
-    "names": {
-      "ja-Hrkt": "オリーブオイル",
-      "zh-Hant": "橄榄油",
-      "en": "Olive Oil"
-    },
+    "names": { "ja-Hrkt": "オリーブオイル", "zh-Hant": "橄榄油", "en": "Olive Oil" },
     "pocket": "misc"
   },
   {
@@ -28887,11 +28634,7 @@
     "name": "vinegar",
     "category": "sandwich-ingredients",
     "cost": 300,
-    "names": {
-      "ja-Hrkt": "ビネガー",
-      "zh-Hant": "醋",
-      "en": "Vinegar"
-    },
+    "names": { "ja-Hrkt": "ビネガー", "zh-Hant": "醋", "en": "Vinegar" },
     "pocket": "misc"
   },
   {
@@ -28899,11 +28642,7 @@
     "name": "sweet-herba-mystica",
     "category": "sandwich-ingredients",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ひでん：あまスパイス",
-      "zh-Hant": "秘传：甜味料",
-      "en": "Sweet Herba Mystica"
-    },
+    "names": { "ja-Hrkt": "ひでん：あまスパイス", "zh-Hant": "秘传：甜味料", "en": "Sweet Herba Mystica" },
     "pocket": "misc"
   },
   {
@@ -28911,11 +28650,7 @@
     "name": "salty-herba-mystica",
     "category": "sandwich-ingredients",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ひでん：しおスパイス",
-      "zh-Hant": "秘传：咸味料",
-      "en": "Salty Herba Mystica"
-    },
+    "names": { "ja-Hrkt": "ひでん：しおスパイス", "zh-Hant": "秘传：咸味料", "en": "Salty Herba Mystica" },
     "pocket": "misc"
   },
   {
@@ -28923,11 +28658,7 @@
     "name": "sour-herba-mystica",
     "category": "sandwich-ingredients",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ひでん：すぱスパイス",
-      "zh-Hant": "秘传：酸味料",
-      "en": "Sour Herba Mystica"
-    },
+    "names": { "ja-Hrkt": "ひでん：すぱスパイス", "zh-Hant": "秘传：酸味料", "en": "Sour Herba Mystica" },
     "pocket": "misc"
   },
   {
@@ -28935,11 +28666,7 @@
     "name": "bitter-herba-mystica",
     "category": "sandwich-ingredients",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ひでん：にがスパイス",
-      "zh-Hant": "秘传：苦味料",
-      "en": "Bitter Herba Mystica"
-    },
+    "names": { "ja-Hrkt": "ひでん：にがスパイス", "zh-Hant": "秘传：苦味料", "en": "Bitter Herba Mystica" },
     "pocket": "misc"
   },
   {
@@ -28947,11 +28674,7 @@
     "name": "spicy-herba-mystica",
     "category": "sandwich-ingredients",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ひでん：からスパイス",
-      "zh-Hant": "秘传：辣味料",
-      "en": "Spicy Herba Mystica"
-    },
+    "names": { "ja-Hrkt": "ひでん：からスパイス", "zh-Hant": "秘传：辣味料", "en": "Spicy Herba Mystica" },
     "pocket": "misc"
   },
   {
@@ -28959,11 +28682,7 @@
     "name": "lettuce",
     "category": "sandwich-ingredients",
     "cost": 90,
-    "names": {
-      "ja-Hrkt": "レタス",
-      "zh-Hant": "生菜",
-      "en": "Lettuce"
-    },
+    "names": { "ja-Hrkt": "レタス", "zh-Hant": "生菜", "en": "Lettuce" },
     "pocket": "misc"
   },
   {
@@ -28971,11 +28690,7 @@
     "name": "tomato",
     "category": "sandwich-ingredients",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "トマトスライス",
-      "zh-Hant": "西红柿片",
-      "en": "Tomato"
-    },
+    "names": { "ja-Hrkt": "トマトスライス", "zh-Hant": "西红柿片", "en": "Tomato" },
     "pocket": "misc"
   },
   {
@@ -28983,11 +28698,7 @@
     "name": "cherry-tomatoes",
     "category": "sandwich-ingredients",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "カットミニトマト",
-      "zh-Hant": "小西红柿块",
-      "en": "Cherry Tomatoes"
-    },
+    "names": { "ja-Hrkt": "カットミニトマト", "zh-Hant": "小西红柿块", "en": "Cherry Tomatoes" },
     "pocket": "misc"
   },
   {
@@ -28995,11 +28706,7 @@
     "name": "cucumber",
     "category": "sandwich-ingredients",
     "cost": 130,
-    "names": {
-      "ja-Hrkt": "キュウリスライス",
-      "zh-Hant": "小黄瓜片",
-      "en": "Cucumber"
-    },
+    "names": { "ja-Hrkt": "キュウリスライス", "zh-Hant": "小黄瓜片", "en": "Cucumber" },
     "pocket": "misc"
   },
   {
@@ -29007,11 +28714,7 @@
     "name": "pickle",
     "category": "sandwich-ingredients",
     "cost": 90,
-    "names": {
-      "ja-Hrkt": "ピクルススライス",
-      "zh-Hant": "酸黄瓜片",
-      "en": "Pickle"
-    },
+    "names": { "ja-Hrkt": "ピクルススライス", "zh-Hant": "酸黄瓜片", "en": "Pickle" },
     "pocket": "misc"
   },
   {
@@ -29019,11 +28722,7 @@
     "name": "onion",
     "category": "sandwich-ingredients",
     "cost": 130,
-    "names": {
-      "ja-Hrkt": "たまねぎスライス",
-      "zh-Hant": "洋葱片",
-      "en": "Onion"
-    },
+    "names": { "ja-Hrkt": "たまねぎスライス", "zh-Hant": "洋葱片", "en": "Onion" },
     "pocket": "misc"
   },
   {
@@ -29031,11 +28730,7 @@
     "name": "red-onion",
     "category": "sandwich-ingredients",
     "cost": 230,
-    "names": {
-      "ja-Hrkt": "アーリーレッド",
-      "zh-Hant": "红洋葱",
-      "en": "Red Onion"
-    },
+    "names": { "ja-Hrkt": "アーリーレッド", "zh-Hant": "红洋葱", "en": "Red Onion" },
     "pocket": "misc"
   },
   {
@@ -29043,11 +28738,7 @@
     "name": "green-bell-pepper",
     "category": "sandwich-ingredients",
     "cost": 230,
-    "names": {
-      "ja-Hrkt": "ピーマンスライス",
-      "zh-Hant": "青椒片",
-      "en": "Green Bell Pepper"
-    },
+    "names": { "ja-Hrkt": "ピーマンスライス", "zh-Hant": "青椒片", "en": "Green Bell Pepper" },
     "pocket": "misc"
   },
   {
@@ -29055,11 +28746,7 @@
     "name": "red-bell-pepper",
     "category": "sandwich-ingredients",
     "cost": 240,
-    "names": {
-      "ja-Hrkt": "あかパプリカスライス",
-      "zh-Hant": "红椒片",
-      "en": "Red Bell Pepper"
-    },
+    "names": { "ja-Hrkt": "あかパプリカスライス", "zh-Hant": "红椒片", "en": "Red Bell Pepper" },
     "pocket": "misc"
   },
   {
@@ -29067,11 +28754,7 @@
     "name": "yellow-bell-pepper",
     "category": "sandwich-ingredients",
     "cost": 240,
-    "names": {
-      "ja-Hrkt": "きパプリカスライス",
-      "zh-Hant": "黄椒片",
-      "en": "Yellow Bell Pepper"
-    },
+    "names": { "ja-Hrkt": "きパプリカスライス", "zh-Hant": "黄椒片", "en": "Yellow Bell Pepper" },
     "pocket": "misc"
   },
   {
@@ -29079,11 +28762,7 @@
     "name": "avocado",
     "category": "sandwich-ingredients",
     "cost": 180,
-    "names": {
-      "ja-Hrkt": "アボカド",
-      "zh-Hant": "牛油果",
-      "en": "Avocado"
-    },
+    "names": { "ja-Hrkt": "アボカド", "zh-Hant": "牛油果", "en": "Avocado" },
     "pocket": "misc"
   },
   {
@@ -29091,11 +28770,7 @@
     "name": "bacon",
     "category": "sandwich-ingredients",
     "cost": 150,
-    "names": {
-      "ja-Hrkt": "やきベーコン",
-      "zh-Hant": "煎培根",
-      "en": "Bacon"
-    },
+    "names": { "ja-Hrkt": "やきベーコン", "zh-Hant": "煎培根", "en": "Bacon" },
     "pocket": "misc"
   },
   {
@@ -29103,11 +28778,7 @@
     "name": "ham",
     "category": "sandwich-ingredients",
     "cost": 170,
-    "names": {
-      "ja-Hrkt": "ハムスライス",
-      "zh-Hant": "火腿片",
-      "en": "Ham"
-    },
+    "names": { "ja-Hrkt": "ハムスライス", "zh-Hant": "火腿片", "en": "Ham" },
     "pocket": "misc"
   },
   {
@@ -29115,11 +28786,7 @@
     "name": "prosciutto",
     "category": "sandwich-ingredients",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "なまハム",
-      "zh-Hant": "生火腿",
-      "en": "Prosciutto"
-    },
+    "names": { "ja-Hrkt": "なまハム", "zh-Hant": "生火腿", "en": "Prosciutto" },
     "pocket": "misc"
   },
   {
@@ -29127,11 +28794,7 @@
     "name": "chorizo",
     "category": "sandwich-ingredients",
     "cost": 150,
-    "names": {
-      "ja-Hrkt": "やきチョリソー",
-      "zh-Hant": "煎辣香肠",
-      "en": "Chorizo"
-    },
+    "names": { "ja-Hrkt": "やきチョリソー", "zh-Hant": "煎辣香肠", "en": "Chorizo" },
     "pocket": "misc"
   },
   {
@@ -29139,11 +28802,7 @@
     "name": "herbed-sausage",
     "category": "sandwich-ingredients",
     "cost": 400,
-    "names": {
-      "ja-Hrkt": "ハーブソーセージ",
-      "zh-Hant": "香草香肠",
-      "en": "Herbed Sausage"
-    },
+    "names": { "ja-Hrkt": "ハーブソーセージ", "zh-Hant": "香草香肠", "en": "Herbed Sausage" },
     "pocket": "misc"
   },
   {
@@ -29151,11 +28810,7 @@
     "name": "hamburger",
     "category": "sandwich-ingredients",
     "cost": 380,
-    "names": {
-      "ja-Hrkt": "ハンバーグ",
-      "zh-Hant": "汉堡排",
-      "en": "Hamburger"
-    },
+    "names": { "ja-Hrkt": "ハンバーグ", "zh-Hant": "汉堡排", "en": "Hamburger" },
     "pocket": "misc"
   },
   {
@@ -29163,11 +28818,7 @@
     "name": "klawf-stick",
     "category": "sandwich-ingredients",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "ガケガニスティック",
-      "zh-Hant": "毛崖蟹棒",
-      "en": "Klawf Stick"
-    },
+    "names": { "ja-Hrkt": "ガケガニスティック", "zh-Hant": "毛崖蟹棒", "en": "Klawf Stick" },
     "pocket": "misc"
   },
   {
@@ -29175,11 +28826,7 @@
     "name": "smoked-fillet",
     "category": "sandwich-ingredients",
     "cost": 330,
-    "names": {
-      "ja-Hrkt": "スモークきりみ",
-      "zh-Hant": "烟熏鱼片",
-      "en": "Smoked Fillet"
-    },
+    "names": { "ja-Hrkt": "スモークきりみ", "zh-Hant": "烟熏鱼片", "en": "Smoked Fillet" },
     "pocket": "misc"
   },
   {
@@ -29187,11 +28834,7 @@
     "name": "fried-fillet",
     "category": "sandwich-ingredients",
     "cost": 360,
-    "names": {
-      "ja-Hrkt": "きりみフライ",
-      "zh-Hant": "炸鱼片",
-      "en": "Fried Fillet"
-    },
+    "names": { "ja-Hrkt": "きりみフライ", "zh-Hant": "炸鱼片", "en": "Fried Fillet" },
     "pocket": "misc"
   },
   {
@@ -29199,11 +28842,7 @@
     "name": "egg",
     "category": "sandwich-ingredients",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "スライスエッグ",
-      "zh-Hant": "水煮蛋片",
-      "en": "Egg"
-    },
+    "names": { "ja-Hrkt": "スライスエッグ", "zh-Hant": "水煮蛋片", "en": "Egg" },
     "pocket": "misc"
   },
   {
@@ -29211,11 +28850,7 @@
     "name": "potato-tortilla",
     "category": "sandwich-ingredients",
     "cost": 250,
-    "names": {
-      "ja-Hrkt": "トルティージャ",
-      "zh-Hant": "烘蛋",
-      "en": "Potato Tortilla"
-    },
+    "names": { "ja-Hrkt": "トルティージャ", "zh-Hant": "烘蛋", "en": "Potato Tortilla" },
     "pocket": "misc"
   },
   {
@@ -29223,11 +28858,7 @@
     "name": "tofu",
     "category": "sandwich-ingredients",
     "cost": 260,
-    "names": {
-      "ja-Hrkt": "トーフ",
-      "zh-Hant": "豆腐",
-      "en": "Tofu"
-    },
+    "names": { "ja-Hrkt": "トーフ", "zh-Hant": "豆腐", "en": "Tofu" },
     "pocket": "misc"
   },
   {
@@ -29235,11 +28866,7 @@
     "name": "rice",
     "category": "sandwich-ingredients",
     "cost": 280,
-    "names": {
-      "ja-Hrkt": "ライス",
-      "zh-Hant": "米饭",
-      "en": "Rice"
-    },
+    "names": { "ja-Hrkt": "ライス", "zh-Hant": "米饭", "en": "Rice" },
     "pocket": "misc"
   },
   {
@@ -29247,11 +28874,7 @@
     "name": "noodles",
     "category": "sandwich-ingredients",
     "cost": 280,
-    "names": {
-      "ja-Hrkt": "ヌードル",
-      "zh-Hant": "面条",
-      "en": "Noodles"
-    },
+    "names": { "ja-Hrkt": "ヌードル", "zh-Hant": "面条", "en": "Noodles" },
     "pocket": "misc"
   },
   {
@@ -29259,11 +28882,7 @@
     "name": "potato-salad",
     "category": "sandwich-ingredients",
     "cost": 110,
-    "names": {
-      "ja-Hrkt": "ポテトサラダ",
-      "zh-Hant": "土豆色拉",
-      "en": "Potato Salad"
-    },
+    "names": { "ja-Hrkt": "ポテトサラダ", "zh-Hant": "土豆色拉", "en": "Potato Salad" },
     "pocket": "misc"
   },
   {
@@ -29271,11 +28890,7 @@
     "name": "cheese",
     "category": "sandwich-ingredients",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "スライスチーズ",
-      "zh-Hant": "芝士片",
-      "en": "Cheese"
-    },
+    "names": { "ja-Hrkt": "スライスチーズ", "zh-Hant": "芝士片", "en": "Cheese" },
     "pocket": "misc"
   },
   {
@@ -29283,11 +28898,7 @@
     "name": "banana",
     "category": "sandwich-ingredients",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "バナナスライス",
-      "zh-Hant": "香蕉片",
-      "en": "Banana"
-    },
+    "names": { "ja-Hrkt": "バナナスライス", "zh-Hant": "香蕉片", "en": "Banana" },
     "pocket": "misc"
   },
   {
@@ -29295,11 +28906,7 @@
     "name": "strawberry",
     "category": "sandwich-ingredients",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "いちごスライス",
-      "zh-Hant": "草莓片",
-      "en": "Strawberry"
-    },
+    "names": { "ja-Hrkt": "いちごスライス", "zh-Hant": "草莓片", "en": "Strawberry" },
     "pocket": "misc"
   },
   {
@@ -29307,11 +28914,7 @@
     "name": "apple",
     "category": "sandwich-ingredients",
     "cost": 130,
-    "names": {
-      "ja-Hrkt": "わぎりリンゴ",
-      "zh-Hant": "苹果片",
-      "en": "Apple"
-    },
+    "names": { "ja-Hrkt": "わぎりリンゴ", "zh-Hant": "苹果片", "en": "Apple" },
     "pocket": "misc"
   },
   {
@@ -29319,11 +28922,7 @@
     "name": "kiwi",
     "category": "sandwich-ingredients",
     "cost": 180,
-    "names": {
-      "ja-Hrkt": "わぎりキウイ",
-      "zh-Hant": "奇异果片",
-      "en": "Kiwi"
-    },
+    "names": { "ja-Hrkt": "わぎりキウイ", "zh-Hant": "奇异果片", "en": "Kiwi" },
     "pocket": "misc"
   },
   {
@@ -29331,11 +28930,7 @@
     "name": "pineapple",
     "category": "sandwich-ingredients",
     "cost": 250,
-    "names": {
-      "ja-Hrkt": "カットパイン",
-      "zh-Hant": "凤梨片",
-      "en": "Pineapple"
-    },
+    "names": { "ja-Hrkt": "カットパイン", "zh-Hant": "凤梨片", "en": "Pineapple" },
     "pocket": "misc"
   },
   {
@@ -29343,11 +28938,7 @@
     "name": "jalapeño",
     "category": "sandwich-ingredients",
     "cost": 220,
-    "names": {
-      "ja-Hrkt": "バラペーニョ",
-      "zh-Hant": "小辣椒",
-      "en": "Jalapeño"
-    },
+    "names": { "ja-Hrkt": "バラペーニョ", "zh-Hant": "小辣椒", "en": "Jalapeño" },
     "pocket": "misc"
   },
   {
@@ -29355,11 +28946,7 @@
     "name": "horseradish",
     "category": "sandwich-ingredients",
     "cost": 410,
-    "names": {
-      "ja-Hrkt": "ホースラディッシュ",
-      "zh-Hant": "辣根",
-      "en": "Horseradish"
-    },
+    "names": { "ja-Hrkt": "ホースラディッシュ", "zh-Hant": "辣根", "en": "Horseradish" },
     "pocket": "misc"
   },
   {
@@ -29367,11 +28954,7 @@
     "name": "curry-powder",
     "category": "sandwich-ingredients",
     "cost": 450,
-    "names": {
-      "ja-Hrkt": "カレーパウダー",
-      "zh-Hant": "咖喱粉",
-      "en": "Curry Powder"
-    },
+    "names": { "ja-Hrkt": "カレーパウダー", "zh-Hant": "咖喱粉", "en": "Curry Powder" },
     "pocket": "misc"
   },
   {
@@ -29379,11 +28962,7 @@
     "name": "wasabi",
     "category": "sandwich-ingredients",
     "cost": 330,
-    "names": {
-      "ja-Hrkt": "ワサビソース",
-      "zh-Hant": "芥末酱",
-      "en": "Wasabi"
-    },
+    "names": { "ja-Hrkt": "ワサビソース", "zh-Hant": "芥末酱", "en": "Wasabi" },
     "pocket": "misc"
   },
   {
@@ -29391,11 +28970,7 @@
     "name": "watercress",
     "category": "sandwich-ingredients",
     "cost": 270,
-    "names": {
-      "ja-Hrkt": "クレソン",
-      "zh-Hant": "豆瓣菜",
-      "en": "Watercress"
-    },
+    "names": { "ja-Hrkt": "クレソン", "zh-Hant": "豆瓣菜", "en": "Watercress" },
     "pocket": "misc"
   },
   {
@@ -29403,11 +28978,7 @@
     "name": "basil",
     "category": "sandwich-ingredients",
     "cost": 280,
-    "names": {
-      "ja-Hrkt": "バジル",
-      "zh-Hant": "罗勒",
-      "en": "Basil"
-    },
+    "names": { "ja-Hrkt": "バジル", "zh-Hant": "罗勒", "en": "Basil" },
     "pocket": "misc"
   },
   {
@@ -29415,11 +28986,7 @@
     "name": "venonat-fang",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "コンパンのキバ",
-      "zh-Hant": "毛球的牙",
-      "en": "Venonat Fang"
-    },
+    "names": { "ja-Hrkt": "コンパンのキバ", "zh-Hant": "毛球的牙", "en": "Venonat Fang" },
     "pocket": "misc"
   },
   {
@@ -29427,11 +28994,7 @@
     "name": "diglett-dirt",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ディグダのつち",
-      "zh-Hant": "地鼠的土",
-      "en": "Diglett Dirt"
-    },
+    "names": { "ja-Hrkt": "ディグダのつち", "zh-Hant": "地鼠的土", "en": "Diglett Dirt" },
     "pocket": "misc"
   },
   {
@@ -29439,11 +29002,7 @@
     "name": "meowth-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ニャースのけ",
-      "zh-Hant": "喵喵的毛",
-      "en": "Meowth Fur"
-    },
+    "names": { "ja-Hrkt": "ニャースのけ", "zh-Hant": "喵喵的毛", "en": "Meowth Fur" },
     "pocket": "misc"
   },
   {
@@ -29451,11 +29010,7 @@
     "name": "psyduck-down",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "コダックのうもう",
-      "zh-Hant": "可达鸭的羽绒",
-      "en": "Psyduck Down"
-    },
+    "names": { "ja-Hrkt": "コダックのうもう", "zh-Hant": "可达鸭的羽绒", "en": "Psyduck Down" },
     "pocket": "misc"
   },
   {
@@ -29463,11 +29018,7 @@
     "name": "mankey-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "マンキーのけ",
-      "zh-Hant": "猴怪的毛",
-      "en": "Mankey Fur"
-    },
+    "names": { "ja-Hrkt": "マンキーのけ", "zh-Hant": "猴怪的毛", "en": "Mankey Fur" },
     "pocket": "misc"
   },
   {
@@ -29475,11 +29026,7 @@
     "name": "growlithe-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ガーディのけ",
-      "zh-Hant": "卡蒂狗的毛",
-      "en": "Growlithe Fur"
-    },
+    "names": { "ja-Hrkt": "ガーディのけ", "zh-Hant": "卡蒂狗的毛", "en": "Growlithe Fur" },
     "pocket": "misc"
   },
   {
@@ -29487,11 +29034,7 @@
     "name": "slowpoke-claw",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ヤドンのツメ",
-      "zh-Hant": "呆呆兽的爪子",
-      "en": "Slowpoke Claw"
-    },
+    "names": { "ja-Hrkt": "ヤドンのツメ", "zh-Hant": "呆呆兽的爪子", "en": "Slowpoke Claw" },
     "pocket": "misc"
   },
   {
@@ -29499,11 +29042,7 @@
     "name": "magnemite-screw",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "コイルのねじ",
-      "zh-Hant": "小磁怪的螺丝",
-      "en": "Magnemite Screw"
-    },
+    "names": { "ja-Hrkt": "コイルのねじ", "zh-Hant": "小磁怪的螺丝", "en": "Magnemite Screw" },
     "pocket": "misc"
   },
   {
@@ -29511,11 +29050,7 @@
     "name": "grimer-toxin",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ベトベターのどくそ",
-      "zh-Hant": "臭泥的毒素",
-      "en": "Grimer Toxin"
-    },
+    "names": { "ja-Hrkt": "ベトベターのどくそ", "zh-Hant": "臭泥的毒素", "en": "Grimer Toxin" },
     "pocket": "misc"
   },
   {
@@ -29523,11 +29058,7 @@
     "name": "shellder-pearl",
     "category": "tm-materials",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "シェルダーのしんじゅ",
-      "zh-Hant": "大舌贝的珍珠",
-      "en": "Shellder Pearl"
-    },
+    "names": { "ja-Hrkt": "シェルダーのしんじゅ", "zh-Hant": "大舌贝的珍珠", "en": "Shellder Pearl" },
     "pocket": "misc"
   },
   {
@@ -29535,11 +29066,7 @@
     "name": "gastly-gas",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ゴースのガス",
-      "zh-Hant": "鬼斯的气体",
-      "en": "Gastly Gas"
-    },
+    "names": { "ja-Hrkt": "ゴースのガス", "zh-Hant": "鬼斯的气体", "en": "Gastly Gas" },
     "pocket": "misc"
   },
   {
@@ -29547,11 +29074,7 @@
     "name": "drowzee-fur",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "スリープのけ",
-      "zh-Hant": "催眠貘的毛",
-      "en": "Drowzee Fur"
-    },
+    "names": { "ja-Hrkt": "スリープのけ", "zh-Hant": "催眠貘的毛", "en": "Drowzee Fur" },
     "pocket": "misc"
   },
   {
@@ -29559,11 +29082,7 @@
     "name": "voltorb-sparks",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ビリリダマのでんき",
-      "zh-Hant": "霹雳电球的电力",
-      "en": "Voltorb Sparks"
-    },
+    "names": { "ja-Hrkt": "ビリリダマのでんき", "zh-Hant": "霹雳电球的电力", "en": "Voltorb Sparks" },
     "pocket": "misc"
   },
   {
@@ -29571,11 +29090,7 @@
     "name": "scyther-claw",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ストライクのツメ",
-      "zh-Hant": "飞天螳螂的爪子",
-      "en": "Scyther Claw"
-    },
+    "names": { "ja-Hrkt": "ストライクのツメ", "zh-Hant": "飞天螳螂的爪子", "en": "Scyther Claw" },
     "pocket": "misc"
   },
   {
@@ -29583,11 +29098,7 @@
     "name": "tauros-hair",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ケンタロスのけ",
-      "zh-Hant": "肯泰罗的毛",
-      "en": "Tauros Hair"
-    },
+    "names": { "ja-Hrkt": "ケンタロスのけ", "zh-Hant": "肯泰罗的毛", "en": "Tauros Hair" },
     "pocket": "misc"
   },
   {
@@ -29595,11 +29106,7 @@
     "name": "magikarp-scales",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "コイキングのウロコ",
-      "zh-Hant": "鲤鱼王的鳞片",
-      "en": "Magikarp Scales"
-    },
+    "names": { "ja-Hrkt": "コイキングのウロコ", "zh-Hant": "鲤鱼王的鳞片", "en": "Magikarp Scales" },
     "pocket": "misc"
   },
   {
@@ -29607,11 +29114,7 @@
     "name": "ditto-goo",
     "category": "tm-materials",
     "cost": 300,
-    "names": {
-      "ja-Hrkt": "メタモンのべたべた",
-      "zh-Hant": "百变怪的黏糊",
-      "en": "Ditto Goo"
-    },
+    "names": { "ja-Hrkt": "メタモンのべたべた", "zh-Hant": "百变怪的黏糊", "en": "Ditto Goo" },
     "pocket": "misc"
   },
   {
@@ -29619,11 +29122,7 @@
     "name": "eevee-fur",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "イーブイのけ",
-      "zh-Hant": "伊布的毛",
-      "en": "Eevee Fur"
-    },
+    "names": { "ja-Hrkt": "イーブイのけ", "zh-Hant": "伊布的毛", "en": "Eevee Fur" },
     "pocket": "misc"
   },
   {
@@ -29631,11 +29130,7 @@
     "name": "dratini-scales",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ミニリュウのウロコ",
-      "zh-Hant": "迷你龙的鳞片",
-      "en": "Dratini Scales"
-    },
+    "names": { "ja-Hrkt": "ミニリュウのウロコ", "zh-Hant": "迷你龙的鳞片", "en": "Dratini Scales" },
     "pocket": "misc"
   },
   {
@@ -29643,11 +29138,7 @@
     "name": "pichu-fur",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ピチューのけ",
-      "zh-Hant": "皮丘的毛",
-      "en": "Pichu Fur"
-    },
+    "names": { "ja-Hrkt": "ピチューのけ", "zh-Hant": "皮丘的毛", "en": "Pichu Fur" },
     "pocket": "misc"
   },
   {
@@ -29655,11 +29146,7 @@
     "name": "igglybuff-fluff",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ププリンのけ",
-      "zh-Hant": "宝宝丁的毛",
-      "en": "Igglybuff Fluff"
-    },
+    "names": { "ja-Hrkt": "ププリンのけ", "zh-Hant": "宝宝丁的毛", "en": "Igglybuff Fluff" },
     "pocket": "misc"
   },
   {
@@ -29667,11 +29154,7 @@
     "name": "mareep-wool",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "メリープのけだま",
-      "zh-Hant": "咩利羊的毛球",
-      "en": "Mareep Wool"
-    },
+    "names": { "ja-Hrkt": "メリープのけだま", "zh-Hant": "咩利羊的毛球", "en": "Mareep Wool" },
     "pocket": "misc"
   },
   {
@@ -29679,11 +29162,7 @@
     "name": "hoppip-leaf",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ハネッコのはっぱ",
-      "zh-Hant": "毽子草的叶片",
-      "en": "Hoppip Leaf"
-    },
+    "names": { "ja-Hrkt": "ハネッコのはっぱ", "zh-Hant": "毽子草的叶片", "en": "Hoppip Leaf" },
     "pocket": "misc"
   },
   {
@@ -29691,11 +29170,7 @@
     "name": "sunkern-leaf",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ヒマナッツのはっぱ",
-      "zh-Hant": "向日种子的叶片",
-      "en": "Sunkern Leaf"
-    },
+    "names": { "ja-Hrkt": "ヒマナッツのはっぱ", "zh-Hant": "向日种子的叶片", "en": "Sunkern Leaf" },
     "pocket": "misc"
   },
   {
@@ -29703,11 +29178,7 @@
     "name": "murkrow-bauble",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ヤミカラスのおたから",
-      "zh-Hant": "黑暗鸦的宝物",
-      "en": "Murkrow Bauble"
-    },
+    "names": { "ja-Hrkt": "ヤミカラスのおたから", "zh-Hant": "黑暗鸦的宝物", "en": "Murkrow Bauble" },
     "pocket": "misc"
   },
   {
@@ -29715,11 +29186,7 @@
     "name": "misdreavus-tears",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ムウマのなみだ",
-      "zh-Hant": "梦妖的眼泪",
-      "en": "Misdreavus Tears"
-    },
+    "names": { "ja-Hrkt": "ムウマのなみだ", "zh-Hant": "梦妖的眼泪", "en": "Misdreavus Tears" },
     "pocket": "misc"
   },
   {
@@ -29727,11 +29194,7 @@
     "name": "girafarig-fur",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "キリンリキのけ",
-      "zh-Hant": "麒麟奇的毛",
-      "en": "Girafarig Fur"
-    },
+    "names": { "ja-Hrkt": "キリンリキのけ", "zh-Hant": "麒麟奇的毛", "en": "Girafarig Fur" },
     "pocket": "misc"
   },
   {
@@ -29739,11 +29202,7 @@
     "name": "pineco-husk",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "クヌギダマのから",
-      "zh-Hant": "榛果球的壳",
-      "en": "Pineco Husk"
-    },
+    "names": { "ja-Hrkt": "クヌギダマのから", "zh-Hant": "榛果球的壳", "en": "Pineco Husk" },
     "pocket": "misc"
   },
   {
@@ -29751,11 +29210,7 @@
     "name": "dunsparce-scales",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "ノコッチのウロコ",
-      "zh-Hant": "土龙弟弟的鳞片",
-      "en": "Dunsparce Scales"
-    },
+    "names": { "ja-Hrkt": "ノコッチのウロコ", "zh-Hant": "土龙弟弟的鳞片", "en": "Dunsparce Scales" },
     "pocket": "misc"
   },
   {
@@ -29763,11 +29218,7 @@
     "name": "qwilfish-spines",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ハリーセンのトゲ",
-      "zh-Hant": "千针鱼的刺",
-      "en": "Qwilfish Spines"
-    },
+    "names": { "ja-Hrkt": "ハリーセンのトゲ", "zh-Hant": "千针鱼的刺", "en": "Qwilfish Spines" },
     "pocket": "misc"
   },
   {
@@ -29775,11 +29226,7 @@
     "name": "heracross-claw",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ヘラクロスのツメ",
-      "zh-Hant": "赫拉克罗斯的爪子",
-      "en": "Heracross Claw"
-    },
+    "names": { "ja-Hrkt": "ヘラクロスのツメ", "zh-Hant": "赫拉克罗斯的爪子", "en": "Heracross Claw" },
     "pocket": "misc"
   },
   {
@@ -29787,11 +29234,7 @@
     "name": "sneasel-claw",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ニューラのツメ",
-      "zh-Hant": "狃拉的爪子",
-      "en": "Sneasel Claw"
-    },
+    "names": { "ja-Hrkt": "ニューラのツメ", "zh-Hant": "狃拉的爪子", "en": "Sneasel Claw" },
     "pocket": "misc"
   },
   {
@@ -29799,11 +29242,7 @@
     "name": "teddiursa-claw",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ヒメグマのツメ",
-      "zh-Hant": "熊宝宝的爪子",
-      "en": "Teddiursa Claw"
-    },
+    "names": { "ja-Hrkt": "ヒメグマのツメ", "zh-Hant": "熊宝宝的爪子", "en": "Teddiursa Claw" },
     "pocket": "misc"
   },
   {
@@ -29811,11 +29250,7 @@
     "name": "delibird-parcel",
     "category": "tm-materials",
     "cost": 240,
-    "names": {
-      "ja-Hrkt": "デリバードのにもつ",
-      "zh-Hant": "信使鸟的行李",
-      "en": "Delibird Parcel"
-    },
+    "names": { "ja-Hrkt": "デリバードのにもつ", "zh-Hant": "信使鸟的行李", "en": "Delibird Parcel" },
     "pocket": "misc"
   },
   {
@@ -29823,11 +29258,7 @@
     "name": "houndour-fang",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "デルビルのキバ",
-      "zh-Hant": "戴鲁比的牙",
-      "en": "Houndour Fang"
-    },
+    "names": { "ja-Hrkt": "デルビルのキバ", "zh-Hant": "戴鲁比的牙", "en": "Houndour Fang" },
     "pocket": "misc"
   },
   {
@@ -29835,11 +29266,7 @@
     "name": "phanpy-nail",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ゴマゾウのツメ",
-      "zh-Hant": "小小象的爪子",
-      "en": "Phanpy Nail"
-    },
+    "names": { "ja-Hrkt": "ゴマゾウのツメ", "zh-Hant": "小小象的爪子", "en": "Phanpy Nail" },
     "pocket": "misc"
   },
   {
@@ -29847,11 +29274,7 @@
     "name": "stantler-hair",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "オドシシのけ",
-      "zh-Hant": "惊角鹿的毛",
-      "en": "Stantler Hair"
-    },
+    "names": { "ja-Hrkt": "オドシシのけ", "zh-Hant": "惊角鹿的毛", "en": "Stantler Hair" },
     "pocket": "misc"
   },
   {
@@ -29859,11 +29282,7 @@
     "name": "larvitar-claw",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ヨーギラスのツメ",
-      "zh-Hant": "幼基拉斯的爪子",
-      "en": "Larvitar Claw"
-    },
+    "names": { "ja-Hrkt": "ヨーギラスのツメ", "zh-Hant": "幼基拉斯的爪子", "en": "Larvitar Claw" },
     "pocket": "misc"
   },
   {
@@ -29871,11 +29290,7 @@
     "name": "wingull-feather",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "キャモメのはね",
-      "zh-Hant": "长翅鸥的羽毛",
-      "en": "Wingull Feather"
-    },
+    "names": { "ja-Hrkt": "キャモメのはね", "zh-Hant": "长翅鸥的羽毛", "en": "Wingull Feather" },
     "pocket": "misc"
   },
   {
@@ -29883,11 +29298,7 @@
     "name": "ralts-dust",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ラルトスのおとしもの",
-      "zh-Hant": "拉鲁拉丝的掉落物",
-      "en": "Ralts Dust"
-    },
+    "names": { "ja-Hrkt": "ラルトスのおとしもの", "zh-Hant": "拉鲁拉丝的掉落物", "en": "Ralts Dust" },
     "pocket": "misc"
   },
   {
@@ -29895,11 +29306,7 @@
     "name": "surskit-syrup",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "アメタマのミツ",
-      "zh-Hant": "溜溜糖球的蜜",
-      "en": "Surskit Syrup"
-    },
+    "names": { "ja-Hrkt": "アメタマのミツ", "zh-Hant": "溜溜糖球的蜜", "en": "Surskit Syrup" },
     "pocket": "misc"
   },
   {
@@ -29907,11 +29314,7 @@
     "name": "shroomish-spores",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "キノココのほうし",
-      "zh-Hant": "蘑蘑菇的孢子",
-      "en": "Shroomish Spores"
-    },
+    "names": { "ja-Hrkt": "キノココのほうし", "zh-Hant": "蘑蘑菇的孢子", "en": "Shroomish Spores" },
     "pocket": "misc"
   },
   {
@@ -29919,11 +29322,7 @@
     "name": "slakoth-fur",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ナマケロのけ",
-      "zh-Hant": "懒人獭的毛",
-      "en": "Slakoth Fur"
-    },
+    "names": { "ja-Hrkt": "ナマケロのけ", "zh-Hant": "懒人獭的毛", "en": "Slakoth Fur" },
     "pocket": "misc"
   },
   {
@@ -29931,11 +29330,7 @@
     "name": "makuhita-sweat",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "マクノシタのあせ",
-      "zh-Hant": "幕下力士的汗",
-      "en": "Makuhita Sweat"
-    },
+    "names": { "ja-Hrkt": "マクノシタのあせ", "zh-Hant": "幕下力士的汗", "en": "Makuhita Sweat" },
     "pocket": "misc"
   },
   {
@@ -29943,11 +29338,7 @@
     "name": "azurill-fur",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ルリリのけ",
-      "zh-Hant": "露力丽的毛",
-      "en": "Azurill Fur"
-    },
+    "names": { "ja-Hrkt": "ルリリのけ", "zh-Hant": "露力丽的毛", "en": "Azurill Fur" },
     "pocket": "misc"
   },
   {
@@ -29955,11 +29346,7 @@
     "name": "sableye-gem",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ヤミラミのほうせき",
-      "zh-Hant": "勾魂眼的宝石",
-      "en": "Sableye Gem"
-    },
+    "names": { "ja-Hrkt": "ヤミラミのほうせき", "zh-Hant": "勾魂眼的宝石", "en": "Sableye Gem" },
     "pocket": "misc"
   },
   {
@@ -29967,11 +29354,7 @@
     "name": "meditite-sweat",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "アサナンのあせ",
-      "zh-Hant": "玛沙那的汗",
-      "en": "Meditite Sweat"
-    },
+    "names": { "ja-Hrkt": "アサナンのあせ", "zh-Hant": "玛沙那的汗", "en": "Meditite Sweat" },
     "pocket": "misc"
   },
   {
@@ -29979,11 +29362,7 @@
     "name": "gulpin-mucus",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ゴクリンのねんえき",
-      "zh-Hant": "溶食兽的黏液",
-      "en": "Gulpin Mucus"
-    },
+    "names": { "ja-Hrkt": "ゴクリンのねんえき", "zh-Hant": "溶食兽的黏液", "en": "Gulpin Mucus" },
     "pocket": "misc"
   },
   {
@@ -29991,11 +29370,7 @@
     "name": "numel-lava",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ドンメルのようがん",
-      "zh-Hant": "呆火驼的熔岩",
-      "en": "Numel Lava"
-    },
+    "names": { "ja-Hrkt": "ドンメルのようがん", "zh-Hant": "呆火驼的熔岩", "en": "Numel Lava" },
     "pocket": "misc"
   },
   {
@@ -30003,11 +29378,7 @@
     "name": "torkoal-coal",
     "category": "tm-materials",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "コータスのせきたん",
-      "zh-Hant": "煤炭龟的煤炭",
-      "en": "Torkoal Coal"
-    },
+    "names": { "ja-Hrkt": "コータスのせきたん", "zh-Hant": "煤炭龟的煤炭", "en": "Torkoal Coal" },
     "pocket": "misc"
   },
   {
@@ -30015,11 +29386,7 @@
     "name": "spoink-pearl",
     "category": "tm-materials",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "バネブーのしんじゅ",
-      "zh-Hant": "跳跳猪的珍珠",
-      "en": "Spoink Pearl"
-    },
+    "names": { "ja-Hrkt": "バネブーのしんじゅ", "zh-Hant": "跳跳猪的珍珠", "en": "Spoink Pearl" },
     "pocket": "misc"
   },
   {
@@ -30027,11 +29394,7 @@
     "name": "cacnea-needle",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "サボネアのトゲ",
-      "zh-Hant": "刺球仙人掌的刺",
-      "en": "Cacnea Needle"
-    },
+    "names": { "ja-Hrkt": "サボネアのトゲ", "zh-Hant": "刺球仙人掌的刺", "en": "Cacnea Needle" },
     "pocket": "misc"
   },
   {
@@ -30039,11 +29402,7 @@
     "name": "swablu-fluff",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "チルットのはね",
-      "zh-Hant": "青绵鸟的羽毛",
-      "en": "Swablu Fluff"
-    },
+    "names": { "ja-Hrkt": "チルットのはね", "zh-Hant": "青绵鸟的羽毛", "en": "Swablu Fluff" },
     "pocket": "misc"
   },
   {
@@ -30051,11 +29410,7 @@
     "name": "zangoose-claw",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "ザングースのツメ",
-      "zh-Hant": "猫鼬斩的爪子",
-      "en": "Zangoose Claw"
-    },
+    "names": { "ja-Hrkt": "ザングースのツメ", "zh-Hant": "猫鼬斩的爪子", "en": "Zangoose Claw" },
     "pocket": "misc"
   },
   {
@@ -30063,11 +29418,7 @@
     "name": "seviper-fang",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "ハブネークのキバ",
-      "zh-Hant": "饭匙蛇的牙",
-      "en": "Seviper Fang"
-    },
+    "names": { "ja-Hrkt": "ハブネークのキバ", "zh-Hant": "饭匙蛇的牙", "en": "Seviper Fang" },
     "pocket": "misc"
   },
   {
@@ -30075,11 +29426,7 @@
     "name": "barboach-slime",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ドジョッチのねんえき",
-      "zh-Hant": "泥泥鳅的黏液",
-      "en": "Barboach Slime"
-    },
+    "names": { "ja-Hrkt": "ドジョッチのねんえき", "zh-Hant": "泥泥鳅的黏液", "en": "Barboach Slime" },
     "pocket": "misc"
   },
   {
@@ -30087,11 +29434,7 @@
     "name": "shuppet-scrap",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カゲボウズのきれはし",
-      "zh-Hant": "怨影娃娃的残片",
-      "en": "Shuppet Scrap"
-    },
+    "names": { "ja-Hrkt": "カゲボウズのきれはし", "zh-Hant": "怨影娃娃的残片", "en": "Shuppet Scrap" },
     "pocket": "misc"
   },
   {
@@ -30099,11 +29442,7 @@
     "name": "tropius-leaf",
     "category": "tm-materials",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "トロピウスのはっぱ",
-      "zh-Hant": "热带龙的叶片",
-      "en": "Tropius Leaf"
-    },
+    "names": { "ja-Hrkt": "トロピウスのはっぱ", "zh-Hant": "热带龙的叶片", "en": "Tropius Leaf" },
     "pocket": "misc"
   },
   {
@@ -30111,11 +29450,7 @@
     "name": "snorunt-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ユキワラシのけ",
-      "zh-Hant": "雪童子的毛",
-      "en": "Snorunt Fur"
-    },
+    "names": { "ja-Hrkt": "ユキワラシのけ", "zh-Hant": "雪童子的毛", "en": "Snorunt Fur" },
     "pocket": "misc"
   },
   {
@@ -30123,11 +29458,7 @@
     "name": "luvdisc-scales",
     "category": "tm-materials",
     "cost": 160,
-    "names": {
-      "ja-Hrkt": "ラブカスのウロコ",
-      "zh-Hant": "爱心鱼的鳞片",
-      "en": "Luvdisc Scales"
-    },
+    "names": { "ja-Hrkt": "ラブカスのウロコ", "zh-Hant": "爱心鱼的鳞片", "en": "Luvdisc Scales" },
     "pocket": "misc"
   },
   {
@@ -30135,11 +29466,7 @@
     "name": "bagon-scales",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "タツベイのウロコ",
-      "zh-Hant": "宝贝龙的鳞片",
-      "en": "Bagon Scales"
-    },
+    "names": { "ja-Hrkt": "タツベイのウロコ", "zh-Hant": "宝贝龙的鳞片", "en": "Bagon Scales" },
     "pocket": "misc"
   },
   {
@@ -30147,11 +29474,7 @@
     "name": "starly-feather",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ムックルのはね",
-      "zh-Hant": "姆克儿的羽毛",
-      "en": "Starly Feather"
-    },
+    "names": { "ja-Hrkt": "ムックルのはね", "zh-Hant": "姆克儿的羽毛", "en": "Starly Feather" },
     "pocket": "misc"
   },
   {
@@ -30159,11 +29482,7 @@
     "name": "kricketot-shell",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "コロボーシのぬけがら",
-      "zh-Hant": "圆法师的蜕壳",
-      "en": "Kricketot Shell"
-    },
+    "names": { "ja-Hrkt": "コロボーシのぬけがら", "zh-Hant": "圆法师的蜕壳", "en": "Kricketot Shell" },
     "pocket": "misc"
   },
   {
@@ -30171,11 +29490,7 @@
     "name": "shinx-fang",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "コリンクのキバ",
-      "zh-Hant": "小猫怪的牙",
-      "en": "Shinx Fang"
-    },
+    "names": { "ja-Hrkt": "コリンクのキバ", "zh-Hant": "小猫怪的牙", "en": "Shinx Fang" },
     "pocket": "misc"
   },
   {
@@ -30183,11 +29498,7 @@
     "name": "combee-honey",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ミツハニーのミツ",
-      "zh-Hant": "三蜜蜂的蜜",
-      "en": "Combee Honey"
-    },
+    "names": { "ja-Hrkt": "ミツハニーのミツ", "zh-Hant": "三蜜蜂的蜜", "en": "Combee Honey" },
     "pocket": "misc"
   },
   {
@@ -30195,11 +29506,7 @@
     "name": "pachirisu-fur",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "パチリスのけ",
-      "zh-Hant": "帕奇利兹的毛",
-      "en": "Pachirisu Fur"
-    },
+    "names": { "ja-Hrkt": "パチリスのけ", "zh-Hant": "帕奇利兹的毛", "en": "Pachirisu Fur" },
     "pocket": "misc"
   },
   {
@@ -30207,11 +29514,7 @@
     "name": "buizel-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ブイゼルのけ",
-      "zh-Hant": "泳圈鼬的毛",
-      "en": "Buizel Fur"
-    },
+    "names": { "ja-Hrkt": "ブイゼルのけ", "zh-Hant": "泳圈鼬的毛", "en": "Buizel Fur" },
     "pocket": "misc"
   },
   {
@@ -30219,11 +29522,7 @@
     "name": "shellos-mucus",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カラナクシのねんえき",
-      "zh-Hant": "无壳海兔的黏液",
-      "en": "Shellos Mucus"
-    },
+    "names": { "ja-Hrkt": "カラナクシのねんえき", "zh-Hant": "无壳海兔的黏液", "en": "Shellos Mucus" },
     "pocket": "misc"
   },
   {
@@ -30231,11 +29530,7 @@
     "name": "drifloon-gas",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "フワンテのガス",
-      "zh-Hant": "飘飘球的气体",
-      "en": "Drifloon Gas"
-    },
+    "names": { "ja-Hrkt": "フワンテのガス", "zh-Hant": "飘飘球的气体", "en": "Drifloon Gas" },
     "pocket": "misc"
   },
   {
@@ -30243,11 +29538,7 @@
     "name": "stunky-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "スカンプーのけ",
-      "zh-Hant": "臭鼬噗的毛",
-      "en": "Stunky Fur"
-    },
+    "names": { "ja-Hrkt": "スカンプーのけ", "zh-Hant": "臭鼬噗的毛", "en": "Stunky Fur" },
     "pocket": "misc"
   },
   {
@@ -30255,11 +29546,7 @@
     "name": "bronzor-fragment",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ドーミラーのかけら",
-      "zh-Hant": "铜镜怪的碎片",
-      "en": "Bronzor Fragment"
-    },
+    "names": { "ja-Hrkt": "ドーミラーのかけら", "zh-Hant": "铜镜怪的碎片", "en": "Bronzor Fragment" },
     "pocket": "misc"
   },
   {
@@ -30267,11 +29554,7 @@
     "name": "bonsly-tears",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ウソハチのなみだ",
-      "zh-Hant": "盆才怪的眼泪",
-      "en": "Bonsly Tears"
-    },
+    "names": { "ja-Hrkt": "ウソハチのなみだ", "zh-Hant": "盆才怪的眼泪", "en": "Bonsly Tears" },
     "pocket": "misc"
   },
   {
@@ -30279,11 +29562,7 @@
     "name": "happiny-dust",
     "category": "tm-materials",
     "cost": 300,
-    "names": {
-      "ja-Hrkt": "ピンプクのおとしもの",
-      "zh-Hant": "小福蛋的掉落物",
-      "en": "Happiny Dust"
-    },
+    "names": { "ja-Hrkt": "ピンプクのおとしもの", "zh-Hant": "小福蛋的掉落物", "en": "Happiny Dust" },
     "pocket": "misc"
   },
   {
@@ -30291,11 +29570,7 @@
     "name": "spiritomb-fragment",
     "category": "tm-materials",
     "cost": 240,
-    "names": {
-      "ja-Hrkt": "ミカルゲのかけら",
-      "zh-Hant": "花岩怪的碎片",
-      "en": "Spiritomb Fragment"
-    },
+    "names": { "ja-Hrkt": "ミカルゲのかけら", "zh-Hant": "花岩怪的碎片", "en": "Spiritomb Fragment" },
     "pocket": "misc"
   },
   {
@@ -30303,11 +29578,7 @@
     "name": "gible-scales",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "フカマルのウロコ",
-      "zh-Hant": "圆陆鲨的鳞片",
-      "en": "Gible Scales"
-    },
+    "names": { "ja-Hrkt": "フカマルのウロコ", "zh-Hant": "圆陆鲨的鳞片", "en": "Gible Scales" },
     "pocket": "misc"
   },
   {
@@ -30315,11 +29586,7 @@
     "name": "riolu-fur",
     "category": "tm-materials",
     "cost": 160,
-    "names": {
-      "ja-Hrkt": "リオルのけ",
-      "zh-Hant": "利欧路的毛",
-      "en": "Riolu Fur"
-    },
+    "names": { "ja-Hrkt": "リオルのけ", "zh-Hant": "利欧路的毛", "en": "Riolu Fur" },
     "pocket": "misc"
   },
   {
@@ -30327,11 +29594,7 @@
     "name": "hippopotas-sand",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ヒポポタスのすな",
-      "zh-Hant": "沙河马的沙",
-      "en": "Hippopotas Sand"
-    },
+    "names": { "ja-Hrkt": "ヒポポタスのすな", "zh-Hant": "沙河马的沙", "en": "Hippopotas Sand" },
     "pocket": "misc"
   },
   {
@@ -30339,11 +29602,7 @@
     "name": "croagunk-poison",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "グレッグルのどくそ",
-      "zh-Hant": "不良蛙的毒素",
-      "en": "Croagunk Poison"
-    },
+    "names": { "ja-Hrkt": "グレッグルのどくそ", "zh-Hant": "不良蛙的毒素", "en": "Croagunk Poison" },
     "pocket": "misc"
   },
   {
@@ -30351,11 +29610,7 @@
     "name": "finneon-scales",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ケイコウオのウロコ",
-      "zh-Hant": "荧光鱼的鳞片",
-      "en": "Finneon Scales"
-    },
+    "names": { "ja-Hrkt": "ケイコウオのウロコ", "zh-Hant": "荧光鱼的鳞片", "en": "Finneon Scales" },
     "pocket": "misc"
   },
   {
@@ -30363,11 +29618,7 @@
     "name": "snover-berries",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ユキカブリのみ",
-      "zh-Hant": "雪笠怪的果实",
-      "en": "Snover Berries"
-    },
+    "names": { "ja-Hrkt": "ユキカブリのみ", "zh-Hant": "雪笠怪的果实", "en": "Snover Berries" },
     "pocket": "misc"
   },
   {
@@ -30375,11 +29626,7 @@
     "name": "rotom-sparks",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ロトムのでんき",
-      "zh-Hant": "洛托姆的电力",
-      "en": "Rotom Sparks"
-    },
+    "names": { "ja-Hrkt": "ロトムのでんき", "zh-Hant": "洛托姆的电力", "en": "Rotom Sparks" },
     "pocket": "misc"
   },
   {
@@ -30387,11 +29634,7 @@
     "name": "petilil-leaf",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "チュリネのはっぱ",
-      "zh-Hant": "百合根娃娃的叶片",
-      "en": "Petilil Leaf"
-    },
+    "names": { "ja-Hrkt": "チュリネのはっぱ", "zh-Hant": "百合根娃娃的叶片", "en": "Petilil Leaf" },
     "pocket": "misc"
   },
   {
@@ -30399,11 +29642,7 @@
     "name": "basculin-fang",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "バスラオのキバ",
-      "zh-Hant": "野蛮鲈鱼的牙",
-      "en": "Basculin Fang"
-    },
+    "names": { "ja-Hrkt": "バスラオのキバ", "zh-Hant": "野蛮鲈鱼的牙", "en": "Basculin Fang" },
     "pocket": "misc"
   },
   {
@@ -30411,11 +29650,7 @@
     "name": "sandile-claw",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "メグロコのツメ",
-      "zh-Hant": "黑眼鳄的爪子",
-      "en": "Sandile Claw"
-    },
+    "names": { "ja-Hrkt": "メグロコのツメ", "zh-Hant": "黑眼鳄的爪子", "en": "Sandile Claw" },
     "pocket": "misc"
   },
   {
@@ -30423,11 +29658,7 @@
     "name": "zorua-fur",
     "category": "tm-materials",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "ゾロアのけ",
-      "zh-Hant": "索罗亚的毛",
-      "en": "Zorua Fur"
-    },
+    "names": { "ja-Hrkt": "ゾロアのけ", "zh-Hant": "索罗亚的毛", "en": "Zorua Fur" },
     "pocket": "misc"
   },
   {
@@ -30435,11 +29666,7 @@
     "name": "gothita-eyelash",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ゴチムのまつげ",
-      "zh-Hant": "哥德宝宝的睫毛",
-      "en": "Gothita Eyelash"
-    },
+    "names": { "ja-Hrkt": "ゴチムのまつげ", "zh-Hant": "哥德宝宝的睫毛", "en": "Gothita Eyelash" },
     "pocket": "misc"
   },
   {
@@ -30447,11 +29674,7 @@
     "name": "deerling-hair",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "シキジカのけ",
-      "zh-Hant": "四季鹿的毛",
-      "en": "Deerling Hair"
-    },
+    "names": { "ja-Hrkt": "シキジカのけ", "zh-Hant": "四季鹿的毛", "en": "Deerling Hair" },
     "pocket": "misc"
   },
   {
@@ -30459,11 +29682,7 @@
     "name": "foongus-spores",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "タマゲタケのほうし",
-      "zh-Hant": "哎呀球菇的孢子",
-      "en": "Foongus Spores"
-    },
+    "names": { "ja-Hrkt": "タマゲタケのほうし", "zh-Hant": "哎呀球菇的孢子", "en": "Foongus Spores" },
     "pocket": "misc"
   },
   {
@@ -30471,11 +29690,7 @@
     "name": "alomomola-mucus",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "ママンボウのねんえき",
-      "zh-Hant": "保姆曼波的黏液",
-      "en": "Alomomola Mucus"
-    },
+    "names": { "ja-Hrkt": "ママンボウのねんえき", "zh-Hant": "保姆曼波的黏液", "en": "Alomomola Mucus" },
     "pocket": "misc"
   },
   {
@@ -30483,11 +29698,7 @@
     "name": "tynamo-slime",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "シビシラスのねんえき",
-      "zh-Hant": "麻麻小鱼的黏液",
-      "en": "Tynamo Slime"
-    },
+    "names": { "ja-Hrkt": "シビシラスのねんえき", "zh-Hant": "麻麻小鱼的黏液", "en": "Tynamo Slime" },
     "pocket": "misc"
   },
   {
@@ -30495,11 +29706,7 @@
     "name": "axew-scales",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "キバゴのウロコ",
-      "zh-Hant": "牙牙的鳞片",
-      "en": "Axew Scales"
-    },
+    "names": { "ja-Hrkt": "キバゴのウロコ", "zh-Hant": "牙牙的鳞片", "en": "Axew Scales" },
     "pocket": "misc"
   },
   {
@@ -30507,11 +29714,7 @@
     "name": "cubchoo-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "クマシュンのけ",
-      "zh-Hant": "喷嚏熊的毛",
-      "en": "Cubchoo Fur"
-    },
+    "names": { "ja-Hrkt": "クマシュンのけ", "zh-Hant": "喷嚏熊的毛", "en": "Cubchoo Fur" },
     "pocket": "misc"
   },
   {
@@ -30519,11 +29722,7 @@
     "name": "cryogonal-ice",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "フリージオのこおり",
-      "zh-Hant": "几何雪花的冰",
-      "en": "Cryogonal Ice"
-    },
+    "names": { "ja-Hrkt": "フリージオのこおり", "zh-Hant": "几何雪花的冰", "en": "Cryogonal Ice" },
     "pocket": "misc"
   },
   {
@@ -30531,11 +29730,7 @@
     "name": "pawniard-blade",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "コマタナのやいば",
-      "zh-Hant": "驹刀小兵的刀",
-      "en": "Pawniard Blade"
-    },
+    "names": { "ja-Hrkt": "コマタナのやいば", "zh-Hant": "驹刀小兵的刀", "en": "Pawniard Blade" },
     "pocket": "misc"
   },
   {
@@ -30543,11 +29738,7 @@
     "name": "rufflet-feather",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ワシボンのはね",
-      "zh-Hant": "毛头小鹰的羽毛",
-      "en": "Rufflet Feather"
-    },
+    "names": { "ja-Hrkt": "ワシボンのはね", "zh-Hant": "毛头小鹰的羽毛", "en": "Rufflet Feather" },
     "pocket": "misc"
   },
   {
@@ -30555,11 +29746,7 @@
     "name": "deino-scales",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "モノズのウロコ",
-      "zh-Hant": "单首龙的鳞片",
-      "en": "Deino Scales"
-    },
+    "names": { "ja-Hrkt": "モノズのウロコ", "zh-Hant": "单首龙的鳞片", "en": "Deino Scales" },
     "pocket": "misc"
   },
   {
@@ -30567,11 +29754,7 @@
     "name": "larvesta-fuzz",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "メラルバのけ",
-      "zh-Hant": "燃烧虫的毛",
-      "en": "Larvesta Fuzz"
-    },
+    "names": { "ja-Hrkt": "メラルバのけ", "zh-Hant": "燃烧虫的毛", "en": "Larvesta Fuzz" },
     "pocket": "misc"
   },
   {
@@ -30579,11 +29762,7 @@
     "name": "fletchling-feather",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ヤヤコマのはね",
-      "zh-Hant": "小箭雀的羽毛",
-      "en": "Fletchling Feather"
-    },
+    "names": { "ja-Hrkt": "ヤヤコマのはね", "zh-Hant": "小箭雀的羽毛", "en": "Fletchling Feather" },
     "pocket": "misc"
   },
   {
@@ -30591,11 +29770,7 @@
     "name": "scatterbug-powder",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "コフキムシのこな",
-      "zh-Hant": "粉蝶虫的粉",
-      "en": "Scatterbug Powder"
-    },
+    "names": { "ja-Hrkt": "コフキムシのこな", "zh-Hant": "粉蝶虫的粉", "en": "Scatterbug Powder" },
     "pocket": "misc"
   },
   {
@@ -30603,11 +29778,7 @@
     "name": "litleo-tuft",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "シシコのたてがみ",
-      "zh-Hant": "小狮狮的鬃毛",
-      "en": "Litleo Tuft"
-    },
+    "names": { "ja-Hrkt": "シシコのたてがみ", "zh-Hant": "小狮狮的鬃毛", "en": "Litleo Tuft" },
     "pocket": "misc"
   },
   {
@@ -30615,11 +29786,7 @@
     "name": "flabébé-pollen",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "フラベベのかふん",
-      "zh-Hant": "花蓓蓓的花粉",
-      "en": "Flabébé Pollen"
-    },
+    "names": { "ja-Hrkt": "フラベベのかふん", "zh-Hant": "花蓓蓓的花粉", "en": "Flabébé Pollen" },
     "pocket": "misc"
   },
   {
@@ -30627,11 +29794,7 @@
     "name": "skiddo-leaf",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "メェークルのはっぱ",
-      "zh-Hant": "坐骑小羊的叶片",
-      "en": "Skiddo Leaf"
-    },
+    "names": { "ja-Hrkt": "メェークルのはっぱ", "zh-Hant": "坐骑小羊的叶片", "en": "Skiddo Leaf" },
     "pocket": "misc"
   },
   {
@@ -30639,11 +29802,7 @@
     "name": "skrelp-kelp",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "クズモーのもくず",
-      "zh-Hant": "垃垃藻的碎藻",
-      "en": "Skrelp Kelp"
-    },
+    "names": { "ja-Hrkt": "クズモーのもくず", "zh-Hant": "垃垃藻的碎藻", "en": "Skrelp Kelp" },
     "pocket": "misc"
   },
   {
@@ -30651,11 +29810,7 @@
     "name": "clauncher-claw",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ウデッポウのハサミ",
-      "zh-Hant": "铁臂枪虾的钳子",
-      "en": "Clauncher Claw"
-    },
+    "names": { "ja-Hrkt": "ウデッポウのハサミ", "zh-Hant": "铁臂枪虾的钳子", "en": "Clauncher Claw" },
     "pocket": "misc"
   },
   {
@@ -30663,11 +29818,7 @@
     "name": "hawlucha-down",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ルチャブルのうもう",
-      "zh-Hant": "摔角鹰人的羽绒",
-      "en": "Hawlucha Down"
-    },
+    "names": { "ja-Hrkt": "ルチャブルのうもう", "zh-Hant": "摔角鹰人的羽绒", "en": "Hawlucha Down" },
     "pocket": "misc"
   },
   {
@@ -30675,11 +29826,7 @@
     "name": "dedenne-fur",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "デデンネのけ",
-      "zh-Hant": "咚咚鼠的毛",
-      "en": "Dedenne Fur"
-    },
+    "names": { "ja-Hrkt": "デデンネのけ", "zh-Hant": "咚咚鼠的毛", "en": "Dedenne Fur" },
     "pocket": "misc"
   },
   {
@@ -30687,11 +29834,7 @@
     "name": "goomy-goo",
     "category": "tm-materials",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "ヌメラのねんえき",
-      "zh-Hant": "黏黏宝的黏液",
-      "en": "Goomy Goo"
-    },
+    "names": { "ja-Hrkt": "ヌメラのねんえき", "zh-Hant": "黏黏宝的黏液", "en": "Goomy Goo" },
     "pocket": "misc"
   },
   {
@@ -30699,11 +29842,7 @@
     "name": "klefki-key",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "クレッフィのかぎ",
-      "zh-Hant": "钥圈儿的钥匙",
-      "en": "Klefki Key"
-    },
+    "names": { "ja-Hrkt": "クレッフィのかぎ", "zh-Hant": "钥圈儿的钥匙", "en": "Klefki Key" },
     "pocket": "misc"
   },
   {
@@ -30711,11 +29850,7 @@
     "name": "bergmite-ice",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カチコールのこおり",
-      "zh-Hant": "冰宝的冰",
-      "en": "Bergmite Ice"
-    },
+    "names": { "ja-Hrkt": "カチコールのこおり", "zh-Hant": "冰宝的冰", "en": "Bergmite Ice" },
     "pocket": "misc"
   },
   {
@@ -30723,11 +29858,7 @@
     "name": "noibat-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "オンバットのけ",
-      "zh-Hant": "嗡蝠的毛",
-      "en": "Noibat Fur"
-    },
+    "names": { "ja-Hrkt": "オンバットのけ", "zh-Hant": "嗡蝠的毛", "en": "Noibat Fur" },
     "pocket": "misc"
   },
   {
@@ -30735,11 +29866,7 @@
     "name": "yungoos-fur",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ヤングースのけ",
-      "zh-Hant": "猫鼬少的毛",
-      "en": "Yungoos Fur"
-    },
+    "names": { "ja-Hrkt": "ヤングースのけ", "zh-Hant": "猫鼬少的毛", "en": "Yungoos Fur" },
     "pocket": "misc"
   },
   {
@@ -30747,11 +29874,7 @@
     "name": "crabrawler-shell",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "マケンカニのから",
-      "zh-Hant": "好胜蟹的壳",
-      "en": "Crabrawler Shell"
-    },
+    "names": { "ja-Hrkt": "マケンカニのから", "zh-Hant": "好胜蟹的壳", "en": "Crabrawler Shell" },
     "pocket": "misc"
   },
   {
@@ -30759,11 +29882,7 @@
     "name": "oricorio-feather",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "オドリドリのはね",
-      "zh-Hant": "花舞鸟的羽毛",
-      "en": "Oricorio Feather"
-    },
+    "names": { "ja-Hrkt": "オドリドリのはね", "zh-Hant": "花舞鸟的羽毛", "en": "Oricorio Feather" },
     "pocket": "misc"
   },
   {
@@ -30771,11 +29890,7 @@
     "name": "rockruff-rock",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "イワンコのいわ",
-      "zh-Hant": "岩狗狗的岩石",
-      "en": "Rockruff Rock"
-    },
+    "names": { "ja-Hrkt": "イワンコのいわ", "zh-Hant": "岩狗狗的岩石", "en": "Rockruff Rock" },
     "pocket": "misc"
   },
   {
@@ -30783,11 +29898,7 @@
     "name": "mareanie-spike",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ヒドイデのトゲ",
-      "zh-Hant": "好坏星的刺",
-      "en": "Mareanie Spike"
-    },
+    "names": { "ja-Hrkt": "ヒドイデのトゲ", "zh-Hant": "好坏星的刺", "en": "Mareanie Spike" },
     "pocket": "misc"
   },
   {
@@ -30795,11 +29906,7 @@
     "name": "mudbray-mud",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ドロバンコのどろ",
-      "zh-Hant": "泥驴仔的泥巴",
-      "en": "Mudbray Mud"
-    },
+    "names": { "ja-Hrkt": "ドロバンコのどろ", "zh-Hant": "泥驴仔的泥巴", "en": "Mudbray Mud" },
     "pocket": "misc"
   },
   {
@@ -30807,11 +29914,7 @@
     "name": "fomantis-leaf",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カリキリのはっぱ",
-      "zh-Hant": "伪螳草的叶片",
-      "en": "Fomantis Leaf"
-    },
+    "names": { "ja-Hrkt": "カリキリのはっぱ", "zh-Hant": "伪螳草的叶片", "en": "Fomantis Leaf" },
     "pocket": "misc"
   },
   {
@@ -30819,11 +29922,7 @@
     "name": "salandit-gas",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ヤトウモリのガス",
-      "zh-Hant": "夜盗火蜥的气体",
-      "en": "Salandit Gas"
-    },
+    "names": { "ja-Hrkt": "ヤトウモリのガス", "zh-Hant": "夜盗火蜥的气体", "en": "Salandit Gas" },
     "pocket": "misc"
   },
   {
@@ -30831,11 +29930,7 @@
     "name": "bounsweet-sweat",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "アマカジのあせ",
-      "zh-Hant": "甜竹竹的汗",
-      "en": "Bounsweet Sweat"
-    },
+    "names": { "ja-Hrkt": "アマカジのあせ", "zh-Hant": "甜竹竹的汗", "en": "Bounsweet Sweat" },
     "pocket": "misc"
   },
   {
@@ -30843,11 +29938,7 @@
     "name": "oranguru-fur",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "ヤレユータンのけ",
-      "zh-Hant": "智挥猩的毛",
-      "en": "Oranguru Fur"
-    },
+    "names": { "ja-Hrkt": "ヤレユータンのけ", "zh-Hant": "智挥猩的毛", "en": "Oranguru Fur" },
     "pocket": "misc"
   },
   {
@@ -30855,11 +29946,7 @@
     "name": "passimian-fur",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "ナゲツケサルのけ",
-      "zh-Hant": "投掷猴的毛",
-      "en": "Passimian Fur"
-    },
+    "names": { "ja-Hrkt": "ナゲツケサルのけ", "zh-Hant": "投掷猴的毛", "en": "Passimian Fur" },
     "pocket": "misc"
   },
   {
@@ -30867,11 +29954,7 @@
     "name": "sandygast-sand",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "スナバァのすな",
-      "zh-Hant": "沙丘娃的沙",
-      "en": "Sandygast Sand"
-    },
+    "names": { "ja-Hrkt": "スナバァのすな", "zh-Hant": "沙丘娃的沙", "en": "Sandygast Sand" },
     "pocket": "misc"
   },
   {
@@ -30879,11 +29962,7 @@
     "name": "komala-claw",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ネッコアラのツメ",
-      "zh-Hant": "树枕尾熊的爪子",
-      "en": "Komala Claw"
-    },
+    "names": { "ja-Hrkt": "ネッコアラのツメ", "zh-Hant": "树枕尾熊的爪子", "en": "Komala Claw" },
     "pocket": "misc"
   },
   {
@@ -30891,11 +29970,7 @@
     "name": "mimikyu-scrap",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "ミミッキュのきれはし",
-      "zh-Hant": "谜拟丘的残片",
-      "en": "Mimikyu Scrap"
-    },
+    "names": { "ja-Hrkt": "ミミッキュのきれはし", "zh-Hant": "谜拟丘的残片", "en": "Mimikyu Scrap" },
     "pocket": "misc"
   },
   {
@@ -30903,11 +29978,7 @@
     "name": "bruxish-tooth",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ハギギシリのは",
-      "zh-Hant": "磨牙彩皮鱼的牙齿",
-      "en": "Bruxish Tooth"
-    },
+    "names": { "ja-Hrkt": "ハギギシリのは", "zh-Hant": "磨牙彩皮鱼的牙齿", "en": "Bruxish Tooth" },
     "pocket": "misc"
   },
   {
@@ -30915,11 +29986,7 @@
     "name": "chewtle-claw",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カムカメのツメ",
-      "zh-Hant": "咬咬龟的爪子",
-      "en": "Chewtle Claw"
-    },
+    "names": { "ja-Hrkt": "カムカメのツメ", "zh-Hant": "咬咬龟的爪子", "en": "Chewtle Claw" },
     "pocket": "misc"
   },
   {
@@ -30927,11 +29994,7 @@
     "name": "skwovet-fur",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ホシガリスのけ",
-      "zh-Hant": "贪心栗鼠的毛",
-      "en": "Skwovet Fur"
-    },
+    "names": { "ja-Hrkt": "ホシガリスのけ", "zh-Hant": "贪心栗鼠的毛", "en": "Skwovet Fur" },
     "pocket": "misc"
   },
   {
@@ -30939,11 +30002,7 @@
     "name": "arrokuda-scales",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "サシカマスのウロコ",
-      "zh-Hant": "刺梭鱼的鳞片",
-      "en": "Arrokuda Scales"
-    },
+    "names": { "ja-Hrkt": "サシカマスのウロコ", "zh-Hant": "刺梭鱼的鳞片", "en": "Arrokuda Scales" },
     "pocket": "misc"
   },
   {
@@ -30951,11 +30010,7 @@
     "name": "rookidee-feather",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ココガラのはね",
-      "zh-Hant": "稚山雀的羽毛",
-      "en": "Rookidee Feather"
-    },
+    "names": { "ja-Hrkt": "ココガラのはね", "zh-Hant": "稚山雀的羽毛", "en": "Rookidee Feather" },
     "pocket": "misc"
   },
   {
@@ -30963,11 +30018,7 @@
     "name": "toxel-sparks",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "エレズンのでんき",
-      "zh-Hant": "电音婴的电力",
-      "en": "Toxel Sparks"
-    },
+    "names": { "ja-Hrkt": "エレズンのでんき", "zh-Hant": "电音婴的电力", "en": "Toxel Sparks" },
     "pocket": "misc"
   },
   {
@@ -30975,11 +30026,7 @@
     "name": "falinks-sweat",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "タイレーツのあせ",
-      "zh-Hant": "列阵兵的汗",
-      "en": "Falinks Sweat"
-    },
+    "names": { "ja-Hrkt": "タイレーツのあせ", "zh-Hant": "列阵兵的汗", "en": "Falinks Sweat" },
     "pocket": "misc"
   },
   {
@@ -30987,11 +30034,7 @@
     "name": "cufant-tarnish",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ゾウドウのさび",
-      "zh-Hant": "铜象的锈",
-      "en": "Cufant Tarnish"
-    },
+    "names": { "ja-Hrkt": "ゾウドウのさび", "zh-Hant": "铜象的锈", "en": "Cufant Tarnish" },
     "pocket": "misc"
   },
   {
@@ -30999,11 +30042,7 @@
     "name": "rolycoly-coal",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "タンドンのせきたん",
-      "zh-Hant": "小炭仔的煤炭",
-      "en": "Rolycoly Coal"
-    },
+    "names": { "ja-Hrkt": "タンドンのせきたん", "zh-Hant": "小炭仔的煤炭", "en": "Rolycoly Coal" },
     "pocket": "misc"
   },
   {
@@ -31011,11 +30050,7 @@
     "name": "silicobra-sand",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "スナヘビのすな",
-      "zh-Hant": "沙包蛇的沙",
-      "en": "Silicobra Sand"
-    },
+    "names": { "ja-Hrkt": "スナヘビのすな", "zh-Hant": "沙包蛇的沙", "en": "Silicobra Sand" },
     "pocket": "misc"
   },
   {
@@ -31023,11 +30058,7 @@
     "name": "indeedee-fur",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "イエッサンのけ",
-      "zh-Hant": "爱管侍的毛",
-      "en": "Indeedee Fur"
-    },
+    "names": { "ja-Hrkt": "イエッサンのけ", "zh-Hant": "爱管侍的毛", "en": "Indeedee Fur" },
     "pocket": "misc"
   },
   {
@@ -31035,11 +30066,7 @@
     "name": "pincurchin-spines",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "バチンウニのはり",
-      "zh-Hant": "啪嚓海胆的针",
-      "en": "Pincurchin Spines"
-    },
+    "names": { "ja-Hrkt": "バチンウニのはり", "zh-Hant": "啪嚓海胆的针", "en": "Pincurchin Spines" },
     "pocket": "misc"
   },
   {
@@ -31047,11 +30074,7 @@
     "name": "snom-thread",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ユキハミのいと",
-      "zh-Hant": "雪吞虫的丝",
-      "en": "Snom Thread"
-    },
+    "names": { "ja-Hrkt": "ユキハミのいと", "zh-Hant": "雪吞虫的丝", "en": "Snom Thread" },
     "pocket": "misc"
   },
   {
@@ -31059,11 +30082,7 @@
     "name": "impidimp-hair",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ベロバーのけ",
-      "zh-Hant": "捣蛋小妖的毛",
-      "en": "Impidimp Hair"
-    },
+    "names": { "ja-Hrkt": "ベロバーのけ", "zh-Hant": "捣蛋小妖的毛", "en": "Impidimp Hair" },
     "pocket": "misc"
   },
   {
@@ -31071,11 +30090,7 @@
     "name": "applin-juice",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "カジッチュのかじゅう",
-      "zh-Hant": "啃果虫的果汁",
-      "en": "Applin Juice"
-    },
+    "names": { "ja-Hrkt": "カジッチュのかじゅう", "zh-Hant": "啃果虫的果汁", "en": "Applin Juice" },
     "pocket": "misc"
   },
   {
@@ -31083,11 +30098,7 @@
     "name": "sinistea-chip",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ヤバチャのかけら",
-      "zh-Hant": "来悲茶的碎片",
-      "en": "Sinistea Chip"
-    },
+    "names": { "ja-Hrkt": "ヤバチャのかけら", "zh-Hant": "来悲茶的碎片", "en": "Sinistea Chip" },
     "pocket": "misc"
   },
   {
@@ -31095,11 +30106,7 @@
     "name": "hatenna-dust",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ミブリムのおとしもの",
-      "zh-Hant": "迷布莉姆的掉落物",
-      "en": "Hatenna Dust"
-    },
+    "names": { "ja-Hrkt": "ミブリムのおとしもの", "zh-Hant": "迷布莉姆的掉落物", "en": "Hatenna Dust" },
     "pocket": "misc"
   },
   {
@@ -31107,11 +30114,7 @@
     "name": "stonjourner-stone",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "イシヘンジンのいわ",
-      "zh-Hant": "巨石丁的岩石",
-      "en": "Stonjourner Stone"
-    },
+    "names": { "ja-Hrkt": "イシヘンジンのいわ", "zh-Hant": "巨石丁的岩石", "en": "Stonjourner Stone" },
     "pocket": "misc"
   },
   {
@@ -31119,11 +30122,7 @@
     "name": "eiscue-down",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "コオリッポのうもう",
-      "zh-Hant": "冰砌鹅的羽绒",
-      "en": "Eiscue Down"
-    },
+    "names": { "ja-Hrkt": "コオリッポのうもう", "zh-Hant": "冰砌鹅的羽绒", "en": "Eiscue Down" },
     "pocket": "misc"
   },
   {
@@ -31131,11 +30130,7 @@
     "name": "dreepy-powder",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ドラメシヤのこな",
-      "zh-Hant": "多龙梅西亚的粉",
-      "en": "Dreepy Powder"
-    },
+    "names": { "ja-Hrkt": "ドラメシヤのこな", "zh-Hant": "多龙梅西亚的粉", "en": "Dreepy Powder" },
     "pocket": "misc"
   },
   {
@@ -31143,11 +30138,7 @@
     "name": "lechonk-hair",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "グルトンのけ",
-      "zh-Hant": "爱吃豚的毛",
-      "en": "Lechonk Hair"
-    },
+    "names": { "ja-Hrkt": "グルトンのけ", "zh-Hant": "爱吃豚的毛", "en": "Lechonk Hair" },
     "pocket": "misc"
   },
   {
@@ -31155,11 +30146,7 @@
     "name": "tarountula-thread",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "タマンチュラのいと",
-      "zh-Hant": "团珠蛛的丝",
-      "en": "Tarountula Thread"
-    },
+    "names": { "ja-Hrkt": "タマンチュラのいと", "zh-Hant": "团珠蛛的丝", "en": "Tarountula Thread" },
     "pocket": "misc"
   },
   {
@@ -31167,11 +30154,7 @@
     "name": "nymble-claw",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "マメバッタのツメ",
-      "zh-Hant": "豆蟋蟀的爪子",
-      "en": "Nymble Claw"
-    },
+    "names": { "ja-Hrkt": "マメバッタのツメ", "zh-Hant": "豆蟋蟀的爪子", "en": "Nymble Claw" },
     "pocket": "misc"
   },
   {
@@ -31179,11 +30162,7 @@
     "name": "rellor-mud",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "シガロコのどろ",
-      "zh-Hant": "虫滚泥的泥巴",
-      "en": "Rellor Mud"
-    },
+    "names": { "ja-Hrkt": "シガロコのどろ", "zh-Hant": "虫滚泥的泥巴", "en": "Rellor Mud" },
     "pocket": "misc"
   },
   {
@@ -31191,11 +30170,7 @@
     "name": "greavard-wax",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ボチのろう",
-      "zh-Hant": "墓仔狗的蜡",
-      "en": "Greavard Wax"
-    },
+    "names": { "ja-Hrkt": "ボチのろう", "zh-Hant": "墓仔狗的蜡", "en": "Greavard Wax" },
     "pocket": "misc"
   },
   {
@@ -31203,11 +30178,7 @@
     "name": "flittle-down",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ヒラヒナのうもう",
-      "zh-Hant": "飘飘雏的羽绒",
-      "en": "Flittle Down"
-    },
+    "names": { "ja-Hrkt": "ヒラヒナのうもう", "zh-Hant": "飘飘雏的羽绒", "en": "Flittle Down" },
     "pocket": "misc"
   },
   {
@@ -31215,11 +30186,7 @@
     "name": "wiglett-sand",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ウミディグダのすな",
-      "zh-Hant": "海地鼠的沙",
-      "en": "Wiglett Sand"
-    },
+    "names": { "ja-Hrkt": "ウミディグダのすな", "zh-Hant": "海地鼠的沙", "en": "Wiglett Sand" },
     "pocket": "misc"
   },
   {
@@ -31227,11 +30194,7 @@
     "name": "dondozo-whisker",
     "category": "tm-materials",
     "cost": 160,
-    "names": {
-      "ja-Hrkt": "ヘイラッシャのヒゲ",
-      "zh-Hant": "吃吼霸的胡须",
-      "en": "Dondozo Whisker"
-    },
+    "names": { "ja-Hrkt": "ヘイラッシャのヒゲ", "zh-Hant": "吃吼霸的胡须", "en": "Dondozo Whisker" },
     "pocket": "misc"
   },
   {
@@ -31239,11 +30202,7 @@
     "name": "veluza-fillet",
     "category": "tm-materials",
     "cost": 140,
-    "names": {
-      "ja-Hrkt": "ミガルーサのきりみ",
-      "zh-Hant": "轻身鳕的鱼片",
-      "en": "Veluza Fillet"
-    },
+    "names": { "ja-Hrkt": "ミガルーサのきりみ", "zh-Hant": "轻身鳕的鱼片", "en": "Veluza Fillet" },
     "pocket": "misc"
   },
   {
@@ -31251,11 +30210,7 @@
     "name": "finizen-mucus",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ナミイルカのねんえき",
-      "zh-Hant": "波普海豚的黏液",
-      "en": "Finizen Mucus"
-    },
+    "names": { "ja-Hrkt": "ナミイルカのねんえき", "zh-Hant": "波普海豚的黏液", "en": "Finizen Mucus" },
     "pocket": "misc"
   },
   {
@@ -31263,11 +30218,7 @@
     "name": "smoliv-oil",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ミニーブのオイル",
-      "zh-Hant": "迷你芙的油",
-      "en": "Smoliv Oil"
-    },
+    "names": { "ja-Hrkt": "ミニーブのオイル", "zh-Hant": "迷你芙的油", "en": "Smoliv Oil" },
     "pocket": "misc"
   },
   {
@@ -31275,11 +30226,7 @@
     "name": "capsakid-seed",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カプサイジのたね",
-      "zh-Hant": "热辣娃的种子",
-      "en": "Capsakid Seed"
-    },
+    "names": { "ja-Hrkt": "カプサイジのたね", "zh-Hant": "热辣娃的种子", "en": "Capsakid Seed" },
     "pocket": "misc"
   },
   {
@@ -31287,11 +30234,7 @@
     "name": "tadbulb-mucus",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ズピカのねんえき",
-      "zh-Hant": "光蚪仔的黏液",
-      "en": "Tadbulb Mucus"
-    },
+    "names": { "ja-Hrkt": "ズピカのねんえき", "zh-Hant": "光蚪仔的黏液", "en": "Tadbulb Mucus" },
     "pocket": "misc"
   },
   {
@@ -31299,11 +30242,7 @@
     "name": "varoom-fume",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ブロロンのガス",
-      "zh-Hant": "噗隆隆的气体",
-      "en": "Varoom Fume"
-    },
+    "names": { "ja-Hrkt": "ブロロンのガス", "zh-Hant": "噗隆隆的气体", "en": "Varoom Fume" },
     "pocket": "misc"
   },
   {
@@ -31311,11 +30250,7 @@
     "name": "orthworm-tarnish",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ミミズズのさび",
-      "zh-Hant": "拖拖蚓的锈",
-      "en": "Orthworm Tarnish"
-    },
+    "names": { "ja-Hrkt": "ミミズズのさび", "zh-Hant": "拖拖蚓的锈", "en": "Orthworm Tarnish" },
     "pocket": "misc"
   },
   {
@@ -31323,11 +30258,7 @@
     "name": "tandemaus-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "ワッカネズミのけ",
-      "zh-Hant": "一对鼠的毛",
-      "en": "Tandemaus Fur"
-    },
+    "names": { "ja-Hrkt": "ワッカネズミのけ", "zh-Hant": "一对鼠的毛", "en": "Tandemaus Fur" },
     "pocket": "misc"
   },
   {
@@ -31335,11 +30266,7 @@
     "name": "cetoddle-grease",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "アルクジラのあぶら",
-      "zh-Hant": "走鲸的油脂",
-      "en": "Cetoddle Grease"
-    },
+    "names": { "ja-Hrkt": "アルクジラのあぶら", "zh-Hant": "走鲸的油脂", "en": "Cetoddle Grease" },
     "pocket": "misc"
   },
   {
@@ -31347,11 +30274,7 @@
     "name": "frigibax-scales",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "セビエのウロコ",
-      "zh-Hant": "凉脊龙的鳞片",
-      "en": "Frigibax Scales"
-    },
+    "names": { "ja-Hrkt": "セビエのウロコ", "zh-Hant": "凉脊龙的鳞片", "en": "Frigibax Scales" },
     "pocket": "misc"
   },
   {
@@ -31359,11 +30282,7 @@
     "name": "tatsugiri-scales",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "シャリタツのウロコ",
-      "zh-Hant": "米立龙的鳞片",
-      "en": "Tatsugiri Scales"
-    },
+    "names": { "ja-Hrkt": "シャリタツのウロコ", "zh-Hant": "米立龙的鳞片", "en": "Tatsugiri Scales" },
     "pocket": "misc"
   },
   {
@@ -31371,11 +30290,7 @@
     "name": "cyclizar-scales",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "モトトカゲのウロコ",
-      "zh-Hant": "摩托蜥的鳞片",
-      "en": "Cyclizar Scales"
-    },
+    "names": { "ja-Hrkt": "モトトカゲのウロコ", "zh-Hant": "摩托蜥的鳞片", "en": "Cyclizar Scales" },
     "pocket": "misc"
   },
   {
@@ -31383,11 +30298,7 @@
     "name": "pawmi-fur",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "パモのけ",
-      "zh-Hant": "布拨的毛",
-      "en": "Pawmi Fur"
-    },
+    "names": { "ja-Hrkt": "パモのけ", "zh-Hant": "布拨的毛", "en": "Pawmi Fur" },
     "pocket": "misc"
   },
   {
@@ -31395,11 +30306,7 @@
     "name": "wattrel-feather",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "カイデンのはね",
-      "zh-Hant": "电海燕的羽毛",
-      "en": "Wattrel Feather"
-    },
+    "names": { "ja-Hrkt": "カイデンのはね", "zh-Hant": "电海燕的羽毛", "en": "Wattrel Feather" },
     "pocket": "misc"
   },
   {
@@ -31407,11 +30314,7 @@
     "name": "bombirdier-feather",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "オトシドリのはね",
-      "zh-Hant": "下石鸟的羽毛",
-      "en": "Bombirdier Feather"
-    },
+    "names": { "ja-Hrkt": "オトシドリのはね", "zh-Hant": "下石鸟的羽毛", "en": "Bombirdier Feather" },
     "pocket": "misc"
   },
   {
@@ -31419,11 +30322,7 @@
     "name": "squawkabilly-feather",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "イキリンコのはね",
-      "zh-Hant": "怒鹦哥的羽毛",
-      "en": "Squawkabilly Feather"
-    },
+    "names": { "ja-Hrkt": "イキリンコのはね", "zh-Hant": "怒鹦哥的羽毛", "en": "Squawkabilly Feather" },
     "pocket": "misc"
   },
   {
@@ -31431,11 +30330,7 @@
     "name": "flamigo-down",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カラミンゴのうもう",
-      "zh-Hant": "缠红鹤的羽绒",
-      "en": "Flamigo Down"
-    },
+    "names": { "ja-Hrkt": "カラミンゴのうもう", "zh-Hant": "缠红鹤的羽绒", "en": "Flamigo Down" },
     "pocket": "misc"
   },
   {
@@ -31443,11 +30338,7 @@
     "name": "klawf-claw",
     "category": "tm-materials",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "ガケガニのハサミ",
-      "zh-Hant": "毛崖蟹的钳子",
-      "en": "Klawf Claw"
-    },
+    "names": { "ja-Hrkt": "ガケガニのハサミ", "zh-Hant": "毛崖蟹的钳子", "en": "Klawf Claw" },
     "pocket": "misc"
   },
   {
@@ -31455,11 +30346,7 @@
     "name": "nacli-salt",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "コジオのしお",
-      "zh-Hant": "盐石宝的盐",
-      "en": "Nacli Salt"
-    },
+    "names": { "ja-Hrkt": "コジオのしお", "zh-Hant": "盐石宝的盐", "en": "Nacli Salt" },
     "pocket": "misc"
   },
   {
@@ -31467,11 +30354,7 @@
     "name": "glimmet-crystal",
     "category": "tm-materials",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "キラーメのけっしょう",
-      "zh-Hant": "晶光芽的结晶",
-      "en": "Glimmet Crystal"
-    },
+    "names": { "ja-Hrkt": "キラーメのけっしょう", "zh-Hant": "晶光芽的结晶", "en": "Glimmet Crystal" },
     "pocket": "misc"
   },
   {
@@ -31479,11 +30362,7 @@
     "name": "shroodle-ink",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "シルシュルーのインク",
-      "zh-Hant": "滋汁鼹的墨汁",
-      "en": "Shroodle Ink"
-    },
+    "names": { "ja-Hrkt": "シルシュルーのインク", "zh-Hant": "滋汁鼹的墨汁", "en": "Shroodle Ink" },
     "pocket": "misc"
   },
   {
@@ -31491,11 +30370,7 @@
     "name": "fidough-fur",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "パピモッチのけ",
-      "zh-Hant": "狗仔包的毛",
-      "en": "Fidough Fur"
-    },
+    "names": { "ja-Hrkt": "パピモッチのけ", "zh-Hant": "狗仔包的毛", "en": "Fidough Fur" },
     "pocket": "misc"
   },
   {
@@ -31503,11 +30378,7 @@
     "name": "maschiff-fang",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "オラチフのキバ",
-      "zh-Hant": "偶叫獒的牙",
-      "en": "Maschiff Fang"
-    },
+    "names": { "ja-Hrkt": "オラチフのキバ", "zh-Hant": "偶叫獒的牙", "en": "Maschiff Fang" },
     "pocket": "misc"
   },
   {
@@ -31515,11 +30386,7 @@
     "name": "bramblin-twig",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "アノクサのえだ",
-      "zh-Hant": "纳噬草的枝条",
-      "en": "Bramblin Twig"
-    },
+    "names": { "ja-Hrkt": "アノクサのえだ", "zh-Hant": "纳噬草的枝条", "en": "Bramblin Twig" },
     "pocket": "misc"
   },
   {
@@ -31527,11 +30394,7 @@
     "name": "gimmighoul-coin",
     "category": "tm-materials",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "コレクレーのコイン",
-      "zh-Hant": "索财灵的硬币",
-      "en": "Gimmighoul Coin"
-    },
+    "names": { "ja-Hrkt": "コレクレーのコイン", "zh-Hant": "索财灵的硬币", "en": "Gimmighoul Coin" },
     "pocket": "misc"
   },
   {
@@ -31539,11 +30402,7 @@
     "name": "tinkatink-hair",
     "category": "tm-materials",
     "cost": 80,
-    "names": {
-      "ja-Hrkt": "カヌチャンのけ",
-      "zh-Hant": "小锻匠的毛",
-      "en": "Tinkatink Hair"
-    },
+    "names": { "ja-Hrkt": "カヌチャンのけ", "zh-Hant": "小锻匠的毛", "en": "Tinkatink Hair" },
     "pocket": "misc"
   },
   {
@@ -31551,11 +30410,7 @@
     "name": "charcadet-soot",
     "category": "tm-materials",
     "cost": 160,
-    "names": {
-      "ja-Hrkt": "カルボウのすす",
-      "zh-Hant": "炭小侍的煤灰",
-      "en": "Charcadet Soot"
-    },
+    "names": { "ja-Hrkt": "カルボウのすす", "zh-Hant": "炭小侍的煤灰", "en": "Charcadet Soot" },
     "pocket": "misc"
   },
   {
@@ -31563,11 +30418,7 @@
     "name": "toedscool-flaps",
     "category": "tm-materials",
     "cost": 100,
-    "names": {
-      "ja-Hrkt": "ノノクラゲのヒラヒラ",
-      "zh-Hant": "原野水母的薄片",
-      "en": "Toedscool Flaps"
-    },
+    "names": { "ja-Hrkt": "ノノクラゲのヒラヒラ", "zh-Hant": "原野水母的薄片", "en": "Toedscool Flaps" },
     "pocket": "misc"
   },
   {
@@ -31575,11 +30426,7 @@
     "name": "wooper-slime",
     "category": "tm-materials",
     "cost": 60,
-    "names": {
-      "ja-Hrkt": "ウパーのねんえき",
-      "zh-Hant": "乌波的黏液",
-      "en": "Wooper Slime"
-    },
+    "names": { "ja-Hrkt": "ウパーのねんえき", "zh-Hant": "乌波的黏液", "en": "Wooper Slime" },
     "pocket": "misc"
   },
   {
@@ -31587,11 +30434,7 @@
     "name": "tm100",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１００",
-      "zh-Hant": "招式学习器１００",
-      "en": "TM100"
-    },
+    "names": { "ja-Hrkt": "わざマシン１００", "zh-Hant": "招式学习器１００", "en": "TM100" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31600,11 +30443,7 @@
     "name": "tm101",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０１",
-      "zh-Hant": "招式学习器１０１",
-      "en": "TM101"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０１", "zh-Hant": "招式学习器１０１", "en": "TM101" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31613,11 +30452,7 @@
     "name": "tm102",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０２",
-      "zh-Hant": "招式学习器１０２",
-      "en": "TM102"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０２", "zh-Hant": "招式学习器１０２", "en": "TM102" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31626,11 +30461,7 @@
     "name": "tm103",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０３",
-      "zh-Hant": "招式学习器１０３",
-      "en": "TM103"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０３", "zh-Hant": "招式学习器１０３", "en": "TM103" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31639,11 +30470,7 @@
     "name": "tm104",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０４",
-      "zh-Hant": "招式学习器１０４",
-      "en": "TM104"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０４", "zh-Hant": "招式学习器１０４", "en": "TM104" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31652,11 +30479,7 @@
     "name": "tm105",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０５",
-      "zh-Hant": "招式学习器１０５",
-      "en": "TM105"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０５", "zh-Hant": "招式学习器１０５", "en": "TM105" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31665,11 +30488,7 @@
     "name": "tm106",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０６",
-      "zh-Hant": "招式学习器１０６",
-      "en": "TM106"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０６", "zh-Hant": "招式学习器１０６", "en": "TM106" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31678,11 +30497,7 @@
     "name": "tm107",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０７",
-      "zh-Hant": "招式学习器１０７",
-      "en": "TM107"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０７", "zh-Hant": "招式学习器１０７", "en": "TM107" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31691,11 +30506,7 @@
     "name": "tm108",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０８",
-      "zh-Hant": "招式学习器１０８",
-      "en": "TM108"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０８", "zh-Hant": "招式学习器１０８", "en": "TM108" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31704,11 +30515,7 @@
     "name": "tm109",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１０９",
-      "zh-Hant": "招式学习器１０９",
-      "en": "TM109"
-    },
+    "names": { "ja-Hrkt": "わざマシン１０９", "zh-Hant": "招式学习器１０９", "en": "TM109" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31717,11 +30524,7 @@
     "name": "tm110",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１０",
-      "zh-Hant": "招式学习器１１０",
-      "en": "TM110"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１０", "zh-Hant": "招式学习器１１０", "en": "TM110" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31730,11 +30533,7 @@
     "name": "tm111",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１１",
-      "zh-Hant": "招式学习器１１１",
-      "en": "TM111"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１１", "zh-Hant": "招式学习器１１１", "en": "TM111" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31743,11 +30542,7 @@
     "name": "tm112",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１２",
-      "zh-Hant": "招式学习器１１２",
-      "en": "TM112"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１２", "zh-Hant": "招式学习器１１２", "en": "TM112" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31756,11 +30551,7 @@
     "name": "tm113",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１３",
-      "zh-Hant": "招式学习器１１３",
-      "en": "TM113"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１３", "zh-Hant": "招式学习器１１３", "en": "TM113" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31769,11 +30560,7 @@
     "name": "tm114",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１４",
-      "zh-Hant": "招式学习器１１４",
-      "en": "TM114"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１４", "zh-Hant": "招式学习器１１４", "en": "TM114" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31782,11 +30569,7 @@
     "name": "tm115",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１５",
-      "zh-Hant": "招式学习器１１５",
-      "en": "TM115"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１５", "zh-Hant": "招式学习器１１５", "en": "TM115" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31795,11 +30578,7 @@
     "name": "tm116",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１６",
-      "zh-Hant": "招式学习器１１６",
-      "en": "TM116"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１６", "zh-Hant": "招式学习器１１６", "en": "TM116" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31808,11 +30587,7 @@
     "name": "tm117",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１７",
-      "zh-Hant": "招式学习器１１７",
-      "en": "TM117"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１７", "zh-Hant": "招式学习器１１７", "en": "TM117" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31821,11 +30596,7 @@
     "name": "tm118",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１８",
-      "zh-Hant": "招式学习器１１８",
-      "en": "TM118"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１８", "zh-Hant": "招式学习器１１８", "en": "TM118" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31834,11 +30605,7 @@
     "name": "tm119",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１１９",
-      "zh-Hant": "招式学习器１１９",
-      "en": "TM119"
-    },
+    "names": { "ja-Hrkt": "わざマシン１１９", "zh-Hant": "招式学习器１１９", "en": "TM119" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31847,11 +30614,7 @@
     "name": "tm120",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２０",
-      "zh-Hant": "招式学习器１２０",
-      "en": "TM120"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２０", "zh-Hant": "招式学习器１２０", "en": "TM120" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31860,11 +30623,7 @@
     "name": "tm121",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２１",
-      "zh-Hant": "招式学习器１２１",
-      "en": "TM121"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２１", "zh-Hant": "招式学习器１２１", "en": "TM121" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31873,11 +30632,7 @@
     "name": "tm122",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２２",
-      "zh-Hant": "招式学习器１２２",
-      "en": "TM122"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２２", "zh-Hant": "招式学习器１２２", "en": "TM122" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31886,11 +30641,7 @@
     "name": "tm123",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２３",
-      "zh-Hant": "招式学习器１２３",
-      "en": "TM123"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２３", "zh-Hant": "招式学习器１２３", "en": "TM123" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31899,11 +30650,7 @@
     "name": "tm124",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２４",
-      "zh-Hant": "招式学习器１２４",
-      "en": "TM124"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２４", "zh-Hant": "招式学习器１２４", "en": "TM124" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31912,11 +30659,7 @@
     "name": "tm125",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２５",
-      "zh-Hant": "招式学习器１２５",
-      "en": "TM125"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２５", "zh-Hant": "招式学习器１２５", "en": "TM125" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31925,11 +30668,7 @@
     "name": "tm126",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２６",
-      "zh-Hant": "招式学习器１２６",
-      "en": "TM126"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２６", "zh-Hant": "招式学习器１２６", "en": "TM126" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31938,11 +30677,7 @@
     "name": "tm127",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２７",
-      "zh-Hant": "招式学习器１２７",
-      "en": "TM127"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２７", "zh-Hant": "招式学习器１２７", "en": "TM127" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31951,11 +30686,7 @@
     "name": "tm128",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２８",
-      "zh-Hant": "招式学习器１２８",
-      "en": "TM128"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２８", "zh-Hant": "招式学习器１２８", "en": "TM128" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31964,11 +30695,7 @@
     "name": "tm129",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１２９",
-      "zh-Hant": "招式学习器１２９",
-      "en": "TM129"
-    },
+    "names": { "ja-Hrkt": "わざマシン１２９", "zh-Hant": "招式学习器１２９", "en": "TM129" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31977,11 +30704,7 @@
     "name": "tm130",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３０",
-      "zh-Hant": "招式学习器１３０",
-      "en": "TM130"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３０", "zh-Hant": "招式学习器１３０", "en": "TM130" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -31990,11 +30713,7 @@
     "name": "tm131",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３１",
-      "zh-Hant": "招式学习器１３１",
-      "en": "TM131"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３１", "zh-Hant": "招式学习器１３１", "en": "TM131" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32003,11 +30722,7 @@
     "name": "tm132",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３２",
-      "zh-Hant": "招式学习器１３２",
-      "en": "TM132"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３２", "zh-Hant": "招式学习器１３２", "en": "TM132" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32016,11 +30731,7 @@
     "name": "tm133",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３３",
-      "zh-Hant": "招式学习器１３３",
-      "en": "TM133"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３３", "zh-Hant": "招式学习器１３３", "en": "TM133" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32029,11 +30740,7 @@
     "name": "tm134",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３４",
-      "zh-Hant": "招式学习器１３４",
-      "en": "TM134"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３４", "zh-Hant": "招式学习器１３４", "en": "TM134" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32042,11 +30749,7 @@
     "name": "tm135",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３５",
-      "zh-Hant": "招式学习器１３５",
-      "en": "TM135"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３５", "zh-Hant": "招式学习器１３５", "en": "TM135" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32055,11 +30758,7 @@
     "name": "tm136",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３６",
-      "zh-Hant": "招式学习器１３６",
-      "en": "TM136"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３６", "zh-Hant": "招式学习器１３６", "en": "TM136" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32068,11 +30767,7 @@
     "name": "tm137",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３７",
-      "zh-Hant": "招式学习器１３７",
-      "en": "TM137"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３７", "zh-Hant": "招式学习器１３７", "en": "TM137" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32081,11 +30776,7 @@
     "name": "tm138",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３８",
-      "zh-Hant": "招式学习器１３８",
-      "en": "TM138"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３８", "zh-Hant": "招式学习器１３８", "en": "TM138" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32094,11 +30785,7 @@
     "name": "tm139",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１３９",
-      "zh-Hant": "招式学习器１３９",
-      "en": "TM139"
-    },
+    "names": { "ja-Hrkt": "わざマシン１３９", "zh-Hant": "招式学习器１３９", "en": "TM139" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32107,11 +30794,7 @@
     "name": "tm140",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４０",
-      "zh-Hant": "招式学习器１４０",
-      "en": "TM140"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４０", "zh-Hant": "招式学习器１４０", "en": "TM140" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32120,11 +30803,7 @@
     "name": "tm141",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４１",
-      "zh-Hant": "招式学习器１４１",
-      "en": "TM141"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４１", "zh-Hant": "招式学习器１４１", "en": "TM141" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32133,11 +30812,7 @@
     "name": "tm142",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４２",
-      "zh-Hant": "招式学习器１４２",
-      "en": "TM142"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４２", "zh-Hant": "招式学习器１４２", "en": "TM142" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32146,11 +30821,7 @@
     "name": "tm143",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４３",
-      "zh-Hant": "招式学习器１４３",
-      "en": "TM143"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４３", "zh-Hant": "招式学习器１４３", "en": "TM143" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32159,11 +30830,7 @@
     "name": "tm144",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４４",
-      "zh-Hant": "招式学习器１４４",
-      "en": "TM144"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４４", "zh-Hant": "招式学习器１４４", "en": "TM144" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32172,11 +30839,7 @@
     "name": "tm145",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４５",
-      "zh-Hant": "招式学习器１４５",
-      "en": "TM145"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４５", "zh-Hant": "招式学习器１４５", "en": "TM145" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32185,11 +30848,7 @@
     "name": "tm146",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４６",
-      "zh-Hant": "招式学习器１４６",
-      "en": "TM146"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４６", "zh-Hant": "招式学习器１４６", "en": "TM146" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32198,11 +30857,7 @@
     "name": "tm147",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４７",
-      "zh-Hant": "招式学习器１４７",
-      "en": "TM147"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４７", "zh-Hant": "招式学习器１４７", "en": "TM147" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32211,11 +30866,7 @@
     "name": "tm148",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４８",
-      "zh-Hant": "招式学习器１４８",
-      "en": "TM148"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４８", "zh-Hant": "招式学习器１４８", "en": "TM148" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32224,11 +30875,7 @@
     "name": "tm149",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１４９",
-      "zh-Hant": "招式学习器１４９",
-      "en": "TM149"
-    },
+    "names": { "ja-Hrkt": "わざマシン１４９", "zh-Hant": "招式学习器１４９", "en": "TM149" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32237,11 +30884,7 @@
     "name": "tm150",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５０",
-      "zh-Hant": "招式学习器１５０",
-      "en": "TM150"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５０", "zh-Hant": "招式学习器１５０", "en": "TM150" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32250,11 +30893,7 @@
     "name": "tm151",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５１",
-      "zh-Hant": "招式学习器１５１",
-      "en": "TM151"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５１", "zh-Hant": "招式学习器１５１", "en": "TM151" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32263,11 +30902,7 @@
     "name": "tm152",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５２",
-      "zh-Hant": "招式学习器１５２",
-      "en": "TM152"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５２", "zh-Hant": "招式学习器１５２", "en": "TM152" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32276,11 +30911,7 @@
     "name": "tm153",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５３",
-      "zh-Hant": "招式学习器１５３",
-      "en": "TM153"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５３", "zh-Hant": "招式学习器１５３", "en": "TM153" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32289,11 +30920,7 @@
     "name": "tm154",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５４",
-      "zh-Hant": "招式学习器１５４",
-      "en": "TM154"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５４", "zh-Hant": "招式学习器１５４", "en": "TM154" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32302,11 +30929,7 @@
     "name": "tm155",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５５",
-      "zh-Hant": "招式学习器１５５",
-      "en": "TM155"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５５", "zh-Hant": "招式学习器１５５", "en": "TM155" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32315,11 +30938,7 @@
     "name": "tm156",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５６",
-      "zh-Hant": "招式学习器１５６",
-      "en": "TM156"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５６", "zh-Hant": "招式学习器１５６", "en": "TM156" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32328,11 +30947,7 @@
     "name": "tm157",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５７",
-      "zh-Hant": "招式学习器１５７",
-      "en": "TM157"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５７", "zh-Hant": "招式学习器１５７", "en": "TM157" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32341,11 +30956,7 @@
     "name": "tm158",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５８",
-      "zh-Hant": "招式学习器１５８",
-      "en": "TM158"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５８", "zh-Hant": "招式学习器１５８", "en": "TM158" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32354,11 +30965,7 @@
     "name": "tm159",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１５９",
-      "zh-Hant": "招式学习器１５９",
-      "en": "TM159"
-    },
+    "names": { "ja-Hrkt": "わざマシン１５９", "zh-Hant": "招式学习器１５９", "en": "TM159" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32367,11 +30974,7 @@
     "name": "tm160",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６０",
-      "zh-Hant": "招式学习器１６０",
-      "en": "TM160"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６０", "zh-Hant": "招式学习器１６０", "en": "TM160" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32380,11 +30983,7 @@
     "name": "tm161",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６１",
-      "zh-Hant": "招式学习器１６１",
-      "en": "TM161"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６１", "zh-Hant": "招式学习器１６１", "en": "TM161" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32393,11 +30992,7 @@
     "name": "tm162",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６２",
-      "zh-Hant": "招式学习器１６２",
-      "en": "TM162"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６２", "zh-Hant": "招式学习器１６２", "en": "TM162" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32406,11 +31001,7 @@
     "name": "tm163",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６３",
-      "zh-Hant": "招式学习器１６３",
-      "en": "TM163"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６３", "zh-Hant": "招式学习器１６３", "en": "TM163" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32419,11 +31010,7 @@
     "name": "tm164",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６４",
-      "zh-Hant": "招式学习器１６４",
-      "en": "TM164"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６４", "zh-Hant": "招式学习器１６４", "en": "TM164" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32432,11 +31019,7 @@
     "name": "tm165",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６５",
-      "zh-Hant": "招式学习器１６５",
-      "en": "TM165"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６５", "zh-Hant": "招式学习器１６５", "en": "TM165" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32445,11 +31028,7 @@
     "name": "tm166",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６６",
-      "zh-Hant": "招式学习器１６６",
-      "en": "TM166"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６６", "zh-Hant": "招式学习器１６６", "en": "TM166" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32458,11 +31037,7 @@
     "name": "tm167",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６７",
-      "zh-Hant": "招式学习器１６７",
-      "en": "TM167"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６７", "zh-Hant": "招式学习器１６７", "en": "TM167" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32471,11 +31046,7 @@
     "name": "tm168",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６８",
-      "zh-Hant": "招式学习器１６８",
-      "en": "TM168"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６８", "zh-Hant": "招式学习器１６８", "en": "TM168" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32484,11 +31055,7 @@
     "name": "tm169",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１６９",
-      "zh-Hant": "招式学习器１６９",
-      "en": "TM169"
-    },
+    "names": { "ja-Hrkt": "わざマシン１６９", "zh-Hant": "招式学习器１６９", "en": "TM169" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32497,11 +31064,7 @@
     "name": "tm170",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１７０",
-      "zh-Hant": "招式学习器１７０",
-      "en": "TM170"
-    },
+    "names": { "ja-Hrkt": "わざマシン１７０", "zh-Hant": "招式学习器１７０", "en": "TM170" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32510,11 +31073,7 @@
     "name": "tm171",
     "category": "all-machines",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "わざマシン１７１",
-      "zh-Hant": "招式学习器１７１",
-      "en": "TM171"
-    },
+    "names": { "ja-Hrkt": "わざマシン１７１", "zh-Hant": "招式学习器１７１", "en": "TM171" },
     "sprite": "tm-normal.png",
     "pocket": "machines"
   },
@@ -32523,11 +31082,7 @@
     "name": "picnic-set",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ピクニックセット",
-      "zh-Hant": "野餐组合",
-      "en": "Picnic Set"
-    },
+    "names": { "ja-Hrkt": "ピクニックセット", "zh-Hant": "野餐组合", "en": "Picnic Set" },
     "pocket": "misc"
   },
   {
@@ -32535,11 +31090,7 @@
     "name": "academy-bottle",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールボトル",
-      "zh-Hant": "校园水壶",
-      "en": "Academy Bottle"
-    },
+    "names": { "ja-Hrkt": "スクールボトル", "zh-Hant": "校园水壶", "en": "Academy Bottle" },
     "pocket": "misc"
   },
   {
@@ -32547,11 +31098,7 @@
     "name": "academy-bottle",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールボトル",
-      "zh-Hant": "校园水壶",
-      "en": "Academy Bottle"
-    },
+    "names": { "ja-Hrkt": "スクールボトル", "zh-Hant": "校园水壶", "en": "Academy Bottle" },
     "pocket": "misc"
   },
   {
@@ -32559,11 +31106,7 @@
     "name": "polka-dot-bottle",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "みずたまボトル",
-      "zh-Hant": "圆点水壶",
-      "en": "Polka-Dot Bottle"
-    },
+    "names": { "ja-Hrkt": "みずたまボトル", "zh-Hant": "圆点水壶", "en": "Polka-Dot Bottle" },
     "pocket": "misc"
   },
   {
@@ -32571,11 +31114,7 @@
     "name": "striped-bottle",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "ストライプボトル",
-      "zh-Hant": "条纹水壶",
-      "en": "Striped Bottle"
-    },
+    "names": { "ja-Hrkt": "ストライプボトル", "zh-Hant": "条纹水壶", "en": "Striped Bottle" },
     "pocket": "misc"
   },
   {
@@ -32583,11 +31122,7 @@
     "name": "diamond-bottle",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "ダイヤボトル",
-      "zh-Hant": "菱纹水壶",
-      "en": "Diamond Bottle"
-    },
+    "names": { "ja-Hrkt": "ダイヤボトル", "zh-Hant": "菱纹水壶", "en": "Diamond Bottle" },
     "pocket": "misc"
   },
   {
@@ -32595,11 +31130,7 @@
     "name": "academy-cup",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールカップ",
-      "zh-Hant": "校园水杯",
-      "en": "Academy Cup"
-    },
+    "names": { "ja-Hrkt": "スクールカップ", "zh-Hant": "校园水杯", "en": "Academy Cup" },
     "pocket": "misc"
   },
   {
@@ -32607,11 +31138,7 @@
     "name": "academy-cup",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールカップ",
-      "zh-Hant": "校园水杯",
-      "en": "Academy Cup"
-    },
+    "names": { "ja-Hrkt": "スクールカップ", "zh-Hant": "校园水杯", "en": "Academy Cup" },
     "pocket": "misc"
   },
   {
@@ -32619,11 +31146,7 @@
     "name": "striped-cup",
     "category": "picnic",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "たてストライプカップ",
-      "zh-Hant": "直条纹水杯",
-      "en": "Striped Cup"
-    },
+    "names": { "ja-Hrkt": "たてストライプカップ", "zh-Hant": "直条纹水杯", "en": "Striped Cup" },
     "pocket": "misc"
   },
   {
@@ -32631,11 +31154,7 @@
     "name": "polka-dot-cup",
     "category": "picnic",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "みずたまカップ",
-      "zh-Hant": "圆点水杯",
-      "en": "Polka-Dot Cup"
-    },
+    "names": { "ja-Hrkt": "みずたまカップ", "zh-Hant": "圆点水杯", "en": "Polka-Dot Cup" },
     "pocket": "misc"
   },
   {
@@ -32643,11 +31162,7 @@
     "name": "flower-pattern-cup",
     "category": "picnic",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "フラワーカップ",
-      "zh-Hant": "花朵水杯",
-      "en": "Flower Pattern Cup"
-    },
+    "names": { "ja-Hrkt": "フラワーカップ", "zh-Hant": "花朵水杯", "en": "Flower Pattern Cup" },
     "pocket": "misc"
   },
   {
@@ -32655,11 +31170,7 @@
     "name": "academy-tablecloth",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールクロス",
-      "zh-Hant": "校园桌巾",
-      "en": "Academy Tablecloth"
-    },
+    "names": { "ja-Hrkt": "スクールクロス", "zh-Hant": "校园桌巾", "en": "Academy Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -32667,11 +31178,7 @@
     "name": "academy-tablecloth",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールクロス",
-      "zh-Hant": "校园桌巾",
-      "en": "Academy Tablecloth"
-    },
+    "names": { "ja-Hrkt": "スクールクロス", "zh-Hant": "校园桌巾", "en": "Academy Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -32679,11 +31186,7 @@
     "name": "whimsical-tablecloth",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ファンシークロス",
-      "zh-Hant": "幻彩桌巾",
-      "en": "Whimsical Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ファンシークロス", "zh-Hant": "幻彩桌巾", "en": "Whimsical Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -32691,11 +31194,7 @@
     "name": "leafy-tablecloth",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ネイチャークロス",
-      "zh-Hant": "大自然桌巾",
-      "en": "Leafy Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ネイチャークロス", "zh-Hant": "大自然桌巾", "en": "Leafy Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -32703,11 +31202,7 @@
     "name": "spooky-tablecloth",
     "category": "picnic",
     "cost": 4000,
-    "names": {
-      "ja-Hrkt": "うらめしクロス",
-      "zh-Hant": "鬼祟桌巾",
-      "en": "Spooky Tablecloth"
-    },
+    "names": { "ja-Hrkt": "うらめしクロス", "zh-Hant": "鬼祟桌巾", "en": "Spooky Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -32715,11 +31210,7 @@
     "name": "academy-ball",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールボール",
-      "zh-Hant": "校园球",
-      "en": "Academy Ball"
-    },
+    "names": { "ja-Hrkt": "スクールボール", "zh-Hant": "校园球", "en": "Academy Ball" },
     "pocket": "misc"
   },
   {
@@ -32727,11 +31218,7 @@
     "name": "academy-ball",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "スクールボール",
-      "zh-Hant": "校园球",
-      "en": "Academy Ball"
-    },
+    "names": { "ja-Hrkt": "スクールボール", "zh-Hant": "校园球", "en": "Academy Ball" },
     "pocket": "misc"
   },
   {
@@ -32739,11 +31226,7 @@
     "name": "marill-ball",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "マリルボール",
-      "zh-Hant": "玛力露球",
-      "en": "Marill Ball"
-    },
+    "names": { "ja-Hrkt": "マリルボール", "zh-Hant": "玛力露球", "en": "Marill Ball" },
     "pocket": "misc"
   },
   {
@@ -32751,11 +31234,7 @@
     "name": "yarn-ball",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "けいとボール",
-      "zh-Hant": "毛线球",
-      "en": "Yarn Ball"
-    },
+    "names": { "ja-Hrkt": "けいとボール", "zh-Hant": "毛线球", "en": "Yarn Ball" },
     "pocket": "misc"
   },
   {
@@ -32763,11 +31242,7 @@
     "name": "cyber-ball",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ゲーミングボール",
-      "zh-Hant": "电竞球",
-      "en": "Cyber Ball"
-    },
+    "names": { "ja-Hrkt": "ゲーミングボール", "zh-Hant": "电竞球", "en": "Cyber Ball" },
     "pocket": "misc"
   },
   {
@@ -32775,11 +31250,7 @@
     "name": "gold-pick",
     "category": "picnic",
     "cost": 400,
-    "names": {
-      "ja-Hrkt": "ゴールドピック",
-      "zh-Hant": "金色三明治签",
-      "en": "Gold Pick"
-    },
+    "names": { "ja-Hrkt": "ゴールドピック", "zh-Hant": "金色三明治签", "en": "Gold Pick" },
     "pocket": "misc"
   },
   {
@@ -32787,11 +31258,7 @@
     "name": "silver-pick",
     "category": "picnic",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "シルバーピック",
-      "zh-Hant": "银色三明治签",
-      "en": "Silver Pick"
-    },
+    "names": { "ja-Hrkt": "シルバーピック", "zh-Hant": "银色三明治签", "en": "Silver Pick" },
     "pocket": "misc"
   },
   {
@@ -32799,11 +31266,7 @@
     "name": "red-flag-pick",
     "category": "picnic",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "あかいはたピック",
-      "zh-Hant": "红旗子三明治签",
-      "en": "Red-Flag Pick"
-    },
+    "names": { "ja-Hrkt": "あかいはたピック", "zh-Hant": "红旗子三明治签", "en": "Red-Flag Pick" },
     "pocket": "misc"
   },
   {
@@ -32811,11 +31274,7 @@
     "name": "blue-flag-pick",
     "category": "picnic",
     "cost": 120,
-    "names": {
-      "ja-Hrkt": "あおいはたピック",
-      "zh-Hant": "蓝旗子三明治签",
-      "en": "Blue-Flag Pick"
-    },
+    "names": { "ja-Hrkt": "あおいはたピック", "zh-Hant": "蓝旗子三明治签", "en": "Blue-Flag Pick" },
     "pocket": "misc"
   },
   {
@@ -32823,11 +31282,7 @@
     "name": "pika-pika-pick",
     "category": "picnic",
     "cost": 480,
-    "names": {
-      "ja-Hrkt": "ピカピカピック",
-      "zh-Hant": "皮卡丘三明治签",
-      "en": "Pika-Pika Pick"
-    },
+    "names": { "ja-Hrkt": "ピカピカピック", "zh-Hant": "皮卡丘三明治签", "en": "Pika-Pika Pick" },
     "pocket": "misc"
   },
   {
@@ -32835,11 +31290,7 @@
     "name": "winking-pika-pick",
     "category": "picnic",
     "cost": 1200,
-    "names": {
-      "ja-Hrkt": "パチピカピック",
-      "zh-Hant": "眨眼皮卡丘三明治签",
-      "en": "Winking Pika Pick"
-    },
+    "names": { "ja-Hrkt": "パチピカピック", "zh-Hant": "眨眼皮卡丘三明治签", "en": "Winking Pika Pick" },
     "pocket": "misc"
   },
   {
@@ -32847,11 +31298,7 @@
     "name": "vee-vee-pick",
     "category": "picnic",
     "cost": 480,
-    "names": {
-      "ja-Hrkt": "ブイブイピック",
-      "zh-Hant": "伊布三明治签",
-      "en": "Vee-Vee Pick"
-    },
+    "names": { "ja-Hrkt": "ブイブイピック", "zh-Hant": "伊布三明治签", "en": "Vee-Vee Pick" },
     "pocket": "misc"
   },
   {
@@ -32859,11 +31306,7 @@
     "name": "smiling-vee-pick",
     "category": "picnic",
     "cost": 1200,
-    "names": {
-      "ja-Hrkt": "ニコブイピック",
-      "zh-Hant": "笑脸伊布三明治签",
-      "en": "Smiling Vee Pick"
-    },
+    "names": { "ja-Hrkt": "ニコブイピック", "zh-Hant": "笑脸伊布三明治签", "en": "Smiling Vee Pick" },
     "pocket": "misc"
   },
   {
@@ -32871,11 +31314,7 @@
     "name": "blue-poké-ball-pick",
     "category": "picnic",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "あおボールピック",
-      "zh-Hant": "蓝珠珠三明治签",
-      "en": "Blue Poké Ball Pick"
-    },
+    "names": { "ja-Hrkt": "あおボールピック", "zh-Hant": "蓝珠珠三明治签", "en": "Blue Poké Ball Pick" },
     "pocket": "misc"
   },
   {
@@ -32883,11 +31322,7 @@
     "name": "auspicious-armor",
     "category": "picnic",
     "cost": 3000,
-    "names": {
-      "ja-Hrkt": "イワイノヨロイ",
-      "zh-Hant": "庆祝之铠",
-      "en": "Auspicious Armor"
-    },
+    "names": { "ja-Hrkt": "イワイノヨロイ", "zh-Hant": "庆祝之铠", "en": "Auspicious Armor" },
     "pocket": "misc"
   },
   {
@@ -32895,11 +31330,7 @@
     "name": "leader’s-crest",
     "category": "picnic",
     "cost": 3000,
-    "names": {
-      "ja-Hrkt": "かしらのしるし",
-      "zh-Hant": "头领凭证",
-      "en": "Leader’s Crest"
-    },
+    "names": { "ja-Hrkt": "かしらのしるし", "zh-Hant": "头领凭证", "en": "Leader’s Crest" },
     "pocket": "misc"
   },
   {
@@ -32907,11 +31338,7 @@
     "name": "pink-bottle",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ピンクボトル",
-      "zh-Hant": "粉红水壶",
-      "en": "Pink Bottle"
-    },
+    "names": { "ja-Hrkt": "ピンクボトル", "zh-Hant": "粉红水壶", "en": "Pink Bottle" },
     "pocket": "misc"
   },
   {
@@ -32919,11 +31346,7 @@
     "name": "blue-bottle",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ブルーボトル",
-      "zh-Hant": "蓝色水壶",
-      "en": "Blue Bottle"
-    },
+    "names": { "ja-Hrkt": "ブルーボトル", "zh-Hant": "蓝色水壶", "en": "Blue Bottle" },
     "pocket": "misc"
   },
   {
@@ -32931,11 +31354,7 @@
     "name": "yellow-bottle",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "イエローボトル",
-      "zh-Hant": "黄色水壶",
-      "en": "Yellow Bottle"
-    },
+    "names": { "ja-Hrkt": "イエローボトル", "zh-Hant": "黄色水壶", "en": "Yellow Bottle" },
     "pocket": "misc"
   },
   {
@@ -32943,11 +31362,7 @@
     "name": "steel-bottle-(r)",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "Rステンレスボトル",
-      "zh-Hant": "红纹不锈钢水壶",
-      "en": "Steel Bottle (R)"
-    },
+    "names": { "ja-Hrkt": "Rステンレスボトル", "zh-Hant": "红纹不锈钢水壶", "en": "Steel Bottle (R)" },
     "pocket": "misc"
   },
   {
@@ -32955,11 +31370,7 @@
     "name": "steel-bottle-(y)",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "Yステンレスボトル",
-      "zh-Hant": "黄纹不锈钢水壶",
-      "en": "Steel Bottle (Y)"
-    },
+    "names": { "ja-Hrkt": "Yステンレスボトル", "zh-Hant": "黄纹不锈钢水壶", "en": "Steel Bottle (Y)" },
     "pocket": "misc"
   },
   {
@@ -32967,11 +31378,7 @@
     "name": "steel-bottle-(b)",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "Bステンレスボトル",
-      "zh-Hant": "蓝纹不锈钢水壶",
-      "en": "Steel Bottle (B)"
-    },
+    "names": { "ja-Hrkt": "Bステンレスボトル", "zh-Hant": "蓝纹不锈钢水壶", "en": "Steel Bottle (B)" },
     "pocket": "misc"
   },
   {
@@ -32979,11 +31386,7 @@
     "name": "silver-bottle",
     "category": "picnic",
     "cost": 20000,
-    "names": {
-      "ja-Hrkt": "シルバーチタンボトル",
-      "zh-Hant": "银钛水壶",
-      "en": "Silver Bottle"
-    },
+    "names": { "ja-Hrkt": "シルバーチタンボトル", "zh-Hant": "银钛水壶", "en": "Silver Bottle" },
     "pocket": "misc"
   },
   {
@@ -32991,11 +31394,7 @@
     "name": "barred-cup",
     "category": "picnic",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "よこストライプカップ",
-      "zh-Hant": "横条纹水杯",
-      "en": "Barred Cup"
-    },
+    "names": { "ja-Hrkt": "よこストライプカップ", "zh-Hant": "横条纹水杯", "en": "Barred Cup" },
     "pocket": "misc"
   },
   {
@@ -33003,11 +31402,7 @@
     "name": "diamond-pattern-cup",
     "category": "picnic",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "ダイヤカップ",
-      "zh-Hant": "菱纹水杯",
-      "en": "Diamond Pattern Cup"
-    },
+    "names": { "ja-Hrkt": "ダイヤカップ", "zh-Hant": "菱纹水杯", "en": "Diamond Pattern Cup" },
     "pocket": "misc"
   },
   {
@@ -33015,11 +31410,7 @@
     "name": "fire-pattern-cup",
     "category": "picnic",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "ファイヤーカップ",
-      "zh-Hant": "火焰水杯",
-      "en": "Fire Pattern Cup"
-    },
+    "names": { "ja-Hrkt": "ファイヤーカップ", "zh-Hant": "火焰水杯", "en": "Fire Pattern Cup" },
     "pocket": "misc"
   },
   {
@@ -33027,11 +31418,7 @@
     "name": "pink-cup",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "ピンクカップ",
-      "zh-Hant": "粉红水杯",
-      "en": "Pink Cup"
-    },
+    "names": { "ja-Hrkt": "ピンクカップ", "zh-Hant": "粉红水杯", "en": "Pink Cup" },
     "pocket": "misc"
   },
   {
@@ -33039,11 +31426,7 @@
     "name": "blue-cup",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "ブルーカップ",
-      "zh-Hant": "蓝色水杯",
-      "en": "Blue Cup"
-    },
+    "names": { "ja-Hrkt": "ブルーカップ", "zh-Hant": "蓝色水杯", "en": "Blue Cup" },
     "pocket": "misc"
   },
   {
@@ -33051,11 +31434,7 @@
     "name": "yellow-cup",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "イエローカップ",
-      "zh-Hant": "黄色水杯",
-      "en": "Yellow Cup"
-    },
+    "names": { "ja-Hrkt": "イエローカップ", "zh-Hant": "黄色水杯", "en": "Yellow Cup" },
     "pocket": "misc"
   },
   {
@@ -33063,11 +31442,7 @@
     "name": "pikachu-cup",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ピカチュウカップ",
-      "zh-Hant": "皮卡丘水杯",
-      "en": "Pikachu Cup"
-    },
+    "names": { "ja-Hrkt": "ピカチュウカップ", "zh-Hant": "皮卡丘水杯", "en": "Pikachu Cup" },
     "pocket": "misc"
   },
   {
@@ -33075,11 +31450,7 @@
     "name": "eevee-cup",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "イーブイカップ",
-      "zh-Hant": "伊布水杯",
-      "en": "Eevee Cup"
-    },
+    "names": { "ja-Hrkt": "イーブイカップ", "zh-Hant": "伊布水杯", "en": "Eevee Cup" },
     "pocket": "misc"
   },
   {
@@ -33087,11 +31458,7 @@
     "name": "slowpoke-cup",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ヤドンカップ",
-      "zh-Hant": "呆呆兽水杯",
-      "en": "Slowpoke Cup"
-    },
+    "names": { "ja-Hrkt": "ヤドンカップ", "zh-Hant": "呆呆兽水杯", "en": "Slowpoke Cup" },
     "pocket": "misc"
   },
   {
@@ -33099,11 +31466,7 @@
     "name": "silver-cup",
     "category": "picnic",
     "cost": 20000,
-    "names": {
-      "ja-Hrkt": "シルバーチタンカップ",
-      "zh-Hant": "银钛水杯",
-      "en": "Silver Cup"
-    },
+    "names": { "ja-Hrkt": "シルバーチタンカップ", "zh-Hant": "银钛水杯", "en": "Silver Cup" },
     "pocket": "misc"
   },
   {
@@ -33111,11 +31474,7 @@
     "name": "exercise-ball",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "バランスボール",
-      "zh-Hant": "瑜珈球",
-      "en": "Exercise Ball"
-    },
+    "names": { "ja-Hrkt": "バランスボール", "zh-Hant": "瑜珈球", "en": "Exercise Ball" },
     "pocket": "misc"
   },
   {
@@ -33123,11 +31482,7 @@
     "name": "plaid-tablecloth-(y)",
     "category": "picnic",
     "cost": 3000,
-    "names": {
-      "ja-Hrkt": "きいろチェッククロス",
-      "zh-Hant": "黄色格子桌巾",
-      "en": "Plaid Tablecloth (Y)"
-    },
+    "names": { "ja-Hrkt": "きいろチェッククロス", "zh-Hant": "黄色格子桌巾", "en": "Plaid Tablecloth (Y)" },
     "pocket": "misc"
   },
   {
@@ -33135,11 +31490,7 @@
     "name": "plaid-tablecloth-(b)",
     "category": "picnic",
     "cost": 3000,
-    "names": {
-      "ja-Hrkt": "あおチェッククロス",
-      "zh-Hant": "蓝色格子桌巾",
-      "en": "Plaid Tablecloth (B)"
-    },
+    "names": { "ja-Hrkt": "あおチェッククロス", "zh-Hant": "蓝色格子桌巾", "en": "Plaid Tablecloth (B)" },
     "pocket": "misc"
   },
   {
@@ -33147,11 +31498,7 @@
     "name": "plaid-tablecloth-(r)",
     "category": "picnic",
     "cost": 3000,
-    "names": {
-      "ja-Hrkt": "あかチェッククロス",
-      "zh-Hant": "红色格子桌巾",
-      "en": "Plaid Tablecloth (R)"
-    },
+    "names": { "ja-Hrkt": "あかチェッククロス", "zh-Hant": "红色格子桌巾", "en": "Plaid Tablecloth (R)" },
     "pocket": "misc"
   },
   {
@@ -33159,11 +31506,7 @@
     "name": "b&w-grass-tablecloth",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "くさむらモノクロス",
-      "zh-Hant": "黑白草丛桌巾",
-      "en": "B&W Grass Tablecloth"
-    },
+    "names": { "ja-Hrkt": "くさむらモノクロス", "zh-Hant": "黑白草丛桌巾", "en": "B&W Grass Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33171,11 +31514,7 @@
     "name": "battle-tablecloth",
     "category": "picnic",
     "cost": 4000,
-    "names": {
-      "ja-Hrkt": "しょうぶクロス",
-      "zh-Hant": "对决桌巾",
-      "en": "Battle Tablecloth"
-    },
+    "names": { "ja-Hrkt": "しょうぶクロス", "zh-Hant": "对决桌巾", "en": "Battle Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33183,11 +31522,7 @@
     "name": "monstrous-tablecloth",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "かいじゅうクロス",
-      "zh-Hant": "怪兽桌巾",
-      "en": "Monstrous Tablecloth"
-    },
+    "names": { "ja-Hrkt": "かいじゅうクロス", "zh-Hant": "怪兽桌巾", "en": "Monstrous Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33195,11 +31530,7 @@
     "name": "striped-tablecloth",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "ストライプクロス",
-      "zh-Hant": "条纹桌巾",
-      "en": "Striped Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ストライプクロス", "zh-Hant": "条纹桌巾", "en": "Striped Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33207,11 +31538,7 @@
     "name": "diamond-tablecloth",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "ダイヤクロス",
-      "zh-Hant": "菱纹桌巾",
-      "en": "Diamond Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ダイヤクロス", "zh-Hant": "菱纹桌巾", "en": "Diamond Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33219,11 +31546,7 @@
     "name": "polka-dot-tablecloth",
     "category": "picnic",
     "cost": 1500,
-    "names": {
-      "ja-Hrkt": "みずたまクロス",
-      "zh-Hant": "圆点桌巾",
-      "en": "Polka-Dot Tablecloth"
-    },
+    "names": { "ja-Hrkt": "みずたまクロス", "zh-Hant": "圆点桌巾", "en": "Polka-Dot Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33231,11 +31554,7 @@
     "name": "lilac-tablecloth",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "パープルクロス",
-      "zh-Hant": "紫色桌巾",
-      "en": "Lilac Tablecloth"
-    },
+    "names": { "ja-Hrkt": "パープルクロス", "zh-Hant": "紫色桌巾", "en": "Lilac Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33243,11 +31562,7 @@
     "name": "mint-tablecloth",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "ミントクロス",
-      "zh-Hant": "浅绿桌巾",
-      "en": "Mint Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ミントクロス", "zh-Hant": "浅绿桌巾", "en": "Mint Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33255,11 +31570,7 @@
     "name": "peach-tablecloth",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "ベージュクロス",
-      "zh-Hant": "米色桌巾",
-      "en": "Peach Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ベージュクロス", "zh-Hant": "米色桌巾", "en": "Peach Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33267,11 +31578,7 @@
     "name": "yellow-tablecloth",
     "category": "picnic",
     "cost": 5000,
-    "names": {
-      "ja-Hrkt": "イエロークロス",
-      "zh-Hant": "黄色桌巾",
-      "en": "Yellow Tablecloth"
-    },
+    "names": { "ja-Hrkt": "イエロークロス", "zh-Hant": "黄色桌巾", "en": "Yellow Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33279,11 +31586,7 @@
     "name": "blue-tablecloth",
     "category": "picnic",
     "cost": 5000,
-    "names": {
-      "ja-Hrkt": "ブルークロス",
-      "zh-Hant": "蓝色桌巾",
-      "en": "Blue Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ブルークロス", "zh-Hant": "蓝色桌巾", "en": "Blue Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33291,11 +31594,7 @@
     "name": "pink-tablecloth",
     "category": "picnic",
     "cost": 5000,
-    "names": {
-      "ja-Hrkt": "ピンククロス",
-      "zh-Hant": "粉红桌巾",
-      "en": "Pink Tablecloth"
-    },
+    "names": { "ja-Hrkt": "ピンククロス", "zh-Hant": "粉红桌巾", "en": "Pink Tablecloth" },
     "pocket": "misc"
   },
   {
@@ -33303,11 +31602,7 @@
     "name": "gold-bottle",
     "category": "picnic",
     "cost": 30000,
-    "names": {
-      "ja-Hrkt": "ゴールドチタンボトル",
-      "zh-Hant": "金钛水壶",
-      "en": "Gold Bottle"
-    },
+    "names": { "ja-Hrkt": "ゴールドチタンボトル", "zh-Hant": "金钛水壶", "en": "Gold Bottle" },
     "pocket": "misc"
   },
   {
@@ -33315,11 +31610,7 @@
     "name": "bronze-bottle",
     "category": "picnic",
     "cost": 10000,
-    "names": {
-      "ja-Hrkt": "ブロンズチタンボトル",
-      "zh-Hant": "铜钛水壶",
-      "en": "Bronze Bottle"
-    },
+    "names": { "ja-Hrkt": "ブロンズチタンボトル", "zh-Hant": "铜钛水壶", "en": "Bronze Bottle" },
     "pocket": "misc"
   },
   {
@@ -33327,11 +31618,7 @@
     "name": "gold-cup",
     "category": "picnic",
     "cost": 15000,
-    "names": {
-      "ja-Hrkt": "ゴールドチタンカップ",
-      "zh-Hant": "金钛水杯",
-      "en": "Gold Cup"
-    },
+    "names": { "ja-Hrkt": "ゴールドチタンカップ", "zh-Hant": "金钛水杯", "en": "Gold Cup" },
     "pocket": "misc"
   },
   {
@@ -33339,11 +31626,7 @@
     "name": "bronze-cup",
     "category": "picnic",
     "cost": 5000,
-    "names": {
-      "ja-Hrkt": "ブロンズチタンカップ",
-      "zh-Hant": "铜钛水杯",
-      "en": "Bronze Cup"
-    },
+    "names": { "ja-Hrkt": "ブロンズチタンカップ", "zh-Hant": "铜钛水杯", "en": "Bronze Cup" },
     "pocket": "misc"
   },
   {
@@ -33351,11 +31634,7 @@
     "name": "green-poké-ball-pick",
     "category": "picnic",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "みどりボールピック",
-      "zh-Hant": "绿珠珠三明治签",
-      "en": "Green Poké Ball Pick"
-    },
+    "names": { "ja-Hrkt": "みどりボールピック", "zh-Hant": "绿珠珠三明治签", "en": "Green Poké Ball Pick" },
     "pocket": "misc"
   },
   {
@@ -33363,11 +31642,7 @@
     "name": "red-poké-ball-pick",
     "category": "picnic",
     "cost": 200,
-    "names": {
-      "ja-Hrkt": "あかボールピック",
-      "zh-Hant": "红珠珠三明治签",
-      "en": "Red Poké Ball Pick"
-    },
+    "names": { "ja-Hrkt": "あかボールピック", "zh-Hant": "红珠珠三明治签", "en": "Red Poké Ball Pick" },
     "pocket": "misc"
   },
   {
@@ -33375,11 +31650,7 @@
     "name": "party-sparkler-pick",
     "category": "picnic",
     "cost": 1600,
-    "names": {
-      "ja-Hrkt": "おいわいはなびピック",
-      "zh-Hant": "烟花祝庆三明治签",
-      "en": "Party Sparkler Pick"
-    },
+    "names": { "ja-Hrkt": "おいわいはなびピック", "zh-Hant": "烟花祝庆三明治签", "en": "Party Sparkler Pick" },
     "pocket": "misc"
   },
   {
@@ -33387,11 +31658,7 @@
     "name": "heroic-sword-pick",
     "category": "picnic",
     "cost": 2000,
-    "names": {
-      "ja-Hrkt": "ゆうしゃのけんピック",
-      "zh-Hant": "勇者之剑三明治签",
-      "en": "Heroic Sword Pick"
-    },
+    "names": { "ja-Hrkt": "ゆうしゃのけんピック", "zh-Hant": "勇者之剑三明治签", "en": "Heroic Sword Pick" },
     "pocket": "misc"
   },
   {
@@ -33399,11 +31666,7 @@
     "name": "magical-star-pick",
     "category": "picnic",
     "cost": 600,
-    "names": {
-      "ja-Hrkt": "マジカルスターピック",
-      "zh-Hant": "魔法星星三明治签",
-      "en": "Magical Star Pick"
-    },
+    "names": { "ja-Hrkt": "マジカルスターピック", "zh-Hant": "魔法星星三明治签", "en": "Magical Star Pick" },
     "pocket": "misc"
   },
   {
@@ -33411,11 +31674,7 @@
     "name": "magical-heart-pick",
     "category": "picnic",
     "cost": 600,
-    "names": {
-      "ja-Hrkt": "マジカルハートピック",
-      "zh-Hant": "魔法甜心三明治签",
-      "en": "Magical Heart Pick"
-    },
+    "names": { "ja-Hrkt": "マジカルハートピック", "zh-Hant": "魔法甜心三明治签", "en": "Magical Heart Pick" },
     "pocket": "misc"
   },
   {
@@ -33423,11 +31682,7 @@
     "name": "parasol-pick",
     "category": "picnic",
     "cost": 800,
-    "names": {
-      "ja-Hrkt": "パラソルピック",
-      "zh-Hant": "阳伞三明治签",
-      "en": "Parasol Pick"
-    },
+    "names": { "ja-Hrkt": "パラソルピック", "zh-Hant": "阳伞三明治签", "en": "Parasol Pick" },
     "pocket": "misc"
   },
   {
@@ -33435,11 +31690,7 @@
     "name": "blue-sky-flower-pick",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "あおぞらおはなピック",
-      "zh-Hant": "晴空花三明治签",
-      "en": "Blue-Sky Flower Pick"
-    },
+    "names": { "ja-Hrkt": "あおぞらおはなピック", "zh-Hant": "晴空花三明治签", "en": "Blue-Sky Flower Pick" },
     "pocket": "misc"
   },
   {
@@ -33447,11 +31698,7 @@
     "name": "sunset-flower-pick",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "ゆうやけおはなピック",
-      "zh-Hant": "夕阳花三明治签",
-      "en": "Sunset Flower Pick"
-    },
+    "names": { "ja-Hrkt": "ゆうやけおはなピック", "zh-Hant": "夕阳花三明治签", "en": "Sunset Flower Pick" },
     "pocket": "misc"
   },
   {
@@ -33459,11 +31706,7 @@
     "name": "sunrise-flower-pick",
     "category": "picnic",
     "cost": 1000,
-    "names": {
-      "ja-Hrkt": "あさやけおはなピック",
-      "zh-Hant": "朝霞花三明治签",
-      "en": "Sunrise Flower Pick"
-    },
+    "names": { "ja-Hrkt": "あさやけおはなピック", "zh-Hant": "朝霞花三明治签", "en": "Sunrise Flower Pick" },
     "pocket": "misc"
   },
   {
@@ -33471,11 +31714,7 @@
     "name": "blue-dish",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ブループレート",
-      "zh-Hant": "蓝色盘子",
-      "en": "Blue Dish"
-    },
+    "names": { "ja-Hrkt": "ブループレート", "zh-Hant": "蓝色盘子", "en": "Blue Dish" },
     "pocket": "misc"
   },
   {
@@ -33483,11 +31722,7 @@
     "name": "green-dish",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "グリーンプレート",
-      "zh-Hant": "绿色盘子",
-      "en": "Green Dish"
-    },
+    "names": { "ja-Hrkt": "グリーンプレート", "zh-Hant": "绿色盘子", "en": "Green Dish" },
     "pocket": "misc"
   },
   {
@@ -33495,11 +31730,7 @@
     "name": "orange-dish",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "オレンジプレート",
-      "zh-Hant": "橘色盘子",
-      "en": "Orange Dish"
-    },
+    "names": { "ja-Hrkt": "オレンジプレート", "zh-Hant": "橘色盘子", "en": "Orange Dish" },
     "pocket": "misc"
   },
   {
@@ -33507,11 +31738,7 @@
     "name": "red-dish",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "レッドプレート",
-      "zh-Hant": "红色盘子",
-      "en": "Red Dish"
-    },
+    "names": { "ja-Hrkt": "レッドプレート", "zh-Hant": "红色盘子", "en": "Red Dish" },
     "pocket": "misc"
   },
   {
@@ -33519,11 +31746,7 @@
     "name": "white-dish",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ホワイトプレート",
-      "zh-Hant": "白色盘子",
-      "en": "White Dish"
-    },
+    "names": { "ja-Hrkt": "ホワイトプレート", "zh-Hant": "白色盘子", "en": "White Dish" },
     "pocket": "misc"
   },
   {
@@ -33531,11 +31754,7 @@
     "name": "yellow-dish",
     "category": "picnic",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "イエロープレート",
-      "zh-Hant": "黄色盘子",
-      "en": "Yellow Dish"
-    },
+    "names": { "ja-Hrkt": "イエロープレート", "zh-Hant": "黄色盘子", "en": "Yellow Dish" },
     "pocket": "misc"
   },
   {
@@ -33543,10 +31762,7 @@
     "name": "roto-stick",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "ロトりぼう",
-      "en": "Roto Stick"
-    },
+    "names": { "ja-Hrkt": "ロトりぼう", "en": "Roto Stick" },
     "pocket": "key"
   },
   {
@@ -33554,10 +31770,7 @@
     "name": "teal-style-card",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "おしゃれカードみどり",
-      "en": "Teal Style Card"
-    },
+    "names": { "ja-Hrkt": "おしゃれカードみどり", "en": "Teal Style Card" },
     "pocket": "key"
   },
   {
@@ -33565,10 +31778,7 @@
     "name": "teak-mask",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "みどりのめん",
-      "en": "Teal Mask"
-    },
+    "names": { "ja-Hrkt": "みどりのめん", "en": "Teal Mask" },
     "pocket": "key"
   },
   {
@@ -33576,10 +31786,7 @@
     "name": "glimmering-charm",
     "category": "gameplay",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "きらめくおまもり",
-      "en": "Glimmering Charm"
-    },
+    "names": { "ja-Hrkt": "きらめくおまもり", "en": "Glimmering Charm" },
     "pocket": "key"
   },
   {
@@ -33587,10 +31794,7 @@
     "name": "cyrstal-cluster",
     "category": "event-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "けっしょうのかけら",
-      "en": "Crystal Cluster"
-    },
+    "names": { "ja-Hrkt": "けっしょうのかけら", "en": "Crystal Cluster" },
     "pocket": "key"
   },
   {
@@ -33598,10 +31802,7 @@
     "name": "fairy-feather",
     "category": "held-items",
     "cost": 750,
-    "names": {
-      "ja-Hrkt": "ようせいのハネ",
-      "en": "Fairy Feather"
-    },
+    "names": { "ja-Hrkt": "ようせいのハネ", "en": "Fairy Feather" },
     "pocket": "misc"
   },
   {
@@ -33609,10 +31810,7 @@
     "name": "wellspring-mask",
     "category": "held-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "いどのめん",
-      "en": "Wellspring Mask"
-    },
+    "names": { "ja-Hrkt": "いどのめん", "en": "Wellspring Mask" },
     "pocket": "misc"
   },
   {
@@ -33620,10 +31818,7 @@
     "name": "hearthflame-mask",
     "category": "held-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "かまどのめん",
-      "en": "Hearthflame Mask"
-    },
+    "names": { "ja-Hrkt": "かまどのめん", "en": "Hearthflame Mask" },
     "pocket": "misc"
   },
   {
@@ -33631,10 +31826,7 @@
     "name": "cornerstone-mask",
     "category": "held-items",
     "cost": 0,
-    "names": {
-      "ja-Hrkt": "いしずえのめん",
-      "en": "Cornerstone Mask"
-    },
+    "names": { "ja-Hrkt": "いしずえのめん", "en": "Cornerstone Mask" },
     "pocket": "misc"
   },
   {
@@ -33642,10 +31834,7 @@
     "name": "syrupy-apple",
     "category": "evolution",
     "cost": 500,
-    "names": {
-      "ja-Hrkt": "みついりりんご",
-      "en": "Syrupy Apple"
-    },
+    "names": { "ja-Hrkt": "みついりりんご", "en": "Syrupy Apple" },
     "pocket": "misc"
   },
   {
@@ -33653,10 +31842,7 @@
     "name": "unremarkable-teacup",
     "category": "evolution",
     "cost": 400,
-    "names": {
-      "ja-Hrkt": "ボンサクのちゃわん",
-      "en": "Unremarlable Teacup"
-    },
+    "names": { "ja-Hrkt": "ボンサクのちゃわん", "en": "Unremarlable Teacup" },
     "pocket": "misc"
   },
   {
@@ -33664,10 +31850,7 @@
     "name": "masterpiece-teacup",
     "category": "evolution",
     "cost": 9500,
-    "names": {
-      "ja-Hrkt": "ケッサクのちゃわん",
-      "en": "Masterpiece Teacup"
-    },
+    "names": { "ja-Hrkt": "ケッサクのちゃわん", "en": "Masterpiece Teacup" },
     "pocket": "misc"
   },
   {
@@ -33675,10 +31858,7 @@
     "name": "health-mochi",
     "category": "vitamins",
     "cost": 125,
-    "names": {
-      "ja-Hrkt": "たいりょくのもち",
-      "en": "Health Mochi"
-    },
+    "names": { "ja-Hrkt": "たいりょくのもち", "en": "Health Mochi" },
     "pocket": "medicine"
   },
   {
@@ -33686,10 +31866,7 @@
     "name": "muscle-mochi",
     "category": "vitamins",
     "cost": 125,
-    "names": {
-      "ja-Hrkt": "きんりょくのもち",
-      "en": "Muscle Mochi"
-    },
+    "names": { "ja-Hrkt": "きんりょくのもち", "en": "Muscle Mochi" },
     "pocket": "medicine"
   },
   {
@@ -33697,10 +31874,7 @@
     "name": "resist-mochi",
     "category": "vitamins",
     "cost": 125,
-    "names": {
-      "ja-Hrkt": "ていこうのもち",
-      "en": "Resist Mochi"
-    },
+    "names": { "ja-Hrkt": "ていこうのもち", "en": "Resist Mochi" },
     "pocket": "medicine"
   },
   {
@@ -33708,10 +31882,7 @@
     "name": "genius-mochi",
     "category": "vitamins",
     "cost": 125,
-    "names": {
-      "ja-Hrkt": "ちりょくのもち",
-      "en": "Genius Mochi"
-    },
+    "names": { "ja-Hrkt": "ちりょくのもち", "en": "Genius Mochi" },
     "pocket": "medicine"
   },
   {
@@ -33719,10 +31890,7 @@
     "name": "clever-mochi",
     "category": "vitamins",
     "cost": 125,
-    "names": {
-      "ja-Hrkt": "せいしんのもち",
-      "en": "Clever Mochi"
-    },
+    "names": { "ja-Hrkt": "せいしんのもち", "en": "Clever Mochi" },
     "pocket": "medicine"
   },
   {
@@ -33730,10 +31898,7 @@
     "name": "swift-mochi",
     "category": "vitamins",
     "cost": 125,
-    "names": {
-      "ja-Hrkt": "しゅんぱつのもち",
-      "en": "Swift Mochi"
-    },
+    "names": { "ja-Hrkt": "しゅんぱつのもち", "en": "Swift Mochi" },
     "pocket": "medicine"
   },
   {
@@ -33741,10 +31906,7 @@
     "name": "fresh-start-mochi",
     "category": "vitamins",
     "cost": 75,
-    "names": {
-      "ja-Hrkt": "まっさらもち",
-      "en": "Fresh Start Mochi"
-    },
+    "names": { "ja-Hrkt": "まっさらもち", "en": "Fresh Start Mochi" },
     "pocket": "medicine"
   },
   {
@@ -33752,10 +31914,7 @@
     "name": "ekans-fang",
     "category": "tm-materials",
     "cost": 15,
-    "names": {
-      "ja-Hrkt": "アーボのきば",
-      "en": "Ekans Fang"
-    },
+    "names": { "ja-Hrkt": "アーボのきば", "en": "Ekans Fang" },
     "pocket": "misc"
   },
   {
@@ -33763,10 +31922,7 @@
     "name": "sandshrew-claw",
     "category": "tm-materials",
     "cost": 10,
-    "names": {
-      "ja-Hrkt": "サンドのツメ",
-      "en": "Sandshrew Claw"
-    },
+    "names": { "ja-Hrkt": "サンドのツメ", "en": "Sandshrew Claw" },
     "pocket": "misc"
   },
   {
@@ -33774,10 +31930,7 @@
     "name": "cleffa-fur",
     "category": "tm-materials",
     "cost": 25,
-    "names": {
-      "ja-Hrkt": "ピィのけ",
-      "en": "Cleffa Fur"
-    },
+    "names": { "ja-Hrkt": "ピィのけ", "en": "Cleffa Fur" },
     "pocket": "misc"
   },
   {
@@ -33785,10 +31938,7 @@
     "name": "vulpix-fur",
     "category": "tm-materials",
     "cost": 35,
-    "names": {
-      "ja-Hrkt": "ロコンのけ",
-      "en": "Vulpix Fur"
-    },
+    "names": { "ja-Hrkt": "ロコンのけ", "en": "Vulpix Fur" },
     "pocket": "misc"
   },
   {
@@ -33796,10 +31946,7 @@
     "name": "poliwag-slime",
     "category": "tm-materials",
     "cost": 35,
-    "names": {
-      "ja-Hrkt": "ニョロモのめんえき",
-      "en": "Poliwag Slime"
-    },
+    "names": { "ja-Hrkt": "ニョロモのめんえき", "en": "Poliwag Slime" },
     "pocket": "misc"
   },
   {
@@ -33807,10 +31954,7 @@
     "name": "bellsprout-vine",
     "category": "tm-materials",
     "cost": 25,
-    "names": {
-      "ja-Hrkt": "マダツボミのツル",
-      "en": "Bellsprout Vine"
-    },
+    "names": { "ja-Hrkt": "マダツボミのツル", "en": "Bellsprout Vine" },
     "pocket": "misc"
   },
   {
@@ -33818,10 +31962,7 @@
     "name": "geodude-fragment",
     "category": "tm-materials",
     "cost": 30,
-    "names": {
-      "ja-Hrkt": "イシツブテのかけら",
-      "en": "Geodude Fragment"
-    },
+    "names": { "ja-Hrkt": "イシツブテのかけら", "en": "Geodude Fragment" },
     "pocket": "misc"
   },
   {
@@ -33829,10 +31970,7 @@
     "name": "koffing-gas",
     "category": "tm-materials",
     "cost": 25,
-    "names": {
-      "ja-Hrkt": "ドガースのガス",
-      "en": "Koffing Gas"
-    },
+    "names": { "ja-Hrkt": "ドガースのガス", "en": "Koffing Gas" },
     "pocket": "misc"
   },
   {
@@ -33840,10 +31978,7 @@
     "name": "munchlax-fang",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "ゴンベのキバ",
-      "en": "Munchlax Fang"
-    },
+    "names": { "ja-Hrkt": "ゴンベのキバ", "en": "Munchlax Fang" },
     "pocket": "misc"
   },
   {
@@ -33851,10 +31986,7 @@
     "name": "sentret-fur",
     "category": "tm-materials",
     "cost": 10,
-    "names": {
-      "ja-Hrkt": "オタチのけ",
-      "en": "Sentret Fur"
-    },
+    "names": { "ja-Hrkt": "オタチのけ", "en": "Sentret Fur" },
     "pocket": "misc"
   },
   {
@@ -33862,10 +31994,7 @@
     "name": "hoothoot-feather",
     "category": "tm-materials",
     "cost": 15,
-    "names": {
-      "ja-Hrkt": "ホーホーのはね",
-      "en": "Hoothoot Feather"
-    },
+    "names": { "ja-Hrkt": "ホーホーのはね", "en": "Hoothoot Feather" },
     "pocket": "misc"
   },
   {
@@ -33873,10 +32002,7 @@
     "name": "spinarak-thread",
     "category": "tm-materials",
     "cost": 10,
-    "names": {
-      "ja-Hrkt": "イトマルのいと",
-      "en": "Spinarak Thread"
-    },
+    "names": { "ja-Hrkt": "イトマルのいと", "en": "Spinarak Thread" },
     "pocket": "misc"
   },
   {
@@ -33884,10 +32010,7 @@
     "name": "aipom-hair",
     "category": "tm-materials",
     "cost": 30,
-    "names": {
-      "ja-Hrkt": "エイパムのけ",
-      "en": "Aipom Hair"
-    },
+    "names": { "ja-Hrkt": "エイパムのけ", "en": "Aipom Hair" },
     "pocket": "misc"
   },
   {
@@ -33895,10 +32018,7 @@
     "name": "yanma-spike",
     "category": "tm-materials",
     "cost": 35,
-    "names": {
-      "ja-Hrkt": "ヤンヤンマのトゲ",
-      "en": "Yanma Spike"
-    },
+    "names": { "ja-Hrkt": "ヤンヤンマのトゲ", "en": "Yanma Spike" },
     "pocket": "misc"
   },
   {
@@ -33906,10 +32026,7 @@
     "name": "gligar-fang",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "グライガーのキバ",
-      "en": "Gligar Fang"
-    },
+    "names": { "ja-Hrkt": "グライガーのキバ", "en": "Gligar Fang" },
     "pocket": "misc"
   },
   {
@@ -33917,10 +32034,7 @@
     "name": "slugma-lava",
     "category": "tm-materials",
     "cost": 20,
-    "names": {
-      "ja-Hrkt": "マグマッグのようがん",
-      "en": "Slugma Lava"
-    },
+    "names": { "ja-Hrkt": "マグマッグのようがん", "en": "Slugma Lava" },
     "pocket": "misc"
   },
   {
@@ -33928,10 +32042,7 @@
     "name": "swinub-hair",
     "category": "tm-materials",
     "cost": 35,
-    "names": {
-      "ja-Hrkt": "ウリムーのけ",
-      "en": "Swinub Hair"
-    },
+    "names": { "ja-Hrkt": "ウリムーのけ", "en": "Swinub Hair" },
     "pocket": "misc"
   },
   {
@@ -33939,10 +32050,7 @@
     "name": "poochyena-fang",
     "category": "tm-materials",
     "cost": 15,
-    "names": {
-      "ja-Hrkt": "ポチエナのキバ",
-      "en": "Poochyena Fang"
-    },
+    "names": { "ja-Hrkt": "ポチエナのキバ", "en": "Poochyena Fang" },
     "pocket": "misc"
   },
   {
@@ -33950,10 +32058,7 @@
     "name": "lotad-leaf",
     "category": "tm-materials",
     "cost": 20,
-    "names": {
-      "ja-Hrkt": "ハスボーのはっぱ",
-      "en": "Lotad Leaf"
-    },
+    "names": { "ja-Hrkt": "ハスボーのはっぱ", "en": "Lotad Leaf" },
     "pocket": "misc"
   },
   {
@@ -33961,10 +32066,7 @@
     "name": "seedot-stem",
     "category": "tm-materials",
     "cost": 20,
-    "names": {
-      "ja-Hrkt": "タネボーのえだ",
-      "en": "Seedot Stem"
-    },
+    "names": { "ja-Hrkt": "タネボーのえだ", "en": "Seedot Stem" },
     "pocket": "misc"
   },
   {
@@ -33972,10 +32074,7 @@
     "name": "nosepass-fragment",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "ノズパスのかけら",
-      "en": "Nosepass Fragment"
-    },
+    "names": { "ja-Hrkt": "ノズパスのかけら", "en": "Nosepass Fragment" },
     "pocket": "misc"
   },
   {
@@ -33983,10 +32082,7 @@
     "name": "volbeat-fluid",
     "category": "tm-materials",
     "cost": 10,
-    "names": {
-      "ja-Hrkt": "バルビートのしる",
-      "en": "Volbeat Fluid"
-    },
+    "names": { "ja-Hrkt": "バルビートのしる", "en": "Volbeat Fluid" },
     "pocket": "misc"
   },
   {
@@ -33994,10 +32090,7 @@
     "name": "illumise-fluid",
     "category": "tm-materials",
     "cost": 10,
-    "names": {
-      "ja-Hrkt": "イルミーゼのしる",
-      "en": "Illumise Fluid"
-    },
+    "names": { "ja-Hrkt": "イルミーゼのしる", "en": "Illumise Fluid" },
     "pocket": "misc"
   },
   {
@@ -34005,10 +32098,7 @@
     "name": "corphish-shell",
     "category": "tm-materials",
     "cost": 10,
-    "names": {
-      "ja-Hrkt": "ヘイガニのから",
-      "en": "Corphish Shell"
-    },
+    "names": { "ja-Hrkt": "ヘイガニのから", "en": "Corphish Shell" },
     "pocket": "misc"
   },
   {
@@ -34016,10 +32106,7 @@
     "name": "feebas-scales",
     "category": "tm-materials",
     "cost": 35,
-    "names": {
-      "ja-Hrkt": "ヒンバスのうろこ",
-      "en": "Feebas Scales"
-    },
+    "names": { "ja-Hrkt": "ヒンバスのうろこ", "en": "Feebas Scales" },
     "pocket": "misc"
   },
   {
@@ -34027,10 +32114,7 @@
     "name": "duskull-fragment",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "ヨマワルのかけら",
-      "en": "Duskull Fragment"
-    },
+    "names": { "ja-Hrkt": "ヨマワルのかけら", "en": "Duskull Fragment" },
     "pocket": "misc"
   },
   {
@@ -34038,10 +32122,7 @@
     "name": "chingling-fragment",
     "category": "tm-materials",
     "cost": 20,
-    "names": {
-      "ja-Hrkt": "リーシャンのかけら",
-      "en": "Chingling Fragment"
-    },
+    "names": { "ja-Hrkt": "リーシャンのかけら", "en": "Chingling Fragment" },
     "pocket": "misc"
   },
   {
@@ -34049,10 +32130,7 @@
     "name": "timburr-sweat",
     "category": "tm-materials",
     "cost": 30,
-    "names": {
-      "ja-Hrkt": "ドッコラーのあせ",
-      "en": "Timburr Sweat"
-    },
+    "names": { "ja-Hrkt": "ドッコラーのあせ", "en": "Timburr Sweat" },
     "pocket": "misc"
   },
   {
@@ -34060,10 +32138,7 @@
     "name": "sewaddle-leaf",
     "category": "tm-materials",
     "cost": 20,
-    "names": {
-      "ja-Hrkt": "クルミルのはっぱ",
-      "en": "Sewaddle Leaf"
-    },
+    "names": { "ja-Hrkt": "クルミルのはっぱ", "en": "Sewaddle Leaf" },
     "pocket": "misc"
   },
   {
@@ -34071,10 +32146,7 @@
     "name": "ducklett-feather",
     "category": "tm-materials",
     "cost": 15,
-    "names": {
-      "ja-Hrkt": "コアルヒーのはね",
-      "en": "Ducklett Feather"
-    },
+    "names": { "ja-Hrkt": "コアルヒーのはね", "en": "Ducklett Feather" },
     "pocket": "misc"
   },
   {
@@ -34082,10 +32154,7 @@
     "name": "litwick-soot",
     "category": "tm-materials",
     "cost": 30,
-    "names": {
-      "ja-Hrkt": "ヒトモシのすす",
-      "en": "Litwick Soot"
-    },
+    "names": { "ja-Hrkt": "ヒトモシのすす", "en": "Litwick Soot" },
     "pocket": "misc"
   },
   {
@@ -34093,10 +32162,7 @@
     "name": "mienfoo-claw",
     "category": "tm-materials",
     "cost": 40,
-    "names": {
-      "ja-Hrkt": "コジョフーのツメ",
-      "en": "Mienfoo Claw"
-    },
+    "names": { "ja-Hrkt": "コジョフーのツメ", "en": "Mienfoo Claw" },
     "pocket": "misc"
   },
   {
@@ -34104,10 +32170,7 @@
     "name": "vullaby-feather",
     "category": "tm-materials",
     "cost": 35,
-    "names": {
-      "ja-Hrkt": "バルチャイのはね",
-      "en": "Vullaby Feather"
-    },
+    "names": { "ja-Hrkt": "バルチャイのはね", "en": "Vullaby Feather" },
     "pocket": "misc"
   },
   {
@@ -34115,10 +32178,7 @@
     "name": "carbink-jewel",
     "category": "tm-materials",
     "cost": 50,
-    "names": {
-      "ja-Hrkt": "メレシーのほうせき",
-      "en": "Carbink Jewel"
-    },
+    "names": { "ja-Hrkt": "メレシーのほうせき", "en": "Carbink Jewel" },
     "pocket": "misc"
   },
   {
@@ -34126,10 +32186,7 @@
     "name": "phantump-twig",
     "category": "tm-materials",
     "cost": 20,
-    "names": {
-      "ja-Hrkt": "ボクレーのえだ",
-      "en": "Phantump Twig"
-    },
+    "names": { "ja-Hrkt": "ボクレーのえだ", "en": "Phantump Twig" },
     "pocket": "misc"
   },
   {
@@ -34137,10 +32194,7 @@
     "name": "grubbin-thread",
     "category": "tm-materials",
     "cost": 25,
-    "names": {
-      "ja-Hrkt": "アゴジムシのいと",
-      "en": "Grubbin Thread"
-    },
+    "names": { "ja-Hrkt": "アゴジムシのいと", "en": "Grubbin Thread" },
     "pocket": "misc"
   },
   {
@@ -34148,10 +32202,7 @@
     "name": "cutiefly-powder",
     "category": "tm-materials",
     "cost": 25,
-    "names": {
-      "ja-Hrkt": "アブリーのこな",
-      "en": "Cutiefly Powder"
-    },
+    "names": { "ja-Hrkt": "アブリーのこな", "en": "Cutiefly Powder" },
     "pocket": "misc"
   },
   {
@@ -34159,10 +32210,7 @@
     "name": "jangmo-o-scales",
     "category": "tm-materials",
     "cost": 50,
-    "names": {
-      "ja-Hrkt": "ジャラコのウロコ",
-      "en": "Jangmo-o Scales"
-    },
+    "names": { "ja-Hrkt": "ジャラコのウロコ", "en": "Jangmo-o Scales" },
     "pocket": "misc"
   },
   {
@@ -34170,10 +32218,7 @@
     "name": "cramorant-down",
     "category": "tm-materials",
     "cost": 30,
-    "names": {
-      "ja-Hrkt": "ウッウのうもう",
-      "en": "Cramorant Down"
-    },
+    "names": { "ja-Hrkt": "ウッウのうもう", "en": "Cramorant Down" },
     "pocket": "misc"
   },
   {
@@ -34181,10 +32226,7 @@
     "name": "morpeko-snack",
     "category": "tm-materials",
     "cost": 15,
-    "names": {
-      "ja-Hrkt": "モルペコのたね",
-      "en": "Morpeko Snack"
-    },
+    "names": { "ja-Hrkt": "モルペコのたね", "en": "Morpeko Snack" },
     "pocket": "misc"
   },
   {
@@ -34192,26 +32234,9 @@
     "name": "poltchageist-powder",
     "category": "tm-materials",
     "cost": 30,
-    "names": {
-      "ja-Hrkt": "チャデスのこな",
-      "en": "Poltchageist Powder"
-    },
+    "names": { "ja-Hrkt": "チャデスのこな", "en": "Poltchageist Powder" },
     "pocket": "misc"
   },
-  {
-    "id": 10001,
-    "name": "black-augurite",
-    "category": "evolution",
-    "cost": 0,
-    "names": {},
-    "pocket": "misc"
-  },
-  {
-    "id": 10002,
-    "name": "peat-block",
-    "category": "evolution",
-    "cost": 0,
-    "names": {},
-    "pocket": "misc"
-  }
+  { "id": 10001, "name": "black-augurite", "category": "evolution", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 10002, "name": "peat-block", "category": "evolution", "cost": 0, "names": {}, "pocket": "misc" }
 ]

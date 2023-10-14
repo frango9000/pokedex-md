@@ -17282,6 +17282,23 @@
     "generation": "generation-ix"
   },
   {
+    "id": 10001,
+    "name": "deoxys-attack",
+    "names": {
+      "ja-Hrkt": "デオキシス",
+      "roomaji": "Deoxys",
+      "ko": "테오키스",
+      "zh-Hant": "代歐奇希斯",
+      "fr": "Deoxys",
+      "de": "Deoxys",
+      "es": "Deoxys",
+      "it": "Deoxys",
+      "en": "Deoxys"
+    },
+    "types": ["psychic"],
+    "generation": "generation-iii"
+  },
+  {
     "id": 10002,
     "name": "deoxys-defense",
     "names": {
