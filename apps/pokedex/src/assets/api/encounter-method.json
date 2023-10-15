@@ -35,23 +35,11 @@
       "fr": "En pêchant avec une Méga Canne"
     }
   },
-  {
-    "id": 5,
-    "name": "surf",
-    "names": {
-      "de": "Surfen",
-      "en": "Surfing",
-      "fr": "En surfant"
-    }
-  },
+  { "id": 5, "name": "surf", "names": { "de": "Surfen", "en": "Surfing", "fr": "En surfant" } },
   {
     "id": 6,
     "name": "rock-smash",
-    "names": {
-      "de": "Steine zertrümmern",
-      "en": "Smashing rocks",
-      "fr": "En brisant des rochers"
-    }
+    "names": { "de": "Steine zertrümmern", "en": "Smashing rocks", "fr": "En brisant des rochers" }
   },
   {
     "id": 7,
@@ -152,38 +140,14 @@
       "fr": "En marchant sur un terrain accidenté"
     }
   },
-  {
-    "id": 18,
-    "name": "gift",
-    "names": {
-      "en": "Receive as a gift",
-      "fr": "Reçu en cadeau"
-    }
-  },
-  {
-    "id": 19,
-    "name": "gift-egg",
-    "names": {
-      "en": "Receive egg as a gift",
-      "fr": "Œuf reçu en cadeau"
-    }
-  },
+  { "id": 18, "name": "gift", "names": { "en": "Receive as a gift", "fr": "Reçu en cadeau" } },
+  { "id": 19, "name": "gift-egg", "names": { "en": "Receive egg as a gift", "fr": "Œuf reçu en cadeau" } },
   {
     "id": 20,
     "name": "only-one",
-    "names": {
-      "en": "Static encounter, only one chance",
-      "fr": "Rencontre statique, chance unique"
-    }
+    "names": { "en": "Static encounter, only one chance", "fr": "Rencontre statique, chance unique" }
   },
-  {
-    "id": 21,
-    "name": "pokeflute",
-    "names": {
-      "en": "Playing Pokéflute",
-      "fr": "En jouant de la Pokéflûte"
-    }
-  },
+  { "id": 21, "name": "pokeflute", "names": { "en": "Playing Pokéflute", "fr": "En jouant de la Pokéflûte" } },
   {
     "id": 22,
     "name": "headbutt-low",
@@ -192,27 +156,12 @@
       "fr": "En utilisant Coup d’Boule sur un arbre à taux élevé"
     }
   },
-  {
-    "id": 23,
-    "name": "headbutt-normal",
-    "names": {
-      "en": "Headbutting a normal encounter rate tree"
-    }
-  },
-  {
-    "id": 24,
-    "name": "headbutt-high",
-    "names": {
-      "en": "Headbutting a high encounter rate tree"
-    }
-  },
+  { "id": 23, "name": "headbutt-normal", "names": { "en": "Headbutting a normal encounter rate tree" } },
+  { "id": 24, "name": "headbutt-high", "names": { "en": "Headbutting a high encounter rate tree" } },
   {
     "id": 25,
     "name": "squirt-bottle",
-    "names": {
-      "en": "Using the Squirt Bottle on a Sudowoodo",
-      "fr": "En utilisant la Carapuce à O sur Simularbre"
-    }
+    "names": { "en": "Using the Squirt Bottle on a Sudowoodo", "fr": "En utilisant la Carapuce à O sur Simularbre" }
   },
   {
     "id": 26,
@@ -222,44 +171,13 @@
       "fr": "En utilisant le Seau Wailmer / Wailmerrosoir sur Simularbre"
     }
   },
-  {
-    "id": 27,
-    "name": "seaweed",
-    "names": {
-      "en": "Diving on seaweed",
-      "fr": "En plongeant dans les algues"
-    }
-  },
-  {
-    "id": 28,
-    "name": "roaming-grass",
-    "names": {
-      "en": "On any overworld patch of grass",
-      "fr": "Dans les herbes"
-    }
-  },
-  {
-    "id": 29,
-    "name": "roaming-water",
-    "names": {
-      "en": "On any overworld water tile",
-      "fr": "Sur l’eau"
-    }
-  },
-  {
-    "id": 30,
-    "name": "devon-scope",
-    "names": {
-      "en": "Using Devon Scope",
-      "fr": "En utilisant le Devon Scope"
-    }
-  },
+  { "id": 27, "name": "seaweed", "names": { "en": "Diving on seaweed", "fr": "En plongeant dans les algues" } },
+  { "id": 28, "name": "roaming-grass", "names": { "en": "On any overworld patch of grass", "fr": "Dans les herbes" } },
+  { "id": 29, "name": "roaming-water", "names": { "en": "On any overworld water tile", "fr": "Sur l’eau" } },
+  { "id": 30, "name": "devon-scope", "names": { "en": "Using Devon Scope", "fr": "En utilisant le Devon Scope" } },
   {
     "id": 31,
     "name": "feebas-tile-fishing",
-    "names": {
-      "en": "Fishing in a Feebas Tile",
-      "fr": "En pêchant sur une tuile à Barpau"
-    }
+    "names": { "en": "Fishing in a Feebas Tile", "fr": "En pêchant sur une tuile à Barpau" }
   }
 ]

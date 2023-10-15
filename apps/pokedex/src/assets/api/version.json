@@ -286,15 +286,7 @@
   {
     "id": 20,
     "name": "xd",
-    "names": {
-      "ja-Hrkt": "XD",
-      "ko": "XD",
-      "fr": "XD",
-      "de": "XD",
-      "es": "XD",
-      "it": "XD",
-      "en": "XD"
-    },
+    "names": { "ja-Hrkt": "XD", "ko": "XD", "fr": "XD", "de": "XD", "es": "XD", "it": "XD", "en": "XD" },
     "version_group": "xd"
   },
   {
@@ -330,31 +322,13 @@
   {
     "id": 23,
     "name": "x",
-    "names": {
-      "ja-Hrkt": "X",
-      "ko": "X",
-      "zh-Hant": "X",
-      "fr": "X",
-      "de": "X",
-      "es": "X",
-      "it": "X",
-      "en": "X"
-    },
+    "names": { "ja-Hrkt": "X", "ko": "X", "zh-Hant": "X", "fr": "X", "de": "X", "es": "X", "it": "X", "en": "X" },
     "version_group": "x-y"
   },
   {
     "id": 24,
     "name": "y",
-    "names": {
-      "ja-Hrkt": "Y",
-      "ko": "Y",
-      "zh-Hant": "Y",
-      "fr": "Y",
-      "de": "Y",
-      "es": "Y",
-      "it": "Y",
-      "en": "Y"
-    },
+    "names": { "ja-Hrkt": "Y", "ko": "Y", "zh-Hant": "Y", "fr": "Y", "de": "Y", "es": "Y", "it": "Y", "en": "Y" },
     "version_group": "x-y"
   },
   {
@@ -612,16 +586,6 @@
     },
     "version_group": "scarlet-violet"
   },
-  {
-    "id": 42,
-    "name": "the-teal-mask",
-    "names": {},
-    "version_group": "the-teal-mask"
-  },
-  {
-    "id": 43,
-    "name": "the-indigo-disk",
-    "names": {},
-    "version_group": "the-indigo-disk"
-  }
+  { "id": 42, "name": "the-teal-mask", "names": {}, "version_group": "the-teal-mask" },
+  { "id": 43, "name": "the-indigo-disk", "names": {}, "version_group": "the-indigo-disk" }
 ]

@@ -2,91 +2,55 @@
   {
     "id": 1,
     "name": "swarm-yes",
-    "names": {
-      "de": "Während eines Schwarms",
-      "en": "During a swarm",
-      "fr": "Pendant une tempête"
-    },
+    "names": { "de": "Während eines Schwarms", "en": "During a swarm", "fr": "Pendant une tempête" },
     "condition": "swarm"
   },
   {
     "id": 2,
     "name": "swarm-no",
-    "names": {
-      "de": "Außerhalb eines Schwarms",
-      "en": "Not during a swarm",
-      "fr": "Pas pendant une tempête"
-    },
+    "names": { "de": "Außerhalb eines Schwarms", "en": "Not during a swarm", "fr": "Pas pendant une tempête" },
     "condition": "swarm"
   },
   {
     "id": 3,
     "name": "time-morning",
-    "names": {
-      "de": "Am Morgen",
-      "en": "In the morning",
-      "fr": "Le matin"
-    },
+    "names": { "de": "Am Morgen", "en": "In the morning", "fr": "Le matin" },
     "condition": "time"
   },
   {
     "id": 4,
     "name": "time-day",
-    "names": {
-      "de": "Am Tag",
-      "en": "During the day",
-      "fr": "La journée"
-    },
+    "names": { "de": "Am Tag", "en": "During the day", "fr": "La journée" },
     "condition": "time"
   },
   {
     "id": 5,
     "name": "time-night",
-    "names": {
-      "de": "In der Nacht",
-      "en": "At night",
-      "fr": "La nuit"
-    },
+    "names": { "de": "In der Nacht", "en": "At night", "fr": "La nuit" },
     "condition": "time"
   },
   {
     "id": 6,
     "name": "radar-on",
-    "names": {
-      "de": "Durch Benutzung des Pokéradars",
-      "en": "Using PokéRadar",
-      "fr": "En utilisant le PokéRadar"
-    },
+    "names": { "de": "Durch Benutzung des Pokéradars", "en": "Using PokéRadar", "fr": "En utilisant le PokéRadar" },
     "condition": "radar"
   },
   {
     "id": 7,
     "name": "radar-off",
-    "names": {
-      "de": "Ohne Benutzung des Pokéradars",
-      "en": "Not using PokéRadar",
-      "fr": "Sans utiliser le PokéRadar"
-    },
+    "names": { "de": "Ohne Benutzung des Pokéradars", "en": "Not using PokéRadar", "fr": "Sans utiliser le PokéRadar" },
     "condition": "radar"
   },
   {
     "id": 8,
     "name": "slot2-none",
-    "names": {
-      "de": "Kein Spiel in Slot 2",
-      "en": "No game in slot 2",
-      "fr": "Sans jeu dans le slot 2"
-    },
+    "names": { "de": "Kein Spiel in Slot 2", "en": "No game in slot 2", "fr": "Sans jeu dans le slot 2" },
     "condition": "slot2"
   },
   {
     "id": 9,
     "name": "slot2-ruby",
-    "names": {
-      "de": "Rubin in Slot 2",
-      "en": "Ruby in slot 2",
-      "fr": "Rubis dans le slot 2"
-    },
+    "names": { "de": "Rubin in Slot 2", "en": "Ruby in slot 2", "fr": "Rubis dans le slot 2" },
     "condition": "slot2"
   },
   {
@@ -102,173 +66,109 @@
   {
     "id": 11,
     "name": "slot2-emerald",
-    "names": {
-      "de": "Smaragd in Slot 2",
-      "en": "Emerald in slot 2",
-      "fr": "Émeraude dans le slot 2"
-    },
+    "names": { "de": "Smaragd in Slot 2", "en": "Emerald in slot 2", "fr": "Émeraude dans le slot 2" },
     "condition": "slot2"
   },
   {
     "id": 12,
     "name": "slot2-firered",
-    "names": {
-      "de": "Feuerrot in slot 2",
-      "en": "FireRed in slot 2",
-      "fr": "Rouge Feu dans le slot 2"
-    },
+    "names": { "de": "Feuerrot in slot 2", "en": "FireRed in slot 2", "fr": "Rouge Feu dans le slot 2" },
     "condition": "slot2"
   },
   {
     "id": 13,
     "name": "slot2-leafgreen",
-    "names": {
-      "de": "Blattgrün in slot 2",
-      "en": "LeafGreen in slot 2",
-      "fr": "Vert Feuille dans le slot 2"
-    },
+    "names": { "de": "Blattgrün in slot 2", "en": "LeafGreen in slot 2", "fr": "Vert Feuille dans le slot 2" },
     "condition": "slot2"
   },
   {
     "id": 14,
     "name": "radio-off",
-    "names": {
-      "de": "Radio aus",
-      "en": "Radio off",
-      "fr": "Radio éteinte"
-    },
+    "names": { "de": "Radio aus", "en": "Radio off", "fr": "Radio éteinte" },
     "condition": "radio"
   },
   {
     "id": 15,
     "name": "radio-hoenn",
-    "names": {
-      "de": "Hoenn-Sound im Radio",
-      "en": "Hoenn radio",
-      "fr": "En écoutant Radio Hoenn"
-    },
+    "names": { "de": "Hoenn-Sound im Radio", "en": "Hoenn radio", "fr": "En écoutant Radio Hoenn" },
     "condition": "radio"
   },
   {
     "id": 16,
     "name": "radio-sinnoh",
-    "names": {
-      "de": "Sinnoh-Sound im Radio",
-      "en": "Sinnoh radio",
-      "fr": "En écoutant Radio Sinnoh"
-    },
+    "names": { "de": "Sinnoh-Sound im Radio", "en": "Sinnoh radio", "fr": "En écoutant Radio Sinnoh" },
     "condition": "radio"
   },
   {
     "id": 17,
     "name": "season-spring",
-    "names": {
-      "de": "Im Frühling",
-      "en": "During Spring",
-      "fr": "Au printemps"
-    },
+    "names": { "de": "Im Frühling", "en": "During Spring", "fr": "Au printemps" },
     "condition": "season"
   },
   {
     "id": 18,
     "name": "season-summer",
-    "names": {
-      "de": "Im Sommer",
-      "en": "During Summer",
-      "fr": "En été"
-    },
+    "names": { "de": "Im Sommer", "en": "During Summer", "fr": "En été" },
     "condition": "season"
   },
   {
     "id": 19,
     "name": "season-autumn",
-    "names": {
-      "de": "Im Herbst",
-      "en": "During Autumn",
-      "fr": "En automne"
-    },
+    "names": { "de": "Im Herbst", "en": "During Autumn", "fr": "En automne" },
     "condition": "season"
   },
   {
     "id": 20,
     "name": "season-winter",
-    "names": {
-      "de": "Im Winter",
-      "en": "During Winter",
-      "fr": "En hiver"
-    },
+    "names": { "de": "Im Winter", "en": "During Winter", "fr": "En hiver" },
     "condition": "season"
   },
   {
     "id": 21,
     "name": "starter-bulbasaur",
-    "names": {
-      "en": "Bulbasaur as starter",
-      "fr": "Bulbizarre en starter"
-    },
+    "names": { "en": "Bulbasaur as starter", "fr": "Bulbizarre en starter" },
     "condition": "starter"
   },
   {
     "id": 22,
     "name": "starter-squirtle",
-    "names": {
-      "en": "Squirtle as starter",
-      "fr": "Carapuce en starter"
-    },
+    "names": { "en": "Squirtle as starter", "fr": "Carapuce en starter" },
     "condition": "starter"
   },
   {
     "id": 23,
     "name": "starter-charmander",
-    "names": {
-      "en": "Charmander as starter",
-      "fr": "Salamèche en starter"
-    },
+    "names": { "en": "Charmander as starter", "fr": "Salamèche en starter" },
     "condition": "starter"
   },
   {
     "id": 24,
     "name": "starter-chespin",
-    "names": {
-      "en": "Chespin as starter",
-      "fr": "Marisson en starter"
-    },
+    "names": { "en": "Chespin as starter", "fr": "Marisson en starter" },
     "condition": "starter"
   },
   {
     "id": 25,
     "name": "starter-fennekin",
-    "names": {
-      "en": "Fennekin as starter",
-      "fr": "Feunnec en starter"
-    },
+    "names": { "en": "Fennekin as starter", "fr": "Feunnec en starter" },
     "condition": "starter"
   },
   {
     "id": 26,
     "name": "starter-froakie",
-    "names": {
-      "en": "Froakie as starter",
-      "fr": "Grenousse en starter"
-    },
+    "names": { "en": "Froakie as starter", "fr": "Grenousse en starter" },
     "condition": "starter"
   },
   {
     "id": 27,
     "name": "tv-option-blue",
-    "names": {
-      "en": "Chose ‘Blue’ on the TV news report",
-      "fr": "Choisi « bleu » à la télé"
-    },
+    "names": { "en": "Chose ‘Blue’ on the TV news report", "fr": "Choisi « bleu » à la télé" },
     "condition": "tv-option"
   },
   {
     "id": 28,
     "name": "tv-option-red",
-    "names": {
-      "en": "Chose ‘Red’ on the TV news report",
-      "fr": "Choisi « rouge » à la télé"
-    },
+    "names": { "en": "Chose ‘Red’ on the TV news report", "fr": "Choisi « rouge » à la télé" },
     "condition": "tv-option"
   },
   {
@@ -292,10 +192,7 @@
   {
     "id": 31,
     "name": "story-progress-oak-eterna-city",
-    "names": {
-      "en": "Talked to Professor Oak at Eterna City",
-      "fr": "Après avoir parlé au Prof. Chen à Vestigion"
-    },
+    "names": { "en": "Talked to Professor Oak at Eterna City", "fr": "Après avoir parlé au Prof. Chen à Vestigion" },
     "condition": "story-progress"
   },
   {
@@ -319,48 +216,23 @@
   {
     "id": 34,
     "name": "story-progress-beat-elite-four-round-two",
-    "names": {
-      "en": "Beat the Elite 4 for the second time",
-      "fr": "Après deux victoires sur le Conseil 4"
-    },
+    "names": { "en": "Beat the Elite 4 for the second time", "fr": "Après deux victoires sur le Conseil 4" },
     "condition": "story-progress"
   },
   {
     "id": 35,
     "name": "story-progress-hall-of-fame",
-    "names": {
-      "en": "Enter the Hall of Fame",
-      "fr": "Après l’entrée au Panthéon"
-    },
+    "names": { "en": "Enter the Hall of Fame", "fr": "Après l’entrée au Panthéon" },
     "condition": "story-progress"
   },
-  {
-    "id": 36,
-    "name": "story-progress-none",
-    "names": {
-      "en": "None",
-      "fr": "Aucune"
-    },
-    "condition": "story-progress"
-  },
+  { "id": 36, "name": "story-progress-none", "names": { "en": "None", "fr": "Aucune" }, "condition": "story-progress" },
   {
     "id": 37,
     "name": "story-progress-national-dex",
-    "names": {
-      "en": "Acquired National Pokédex",
-      "fr": "En ayant le Pokédex National"
-    },
+    "names": { "en": "Acquired National Pokédex", "fr": "En ayant le Pokédex National" },
     "condition": "story-progress"
   },
-  {
-    "id": 38,
-    "name": "other-none",
-    "names": {
-      "en": "None",
-      "fr": "Aucune"
-    },
-    "condition": "other"
-  },
+  { "id": 38, "name": "other-none", "names": { "en": "None", "fr": "Aucune" }, "condition": "other" },
   {
     "id": 39,
     "name": "other-snorlax-11-beat-league",
@@ -373,10 +245,7 @@
   {
     "id": 40,
     "name": "other-virtual-console",
-    "names": {
-      "en": "Playing on the Virtual Console Release",
-      "fr": "En jouant sur la version Virtual Console"
-    },
+    "names": { "en": "Playing on the Virtual Console Release", "fr": "En jouant sur la version Virtual Console" },
     "condition": "other"
   },
   {
@@ -391,91 +260,61 @@
   {
     "id": 42,
     "name": "other-talk-to-cynthias-grandmother",
-    "names": {
-      "en": "Talk to Cynthia’s grandmother",
-      "fr": "Après avoir parlé à la grand-mère de Cynthia"
-    },
+    "names": { "en": "Talk to Cynthia’s grandmother", "fr": "Après avoir parlé à la grand-mère de Cynthia" },
     "condition": "other"
   },
   {
     "id": 43,
     "name": "item-none",
-    "names": {
-      "en": "No item requirement",
-      "fr": "Sans objet particulier"
-    },
+    "names": { "en": "No item requirement", "fr": "Sans objet particulier" },
     "condition": "item"
   },
   {
     "id": 44,
     "name": "item-adamant-orb",
-    "names": {
-      "en": "Have Adamant Orb in bag",
-      "fr": "En ayant un Orbe Adamant dans le sac"
-    },
+    "names": { "en": "Have Adamant Orb in bag", "fr": "En ayant un Orbe Adamant dans le sac" },
     "condition": "item"
   },
   {
     "id": 45,
     "name": "item-lustrous-orb",
-    "names": {
-      "en": "Have Lustrous Orb in bag",
-      "fr": "En ayant un Orbe Perlé dans le sac"
-    },
+    "names": { "en": "Have Lustrous Orb in bag", "fr": "En ayant un Orbe Perlé dans le sac" },
     "condition": "item"
   },
   {
     "id": 46,
     "name": "item-helix-fossil",
-    "names": {
-      "en": "Have Helix Fossil in bag",
-      "fr": "En ayant un Nautile dans le sac"
-    },
+    "names": { "en": "Have Helix Fossil in bag", "fr": "En ayant un Nautile dans le sac" },
     "condition": "item"
   },
   {
     "id": 47,
     "name": "item-dome-fossil",
-    "names": {
-      "en": "Have Dome Fossil in bag",
-      "fr": "En ayant un Fossile Dôme dans le sac"
-    },
+    "names": { "en": "Have Dome Fossil in bag", "fr": "En ayant un Fossile Dôme dans le sac" },
     "condition": "item"
   },
   {
     "id": 48,
     "name": "item-old-amber",
-    "names": {
-      "en": "Have Old Amber in bag",
-      "fr": "En ayant un Vieil Ambre dans le sac"
-    },
+    "names": { "en": "Have Old Amber in bag", "fr": "En ayant un Vieil Ambre dans le sac" },
     "condition": "item"
   },
   {
     "id": 49,
     "name": "item-root-fossil",
-    "names": {
-      "en": "Have Root Fossil in bag",
-      "fr": "En ayant un Fossile Racine dans le sac"
-    },
+    "names": { "en": "Have Root Fossil in bag", "fr": "En ayant un Fossile Racine dans le sac" },
     "condition": "item"
   },
   {
     "id": 50,
     "name": "item-claw-fossil",
-    "names": {
-      "en": "Have Claw Fossil in bag",
-      "fr": "En ayant un Fossile Griffe dans le sac"
-    },
+    "names": { "en": "Have Claw Fossil in bag", "fr": "En ayant un Fossile Griffe dans le sac" },
     "condition": "item"
   },
   {
     "id": 51,
     "name": "story-progress-defeat-jupiter",
-    "names": {
-      "en": "Defeat Jupiter",
-      "fr": "Après avoir vaincu Jupiter"
-    },
+    "names": { "en": "Defeat Jupiter", "fr": "Après avoir vaincu Jupiter" },
     "condition": "story-progress"
   },
   {
@@ -490,46 +329,31 @@
   {
     "id": 53,
     "name": "other-correct-password",
-    "names": {
-      "en": "Input correct password",
-      "fr": "Après avoir saisi le bon mot de passe"
-    },
+    "names": { "en": "Input correct password", "fr": "Après avoir saisi le bon mot de passe" },
     "condition": "other"
   },
   {
     "id": 54,
     "name": "story-progress-zephyr-badge",
-    "names": {
-      "en": "Obtained Zephyr badge",
-      "fr": "En ayant obtenu le badge Zéphir"
-    },
+    "names": { "en": "Obtained Zephyr badge", "fr": "En ayant obtenu le badge Zéphir" },
     "condition": "story-progress"
   },
   {
     "id": 55,
     "name": "story-progress-beat-red",
-    "names": {
-      "en": "Defeat Red",
-      "fr": "Après avoir vaincu Red"
-    },
+    "names": { "en": "Defeat Red", "fr": "Après avoir vaincu Red" },
     "condition": "story-progress"
   },
   {
     "id": 56,
     "name": "other-received-kanto-starter",
-    "names": {
-      "en": "Received a Kanto Starter",
-      "fr": "Après avoir recu un starter de Kanto"
-    },
+    "names": { "en": "Received a Kanto Starter", "fr": "Après avoir recu un starter de Kanto" },
     "condition": "other"
   },
   {
     "id": 57,
     "name": "story-progress-receive-tm-from-claire",
-    "names": {
-      "en": "Received TM59 From Claire",
-      "fr": "Après avoir reçu la CT59 de Claire"
-    },
+    "names": { "en": "Received TM59 From Claire", "fr": "Après avoir reçu la CT59 de Claire" },
     "condition": "story-progress"
   },
   {
@@ -541,69 +365,18 @@
     },
     "condition": "other"
   },
-  {
-    "id": 59,
-    "name": "weekday-sunday",
-    "names": {
-      "en": "Sunday",
-      "fr": "Le dimanche"
-    },
-    "condition": "weekday"
-  },
-  {
-    "id": 60,
-    "name": "weekday-monday",
-    "names": {
-      "en": "Monday",
-      "fr": "Le lundi"
-    },
-    "condition": "weekday"
-  },
-  {
-    "id": 61,
-    "name": "weekday-tuesday",
-    "names": {
-      "en": "Tuesday",
-      "fr": "Le mardi"
-    },
-    "condition": "weekday"
-  },
+  { "id": 59, "name": "weekday-sunday", "names": { "en": "Sunday", "fr": "Le dimanche" }, "condition": "weekday" },
+  { "id": 60, "name": "weekday-monday", "names": { "en": "Monday", "fr": "Le lundi" }, "condition": "weekday" },
+  { "id": 61, "name": "weekday-tuesday", "names": { "en": "Tuesday", "fr": "Le mardi" }, "condition": "weekday" },
   {
     "id": 62,
     "name": "weekday-wednesday",
-    "names": {
-      "en": "Wednesday",
-      "fr": "Le mercredi"
-    },
+    "names": { "en": "Wednesday", "fr": "Le mercredi" },
     "condition": "weekday"
   },
-  {
-    "id": 63,
-    "name": "weekday-thursday",
-    "names": {
-      "en": "Thursday",
-      "fr": "Le jeudi"
-    },
-    "condition": "weekday"
-  },
-  {
-    "id": 64,
-    "name": "weekday-friday",
-    "names": {
-      "en": "Friday",
-      "fr": "Le vendredi"
-    },
-    "condition": "weekday"
-  },
-  {
-    "id": 65,
-    "name": "weekday-saturday",
-    "names": {
-      "en": "Saturday",
-      "fr": "Le samedi"
-    },
-    "condition": "weekday"
-  },
+  { "id": 63, "name": "weekday-thursday", "names": { "en": "Thursday", "fr": "Le jeudi" }, "condition": "weekday" },
+  { "id": 64, "name": "weekday-friday", "names": { "en": "Friday", "fr": "Le vendredi" }, "condition": "weekday" },
+  { "id": 65, "name": "weekday-saturday", "names": { "en": "Saturday", "fr": "Le samedi" }, "condition": "weekday" },
   {
     "id": 66,
     "name": "first-party-pokemon-high-friendship",
@@ -616,19 +389,13 @@
   {
     "id": 67,
     "name": "story-progress-defeat-mars",
-    "names": {
-      "en": "Beat Mars for the first time",
-      "fr": "Après deux victoires face à Mars"
-    },
+    "names": { "en": "Beat Mars for the first time", "fr": "Après deux victoires face à Mars" },
     "condition": "story-progress"
   },
   {
     "id": 68,
     "name": "item-odd-keystone",
-    "names": {
-      "en": "Have Odd Keystone in bag",
-      "fr": "En ayant une Clé de Voûte dans le sac"
-    },
+    "names": { "en": "Have Odd Keystone in bag", "fr": "En ayant une Clé de Voûte dans le sac" },
     "condition": "item"
   },
   {
@@ -649,10 +416,5 @@
     },
     "condition": "story-progress"
   },
-  {
-    "id": 71,
-    "name": "other-event-arceus-in-party",
-    "names": {},
-    "condition": "other"
-  }
+  { "id": 71, "name": "other-event-arceus-in-party", "names": {}, "condition": "other" }
 ]

@@ -16524,12 +16524,7 @@
     "name": "dire-claw",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "フェイタルクロー",
-      "zh-Hant": "克命爪",
-      "it": "Artigli Fatali",
-      "en": "Dire Claw"
-    },
+    "names": { "ja-Hrkt": "フェイタルクロー", "zh-Hant": "克命爪", "it": "Artigli Fatali", "en": "Dire Claw" },
     "power": 80,
     "pp": 15,
     "type": "poison"
@@ -16539,12 +16534,7 @@
     "name": "psyshield-bash",
     "accuracy": 90,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "バリアーラッシュ",
-      "zh-Hant": "屏障猛攻",
-      "it": "Barrierassalto",
-      "en": "Psyshield Bash"
-    },
+    "names": { "ja-Hrkt": "バリアーラッシュ", "zh-Hant": "屏障猛攻", "it": "Barrierassalto", "en": "Psyshield Bash" },
     "power": 70,
     "pp": 10,
     "type": "psychic"
@@ -16554,12 +16544,7 @@
     "name": "power-shift",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "パワーシフト",
-      "zh-Hant": "力量转换",
-      "it": "Scambioforza",
-      "en": "Power Shift"
-    },
+    "names": { "ja-Hrkt": "パワーシフト", "zh-Hant": "力量转换", "it": "Scambioforza", "en": "Power Shift" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -16569,12 +16554,7 @@
     "name": "stone-axe",
     "accuracy": 90,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "がんせきアックス",
-      "zh-Hant": "岩斧",
-      "it": "Rocciascure",
-      "en": "Stone Axe"
-    },
+    "names": { "ja-Hrkt": "がんせきアックス", "zh-Hant": "岩斧", "it": "Rocciascure", "en": "Stone Axe" },
     "power": 65,
     "pp": 15,
     "type": "rock"
@@ -16584,12 +16564,7 @@
     "name": "springtide-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "はるのあらし",
-      "zh-Hant": "阳春风暴",
-      "it": "Tempesta Zefirea",
-      "en": "Springtide Storm"
-    },
+    "names": { "ja-Hrkt": "はるのあらし", "zh-Hant": "阳春风暴", "it": "Tempesta Zefirea", "en": "Springtide Storm" },
     "power": 100,
     "pp": 5,
     "type": "fairy"
@@ -16599,12 +16574,7 @@
     "name": "mystical-power",
     "accuracy": 90,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "しんぴのちから",
-      "zh-Hant": "神秘之力",
-      "it": "Forza Mistica",
-      "en": "Mystical Power"
-    },
+    "names": { "ja-Hrkt": "しんぴのちから", "zh-Hant": "神秘之力", "it": "Forza Mistica", "en": "Mystical Power" },
     "power": 70,
     "pp": 10,
     "type": "psychic"
@@ -16614,12 +16584,7 @@
     "name": "raging-fury",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "だいふんげき",
-      "zh-Hant": "大愤慨",
-      "it": "Ira Furente",
-      "en": "Raging Fury"
-    },
+    "names": { "ja-Hrkt": "だいふんげき", "zh-Hant": "大愤慨", "it": "Ira Furente", "en": "Raging Fury" },
     "power": 120,
     "pp": 10,
     "type": "fire"
@@ -16629,12 +16594,7 @@
     "name": "wave-crash",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "ウェーブタックル",
-      "zh-Hant": "波动冲",
-      "it": "Ondaschianto",
-      "en": "Wave Crash"
-    },
+    "names": { "ja-Hrkt": "ウェーブタックル", "zh-Hant": "波动冲", "it": "Ondaschianto", "en": "Wave Crash" },
     "power": 120,
     "pp": 10,
     "type": "water"
@@ -16644,12 +16604,7 @@
     "name": "chloroblast",
     "accuracy": 95,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "クロロブラスト",
-      "zh-Hant": "叶绿爆震",
-      "it": "Clorofillaser",
-      "en": "Chloroblast"
-    },
+    "names": { "ja-Hrkt": "クロロブラスト", "zh-Hant": "叶绿爆震", "it": "Clorofillaser", "en": "Chloroblast" },
     "power": 150,
     "pp": 5,
     "type": "grass"
@@ -16659,12 +16614,7 @@
     "name": "mountain-gale",
     "accuracy": 85,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "ひょうざんおろし",
-      "zh-Hant": "冰山风",
-      "it": "Soffio d’Iceberg",
-      "en": "Mountain Gale"
-    },
+    "names": { "ja-Hrkt": "ひょうざんおろし", "zh-Hant": "冰山风", "it": "Soffio d’Iceberg", "en": "Mountain Gale" },
     "power": 100,
     "pp": 10,
     "type": "ice"
@@ -16674,12 +16624,7 @@
     "name": "victory-dance",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "しょうりのまい",
-      "zh-Hant": "胜利之舞",
-      "it": "Danzavittoria",
-      "en": "Victory Dance"
-    },
+    "names": { "ja-Hrkt": "しょうりのまい", "zh-Hant": "胜利之舞", "it": "Danzavittoria", "en": "Victory Dance" },
     "power": 0,
     "pp": 10,
     "type": "fighting"
@@ -16689,12 +16634,7 @@
     "name": "headlong-rush",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "ぶちかまし",
-      "zh-Hant": "突飞猛扑",
-      "it": "Scontro Frontale",
-      "en": "Headlong Rush"
-    },
+    "names": { "ja-Hrkt": "ぶちかまし", "zh-Hant": "突飞猛扑", "it": "Scontro Frontale", "en": "Headlong Rush" },
     "power": 120,
     "pp": 5,
     "type": "ground"
@@ -16704,12 +16644,7 @@
     "name": "barb-barrage",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "どくばりセンボン",
-      "zh-Hant": "毒千针",
-      "it": "Mille Fielespine",
-      "en": "Barb Barrage"
-    },
+    "names": { "ja-Hrkt": "どくばりセンボン", "zh-Hant": "毒千针", "it": "Mille Fielespine", "en": "Barb Barrage" },
     "power": 60,
     "pp": 10,
     "type": "poison"
@@ -16719,12 +16654,7 @@
     "name": "esper-wing",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "オーラウイング",
-      "zh-Hant": "气场之翼",
-      "it": "Ali d'Aura",
-      "en": "Esper Wing"
-    },
+    "names": { "ja-Hrkt": "オーラウイング", "zh-Hant": "气场之翼", "it": "Ali d'Aura", "en": "Esper Wing" },
     "power": 80,
     "pp": 10,
     "type": "psychic"
@@ -16734,12 +16664,7 @@
     "name": "bitter-malice",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "うらみつらみ",
-      "zh-Hant": "冤冤相报",
-      "it": "Livore",
-      "en": "Bitter Malice"
-    },
+    "names": { "ja-Hrkt": "うらみつらみ", "zh-Hant": "冤冤相报", "it": "Livore", "en": "Bitter Malice" },
     "power": 75,
     "pp": 10,
     "type": "ghost"
@@ -16749,12 +16674,7 @@
     "name": "shelter",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "たてこもる",
-      "zh-Hant": "闭关",
-      "it": "Barricata",
-      "en": "Shelter"
-    },
+    "names": { "ja-Hrkt": "たてこもる", "zh-Hant": "闭关", "it": "Barricata", "en": "Shelter" },
     "power": 0,
     "pp": 10,
     "type": "steel"
@@ -16764,12 +16684,7 @@
     "name": "triple-arrows",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "３ぼんのや",
-      "zh-Hant": "三连箭",
-      "it": "Triplodardo",
-      "en": "Triple Arrows"
-    },
+    "names": { "ja-Hrkt": "３ぼんのや", "zh-Hant": "三连箭", "it": "Triplodardo", "en": "Triple Arrows" },
     "power": 90,
     "pp": 10,
     "type": "fighting"
@@ -16779,12 +16694,7 @@
     "name": "infernal-parade",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "ひゃっきやこう",
-      "zh-Hant": "群魔乱舞",
-      "it": "Corteo Spettrale",
-      "en": "Infernal Parade"
-    },
+    "names": { "ja-Hrkt": "ひゃっきやこう", "zh-Hant": "群魔乱舞", "it": "Corteo Spettrale", "en": "Infernal Parade" },
     "power": 60,
     "pp": 15,
     "type": "ghost"
@@ -16809,12 +16719,7 @@
     "name": "bleakwind-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "こがらしあらし",
-      "zh-Hant": "枯叶风暴",
-      "it": "Tempesta Boreale",
-      "en": "Bleakwind Storm"
-    },
+    "names": { "ja-Hrkt": "こがらしあらし", "zh-Hant": "枯叶风暴", "it": "Tempesta Boreale", "en": "Bleakwind Storm" },
     "power": 100,
     "pp": 10,
     "type": "flying"
@@ -16824,12 +16729,7 @@
     "name": "wildbolt-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "かみなりあらし",
-      "zh-Hant": "鸣雷风暴",
-      "it": "Tempesta Tonante",
-      "en": "Wildbolt Storm"
-    },
+    "names": { "ja-Hrkt": "かみなりあらし", "zh-Hant": "鸣雷风暴", "it": "Tempesta Tonante", "en": "Wildbolt Storm" },
     "power": 100,
     "pp": 10,
     "type": "electric"
@@ -16839,12 +16739,7 @@
     "name": "sandsear-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "ねっさのあらし",
-      "zh-Hant": "热沙风暴",
-      "it": "Tempesta Ardente",
-      "en": "Sandsear Storm"
-    },
+    "names": { "ja-Hrkt": "ねっさのあらし", "zh-Hant": "热沙风暴", "it": "Tempesta Ardente", "en": "Sandsear Storm" },
     "power": 100,
     "pp": 10,
     "type": "ground"
@@ -16854,12 +16749,7 @@
     "name": "lunar-blessing",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "みかづきのいのり",
-      "zh-Hant": "新月祈祷",
-      "it": "Invocaluna",
-      "en": "Lunar Blessing"
-    },
+    "names": { "ja-Hrkt": "みかづきのいのり", "zh-Hant": "新月祈祷", "it": "Invocaluna", "en": "Lunar Blessing" },
     "power": 0,
     "pp": 5,
     "type": "psychic"
@@ -16869,12 +16759,7 @@
     "name": "take-heart",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": {
-      "ja-Hrkt": "ブレイブチャージ",
-      "zh-Hant": "勇气填充",
-      "it": "Baldimpulso",
-      "en": "Take Heart"
-    },
+    "names": { "ja-Hrkt": "ブレイブチャージ", "zh-Hant": "勇气填充", "it": "Baldimpulso", "en": "Take Heart" },
     "power": 0,
     "pp": 10,
     "type": "psychic"
@@ -16884,12 +16769,7 @@
     "name": "tera-blast",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "テラバースト",
-      "zh-Hant": "太晶爆发",
-      "it": "Terascoppio",
-      "en": "Tera Blast"
-    },
+    "names": { "ja-Hrkt": "テラバースト", "zh-Hant": "太晶爆发", "it": "Terascoppio", "en": "Tera Blast" },
     "power": 80,
     "pp": 10,
     "type": "normal"
@@ -16899,12 +16779,7 @@
     "name": "silk-trap",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "スレッドトラップ",
-      "zh-Hant": "线阱",
-      "it": "Telatrappola",
-      "en": "Silk Trap"
-    },
+    "names": { "ja-Hrkt": "スレッドトラップ", "zh-Hant": "线阱", "it": "Telatrappola", "en": "Silk Trap" },
     "power": 0,
     "pp": 10,
     "type": "bug"
@@ -16914,12 +16789,7 @@
     "name": "axe-kick",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "かかとおとし",
-      "zh-Hant": "下压踢",
-      "it": "Calcio ad Ascia",
-      "en": "Axe Kick"
-    },
+    "names": { "ja-Hrkt": "かかとおとし", "zh-Hant": "下压踢", "it": "Calcio ad Ascia", "en": "Axe Kick" },
     "power": 120,
     "pp": 10,
     "type": "fighting"
@@ -16929,12 +16799,7 @@
     "name": "last-respects",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "おはかまいり",
-      "zh-Hant": "扫墓",
-      "it": "Omaggio ai KO",
-      "en": "Last Respects"
-    },
+    "names": { "ja-Hrkt": "おはかまいり", "zh-Hant": "扫墓", "it": "Omaggio ai KO", "en": "Last Respects" },
     "power": 50,
     "pp": 10,
     "type": "ghost"
@@ -16944,12 +16809,7 @@
     "name": "lumina-crash",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ルミナコリジョン",
-      "zh-Hant": "琉光冲激",
-      "it": "Fotocollisione",
-      "en": "Lumina Crash"
-    },
+    "names": { "ja-Hrkt": "ルミナコリジョン", "zh-Hant": "琉光冲激", "it": "Fotocollisione", "en": "Lumina Crash" },
     "power": 80,
     "pp": 10,
     "type": "psychic"
@@ -16959,12 +16819,7 @@
     "name": "order-up",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "いっちょうあがり",
-      "zh-Hant": "上菜",
-      "it": "Alta Cucina",
-      "en": "Order Up"
-    },
+    "names": { "ja-Hrkt": "いっちょうあがり", "zh-Hant": "上菜", "it": "Alta Cucina", "en": "Order Up" },
     "power": 80,
     "pp": 10,
     "type": "dragon"
@@ -16974,12 +16829,7 @@
     "name": "jet-punch",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ジェットパンチ",
-      "zh-Hant": "喷射拳",
-      "it": "Pugnojet",
-      "en": "Jet Punch"
-    },
+    "names": { "ja-Hrkt": "ジェットパンチ", "zh-Hant": "喷射拳", "it": "Pugnojet", "en": "Jet Punch" },
     "power": 60,
     "pp": 15,
     "type": "water"
@@ -16989,12 +16839,7 @@
     "name": "spicy-extract",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ハバネロエキス",
-      "zh-Hant": "辣椒精华",
-      "it": "Essenza Piccante",
-      "en": "Spicy Extract"
-    },
+    "names": { "ja-Hrkt": "ハバネロエキス", "zh-Hant": "辣椒精华", "it": "Essenza Piccante", "en": "Spicy Extract" },
     "power": 0,
     "pp": 15,
     "type": "grass"
@@ -17004,12 +16849,7 @@
     "name": "spin-out",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ホイールスピン",
-      "zh-Hant": "疾速转轮",
-      "it": "Slittaruote",
-      "en": "Spin Out"
-    },
+    "names": { "ja-Hrkt": "ホイールスピン", "zh-Hant": "疾速转轮", "it": "Slittaruote", "en": "Spin Out" },
     "power": 100,
     "pp": 5,
     "type": "steel"
@@ -17019,12 +16859,7 @@
     "name": "population-bomb",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ネズミざん",
-      "zh-Hant": "鼠数儿",
-      "it": "Infestazione",
-      "en": "Population Bomb"
-    },
+    "names": { "ja-Hrkt": "ネズミざん", "zh-Hant": "鼠数儿", "it": "Infestazione", "en": "Population Bomb" },
     "power": 20,
     "pp": 10,
     "type": "normal"
@@ -17034,12 +16869,7 @@
     "name": "ice-spinner",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "アイススピナー",
-      "zh-Hant": "冰旋",
-      "it": "Vortighiaccio",
-      "en": "Ice Spinner"
-    },
+    "names": { "ja-Hrkt": "アイススピナー", "zh-Hant": "冰旋", "it": "Vortighiaccio", "en": "Ice Spinner" },
     "power": 80,
     "pp": 15,
     "type": "ice"
@@ -17049,12 +16879,7 @@
     "name": "glaive-rush",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "きょけんとつげき",
-      "zh-Hant": "巨剑突击",
-      "it": "Spadoncarica",
-      "en": "Glaive Rush"
-    },
+    "names": { "ja-Hrkt": "きょけんとつげき", "zh-Hant": "巨剑突击", "it": "Spadoncarica", "en": "Glaive Rush" },
     "power": 120,
     "pp": 5,
     "type": "dragon"
@@ -17064,12 +16889,7 @@
     "name": "revival-blessing",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "さいきのいのり",
-      "zh-Hant": "复生祈祷",
-      "it": "Preghiera Vitale",
-      "en": "Revival Blessing"
-    },
+    "names": { "ja-Hrkt": "さいきのいのり", "zh-Hant": "复生祈祷", "it": "Preghiera Vitale", "en": "Revival Blessing" },
     "power": 0,
     "pp": 1,
     "type": "normal"
@@ -17079,12 +16899,7 @@
     "name": "salt-cure",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "しおづけ",
-      "zh-Hant": "盐腌",
-      "it": "Sotto Sale",
-      "en": "Salt Cure"
-    },
+    "names": { "ja-Hrkt": "しおづけ", "zh-Hant": "盐腌", "it": "Sotto Sale", "en": "Salt Cure" },
     "power": 40,
     "pp": 15,
     "type": "rock"
@@ -17094,12 +16909,7 @@
     "name": "triple-dive",
     "accuracy": 95,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "トリプルダイブ",
-      "zh-Hant": "三连钻",
-      "it": "Triplo Tuffo",
-      "en": "Triple Dive"
-    },
+    "names": { "ja-Hrkt": "トリプルダイブ", "zh-Hant": "三连钻", "it": "Triplo Tuffo", "en": "Triple Dive" },
     "power": 30,
     "pp": 10,
     "type": "water"
@@ -17109,12 +16919,7 @@
     "name": "mortal-spin",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "キラースピン",
-      "zh-Hant": "晶光转转",
-      "it": "Glitturbine",
-      "en": "Mortal Spin"
-    },
+    "names": { "ja-Hrkt": "キラースピン", "zh-Hant": "晶光转转", "it": "Glitturbine", "en": "Mortal Spin" },
     "power": 30,
     "pp": 15,
     "type": "poison"
@@ -17124,12 +16929,7 @@
     "name": "doodle",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "うつしえ",
-      "zh-Hant": "描绘",
-      "it": "Ricalco",
-      "en": "Doodle"
-    },
+    "names": { "ja-Hrkt": "うつしえ", "zh-Hant": "描绘", "it": "Ricalco", "en": "Doodle" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -17139,12 +16939,7 @@
     "name": "fillet-away",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "みをけずる",
-      "zh-Hant": "甩肉",
-      "it": "Alleggerimento",
-      "en": "Fillet Away"
-    },
+    "names": { "ja-Hrkt": "みをけずる", "zh-Hant": "甩肉", "it": "Alleggerimento", "en": "Fillet Away" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -17154,12 +16949,7 @@
     "name": "kowtow-cleave",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ドゲザン",
-      "zh-Hant": "仆刀",
-      "it": "Genufendente",
-      "en": "Kowtow Cleave"
-    },
+    "names": { "ja-Hrkt": "ドゲザン", "zh-Hant": "仆刀", "it": "Genufendente", "en": "Kowtow Cleave" },
     "power": 85,
     "pp": 10,
     "type": "dark"
@@ -17169,12 +16959,7 @@
     "name": "flower-trick",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "トリックフラワー",
-      "zh-Hant": "千变万花",
-      "it": "Prestigiafiore",
-      "en": "Flower Trick"
-    },
+    "names": { "ja-Hrkt": "トリックフラワー", "zh-Hant": "千变万花", "it": "Prestigiafiore", "en": "Flower Trick" },
     "power": 70,
     "pp": 10,
     "type": "grass"
@@ -17184,12 +16969,7 @@
     "name": "torch-song",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "フレアソング",
-      "zh-Hant": "闪焰高歌",
-      "it": "Canzone Ardente",
-      "en": "Torch Song"
-    },
+    "names": { "ja-Hrkt": "フレアソング", "zh-Hant": "闪焰高歌", "it": "Canzone Ardente", "en": "Torch Song" },
     "power": 80,
     "pp": 10,
     "type": "fire"
@@ -17199,12 +16979,7 @@
     "name": "aqua-step",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "アクアステップ",
-      "zh-Hant": "流水旋舞",
-      "it": "Idroballetto",
-      "en": "Aqua Step"
-    },
+    "names": { "ja-Hrkt": "アクアステップ", "zh-Hant": "流水旋舞", "it": "Idroballetto", "en": "Aqua Step" },
     "power": 80,
     "pp": 10,
     "type": "water"
@@ -17214,12 +16989,7 @@
     "name": "raging-bull",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "レイジングブル",
-      "zh-Hant": "怒牛",
-      "it": "Scatenatoro",
-      "en": "Raging Bull"
-    },
+    "names": { "ja-Hrkt": "レイジングブル", "zh-Hant": "怒牛", "it": "Scatenatoro", "en": "Raging Bull" },
     "power": 90,
     "pp": 10,
     "type": "normal"
@@ -17229,12 +16999,7 @@
     "name": "make-it-rain",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ゴールドラッシュ",
-      "zh-Hant": "淘金潮",
-      "it": "Corsa all'Oro",
-      "en": "Make It Rain"
-    },
+    "names": { "ja-Hrkt": "ゴールドラッシュ", "zh-Hant": "淘金潮", "it": "Corsa all'Oro", "en": "Make It Rain" },
     "power": 120,
     "pp": 5,
     "type": "steel"
@@ -17244,10 +17009,7 @@
     "name": "psyblade",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "it": "Botta",
-      "en": "Psyblade"
-    },
+    "names": { "it": "Botta", "en": "Psyblade" },
     "power": 80,
     "pp": 15,
     "type": "psychic"
@@ -17257,10 +17019,7 @@
     "name": "hydro-steam",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "it": "Botta",
-      "en": "Hydro Steam"
-    },
+    "names": { "it": "Botta", "en": "Hydro Steam" },
     "power": 80,
     "pp": 15,
     "type": "water"
@@ -17270,12 +17029,7 @@
     "name": "ruination",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "カタストロフィ",
-      "zh-Hant": "大灾难",
-      "it": "Catastrofe",
-      "en": "Ruination"
-    },
+    "names": { "ja-Hrkt": "カタストロフィ", "zh-Hant": "大灾难", "it": "Catastrofe", "en": "Ruination" },
     "power": 1,
     "pp": 10,
     "type": "dark"
@@ -17285,12 +17039,7 @@
     "name": "collision-course",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "アクセルブレイク",
-      "zh-Hant": "全开猛撞",
-      "it": "Turboschianto",
-      "en": "Collision Course"
-    },
+    "names": { "ja-Hrkt": "アクセルブレイク", "zh-Hant": "全开猛撞", "it": "Turboschianto", "en": "Collision Course" },
     "power": 100,
     "pp": 5,
     "type": "fighting"
@@ -17300,12 +17049,7 @@
     "name": "electro-drift",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "イナズマドライブ",
-      "zh-Hant": "闪电猛冲",
-      "it": "Fulmiscatto",
-      "en": "Electro Drift"
-    },
+    "names": { "ja-Hrkt": "イナズマドライブ", "zh-Hant": "闪电猛冲", "it": "Fulmiscatto", "en": "Electro Drift" },
     "power": 100,
     "pp": 5,
     "type": "electric"
@@ -17315,12 +17059,7 @@
     "name": "shed-tail",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "しっぽきり",
-      "zh-Hant": "断尾",
-      "it": "Tagliacoda",
-      "en": "Shed Tail"
-    },
+    "names": { "ja-Hrkt": "しっぽきり", "zh-Hant": "断尾", "it": "Tagliacoda", "en": "Shed Tail" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -17330,12 +17069,7 @@
     "name": "chilly-reception",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "さむいギャグ",
-      "zh-Hant": "冷笑话",
-      "it": "Freddura",
-      "en": "Chilly Reception"
-    },
+    "names": { "ja-Hrkt": "さむいギャグ", "zh-Hant": "冷笑话", "it": "Freddura", "en": "Chilly Reception" },
     "power": 0,
     "pp": 10,
     "type": "ice"
@@ -17345,12 +17079,7 @@
     "name": "tidy-up",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "おかたづけ",
-      "zh-Hant": "大扫除",
-      "it": "Pulizie",
-      "en": "Tidy Up"
-    },
+    "names": { "ja-Hrkt": "おかたづけ", "zh-Hant": "大扫除", "it": "Pulizie", "en": "Tidy Up" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -17360,12 +17089,7 @@
     "name": "snowscape",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ゆきげしき",
-      "zh-Hant": "雪景",
-      "it": "Vista Innevata",
-      "en": "Snowscape"
-    },
+    "names": { "ja-Hrkt": "ゆきげしき", "zh-Hant": "雪景", "it": "Vista Innevata", "en": "Snowscape" },
     "power": 0,
     "pp": 10,
     "type": "ice"
@@ -17375,12 +17099,7 @@
     "name": "pounce",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "とびつく",
-      "zh-Hant": "虫扑",
-      "it": "Balzo",
-      "en": "Pounce"
-    },
+    "names": { "ja-Hrkt": "とびつく", "zh-Hant": "虫扑", "it": "Balzo", "en": "Pounce" },
     "power": 50,
     "pp": 20,
     "type": "bug"
@@ -17390,12 +17109,7 @@
     "name": "trailblaze",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "くさわけ",
-      "zh-Hant": "起草",
-      "it": "Apripista",
-      "en": "Trailblaze"
-    },
+    "names": { "ja-Hrkt": "くさわけ", "zh-Hant": "起草", "it": "Apripista", "en": "Trailblaze" },
     "power": 50,
     "pp": 20,
     "type": "grass"
@@ -17405,12 +17119,7 @@
     "name": "chilling-water",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ひやみず",
-      "zh-Hant": "泼冷水",
-      "it": "Doccia Fredda",
-      "en": "Chilling Water"
-    },
+    "names": { "ja-Hrkt": "ひやみず", "zh-Hant": "泼冷水", "it": "Doccia Fredda", "en": "Chilling Water" },
     "power": 50,
     "pp": 20,
     "type": "water"
@@ -17420,12 +17129,7 @@
     "name": "hyper-drill",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ハイパードリル",
-      "zh-Hant": "强力钻",
-      "it": "Ipertrapano",
-      "en": "Hyper Drill"
-    },
+    "names": { "ja-Hrkt": "ハイパードリル", "zh-Hant": "强力钻", "it": "Ipertrapano", "en": "Hyper Drill" },
     "power": 100,
     "pp": 5,
     "type": "normal"
@@ -17435,12 +17139,7 @@
     "name": "twin-beam",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ツインビーム",
-      "zh-Hant": "双光束",
-      "it": "Doppioraggio",
-      "en": "Twin Beam"
-    },
+    "names": { "ja-Hrkt": "ツインビーム", "zh-Hant": "双光束", "it": "Doppioraggio", "en": "Twin Beam" },
     "power": 40,
     "pp": 10,
     "type": "psychic"
@@ -17450,12 +17149,7 @@
     "name": "rage-fist",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ふんどのこぶし",
-      "zh-Hant": "愤怒之拳",
-      "it": "Pugno Furibondo",
-      "en": "Rage Fist"
-    },
+    "names": { "ja-Hrkt": "ふんどのこぶし", "zh-Hant": "愤怒之拳", "it": "Pugno Furibondo", "en": "Rage Fist" },
     "power": 50,
     "pp": 10,
     "type": "ghost"
@@ -17465,12 +17159,7 @@
     "name": "armor-cannon",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "アーマーキャノン",
-      "zh-Hant": "铠农炮",
-      "it": "Corazza Cannone",
-      "en": "Armor Cannon"
-    },
+    "names": { "ja-Hrkt": "アーマーキャノン", "zh-Hant": "铠农炮", "it": "Corazza Cannone", "en": "Armor Cannon" },
     "power": 120,
     "pp": 5,
     "type": "fire"
@@ -17480,12 +17169,7 @@
     "name": "bitter-blade",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "むねんのつるぎ",
-      "zh-Hant": "悔念剑",
-      "it": "Lama del Rimorso",
-      "en": "Bitter Blade"
-    },
+    "names": { "ja-Hrkt": "むねんのつるぎ", "zh-Hant": "悔念剑", "it": "Lama del Rimorso", "en": "Bitter Blade" },
     "power": 90,
     "pp": 10,
     "type": "fire"
@@ -17495,12 +17179,7 @@
     "name": "double-shock",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "でんこうそうげき",
-      "zh-Hant": "电光双击",
-      "it": "Doppiolampo",
-      "en": "Double Shock"
-    },
+    "names": { "ja-Hrkt": "でんこうそうげき", "zh-Hant": "电光双击", "it": "Doppiolampo", "en": "Double Shock" },
     "power": 120,
     "pp": 5,
     "type": "electric"
@@ -17510,12 +17189,7 @@
     "name": "gigaton-hammer",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "デカハンマー",
-      "zh-Hant": "巨力锤",
-      "it": "Granmartello",
-      "en": "Gigaton Hammer"
-    },
+    "names": { "ja-Hrkt": "デカハンマー", "zh-Hant": "巨力锤", "it": "Granmartello", "en": "Gigaton Hammer" },
     "power": 160,
     "pp": 5,
     "type": "steel"
@@ -17525,12 +17199,7 @@
     "name": "comeuppance",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ほうふく",
-      "zh-Hant": "复仇",
-      "it": "Ritorsione",
-      "en": "Comeuppance"
-    },
+    "names": { "ja-Hrkt": "ほうふく", "zh-Hant": "复仇", "it": "Ritorsione", "en": "Comeuppance" },
     "power": 1,
     "pp": 10,
     "type": "dark"
@@ -17540,12 +17209,7 @@
     "name": "aqua-cutter",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "アクアカッター",
-      "zh-Hant": "水波刀",
-      "it": "Idrotaglio",
-      "en": "Aqua Cutter"
-    },
+    "names": { "ja-Hrkt": "アクアカッター", "zh-Hant": "水波刀", "it": "Idrotaglio", "en": "Aqua Cutter" },
     "power": 70,
     "pp": 20,
     "type": "water"
@@ -17555,12 +17219,7 @@
     "name": "blazing-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "バーンアクセル",
-      "zh-Hant": "灼热暴冲",
-      "it": "Turboustione",
-      "en": "Blazing Torque"
-    },
+    "names": { "ja-Hrkt": "バーンアクセル", "zh-Hant": "灼热暴冲", "it": "Turboustione", "en": "Blazing Torque" },
     "power": 80,
     "pp": 10,
     "type": "fire"
@@ -17570,12 +17229,7 @@
     "name": "wicked-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ダークアクセル",
-      "zh-Hant": "黑暗暴冲",
-      "it": "Turbotenebra",
-      "en": "Wicked Torque"
-    },
+    "names": { "ja-Hrkt": "ダークアクセル", "zh-Hant": "黑暗暴冲", "it": "Turbotenebra", "en": "Wicked Torque" },
     "power": 80,
     "pp": 10,
     "type": "dark"
@@ -17585,12 +17239,7 @@
     "name": "noxious-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ポイズンアクセル",
-      "zh-Hant": "剧毒暴冲",
-      "it": "Turbotossina",
-      "en": "Noxious Torque"
-    },
+    "names": { "ja-Hrkt": "ポイズンアクセル", "zh-Hant": "剧毒暴冲", "it": "Turbotossina", "en": "Noxious Torque" },
     "power": 100,
     "pp": 10,
     "type": "poison"
@@ -17600,12 +17249,7 @@
     "name": "combat-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ファイトアクセル",
-      "zh-Hant": "格斗暴冲",
-      "it": "Turborissa",
-      "en": "Combat Torque"
-    },
+    "names": { "ja-Hrkt": "ファイトアクセル", "zh-Hant": "格斗暴冲", "it": "Turborissa", "en": "Combat Torque" },
     "power": 100,
     "pp": 10,
     "type": "fighting"
@@ -17615,12 +17259,7 @@
     "name": "magical-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "マジカルアクセル",
-      "zh-Hant": "魔法暴冲",
-      "it": "Turboincanto",
-      "en": "Magical Torque"
-    },
+    "names": { "ja-Hrkt": "マジカルアクセル", "zh-Hant": "魔法暴冲", "it": "Turboincanto", "en": "Magical Torque" },
     "power": 100,
     "pp": 10,
     "type": "fairy"
@@ -17630,10 +17269,7 @@
     "name": "blood-moon",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ブラッドムーン",
-      "en": "Blood Moon"
-    },
+    "names": { "ja-Hrkt": "ブラッドムーン", "en": "Blood Moon" },
     "power": 140,
     "pp": 5,
     "type": "normal"
@@ -17643,10 +17279,7 @@
     "name": "matcha-gotcha",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "シャカシャカほう",
-      "en": "Matcha Gotcha"
-    },
+    "names": { "ja-Hrkt": "シャカシャカほう", "en": "Matcha Gotcha" },
     "power": 80,
     "pp": 15,
     "type": "grass"
@@ -17656,10 +17289,7 @@
     "name": "syrup-bomb",
     "accuracy": 85,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "みずあめボム",
-      "en": "Syrup Bomb"
-    },
+    "names": { "ja-Hrkt": "みずあめボム", "en": "Syrup Bomb" },
     "power": 60,
     "pp": 10,
     "type": "grass"
@@ -17669,10 +17299,7 @@
     "name": "ivy-cudgel",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": {
-      "ja-Hrkt": "ツタこんぼう",
-      "en": "Ivy Cudgel"
-    },
+    "names": { "ja-Hrkt": "ツタこんぼう", "en": "Ivy Cudgel" },
     "power": 100,
     "pp": 10,
     "type": "grass"

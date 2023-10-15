@@ -1,3749 +1,1159 @@
 [
-  {
-    "id": 1,
-    "name": "canalave-city",
-    "names": {
-      "fr": "Joliberges",
-      "en": "Canalave City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 2,
-    "name": "eterna-city",
-    "names": {
-      "fr": "Vestigion",
-      "en": "Eterna City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 3,
-    "name": "pastoria-city",
-    "names": {
-      "fr": "Verchamps",
-      "en": "Pastoria City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 4,
-    "name": "sunyshore-city",
-    "names": {
-      "fr": "Rivamar",
-      "en": "Sunyshore City"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 1, "name": "canalave-city", "names": { "fr": "Joliberges", "en": "Canalave City" }, "region": "sinnoh" },
+  { "id": 2, "name": "eterna-city", "names": { "fr": "Vestigion", "en": "Eterna City" }, "region": "sinnoh" },
+  { "id": 3, "name": "pastoria-city", "names": { "fr": "Verchamps", "en": "Pastoria City" }, "region": "sinnoh" },
+  { "id": 4, "name": "sunyshore-city", "names": { "fr": "Rivamar", "en": "Sunyshore City" }, "region": "sinnoh" },
   {
     "id": 5,
     "name": "sinnoh-pokemon-league",
-    "names": {
-      "fr": "Ligue Pokémon",
-      "en": "Pokémon League"
-    },
+    "names": { "fr": "Ligue Pokémon", "en": "Pokémon League" },
     "region": "sinnoh"
   },
-  {
-    "id": 6,
-    "name": "oreburgh-mine",
-    "names": {
-      "fr": "Mine Charbourg",
-      "en": "Oreburgh Mine"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 6, "name": "oreburgh-mine", "names": { "fr": "Mine Charbourg", "en": "Oreburgh Mine" }, "region": "sinnoh" },
   {
     "id": 7,
     "name": "valley-windworks",
-    "names": {
-      "fr": "Les Eoliennes",
-      "en": "Valley Windworks"
-    },
+    "names": { "fr": "Les Eoliennes", "en": "Valley Windworks" },
     "region": "sinnoh"
   },
-  {
-    "id": 8,
-    "name": "eterna-forest",
-    "names": {
-      "fr": "Forêt Vestigion",
-      "en": "Eterna Forest"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 9,
-    "name": "fuego-ironworks",
-    "names": {
-      "fr": "Forge Fuego",
-      "en": "Fuego Ironworks"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 10,
-    "name": "mt-coronet",
-    "names": {
-      "fr": "Mont Couronné",
-      "en": "Mt. Coronet"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 11,
-    "name": "great-marsh",
-    "names": {
-      "fr": "Grand Marais",
-      "en": "Great Marsh"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 8, "name": "eterna-forest", "names": { "fr": "Forêt Vestigion", "en": "Eterna Forest" }, "region": "sinnoh" },
+  { "id": 9, "name": "fuego-ironworks", "names": { "fr": "Forge Fuego", "en": "Fuego Ironworks" }, "region": "sinnoh" },
+  { "id": 10, "name": "mt-coronet", "names": { "fr": "Mont Couronné", "en": "Mt. Coronet" }, "region": "sinnoh" },
+  { "id": 11, "name": "great-marsh", "names": { "fr": "Grand Marais", "en": "Great Marsh" }, "region": "sinnoh" },
   {
     "id": 12,
     "name": "solaceon-ruins",
-    "names": {
-      "fr": "Ruines Bonville",
-      "en": "Solaceon Ruins"
-    },
+    "names": { "fr": "Ruines Bonville", "en": "Solaceon Ruins" },
     "region": "sinnoh"
   },
   {
     "id": 13,
     "name": "sinnoh-victory-road",
-    "names": {
-      "fr": "Route Victoire",
-      "en": "Victory Road"
-    },
+    "names": { "fr": "Route Victoire", "en": "Victory Road" },
     "region": "sinnoh"
   },
-  {
-    "id": 14,
-    "name": "ravaged-path",
-    "names": {
-      "fr": "Chemin Rocheux",
-      "en": "Ravaged Path"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 14, "name": "ravaged-path", "names": { "fr": "Chemin Rocheux", "en": "Ravaged Path" }, "region": "sinnoh" },
   {
     "id": 15,
     "name": "oreburgh-gate",
-    "names": {
-      "fr": "Entrée Charbourg",
-      "en": "Oreburgh Gate"
-    },
+    "names": { "fr": "Entrée Charbourg", "en": "Oreburgh Gate" },
     "region": "sinnoh"
   },
-  {
-    "id": 16,
-    "name": "stark-mountain",
-    "names": {
-      "fr": "Mont Abrupt",
-      "en": "Stark Mountain"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 17,
-    "name": "spring-path",
-    "names": {
-      "fr": "Chemin Source",
-      "en": "Spring Path"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 18,
-    "name": "turnback-cave",
-    "names": {
-      "fr": "Grotte Retour",
-      "en": "Turnback Cave"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 16, "name": "stark-mountain", "names": { "fr": "Mont Abrupt", "en": "Stark Mountain" }, "region": "sinnoh" },
+  { "id": 17, "name": "spring-path", "names": { "fr": "Chemin Source", "en": "Spring Path" }, "region": "sinnoh" },
+  { "id": 18, "name": "turnback-cave", "names": { "fr": "Grotte Retour", "en": "Turnback Cave" }, "region": "sinnoh" },
   {
     "id": 19,
     "name": "snowpoint-temple",
-    "names": {
-      "fr": "Temple Frimapic",
-      "en": "Snowpoint Temple"
-    },
+    "names": { "fr": "Temple Frimapic", "en": "Snowpoint Temple" },
     "region": "sinnoh"
   },
-  {
-    "id": 20,
-    "name": "wayward-cave",
-    "names": {
-      "fr": "Grotte Revèche",
-      "en": "Wayward Cave"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 20, "name": "wayward-cave", "names": { "fr": "Grotte Revèche", "en": "Wayward Cave" }, "region": "sinnoh" },
   {
     "id": 22,
     "name": "ruin-maniac-cave",
-    "names": {
-      "fr": "Grotte Ruinem.",
-      "en": "Ruin Maniac Cave"
-    },
+    "names": { "fr": "Grotte Ruinem.", "en": "Ruin Maniac Cave" },
     "region": "sinnoh"
   },
-  {
-    "id": 23,
-    "name": "trophy-garden",
-    "names": {
-      "fr": "Jardin Trophée",
-      "en": "Trophy Garden"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 24,
-    "name": "iron-island",
-    "names": {
-      "fr": "Ile de Fer",
-      "en": "Iron Island"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 25,
-    "name": "old-chateau",
-    "names": {
-      "fr": "Vieux Château",
-      "en": "Old Chateau"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 26,
-    "name": "lake-verity",
-    "names": {
-      "fr": "Lac Vérité",
-      "en": "Lake Verity"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 27,
-    "name": "lake-valor",
-    "names": {
-      "fr": "Lac Courage",
-      "en": "Lake Valor"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 28,
-    "name": "lake-acuity",
-    "names": {
-      "fr": "Lac Savoir",
-      "en": "Lake Acuity"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 23, "name": "trophy-garden", "names": { "fr": "Jardin Trophée", "en": "Trophy Garden" }, "region": "sinnoh" },
+  { "id": 24, "name": "iron-island", "names": { "fr": "Ile de Fer", "en": "Iron Island" }, "region": "sinnoh" },
+  { "id": 25, "name": "old-chateau", "names": { "fr": "Vieux Château", "en": "Old Chateau" }, "region": "sinnoh" },
+  { "id": 26, "name": "lake-verity", "names": { "fr": "Lac Vérité", "en": "Lake Verity" }, "region": "sinnoh" },
+  { "id": 27, "name": "lake-valor", "names": { "fr": "Lac Courage", "en": "Lake Valor" }, "region": "sinnoh" },
+  { "id": 28, "name": "lake-acuity", "names": { "fr": "Lac Savoir", "en": "Lake Acuity" }, "region": "sinnoh" },
   {
     "id": 29,
     "name": "valor-lakefront",
-    "names": {
-      "fr": "Rive Lac Courage",
-      "en": "Valor Lakefront"
-    },
+    "names": { "fr": "Rive Lac Courage", "en": "Valor Lakefront" },
     "region": "sinnoh"
   },
   {
     "id": 30,
     "name": "acuity-lakefront",
-    "names": {
-      "fr": "Rive Lac Savoir",
-      "en": "Acuity Lakefront"
-    },
+    "names": { "fr": "Rive Lac Savoir", "en": "Acuity Lakefront" },
     "region": "sinnoh"
   },
-  {
-    "id": 31,
-    "name": "sinnoh-route-201",
-    "names": {
-      "fr": "Route 201",
-      "en": "Route 201"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 32,
-    "name": "sinnoh-route-202",
-    "names": {
-      "fr": "Route 202",
-      "en": "Route 202"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 33,
-    "name": "sinnoh-route-203",
-    "names": {
-      "fr": "Route 203",
-      "en": "Route 203"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 34,
-    "name": "sinnoh-route-204",
-    "names": {
-      "fr": "Route 204",
-      "en": "Route 204"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 35,
-    "name": "sinnoh-route-205",
-    "names": {
-      "fr": "Route 205",
-      "en": "Route 205"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 36,
-    "name": "sinnoh-route-206",
-    "names": {
-      "fr": "Route 206",
-      "en": "Route 206"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 37,
-    "name": "sinnoh-route-207",
-    "names": {
-      "fr": "Route 207",
-      "en": "Route 207"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 38,
-    "name": "sinnoh-route-208",
-    "names": {
-      "fr": "Route 208",
-      "en": "Route 208"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 39,
-    "name": "sinnoh-route-209",
-    "names": {
-      "fr": "Route 209",
-      "en": "Route 209"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 40,
-    "name": "lost-tower",
-    "names": {
-      "fr": "Tour Perdue",
-      "en": "Lost Tower"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 41,
-    "name": "sinnoh-route-210",
-    "names": {
-      "fr": "Route 210",
-      "en": "Route 210"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 42,
-    "name": "sinnoh-route-211",
-    "names": {
-      "fr": "Route 211",
-      "en": "Route 211"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 43,
-    "name": "sinnoh-route-212",
-    "names": {
-      "fr": "Route 212",
-      "en": "Route 212"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 44,
-    "name": "sinnoh-route-213",
-    "names": {
-      "fr": "Route 213",
-      "en": "Route 213"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 45,
-    "name": "sinnoh-route-214",
-    "names": {
-      "fr": "Route 214",
-      "en": "Route 214"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 46,
-    "name": "sinnoh-route-215",
-    "names": {
-      "fr": "Route 215",
-      "en": "Route 215"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 47,
-    "name": "sinnoh-route-216",
-    "names": {
-      "fr": "Route 216",
-      "en": "Route 216"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 48,
-    "name": "sinnoh-route-217",
-    "names": {
-      "fr": "Route 217",
-      "en": "Route 217"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 49,
-    "name": "sinnoh-route-218",
-    "names": {
-      "fr": "Route 218",
-      "en": "Route 218"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 50,
-    "name": "sinnoh-route-219",
-    "names": {
-      "fr": "Route 219",
-      "en": "Route 219"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 51,
-    "name": "sinnoh-route-221",
-    "names": {
-      "fr": "Route 221",
-      "en": "Route 221"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 52,
-    "name": "sinnoh-route-222",
-    "names": {
-      "fr": "Route 222",
-      "en": "Route 222"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 53,
-    "name": "sinnoh-route-224",
-    "names": {
-      "fr": "Route 224",
-      "en": "Route 224"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 54,
-    "name": "sinnoh-route-225",
-    "names": {
-      "fr": "Route 225",
-      "en": "Route 225"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 55,
-    "name": "sinnoh-route-227",
-    "names": {
-      "fr": "Route 227",
-      "en": "Route 227"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 56,
-    "name": "sinnoh-route-228",
-    "names": {
-      "fr": "Route 228",
-      "en": "Route 228"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 57,
-    "name": "sinnoh-route-229",
-    "names": {
-      "fr": "Route 229",
-      "en": "Route 229"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 58,
-    "name": "twinleaf-town",
-    "names": {
-      "fr": "Bonaugure",
-      "en": "Twinleaf Town"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 59,
-    "name": "celestic-town",
-    "names": {
-      "fr": "Célestia",
-      "en": "Celestic Town"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 60,
-    "name": "resort-area",
-    "names": {
-      "fr": "Aire de Détente",
-      "en": "Resort Area"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 31, "name": "sinnoh-route-201", "names": { "fr": "Route 201", "en": "Route 201" }, "region": "sinnoh" },
+  { "id": 32, "name": "sinnoh-route-202", "names": { "fr": "Route 202", "en": "Route 202" }, "region": "sinnoh" },
+  { "id": 33, "name": "sinnoh-route-203", "names": { "fr": "Route 203", "en": "Route 203" }, "region": "sinnoh" },
+  { "id": 34, "name": "sinnoh-route-204", "names": { "fr": "Route 204", "en": "Route 204" }, "region": "sinnoh" },
+  { "id": 35, "name": "sinnoh-route-205", "names": { "fr": "Route 205", "en": "Route 205" }, "region": "sinnoh" },
+  { "id": 36, "name": "sinnoh-route-206", "names": { "fr": "Route 206", "en": "Route 206" }, "region": "sinnoh" },
+  { "id": 37, "name": "sinnoh-route-207", "names": { "fr": "Route 207", "en": "Route 207" }, "region": "sinnoh" },
+  { "id": 38, "name": "sinnoh-route-208", "names": { "fr": "Route 208", "en": "Route 208" }, "region": "sinnoh" },
+  { "id": 39, "name": "sinnoh-route-209", "names": { "fr": "Route 209", "en": "Route 209" }, "region": "sinnoh" },
+  { "id": 40, "name": "lost-tower", "names": { "fr": "Tour Perdue", "en": "Lost Tower" }, "region": "sinnoh" },
+  { "id": 41, "name": "sinnoh-route-210", "names": { "fr": "Route 210", "en": "Route 210" }, "region": "sinnoh" },
+  { "id": 42, "name": "sinnoh-route-211", "names": { "fr": "Route 211", "en": "Route 211" }, "region": "sinnoh" },
+  { "id": 43, "name": "sinnoh-route-212", "names": { "fr": "Route 212", "en": "Route 212" }, "region": "sinnoh" },
+  { "id": 44, "name": "sinnoh-route-213", "names": { "fr": "Route 213", "en": "Route 213" }, "region": "sinnoh" },
+  { "id": 45, "name": "sinnoh-route-214", "names": { "fr": "Route 214", "en": "Route 214" }, "region": "sinnoh" },
+  { "id": 46, "name": "sinnoh-route-215", "names": { "fr": "Route 215", "en": "Route 215" }, "region": "sinnoh" },
+  { "id": 47, "name": "sinnoh-route-216", "names": { "fr": "Route 216", "en": "Route 216" }, "region": "sinnoh" },
+  { "id": 48, "name": "sinnoh-route-217", "names": { "fr": "Route 217", "en": "Route 217" }, "region": "sinnoh" },
+  { "id": 49, "name": "sinnoh-route-218", "names": { "fr": "Route 218", "en": "Route 218" }, "region": "sinnoh" },
+  { "id": 50, "name": "sinnoh-route-219", "names": { "fr": "Route 219", "en": "Route 219" }, "region": "sinnoh" },
+  { "id": 51, "name": "sinnoh-route-221", "names": { "fr": "Route 221", "en": "Route 221" }, "region": "sinnoh" },
+  { "id": 52, "name": "sinnoh-route-222", "names": { "fr": "Route 222", "en": "Route 222" }, "region": "sinnoh" },
+  { "id": 53, "name": "sinnoh-route-224", "names": { "fr": "Route 224", "en": "Route 224" }, "region": "sinnoh" },
+  { "id": 54, "name": "sinnoh-route-225", "names": { "fr": "Route 225", "en": "Route 225" }, "region": "sinnoh" },
+  { "id": 55, "name": "sinnoh-route-227", "names": { "fr": "Route 227", "en": "Route 227" }, "region": "sinnoh" },
+  { "id": 56, "name": "sinnoh-route-228", "names": { "fr": "Route 228", "en": "Route 228" }, "region": "sinnoh" },
+  { "id": 57, "name": "sinnoh-route-229", "names": { "fr": "Route 229", "en": "Route 229" }, "region": "sinnoh" },
+  { "id": 58, "name": "twinleaf-town", "names": { "fr": "Bonaugure", "en": "Twinleaf Town" }, "region": "sinnoh" },
+  { "id": 59, "name": "celestic-town", "names": { "fr": "Célestia", "en": "Celestic Town" }, "region": "sinnoh" },
+  { "id": 60, "name": "resort-area", "names": { "fr": "Aire de Détente", "en": "Resort Area" }, "region": "sinnoh" },
   {
     "id": 61,
     "name": "sinnoh-sea-route-220",
-    "names": {
-      "fr": "Chenal 220",
-      "en": "Sea Route 220"
-    },
+    "names": { "fr": "Chenal 220", "en": "Sea Route 220" },
     "region": "sinnoh"
   },
   {
     "id": 62,
     "name": "sinnoh-sea-route-223",
-    "names": {
-      "fr": "Chenal 223",
-      "en": "Sea Route 223"
-    },
+    "names": { "fr": "Chenal 223", "en": "Sea Route 223" },
     "region": "sinnoh"
   },
   {
     "id": 63,
     "name": "sinnoh-sea-route-226",
-    "names": {
-      "fr": "Chenal 226",
-      "en": "Sea Route 226"
-    },
+    "names": { "fr": "Chenal 226", "en": "Sea Route 226" },
     "region": "sinnoh"
   },
   {
     "id": 64,
     "name": "sinnoh-sea-route-230",
-    "names": {
-      "fr": "Chenal 230",
-      "en": "Sea Route 230"
-    },
+    "names": { "fr": "Chenal 230", "en": "Sea Route 230" },
     "region": "sinnoh"
   },
-  {
-    "id": 65,
-    "name": "blackthorn-city",
-    "names": {
-      "fr": "Ebènelle",
-      "en": "Blackthorn City"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 66,
-    "name": "burned-tower",
-    "names": {
-      "fr": "Tour Cendrée",
-      "en": "Burned Tower"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 67,
-    "name": "celadon-city",
-    "names": {
-      "fr": "Céladopole",
-      "en": "Celadon City"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 68,
-    "name": "cerulean-city",
-    "names": {
-      "fr": "Azuria",
-      "en": "Cerulean City"
-    },
-    "region": "kanto"
-  },
+  { "id": 65, "name": "blackthorn-city", "names": { "fr": "Ebènelle", "en": "Blackthorn City" }, "region": "johto" },
+  { "id": 66, "name": "burned-tower", "names": { "fr": "Tour Cendrée", "en": "Burned Tower" }, "region": "johto" },
+  { "id": 67, "name": "celadon-city", "names": { "fr": "Céladopole", "en": "Celadon City" }, "region": "kanto" },
+  { "id": 68, "name": "cerulean-city", "names": { "fr": "Azuria", "en": "Cerulean City" }, "region": "kanto" },
   {
     "id": 69,
     "name": "cherrygrove-city",
-    "names": {
-      "fr": "Ville Griotte",
-      "en": "Cherrygrove City"
-    },
+    "names": { "fr": "Ville Griotte", "en": "Cherrygrove City" },
     "region": "johto"
   },
-  {
-    "id": 70,
-    "name": "cianwood-city",
-    "names": {
-      "fr": "Irisia",
-      "en": "Cianwood City"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 71,
-    "name": "cinnabar-island",
-    "names": {
-      "fr": "Cramois'Ile",
-      "en": "Cinnabar Island"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 72,
-    "name": "dark-cave",
-    "names": {
-      "fr": "Antre Noir",
-      "en": "Dark Cave"
-    },
-    "region": "johto"
-  },
+  { "id": 70, "name": "cianwood-city", "names": { "fr": "Irisia", "en": "Cianwood City" }, "region": "johto" },
+  { "id": 71, "name": "cinnabar-island", "names": { "fr": "Cramois'Ile", "en": "Cinnabar Island" }, "region": "kanto" },
+  { "id": 72, "name": "dark-cave", "names": { "fr": "Antre Noir", "en": "Dark Cave" }, "region": "johto" },
   {
     "id": 73,
     "name": "digletts-cave",
-    "names": {
-      "fr": "Cave TAUPIQUEUR",
-      "en": "Diglett's Cave"
-    },
+    "names": { "fr": "Cave TAUPIQUEUR", "en": "Diglett's Cave" },
     "region": "kanto"
   },
-  {
-    "id": 74,
-    "name": "dragons-den",
-    "names": {
-      "fr": "Antre du Dragon",
-      "en": "Dragon's Den"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 75,
-    "name": "ecruteak-city",
-    "names": {
-      "fr": "Rosalia",
-      "en": "Ecruteak City"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 76,
-    "name": "fuchsia-city",
-    "names": {
-      "fr": "Parmanie",
-      "en": "Fuchsia City"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 77,
-    "name": "ice-path",
-    "names": {
-      "fr": "Route de Glace",
-      "en": "Ice Path"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 78,
-    "name": "ilex-forest",
-    "names": {
-      "fr": "Bois aux Chênes",
-      "en": "Ilex Forest"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 79,
-    "name": "lake-of-rage",
-    "names": {
-      "fr": "Lac Colère",
-      "en": "Lake of Rage"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 80,
-    "name": "mt-moon",
-    "names": {
-      "fr": "Mont Sélénite",
-      "en": "Mt. Moon"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 81,
-    "name": "mt-mortar",
-    "names": {
-      "fr": "Mont Creuset",
-      "en": "Mt. Mortar"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 82,
-    "name": "mt-silver",
-    "names": {
-      "fr": "Mont Argenté",
-      "en": "Mt. Silver"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 83,
-    "name": "national-park",
-    "names": {
-      "fr": "Parc Naturel",
-      "en": "National Park"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 84,
-    "name": "new-bark-town",
-    "names": {
-      "fr": "Bourg Geon",
-      "en": "New Bark Town"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 85,
-    "name": "olivine-city",
-    "names": {
-      "fr": "Oliville",
-      "en": "Olivine City"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 86,
-    "name": "pallet-town",
-    "names": {
-      "fr": "Bourg Palette",
-      "en": "Pallet Town"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 87,
-    "name": "rock-tunnel",
-    "names": {
-      "fr": "Grotte",
-      "en": "Rock Tunnel"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 88,
-    "name": "kanto-route-1",
-    "names": {
-      "fr": "Route 1",
-      "en": "Route 1"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 89,
-    "name": "kanto-route-10",
-    "names": {
-      "fr": "Route 10",
-      "en": "Route 10"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 90,
-    "name": "kanto-route-11",
-    "names": {
-      "fr": "Route 11",
-      "en": "Route 11"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 91,
-    "name": "kanto-route-12",
-    "names": {
-      "fr": "Route 12",
-      "en": "Route 12"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 92,
-    "name": "kanto-route-13",
-    "names": {
-      "fr": "Route 13",
-      "en": "Route 13"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 93,
-    "name": "kanto-route-14",
-    "names": {
-      "fr": "Route 14",
-      "en": "Route 14"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 94,
-    "name": "kanto-route-15",
-    "names": {
-      "fr": "Route 15",
-      "en": "Route 15"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 95,
-    "name": "kanto-route-16",
-    "names": {
-      "fr": "Route 16",
-      "en": "Route 16"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 96,
-    "name": "kanto-route-17",
-    "names": {
-      "fr": "Route 17",
-      "en": "Route 17"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 97,
-    "name": "kanto-route-18",
-    "names": {
-      "fr": "Route 18",
-      "en": "Route 18"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 98,
-    "name": "kanto-sea-route-19",
-    "names": {
-      "fr": "Chenal 19",
-      "en": "Sea Route 19"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 99,
-    "name": "kanto-route-2",
-    "names": {
-      "fr": "Route 2",
-      "en": "Route 2"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 100,
-    "name": "kanto-sea-route-20",
-    "names": {
-      "fr": "Chenal 20",
-      "en": "Sea Route 20"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 101,
-    "name": "kanto-sea-route-21",
-    "names": {
-      "fr": "Chenal 21",
-      "en": "Sea Route 21"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 102,
-    "name": "kanto-route-22",
-    "names": {
-      "fr": "Route 22",
-      "en": "Route 22"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 103,
-    "name": "kanto-route-24",
-    "names": {
-      "fr": "Route 24",
-      "en": "Route 24"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 104,
-    "name": "kanto-route-25",
-    "names": {
-      "fr": "Route 25",
-      "en": "Route 25"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 105,
-    "name": "kanto-route-26",
-    "names": {
-      "fr": "Route 26",
-      "en": "Route 26"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 106,
-    "name": "kanto-route-27",
-    "names": {
-      "fr": "Route 27",
-      "en": "Route 27"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 107,
-    "name": "kanto-route-28",
-    "names": {
-      "fr": "Route 28",
-      "en": "Route 28"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 108,
-    "name": "johto-route-29",
-    "names": {
-      "fr": "Route 29",
-      "en": "Route 29"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 109,
-    "name": "kanto-route-3",
-    "names": {
-      "fr": "Route 3",
-      "en": "Route 3"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 110,
-    "name": "johto-route-30",
-    "names": {
-      "fr": "Route 30",
-      "en": "Route 30"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 111,
-    "name": "johto-route-31",
-    "names": {
-      "fr": "Route 31",
-      "en": "Route 31"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 112,
-    "name": "johto-route-32",
-    "names": {
-      "fr": "Route 32",
-      "en": "Route 32"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 113,
-    "name": "johto-route-33",
-    "names": {
-      "fr": "Route 33",
-      "en": "Route 33"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 114,
-    "name": "johto-route-34",
-    "names": {
-      "fr": "Route 34",
-      "en": "Route 34"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 115,
-    "name": "johto-route-35",
-    "names": {
-      "fr": "Route 35",
-      "en": "Route 35"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 116,
-    "name": "johto-route-36",
-    "names": {
-      "fr": "Route 36",
-      "en": "Route 36"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 117,
-    "name": "johto-route-37",
-    "names": {
-      "fr": "Route 37",
-      "en": "Route 37"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 118,
-    "name": "johto-route-38",
-    "names": {
-      "fr": "Route 38",
-      "en": "Route 38"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 119,
-    "name": "johto-route-39",
-    "names": {
-      "fr": "Route 39",
-      "en": "Route 39"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 120,
-    "name": "kanto-route-4",
-    "names": {
-      "fr": "Route 4",
-      "en": "Route 4"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 121,
-    "name": "johto-sea-route-40",
-    "names": {
-      "fr": "Chenal 40",
-      "en": "Sea Route 40"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 122,
-    "name": "johto-sea-route-41",
-    "names": {
-      "fr": "Chenal 41",
-      "en": "Sea Route 41"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 123,
-    "name": "johto-route-42",
-    "names": {
-      "fr": "Route 42",
-      "en": "Route 42"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 124,
-    "name": "johto-route-43",
-    "names": {
-      "fr": "Route 43",
-      "en": "Route 43"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 125,
-    "name": "johto-route-44",
-    "names": {
-      "fr": "Route 44",
-      "en": "Route 44"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 126,
-    "name": "johto-route-45",
-    "names": {
-      "fr": "Route 45",
-      "en": "Route 45"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 127,
-    "name": "johto-route-46",
-    "names": {
-      "fr": "Route 46",
-      "en": "Route 46"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 128,
-    "name": "johto-route-47",
-    "names": {
-      "fr": "Route 47",
-      "en": "Route 47"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 129,
-    "name": "johto-route-48",
-    "names": {
-      "fr": "Route 48",
-      "en": "Route 48"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 130,
-    "name": "kanto-route-5",
-    "names": {
-      "fr": "Route 5",
-      "en": "Route 5"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 131,
-    "name": "kanto-route-6",
-    "names": {
-      "fr": "Route 6",
-      "en": "Route 6"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 132,
-    "name": "kanto-route-7",
-    "names": {
-      "fr": "Route 7",
-      "en": "Route 7"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 133,
-    "name": "kanto-route-8",
-    "names": {
-      "fr": "Route 8",
-      "en": "Route 8"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 134,
-    "name": "kanto-route-9",
-    "names": {
-      "fr": "Route 9",
-      "en": "Route 9"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 135,
-    "name": "ruins-of-alph",
-    "names": {
-      "fr": "Ruines d'Alpha",
-      "en": "Ruins of Alph"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 136,
-    "name": "seafoam-islands",
-    "names": {
-      "fr": "Iles Ecume",
-      "en": "Seafoam Islands"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 137,
-    "name": "slowpoke-well",
-    "names": {
-      "fr": "Puits RAMOLOSS",
-      "en": "Slowpoke Well"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 138,
-    "name": "sprout-tower",
-    "names": {
-      "fr": "Tour CHETIFLOR",
-      "en": "Sprout Tower"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 139,
-    "name": "bell-tower",
-    "names": {
-      "fr": "Tour Carillon",
-      "en": "Bell Tower"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 140,
-    "name": "tohjo-falls",
-    "names": {
-      "fr": "Chutes Tohjo",
-      "en": "Tohjo Falls"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 141,
-    "name": "union-cave",
-    "names": {
-      "fr": "Caves Jumelles",
-      "en": "Union Cave"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 147,
-    "name": "cerulean-cave",
-    "names": {
-      "fr": "Caverne Azurée",
-      "en": "Cerulean Cave"
-    },
-    "region": "kanto"
-  },
+  { "id": 74, "name": "dragons-den", "names": { "fr": "Antre du Dragon", "en": "Dragon's Den" }, "region": "johto" },
+  { "id": 75, "name": "ecruteak-city", "names": { "fr": "Rosalia", "en": "Ecruteak City" }, "region": "johto" },
+  { "id": 76, "name": "fuchsia-city", "names": { "fr": "Parmanie", "en": "Fuchsia City" }, "region": "kanto" },
+  { "id": 77, "name": "ice-path", "names": { "fr": "Route de Glace", "en": "Ice Path" }, "region": "johto" },
+  { "id": 78, "name": "ilex-forest", "names": { "fr": "Bois aux Chênes", "en": "Ilex Forest" }, "region": "johto" },
+  { "id": 79, "name": "lake-of-rage", "names": { "fr": "Lac Colère", "en": "Lake of Rage" }, "region": "johto" },
+  { "id": 80, "name": "mt-moon", "names": { "fr": "Mont Sélénite", "en": "Mt. Moon" }, "region": "kanto" },
+  { "id": 81, "name": "mt-mortar", "names": { "fr": "Mont Creuset", "en": "Mt. Mortar" }, "region": "johto" },
+  { "id": 82, "name": "mt-silver", "names": { "fr": "Mont Argenté", "en": "Mt. Silver" }, "region": "johto" },
+  { "id": 83, "name": "national-park", "names": { "fr": "Parc Naturel", "en": "National Park" }, "region": "johto" },
+  { "id": 84, "name": "new-bark-town", "names": { "fr": "Bourg Geon", "en": "New Bark Town" }, "region": "johto" },
+  { "id": 85, "name": "olivine-city", "names": { "fr": "Oliville", "en": "Olivine City" }, "region": "johto" },
+  { "id": 86, "name": "pallet-town", "names": { "fr": "Bourg Palette", "en": "Pallet Town" }, "region": "kanto" },
+  { "id": 87, "name": "rock-tunnel", "names": { "fr": "Grotte", "en": "Rock Tunnel" }, "region": "kanto" },
+  { "id": 88, "name": "kanto-route-1", "names": { "fr": "Route 1", "en": "Route 1" }, "region": "kanto" },
+  { "id": 89, "name": "kanto-route-10", "names": { "fr": "Route 10", "en": "Route 10" }, "region": "kanto" },
+  { "id": 90, "name": "kanto-route-11", "names": { "fr": "Route 11", "en": "Route 11" }, "region": "kanto" },
+  { "id": 91, "name": "kanto-route-12", "names": { "fr": "Route 12", "en": "Route 12" }, "region": "kanto" },
+  { "id": 92, "name": "kanto-route-13", "names": { "fr": "Route 13", "en": "Route 13" }, "region": "kanto" },
+  { "id": 93, "name": "kanto-route-14", "names": { "fr": "Route 14", "en": "Route 14" }, "region": "kanto" },
+  { "id": 94, "name": "kanto-route-15", "names": { "fr": "Route 15", "en": "Route 15" }, "region": "kanto" },
+  { "id": 95, "name": "kanto-route-16", "names": { "fr": "Route 16", "en": "Route 16" }, "region": "kanto" },
+  { "id": 96, "name": "kanto-route-17", "names": { "fr": "Route 17", "en": "Route 17" }, "region": "kanto" },
+  { "id": 97, "name": "kanto-route-18", "names": { "fr": "Route 18", "en": "Route 18" }, "region": "kanto" },
+  { "id": 98, "name": "kanto-sea-route-19", "names": { "fr": "Chenal 19", "en": "Sea Route 19" }, "region": "kanto" },
+  { "id": 99, "name": "kanto-route-2", "names": { "fr": "Route 2", "en": "Route 2" }, "region": "kanto" },
+  { "id": 100, "name": "kanto-sea-route-20", "names": { "fr": "Chenal 20", "en": "Sea Route 20" }, "region": "kanto" },
+  { "id": 101, "name": "kanto-sea-route-21", "names": { "fr": "Chenal 21", "en": "Sea Route 21" }, "region": "kanto" },
+  { "id": 102, "name": "kanto-route-22", "names": { "fr": "Route 22", "en": "Route 22" }, "region": "kanto" },
+  { "id": 103, "name": "kanto-route-24", "names": { "fr": "Route 24", "en": "Route 24" }, "region": "kanto" },
+  { "id": 104, "name": "kanto-route-25", "names": { "fr": "Route 25", "en": "Route 25" }, "region": "kanto" },
+  { "id": 105, "name": "kanto-route-26", "names": { "fr": "Route 26", "en": "Route 26" }, "region": "kanto" },
+  { "id": 106, "name": "kanto-route-27", "names": { "fr": "Route 27", "en": "Route 27" }, "region": "kanto" },
+  { "id": 107, "name": "kanto-route-28", "names": { "fr": "Route 28", "en": "Route 28" }, "region": "kanto" },
+  { "id": 108, "name": "johto-route-29", "names": { "fr": "Route 29", "en": "Route 29" }, "region": "johto" },
+  { "id": 109, "name": "kanto-route-3", "names": { "fr": "Route 3", "en": "Route 3" }, "region": "kanto" },
+  { "id": 110, "name": "johto-route-30", "names": { "fr": "Route 30", "en": "Route 30" }, "region": "johto" },
+  { "id": 111, "name": "johto-route-31", "names": { "fr": "Route 31", "en": "Route 31" }, "region": "johto" },
+  { "id": 112, "name": "johto-route-32", "names": { "fr": "Route 32", "en": "Route 32" }, "region": "johto" },
+  { "id": 113, "name": "johto-route-33", "names": { "fr": "Route 33", "en": "Route 33" }, "region": "johto" },
+  { "id": 114, "name": "johto-route-34", "names": { "fr": "Route 34", "en": "Route 34" }, "region": "johto" },
+  { "id": 115, "name": "johto-route-35", "names": { "fr": "Route 35", "en": "Route 35" }, "region": "johto" },
+  { "id": 116, "name": "johto-route-36", "names": { "fr": "Route 36", "en": "Route 36" }, "region": "johto" },
+  { "id": 117, "name": "johto-route-37", "names": { "fr": "Route 37", "en": "Route 37" }, "region": "johto" },
+  { "id": 118, "name": "johto-route-38", "names": { "fr": "Route 38", "en": "Route 38" }, "region": "johto" },
+  { "id": 119, "name": "johto-route-39", "names": { "fr": "Route 39", "en": "Route 39" }, "region": "johto" },
+  { "id": 120, "name": "kanto-route-4", "names": { "fr": "Route 4", "en": "Route 4" }, "region": "kanto" },
+  { "id": 121, "name": "johto-sea-route-40", "names": { "fr": "Chenal 40", "en": "Sea Route 40" }, "region": "johto" },
+  { "id": 122, "name": "johto-sea-route-41", "names": { "fr": "Chenal 41", "en": "Sea Route 41" }, "region": "johto" },
+  { "id": 123, "name": "johto-route-42", "names": { "fr": "Route 42", "en": "Route 42" }, "region": "johto" },
+  { "id": 124, "name": "johto-route-43", "names": { "fr": "Route 43", "en": "Route 43" }, "region": "johto" },
+  { "id": 125, "name": "johto-route-44", "names": { "fr": "Route 44", "en": "Route 44" }, "region": "johto" },
+  { "id": 126, "name": "johto-route-45", "names": { "fr": "Route 45", "en": "Route 45" }, "region": "johto" },
+  { "id": 127, "name": "johto-route-46", "names": { "fr": "Route 46", "en": "Route 46" }, "region": "johto" },
+  { "id": 128, "name": "johto-route-47", "names": { "fr": "Route 47", "en": "Route 47" }, "region": "johto" },
+  { "id": 129, "name": "johto-route-48", "names": { "fr": "Route 48", "en": "Route 48" }, "region": "johto" },
+  { "id": 130, "name": "kanto-route-5", "names": { "fr": "Route 5", "en": "Route 5" }, "region": "kanto" },
+  { "id": 131, "name": "kanto-route-6", "names": { "fr": "Route 6", "en": "Route 6" }, "region": "kanto" },
+  { "id": 132, "name": "kanto-route-7", "names": { "fr": "Route 7", "en": "Route 7" }, "region": "kanto" },
+  { "id": 133, "name": "kanto-route-8", "names": { "fr": "Route 8", "en": "Route 8" }, "region": "kanto" },
+  { "id": 134, "name": "kanto-route-9", "names": { "fr": "Route 9", "en": "Route 9" }, "region": "kanto" },
+  { "id": 135, "name": "ruins-of-alph", "names": { "fr": "Ruines d'Alpha", "en": "Ruins of Alph" }, "region": "johto" },
+  { "id": 136, "name": "seafoam-islands", "names": { "fr": "Iles Ecume", "en": "Seafoam Islands" }, "region": "kanto" },
+  { "id": 137, "name": "slowpoke-well", "names": { "fr": "Puits RAMOLOSS", "en": "Slowpoke Well" }, "region": "johto" },
+  { "id": 138, "name": "sprout-tower", "names": { "fr": "Tour CHETIFLOR", "en": "Sprout Tower" }, "region": "johto" },
+  { "id": 139, "name": "bell-tower", "names": { "fr": "Tour Carillon", "en": "Bell Tower" }, "region": "johto" },
+  { "id": 140, "name": "tohjo-falls", "names": { "fr": "Chutes Tohjo", "en": "Tohjo Falls" }, "region": "johto" },
+  { "id": 141, "name": "union-cave", "names": { "fr": "Caves Jumelles", "en": "Union Cave" }, "region": "johto" },
+  { "id": 147, "name": "cerulean-cave", "names": { "fr": "Caverne Azurée", "en": "Cerulean Cave" }, "region": "kanto" },
   {
     "id": 148,
     "name": "unknown-all-poliwag",
-    "names": {
-      "fr": "Inconnu; que des Ptitard",
-      "en": "Unknown; all Poliwag"
-    },
+    "names": { "fr": "Inconnu; que des Ptitard", "en": "Unknown; all Poliwag" },
     "region": "johto"
   },
   {
     "id": 149,
     "name": "unknown-all-rattata",
-    "names": {
-      "fr": "Inconnu; que des Rattata",
-      "en": "Unknown; all Rattata"
-    },
+    "names": { "fr": "Inconnu; que des Rattata", "en": "Unknown; all Rattata" },
     "region": "johto"
   },
   {
     "id": 150,
     "name": "unknown-all-bugs",
-    "names": {
-      "fr": "Inconnu; que des insectes",
-      "en": "Unknown; all bugs"
-    },
+    "names": { "fr": "Inconnu; que des insectes", "en": "Unknown; all bugs" },
     "region": "johto"
   },
   {
     "id": 151,
     "name": "vermilion-city",
-    "names": {
-      "fr": "Carmin sur Mer",
-      "en": "Vermilion City"
-    },
+    "names": { "fr": "Carmin sur Mer", "en": "Vermilion City" },
     "region": "kanto"
   },
   {
     "id": 152,
     "name": "kanto-victory-road-1",
-    "names": {
-      "fr": "Route Victoire",
-      "en": "Victory Road"
-    },
+    "names": { "fr": "Route Victoire", "en": "Victory Road" },
     "region": "kanto"
   },
-  {
-    "id": 153,
-    "name": "violet-city",
-    "names": {
-      "fr": "Mauville",
-      "en": "Violet City"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 154,
-    "name": "viridian-city",
-    "names": {
-      "fr": "Jadielle",
-      "en": "Viridian City"
-    },
-    "region": "kanto"
-  },
+  { "id": 153, "name": "violet-city", "names": { "fr": "Mauville", "en": "Violet City" }, "region": "johto" },
+  { "id": 154, "name": "viridian-city", "names": { "fr": "Jadielle", "en": "Viridian City" }, "region": "kanto" },
   {
     "id": 155,
     "name": "viridian-forest",
-    "names": {
-      "fr": "Forêt de Jade",
-      "en": "Viridian Forest"
-    },
+    "names": { "fr": "Forêt de Jade", "en": "Viridian Forest" },
     "region": "kanto"
   },
-  {
-    "id": 156,
-    "name": "whirl-islands",
-    "names": {
-      "fr": "Tourb'Iles",
-      "en": "Whirl Islands"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 157,
-    "name": "kanto-route-23",
-    "names": {
-      "fr": "Route 23",
-      "en": "Route 23"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 158,
-    "name": "power-plant",
-    "names": {
-      "fr": "Centrale",
-      "en": "Power Plant"
-    },
-    "region": "kanto"
-  },
+  { "id": 156, "name": "whirl-islands", "names": { "fr": "Tourb'Iles", "en": "Whirl Islands" }, "region": "johto" },
+  { "id": 157, "name": "kanto-route-23", "names": { "fr": "Route 23", "en": "Route 23" }, "region": "kanto" },
+  { "id": 158, "name": "power-plant", "names": { "fr": "Centrale", "en": "Power Plant" }, "region": "kanto" },
   {
     "id": 159,
     "name": "kanto-victory-road-2",
-    "names": {
-      "fr": "Route Victoire",
-      "en": "Victory Road"
-    },
+    "names": { "fr": "Route Victoire", "en": "Victory Road" },
     "region": "kanto"
   },
-  {
-    "id": 160,
-    "name": "pokemon-tower",
-    "names": {
-      "fr": "Tour Pokémon",
-      "en": "Pokémon Tower"
-    },
-    "region": "kanto"
-  },
+  { "id": 160, "name": "pokemon-tower", "names": { "fr": "Tour Pokémon", "en": "Pokémon Tower" }, "region": "kanto" },
   {
     "id": 161,
     "name": "pokemon-mansion",
-    "names": {
-      "fr": "Manoir Pokémon",
-      "en": "Pokémon Mansion"
-    },
+    "names": { "fr": "Manoir Pokémon", "en": "Pokémon Mansion" },
     "region": "kanto"
   },
-  {
-    "id": 162,
-    "name": "kanto-safari-zone",
-    "names": {
-      "fr": "Parc Safari",
-      "en": "Safari Zone"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 163,
-    "name": "sandgem-town",
-    "names": {
-      "fr": "Littorella",
-      "en": "Sandgem Town"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 164,
-    "name": "floaroma-town",
-    "names": {
-      "fr": "Floraville",
-      "en": "Floaroma Town"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 165,
-    "name": "solaceon-town",
-    "names": {
-      "fr": "Bonville",
-      "en": "Solaceon Town"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 167,
-    "name": "jubilife-city",
-    "names": {
-      "fr": "Féli-Cité",
-      "en": "Jubilife City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 168,
-    "name": "oreburgh-city",
-    "names": {
-      "fr": "Charbourg",
-      "en": "Oreburgh City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 169,
-    "name": "hearthome-city",
-    "names": {
-      "fr": "Unionpolis",
-      "en": "Hearthome City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 170,
-    "name": "veilstone-city",
-    "names": {
-      "fr": "Voilaroc",
-      "en": "Veilstone City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 171,
-    "name": "snowpoint-city",
-    "names": {
-      "fr": "Frimapic",
-      "en": "Snowpoint City"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 172,
-    "name": "spear-pillar",
-    "names": {
-      "fr": "Colonnes Lances",
-      "en": "Spear Pillar"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 173,
-    "name": "pal-park",
-    "names": {
-      "fr": "Parc des Amis",
-      "en": "Pal Park"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 174,
-    "name": "amity-square",
-    "names": {
-      "fr": "Square Paisible",
-      "en": "Amity Square"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 162, "name": "kanto-safari-zone", "names": { "fr": "Parc Safari", "en": "Safari Zone" }, "region": "kanto" },
+  { "id": 163, "name": "sandgem-town", "names": { "fr": "Littorella", "en": "Sandgem Town" }, "region": "sinnoh" },
+  { "id": 164, "name": "floaroma-town", "names": { "fr": "Floraville", "en": "Floaroma Town" }, "region": "sinnoh" },
+  { "id": 165, "name": "solaceon-town", "names": { "fr": "Bonville", "en": "Solaceon Town" }, "region": "sinnoh" },
+  { "id": 167, "name": "jubilife-city", "names": { "fr": "Féli-Cité", "en": "Jubilife City" }, "region": "sinnoh" },
+  { "id": 168, "name": "oreburgh-city", "names": { "fr": "Charbourg", "en": "Oreburgh City" }, "region": "sinnoh" },
+  { "id": 169, "name": "hearthome-city", "names": { "fr": "Unionpolis", "en": "Hearthome City" }, "region": "sinnoh" },
+  { "id": 170, "name": "veilstone-city", "names": { "fr": "Voilaroc", "en": "Veilstone City" }, "region": "sinnoh" },
+  { "id": 171, "name": "snowpoint-city", "names": { "fr": "Frimapic", "en": "Snowpoint City" }, "region": "sinnoh" },
+  { "id": 172, "name": "spear-pillar", "names": { "fr": "Colonnes Lances", "en": "Spear Pillar" }, "region": "sinnoh" },
+  { "id": 173, "name": "pal-park", "names": { "fr": "Parc des Amis", "en": "Pal Park" }, "region": "sinnoh" },
+  { "id": 174, "name": "amity-square", "names": { "fr": "Square Paisible", "en": "Amity Square" }, "region": "sinnoh" },
   {
     "id": 175,
     "name": "floaroma-meadow",
-    "names": {
-      "fr": "Pré Floraville",
-      "en": "Floaroma Meadow"
-    },
+    "names": { "fr": "Pré Floraville", "en": "Floaroma Meadow" },
     "region": "sinnoh"
   },
   {
     "id": 177,
     "name": "fullmoon-island",
-    "names": {
-      "fr": "Ile Pleine Lune",
-      "en": "Fullmoon Island"
-    },
+    "names": { "fr": "Ile Pleine Lune", "en": "Fullmoon Island" },
     "region": "sinnoh"
   },
   {
     "id": 178,
     "name": "sendoff-spring",
-    "names": {
-      "fr": "Source Adieu",
-      "en": "Sendoff Spring"
-    },
+    "names": { "fr": "Source Adieu", "en": "Sendoff Spring" },
     "region": "sinnoh"
   },
   {
     "id": 179,
     "name": "flower-paradise",
-    "names": {
-      "fr": "Paradis Fleuri",
-      "en": "Flower Paradise"
-    },
+    "names": { "fr": "Paradis Fleuri", "en": "Flower Paradise" },
     "region": "sinnoh"
   },
   {
     "id": 180,
     "name": "maniac-tunnel",
-    "names": {
-      "fr": "Tunnel Runiem.",
-      "en": "Maniac Tunnel"
-    },
+    "names": { "fr": "Tunnel Runiem.", "en": "Maniac Tunnel" },
     "region": "sinnoh"
   },
-  {
-    "id": 181,
-    "name": "galactic-hq",
-    "names": {
-      "fr": "QG Galaxie",
-      "en": "Galactic HQ"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 181, "name": "galactic-hq", "names": { "fr": "QG Galaxie", "en": "Galactic HQ" }, "region": "sinnoh" },
   {
     "id": 182,
     "name": "verity-lakefront",
-    "names": {
-      "fr": "Rive Lac Vérité",
-      "en": "Verity Lakefront"
-    },
+    "names": { "fr": "Rive Lac Vérité", "en": "Verity Lakefront" },
     "region": "sinnoh"
   },
   {
     "id": 183,
     "name": "newmoon-island",
-    "names": {
-      "fr": "Ile Nouvellelune",
-      "en": "Newmoon Island"
-    },
+    "names": { "fr": "Ile Nouvellelune", "en": "Newmoon Island" },
     "region": "sinnoh"
   },
   {
     "id": 184,
     "name": "sinnoh-battle-tower",
-    "names": {
-      "fr": "Tour de Combat",
-      "en": "Battle Tower"
-    },
+    "names": { "fr": "Tour de Combat", "en": "Battle Tower" },
     "region": "sinnoh"
   },
-  {
-    "id": 185,
-    "name": "fight-area",
-    "names": {
-      "fr": "Aire de Combat",
-      "en": "Fight Area"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 185, "name": "fight-area", "names": { "fr": "Aire de Combat", "en": "Fight Area" }, "region": "sinnoh" },
   {
     "id": 186,
     "name": "survival-area",
-    "names": {
-      "fr": "Aire de Survie",
-      "en": "Survival Area"
-    },
+    "names": { "fr": "Aire de Survie", "en": "Survival Area" },
     "region": "sinnoh"
   },
-  {
-    "id": 187,
-    "name": "seabreak-path",
-    "names": {
-      "fr": "Passage Marin",
-      "en": "Seabreak Path"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 187, "name": "seabreak-path", "names": { "fr": "Passage Marin", "en": "Seabreak Path" }, "region": "sinnoh" },
   {
     "id": 188,
     "name": "sinnoh-hall-of-origin-1",
-    "names": {
-      "fr": "Salle Originelle",
-      "en": "Hall of Origin"
-    },
+    "names": { "fr": "Salle Originelle", "en": "Hall of Origin" },
     "region": "sinnoh"
   },
   {
     "id": 189,
     "name": "sinnoh-hall-of-origin-2",
-    "names": {
-      "fr": "Salle Originelle",
-      "en": "Hall of Origin"
-    },
+    "names": { "fr": "Salle Originelle", "en": "Hall of Origin" },
     "region": "sinnoh"
   },
   {
     "id": 190,
     "name": "verity-cavern",
-    "names": {
-      "fr": "Caverne Vérité",
-      "en": "Verity Cavern"
-    },
+    "names": { "fr": "Caverne Vérité", "en": "Verity Cavern" },
     "region": "sinnoh"
   },
-  {
-    "id": 191,
-    "name": "valor-cavern",
-    "names": {
-      "fr": "Caverne Courage",
-      "en": "Valor Cavern"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 191, "name": "valor-cavern", "names": { "fr": "Caverne Courage", "en": "Valor Cavern" }, "region": "sinnoh" },
   {
     "id": 192,
     "name": "acuity-cavern",
-    "names": {
-      "fr": "Caverne Savoir",
-      "en": "Acuity Cavern"
-    },
+    "names": { "fr": "Caverne Savoir", "en": "Acuity Cavern" },
     "region": "sinnoh"
   },
-  {
-    "id": 193,
-    "name": "jubilife-tv",
-    "names": {
-      "fr": "Féli-Télé",
-      "en": "Jubilife TV"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 194,
-    "name": "poketch-co",
-    "names": {
-      "fr": "Pokémontre S.A.",
-      "en": "Pokétch Co."
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 195,
-    "name": "gts",
-    "names": {
-      "fr": "GTS",
-      "en": "GTS"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 193, "name": "jubilife-tv", "names": { "fr": "Féli-Télé", "en": "Jubilife TV" }, "region": "sinnoh" },
+  { "id": 194, "name": "poketch-co", "names": { "fr": "Pokémontre S.A.", "en": "Pokétch Co." }, "region": "sinnoh" },
+  { "id": 195, "name": "gts", "names": { "fr": "GTS", "en": "GTS" }, "region": "sinnoh" },
   {
     "id": 196,
     "name": "trainers-school",
-    "names": {
-      "fr": "Ecole Dresseurs",
-      "en": "Trainers’ School"
-    },
+    "names": { "fr": "Ecole Dresseurs", "en": "Trainers’ School" },
     "region": "sinnoh"
   },
-  {
-    "id": 197,
-    "name": "mining-museum",
-    "names": {
-      "fr": "Musée Minier",
-      "en": "Mining Museum"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 198,
-    "name": "sinnoh-flower-shop",
-    "names": {
-      "fr": "Fleuriste",
-      "en": "Flower Shop"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 197, "name": "mining-museum", "names": { "fr": "Musée Minier", "en": "Mining Museum" }, "region": "sinnoh" },
+  { "id": 198, "name": "sinnoh-flower-shop", "names": { "fr": "Fleuriste", "en": "Flower Shop" }, "region": "sinnoh" },
   {
     "id": 199,
     "name": "sinnoh-cycle-shop",
-    "names": {
-      "fr": "Boutique de Vélo",
-      "en": "Cycle Shop"
-    },
+    "names": { "fr": "Boutique de Vélo", "en": "Cycle Shop" },
     "region": "sinnoh"
   },
-  {
-    "id": 200,
-    "name": "contest-hall",
-    "names": {
-      "fr": "Salle Concours",
-      "en": "Contest Hall"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 201,
-    "name": "poffin-house",
-    "names": {
-      "fr": "Poffinerie",
-      "en": "Poffin House"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 200, "name": "contest-hall", "names": { "fr": "Salle Concours", "en": "Contest Hall" }, "region": "sinnoh" },
+  { "id": 201, "name": "poffin-house", "names": { "fr": "Poffinerie", "en": "Poffin House" }, "region": "sinnoh" },
   {
     "id": 202,
     "name": "sinnoh-foreign-building",
-    "names": {
-      "fr": "Bâtiment Etrange",
-      "en": "Foreign Building"
-    },
+    "names": { "fr": "Bâtiment Etrange", "en": "Foreign Building" },
     "region": "sinnoh"
   },
   {
     "id": 203,
     "name": "pokemon-day-care",
-    "names": {
-      "fr": "Pension Pokémon",
-      "en": "Pokémon Day Care"
-    },
+    "names": { "fr": "Pension Pokémon", "en": "Pokémon Day Care" },
     "region": "sinnoh"
   },
   {
     "id": 204,
     "name": "veilstone-store",
-    "names": {
-      "fr": "C. Com. Voilaroc",
-      "en": "Veilstone Store"
-    },
+    "names": { "fr": "C. Com. Voilaroc", "en": "Veilstone Store" },
     "region": "sinnoh"
   },
-  {
-    "id": 205,
-    "name": "sinnoh-game-corner",
-    "names": {
-      "fr": "Casino",
-      "en": "Game Corner"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 205, "name": "sinnoh-game-corner", "names": { "fr": "Casino", "en": "Game Corner" }, "region": "sinnoh" },
   {
     "id": 206,
     "name": "canalave-library",
-    "names": {
-      "fr": "Bibl. Joliberges",
-      "en": "Canalave Library"
-    },
+    "names": { "fr": "Bibl. Joliberges", "en": "Canalave Library" },
     "region": "sinnoh"
   },
   {
     "id": 207,
     "name": "vista-lighthouse",
-    "names": {
-      "fr": "Phare Panorama",
-      "en": "Vista Lighthouse"
-    },
+    "names": { "fr": "Phare Panorama", "en": "Vista Lighthouse" },
     "region": "sinnoh"
   },
   {
     "id": 208,
     "name": "sunyshore-market",
-    "names": {
-      "fr": "Marché Rivamar",
-      "en": "Sunyshore Market"
-    },
+    "names": { "fr": "Marché Rivamar", "en": "Sunyshore Market" },
     "region": "sinnoh"
   },
   {
     "id": 209,
     "name": "footstep-house",
-    "names": {
-      "fr": "Abri Petitpas",
-      "en": "Footstep House"
-    },
+    "names": { "fr": "Abri Petitpas", "en": "Footstep House" },
     "region": "sinnoh"
   },
-  {
-    "id": 210,
-    "name": "sinnoh-cafe",
-    "names": {
-      "fr": "Café",
-      "en": "Café"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 211,
-    "name": "grand-lake",
-    "names": {
-      "fr": "Grand Lac",
-      "en": "Grand Lake"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 212,
-    "name": "sinnoh-restaurant",
-    "names": {
-      "fr": "Restaurant",
-      "en": "Restaurant"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 213,
-    "name": "battle-park",
-    "names": {
-      "fr": "Parc des Combats",
-      "en": "Battle Park"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 210, "name": "sinnoh-cafe", "names": { "fr": "Café", "en": "Café" }, "region": "sinnoh" },
+  { "id": 211, "name": "grand-lake", "names": { "fr": "Grand Lac", "en": "Grand Lake" }, "region": "sinnoh" },
+  { "id": 212, "name": "sinnoh-restaurant", "names": { "fr": "Restaurant", "en": "Restaurant" }, "region": "sinnoh" },
+  { "id": 213, "name": "battle-park", "names": { "fr": "Parc des Combats", "en": "Battle Park" }, "region": "sinnoh" },
   {
     "id": 214,
     "name": "battle-frontier",
-    "names": {
-      "fr": "Zone de Combat",
-      "en": "Battle Frontier"
-    },
+    "names": { "fr": "Zone de Combat", "en": "Battle Frontier" },
     "region": "sinnoh"
   },
   {
     "id": 215,
     "name": "battle-factory",
-    "names": {
-      "fr": "Usine de Combat",
-      "en": "Battle Factory"
-    },
+    "names": { "fr": "Usine de Combat", "en": "Battle Factory" },
     "region": "sinnoh"
   },
   {
     "id": 216,
     "name": "battle-castle",
-    "names": {
-      "fr": "Castel de Combat",
-      "en": "Battle Castle"
-    },
+    "names": { "fr": "Castel de Combat", "en": "Battle Castle" },
     "region": "sinnoh"
   },
   {
     "id": 217,
     "name": "battle-arcade",
-    "names": {
-      "fr": "Arcade de Combat",
-      "en": "Battle Arcade"
-    },
+    "names": { "fr": "Arcade de Combat", "en": "Battle Arcade" },
     "region": "sinnoh"
   },
-  {
-    "id": 218,
-    "name": "battle-hall",
-    "names": {
-      "fr": "Scène de Combat",
-      "en": "Battle Hall"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 218, "name": "battle-hall", "names": { "fr": "Scène de Combat", "en": "Battle Hall" }, "region": "sinnoh" },
   {
     "id": 219,
     "name": "distortion-world",
-    "names": {
-      "fr": "Monde Distorsion",
-      "en": "Distortion World"
-    },
+    "names": { "fr": "Monde Distorsion", "en": "Distortion World" },
     "region": "sinnoh"
   },
   {
     "id": 220,
     "name": "sinnoh-global-terminal",
-    "names": {
-      "fr": "Terminal Mondial",
-      "en": "Global Terminal"
-    },
+    "names": { "fr": "Terminal Mondial", "en": "Global Terminal" },
     "region": "sinnoh"
   },
-  {
-    "id": 221,
-    "name": "sinnoh-villa",
-    "names": {
-      "fr": "Villa",
-      "en": "Villa"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 222,
-    "name": "battleground",
-    "names": {
-      "fr": "Café Combats",
-      "en": "Battleground"
-    },
-    "region": "sinnoh"
-  },
-  {
-    "id": 223,
-    "name": "rotoms-room",
-    "names": {
-      "fr": "Salle MOTISMA",
-      "en": "ROTOM's Room"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 221, "name": "sinnoh-villa", "names": { "fr": "Villa", "en": "Villa" }, "region": "sinnoh" },
+  { "id": 222, "name": "battleground", "names": { "fr": "Café Combats", "en": "Battleground" }, "region": "sinnoh" },
+  { "id": 223, "name": "rotoms-room", "names": { "fr": "Salle MOTISMA", "en": "ROTOM's Room" }, "region": "sinnoh" },
   {
     "id": 224,
     "name": "tg-eterna-bldg",
-    "names": {
-      "fr": "Team G Vestigion",
-      "en": "T.G. Eterna Bldg"
-    },
+    "names": { "fr": "Team G Vestigion", "en": "T.G. Eterna Bldg" },
     "region": "sinnoh"
   },
-  {
-    "id": 225,
-    "name": "iron-ruins",
-    "names": {
-      "fr": "Ruines de Fer",
-      "en": "Iron Ruins"
-    },
-    "region": "sinnoh"
-  },
+  { "id": 225, "name": "iron-ruins", "names": { "fr": "Ruines de Fer", "en": "Iron Ruins" }, "region": "sinnoh" },
   {
     "id": 226,
     "name": "iceberg-ruins",
-    "names": {
-      "fr": "Ruines Iceberg",
-      "en": "Iceberg Ruins"
-    },
+    "names": { "fr": "Ruines Iceberg", "en": "Iceberg Ruins" },
     "region": "sinnoh"
   },
   {
     "id": 227,
     "name": "rock-peak-ruins",
-    "names": {
-      "fr": "Ruines Pic Roche",
-      "en": "Rock Peak Ruins"
-    },
+    "names": { "fr": "Ruines Pic Roche", "en": "Rock Peak Ruins" },
     "region": "sinnoh"
   },
-  {
-    "id": 228,
-    "name": "azalea-town",
-    "names": {
-      "fr": "Ecorcia",
-      "en": "Azalea Town"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 229,
-    "name": "goldenrod-city",
-    "names": {
-      "fr": "Doublonville",
-      "en": "Goldenrod City"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 230,
-    "name": "mahogany-town",
-    "names": {
-      "fr": "Acajou",
-      "en": "Mahogany Town"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 231,
-    "name": "pewter-city",
-    "names": {
-      "fr": "Argenta",
-      "en": "Pewter City"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 232,
-    "name": "lavender-town",
-    "names": {
-      "fr": "Lavanville",
-      "en": "Lavender Town"
-    },
-    "region": "kanto"
-  },
+  { "id": 228, "name": "azalea-town", "names": { "fr": "Ecorcia", "en": "Azalea Town" }, "region": "johto" },
+  { "id": 229, "name": "goldenrod-city", "names": { "fr": "Doublonville", "en": "Goldenrod City" }, "region": "johto" },
+  { "id": 230, "name": "mahogany-town", "names": { "fr": "Acajou", "en": "Mahogany Town" }, "region": "johto" },
+  { "id": 231, "name": "pewter-city", "names": { "fr": "Argenta", "en": "Pewter City" }, "region": "kanto" },
+  { "id": 232, "name": "lavender-town", "names": { "fr": "Lavanville", "en": "Lavender Town" }, "region": "kanto" },
   {
     "id": 233,
     "name": "indigo-plateau",
-    "names": {
-      "fr": "Plateau Indigo",
-      "en": "Indigo Plateau"
-    },
+    "names": { "fr": "Plateau Indigo", "en": "Indigo Plateau" },
     "region": "kanto"
   },
-  {
-    "id": 234,
-    "name": "saffron-city",
-    "names": {
-      "fr": "Safrania",
-      "en": "Saffron City"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 236,
-    "name": "johto-lighthouse",
-    "names": {
-      "fr": "Phare",
-      "en": "Lighthouse"
-    },
-    "region": "johto"
-  },
+  { "id": 234, "name": "saffron-city", "names": { "fr": "Safrania", "en": "Saffron City" }, "region": "kanto" },
+  { "id": 236, "name": "johto-lighthouse", "names": { "fr": "Phare", "en": "Lighthouse" }, "region": "johto" },
   {
     "id": 237,
     "name": "team-rocket-hq",
-    "names": {
-      "fr": "Repaire Rocket d'Acajou",
-      "en": "Team Rocket HQ"
-    },
+    "names": { "fr": "Repaire Rocket d'Acajou", "en": "Team Rocket HQ" },
     "region": "johto"
   },
   {
     "id": 238,
     "name": "goldenrod-tunnel",
-    "names": {
-      "fr": "Doublon-Tunnel",
-      "en": "Goldenrod Tunnel"
-    },
+    "names": { "fr": "Doublon-Tunnel", "en": "Goldenrod Tunnel" },
     "region": "johto"
   },
   {
     "id": 239,
     "name": "mt-silver-cave",
-    "names": {
-      "fr": "Grotte Argentée",
-      "en": "Mt. Silver Cave"
-    },
+    "names": { "fr": "Grotte Argentée", "en": "Mt. Silver Cave" },
     "region": "johto"
   },
   {
     "id": 241,
     "name": "pokeathlon-dome",
-    "names": {
-      "fr": "Dôme Pokéathlon",
-      "en": "Pokéathlon Dome"
-    },
+    "names": { "fr": "Dôme Pokéathlon", "en": "Pokéathlon Dome" },
     "region": "johto"
   },
-  {
-    "id": 242,
-    "name": "ss-aqua",
-    "names": {
-      "fr": "Aquaria",
-      "en": "S.S. Aqua"
-    },
-    "region": "johto"
-  },
+  { "id": 242, "name": "ss-aqua", "names": { "fr": "Aquaria", "en": "S.S. Aqua" }, "region": "johto" },
   {
     "id": 243,
     "name": "safari-zone-gate",
-    "names": {
-      "fr": "Portail Safari",
-      "en": "Safari Zone Gate"
-    },
+    "names": { "fr": "Portail Safari", "en": "Safari Zone Gate" },
     "region": "johto"
   },
-  {
-    "id": 244,
-    "name": "cliff-cave",
-    "names": {
-      "fr": "Grotte Falaise",
-      "en": "Cliff Cave"
-    },
-    "region": "johto"
-  },
+  { "id": 244, "name": "cliff-cave", "names": { "fr": "Grotte Falaise", "en": "Cliff Cave" }, "region": "johto" },
   {
     "id": 245,
     "name": "frontier-access",
-    "names": {
-      "fr": "Atrium Combat",
-      "en": "Frontier Access"
-    },
+    "names": { "fr": "Atrium Combat", "en": "Frontier Access" },
     "region": "johto"
   },
   {
     "id": 246,
     "name": "bellchime-trail",
-    "names": {
-      "fr": "Sentier Carillon",
-      "en": "Bellchime Trail"
-    },
+    "names": { "fr": "Sentier Carillon", "en": "Bellchime Trail" },
     "region": "johto"
   },
-  {
-    "id": 247,
-    "name": "sinjoh-ruins",
-    "names": {
-      "fr": "Ruines Sinjoh",
-      "en": "Sinjoh Ruins"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 248,
-    "name": "embedded-tower",
-    "names": {
-      "fr": "Tour Enfouie",
-      "en": "Embedded Tower"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 249,
-    "name": "pokewalker",
-    "names": {
-      "fr": "Pokéwalker",
-      "en": "Pokéwalker"
-    },
-    "region": "johto"
-  },
+  { "id": 247, "name": "sinjoh-ruins", "names": { "fr": "Ruines Sinjoh", "en": "Sinjoh Ruins" }, "region": "johto" },
+  { "id": 248, "name": "embedded-tower", "names": { "fr": "Tour Enfouie", "en": "Embedded Tower" }, "region": "johto" },
+  { "id": 249, "name": "pokewalker", "names": { "fr": "Pokéwalker", "en": "Pokéwalker" }, "region": "johto" },
   {
     "id": 250,
     "name": "cliff-edge-gate",
-    "names": {
-      "fr": "Portail Falaise",
-      "en": "Cliff Edge Gate"
-    },
+    "names": { "fr": "Portail Falaise", "en": "Cliff Edge Gate" },
     "region": "johto"
   },
-  {
-    "id": 252,
-    "name": "radio-tower",
-    "names": {
-      "fr": "Tour Radio",
-      "en": "Radio Tower"
-    },
-    "region": "johto"
-  },
-  {
-    "id": 253,
-    "name": "day-care-couple",
-    "names": {
-      "fr": "Couple Pension",
-      "en": "Day-Care Couple"
-    }
-  },
-  {
-    "id": 254,
-    "name": "link-trade-arrive",
-    "names": {
-      "fr": "Echange Link",
-      "en": "Link trade (arrive)"
-    }
-  },
-  {
-    "id": 255,
-    "name": "link-trade-met",
-    "names": {
-      "fr": "Echange Link",
-      "en": "Link trade (met)"
-    }
-  },
-  {
-    "id": 256,
-    "name": "kanto",
-    "names": {
-      "fr": "Kanto",
-      "en": "Kanto"
-    }
-  },
-  {
-    "id": 257,
-    "name": "johto",
-    "names": {
-      "fr": "Johto",
-      "en": "Johto"
-    }
-  },
-  {
-    "id": 258,
-    "name": "hoenn",
-    "names": {
-      "fr": "Hoenn",
-      "en": "Hoenn"
-    }
-  },
-  {
-    "id": 259,
-    "name": "sinnoh",
-    "names": {
-      "fr": "Sinnoh",
-      "en": "Sinnoh"
-    }
-  },
-  {
-    "id": 260,
-    "name": "distant-land",
-    "names": {
-      "fr": "Pays lointain",
-      "en": "Distant land"
-    }
-  },
-  {
-    "id": 261,
-    "name": "traveling-man",
-    "names": {
-      "fr": "un voyageur",
-      "en": "Traveling Man"
-    }
-  },
-  {
-    "id": 262,
-    "name": "riley",
-    "names": {
-      "fr": "Armand",
-      "en": "Riley"
-    }
-  },
-  {
-    "id": 263,
-    "name": "cynthia",
-    "names": {
-      "fr": "Cynthia",
-      "en": "Cynthia"
-    }
-  },
-  {
-    "id": 264,
-    "name": "mystery-zone",
-    "names": {
-      "fr": "Endroit mystér.",
-      "en": "Mystery Zone"
-    }
-  },
-  {
-    "id": 265,
-    "name": "lovely-place",
-    "names": {
-      "fr": "Endroit superbe",
-      "en": "Lovely place"
-    }
-  },
-  {
-    "id": 266,
-    "name": "pokemon-ranger",
-    "names": {
-      "fr": "Pokémon Ranger",
-      "en": "Pokémon Ranger"
-    }
-  },
-  {
-    "id": 267,
-    "name": "faraway-place",
-    "names": {
-      "fr": "Endroit lointain",
-      "en": "Faraway place"
-    }
-  },
-  {
-    "id": 268,
-    "name": "pokemon-movie",
-    "names": {
-      "fr": "Film Pokémon",
-      "en": "Pokémon Movie"
-    }
-  },
-  {
-    "id": 269,
-    "name": "pokemon-movie-06",
-    "names": {
-      "fr": "Film Pokémon 06",
-      "en": "Pokémon Movie 06"
-    }
-  },
-  {
-    "id": 270,
-    "name": "pokemon-movie-07",
-    "names": {
-      "fr": "Film Pokémon 07",
-      "en": "Pokémon Movie 07"
-    }
-  },
-  {
-    "id": 271,
-    "name": "pokemon-movie-08",
-    "names": {
-      "fr": "Film Pokémon 08",
-      "en": "Pokémon Movie 08"
-    }
-  },
-  {
-    "id": 272,
-    "name": "pokemon-movie-09",
-    "names": {
-      "fr": "Film Pokémon 09",
-      "en": "Pokémon Movie 09"
-    }
-  },
-  {
-    "id": 273,
-    "name": "pokemon-movie-10",
-    "names": {
-      "fr": "Film Pokémon 10",
-      "en": "Pokémon Movie 10"
-    }
-  },
-  {
-    "id": 274,
-    "name": "pokemon-movie-11",
-    "names": {
-      "fr": "Film Pokémon 11",
-      "en": "Pokémon Movie 11"
-    }
-  },
-  {
-    "id": 275,
-    "name": "pokemon-movie-12",
-    "names": {
-      "fr": "Film Pokémon 12",
-      "en": "Pokémon Movie 12"
-    }
-  },
-  {
-    "id": 276,
-    "name": "pokemon-movie-13",
-    "names": {
-      "fr": "Film Pokémon 13",
-      "en": "Pokémon Movie 13"
-    }
-  },
-  {
-    "id": 277,
-    "name": "pokemon-movie-14",
-    "names": {
-      "fr": "Film Pokémon 14",
-      "en": "Pokémon Movie 14"
-    }
-  },
-  {
-    "id": 278,
-    "name": "pokemon-movie-15",
-    "names": {
-      "fr": "Film Pokémon 15",
-      "en": "Pokémon Movie 15"
-    }
-  },
-  {
-    "id": 279,
-    "name": "pokemon-movie-16",
-    "names": {
-      "fr": "Film Pokémon 16",
-      "en": "Pokémon Movie 16"
-    }
-  },
-  {
-    "id": 280,
-    "name": "pokemon-cartoon",
-    "names": {
-      "fr": "Dessin ani. PKMN",
-      "en": "Pokémon Cartoon"
-    }
-  },
-  {
-    "id": 281,
-    "name": "space-world",
-    "names": {
-      "fr": "Space World",
-      "en": "Space World"
-    }
-  },
-  {
-    "id": 282,
-    "name": "space-world-06",
-    "names": {
-      "fr": "Space World 06",
-      "en": "Space World 06"
-    }
-  },
-  {
-    "id": 283,
-    "name": "space-world-07",
-    "names": {
-      "fr": "Space World 07",
-      "en": "Space World 07"
-    }
-  },
-  {
-    "id": 284,
-    "name": "space-world-08",
-    "names": {
-      "fr": "Space World 08",
-      "en": "Space World 08"
-    }
-  },
-  {
-    "id": 285,
-    "name": "space-world-09",
-    "names": {
-      "fr": "Space World 09",
-      "en": "Space World 09"
-    }
-  },
-  {
-    "id": 286,
-    "name": "space-world-10",
-    "names": {
-      "fr": "Space World 10",
-      "en": "Space World 10"
-    }
-  },
-  {
-    "id": 287,
-    "name": "space-world-11",
-    "names": {
-      "fr": "Space World 11",
-      "en": "Space World 11"
-    }
-  },
-  {
-    "id": 288,
-    "name": "space-world-12",
-    "names": {
-      "fr": "Space World 12",
-      "en": "Space World 12"
-    }
-  },
-  {
-    "id": 289,
-    "name": "space-world-13",
-    "names": {
-      "fr": "Space World 13",
-      "en": "Space World 13"
-    }
-  },
-  {
-    "id": 290,
-    "name": "space-world-14",
-    "names": {
-      "fr": "Space World 14",
-      "en": "Space World 14"
-    }
-  },
-  {
-    "id": 291,
-    "name": "space-world-15",
-    "names": {
-      "fr": "Space World 15",
-      "en": "Space World 15"
-    }
-  },
-  {
-    "id": 292,
-    "name": "space-world-16",
-    "names": {
-      "fr": "Space World 16",
-      "en": "Space World 16"
-    }
-  },
-  {
-    "id": 293,
-    "name": "pokemon-festa",
-    "names": {
-      "fr": "Pokémon Festa",
-      "en": "Pokémon Festa"
-    }
-  },
-  {
-    "id": 294,
-    "name": "pokemon-festa-06",
-    "names": {
-      "fr": "Pokémon Festa 06",
-      "en": "Pokémon Festa 06"
-    }
-  },
-  {
-    "id": 295,
-    "name": "pokemon-festa-07",
-    "names": {
-      "fr": "Pokémon Festa 07",
-      "en": "Pokémon Festa 07"
-    }
-  },
-  {
-    "id": 296,
-    "name": "pokemon-festa-08",
-    "names": {
-      "fr": "Pokémon Festa 08",
-      "en": "Pokémon Festa 08"
-    }
-  },
-  {
-    "id": 297,
-    "name": "pokemon-festa-09",
-    "names": {
-      "fr": "Pokémon Festa 09",
-      "en": "Pokémon Festa 09"
-    }
-  },
-  {
-    "id": 298,
-    "name": "pokemon-festa-10",
-    "names": {
-      "fr": "Pokémon Festa 10",
-      "en": "Pokémon Festa 10"
-    }
-  },
-  {
-    "id": 299,
-    "name": "pokemon-festa-11",
-    "names": {
-      "fr": "Pokémon Festa 11",
-      "en": "Pokémon Festa 11"
-    }
-  },
-  {
-    "id": 300,
-    "name": "pokemon-festa-12",
-    "names": {
-      "fr": "Pokémon Festa 12",
-      "en": "Pokémon Festa 12"
-    }
-  },
-  {
-    "id": 301,
-    "name": "pokemon-festa-13",
-    "names": {
-      "fr": "Pokémon Festa 13",
-      "en": "Pokémon Festa 13"
-    }
-  },
-  {
-    "id": 302,
-    "name": "pokemon-festa-14",
-    "names": {
-      "fr": "Pokémon Festa 14",
-      "en": "Pokémon Festa 14"
-    }
-  },
-  {
-    "id": 303,
-    "name": "pokemon-festa-15",
-    "names": {
-      "fr": "Pokémon Festa 15",
-      "en": "Pokémon Festa 15"
-    }
-  },
-  {
-    "id": 304,
-    "name": "pokemon-festa-16",
-    "names": {
-      "fr": "Pokémon Festa 16",
-      "en": "Pokémon Festa 16"
-    }
-  },
-  {
-    "id": 305,
-    "name": "pokepark",
-    "names": {
-      "fr": "POKéPARK",
-      "en": "POKéPARK"
-    }
-  },
-  {
-    "id": 306,
-    "name": "pokepark-06",
-    "names": {
-      "fr": "POKéPARK 06",
-      "en": "POKéPARK 06"
-    }
-  },
-  {
-    "id": 307,
-    "name": "pokepark-07",
-    "names": {
-      "fr": "POKéPARK 07",
-      "en": "POKéPARK 07"
-    }
-  },
-  {
-    "id": 308,
-    "name": "pokepark-08",
-    "names": {
-      "fr": "POKéPARK 08",
-      "en": "POKéPARK 08"
-    }
-  },
-  {
-    "id": 309,
-    "name": "pokepark-09",
-    "names": {
-      "fr": "POKéPARK 09",
-      "en": "POKéPARK 09"
-    }
-  },
-  {
-    "id": 310,
-    "name": "pokepark-10",
-    "names": {
-      "fr": "POKéPARK 10",
-      "en": "POKéPARK 10"
-    }
-  },
-  {
-    "id": 311,
-    "name": "pokepark-11",
-    "names": {
-      "fr": "POKéPARK 11",
-      "en": "POKéPARK 11"
-    }
-  },
-  {
-    "id": 312,
-    "name": "pokepark-12",
-    "names": {
-      "fr": "POKéPARK 12",
-      "en": "POKéPARK 12"
-    }
-  },
-  {
-    "id": 313,
-    "name": "pokepark-13",
-    "names": {
-      "fr": "POKéPARK 13",
-      "en": "POKéPARK 13"
-    }
-  },
-  {
-    "id": 314,
-    "name": "pokepark-14",
-    "names": {
-      "fr": "POKéPARK 14",
-      "en": "POKéPARK 14"
-    }
-  },
-  {
-    "id": 315,
-    "name": "pokepark-15",
-    "names": {
-      "fr": "POKéPARK 15",
-      "en": "POKéPARK 15"
-    }
-  },
-  {
-    "id": 316,
-    "name": "pokepark-16",
-    "names": {
-      "fr": "POKéPARK 16",
-      "en": "POKéPARK 16"
-    }
-  },
-  {
-    "id": 317,
-    "name": "pokemon-center",
-    "names": {
-      "fr": "Centre Pokémon",
-      "en": "Pokémon Center"
-    }
-  },
-  {
-    "id": 318,
-    "name": "pc-tokyo",
-    "names": {
-      "fr": "CP Tokyo",
-      "en": "PC Tokyo"
-    }
-  },
-  {
-    "id": 319,
-    "name": "pc-osaka",
-    "names": {
-      "fr": "CP Osaka",
-      "en": "PC Osaka"
-    }
-  },
-  {
-    "id": 320,
-    "name": "pc-fukuoka",
-    "names": {
-      "fr": "CP Fukuoka",
-      "en": "PC Fukuoka"
-    }
-  },
-  {
-    "id": 321,
-    "name": "pc-nagoya",
-    "names": {
-      "fr": "CP Nagoya",
-      "en": "PC Nagoya"
-    }
-  },
-  {
-    "id": 322,
-    "name": "pc-sapporo",
-    "names": {
-      "fr": "CP Sapporo",
-      "en": "PC Sapporo"
-    }
-  },
-  {
-    "id": 323,
-    "name": "pc-yokohama",
-    "names": {
-      "fr": "CP Yokohama",
-      "en": "PC Yokohama"
-    }
-  },
-  {
-    "id": 324,
-    "name": "nintendo-world",
-    "names": {
-      "fr": "Nintendo World",
-      "en": "Nintendo World"
-    }
-  },
-  {
-    "id": 325,
-    "name": "pokemon-event",
-    "names": {
-      "fr": "Evénem. Pokémon",
-      "en": "Pokémon Event"
-    }
-  },
-  {
-    "id": 326,
-    "name": "pokemon-event-06",
-    "names": {
-      "fr": "Evén. Pokémon 06",
-      "en": "Pokémon Event 06"
-    }
-  },
-  {
-    "id": 327,
-    "name": "pokemon-event-07",
-    "names": {
-      "fr": "Evén. Pokémon 07",
-      "en": "Pokémon Event 07"
-    }
-  },
-  {
-    "id": 328,
-    "name": "pokemon-event-08",
-    "names": {
-      "fr": "Evén. Pokémon 08",
-      "en": "Pokémon Event 08"
-    }
-  },
-  {
-    "id": 329,
-    "name": "pokemon-event-09",
-    "names": {
-      "fr": "Evén. Pokémon 09",
-      "en": "Pokémon Event 09"
-    }
-  },
-  {
-    "id": 330,
-    "name": "pokemon-event-10",
-    "names": {
-      "fr": "Evén. Pokémon 10",
-      "en": "Pokémon Event 10"
-    }
-  },
-  {
-    "id": 331,
-    "name": "pokemon-event-11",
-    "names": {
-      "fr": "Evén. Pokémon 11",
-      "en": "Pokémon Event 11"
-    }
-  },
-  {
-    "id": 332,
-    "name": "pokemon-event-12",
-    "names": {
-      "fr": "Evén. Pokémon 12",
-      "en": "Pokémon Event 12"
-    }
-  },
-  {
-    "id": 333,
-    "name": "pokemon-event-13",
-    "names": {
-      "fr": "Evén. Pokémon 13",
-      "en": "Pokémon Event 13"
-    }
-  },
-  {
-    "id": 334,
-    "name": "pokemon-event-14",
-    "names": {
-      "fr": "Evén. Pokémon 14",
-      "en": "Pokémon Event 14"
-    }
-  },
-  {
-    "id": 335,
-    "name": "pokemon-event-15",
-    "names": {
-      "fr": "Evén. Pokémon 15",
-      "en": "Pokémon Event 15"
-    }
-  },
-  {
-    "id": 336,
-    "name": "pokemon-event-16",
-    "names": {
-      "fr": "Evén. Pokémon 16",
-      "en": "Pokémon Event 16"
-    }
-  },
-  {
-    "id": 337,
-    "name": "wi-fi-event",
-    "names": {
-      "fr": "Evénement Wi-Fi",
-      "en": "Wi-Fi Event"
-    }
-  },
-  {
-    "id": 338,
-    "name": "wi-fi-gift",
-    "names": {
-      "fr": "Cadeau Wi-Fi",
-      "en": "Wi-Fi Gift"
-    }
-  },
-  {
-    "id": 339,
-    "name": "pokemon-fan-club",
-    "names": {
-      "fr": "Fan Club Pokémon",
-      "en": "Pokémon Fan Club"
-    }
-  },
-  {
-    "id": 340,
-    "name": "event-site",
-    "names": {
-      "fr": "Lieu d'Evénement",
-      "en": "Event Site"
-    }
-  },
-  {
-    "id": 341,
-    "name": "concert-event",
-    "names": {
-      "fr": "Evénem. Concert",
-      "en": "Concert Event"
-    }
-  },
-  {
-    "id": 342,
-    "name": "mr-pokemon",
-    "names": {
-      "fr": "M. Pokémon",
-      "en": "Mr. Pokémon"
-    }
-  },
-  {
-    "id": 343,
-    "name": "primo",
-    "names": {
-      "fr": "Castor",
-      "en": "Primo"
-    }
-  },
+  { "id": 252, "name": "radio-tower", "names": { "fr": "Tour Radio", "en": "Radio Tower" }, "region": "johto" },
+  { "id": 253, "name": "day-care-couple", "names": { "fr": "Couple Pension", "en": "Day-Care Couple" } },
+  { "id": 254, "name": "link-trade-arrive", "names": { "fr": "Echange Link", "en": "Link trade (arrive)" } },
+  { "id": 255, "name": "link-trade-met", "names": { "fr": "Echange Link", "en": "Link trade (met)" } },
+  { "id": 256, "name": "kanto", "names": { "fr": "Kanto", "en": "Kanto" } },
+  { "id": 257, "name": "johto", "names": { "fr": "Johto", "en": "Johto" } },
+  { "id": 258, "name": "hoenn", "names": { "fr": "Hoenn", "en": "Hoenn" } },
+  { "id": 259, "name": "sinnoh", "names": { "fr": "Sinnoh", "en": "Sinnoh" } },
+  { "id": 260, "name": "distant-land", "names": { "fr": "Pays lointain", "en": "Distant land" } },
+  { "id": 261, "name": "traveling-man", "names": { "fr": "un voyageur", "en": "Traveling Man" } },
+  { "id": 262, "name": "riley", "names": { "fr": "Armand", "en": "Riley" } },
+  { "id": 263, "name": "cynthia", "names": { "fr": "Cynthia", "en": "Cynthia" } },
+  { "id": 264, "name": "mystery-zone", "names": { "fr": "Endroit mystér.", "en": "Mystery Zone" } },
+  { "id": 265, "name": "lovely-place", "names": { "fr": "Endroit superbe", "en": "Lovely place" } },
+  { "id": 266, "name": "pokemon-ranger", "names": { "fr": "Pokémon Ranger", "en": "Pokémon Ranger" } },
+  { "id": 267, "name": "faraway-place", "names": { "fr": "Endroit lointain", "en": "Faraway place" } },
+  { "id": 268, "name": "pokemon-movie", "names": { "fr": "Film Pokémon", "en": "Pokémon Movie" } },
+  { "id": 269, "name": "pokemon-movie-06", "names": { "fr": "Film Pokémon 06", "en": "Pokémon Movie 06" } },
+  { "id": 270, "name": "pokemon-movie-07", "names": { "fr": "Film Pokémon 07", "en": "Pokémon Movie 07" } },
+  { "id": 271, "name": "pokemon-movie-08", "names": { "fr": "Film Pokémon 08", "en": "Pokémon Movie 08" } },
+  { "id": 272, "name": "pokemon-movie-09", "names": { "fr": "Film Pokémon 09", "en": "Pokémon Movie 09" } },
+  { "id": 273, "name": "pokemon-movie-10", "names": { "fr": "Film Pokémon 10", "en": "Pokémon Movie 10" } },
+  { "id": 274, "name": "pokemon-movie-11", "names": { "fr": "Film Pokémon 11", "en": "Pokémon Movie 11" } },
+  { "id": 275, "name": "pokemon-movie-12", "names": { "fr": "Film Pokémon 12", "en": "Pokémon Movie 12" } },
+  { "id": 276, "name": "pokemon-movie-13", "names": { "fr": "Film Pokémon 13", "en": "Pokémon Movie 13" } },
+  { "id": 277, "name": "pokemon-movie-14", "names": { "fr": "Film Pokémon 14", "en": "Pokémon Movie 14" } },
+  { "id": 278, "name": "pokemon-movie-15", "names": { "fr": "Film Pokémon 15", "en": "Pokémon Movie 15" } },
+  { "id": 279, "name": "pokemon-movie-16", "names": { "fr": "Film Pokémon 16", "en": "Pokémon Movie 16" } },
+  { "id": 280, "name": "pokemon-cartoon", "names": { "fr": "Dessin ani. PKMN", "en": "Pokémon Cartoon" } },
+  { "id": 281, "name": "space-world", "names": { "fr": "Space World", "en": "Space World" } },
+  { "id": 282, "name": "space-world-06", "names": { "fr": "Space World 06", "en": "Space World 06" } },
+  { "id": 283, "name": "space-world-07", "names": { "fr": "Space World 07", "en": "Space World 07" } },
+  { "id": 284, "name": "space-world-08", "names": { "fr": "Space World 08", "en": "Space World 08" } },
+  { "id": 285, "name": "space-world-09", "names": { "fr": "Space World 09", "en": "Space World 09" } },
+  { "id": 286, "name": "space-world-10", "names": { "fr": "Space World 10", "en": "Space World 10" } },
+  { "id": 287, "name": "space-world-11", "names": { "fr": "Space World 11", "en": "Space World 11" } },
+  { "id": 288, "name": "space-world-12", "names": { "fr": "Space World 12", "en": "Space World 12" } },
+  { "id": 289, "name": "space-world-13", "names": { "fr": "Space World 13", "en": "Space World 13" } },
+  { "id": 290, "name": "space-world-14", "names": { "fr": "Space World 14", "en": "Space World 14" } },
+  { "id": 291, "name": "space-world-15", "names": { "fr": "Space World 15", "en": "Space World 15" } },
+  { "id": 292, "name": "space-world-16", "names": { "fr": "Space World 16", "en": "Space World 16" } },
+  { "id": 293, "name": "pokemon-festa", "names": { "fr": "Pokémon Festa", "en": "Pokémon Festa" } },
+  { "id": 294, "name": "pokemon-festa-06", "names": { "fr": "Pokémon Festa 06", "en": "Pokémon Festa 06" } },
+  { "id": 295, "name": "pokemon-festa-07", "names": { "fr": "Pokémon Festa 07", "en": "Pokémon Festa 07" } },
+  { "id": 296, "name": "pokemon-festa-08", "names": { "fr": "Pokémon Festa 08", "en": "Pokémon Festa 08" } },
+  { "id": 297, "name": "pokemon-festa-09", "names": { "fr": "Pokémon Festa 09", "en": "Pokémon Festa 09" } },
+  { "id": 298, "name": "pokemon-festa-10", "names": { "fr": "Pokémon Festa 10", "en": "Pokémon Festa 10" } },
+  { "id": 299, "name": "pokemon-festa-11", "names": { "fr": "Pokémon Festa 11", "en": "Pokémon Festa 11" } },
+  { "id": 300, "name": "pokemon-festa-12", "names": { "fr": "Pokémon Festa 12", "en": "Pokémon Festa 12" } },
+  { "id": 301, "name": "pokemon-festa-13", "names": { "fr": "Pokémon Festa 13", "en": "Pokémon Festa 13" } },
+  { "id": 302, "name": "pokemon-festa-14", "names": { "fr": "Pokémon Festa 14", "en": "Pokémon Festa 14" } },
+  { "id": 303, "name": "pokemon-festa-15", "names": { "fr": "Pokémon Festa 15", "en": "Pokémon Festa 15" } },
+  { "id": 304, "name": "pokemon-festa-16", "names": { "fr": "Pokémon Festa 16", "en": "Pokémon Festa 16" } },
+  { "id": 305, "name": "pokepark", "names": { "fr": "POKéPARK", "en": "POKéPARK" } },
+  { "id": 306, "name": "pokepark-06", "names": { "fr": "POKéPARK 06", "en": "POKéPARK 06" } },
+  { "id": 307, "name": "pokepark-07", "names": { "fr": "POKéPARK 07", "en": "POKéPARK 07" } },
+  { "id": 308, "name": "pokepark-08", "names": { "fr": "POKéPARK 08", "en": "POKéPARK 08" } },
+  { "id": 309, "name": "pokepark-09", "names": { "fr": "POKéPARK 09", "en": "POKéPARK 09" } },
+  { "id": 310, "name": "pokepark-10", "names": { "fr": "POKéPARK 10", "en": "POKéPARK 10" } },
+  { "id": 311, "name": "pokepark-11", "names": { "fr": "POKéPARK 11", "en": "POKéPARK 11" } },
+  { "id": 312, "name": "pokepark-12", "names": { "fr": "POKéPARK 12", "en": "POKéPARK 12" } },
+  { "id": 313, "name": "pokepark-13", "names": { "fr": "POKéPARK 13", "en": "POKéPARK 13" } },
+  { "id": 314, "name": "pokepark-14", "names": { "fr": "POKéPARK 14", "en": "POKéPARK 14" } },
+  { "id": 315, "name": "pokepark-15", "names": { "fr": "POKéPARK 15", "en": "POKéPARK 15" } },
+  { "id": 316, "name": "pokepark-16", "names": { "fr": "POKéPARK 16", "en": "POKéPARK 16" } },
+  { "id": 317, "name": "pokemon-center", "names": { "fr": "Centre Pokémon", "en": "Pokémon Center" } },
+  { "id": 318, "name": "pc-tokyo", "names": { "fr": "CP Tokyo", "en": "PC Tokyo" } },
+  { "id": 319, "name": "pc-osaka", "names": { "fr": "CP Osaka", "en": "PC Osaka" } },
+  { "id": 320, "name": "pc-fukuoka", "names": { "fr": "CP Fukuoka", "en": "PC Fukuoka" } },
+  { "id": 321, "name": "pc-nagoya", "names": { "fr": "CP Nagoya", "en": "PC Nagoya" } },
+  { "id": 322, "name": "pc-sapporo", "names": { "fr": "CP Sapporo", "en": "PC Sapporo" } },
+  { "id": 323, "name": "pc-yokohama", "names": { "fr": "CP Yokohama", "en": "PC Yokohama" } },
+  { "id": 324, "name": "nintendo-world", "names": { "fr": "Nintendo World", "en": "Nintendo World" } },
+  { "id": 325, "name": "pokemon-event", "names": { "fr": "Evénem. Pokémon", "en": "Pokémon Event" } },
+  { "id": 326, "name": "pokemon-event-06", "names": { "fr": "Evén. Pokémon 06", "en": "Pokémon Event 06" } },
+  { "id": 327, "name": "pokemon-event-07", "names": { "fr": "Evén. Pokémon 07", "en": "Pokémon Event 07" } },
+  { "id": 328, "name": "pokemon-event-08", "names": { "fr": "Evén. Pokémon 08", "en": "Pokémon Event 08" } },
+  { "id": 329, "name": "pokemon-event-09", "names": { "fr": "Evén. Pokémon 09", "en": "Pokémon Event 09" } },
+  { "id": 330, "name": "pokemon-event-10", "names": { "fr": "Evén. Pokémon 10", "en": "Pokémon Event 10" } },
+  { "id": 331, "name": "pokemon-event-11", "names": { "fr": "Evén. Pokémon 11", "en": "Pokémon Event 11" } },
+  { "id": 332, "name": "pokemon-event-12", "names": { "fr": "Evén. Pokémon 12", "en": "Pokémon Event 12" } },
+  { "id": 333, "name": "pokemon-event-13", "names": { "fr": "Evén. Pokémon 13", "en": "Pokémon Event 13" } },
+  { "id": 334, "name": "pokemon-event-14", "names": { "fr": "Evén. Pokémon 14", "en": "Pokémon Event 14" } },
+  { "id": 335, "name": "pokemon-event-15", "names": { "fr": "Evén. Pokémon 15", "en": "Pokémon Event 15" } },
+  { "id": 336, "name": "pokemon-event-16", "names": { "fr": "Evén. Pokémon 16", "en": "Pokémon Event 16" } },
+  { "id": 337, "name": "wi-fi-event", "names": { "fr": "Evénement Wi-Fi", "en": "Wi-Fi Event" } },
+  { "id": 338, "name": "wi-fi-gift", "names": { "fr": "Cadeau Wi-Fi", "en": "Wi-Fi Gift" } },
+  { "id": 339, "name": "pokemon-fan-club", "names": { "fr": "Fan Club Pokémon", "en": "Pokémon Fan Club" } },
+  { "id": 340, "name": "event-site", "names": { "fr": "Lieu d'Evénement", "en": "Event Site" } },
+  { "id": 341, "name": "concert-event", "names": { "fr": "Evénem. Concert", "en": "Concert Event" } },
+  { "id": 342, "name": "mr-pokemon", "names": { "fr": "M. Pokémon", "en": "Mr. Pokémon" } },
+  { "id": 343, "name": "primo", "names": { "fr": "Castor", "en": "Primo" } },
   {
     "id": 344,
     "name": "unova-mystery-zone",
-    "names": {
-      "ja-Hrkt": "なぞの場所",
-      "fr": "Endroit Mystérieux",
-      "en": "Mystery Zone"
-    },
+    "names": { "ja-Hrkt": "なぞの場所", "fr": "Endroit Mystérieux", "en": "Mystery Zone" },
     "region": "unova"
   },
   {
     "id": 345,
     "name": "unova-faraway-place",
-    "names": {
-      "ja-Hrkt": "遠い場所",
-      "fr": "Endroit Lointain",
-      "en": "Faraway place"
-    },
+    "names": { "ja-Hrkt": "遠い場所", "fr": "Endroit Lointain", "en": "Faraway place" },
     "region": "unova"
   },
   {
     "id": 346,
     "name": "nuvema-town",
-    "names": {
-      "ja-Hrkt": "カノコタウン",
-      "fr": "Renouet",
-      "en": "Nuvema Town"
-    },
+    "names": { "ja-Hrkt": "カノコタウン", "fr": "Renouet", "en": "Nuvema Town" },
     "region": "unova"
   },
   {
     "id": 347,
     "name": "accumula-town",
-    "names": {
-      "ja-Hrkt": "カラクサタウン",
-      "fr": "Arabelle",
-      "en": "Accumula Town"
-    },
+    "names": { "ja-Hrkt": "カラクサタウン", "fr": "Arabelle", "en": "Accumula Town" },
     "region": "unova"
   },
   {
     "id": 348,
     "name": "striaton-city",
-    "names": {
-      "ja-Hrkt": "サンヨウシティ",
-      "fr": "Ogoesse",
-      "en": "Striaton City"
-    },
+    "names": { "ja-Hrkt": "サンヨウシティ", "fr": "Ogoesse", "en": "Striaton City" },
     "region": "unova"
   },
   {
     "id": 349,
     "name": "nacrene-city",
-    "names": {
-      "ja-Hrkt": "シッポウシティ",
-      "fr": "Maillard",
-      "en": "Nacrene City"
-    },
+    "names": { "ja-Hrkt": "シッポウシティ", "fr": "Maillard", "en": "Nacrene City" },
     "region": "unova"
   },
   {
     "id": 350,
     "name": "castelia-city",
-    "names": {
-      "ja-Hrkt": "ヒウンシティ",
-      "fr": "Volucité",
-      "en": "Castelia City"
-    },
+    "names": { "ja-Hrkt": "ヒウンシティ", "fr": "Volucité", "en": "Castelia City" },
     "region": "unova"
   },
   {
     "id": 351,
     "name": "nimbasa-city",
-    "names": {
-      "ja-Hrkt": "ライモンシティ",
-      "fr": "Méanville",
-      "en": "Nimbasa City"
-    },
+    "names": { "ja-Hrkt": "ライモンシティ", "fr": "Méanville", "en": "Nimbasa City" },
     "region": "unova"
   },
   {
     "id": 352,
     "name": "driftveil-city",
-    "names": {
-      "ja-Hrkt": "ホドモエシティ",
-      "fr": "Port Yoneuve",
-      "en": "Driftveil City"
-    },
+    "names": { "ja-Hrkt": "ホドモエシティ", "fr": "Port Yoneuve", "en": "Driftveil City" },
     "region": "unova"
   },
   {
     "id": 353,
     "name": "mistralton-city",
-    "names": {
-      "ja-Hrkt": "フキヨセシティ",
-      "fr": "Parsemille",
-      "en": "Mistralton City"
-    },
+    "names": { "ja-Hrkt": "フキヨセシティ", "fr": "Parsemille", "en": "Mistralton City" },
     "region": "unova"
   },
   {
     "id": 354,
     "name": "icirrus-city",
-    "names": {
-      "ja-Hrkt": "セッカシティ",
-      "fr": "Flocombe",
-      "en": "Icirrus City"
-    },
+    "names": { "ja-Hrkt": "セッカシティ", "fr": "Flocombe", "en": "Icirrus City" },
     "region": "unova"
   },
   {
     "id": 355,
     "name": "opelucid-city",
-    "names": {
-      "ja-Hrkt": "ソウリュウシティ",
-      "fr": "Janusia",
-      "en": "Opelucid City"
-    },
+    "names": { "ja-Hrkt": "ソウリュウシティ", "fr": "Janusia", "en": "Opelucid City" },
     "region": "unova"
   },
   {
     "id": 356,
     "name": "unova-route-1",
-    "names": {
-      "ja-Hrkt": "１番道路",
-      "fr": "Route 1",
-      "en": "Route 1"
-    },
+    "names": { "ja-Hrkt": "１番道路", "fr": "Route 1", "en": "Route 1" },
     "region": "unova"
   },
   {
     "id": 357,
     "name": "unova-route-2",
-    "names": {
-      "ja-Hrkt": "２番道路",
-      "fr": "Route 2",
-      "en": "Route 2"
-    },
+    "names": { "ja-Hrkt": "２番道路", "fr": "Route 2", "en": "Route 2" },
     "region": "unova"
   },
   {
     "id": 358,
     "name": "unova-route-3",
-    "names": {
-      "ja-Hrkt": "３番道路",
-      "fr": "Route 3",
-      "en": "Route 3"
-    },
+    "names": { "ja-Hrkt": "３番道路", "fr": "Route 3", "en": "Route 3" },
     "region": "unova"
   },
   {
     "id": 359,
     "name": "unova-route-4",
-    "names": {
-      "ja-Hrkt": "４番道路",
-      "fr": "Route 4",
-      "en": "Route 4"
-    },
+    "names": { "ja-Hrkt": "４番道路", "fr": "Route 4", "en": "Route 4" },
     "region": "unova"
   },
   {
     "id": 360,
     "name": "unova-route-5",
-    "names": {
-      "ja-Hrkt": "５番道路",
-      "fr": "Route 5",
-      "en": "Route 5"
-    },
+    "names": { "ja-Hrkt": "５番道路", "fr": "Route 5", "en": "Route 5" },
     "region": "unova"
   },
   {
     "id": 361,
     "name": "unova-route-6",
-    "names": {
-      "ja-Hrkt": "６番道路",
-      "fr": "Route 6",
-      "en": "Route 6"
-    },
+    "names": { "ja-Hrkt": "６番道路", "fr": "Route 6", "en": "Route 6" },
     "region": "unova"
   },
   {
     "id": 362,
     "name": "unova-route-7",
-    "names": {
-      "ja-Hrkt": "７番道路",
-      "fr": "Route 7",
-      "en": "Route 7"
-    },
+    "names": { "ja-Hrkt": "７番道路", "fr": "Route 7", "en": "Route 7" },
     "region": "unova"
   },
   {
     "id": 363,
     "name": "unova-route-8",
-    "names": {
-      "ja-Hrkt": "８番道路",
-      "fr": "Route 8",
-      "en": "Route 8"
-    },
+    "names": { "ja-Hrkt": "８番道路", "fr": "Route 8", "en": "Route 8" },
     "region": "unova"
   },
   {
     "id": 364,
     "name": "unova-route-9",
-    "names": {
-      "ja-Hrkt": "９番道路",
-      "fr": "Route 9",
-      "en": "Route 9"
-    },
+    "names": { "ja-Hrkt": "９番道路", "fr": "Route 9", "en": "Route 9" },
     "region": "unova"
   },
   {
     "id": 365,
     "name": "unova-route-10",
-    "names": {
-      "ja-Hrkt": "１０番道路",
-      "fr": "Route 10",
-      "en": "Route 10"
-    },
+    "names": { "ja-Hrkt": "１０番道路", "fr": "Route 10", "en": "Route 10" },
     "region": "unova"
   },
   {
     "id": 366,
     "name": "unova-route-11",
-    "names": {
-      "ja-Hrkt": "１１番道路",
-      "fr": "Route 11",
-      "en": "Route 11"
-    },
+    "names": { "ja-Hrkt": "１１番道路", "fr": "Route 11", "en": "Route 11" },
     "region": "unova"
   },
   {
     "id": 367,
     "name": "unova-route-12",
-    "names": {
-      "ja-Hrkt": "１２番道路",
-      "fr": "Route 12",
-      "en": "Route 12"
-    },
+    "names": { "ja-Hrkt": "１２番道路", "fr": "Route 12", "en": "Route 12" },
     "region": "unova"
   },
   {
     "id": 368,
     "name": "unova-route-13",
-    "names": {
-      "ja-Hrkt": "１３番道路",
-      "fr": "Route 13",
-      "en": "Route 13"
-    },
+    "names": { "ja-Hrkt": "１３番道路", "fr": "Route 13", "en": "Route 13" },
     "region": "unova"
   },
   {
     "id": 369,
     "name": "unova-route-14",
-    "names": {
-      "ja-Hrkt": "１４番道路",
-      "fr": "Route 14",
-      "en": "Route 14"
-    },
+    "names": { "ja-Hrkt": "１４番道路", "fr": "Route 14", "en": "Route 14" },
     "region": "unova"
   },
   {
     "id": 370,
     "name": "unova-route-15",
-    "names": {
-      "ja-Hrkt": "１５番道路",
-      "fr": "Route 15",
-      "en": "Route 15"
-    },
+    "names": { "ja-Hrkt": "１５番道路", "fr": "Route 15", "en": "Route 15" },
     "region": "unova"
   },
   {
     "id": 371,
     "name": "unova-route-16",
-    "names": {
-      "ja-Hrkt": "１６番道路",
-      "fr": "Route 16",
-      "en": "Route 16"
-    },
+    "names": { "ja-Hrkt": "１６番道路", "fr": "Route 16", "en": "Route 16" },
     "region": "unova"
   },
   {
     "id": 372,
     "name": "unova-route-17",
-    "names": {
-      "ja-Hrkt": "１７番水道",
-      "fr": "Chenal 17",
-      "en": "Route 17"
-    },
+    "names": { "ja-Hrkt": "１７番水道", "fr": "Chenal 17", "en": "Route 17" },
     "region": "unova"
   },
   {
     "id": 373,
     "name": "unova-route-18",
-    "names": {
-      "ja-Hrkt": "１８番道路",
-      "fr": "Route 18",
-      "en": "Route 18"
-    },
+    "names": { "ja-Hrkt": "１８番道路", "fr": "Route 18", "en": "Route 18" },
     "region": "unova"
   },
   {
     "id": 374,
     "name": "dreamyard",
-    "names": {
-      "ja-Hrkt": "夢の跡地",
-      "fr": "Vestiges du Rêve",
-      "en": "Dreamyard"
-    },
+    "names": { "ja-Hrkt": "夢の跡地", "fr": "Vestiges du Rêve", "en": "Dreamyard" },
     "region": "unova"
   },
   {
     "id": 375,
     "name": "pinwheel-forest",
-    "names": {
-      "ja-Hrkt": "ヤグルマの森",
-      "fr": "Forêt d'Empoigne",
-      "en": "Pinwheel Forest"
-    },
+    "names": { "ja-Hrkt": "ヤグルマの森", "fr": "Forêt d'Empoigne", "en": "Pinwheel Forest" },
     "region": "unova"
   },
   {
     "id": 376,
     "name": "desert-resort",
-    "names": {
-      "ja-Hrkt": "リゾートデザート",
-      "fr": "Désert Délassant",
-      "en": "Desert Resort"
-    },
+    "names": { "ja-Hrkt": "リゾートデザート", "fr": "Désert Délassant", "en": "Desert Resort" },
     "region": "unova"
   },
   {
     "id": 377,
     "name": "relic-castle",
-    "names": {
-      "ja-Hrkt": "古代の城",
-      "fr": "Château Enfoui",
-      "en": "Relic Castle"
-    },
+    "names": { "ja-Hrkt": "古代の城", "fr": "Château Enfoui", "en": "Relic Castle" },
     "region": "unova"
   },
   {
     "id": 378,
     "name": "cold-storage",
-    "names": {
-      "ja-Hrkt": "冷凍コンテナ",
-      "fr": "Hangar Frigorifique",
-      "en": "Cold Storage"
-    },
+    "names": { "ja-Hrkt": "冷凍コンテナ", "fr": "Hangar Frigorifique", "en": "Cold Storage" },
     "region": "unova"
   },
   {
     "id": 379,
     "name": "chargestone-cave",
-    "names": {
-      "ja-Hrkt": "電気石の洞穴",
-      "fr": "Grotte Électrolithe",
-      "en": "Chargestone Cave"
-    },
+    "names": { "ja-Hrkt": "電気石の洞穴", "fr": "Grotte Électrolithe", "en": "Chargestone Cave" },
     "region": "unova"
   },
   {
     "id": 380,
     "name": "twist-mountain",
-    "names": {
-      "ja-Hrkt": "ネジ山",
-      "fr": "Mont Foré",
-      "en": "Twist Mountain"
-    },
+    "names": { "ja-Hrkt": "ネジ山", "fr": "Mont Foré", "en": "Twist Mountain" },
     "region": "unova"
   },
   {
     "id": 381,
     "name": "dragonspiral-tower",
-    "names": {
-      "ja-Hrkt": "リュウラセンの塔",
-      "fr": "Tour Dragospire",
-      "en": "Dragonspiral Tower"
-    },
+    "names": { "ja-Hrkt": "リュウラセンの塔", "fr": "Tour Dragospire", "en": "Dragonspiral Tower" },
     "region": "unova"
   },
   {
     "id": 382,
     "name": "unova-victory-road",
-    "names": {
-      "ja-Hrkt": "チャンピオンロード",
-      "fr": "Route Victoire",
-      "en": "Victory Road"
-    },
+    "names": { "ja-Hrkt": "チャンピオンロード", "fr": "Route Victoire", "en": "Victory Road" },
     "region": "unova"
   },
   {
     "id": 383,
     "name": "lacunosa-town",
-    "names": {
-      "ja-Hrkt": "カゴメタウン",
-      "fr": "Entrelasque",
-      "en": "Lacunosa Town"
-    },
+    "names": { "ja-Hrkt": "カゴメタウン", "fr": "Entrelasque", "en": "Lacunosa Town" },
     "region": "unova"
   },
   {
     "id": 384,
     "name": "undella-town",
-    "names": {
-      "ja-Hrkt": "サザナミタウン",
-      "fr": "Vaguelone",
-      "en": "Undella Town"
-    },
+    "names": { "ja-Hrkt": "サザナミタウン", "fr": "Vaguelone", "en": "Undella Town" },
     "region": "unova"
   },
   {
     "id": 385,
     "name": "anville-town",
-    "names": {
-      "ja-Hrkt": "カナワタウン",
-      "fr": "Rotombourg",
-      "en": "Anville Town"
-    },
+    "names": { "ja-Hrkt": "カナワタウン", "fr": "Rotombourg", "en": "Anville Town" },
     "region": "unova"
   },
   {
     "id": 386,
     "name": "unova-pokemon-league",
-    "names": {
-      "ja-Hrkt": "ポケモンリーグ",
-      "fr": "Ligue Pokémon",
-      "en": "Pokémon League"
-    },
+    "names": { "ja-Hrkt": "ポケモンリーグ", "fr": "Ligue Pokémon", "en": "Pokémon League" },
     "region": "unova"
   },
   {
     "id": 387,
     "name": "ns-castle",
-    "names": {
-      "ja-Hrkt": "Ｎの城",
-      "fr": "Palais de N",
-      "en": "N's Castle"
-    },
+    "names": { "ja-Hrkt": "Ｎの城", "fr": "Palais de N", "en": "N's Castle" },
     "region": "unova"
   },
   {
     "id": 388,
     "name": "royal-unova",
-    "names": {
-      "ja-Hrkt": "ロイヤルイッシュ号",
-      "fr": "L'Étoile d'Unys",
-      "en": "Royal Unova"
-    },
+    "names": { "ja-Hrkt": "ロイヤルイッシュ号", "fr": "L'Étoile d'Unys", "en": "Royal Unova" },
     "region": "unova"
   },
   {
     "id": 389,
     "name": "gear-station",
-    "names": {
-      "ja-Hrkt": "ギアステーション",
-      "fr": "Engrenage du Métro",
-      "en": "Gear Station"
-    },
+    "names": { "ja-Hrkt": "ギアステーション", "fr": "Engrenage du Métro", "en": "Gear Station" },
     "region": "unova"
   },
   {
     "id": 390,
     "name": "battle-subway",
-    "names": {
-      "ja-Hrkt": "バトルサブウェイ",
-      "fr": "Métro de Combat",
-      "en": "Battle Subway"
-    },
+    "names": { "ja-Hrkt": "バトルサブウェイ", "fr": "Métro de Combat", "en": "Battle Subway" },
     "region": "unova"
   },
   {
     "id": 391,
     "name": "musical-theater",
-    "names": {
-      "ja-Hrkt": "ミュージカルホール",
-      "fr": "Music-Hall",
-      "en": "Musical Theater"
-    },
+    "names": { "ja-Hrkt": "ミュージカルホール", "fr": "Music-Hall", "en": "Musical Theater" },
     "region": "unova"
   },
   {
     "id": 392,
     "name": "black-city",
-    "names": {
-      "ja-Hrkt": "ブラックシティ",
-      "fr": "Ville Noire",
-      "en": "Black City"
-    },
+    "names": { "ja-Hrkt": "ブラックシティ", "fr": "Ville Noire", "en": "Black City" },
     "region": "unova"
   },
   {
     "id": 393,
     "name": "white-forest",
-    "names": {
-      "ja-Hrkt": "ホワイトフォレスト",
-      "fr": "Forêt Blanche",
-      "en": "White Forest"
-    },
+    "names": { "ja-Hrkt": "ホワイトフォレスト", "fr": "Forêt Blanche", "en": "White Forest" },
     "region": "unova"
   },
   {
     "id": 394,
     "name": "unity-tower",
-    "names": {
-      "ja-Hrkt": "ユナイテッドタワー",
-      "fr": "Tour Union",
-      "en": "Unity Tower"
-    },
+    "names": { "ja-Hrkt": "ユナイテッドタワー", "fr": "Tour Union", "en": "Unity Tower" },
     "region": "unova"
   },
   {
     "id": 395,
     "name": "wellspring-cave",
-    "names": {
-      "ja-Hrkt": "地下水脈の穴",
-      "fr": "Veine Souterraine",
-      "en": "Wellspring Cave"
-    },
+    "names": { "ja-Hrkt": "地下水脈の穴", "fr": "Veine Souterraine", "en": "Wellspring Cave" },
     "region": "unova"
   },
   {
     "id": 396,
     "name": "mistralton-cave",
-    "names": {
-      "ja-Hrkt": "フキヨセの洞穴",
-      "fr": "Grotte Parsemille",
-      "en": "Mistralton Cave"
-    },
+    "names": { "ja-Hrkt": "フキヨセの洞穴", "fr": "Grotte Parsemille", "en": "Mistralton Cave" },
     "region": "unova"
   },
   {
     "id": 397,
     "name": "rumination-field",
-    "names": {
-      "ja-Hrkt": "思索の原",
-      "fr": "Clairière Réflexion",
-      "en": "Rumination Field"
-    },
+    "names": { "ja-Hrkt": "思索の原", "fr": "Clairière Réflexion", "en": "Rumination Field" },
     "region": "unova"
   },
   {
     "id": 398,
     "name": "celestial-tower",
-    "names": {
-      "ja-Hrkt": "タワーオブヘブン",
-      "fr": "Tour des Cieux",
-      "en": "Celestial Tower"
-    },
+    "names": { "ja-Hrkt": "タワーオブヘブン", "fr": "Tour des Cieux", "en": "Celestial Tower" },
     "region": "unova"
   },
   {
     "id": 399,
     "name": "moor-of-icirrus",
-    "names": {
-      "ja-Hrkt": "セッカの湿原",
-      "fr": "Tourbière Flocombe",
-      "en": "Moor of Icirrus"
-    },
+    "names": { "ja-Hrkt": "セッカの湿原", "fr": "Tourbière Flocombe", "en": "Moor of Icirrus" },
     "region": "unova"
   },
   {
     "id": 400,
     "name": "unova-shopping-mall",
-    "names": {
-      "ja-Hrkt": "ショッピングモール",
-      "fr": "Centre Commercial",
-      "en": "Shopping Mall"
-    },
+    "names": { "ja-Hrkt": "ショッピングモール", "fr": "Centre Commercial", "en": "Shopping Mall" },
     "region": "unova"
   },
   {
     "id": 401,
     "name": "challengers-cave",
-    "names": {
-      "ja-Hrkt": "修行の岩屋",
-      "fr": "Antre d'Entraînement",
-      "en": "Challenger's Cave"
-    },
+    "names": { "ja-Hrkt": "修行の岩屋", "fr": "Antre d'Entraînement", "en": "Challenger's Cave" },
     "region": "unova"
   },
   {
     "id": 402,
     "name": "poke-transfer-lab",
-    "names": {
-      "ja-Hrkt": "シフトファクトリー",
-      "fr": "Laboratoire Fret",
-      "en": "Poké Transfer Lab"
-    },
+    "names": { "ja-Hrkt": "シフトファクトリー", "fr": "Laboratoire Fret", "en": "Poké Transfer Lab" },
     "region": "unova"
   },
   {
     "id": 403,
     "name": "giant-chasm",
-    "names": {
-      "ja-Hrkt": "ジャイアントホール",
-      "fr": "Grotte Cyclopéenne",
-      "en": "Giant Chasm"
-    },
+    "names": { "ja-Hrkt": "ジャイアントホール", "fr": "Grotte Cyclopéenne", "en": "Giant Chasm" },
     "region": "unova"
   },
   {
     "id": 404,
     "name": "liberty-garden",
-    "names": {
-      "ja-Hrkt": "リバティガーデン島",
-      "fr": "Île Liberté",
-      "en": "Liberty Garden"
-    },
+    "names": { "ja-Hrkt": "リバティガーデン島", "fr": "Île Liberté", "en": "Liberty Garden" },
     "region": "unova"
   },
   {
     "id": 405,
     "name": "p2-laboratory",
-    "names": {
-      "ja-Hrkt": "Ｐ２ラボ",
-      "fr": "Labo P2",
-      "en": "P2 Laboratory"
-    },
+    "names": { "ja-Hrkt": "Ｐ２ラボ", "fr": "Labo P2", "en": "P2 Laboratory" },
     "region": "unova"
   },
   {
     "id": 406,
     "name": "skyarrow-bridge",
-    "names": {
-      "ja-Hrkt": "スカイアローブリッジ",
-      "fr": "Pont Sagiciel",
-      "en": "Skyarrow Bridge"
-    },
+    "names": { "ja-Hrkt": "スカイアローブリッジ", "fr": "Pont Sagiciel", "en": "Skyarrow Bridge" },
     "region": "unova"
   },
   {
     "id": 407,
     "name": "driftveil-drawbridge",
-    "names": {
-      "ja-Hrkt": "ホドモエの跳ね橋",
-      "fr": "Pont Yoneuve",
-      "en": "Driftveil Drawbridge"
-    },
+    "names": { "ja-Hrkt": "ホドモエの跳ね橋", "fr": "Pont Yoneuve", "en": "Driftveil Drawbridge" },
     "region": "unova"
   },
   {
     "id": 408,
     "name": "tubeline-bridge",
-    "names": {
-      "ja-Hrkt": "シリンダーブリッジ",
-      "fr": "Pont Ferroviaire",
-      "en": "Tubeline Bridge"
-    },
+    "names": { "ja-Hrkt": "シリンダーブリッジ", "fr": "Pont Ferroviaire", "en": "Tubeline Bridge" },
     "region": "unova"
   },
   {
     "id": 409,
     "name": "village-bridge",
-    "names": {
-      "ja-Hrkt": "ビレッジブリッジ",
-      "fr": "Pont du Hameau",
-      "en": "Village Bridge"
-    },
+    "names": { "ja-Hrkt": "ビレッジブリッジ", "fr": "Pont du Hameau", "en": "Village Bridge" },
     "region": "unova"
   },
   {
     "id": 410,
     "name": "marvelous-bridge",
-    "names": {
-      "ja-Hrkt": "ワンダーブリッジ",
-      "fr": "Pont de l'Inconnu",
-      "en": "Marvelous Bridge"
-    },
+    "names": { "ja-Hrkt": "ワンダーブリッジ", "fr": "Pont de l'Inconnu", "en": "Marvelous Bridge" },
     "region": "unova"
   },
   {
     "id": 411,
     "name": "entralink",
-    "names": {
-      "ja-Hrkt": "ハイリンク",
-      "fr": "Heylink",
-      "en": "Entralink"
-    },
+    "names": { "ja-Hrkt": "ハイリンク", "fr": "Heylink", "en": "Entralink" },
     "region": "unova"
   },
   {
     "id": 412,
     "name": "abundant-shrine",
-    "names": {
-      "ja-Hrkt": "ほうじょうの社",
-      "fr": "Autel Abondance",
-      "en": "Abundant Shrine"
-    },
+    "names": { "ja-Hrkt": "ほうじょうの社", "fr": "Autel Abondance", "en": "Abundant Shrine" },
     "region": "unova"
   },
   {
     "id": 413,
     "name": "undella-bay",
-    "names": {
-      "ja-Hrkt": "サザナミ湾",
-      "fr": "Baie Vaguelone",
-      "en": "Undella Bay"
-    },
+    "names": { "ja-Hrkt": "サザナミ湾", "fr": "Baie Vaguelone", "en": "Undella Bay" },
     "region": "unova"
   },
   {
     "id": 414,
     "name": "lostlorn-forest",
-    "names": {
-      "ja-Hrkt": "迷いの森",
-      "fr": "Bois des Illusions",
-      "en": "Lostlorn Forest"
-    },
+    "names": { "ja-Hrkt": "迷いの森", "fr": "Bois des Illusions", "en": "Lostlorn Forest" },
     "region": "unova"
   },
   {
     "id": 415,
     "name": "trial-chamber",
-    "names": {
-      "ja-Hrkt": "試練の室",
-      "fr": "Salle Épreuve",
-      "en": "Trial Chamber"
-    },
+    "names": { "ja-Hrkt": "試練の室", "fr": "Salle Épreuve", "en": "Trial Chamber" },
     "region": "unova"
   },
   {
     "id": 416,
     "name": "guidance-chamber",
-    "names": {
-      "ja-Hrkt": "導の間",
-      "fr": "Espace Guide",
-      "en": "Guidance Chamber"
-    },
+    "names": { "ja-Hrkt": "導の間", "fr": "Espace Guide", "en": "Guidance Chamber" },
     "region": "unova"
   },
   {
     "id": 417,
     "name": "entree-forest",
-    "names": {
-      "ja-Hrkt": "ハイリンクの森",
-      "fr": "Forêt du Heylink",
-      "en": "Entree Forest"
-    },
+    "names": { "ja-Hrkt": "ハイリンクの森", "fr": "Forêt du Heylink", "en": "Entree Forest" },
     "region": "unova"
   },
   {
     "id": 418,
     "name": "accumula-gate",
-    "names": {
-      "ja-Hrkt": "カラクサゲート",
-      "fr": "Porte Arabelle",
-      "en": "Accumula Gate"
-    },
+    "names": { "ja-Hrkt": "カラクサゲート", "fr": "Porte Arabelle", "en": "Accumula Gate" },
     "region": "unova"
   },
   {
     "id": 419,
     "name": "undella-gate",
-    "names": {
-      "ja-Hrkt": "サザナミゲート",
-      "fr": "Porte Vaguelone",
-      "en": "Undella Gate"
-    },
+    "names": { "ja-Hrkt": "サザナミゲート", "fr": "Porte Vaguelone", "en": "Undella Gate" },
     "region": "unova"
   },
   {
     "id": 420,
     "name": "nacrene-gate",
-    "names": {
-      "ja-Hrkt": "シッポウゲート",
-      "fr": "Porte Maillard",
-      "en": "Nacrene Gate"
-    },
+    "names": { "ja-Hrkt": "シッポウゲート", "fr": "Porte Maillard", "en": "Nacrene Gate" },
     "region": "unova"
   },
   {
     "id": 421,
     "name": "castelia-gate",
-    "names": {
-      "ja-Hrkt": "ヒウンゲート",
-      "fr": "Porte Volucité",
-      "en": "Castelia Gate"
-    },
+    "names": { "ja-Hrkt": "ヒウンゲート", "fr": "Porte Volucité", "en": "Castelia Gate" },
     "region": "unova"
   },
   {
     "id": 422,
     "name": "nimbasa-gate",
-    "names": {
-      "ja-Hrkt": "ライモンゲート",
-      "fr": "Porte Méanville",
-      "en": "Nimbasa Gate"
-    },
+    "names": { "ja-Hrkt": "ライモンゲート", "fr": "Porte Méanville", "en": "Nimbasa Gate" },
     "region": "unova"
   },
   {
     "id": 423,
     "name": "opelucid-gate",
-    "names": {
-      "ja-Hrkt": "ソウリュウゲート",
-      "fr": "Porte Janusia",
-      "en": "Opelucid Gate"
-    },
+    "names": { "ja-Hrkt": "ソウリュウゲート", "fr": "Porte Janusia", "en": "Opelucid Gate" },
     "region": "unova"
   },
   {
     "id": 424,
     "name": "black-gate",
-    "names": {
-      "ja-Hrkt": "ブラックゲート",
-      "fr": "Porte Noire",
-      "en": "Black Gate"
-    },
+    "names": { "ja-Hrkt": "ブラックゲート", "fr": "Porte Noire", "en": "Black Gate" },
     "region": "unova"
   },
   {
     "id": 425,
     "name": "white-gate",
-    "names": {
-      "ja-Hrkt": "ホワイトゲート",
-      "fr": "Porte Blanche",
-      "en": "White Gate"
-    },
+    "names": { "ja-Hrkt": "ホワイトゲート", "fr": "Porte Blanche", "en": "White Gate" },
     "region": "unova"
   },
   {
     "id": 426,
     "name": "bridge-gate",
-    "names": {
-      "ja-Hrkt": "ブリッジゲート",
-      "fr": "Porte de Pont",
-      "en": "Bridge Gate"
-    },
+    "names": { "ja-Hrkt": "ブリッジゲート", "fr": "Porte de Pont", "en": "Bridge Gate" },
     "region": "unova"
   },
   {
     "id": 427,
     "name": "route-gate",
-    "names": {
-      "ja-Hrkt": "ロードゲート",
-      "fr": "Porte de Route",
-      "en": "Route Gate"
-    },
+    "names": { "ja-Hrkt": "ロードゲート", "fr": "Porte de Route", "en": "Route Gate" },
     "region": "unova"
   },
   {
     "id": 428,
     "name": "abyssal-ruins",
-    "names": {
-      "ja-Hrkt": "海底遺跡",
-      "fr": "Ruines des Abysses",
-      "en": "Abyssal Ruins"
-    },
+    "names": { "ja-Hrkt": "海底遺跡", "fr": "Ruines des Abysses", "en": "Abyssal Ruins" },
     "region": "unova"
   },
   {
@@ -3998,15 +1408,7 @@
     },
     "region": "hoenn"
   },
-  {
-    "id": 447,
-    "name": "abandoned-ship",
-    "names": {
-      "fr": "Épave",
-      "en": "Abandoned Ship"
-    },
-    "region": "hoenn"
-  },
+  { "id": 447, "name": "abandoned-ship", "names": { "fr": "Épave", "en": "Abandoned Ship" }, "region": "hoenn" },
   {
     "id": 448,
     "name": "sky-pillar",
@@ -4539,715 +1941,329 @@
     },
     "region": "hoenn"
   },
-  {
-    "id": 486,
-    "name": "magma-hideout",
-    "names": {
-      "fr": "Planque Magma",
-      "en": "Magma Hideout"
-    },
-    "region": "hoenn"
-  },
-  {
-    "id": 487,
-    "name": "mirage-tower",
-    "names": {
-      "fr": "Tour Mirage",
-      "en": "Mirage Tower"
-    },
-    "region": "hoenn"
-  },
+  { "id": 486, "name": "magma-hideout", "names": { "fr": "Planque Magma", "en": "Magma Hideout" }, "region": "hoenn" },
+  { "id": 487, "name": "mirage-tower", "names": { "fr": "Tour Mirage", "en": "Mirage Tower" }, "region": "hoenn" },
   {
     "id": 488,
     "name": "desert-underpass",
-    "names": {
-      "fr": "Voie du Désert",
-      "en": "Desert Underpass"
-    },
+    "names": { "fr": "Voie du Désert", "en": "Desert Underpass" },
     "region": "hoenn"
   },
-  {
-    "id": 489,
-    "name": "artisan-cave",
-    "names": {
-      "fr": "Grotte Atelier",
-      "en": "Artisan Cave"
-    },
-    "region": "hoenn"
-  },
+  { "id": 489, "name": "artisan-cave", "names": { "fr": "Grotte Atelier", "en": "Artisan Cave" }, "region": "hoenn" },
   {
     "id": 490,
     "name": "hoenn-altering-cave",
-    "names": {
-      "fr": "Grotte Métamo",
-      "en": "Altering Cave"
-    },
+    "names": { "fr": "Grotte Métamo", "en": "Altering Cave" },
     "region": "hoenn"
   },
   {
     "id": 491,
     "name": "monean-chamber",
-    "names": {
-      "fr": "Chambre Anemune",
-      "en": "Monean Chamber"
-    },
+    "names": { "fr": "Chambre Anemune", "en": "Monean Chamber" },
     "region": "kanto"
   },
   {
     "id": 492,
     "name": "liptoo-chamber",
-    "names": {
-      "fr": "Chambre Deulipe",
-      "en": "Liptoo Chamber"
-    },
+    "names": { "fr": "Chambre Deulipe", "en": "Liptoo Chamber" },
     "region": "kanto"
   },
   {
     "id": 493,
     "name": "weepth-chamber",
-    "names": {
-      "fr": "Chambre Prois",
-      "en": "Weepth Chamber"
-    },
+    "names": { "fr": "Chambre Prois", "en": "Weepth Chamber" },
     "region": "kanto"
   },
   {
     "id": 494,
     "name": "dilford-chamber",
-    "names": {
-      "fr": "Chambre Jonquatre",
-      "en": "Dilford Chamber"
-    },
+    "names": { "fr": "Chambre Jonquatre", "en": "Dilford Chamber" },
     "region": "kanto"
   },
   {
     "id": 495,
     "name": "scufib-chamber",
-    "names": {
-      "fr": "Chambre Hibicinq",
-      "en": "Scufib Chamber"
-    },
+    "names": { "fr": "Chambre Hibicinq", "en": "Scufib Chamber" },
     "region": "kanto"
   },
-  {
-    "id": 496,
-    "name": "rixy-chamber",
-    "names": {
-      "fr": "Chambre Irix",
-      "en": "Rixy Chamber"
-    },
-    "region": "kanto"
-  },
+  { "id": 496, "name": "rixy-chamber", "names": { "fr": "Chambre Irix", "en": "Rixy Chamber" }, "region": "kanto" },
   {
     "id": 497,
     "name": "viapos-chamber",
-    "names": {
-      "fr": "Chambre Poinsept",
-      "en": "Viapos Chamber"
-    },
+    "names": { "fr": "Chambre Poinsept", "en": "Viapos Chamber" },
     "region": "kanto"
   },
-  {
-    "id": 498,
-    "name": "ss-anne",
-    "names": {
-      "fr": "L'Océane",
-      "en": "S.S. Anne"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 500,
-    "name": "mt-ember",
-    "names": {
-      "fr": "Mont Braise",
-      "en": "Mt. Ember"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 501,
-    "name": "berry-forest",
-    "names": {
-      "fr": "Bois Baies",
-      "en": "Berry Forest"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 502,
-    "name": "icefall-cave",
-    "names": {
-      "fr": "Grotte de Glace",
-      "en": "Icefall Cave"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 503,
-    "name": "pattern-bush",
-    "names": {
-      "fr": "Forbuissons",
-      "en": "Pattern Bush"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 504,
-    "name": "lost-cave",
-    "names": {
-      "fr": "Grotte Perdue",
-      "en": "Lost Cave"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 505,
-    "name": "kindle-road",
-    "names": {
-      "fr": "Route Tison",
-      "en": "Kindle Road"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 506,
-    "name": "treasure-beach",
-    "names": {
-      "fr": "Plage Trésor",
-      "en": "Treasure Beach"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 507,
-    "name": "cape-brink",
-    "names": {
-      "fr": "Cap Falaise",
-      "en": "Cape Brink"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 508,
-    "name": "bond-bridge",
-    "names": {
-      "fr": "Pont du Lien",
-      "en": "Bond Bridge"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 509,
-    "name": "three-isle-port",
-    "names": {
-      "fr": "Port Ile 3",
-      "en": "Three Isle Port"
-    },
-    "region": "kanto"
-  },
+  { "id": 498, "name": "ss-anne", "names": { "fr": "L'Océane", "en": "S.S. Anne" }, "region": "kanto" },
+  { "id": 500, "name": "mt-ember", "names": { "fr": "Mont Braise", "en": "Mt. Ember" }, "region": "kanto" },
+  { "id": 501, "name": "berry-forest", "names": { "fr": "Bois Baies", "en": "Berry Forest" }, "region": "kanto" },
+  { "id": 502, "name": "icefall-cave", "names": { "fr": "Grotte de Glace", "en": "Icefall Cave" }, "region": "kanto" },
+  { "id": 503, "name": "pattern-bush", "names": { "fr": "Forbuissons", "en": "Pattern Bush" }, "region": "kanto" },
+  { "id": 504, "name": "lost-cave", "names": { "fr": "Grotte Perdue", "en": "Lost Cave" }, "region": "kanto" },
+  { "id": 505, "name": "kindle-road", "names": { "fr": "Route Tison", "en": "Kindle Road" }, "region": "kanto" },
+  { "id": 506, "name": "treasure-beach", "names": { "fr": "Plage Trésor", "en": "Treasure Beach" }, "region": "kanto" },
+  { "id": 507, "name": "cape-brink", "names": { "fr": "Cap Falaise", "en": "Cape Brink" }, "region": "kanto" },
+  { "id": 508, "name": "bond-bridge", "names": { "fr": "Pont du Lien", "en": "Bond Bridge" }, "region": "kanto" },
+  { "id": 509, "name": "three-isle-port", "names": { "fr": "Port Ile 3", "en": "Three Isle Port" }, "region": "kanto" },
   {
     "id": 510,
     "name": "resort-gorgeous",
-    "names": {
-      "fr": "Camp de Vacances",
-      "en": "Resort Gorgeous"
-    },
+    "names": { "fr": "Camp de Vacances", "en": "Resort Gorgeous" },
     "region": "kanto"
   },
   {
     "id": 511,
     "name": "water-labyrinth",
-    "names": {
-      "fr": "Labyrinthe d'O",
-      "en": "Water Labyrinth"
-    },
+    "names": { "fr": "Labyrinthe d'O", "en": "Water Labyrinth" },
     "region": "kanto"
   },
   {
     "id": 512,
     "name": "five-isle-meadow",
-    "names": {
-      "fr": "Pré Ile 5",
-      "en": "Five Isle Meadow"
-    },
+    "names": { "fr": "Pré Ile 5", "en": "Five Isle Meadow" },
     "region": "kanto"
   },
-  {
-    "id": 513,
-    "name": "memorial-pillar",
-    "names": {
-      "fr": "Mémorial",
-      "en": "Memorial Pillar"
-    },
-    "region": "kanto"
-  },
+  { "id": 513, "name": "memorial-pillar", "names": { "fr": "Mémorial", "en": "Memorial Pillar" }, "region": "kanto" },
   {
     "id": 514,
     "name": "outcast-island",
-    "names": {
-      "fr": "Ile du Lointain",
-      "en": "Outcast Island"
-    },
+    "names": { "fr": "Ile du Lointain", "en": "Outcast Island" },
     "region": "kanto"
   },
-  {
-    "id": 515,
-    "name": "green-path",
-    "names": {
-      "fr": "Chemin Vert",
-      "en": "Green Path"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 516,
-    "name": "water-path",
-    "names": {
-      "fr": "Agualcanal",
-      "en": "Water Path"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 517,
-    "name": "ruin-valley",
-    "names": {
-      "fr": "Vallée Ruine",
-      "en": "Ruin Valley"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 518,
-    "name": "trainer-tower",
-    "names": {
-      "fr": "Tour Dresseurs",
-      "en": "Trainer Tower"
-    },
-    "region": "kanto"
-  },
+  { "id": 515, "name": "green-path", "names": { "fr": "Chemin Vert", "en": "Green Path" }, "region": "kanto" },
+  { "id": 516, "name": "water-path", "names": { "fr": "Agualcanal", "en": "Water Path" }, "region": "kanto" },
+  { "id": 517, "name": "ruin-valley", "names": { "fr": "Vallée Ruine", "en": "Ruin Valley" }, "region": "kanto" },
+  { "id": 518, "name": "trainer-tower", "names": { "fr": "Tour Dresseurs", "en": "Trainer Tower" }, "region": "kanto" },
   {
     "id": 519,
     "name": "canyon-entrance",
-    "names": {
-      "fr": "Entrée du Canyon",
-      "en": "Canyon Entrance"
-    },
+    "names": { "fr": "Entrée du Canyon", "en": "Canyon Entrance" },
     "region": "kanto"
   },
-  {
-    "id": 520,
-    "name": "sevault-canyon",
-    "names": {
-      "fr": "Canyon Sesor",
-      "en": "Sevault Canyon"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 521,
-    "name": "tanoby-ruins",
-    "names": {
-      "fr": "Ruines Tanoby",
-      "en": "Tanoby Ruins"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 526,
-    "name": "one-island",
-    "names": {
-      "fr": "Ile 1",
-      "en": "One Island"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 527,
-    "name": "four-island",
-    "names": {
-      "fr": "Ile 4",
-      "en": "Four Island"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 528,
-    "name": "five-island",
-    "names": {
-      "fr": "Ile 5",
-      "en": "Five Island"
-    },
-    "region": "kanto"
-  },
+  { "id": 520, "name": "sevault-canyon", "names": { "fr": "Canyon Sesor", "en": "Sevault Canyon" }, "region": "kanto" },
+  { "id": 521, "name": "tanoby-ruins", "names": { "fr": "Ruines Tanoby", "en": "Tanoby Ruins" }, "region": "kanto" },
+  { "id": 526, "name": "one-island", "names": { "fr": "Ile 1", "en": "One Island" }, "region": "kanto" },
+  { "id": 527, "name": "four-island", "names": { "fr": "Ile 4", "en": "Four Island" }, "region": "kanto" },
+  { "id": 528, "name": "five-island", "names": { "fr": "Ile 5", "en": "Five Island" }, "region": "kanto" },
   {
     "id": 529,
     "name": "kanto-altering-cave",
-    "names": {
-      "fr": "Grotte Métamo",
-      "en": "Altering Cave"
-    },
+    "names": { "fr": "Grotte Métamo", "en": "Altering Cave" },
     "region": "kanto"
   },
   {
     "id": 531,
     "name": "aspertia-city",
-    "names": {
-      "ja-Hrkt": "ヒオウギシティ",
-      "fr": "Pavonnay",
-      "en": "Aspertia City"
-    },
+    "names": { "ja-Hrkt": "ヒオウギシティ", "fr": "Pavonnay", "en": "Aspertia City" },
     "region": "unova"
   },
   {
     "id": 532,
     "name": "virbank-city",
-    "names": {
-      "ja-Hrkt": "タチワキシティ",
-      "fr": "Ondes-sur-Mer",
-      "en": "Virbank City"
-    },
+    "names": { "ja-Hrkt": "タチワキシティ", "fr": "Ondes-sur-Mer", "en": "Virbank City" },
     "region": "unova"
   },
   {
     "id": 533,
     "name": "humilau-city",
-    "names": {
-      "ja-Hrkt": "セイガイハシティ",
-      "fr": "Papeloa",
-      "en": "Humilau City"
-    },
+    "names": { "ja-Hrkt": "セイガイハシティ", "fr": "Papeloa", "en": "Humilau City" },
     "region": "unova"
   },
   {
     "id": 534,
     "name": "pokestar-studios",
-    "names": {
-      "ja-Hrkt": "ポケウッド",
-      "fr": "Pokéwood",
-      "en": "PokéStar Studios"
-    },
+    "names": { "ja-Hrkt": "ポケウッド", "fr": "Pokéwood", "en": "PokéStar Studios" },
     "region": "unova"
   },
   {
     "id": 535,
     "name": "join-avenue",
-    "names": {
-      "ja-Hrkt": "ジョインアベニュー",
-      "fr": "Galerie Concorde",
-      "en": "Join Avenue"
-    },
+    "names": { "ja-Hrkt": "ジョインアベニュー", "fr": "Galerie Concorde", "en": "Join Avenue" },
     "region": "unova"
   },
   {
     "id": 536,
     "name": "floccesy-town",
-    "names": {
-      "ja-Hrkt": "サンギタウン",
-      "fr": "Amaillide",
-      "en": "Floccesy Town"
-    },
+    "names": { "ja-Hrkt": "サンギタウン", "fr": "Amaillide", "en": "Floccesy Town" },
     "region": "unova"
   },
   {
     "id": 537,
     "name": "lentimas-town",
-    "names": {
-      "ja-Hrkt": "ヤマジタウン",
-      "fr": "Arpentières",
-      "en": "Lentimas Town"
-    },
+    "names": { "ja-Hrkt": "ヤマジタウン", "fr": "Arpentières", "en": "Lentimas Town" },
     "region": "unova"
   },
   {
     "id": 538,
     "name": "unova-route-19",
-    "names": {
-      "ja-Hrkt": "１９番道路",
-      "fr": "Route 19",
-      "en": "Route 19"
-    },
+    "names": { "ja-Hrkt": "１９番道路", "fr": "Route 19", "en": "Route 19" },
     "region": "unova"
   },
   {
     "id": 539,
     "name": "unova-route-20",
-    "names": {
-      "ja-Hrkt": "２０番道路",
-      "fr": "Route 20",
-      "en": "Route 20"
-    },
+    "names": { "ja-Hrkt": "２０番道路", "fr": "Route 20", "en": "Route 20" },
     "region": "unova"
   },
   {
     "id": 540,
     "name": "unova-route-21",
-    "names": {
-      "ja-Hrkt": "２１番水道",
-      "fr": "Chenal 21",
-      "en": "Route 21"
-    },
+    "names": { "ja-Hrkt": "２１番水道", "fr": "Chenal 21", "en": "Route 21" },
     "region": "unova"
   },
   {
     "id": 541,
     "name": "unova-route-22",
-    "names": {
-      "ja-Hrkt": "２２番道路",
-      "fr": "Route 22",
-      "en": "Route 22"
-    },
+    "names": { "ja-Hrkt": "２２番道路", "fr": "Route 22", "en": "Route 22" },
     "region": "unova"
   },
   {
     "id": 542,
     "name": "unova-route-23",
-    "names": {
-      "ja-Hrkt": "２３番道路",
-      "fr": "Route 23",
-      "en": "Route 23"
-    },
+    "names": { "ja-Hrkt": "２３番道路", "fr": "Route 23", "en": "Route 23" },
     "region": "unova"
   },
   {
     "id": 543,
     "name": "castelia-sewers",
-    "names": {
-      "ja-Hrkt": "ヒウン下水道",
-      "fr": "Égouts de Volucité",
-      "en": "Castelia Sewers"
-    },
+    "names": { "ja-Hrkt": "ヒウン下水道", "fr": "Égouts de Volucité", "en": "Castelia Sewers" },
     "region": "unova"
   },
   {
     "id": 544,
     "name": "floccesy-ranch",
-    "names": {
-      "ja-Hrkt": "サンギ牧場",
-      "fr": "Ranch d'Amaillide",
-      "en": "Floccesy Ranch"
-    },
+    "names": { "ja-Hrkt": "サンギ牧場", "fr": "Ranch d'Amaillide", "en": "Floccesy Ranch" },
     "region": "unova"
   },
   {
     "id": 545,
     "name": "virbank-complex",
-    "names": {
-      "ja-Hrkt": "タチワキコンビナート",
-      "fr": "Z.I. d'Ondes-sur-Mer",
-      "en": "Virbank Complex"
-    },
+    "names": { "ja-Hrkt": "タチワキコンビナート", "fr": "Z.I. d'Ondes-sur-Mer", "en": "Virbank Complex" },
     "region": "unova"
   },
   {
     "id": 546,
     "name": "reversal-mountain",
-    "names": {
-      "ja-Hrkt": "リバースマウンテン",
-      "fr": "Mont Renenvers",
-      "en": "Reversal Mountain"
-    },
+    "names": { "ja-Hrkt": "リバースマウンテン", "fr": "Mont Renenvers", "en": "Reversal Mountain" },
     "region": "unova"
   },
   {
     "id": 547,
     "name": "strange-house",
-    "names": {
-      "ja-Hrkt": "ストレンジャーハウス",
-      "fr": "Manoir de l'Étrange",
-      "en": "Strange House"
-    },
+    "names": { "ja-Hrkt": "ストレンジャーハウス", "fr": "Manoir de l'Étrange", "en": "Strange House" },
     "region": "unova"
   },
   {
     "id": 548,
     "name": "unova-victory-road-2",
-    "names": {
-      "ja-Hrkt": "チャンピオンロード",
-      "fr": "Route Victoire",
-      "en": "Victory Road"
-    },
+    "names": { "ja-Hrkt": "チャンピオンロード", "fr": "Route Victoire", "en": "Victory Road" },
     "region": "unova"
   },
   {
     "id": 549,
     "name": "plasma-frigate",
-    "names": {
-      "ja-Hrkt": "プラズマフリゲート",
-      "fr": "Frégate Plasma",
-      "en": "Plasma Frigate"
-    },
+    "names": { "ja-Hrkt": "プラズマフリゲート", "fr": "Frégate Plasma", "en": "Plasma Frigate" },
     "region": "unova"
   },
   {
     "id": 550,
     "name": "relic-passage",
-    "names": {
-      "ja-Hrkt": "古代の抜け道",
-      "fr": "Chemin Enfoui",
-      "en": "Relic Passage"
-    },
+    "names": { "ja-Hrkt": "古代の抜け道", "fr": "Chemin Enfoui", "en": "Relic Passage" },
     "region": "unova"
   },
   {
     "id": 551,
     "name": "clay-tunnel",
-    "names": {
-      "ja-Hrkt": "ヤーコンロード",
-      "fr": "Route Bardane",
-      "en": "Clay Tunnel"
-    },
+    "names": { "ja-Hrkt": "ヤーコンロード", "fr": "Route Bardane", "en": "Clay Tunnel" },
     "region": "unova"
   },
   {
     "id": 552,
     "name": "white-treehollow",
-    "names": {
-      "ja-Hrkt": "白の樹洞",
-      "fr": "Arbre Creux Blanc",
-      "en": "White Treehollow"
-    },
+    "names": { "ja-Hrkt": "白の樹洞", "fr": "Arbre Creux Blanc", "en": "White Treehollow" },
     "region": "unova"
   },
   {
     "id": 553,
     "name": "black-tower",
-    "names": {
-      "ja-Hrkt": "黒の摩天楼",
-      "fr": "Gratte-Ciel Noir",
-      "en": "Black Tower"
-    },
+    "names": { "ja-Hrkt": "黒の摩天楼", "fr": "Gratte-Ciel Noir", "en": "Black Tower" },
     "region": "unova"
   },
   {
     "id": 554,
     "name": "seaside-cave",
-    "names": {
-      "ja-Hrkt": "海辺の洞穴",
-      "fr": "Grotte Littorale",
-      "en": "Seaside Cave"
-    },
+    "names": { "ja-Hrkt": "海辺の洞穴", "fr": "Grotte Littorale", "en": "Seaside Cave" },
     "region": "unova"
   },
   {
     "id": 555,
     "name": "cave-of-being",
-    "names": {
-      "ja-Hrkt": "心の空洞",
-      "fr": "Caverne des Esprits",
-      "en": "Cave of Being"
-    },
+    "names": { "ja-Hrkt": "心の空洞", "fr": "Caverne des Esprits", "en": "Cave of Being" },
     "region": "unova"
   },
   {
     "id": 556,
     "name": "hidden-grotto",
-    "names": {
-      "ja-Hrkt": "隠し穴",
-      "fr": "Trouée Cachée",
-      "en": "Hidden Grotto"
-    },
+    "names": { "ja-Hrkt": "隠し穴", "fr": "Trouée Cachée", "en": "Hidden Grotto" },
     "region": "unova"
   },
   {
     "id": 557,
     "name": "marine-tube",
-    "names": {
-      "ja-Hrkt": "マリンチューブ",
-      "fr": "Aquatube",
-      "en": "Marine Tube"
-    },
+    "names": { "ja-Hrkt": "マリンチューブ", "fr": "Aquatube", "en": "Marine Tube" },
     "region": "unova"
   },
   {
     "id": 558,
     "name": "virbank-gate",
-    "names": {
-      "ja-Hrkt": "タチワキゲート",
-      "fr": "Porte Ondes-sur-Mer",
-      "en": "Virbank Gate"
-    },
+    "names": { "ja-Hrkt": "タチワキゲート", "fr": "Porte Ondes-sur-Mer", "en": "Virbank Gate" },
     "region": "unova"
   },
   {
     "id": 559,
     "name": "aspertia-gate",
-    "names": {
-      "ja-Hrkt": "ヒオウギゲート",
-      "fr": "Porte Pavonnay",
-      "en": "Aspertia Gate"
-    },
+    "names": { "ja-Hrkt": "ヒオウギゲート", "fr": "Porte Pavonnay", "en": "Aspertia Gate" },
     "region": "unova"
   },
   {
     "id": 560,
     "name": "nature-sanctuary",
-    "names": {
-      "ja-Hrkt": "自然保護区",
-      "fr": "Réserve Naturelle",
-      "en": "Nature Sanctuary"
-    },
+    "names": { "ja-Hrkt": "自然保護区", "fr": "Réserve Naturelle", "en": "Nature Sanctuary" },
     "region": "unova"
   },
   {
     "id": 561,
     "name": "medal-secretariat",
-    "names": {
-      "ja-Hrkt": "メダル事務局",
-      "fr": "Bureau des Médailles",
-      "en": "Medal Secretariat"
-    },
+    "names": { "ja-Hrkt": "メダル事務局", "fr": "Bureau des Médailles", "en": "Medal Secretariat" },
     "region": "unova"
   },
   {
     "id": 562,
     "name": "underground-ruins",
-    "names": {
-      "ja-Hrkt": "地底遺跡",
-      "fr": "Ruines Enfouies",
-      "en": "Underground Ruins"
-    },
+    "names": { "ja-Hrkt": "地底遺跡", "fr": "Ruines Enfouies", "en": "Underground Ruins" },
     "region": "unova"
   },
   {
     "id": 563,
     "name": "rocky-mountain-room",
-    "names": {
-      "ja-Hrkt": "岩山の間",
-      "fr": "Salle Pic Rocheux",
-      "en": "Rocky Mountain Room"
-    },
+    "names": { "ja-Hrkt": "岩山の間", "fr": "Salle Pic Rocheux", "en": "Rocky Mountain Room" },
     "region": "unova"
   },
   {
     "id": 564,
     "name": "glacier-room",
-    "names": {
-      "ja-Hrkt": "氷山の間",
-      "fr": "Salle Iceberg",
-      "en": "Glacier Room"
-    },
+    "names": { "ja-Hrkt": "氷山の間", "fr": "Salle Iceberg", "en": "Glacier Room" },
     "region": "unova"
   },
   {
     "id": 565,
     "name": "iron-room",
-    "names": {
-      "ja-Hrkt": "鉄の間",
-      "fr": "Salle Fer",
-      "en": "Iron Room"
-    },
+    "names": { "ja-Hrkt": "鉄の間", "fr": "Salle Fer", "en": "Iron Room" },
     "region": "unova"
   },
   {
     "id": 566,
     "name": "pledge-grove",
-    "names": {
-      "ja-Hrkt": "誓いの林",
-      "fr": "Bois du Serment",
-      "en": "Pledge Grove"
-    },
+    "names": { "ja-Hrkt": "誓いの林", "fr": "Bois du Serment", "en": "Pledge Grove" },
     "region": "unova"
   },
   {
@@ -5362,15 +2378,7 @@
     },
     "region": "hoenn"
   },
-  {
-    "id": 575,
-    "name": "underwater",
-    "names": {
-      "fr": "Fond marin",
-      "en": "Underwater"
-    },
-    "region": "hoenn"
-  },
+  { "id": 575, "name": "underwater", "names": { "fr": "Fond marin", "en": "Underwater" }, "region": "hoenn" },
   {
     "id": 576,
     "name": "mt-chimney",
@@ -5486,15 +2494,7 @@
   {
     "id": 584,
     "name": "inside-of-truck",
-    "names": {
-      "ja-Hrkt": "？？？",
-      "ko": "???",
-      "fr": "???",
-      "de": "???",
-      "es": "(?)",
-      "it": "???",
-      "en": "???"
-    },
+    "names": { "ja-Hrkt": "？？？", "ko": "???", "fr": "???", "de": "???", "es": "(?)", "it": "???", "en": "???" },
     "region": "hoenn"
   },
   {
@@ -5514,10 +2514,7 @@
   {
     "id": 586,
     "name": "hoenn-battle-tower",
-    "names": {
-      "fr": "Tour de Combat",
-      "en": "Battle Tower"
-    },
+    "names": { "fr": "Tour de Combat", "en": "Battle Tower" },
     "region": "hoenn"
   },
   {
@@ -8580,458 +5577,105 @@
   {
     "id": 799,
     "name": "roaming-kanto",
-    "names": {
-      "en": "Roaming Kanto",
-      "fr": "Sillonnant Kanto"
-    },
+    "names": { "en": "Roaming Kanto", "fr": "Sillonnant Kanto" },
     "region": "kanto"
   },
   {
     "id": 800,
     "name": "roaming-johto",
-    "names": {
-      "en": "Roaming Johto",
-      "fr": "Sillonnant Johto"
-    },
+    "names": { "en": "Roaming Johto", "fr": "Sillonnant Johto" },
     "region": "johto"
   },
   {
     "id": 801,
     "name": "roaming-hoenn",
-    "names": {
-      "en": "Roaming Hoenn",
-      "fr": "Sillonnant Hoenn"
-    },
+    "names": { "en": "Roaming Hoenn", "fr": "Sillonnant Hoenn" },
     "region": "hoenn"
   },
   {
     "id": 802,
     "name": "roaming-sinnoh",
-    "names": {
-      "en": "Roaming Sinnoh",
-      "fr": "Sillonnant Sinnoh"
-    },
+    "names": { "en": "Roaming Sinnoh", "fr": "Sillonnant Sinnoh" },
     "region": "sinnoh"
   },
-  {
-    "id": 803,
-    "name": "terra-cave",
-    "names": {
-      "en": "Terra Cave",
-      "fr": "Grotte Terra"
-    },
-    "region": "hoenn"
-  },
-  {
-    "id": 804,
-    "name": "marine-cave",
-    "names": {
-      "en": "Marine Cave",
-      "fr": "Grotte Marine"
-    },
-    "region": "hoenn"
-  },
-  {
-    "id": 805,
-    "name": "two-island",
-    "names": {
-      "en": "Two Island"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 806,
-    "name": "three-island",
-    "names": {
-      "en": "Three Island"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 807,
-    "name": "three-isle-path",
-    "names": {
-      "en": "Three Isle Path"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 808,
-    "name": "six-island",
-    "names": {
-      "en": "Six Island"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 809,
-    "name": "seven-island",
-    "names": {
-      "en": "Seven Island"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 810,
-    "name": "birth-island",
-    "names": {
-      "en": "Birth Island",
-      "fr": "Île Aurore"
-    },
-    "region": "kanto"
-  },
-  {
-    "id": 811,
-    "name": "navel-rock",
-    "names": {
-      "en": "Navel Rock",
-      "fr": "Roc Nombri"
-    },
-    "region": "kanto"
-  },
+  { "id": 803, "name": "terra-cave", "names": { "en": "Terra Cave", "fr": "Grotte Terra" }, "region": "hoenn" },
+  { "id": 804, "name": "marine-cave", "names": { "en": "Marine Cave", "fr": "Grotte Marine" }, "region": "hoenn" },
+  { "id": 805, "name": "two-island", "names": { "en": "Two Island" }, "region": "kanto" },
+  { "id": 806, "name": "three-island", "names": { "en": "Three Island" }, "region": "kanto" },
+  { "id": 807, "name": "three-isle-path", "names": { "en": "Three Isle Path" }, "region": "kanto" },
+  { "id": 808, "name": "six-island", "names": { "en": "Six Island" }, "region": "kanto" },
+  { "id": 809, "name": "seven-island", "names": { "en": "Seven Island" }, "region": "kanto" },
+  { "id": 810, "name": "birth-island", "names": { "en": "Birth Island", "fr": "Île Aurore" }, "region": "kanto" },
+  { "id": 811, "name": "navel-rock", "names": { "en": "Navel Rock", "fr": "Roc Nombri" }, "region": "kanto" },
   {
     "id": 812,
     "name": "faraway-island",
-    "names": {
-      "en": "Faraway Island",
-      "fr": "Île lointaine"
-    },
+    "names": { "en": "Faraway Island", "fr": "Île lointaine" },
     "region": "hoenn"
   },
   {
     "id": 813,
     "name": "hoenn-battle-frontier",
-    "names": {
-      "en": "Hoenn Battle Frontier",
-      "fr": "Zone de Combat"
-    },
+    "names": { "en": "Hoenn Battle Frontier", "fr": "Zone de Combat" },
     "region": "hoenn"
   },
   {
     "id": 814,
     "name": "johto-safari-zone",
-    "names": {
-      "en": "Johto Safari Zone",
-      "fr": "Parc Safari"
-    },
+    "names": { "en": "Johto Safari Zone", "fr": "Parc Safari" },
     "region": "johto"
   },
-  {
-    "id": 815,
-    "name": "cabo-poco",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 816,
-    "name": "los-platos",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 817,
-    "name": "mesagoza",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 818,
-    "name": "cortondo",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 819,
-    "name": "alfornada",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 820,
-    "name": "pokemon-league",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 821,
-    "name": "artazon",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 822,
-    "name": "levincia",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 823,
-    "name": "zapapico",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 824,
-    "name": "cascarrafa",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 825,
-    "name": "porto-marinada",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 826,
-    "name": "medali",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 827,
-    "name": "montenevera",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 828,
-    "name": "paldea-south-province-area-one",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 829,
-    "name": "paldea-south-province-area-two",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 830,
-    "name": "paldea-south-province-area-three",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 831,
-    "name": "paldea-south-province-area-four",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 832,
-    "name": "paldea-south-province-area-five",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 833,
-    "name": "paldea-south-province-area-six",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 834,
-    "name": "south-paldean-sea",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 835,
-    "name": "poco-path",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 836,
-    "name": "inlet-grotto",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 837,
-    "name": "naranja-academy/uva-academy",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 838,
-    "name": "alfornada-cavern",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 839,
-    "name": "grasswither-shrine",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 840,
-    "name": "paldea-east-province-area-one",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 841,
-    "name": "paldea-east-province-area-two",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 842,
-    "name": "paldea-east-province-area-three",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 843,
-    "name": "east-paldean-sea",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 844,
-    "name": "tagtree-thicket",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 845,
-    "name": "schedar-squads-base",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 846,
-    "name": "navi-squads-base",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 847,
-    "name": "paldea-west-province-area-one",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 848,
-    "name": "paldea-west-province-area-two",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 849,
-    "name": "paldea-west-province-area-three",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 850,
-    "name": "asado-desert",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 851,
-    "name": "west-paldean-sea",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 852,
-    "name": "segin-squads-base",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 853,
-    "name": "icerend-shrine",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 854,
-    "name": "paldea-north-province-area-one",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 855,
-    "name": "paldea-north-province-area-two",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 856,
-    "name": "paldea-north-province-area-three",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 857,
-    "name": "casseroya-lake",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 858,
-    "name": "dalizapa-passage",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 859,
-    "name": "glaseado-mountain",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 860,
-    "name": "socarrat-trail",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 861,
-    "name": "groundblight-shrine",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 862,
-    "name": "firescourge-shrine",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 863,
-    "name": "north-paldean-sea",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 864,
-    "name": "ruchbah-squads-base",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 865,
-    "name": "caph-squads-base",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 866,
-    "name": "area-zero",
-    "names": {},
-    "region": "paldea"
-  },
-  {
-    "id": 867,
-    "name": "zero-lab",
-    "names": {},
-    "region": "paldea"
-  }
+  { "id": 815, "name": "cabo-poco", "names": {}, "region": "paldea" },
+  { "id": 816, "name": "los-platos", "names": {}, "region": "paldea" },
+  { "id": 817, "name": "mesagoza", "names": {}, "region": "paldea" },
+  { "id": 818, "name": "cortondo", "names": {}, "region": "paldea" },
+  { "id": 819, "name": "alfornada", "names": {}, "region": "paldea" },
+  { "id": 820, "name": "pokemon-league", "names": {}, "region": "paldea" },
+  { "id": 821, "name": "artazon", "names": {}, "region": "paldea" },
+  { "id": 822, "name": "levincia", "names": {}, "region": "paldea" },
+  { "id": 823, "name": "zapapico", "names": {}, "region": "paldea" },
+  { "id": 824, "name": "cascarrafa", "names": {}, "region": "paldea" },
+  { "id": 825, "name": "porto-marinada", "names": {}, "region": "paldea" },
+  { "id": 826, "name": "medali", "names": {}, "region": "paldea" },
+  { "id": 827, "name": "montenevera", "names": {}, "region": "paldea" },
+  { "id": 828, "name": "paldea-south-province-area-one", "names": {}, "region": "paldea" },
+  { "id": 829, "name": "paldea-south-province-area-two", "names": {}, "region": "paldea" },
+  { "id": 830, "name": "paldea-south-province-area-three", "names": {}, "region": "paldea" },
+  { "id": 831, "name": "paldea-south-province-area-four", "names": {}, "region": "paldea" },
+  { "id": 832, "name": "paldea-south-province-area-five", "names": {}, "region": "paldea" },
+  { "id": 833, "name": "paldea-south-province-area-six", "names": {}, "region": "paldea" },
+  { "id": 834, "name": "south-paldean-sea", "names": {}, "region": "paldea" },
+  { "id": 835, "name": "poco-path", "names": {}, "region": "paldea" },
+  { "id": 836, "name": "inlet-grotto", "names": {}, "region": "paldea" },
+  { "id": 837, "name": "naranja-academy/uva-academy", "names": {}, "region": "paldea" },
+  { "id": 838, "name": "alfornada-cavern", "names": {}, "region": "paldea" },
+  { "id": 839, "name": "grasswither-shrine", "names": {}, "region": "paldea" },
+  { "id": 840, "name": "paldea-east-province-area-one", "names": {}, "region": "paldea" },
+  { "id": 841, "name": "paldea-east-province-area-two", "names": {}, "region": "paldea" },
+  { "id": 842, "name": "paldea-east-province-area-three", "names": {}, "region": "paldea" },
+  { "id": 843, "name": "east-paldean-sea", "names": {}, "region": "paldea" },
+  { "id": 844, "name": "tagtree-thicket", "names": {}, "region": "paldea" },
+  { "id": 845, "name": "schedar-squads-base", "names": {}, "region": "paldea" },
+  { "id": 846, "name": "navi-squads-base", "names": {}, "region": "paldea" },
+  { "id": 847, "name": "paldea-west-province-area-one", "names": {}, "region": "paldea" },
+  { "id": 848, "name": "paldea-west-province-area-two", "names": {}, "region": "paldea" },
+  { "id": 849, "name": "paldea-west-province-area-three", "names": {}, "region": "paldea" },
+  { "id": 850, "name": "asado-desert", "names": {}, "region": "paldea" },
+  { "id": 851, "name": "west-paldean-sea", "names": {}, "region": "paldea" },
+  { "id": 852, "name": "segin-squads-base", "names": {}, "region": "paldea" },
+  { "id": 853, "name": "icerend-shrine", "names": {}, "region": "paldea" },
+  { "id": 854, "name": "paldea-north-province-area-one", "names": {}, "region": "paldea" },
+  { "id": 855, "name": "paldea-north-province-area-two", "names": {}, "region": "paldea" },
+  { "id": 856, "name": "paldea-north-province-area-three", "names": {}, "region": "paldea" },
+  { "id": 857, "name": "casseroya-lake", "names": {}, "region": "paldea" },
+  { "id": 858, "name": "dalizapa-passage", "names": {}, "region": "paldea" },
+  { "id": 859, "name": "glaseado-mountain", "names": {}, "region": "paldea" },
+  { "id": 860, "name": "socarrat-trail", "names": {}, "region": "paldea" },
+  { "id": 861, "name": "groundblight-shrine", "names": {}, "region": "paldea" },
+  { "id": 862, "name": "firescourge-shrine", "names": {}, "region": "paldea" },
+  { "id": 863, "name": "north-paldean-sea", "names": {}, "region": "paldea" },
+  { "id": 864, "name": "ruchbah-squads-base", "names": {}, "region": "paldea" },
+  { "id": 865, "name": "caph-squads-base", "names": {}, "region": "paldea" },
+  { "id": 866, "name": "area-zero", "names": {}, "region": "paldea" },
+  { "id": 867, "name": "zero-lab", "names": {}, "region": "paldea" }
 ]

@@ -1,99 +1,19 @@
 [
-  {
-    "id": 1,
-    "name": "swarm",
-    "names": {
-      "fr": "Essaim",
-      "de": "Schwarm",
-      "en": "Swarm"
-    }
-  },
-  {
-    "id": 2,
-    "name": "time",
-    "names": {
-      "fr": "Période horaire",
-      "de": "Tageszeit",
-      "en": "Time of day"
-    }
-  },
-  {
-    "id": 3,
-    "name": "radar",
-    "names": {
-      "fr": "Poké Radar",
-      "de": "PokeRadar",
-      "en": "PokeRadar"
-    }
-  },
+  { "id": 1, "name": "swarm", "names": { "fr": "Essaim", "de": "Schwarm", "en": "Swarm" } },
+  { "id": 2, "name": "time", "names": { "fr": "Période horaire", "de": "Tageszeit", "en": "Time of day" } },
+  { "id": 3, "name": "radar", "names": { "fr": "Poké Radar", "de": "PokeRadar", "en": "PokeRadar" } },
   {
     "id": 4,
     "name": "slot2",
-    "names": {
-      "fr": "Jeu GBA dans le Slot 2",
-      "de": "Spiel der 3. Generation in Slot 2",
-      "en": "Gen 3 game in slot 2"
-    }
+    "names": { "fr": "Jeu GBA dans le Slot 2", "de": "Spiel der 3. Generation in Slot 2", "en": "Gen 3 game in slot 2" }
   },
-  {
-    "id": 5,
-    "name": "radio",
-    "names": {
-      "fr": "Radio",
-      "de": "Radio",
-      "en": "Radio"
-    }
-  },
-  {
-    "id": 6,
-    "name": "season",
-    "names": {
-      "fr": "Saison",
-      "de": "Jahreszeit",
-      "en": "Season"
-    }
-  },
-  {
-    "id": 7,
-    "name": "starter",
-    "names": {
-      "en": "Chosen Starter"
-    }
-  },
-  {
-    "id": 8,
-    "name": "tv-option",
-    "names": {
-      "en": "Chosen dialogue at the news report"
-    }
-  },
-  {
-    "id": 9,
-    "name": "story-progress",
-    "names": {
-      "en": "Story Progress"
-    }
-  },
-  {
-    "id": 10,
-    "name": "other",
-    "names": {
-      "en": "Miscellaneous"
-    }
-  },
-  {
-    "id": 11,
-    "name": "item",
-    "names": {}
-  },
-  {
-    "id": 12,
-    "name": "weekday",
-    "names": {}
-  },
-  {
-    "id": 13,
-    "name": "first-party-pokemon",
-    "names": {}
-  }
+  { "id": 5, "name": "radio", "names": { "fr": "Radio", "de": "Radio", "en": "Radio" } },
+  { "id": 6, "name": "season", "names": { "fr": "Saison", "de": "Jahreszeit", "en": "Season" } },
+  { "id": 7, "name": "starter", "names": { "en": "Chosen Starter" } },
+  { "id": 8, "name": "tv-option", "names": { "en": "Chosen dialogue at the news report" } },
+  { "id": 9, "name": "story-progress", "names": { "en": "Story Progress" } },
+  { "id": 10, "name": "other", "names": { "en": "Miscellaneous" } },
+  { "id": 11, "name": "item", "names": {} },
+  { "id": 12, "name": "weekday", "names": {} },
+  { "id": 13, "name": "first-party-pokemon", "names": {} }
 ]

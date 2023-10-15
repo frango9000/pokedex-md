@@ -4481,484 +4481,64 @@
       "en": "Embody Aspect"
     }
   },
-  {
-    "id": 10001,
-    "name": "mountaineer",
-    "generation": "generation-v",
-    "names": {
-      "en": "Mountaineer"
-    }
-  },
-  {
-    "id": 10002,
-    "name": "wave-rider",
-    "generation": "generation-v",
-    "names": {
-      "en": "Wave Rider"
-    }
-  },
-  {
-    "id": 10003,
-    "name": "skater",
-    "generation": "generation-v",
-    "names": {
-      "en": "Skater"
-    }
-  },
-  {
-    "id": 10004,
-    "name": "thrust",
-    "generation": "generation-v",
-    "names": {
-      "en": "Thrust"
-    }
-  },
-  {
-    "id": 10005,
-    "name": "perception",
-    "generation": "generation-v",
-    "names": {
-      "en": "Perception"
-    }
-  },
-  {
-    "id": 10006,
-    "name": "parry",
-    "generation": "generation-v",
-    "names": {
-      "en": "Parry"
-    }
-  },
-  {
-    "id": 10007,
-    "name": "instinct",
-    "generation": "generation-v",
-    "names": {
-      "en": "Instinct"
-    }
-  },
-  {
-    "id": 10008,
-    "name": "dodge",
-    "generation": "generation-v",
-    "names": {
-      "en": "Dodge"
-    }
-  },
-  {
-    "id": 10009,
-    "name": "jagged-edge",
-    "generation": "generation-v",
-    "names": {
-      "en": "Jagged Edge"
-    }
-  },
-  {
-    "id": 10010,
-    "name": "frostbite",
-    "generation": "generation-v",
-    "names": {
-      "en": "Frostbite"
-    }
-  },
-  {
-    "id": 10011,
-    "name": "tenacity",
-    "generation": "generation-v",
-    "names": {
-      "en": "Tenacity"
-    }
-  },
-  {
-    "id": 10012,
-    "name": "pride",
-    "generation": "generation-v",
-    "names": {
-      "en": "Pride"
-    }
-  },
-  {
-    "id": 10013,
-    "name": "deep-sleep",
-    "generation": "generation-v",
-    "names": {
-      "en": "Deep Sleep"
-    }
-  },
-  {
-    "id": 10014,
-    "name": "power-nap",
-    "generation": "generation-v",
-    "names": {
-      "en": "Power Nap"
-    }
-  },
-  {
-    "id": 10015,
-    "name": "spirit",
-    "generation": "generation-v",
-    "names": {
-      "en": "Spirit"
-    }
-  },
-  {
-    "id": 10016,
-    "name": "warm-blanket",
-    "generation": "generation-v",
-    "names": {
-      "en": "Warm Blanket"
-    }
-  },
-  {
-    "id": 10017,
-    "name": "gulp",
-    "generation": "generation-v",
-    "names": {
-      "en": "Gulp"
-    }
-  },
-  {
-    "id": 10018,
-    "name": "herbivore",
-    "generation": "generation-v",
-    "names": {
-      "en": "Herbivore"
-    }
-  },
-  {
-    "id": 10019,
-    "name": "sandpit",
-    "generation": "generation-v",
-    "names": {
-      "en": "Sandpit"
-    }
-  },
-  {
-    "id": 10020,
-    "name": "hot-blooded",
-    "generation": "generation-v",
-    "names": {
-      "en": "Hot Blooded"
-    }
-  },
-  {
-    "id": 10021,
-    "name": "medic",
-    "generation": "generation-v",
-    "names": {
-      "en": "Medic"
-    }
-  },
-  {
-    "id": 10022,
-    "name": "life-force",
-    "generation": "generation-v",
-    "names": {
-      "en": "Life Force"
-    }
-  },
-  {
-    "id": 10023,
-    "name": "lunchbox",
-    "generation": "generation-v",
-    "names": {
-      "en": "Lunchbox"
-    }
-  },
-  {
-    "id": 10024,
-    "name": "nurse",
-    "generation": "generation-v",
-    "names": {
-      "en": "Nurse"
-    }
-  },
-  {
-    "id": 10025,
-    "name": "melee",
-    "generation": "generation-v",
-    "names": {
-      "en": "Melee"
-    }
-  },
-  {
-    "id": 10026,
-    "name": "sponge",
-    "generation": "generation-v",
-    "names": {
-      "en": "Sponge"
-    }
-  },
-  {
-    "id": 10027,
-    "name": "bodyguard",
-    "generation": "generation-v",
-    "names": {
-      "en": "Bodyguard"
-    }
-  },
-  {
-    "id": 10028,
-    "name": "hero",
-    "generation": "generation-v",
-    "names": {
-      "en": "Hero"
-    }
-  },
-  {
-    "id": 10029,
-    "name": "last-bastion",
-    "generation": "generation-v",
-    "names": {
-      "en": "Last Bastion"
-    }
-  },
-  {
-    "id": 10030,
-    "name": "stealth",
-    "generation": "generation-v",
-    "names": {
-      "en": "Stealth"
-    }
-  },
-  {
-    "id": 10031,
-    "name": "vanguard",
-    "generation": "generation-v",
-    "names": {
-      "en": "Vanguard"
-    }
-  },
-  {
-    "id": 10032,
-    "name": "nomad",
-    "generation": "generation-v",
-    "names": {
-      "en": "Nomad"
-    }
-  },
-  {
-    "id": 10033,
-    "name": "sequence",
-    "generation": "generation-v",
-    "names": {
-      "en": "Sequence"
-    }
-  },
-  {
-    "id": 10034,
-    "name": "grass-cloak",
-    "generation": "generation-v",
-    "names": {
-      "en": "Grass Cloak"
-    }
-  },
-  {
-    "id": 10035,
-    "name": "celebrate",
-    "generation": "generation-v",
-    "names": {
-      "en": "Celebrate"
-    }
-  },
-  {
-    "id": 10036,
-    "name": "lullaby",
-    "generation": "generation-v",
-    "names": {
-      "en": "Lullaby"
-    }
-  },
-  {
-    "id": 10037,
-    "name": "calming",
-    "generation": "generation-v",
-    "names": {
-      "en": "Calming"
-    }
-  },
-  {
-    "id": 10038,
-    "name": "daze",
-    "generation": "generation-v",
-    "names": {
-      "en": "Daze"
-    }
-  },
-  {
-    "id": 10039,
-    "name": "frighten",
-    "generation": "generation-v",
-    "names": {
-      "en": "Frighten"
-    }
-  },
-  {
-    "id": 10040,
-    "name": "interference",
-    "generation": "generation-v",
-    "names": {
-      "en": "Interference"
-    }
-  },
-  {
-    "id": 10041,
-    "name": "mood-maker",
-    "generation": "generation-v",
-    "names": {
-      "en": "Mood Maker"
-    }
-  },
-  {
-    "id": 10042,
-    "name": "confidence",
-    "generation": "generation-v",
-    "names": {
-      "en": "Confidence"
-    }
-  },
-  {
-    "id": 10043,
-    "name": "fortune",
-    "generation": "generation-v",
-    "names": {
-      "en": "Fortune"
-    }
-  },
-  {
-    "id": 10044,
-    "name": "bonanza",
-    "generation": "generation-v",
-    "names": {
-      "en": "Bonanza"
-    }
-  },
-  {
-    "id": 10045,
-    "name": "explode",
-    "generation": "generation-v",
-    "names": {
-      "en": "Explode"
-    }
-  },
-  {
-    "id": 10046,
-    "name": "omnipotent",
-    "generation": "generation-v",
-    "names": {
-      "en": "Omnipotent"
-    }
-  },
-  {
-    "id": 10047,
-    "name": "share",
-    "generation": "generation-v",
-    "names": {
-      "en": "Share"
-    }
-  },
-  {
-    "id": 10048,
-    "name": "black-hole",
-    "generation": "generation-v",
-    "names": {
-      "en": "Black Hole"
-    }
-  },
-  {
-    "id": 10049,
-    "name": "shadow-dash",
-    "generation": "generation-v",
-    "names": {
-      "en": "Shadow Dash"
-    }
-  },
-  {
-    "id": 10050,
-    "name": "sprint",
-    "generation": "generation-v",
-    "names": {
-      "en": "Sprint"
-    }
-  },
-  {
-    "id": 10051,
-    "name": "disgust",
-    "generation": "generation-v",
-    "names": {
-      "en": "Disgust"
-    }
-  },
-  {
-    "id": 10052,
-    "name": "high-rise",
-    "generation": "generation-v",
-    "names": {
-      "en": "High-rise"
-    }
-  },
-  {
-    "id": 10053,
-    "name": "climber",
-    "generation": "generation-v",
-    "names": {
-      "en": "Climber"
-    }
-  },
-  {
-    "id": 10054,
-    "name": "flame-boost",
-    "generation": "generation-v",
-    "names": {
-      "en": "Flame Boost"
-    }
-  },
-  {
-    "id": 10055,
-    "name": "aqua-boost",
-    "generation": "generation-v",
-    "names": {
-      "en": "Aqua Boost"
-    }
-  },
-  {
-    "id": 10056,
-    "name": "run-up",
-    "generation": "generation-v",
-    "names": {
-      "en": "Run Up"
-    }
-  },
-  {
-    "id": 10057,
-    "name": "conqueror",
-    "generation": "generation-v",
-    "names": {
-      "en": "Conqueror"
-    }
-  },
-  {
-    "id": 10058,
-    "name": "shackle",
-    "generation": "generation-v",
-    "names": {
-      "en": "Shackle"
-    }
-  },
-  {
-    "id": 10059,
-    "name": "decoy",
-    "generation": "generation-v",
-    "names": {
-      "en": "Decoy"
-    }
-  },
-  {
-    "id": 10060,
-    "name": "shield",
-    "generation": "generation-v",
-    "names": {
-      "en": "Shield"
-    }
-  }
+  { "id": 10001, "name": "mountaineer", "generation": "generation-v", "names": { "en": "Mountaineer" } },
+  { "id": 10002, "name": "wave-rider", "generation": "generation-v", "names": { "en": "Wave Rider" } },
+  { "id": 10003, "name": "skater", "generation": "generation-v", "names": { "en": "Skater" } },
+  { "id": 10004, "name": "thrust", "generation": "generation-v", "names": { "en": "Thrust" } },
+  { "id": 10005, "name": "perception", "generation": "generation-v", "names": { "en": "Perception" } },
+  { "id": 10006, "name": "parry", "generation": "generation-v", "names": { "en": "Parry" } },
+  { "id": 10007, "name": "instinct", "generation": "generation-v", "names": { "en": "Instinct" } },
+  { "id": 10008, "name": "dodge", "generation": "generation-v", "names": { "en": "Dodge" } },
+  { "id": 10009, "name": "jagged-edge", "generation": "generation-v", "names": { "en": "Jagged Edge" } },
+  { "id": 10010, "name": "frostbite", "generation": "generation-v", "names": { "en": "Frostbite" } },
+  { "id": 10011, "name": "tenacity", "generation": "generation-v", "names": { "en": "Tenacity" } },
+  { "id": 10012, "name": "pride", "generation": "generation-v", "names": { "en": "Pride" } },
+  { "id": 10013, "name": "deep-sleep", "generation": "generation-v", "names": { "en": "Deep Sleep" } },
+  { "id": 10014, "name": "power-nap", "generation": "generation-v", "names": { "en": "Power Nap" } },
+  { "id": 10015, "name": "spirit", "generation": "generation-v", "names": { "en": "Spirit" } },
+  { "id": 10016, "name": "warm-blanket", "generation": "generation-v", "names": { "en": "Warm Blanket" } },
+  { "id": 10017, "name": "gulp", "generation": "generation-v", "names": { "en": "Gulp" } },
+  { "id": 10018, "name": "herbivore", "generation": "generation-v", "names": { "en": "Herbivore" } },
+  { "id": 10019, "name": "sandpit", "generation": "generation-v", "names": { "en": "Sandpit" } },
+  { "id": 10020, "name": "hot-blooded", "generation": "generation-v", "names": { "en": "Hot Blooded" } },
+  { "id": 10021, "name": "medic", "generation": "generation-v", "names": { "en": "Medic" } },
+  { "id": 10022, "name": "life-force", "generation": "generation-v", "names": { "en": "Life Force" } },
+  { "id": 10023, "name": "lunchbox", "generation": "generation-v", "names": { "en": "Lunchbox" } },
+  { "id": 10024, "name": "nurse", "generation": "generation-v", "names": { "en": "Nurse" } },
+  { "id": 10025, "name": "melee", "generation": "generation-v", "names": { "en": "Melee" } },
+  { "id": 10026, "name": "sponge", "generation": "generation-v", "names": { "en": "Sponge" } },
+  { "id": 10027, "name": "bodyguard", "generation": "generation-v", "names": { "en": "Bodyguard" } },
+  { "id": 10028, "name": "hero", "generation": "generation-v", "names": { "en": "Hero" } },
+  { "id": 10029, "name": "last-bastion", "generation": "generation-v", "names": { "en": "Last Bastion" } },
+  { "id": 10030, "name": "stealth", "generation": "generation-v", "names": { "en": "Stealth" } },
+  { "id": 10031, "name": "vanguard", "generation": "generation-v", "names": { "en": "Vanguard" } },
+  { "id": 10032, "name": "nomad", "generation": "generation-v", "names": { "en": "Nomad" } },
+  { "id": 10033, "name": "sequence", "generation": "generation-v", "names": { "en": "Sequence" } },
+  { "id": 10034, "name": "grass-cloak", "generation": "generation-v", "names": { "en": "Grass Cloak" } },
+  { "id": 10035, "name": "celebrate", "generation": "generation-v", "names": { "en": "Celebrate" } },
+  { "id": 10036, "name": "lullaby", "generation": "generation-v", "names": { "en": "Lullaby" } },
+  { "id": 10037, "name": "calming", "generation": "generation-v", "names": { "en": "Calming" } },
+  { "id": 10038, "name": "daze", "generation": "generation-v", "names": { "en": "Daze" } },
+  { "id": 10039, "name": "frighten", "generation": "generation-v", "names": { "en": "Frighten" } },
+  { "id": 10040, "name": "interference", "generation": "generation-v", "names": { "en": "Interference" } },
+  { "id": 10041, "name": "mood-maker", "generation": "generation-v", "names": { "en": "Mood Maker" } },
+  { "id": 10042, "name": "confidence", "generation": "generation-v", "names": { "en": "Confidence" } },
+  { "id": 10043, "name": "fortune", "generation": "generation-v", "names": { "en": "Fortune" } },
+  { "id": 10044, "name": "bonanza", "generation": "generation-v", "names": { "en": "Bonanza" } },
+  { "id": 10045, "name": "explode", "generation": "generation-v", "names": { "en": "Explode" } },
+  { "id": 10046, "name": "omnipotent", "generation": "generation-v", "names": { "en": "Omnipotent" } },
+  { "id": 10047, "name": "share", "generation": "generation-v", "names": { "en": "Share" } },
+  { "id": 10048, "name": "black-hole", "generation": "generation-v", "names": { "en": "Black Hole" } },
+  { "id": 10049, "name": "shadow-dash", "generation": "generation-v", "names": { "en": "Shadow Dash" } },
+  { "id": 10050, "name": "sprint", "generation": "generation-v", "names": { "en": "Sprint" } },
+  { "id": 10051, "name": "disgust", "generation": "generation-v", "names": { "en": "Disgust" } },
+  { "id": 10052, "name": "high-rise", "generation": "generation-v", "names": { "en": "High-rise" } },
+  { "id": 10053, "name": "climber", "generation": "generation-v", "names": { "en": "Climber" } },
+  { "id": 10054, "name": "flame-boost", "generation": "generation-v", "names": { "en": "Flame Boost" } },
+  { "id": 10055, "name": "aqua-boost", "generation": "generation-v", "names": { "en": "Aqua Boost" } },
+  { "id": 10056, "name": "run-up", "generation": "generation-v", "names": { "en": "Run Up" } },
+  { "id": 10057, "name": "conqueror", "generation": "generation-v", "names": { "en": "Conqueror" } },
+  { "id": 10058, "name": "shackle", "generation": "generation-v", "names": { "en": "Shackle" } },
+  { "id": 10059, "name": "decoy", "generation": "generation-v", "names": { "en": "Decoy" } },
+  { "id": 10060, "name": "shield", "generation": "generation-v", "names": { "en": "Shield" } }
 ]

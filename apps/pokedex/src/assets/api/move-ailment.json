@@ -1,195 +1,24 @@
 [
-  {
-    "id": -1,
-    "name": "unknown",
-    "names": {
-      "fr": "????",
-      "en": "????"
-    }
-  },
-  {
-    "id": 0,
-    "name": "none",
-    "names": {
-      "fr": "Aucun",
-      "es": "ninguno",
-      "en": "none"
-    }
-  },
-  {
-    "id": 1,
-    "name": "paralysis",
-    "names": {
-      "fr": "Paralysie",
-      "es": "Parálisis",
-      "en": "Paralysis"
-    }
-  },
-  {
-    "id": 2,
-    "name": "sleep",
-    "names": {
-      "fr": "Sommeil",
-      "es": "Dormir",
-      "en": "Sleep"
-    }
-  },
-  {
-    "id": 3,
-    "name": "freeze",
-    "names": {
-      "fr": "Gel",
-      "es": "Congelar",
-      "en": "Freeze"
-    }
-  },
-  {
-    "id": 4,
-    "name": "burn",
-    "names": {
-      "fr": "Brûlure",
-      "es": "Quemar",
-      "en": "Burn"
-    }
-  },
-  {
-    "id": 5,
-    "name": "poison",
-    "names": {
-      "fr": "Empoisonnement",
-      "es": "Envenenar",
-      "en": "Poison"
-    }
-  },
-  {
-    "id": 6,
-    "name": "confusion",
-    "names": {
-      "fr": "Confusion",
-      "es": "Confundir",
-      "en": "Confusion"
-    }
-  },
-  {
-    "id": 7,
-    "name": "infatuation",
-    "names": {
-      "fr": "Attraction",
-      "es": "Enamorar",
-      "en": "Infatuation"
-    }
-  },
-  {
-    "id": 8,
-    "name": "trap",
-    "names": {
-      "fr": "Piège",
-      "es": "Atrapado",
-      "en": "Trap"
-    }
-  },
-  {
-    "id": 9,
-    "name": "nightmare",
-    "names": {
-      "fr": "Cauchemar",
-      "es": "Maldito",
-      "en": "Nightmare"
-    }
-  },
-  {
-    "id": 12,
-    "name": "torment",
-    "names": {
-      "fr": "Tourmente",
-      "es": "Tormento",
-      "en": "Torment"
-    }
-  },
-  {
-    "id": 13,
-    "name": "disable",
-    "names": {
-      "fr": "Entrave",
-      "es": "Anulación",
-      "en": "Disable"
-    }
-  },
-  {
-    "id": 14,
-    "name": "yawn",
-    "names": {
-      "fr": "Bâillement",
-      "es": "Bostezo",
-      "en": "Yawn"
-    }
-  },
-  {
-    "id": 15,
-    "name": "heal-block",
-    "names": {
-      "fr": "Anti-Soin",
-      "es": "Anticura",
-      "en": "Heal Block"
-    }
-  },
-  {
-    "id": 17,
-    "name": "no-type-immunity",
-    "names": {
-      "fr": "Aucune immunité aux types",
-      "en": "No type immunity"
-    }
-  },
-  {
-    "id": 18,
-    "name": "leech-seed",
-    "names": {
-      "fr": "Vampigraine",
-      "es": "Drenadoras",
-      "en": "Leech Seed"
-    }
-  },
-  {
-    "id": 19,
-    "name": "embargo",
-    "names": {
-      "fr": "Embargo",
-      "es": "Embargo",
-      "en": "Embargo"
-    }
-  },
-  {
-    "id": 20,
-    "name": "perish-song",
-    "names": {
-      "fr": "Requiem",
-      "es": "Canto mortal",
-      "en": "Perish Song"
-    }
-  },
-  {
-    "id": 21,
-    "name": "ingrain",
-    "names": {
-      "fr": "Racines",
-      "es": "Arraigo",
-      "en": "Ingrain"
-    }
-  },
-  {
-    "id": 24,
-    "name": "silence",
-    "names": {
-      "es": "Silenciado",
-      "en": "Silence"
-    }
-  },
-  {
-    "id": 42,
-    "name": "tar-shot",
-    "names": {
-      "en": "Tar shot"
-    }
-  }
+  { "id": -1, "name": "unknown", "names": { "fr": "????", "en": "????" } },
+  { "id": 0, "name": "none", "names": { "fr": "Aucun", "es": "ninguno", "en": "none" } },
+  { "id": 1, "name": "paralysis", "names": { "fr": "Paralysie", "es": "Parálisis", "en": "Paralysis" } },
+  { "id": 2, "name": "sleep", "names": { "fr": "Sommeil", "es": "Dormir", "en": "Sleep" } },
+  { "id": 3, "name": "freeze", "names": { "fr": "Gel", "es": "Congelar", "en": "Freeze" } },
+  { "id": 4, "name": "burn", "names": { "fr": "Brûlure", "es": "Quemar", "en": "Burn" } },
+  { "id": 5, "name": "poison", "names": { "fr": "Empoisonnement", "es": "Envenenar", "en": "Poison" } },
+  { "id": 6, "name": "confusion", "names": { "fr": "Confusion", "es": "Confundir", "en": "Confusion" } },
+  { "id": 7, "name": "infatuation", "names": { "fr": "Attraction", "es": "Enamorar", "en": "Infatuation" } },
+  { "id": 8, "name": "trap", "names": { "fr": "Piège", "es": "Atrapado", "en": "Trap" } },
+  { "id": 9, "name": "nightmare", "names": { "fr": "Cauchemar", "es": "Maldito", "en": "Nightmare" } },
+  { "id": 12, "name": "torment", "names": { "fr": "Tourmente", "es": "Tormento", "en": "Torment" } },
+  { "id": 13, "name": "disable", "names": { "fr": "Entrave", "es": "Anulación", "en": "Disable" } },
+  { "id": 14, "name": "yawn", "names": { "fr": "Bâillement", "es": "Bostezo", "en": "Yawn" } },
+  { "id": 15, "name": "heal-block", "names": { "fr": "Anti-Soin", "es": "Anticura", "en": "Heal Block" } },
+  { "id": 17, "name": "no-type-immunity", "names": { "fr": "Aucune immunité aux types", "en": "No type immunity" } },
+  { "id": 18, "name": "leech-seed", "names": { "fr": "Vampigraine", "es": "Drenadoras", "en": "Leech Seed" } },
+  { "id": 19, "name": "embargo", "names": { "fr": "Embargo", "es": "Embargo", "en": "Embargo" } },
+  { "id": 20, "name": "perish-song", "names": { "fr": "Requiem", "es": "Canto mortal", "en": "Perish Song" } },
+  { "id": 21, "name": "ingrain", "names": { "fr": "Racines", "es": "Arraigo", "en": "Ingrain" } },
+  { "id": 24, "name": "silence", "names": { "es": "Silenciado", "en": "Silence" } },
+  { "id": 42, "name": "tar-shot", "names": { "en": "Tar shot" } }
 ]
