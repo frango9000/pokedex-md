@@ -20,7 +20,7 @@ export abstract class FilterService<T, M> {
   }
 
   get filters$(): Observable<Filters<T>> {
-    return this.filterModel$.pipe(distinctUntilChanged(), map(this.mapFilterModel));
+    return this.filterModel$.pipe(distinctUntilChanged(), map(this.mapFilterModel.bind(this)));
   }
 
   protected abstract mapFilterModel(filterModel: M): Filters<T>;

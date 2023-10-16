@@ -17,7 +17,7 @@ export class MachineFilterService extends FilterService<PxMachine, MachineFilter
       distinctUntilChanged(),
       combineLatestWith(this.versionGroupService.versionGroup$),
       map(([filterModel, versionGroup]) => ({ ...filterModel, versionGroup: versionGroup.name })),
-      map(this.mapFilterModel),
+      map(this.mapFilterModel.bind(this)),
     );
   }
 
