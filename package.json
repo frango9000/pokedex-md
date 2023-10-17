@@ -62,7 +62,7 @@
     "@types/lodash-es": "~4.17.9",
     "@types/node": "^18.15.3",
     "@typescript-eslint/eslint-plugin": "6.7.5",
-    "@typescript-eslint/parser": "6.7.5",
+    "@typescript-eslint/parser": "6.8.0",
     "angular-cli-ghpages": "^1.0.7",
     "axios": "1.5.1",
     "axios-observable": "2.0.0",
