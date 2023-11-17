@@ -132,6 +132,18 @@
     rxjs "7.8.1"
     source-map "0.7.4"
 
+"@angular-devkit/core@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-17.0.1.tgz#be53712f881c91ff41333d467dcb3a11db01f7ee"
+  integrity sha512-UjNx9fZW0oU7UaeoB0HblYz/Nm8MWtinAe39XkY+zjECLWqKAcHPotfYjucXiky1UlBUOScIKbwjMDdEY8xkuw==
+  dependencies:
+    ajv "8.12.0"
+    ajv-formats "2.1.1"
+    jsonc-parser "3.2.0"
+    picomatch "3.0.1"
+    rxjs "7.8.1"
+    source-map "0.7.4"
+
 "@angular-devkit/schematics@13.3.11", "@angular-devkit/schematics@^13.0.3":
   version "13.3.11"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-13.3.11.tgz#9bda91a7784be5ab453e4812d7f750aa62af826e"
@@ -151,6 +163,17 @@
     "@angular-devkit/core" "16.2.6"
     jsonc-parser "3.2.0"
     magic-string "0.30.1"
+    ora "5.4.1"
+    rxjs "7.8.1"
+
+"@angular-devkit/schematics@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-17.0.1.tgz#e79b48594840ca7289730ff49a7b3b09f23ea209"
+  integrity sha512-bwgdGviRZC5X8Tl4QcjtIJAcC0p8yIhOyYVFrq4PWYvI+DfV9P6w3OFuoS6rwEoiIQR90+12iKBYMt1MfL/c0Q==
+  dependencies:
+    "@angular-devkit/core" "17.0.1"
+    jsonc-parser "3.2.0"
+    magic-string "0.30.5"
     ora "5.4.1"
     rxjs "7.8.1"
 
@@ -3446,6 +3469,15 @@
   dependencies:
     "@angular-devkit/core" "16.2.6"
     "@angular-devkit/schematics" "16.2.6"
+    jsonc-parser "3.2.0"
+
+"@schematics/angular@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-17.0.1.tgz#0a1f791f23d32414e4bcf1df9bf7ec173294fe04"
+  integrity sha512-BacI1fQsEXNYkfJzDJn3CsUSc9A4M7nhXtvt3XjceUhOqUp2AR4uIeUwDOrpLnkRwv5+rZLafUnRN3k01WUJOw==
+  dependencies:
+    "@angular-devkit/core" "17.0.1"
+    "@angular-devkit/schematics" "17.0.1"
     jsonc-parser "3.2.0"
 
 "@schematics/angular@^13.0.3":
@@ -8207,7 +8239,7 @@ magic-string@0.30.1:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.15"
 
-magic-string@~0.30.2:
+magic-string@0.30.5, magic-string@~0.30.2:
   version "0.30.5"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.5.tgz#1994d980bd1c8835dc6e78db7cbd4ae4f24746f9"
   integrity sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==
@@ -9176,6 +9208,11 @@ picomatch@2.3.1, picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+
+picomatch@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-3.0.1.tgz#817033161def55ec9638567a2f3bbc876b3e7516"
+  integrity sha512-I3EurrIQMlRc9IaAZnqRR044Phh2DXY+55o7uJ0V+hYZAcQYSuFWsc9q5PvyDHUSCe1Qxn/iBz+78s86zWnGag==
 
 pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
