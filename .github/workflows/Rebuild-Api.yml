@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4
 
       - name: Use Node 18
-        uses: actions/setup-node@v4.0.0
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
 
@@ -23,6 +23,7 @@ jobs:
           path: |
             ~/.npm
             ./node_modules
+            ./nx/cache
           key: yarn-v3-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             yarn-v3-${{ runner.os }}-
