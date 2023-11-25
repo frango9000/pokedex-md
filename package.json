@@ -66,7 +66,7 @@
     "angular-cli-ghpages": "^1.0.7",
     "axios": "1.5.1",
     "axios-observable": "2.0.0",
-    "eslint": "8.51.0",
+    "eslint": "8.54.0",
     "eslint-config-prettier": "9.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
