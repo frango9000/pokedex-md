@@ -57,7 +57,7 @@
     "@nx/linter": "16.10.0",
     "@nx/web": "16.10.0",
     "@nx/workspace": "16.10.0",
-    "@schematics/angular": "16.2.6",
+    "@schematics/angular": "16.2.10",
     "@types/jest": "^29.5.5",
     "@types/lodash-es": "~4.17.9",
     "@types/node": "^18.15.3",
