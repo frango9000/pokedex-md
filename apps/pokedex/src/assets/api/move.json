@@ -17305,6 +17305,291 @@
     "type": "grass"
   },
   {
+    "id": 905,
+    "name": "electro-shot",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "エレクトロビーム",
+      "ko": "일렉트로빔",
+      "zh-Hant": "電光束",
+      "fr": "Fulgurayon",
+      "de": "Stromstrahl",
+      "es": "Electrorrayo",
+      "it": "Elettroraggio",
+      "en": "Electro Shot"
+    },
+    "power": 130,
+    "pp": 10,
+    "type": "electric"
+  },
+  {
+    "id": 906,
+    "name": "tera-starstorm",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "テラクラスター",
+      "ko": "테라클러스터",
+      "zh-Hant": "晶光星群",
+      "fr": "Pluie Térastrale",
+      "de": "Tera-Sternhagel",
+      "es": "Teraclúster",
+      "it": "Teracluster",
+      "en": "Tera Starstorm"
+    },
+    "power": 120,
+    "pp": 5,
+    "type": "normal"
+  },
+  {
+    "id": 907,
+    "name": "fickle-beam",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "きまぐレーザー",
+      "ko": "변덕레이저",
+      "zh-Hant": "隨機光",
+      "fr": "Laser Hasard",
+      "de": "Launenlaser",
+      "es": "Láser Veleidoso",
+      "it": "Irregolaser",
+      "en": "Fickle Beam"
+    },
+    "power": 80,
+    "pp": 5,
+    "type": "dragon"
+  },
+  {
+    "id": 908,
+    "name": "burning-bulwark",
+    "accuracy": 0,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "かえんのまもり",
+      "ko": "화염의수호",
+      "zh-Hant": "火焰守護",
+      "fr": "Rempart Brûlant",
+      "de": "Flammenschild",
+      "es": "Llama Protectora",
+      "it": "Egida Ignea",
+      "en": "Burning Bulwark"
+    },
+    "power": 0,
+    "pp": 10,
+    "type": "fire"
+  },
+  {
+    "id": 909,
+    "name": "thunderclap",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "じんらい",
+      "ko": "질풍신뢰",
+      "zh-Hant": "迅雷",
+      "fr": "Vif Éclair",
+      "de": "Sturmblitz",
+      "es": "Relámpago Súbito",
+      "it": "Saetta",
+      "en": "Thunderclap"
+    },
+    "power": 70,
+    "pp": 5,
+    "type": "electric"
+  },
+  {
+    "id": 910,
+    "name": "mighty-cleave",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "パワフルエッジ",
+      "ko": "파워풀에지",
+      "zh-Hant": "強刃攻擊",
+      "fr": "Lame Puissante",
+      "de": "Wuchtklinge",
+      "es": "Filo Potente",
+      "it": "Taglio Poderoso",
+      "en": "Mighty Cleave"
+    },
+    "power": 95,
+    "pp": 5,
+    "type": "rock"
+  },
+  {
+    "id": 911,
+    "name": "tachyon-cutter",
+    "accuracy": 0,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "タキオンカッター",
+      "ko": "타키온커터",
+      "zh-Hant": "迅子利刃",
+      "fr": "Lame Tachyonique",
+      "de": "Tachyon-Schnitt",
+      "es": "Tajo Taquión",
+      "it": "Tachiontaglio",
+      "en": "Tachyon Cutter"
+    },
+    "power": 50,
+    "pp": 10,
+    "type": "steel"
+  },
+  {
+    "id": 912,
+    "name": "hard-press",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ハードプレス",
+      "ko": "하드프레스",
+      "zh-Hant": "硬壓",
+      "fr": "Pression Extrême",
+      "de": "Stahlpresse",
+      "es": "Prensa Metálica",
+      "it": "Pressa d’Acciaio",
+      "en": "Hard Press"
+    },
+    "power": 0,
+    "pp": 10,
+    "type": "steel"
+  },
+  {
+    "id": 913,
+    "name": "dragon-cheer",
+    "accuracy": 0,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ドラゴンエール",
+      "ko": "드래곤옐",
+      "zh-Hant": "龍聲鼓舞",
+      "fr": "Cri Draconique",
+      "de": "Drachenschrei",
+      "es": "Bramido Dragón",
+      "it": "Grido del Drago",
+      "en": "Dragon Cheer"
+    },
+    "power": 0,
+    "pp": 15,
+    "type": "dragon"
+  },
+  {
+    "id": 914,
+    "name": "alluring-voice",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "みわくのボイス",
+      "ko": "매혹의보이스",
+      "zh-Hant": "魅誘之聲",
+      "fr": "Voix Envoûtante",
+      "de": "Lockstimme",
+      "es": "Canto Encantador",
+      "it": "Ammaliavoce",
+      "en": "Alluring Voice"
+    },
+    "power": 80,
+    "pp": 10,
+    "type": "fairy"
+  },
+  {
+    "id": 915,
+    "name": "temper-flare",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "やけっぱち",
+      "ko": "열불내기",
+      "zh-Hant": "豁出去",
+      "fr": "Indignition",
+      "de": "Frustflamme",
+      "es": "Cólera Ardiente",
+      "it": "Rabbia Bruciante",
+      "en": "Temper Flare"
+    },
+    "power": 75,
+    "pp": 10,
+    "type": "fire"
+  },
+  {
+    "id": 916,
+    "name": "supercell-slam",
+    "accuracy": 95,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "サンダーダイブ",
+      "ko": "썬더다이브",
+      "zh-Hant": "閃電強襲",
+      "fr": "Volt Assaut",
+      "de": "Donnerstoß",
+      "es": "Plancha Voltaica",
+      "it": "Elettrotuffo",
+      "en": "Supercell Slam"
+    },
+    "power": 100,
+    "pp": 15,
+    "type": "electric"
+  },
+  {
+    "id": 917,
+    "name": "psychic-noise",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "サイコノイズ",
+      "ko": "사이코노이즈",
+      "zh-Hant": "精神噪音",
+      "fr": "Dissonance Psy",
+      "de": "Psycholärm",
+      "es": "Psicorruido",
+      "it": "Psicorumore",
+      "en": "Psychic Noise"
+    },
+    "power": 75,
+    "pp": 10,
+    "type": "psychic"
+  },
+  {
+    "id": 918,
+    "name": "upper-hand",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "はやてがえし",
+      "ko": "기선제압",
+      "zh-Hant": "快手還擊",
+      "fr": "Prio-Parade",
+      "de": "Schnellkonter",
+      "es": "Palma Rauda",
+      "it": "Colpo di Mano",
+      "en": "Upper Hand"
+    },
+    "power": 65,
+    "pp": 15,
+    "type": "fighting"
+  },
+  {
+    "id": 919,
+    "name": "malignant-chain",
+    "accuracy": 100,
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "じゃどくのくさり",
+      "ko": "악독사슬",
+      "zh-Hant": "邪毒鎖鏈",
+      "fr": "Chaîne Malsaine",
+      "de": "Giftkettung",
+      "es": "Cadena Virulenta",
+      "it": "Intossicatena",
+      "en": "Malignant Chain"
+    },
+    "power": 100,
+    "pp": 5,
+    "type": "poison"
+  },
+  {
     "id": 10001,
     "name": "shadow-rush",
     "accuracy": 100,
