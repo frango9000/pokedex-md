@@ -64,7 +64,7 @@
     "@typescript-eslint/eslint-plugin": "6.12.0",
     "@typescript-eslint/parser": "6.12.0",
     "angular-cli-ghpages": "^1.0.7",
-    "axios": "1.6.2",
+    "axios": "1.6.3",
     "axios-observable": "2.0.0",
     "eslint": "8.54.0",
     "eslint-config-prettier": "9.0.0",
