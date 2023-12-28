@@ -4481,6 +4481,66 @@
       "en": "Embody Aspect"
     }
   },
+  {
+    "id": 304,
+    "name": "tera-shift",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "テラスチェンジ",
+      "ko": "테라체인지",
+      "zh-Hant": "太晶變形",
+      "fr": "Téramorphose",
+      "de": "Tera-Wandel",
+      "es": "Teracambio",
+      "it": "Teramorfosi",
+      "en": "Tera Shift"
+    }
+  },
+  {
+    "id": 305,
+    "name": "tera-shell",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "テラスシェル",
+      "ko": "테라셸",
+      "zh-Hant": "太晶甲殼",
+      "fr": "Téra-Carapace",
+      "de": "Tera-Panzer",
+      "es": "Teracaparazón",
+      "it": "Teraguscio",
+      "en": "Tera Shell"
+    }
+  },
+  {
+    "id": 306,
+    "name": "teraform-zero",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "ゼロフォーミング",
+      "ko": "제로포밍",
+      "zh-Hant": "歸零化境",
+      "fr": "Téraformation 0",
+      "de": "Teraforming Null",
+      "es": "Teraformación 0",
+      "it": "Zeroformazione",
+      "en": "Teraform Zero"
+    }
+  },
+  {
+    "id": 307,
+    "name": "poison-puppeteer",
+    "generation": "generation-ix",
+    "names": {
+      "ja-Hrkt": "どくくぐつ",
+      "ko": "독조종",
+      "zh-Hant": "毒傀儡",
+      "fr": "Emprise Toxique",
+      "de": "Giftpuppenspiel",
+      "es": "Títere Tóxico",
+      "it": "Malia Tossica",
+      "en": "Poison Puppeteer"
+    }
+  },
   { "id": 10001, "name": "mountaineer", "generation": "generation-v", "names": { "en": "Mountaineer" } },
   { "id": 10002, "name": "wave-rider", "generation": "generation-v", "names": { "en": "Wave Rider" } },
   { "id": 10003, "name": "skater", "generation": "generation-v", "names": { "en": "Skater" } },
