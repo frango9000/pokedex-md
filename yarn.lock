@@ -5898,15 +5898,10 @@ es-module-lexer@^1.2.1:
   resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-1.3.1.tgz#c1b0dd5ada807a3b3155315911f364dc4e909db1"
   integrity sha512-JUFAyicQV9mXc3YRxPnDlrfBKpqt6hUYzz9/boprUJHs4e4KVr3XwOF70doO6gwXUor6EWZJAyWAfKki84t20Q==
 
-esbuild-wasm@0.19.5:
+esbuild-wasm@0.19.5, esbuild-wasm@>=0.13.8:
   version "0.19.5"
   resolved "https://registry.yarnpkg.com/esbuild-wasm/-/esbuild-wasm-0.19.5.tgz#28f4563d7e3bcbe9462813e376b2fb6024931fd9"
   integrity sha512-7zmLLn2QCj93XfMmHtzrDJ1UBuOHB2CZz1ghoCEZiRajxjUvHsF40PnbzFIY/pmesqPRaEtEWii0uzsTbnAgrA==
-
-esbuild-wasm@>=0.13.8:
-  version "0.19.4"
-  resolved "https://registry.yarnpkg.com/esbuild-wasm/-/esbuild-wasm-0.19.4.tgz#1b3c2771bdb478d1188aaf93a010d2ad06d120c8"
-  integrity sha512-i/9KP80bdGhWBvYjAJd8u3cwMvaAdBeuSwKcAJ2tfsMkS1q4ZqB0wecc3lELJC/pg7rysx21uw1JofkYLuexrg==
 
 esbuild@0.19.5:
   version "0.19.5"
@@ -7724,10 +7719,10 @@ jest-pnp-resolver@^1.2.2:
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.3.tgz#930b1546164d4ad5937d5540e711d4d38d4cad2e"
   integrity sha512-+3NpwQEnRoIBtx4fyhblQDPgJI0H1IEIkX7ShLUjPGA7TtUTvI1oiKi3SR4oBR0hQhQR80l4WAe5RrXBwWMA8w==
 
-jest-preset-angular@13.1.4:
-  version "13.1.4"
-  resolved "https://registry.yarnpkg.com/jest-preset-angular/-/jest-preset-angular-13.1.4.tgz#9013c96f2413e197e96890733c4bcdb11b583db4"
-  integrity sha512-XKeWa8Qt7p37SzlJ85qEXgig06SgkfrzV057X2GSMqfz/HLJmTUjMFkHJKe65ZaQumNQWCcXpxXREr6EfZ9bow==
+jest-preset-angular@13.1.5:
+  version "13.1.5"
+  resolved "https://registry.yarnpkg.com/jest-preset-angular/-/jest-preset-angular-13.1.5.tgz#5e31102acdd864dbb3a8f79f4fe7f1d0cab23825"
+  integrity sha512-jslbUX0SXK+JjB3Kxx2cS3i2qQM1Gvf5WMbKKPOpWp93qAaUnoyLsa0lxIHLHDON1Q/D8vchCPRVY4nfyVaqkQ==
   dependencies:
     bs-logger "^0.2.6"
     esbuild-wasm ">=0.13.8"
