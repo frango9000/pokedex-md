@@ -17281,23 +17281,130 @@
     "types": ["grass"],
     "generation": "generation-ix"
   },
-  { "id": 1018, "name": "archaludon", "names": { "en": "Archaludon" }, "types": [], "generation": "generation-ix" },
-  { "id": 1019, "name": "hydrapple", "names": { "en": "Hydrapple" }, "types": [], "generation": "generation-ix" },
+  {
+    "id": 1018,
+    "name": "archaludon",
+    "names": {
+      "ja-Hrkt": "ブリジュラス",
+      "ko": "브리두라스",
+      "zh-Hant": "鋁鋼橋龍",
+      "fr": "Pondralugon",
+      "de": "Briduradon",
+      "es": "Archaludon",
+      "it": "Archaludon",
+      "en": "Archaludon"
+    },
+    "types": ["steel", "dragon"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 1019,
+    "name": "hydrapple",
+    "names": {
+      "ja-Hrkt": "カミツオロチ",
+      "ko": "과미드라",
+      "zh-Hant": "蜜集大蛇",
+      "fr": "Pomdorochi",
+      "de": "Hydrapfel",
+      "es": "Hydrapple",
+      "it": "Hydrapple",
+      "en": "Hydrapple"
+    },
+    "types": ["grass", "dragon"],
+    "generation": "generation-ix"
+  },
   {
     "id": 1020,
     "name": "gouging-fire",
-    "names": { "en": "Gouging Fire" },
+    "names": {
+      "ja-Hrkt": "ウガツホムラ",
+      "ko": "꿰뚫는화염",
+      "zh-Hant": "破空焰",
+      "fr": "Feu-Perçant",
+      "de": "Keilflamme",
+      "es": "Flamariete",
+      "it": "Vampeaguzze",
+      "en": "Gouging Fire"
+    },
     "types": ["fire", "dragon"],
     "generation": "generation-ix"
   },
-  { "id": 1021, "name": "raging-bolt", "names": { "en": "Raging Bolt" }, "types": [], "generation": "generation-ix" },
-  { "id": 1022, "name": "iron-boulder", "names": { "en": "Iron Boulder" }, "types": [], "generation": "generation-ix" },
-  { "id": 1023, "name": "iron-crown", "names": { "en": "Iron Crown" }, "types": [], "generation": "generation-ix" },
-  { "id": 1024, "name": "terapagos", "names": { "en": "Terapagos" }, "types": [], "generation": "generation-ix" },
+  {
+    "id": 1021,
+    "name": "raging-bolt",
+    "names": {
+      "ja-Hrkt": "タケルライコ",
+      "ko": "날뛰는우레",
+      "zh-Hant": "猛雷鼓",
+      "fr": "Ire-Foudre",
+      "de": "Furienblitz",
+      "es": "Electrofuria",
+      "it": "Furiatonante",
+      "en": "Raging Bolt"
+    },
+    "types": ["electric", "dragon"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 1022,
+    "name": "iron-boulder",
+    "names": {
+      "ja-Hrkt": "テツノイワオ",
+      "ko": "무쇠암석",
+      "zh-Hant": "铁磐岩",
+      "fr": "Roc-de-Fer",
+      "de": "Eisenfels",
+      "es": "Ferromole",
+      "it": "Massoferreo",
+      "en": "Iron Boulder"
+    },
+    "types": ["rock", "psychic"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 1023,
+    "name": "iron-crown",
+    "names": {
+      "ja-Hrkt": "テツノカシラ",
+      "ko": "무쇠감투",
+      "zh-Hant": "铁头壳",
+      "fr": "Chef-de-Fer",
+      "de": "Eisenhaupt",
+      "es": "Ferrotesta",
+      "it": "Capoferreo",
+      "en": "Iron Crown"
+    },
+    "types": ["steel", "psychic"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 1024,
+    "name": "terapagos",
+    "names": {
+      "ja-Hrkt": "テラパゴス",
+      "ko": "테라파고스",
+      "zh-Hant": "太樂巴戈斯",
+      "fr": "Terapagos",
+      "de": "Terapagos",
+      "es": "Terapagos",
+      "it": "Terapagos",
+      "en": "Terapagos"
+    },
+    "types": ["normal"],
+    "generation": "generation-ix"
+  },
   {
     "id": 1025,
     "name": "pecharunt",
-    "names": { "en": "Pecharunt" },
+    "names": {
+      "ja-Hrkt": "モモワロウ",
+      "zh-Hant": "桃歹郎",
+      "fr": "Pêchaminus",
+      "de": "Infamomo",
+      "es": "Pecharunt",
+      "it": "Pecharunt",
+      "en": "Pecharunt"
+    },
     "types": ["poison", "ghost"],
     "generation": "generation-ix"
   },
@@ -21976,15 +22083,33 @@
   {
     "id": 10276,
     "name": "terapagos-terastal",
-    "names": { "en": "Terapagos" },
-    "types": [],
+    "names": {
+      "ja-Hrkt": "テラパゴス",
+      "ko": "테라파고스",
+      "zh-Hant": "太樂巴戈斯",
+      "fr": "Terapagos",
+      "de": "Terapagos",
+      "es": "Terapagos",
+      "it": "Terapagos",
+      "en": "Terapagos"
+    },
+    "types": ["normal"],
     "generation": "generation-ix"
   },
   {
     "id": 10277,
     "name": "terapagos-stellar",
-    "names": { "en": "Terapagos" },
-    "types": [],
+    "names": {
+      "ja-Hrkt": "テラパゴス",
+      "ko": "테라파고스",
+      "zh-Hant": "太樂巴戈斯",
+      "fr": "Terapagos",
+      "de": "Terapagos",
+      "es": "Terapagos",
+      "it": "Terapagos",
+      "en": "Terapagos"
+    },
+    "types": ["normal"],
     "generation": "generation-ix"
   }
 ]

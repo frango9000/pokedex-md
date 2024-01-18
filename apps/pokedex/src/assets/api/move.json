@@ -2096,7 +2096,7 @@
       "en": "Recover"
     },
     "power": null,
-    "pp": 10,
+    "pp": 5,
     "type": "normal"
   },
   {
@@ -2696,7 +2696,7 @@
       "en": "Soft-Boiled"
     },
     "power": null,
-    "pp": 10,
+    "pp": 5,
     "type": "normal"
   },
   {
@@ -3116,7 +3116,7 @@
       "en": "Rest"
     },
     "power": null,
-    "pp": 10,
+    "pp": 5,
     "type": "psychic"
   },
   {
@@ -4156,7 +4156,7 @@
       "en": "Milk Drink"
     },
     "power": null,
-    "pp": 10,
+    "pp": 5,
     "type": "normal"
   },
   {
@@ -5895,7 +5895,7 @@
       "it": "Abbagliante",
       "en": "Luster Purge"
     },
-    "power": 70,
+    "power": 95,
     "pp": 5,
     "type": "psychic"
   },
@@ -5915,7 +5915,7 @@
       "it": "Foschisfera",
       "en": "Mist Ball"
     },
-    "power": 70,
+    "power": 95,
     "pp": 5,
     "type": "psychic"
   },
@@ -6056,7 +6056,7 @@
       "en": "Slack Off"
     },
     "power": null,
-    "pp": 10,
+    "pp": 5,
     "type": "normal"
   },
   {
@@ -7096,7 +7096,7 @@
       "en": "Roost"
     },
     "power": null,
-    "pp": 10,
+    "pp": 5,
     "type": "flying"
   },
   {
@@ -13176,7 +13176,7 @@
       "en": "Shore Up"
     },
     "power": null,
-    "pp": 10,
+    "pp": 5,
     "type": "ground"
   },
   {
@@ -16335,7 +16335,7 @@
       "it": "Pugnotenebra",
       "en": "Wicked Blow"
     },
-    "power": 80,
+    "power": 75,
     "pp": 5,
     "type": "dark"
   },
@@ -16475,7 +16475,7 @@
       "it": "Lancia Glaciale",
       "en": "Glacial Lance"
     },
-    "power": 130,
+    "power": 120,
     "pp": 5,
     "type": "ice"
   },
@@ -17009,7 +17009,16 @@
     "name": "psyblade",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "it": "Botta", "en": "Psyblade" },
+    "names": {
+      "ja-Hrkt": "サイコブレイド ",
+      "ko": "사이코블레이드",
+      "zh-Hant": "精神劍",
+      "fr": "Lame Psychique",
+      "de": "Psychoschneide",
+      "es": "Psicohojas",
+      "it": "Psicolama",
+      "en": "Psyblade"
+    },
     "power": 80,
     "pp": 15,
     "type": "psychic"
@@ -17019,7 +17028,16 @@
     "name": "hydro-steam",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "it": "Botta", "en": "Hydro Steam" },
+    "names": {
+      "ja-Hrkt": "ハイドロスチーム",
+      "ko": "하이드로스팀",
+      "zh-Hant": "水蒸氣",
+      "fr": "Hydrovapeur",
+      "de": "Hydrodampf",
+      "es": "Hidrovapor",
+      "it": "Idrovapore",
+      "en": "Hydro Steam"
+    },
     "power": 80,
     "pp": 15,
     "type": "water"
