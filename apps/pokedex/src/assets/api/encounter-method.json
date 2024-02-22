@@ -179,5 +179,11 @@
     "id": 31,
     "name": "feebas-tile-fishing",
     "names": { "en": "Fishing in a Feebas Tile", "fr": "En pêchant sur une tuile à Barpau" }
-  }
+  },
+  { "id": 32, "name": "island-scan", "names": {} },
+  { "id": 33, "name": "sos-encounter", "names": {} },
+  { "id": 34, "name": "bubbling-spots", "names": {} },
+  { "id": 35, "name": "berry-piles", "names": {} },
+  { "id": 36, "name": "npc-trade", "names": {} },
+  { "id": 37, "name": "sos-from-bubbling-spot", "names": {} }
 ]
