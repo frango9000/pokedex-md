@@ -21,12 +21,11 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            ~/.npm
             ./node_modules
             ./nx/cache
-          key: yarn-v3-${{ runner.os }}-${{ github.run_id }}
+          key: yarn-v4-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
-            yarn-v3-${{ runner.os }}-
+            yarn-v4-${{ runner.os }}-
 
       - name: Yarn Install
         run: yarn install
