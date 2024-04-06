@@ -1,16 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "affected": {
-    "defaultBase": "development"
-  },
   "targetDefaults": {
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"],
-      "cache": true
-    },
-    "lint": {
-      "inputs": ["default", "{workspaceRoot}/.eslintrc.json", "{workspaceRoot}/.eslintignore"],
       "cache": true
     },
     "@nx/jest:jest": {
@@ -25,6 +18,10 @@
           "codeCoverage": true
         }
       }
+    },
+    "@nx/eslint:lint": {
+      "inputs": ["default", "{workspaceRoot}/.eslintrc.json", "{workspaceRoot}/.eslintignore"],
+      "cache": true
     }
   },
   "namedInputs": {
@@ -57,5 +54,7 @@
   "cli": {
     "packageManager": "yarn"
   },
-  "defaultProject": "pokedex"
+  "defaultProject": "pokedex",
+  "useInferencePlugins": false,
+  "defaultBase": "development"
 }
