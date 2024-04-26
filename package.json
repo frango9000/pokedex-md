@@ -73,7 +73,7 @@
     "jest-environment-node": "^29.7.0",
     "jest-preset-angular": "14.0.3",
     "ngx-infinite-scroll": "^17.0.0",
-    "npm-check-updates": "^16.14.18",
+    "npm-check-updates": "^16.14.20",
     "nx": "18.2.3",
     "prettier": "^3.2.5",
     "rimraf": "5.0.5",
