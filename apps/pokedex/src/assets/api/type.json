@@ -432,6 +432,31 @@
     "move_damage_class": "special"
   },
   {
+    "id": 19,
+    "name": "stellar",
+    "damage_relations": {
+      "double_damage_from": [],
+      "double_damage_to": [],
+      "half_damage_from": [],
+      "half_damage_to": [],
+      "no_damage_from": [],
+      "no_damage_to": []
+    },
+    "names": {
+      "ja-Hrkt": "ステラ",
+      "roomaji": " Stella",
+      "ko": " 스텔라",
+      "zh-Hant": "星晶",
+      "fr": "Stellaire",
+      "de": "Stellar",
+      "es": "Astral",
+      "it": "Astrale",
+      "en": "Stellar"
+    },
+    "generation": "generation-ix",
+    "move_damage_class": "special"
+  },
+  {
     "id": 10001,
     "name": "unknown",
     "damage_relations": {
