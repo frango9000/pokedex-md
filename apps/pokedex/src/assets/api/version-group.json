@@ -420,7 +420,14 @@
     "generation": "generation-ix",
     "order": 26,
     "versions": ["the-teal-mask"],
-    "names": {}
+    "names": {
+      "ja-Hrkt": "みどりのかめん",
+      "fr": "Le masque turquoise",
+      "de": "Die türkisgrüne maske",
+      "es": "La máscara turquesa",
+      "it": "La maschera turchese",
+      "en": "The teal mask"
+    }
   },
   {
     "id": 27,
@@ -428,6 +435,13 @@
     "generation": "generation-ix",
     "order": 27,
     "versions": ["the-indigo-disk"],
-    "names": {}
+    "names": {
+      "ja-Hrkt": "あおのえんばん",
+      "fr": "Le disque indigo",
+      "de": "Die indigoblaue scheibe",
+      "es": "El disco índigo",
+      "it": "Il disco indaco",
+      "en": "The indigo disk"
+    }
   }
 ]

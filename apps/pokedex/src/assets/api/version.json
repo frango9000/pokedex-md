@@ -586,6 +586,30 @@
     },
     "version_group": "scarlet-violet"
   },
-  { "id": 42, "name": "the-teal-mask", "names": {}, "version_group": "the-teal-mask" },
-  { "id": 43, "name": "the-indigo-disk", "names": {}, "version_group": "the-indigo-disk" }
+  {
+    "id": 42,
+    "name": "the-teal-mask",
+    "names": {
+      "ja-Hrkt": "みどりのかめん",
+      "fr": "Le masque turquoise",
+      "de": "Die türkisgrüne maske",
+      "es": "La máscara turquesa",
+      "it": "La maschera turchese",
+      "en": "The teal mask"
+    },
+    "version_group": "the-teal-mask"
+  },
+  {
+    "id": 43,
+    "name": "the-indigo-disk",
+    "names": {
+      "ja-Hrkt": "あおのえんばん",
+      "fr": "Le disque indigo",
+      "de": "Die indigoblaue scheibe",
+      "es": "El disco índigo",
+      "it": "Il disco indaco",
+      "en": "The indigo disk"
+    },
+    "version_group": "the-indigo-disk"
+  }
 ]
