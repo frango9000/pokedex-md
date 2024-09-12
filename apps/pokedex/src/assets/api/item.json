@@ -31775,7 +31775,7 @@
   },
   {
     "id": 2102,
-    "name": "teak-mask",
+    "name": "teal-mask",
     "category": "event-items",
     "cost": 0,
     "names": { "ja-Hrkt": "みどりのめん", "en": "Teal Mask" },
@@ -32236,6 +32236,635 @@
     "cost": 30,
     "names": { "ja-Hrkt": "チャデスのこな", "en": "Poltchageist Powder" },
     "pocket": "misc"
+  },
+  {
+    "id": 2160,
+    "name": "linking-cord",
+    "category": "evolution",
+    "cost": 8000,
+    "names": { "en": "Linking Cord" },
+    "pocket": "misc"
+  },
+  {
+    "id": 2161,
+    "name": "tm172",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM172" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2162,
+    "name": "tm173",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM173" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2163,
+    "name": "tm174",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM174" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2164,
+    "name": "tm175",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM175" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2165,
+    "name": "tm176",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM176" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2166,
+    "name": "tm177",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM177" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2167,
+    "name": "tm178",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM178" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2168,
+    "name": "tm179",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM179" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2169,
+    "name": "tm180",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM180" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2170,
+    "name": "tm181",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM181" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2171,
+    "name": "tm182",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM182" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2172,
+    "name": "tm183",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM183" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2173,
+    "name": "tm184",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM184" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2174,
+    "name": "tm185",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM185" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2175,
+    "name": "tm186",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM186" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2176,
+    "name": "tm187",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM187" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2177,
+    "name": "tm188",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM188" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2178,
+    "name": "tm189",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM189" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2179,
+    "name": "tm190",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM190" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2180,
+    "name": "tm191",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM191" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2181,
+    "name": "tm192",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM192" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2182,
+    "name": "tm193",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM193" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2183,
+    "name": "tm194",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM194" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2184,
+    "name": "tm195",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM195" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2185,
+    "name": "tm196",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM196" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2186,
+    "name": "tm197",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM197" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2187,
+    "name": "tm198",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM198" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2188,
+    "name": "tm199",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM199" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2189,
+    "name": "tm200",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM200" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2190,
+    "name": "tm201",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM201" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2191,
+    "name": "tm202",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM202" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2192,
+    "name": "tm203",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM203" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2193,
+    "name": "tm204",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM204" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2194,
+    "name": "tm205",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM205" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2195,
+    "name": "tm206",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM206" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2196,
+    "name": "tm207",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM207" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2197,
+    "name": "tm208",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM208" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2198,
+    "name": "tm209",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM209" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2199,
+    "name": "tm210",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM210" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2200,
+    "name": "tm211",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM211" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2201,
+    "name": "tm212",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM212" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2202,
+    "name": "tm213",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM213" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2203,
+    "name": "tm214",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM214" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2204,
+    "name": "tm215",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM215" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2205,
+    "name": "tm216",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM216" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2206,
+    "name": "tm217",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM217" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2207,
+    "name": "tm218",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM218" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2208,
+    "name": "tm219",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM219" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2209,
+    "name": "tm220",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM220" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2210,
+    "name": "tm221",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM221" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2211,
+    "name": "tm222",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM222" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2212,
+    "name": "tm223",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM223" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2213,
+    "name": "tm224",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM224" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2214,
+    "name": "tm225",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM225" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2215,
+    "name": "tm226",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM226" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2216,
+    "name": "tm227",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM227" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2217,
+    "name": "tm228",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM228" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2218,
+    "name": "tm229",
+    "category": "all-machines",
+    "cost": 0,
+    "names": { "en": "TM229" },
+    "sprite": "tm-normal.png",
+    "pocket": "machines"
+  },
+  {
+    "id": 2219,
+    "name": "lastrange-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Strange Ball" },
+    "sprite": "lastrange-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2220,
+    "name": "lapoke-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Poké Ball" },
+    "sprite": "lapoke-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2221,
+    "name": "lagreat-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Great Ball" },
+    "sprite": "lagreat-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2222,
+    "name": "laultra-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Ultra Ball" },
+    "sprite": "laultra-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2223,
+    "name": "laheavy-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Heavy Ball" },
+    "sprite": "laheavy-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2224,
+    "name": "laleaden-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Leaden Ball" },
+    "sprite": "laleaden-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2225,
+    "name": "lagigaton-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Gigaton Ball" },
+    "sprite": "lagigaton-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2226,
+    "name": "lafeather-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Feather Ball" },
+    "sprite": "lafeather-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2227,
+    "name": "lawing-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Wing Ball" },
+    "sprite": "lawing-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2228,
+    "name": "lajet-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Jet Ball" },
+    "sprite": "lajet-ball.png",
+    "pocket": "pokeballs"
+  },
+  {
+    "id": 2229,
+    "name": "laorigin-ball",
+    "category": "standard-balls",
+    "cost": 0,
+    "names": { "en": "Origin Ball" },
+    "sprite": "laorigin-ball.png",
+    "pocket": "pokeballs"
   },
   { "id": 10001, "name": "black-augurite", "category": "evolution", "cost": 0, "names": {}, "pocket": "misc" },
   { "id": 10002, "name": "peat-block", "category": "evolution", "cost": 0, "names": {}, "pocket": "misc" }
