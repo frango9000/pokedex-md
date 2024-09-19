@@ -15388,9 +15388,9 @@
     "id": 906,
     "name": "sprigatito",
     "names": {
-      "ko": "나오하",
       "ja-Hrkt": "ニャオハ",
       "roomaji": "Nyahoja",
+      "ko": "나오하",
       "zh-Hant": "新葉喵",
       "fr": "Poussacha",
       "de": "Felori",
@@ -15575,12 +15575,12 @@
     "id": 917,
     "name": "tarountula",
     "names": {
+      "de": "Tarundel",
       "ja-Hrkt": "タマンチュラ",
       "roomaji": "Tamantula",
       "ko": "타랜툴라",
       "zh-Hant": "團珠蛛",
       "fr": "Tissenboule",
-      "de": "Tarundel",
       "es": "Tarountula",
       "it": "Tarountula",
       "en": "Tarountula"
@@ -16799,13 +16799,13 @@
     "id": 989,
     "name": "sandy-shocks",
     "names": {
-      "es": "Pelarena",
       "ja-Hrkt": "スナノケガワ",
       "roomaji": "Sunanokegawa",
       "ko": "모래털가죽",
       "zh-Hant": "沙鐵皮",
       "fr": "Pelage-Sablé",
       "de": "Sandfell",
+      "es": "Pelarena",
       "it": "Peldisabbia",
       "en": "Sandy Shocks"
     },
@@ -17398,6 +17398,7 @@
     "name": "pecharunt",
     "names": {
       "ja-Hrkt": "モモワロウ",
+      "ko": "복숭악동",
       "zh-Hant": "桃歹郎",
       "fr": "Pêchaminus",
       "de": "Infamomo",
