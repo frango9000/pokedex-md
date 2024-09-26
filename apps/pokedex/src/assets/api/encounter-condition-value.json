@@ -56,11 +56,7 @@
   {
     "id": 10,
     "name": "slot2-sapphire",
-    "names": {
-      "de": "Saphir in Slot 2",
-      "en": "Have an Event Arceus in the party",
-      "fr": "En ayant un Arceus événementiel dans l’équipe"
-    },
+    "names": { "de": "Saphir in Slot 2", "en": "Sapphire in slot 2", "fr": "Saphir dans le slot 2" },
     "condition": "slot2"
   },
   {
@@ -416,5 +412,10 @@
     },
     "condition": "story-progress"
   },
-  { "id": 71, "name": "other-event-arceus-in-party", "names": {}, "condition": "other" }
+  {
+    "id": 71,
+    "name": "other-event-arceus-in-party",
+    "names": { "en": "Have an Event Arceus in the party", "fr": "En ayant un Arceus événementiel dans l’équipe" },
+    "condition": "other"
+  }
 ]
