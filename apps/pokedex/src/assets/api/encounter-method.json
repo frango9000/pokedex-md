@@ -153,11 +153,25 @@
     "name": "headbutt-low",
     "names": {
       "en": "Headbutting a low encounter rate tree",
+      "fr": "En utilisant Coup d’Boule sur un arbre à taux bas"
+    }
+  },
+  {
+    "id": 23,
+    "name": "headbutt-normal",
+    "names": {
+      "en": "Headbutting a normal encounter rate tree",
+      "fr": "En utilisant Coup d’Boule sur un arbre à taux normal"
+    }
+  },
+  {
+    "id": 24,
+    "name": "headbutt-high",
+    "names": {
+      "en": "Headbutting a high encounter rate tree",
       "fr": "En utilisant Coup d’Boule sur un arbre à taux élevé"
     }
   },
-  { "id": 23, "name": "headbutt-normal", "names": { "en": "Headbutting a normal encounter rate tree" } },
-  { "id": 24, "name": "headbutt-high", "names": { "en": "Headbutting a high encounter rate tree" } },
   {
     "id": 25,
     "name": "squirt-bottle",
