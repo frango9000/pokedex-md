@@ -5,3 +5,4 @@
 /.devcontainer
 
 /.nx/cache
+/.nx/workspace-data

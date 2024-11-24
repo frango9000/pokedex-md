@@ -6,14 +6,14 @@
         [ngTemplateOutlet]="typeDamagesTemplate"
         [ngTemplateOutletContext]="{
           title: t('type.damages.attacking.weaknesses'),
-          damages: typeDamages!.attacking.weaknesses
+          damages: typeDamages!.attacking.weaknesses,
         }"
       ></ng-container>
       <ng-container
         [ngTemplateOutlet]="typeDamagesTemplate"
         [ngTemplateOutletContext]="{
           title: t('type.damages.attacking.strengths'),
-          damages: typeDamages!.attacking.strengths
+          damages: typeDamages!.attacking.strengths,
         }"
       ></ng-container>
     </div>
@@ -25,14 +25,14 @@
         [ngTemplateOutlet]="typeDamagesTemplate"
         [ngTemplateOutletContext]="{
           title: t('type.damages.defending.weaknesses'),
-          damages: typeDamages!.defending.weaknesses
+          damages: typeDamages!.defending.weaknesses,
         }"
       ></ng-container>
       <ng-container
         [ngTemplateOutlet]="typeDamagesTemplate"
         [ngTemplateOutletContext]="{
           title: t('type.damages.defending.resistances'),
-          damages: typeDamages!.defending.resistances
+          damages: typeDamages!.defending.resistances,
         }"
       ></ng-container>
     </div>

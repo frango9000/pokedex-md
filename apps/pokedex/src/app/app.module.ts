@@ -1,4 +1,4 @@
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatDialogModule } from '@angular/material/dialog';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,13 +17,13 @@ import { NgLetModule } from './shared/modules/ng-let';
 
 @NgModule({
   declarations: [AppComponent],
+  bootstrap: [AppComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
     BrowserAnimationsModule,
     IsMobileModule,
     NgLetModule,
-    HttpClientModule,
     TranslocoRootModule,
     FormlyModule.forRoot(),
     MatDialogModule,
@@ -31,7 +31,6 @@ import { NgLetModule } from './shared/modules/ng-let';
     ToolbarComponent,
     BottomBarComponent,
   ],
-  providers: [InitializationProvider],
-  bootstrap: [AppComponent],
+  providers: [InitializationProvider, provideHttpClient(withInterceptorsFromDi())],
 })
 export class AppModule {}

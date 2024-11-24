@@ -39,7 +39,7 @@
         <span *ngIf="detail.location">{{
           t('ui.pokemon.detail.evolution.location', {
             location: t('location.' + detail.location.name),
-            region: t('region.' + (detail.location.name | locationRegion))
+            region: t('region.' + (detail.location.name | locationRegion)),
           })
         }}</span>
         <span *ngIf="detail.min_happiness">{{
