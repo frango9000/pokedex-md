@@ -3577,15 +3577,6 @@
     "@angular-devkit/schematics" "18.2.12"
     jsonc-parser "3.3.1"
 
-"@schematics/angular@18.2.9":
-  version "18.2.9"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-18.2.9.tgz#e24b0d801903c2f3e30f3c63ec179153372cffee"
-  integrity sha512-LlMHZQ6f8zrqSK24OBXi4u2MTNHNu9ZN6JXpbElq0bz/9QkUR2zy+Kk2wLpPxCwXYTZby7/xgHiTzXvG+zTdhw==
-  dependencies:
-    "@angular-devkit/core" "18.2.9"
-    "@angular-devkit/schematics" "18.2.9"
-    jsonc-parser "3.3.1"
-
 "@schematics/angular@^13.0.3":
   version "13.3.11"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-13.3.11.tgz#7e3264c0da1ab16967eed85ef79c5445735c6160"
