@@ -1,7 +1,7 @@
 import { HashMap } from '@ngneat/transloco';
 import { Language } from './language';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface ApiEntity {}
 
 export interface IdApiEntity extends ApiEntity {
