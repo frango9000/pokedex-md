@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { TranslocoService } from '@ngneat/transloco';
+import { TranslocoService } from '@jsverse/transloco';
 import { PxPokemon } from '@pokedex-md/domain';
 import { FilterService } from '../../../shared/modules/filter/filter.service';
 import { Filters } from '../../../shared/utils/generic-datasource';

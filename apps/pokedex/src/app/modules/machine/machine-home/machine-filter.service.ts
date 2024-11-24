@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { TranslocoService } from '@ngneat/transloco';
+import { TranslocoService } from '@jsverse/transloco';
 import { PxMachine } from '@pokedex-md/domain';
 import { combineLatestWith, distinctUntilChanged, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';

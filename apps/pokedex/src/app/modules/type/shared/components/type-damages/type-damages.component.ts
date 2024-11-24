@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 import { TypeDamages } from '@pokedex-md/domain';
 import { TypeService } from '../../../../../api/pokemon/type.service';
 import { TypeDamagesMultiplierColorPipe } from '../../pipes/type-damage-multiplier-color.pipe';

@@ -4,7 +4,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 import { ActivatedRoute } from '@angular/router';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 import { EvolutionChain, Pokemon, Species } from '@pokedex-md/domain';
 import { Observable, switchMap } from 'rxjs';
 import { map, tap } from 'rxjs/operators';

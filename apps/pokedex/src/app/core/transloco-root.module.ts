@@ -1,7 +1,7 @@
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Inject, Injectable, isDevMode, NgModule } from '@angular/core';
-import { provideTransloco, Translation, TranslocoLoader, TranslocoModule } from '@ngneat/transloco';
+import { provideTransloco, Translation, TranslocoLoader, TranslocoModule } from '@jsverse/transloco';
 
 @Injectable({ providedIn: 'root' })
 export class TranslocoHttpLoader implements TranslocoLoader {

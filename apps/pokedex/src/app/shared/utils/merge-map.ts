@@ -1,4 +1,4 @@
-import { HashMap } from '@ngneat/transloco/lib/types';
+import { HashMap } from '@jsverse/transloco';
 import { LocalizedNames } from '@pokedex-md/domain';
 import { merge } from 'lodash-es';
 

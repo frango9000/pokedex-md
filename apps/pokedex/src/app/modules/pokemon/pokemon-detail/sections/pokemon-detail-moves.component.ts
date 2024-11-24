@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-import { TranslocoDirective } from '@ngneat/transloco';
+import { TranslocoDirective } from '@jsverse/transloco';
 import { MoveDetailInfoComponent } from '../../../move/shared/components/move-detail-info.component';
 import { MoveResolverPipe } from '../../../move/shared/pipes/move-resolver.pipe';
 import { MoveVersionGroupDetail } from '../pokemon-detail.component';

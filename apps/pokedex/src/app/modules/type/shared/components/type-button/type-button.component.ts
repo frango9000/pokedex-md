@@ -4,7 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 import { TypeDetailService } from '../../../type-detail/type-detail.service';
 import { TypeColorPipe } from '../../pipes/type-color.pipe';
 

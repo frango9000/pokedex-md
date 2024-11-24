@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
-import { TranslocoDirective } from '@ngneat/transloco';
+import { TranslocoDirective } from '@jsverse/transloco';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyMatFormFieldModule } from '@ngx-formly/material/form-field';
 import { PokemonItemCategorySelectComponent } from './pokemon-item-category-select.component';

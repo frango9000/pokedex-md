@@ -1,9 +1,9 @@
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { RouterLink } from '@angular/router';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 import { EvolutionChainLink } from '@pokedex-md/domain';
 import { LocationRegionPipe } from '../../../../api/locations/location-region.pipe';
 import { ImgFallbackDirective } from '../../../../shared/directives/img-fallback.directive';
@@ -17,7 +17,6 @@ import { ResourceIdPipe } from '../../../../shared/pipes/resource-id.pipe';
     MatIconModule,
     MatDividerModule,
     ResourceIdPipe,
-    NgOptimizedImage,
     RouterLink,
     ImgFallbackDirective,
     TranslocoModule,

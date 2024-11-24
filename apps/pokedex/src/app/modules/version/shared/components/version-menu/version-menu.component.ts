@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Output } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 import { PxGameVersion } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';

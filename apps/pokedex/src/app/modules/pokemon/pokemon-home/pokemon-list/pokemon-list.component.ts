@@ -4,10 +4,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 import { UntilDestroy } from '@ngneat/until-destroy';
 import { PxPokemon } from '@pokedex-md/domain';
-import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { InfiniteScrollDirective } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
 import { PokemonService } from '../../../../api/pokemon/pokemon.service';
 import { BottomBarFabComponent } from '../../../../shared/components/bottom-bar-fab/bottom-bar-fab.component';
@@ -24,7 +24,6 @@ import { PokemonFilterService } from '../pokemon-filter.service';
     CommonModule,
     MatTableModule,
     NgOptimizedImage,
-    InfiniteScrollModule,
     MatSortModule,
     TypeButtonComponent,
     TranslocoModule,
@@ -33,6 +32,7 @@ import { PokemonFilterService } from '../pokemon-filter.service';
     RouterLink,
     RouterLinkActive,
     ImgFallbackDirective,
+    InfiniteScrollDirective,
   ],
   templateUrl: './pokemon-list.component.html',
   styleUrls: ['./pokemon-list.component.scss'],

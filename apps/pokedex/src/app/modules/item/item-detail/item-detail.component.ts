@@ -3,14 +3,11 @@ import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { ActivatedRoute } from '@angular/router';
-import { TranslocoDirective } from '@ngneat/transloco';
+import { TranslocoDirective } from '@jsverse/transloco';
 import { Item } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ImgFallbackDirective } from '../../../shared/directives/img-fallback.directive';
-import { TypeButtonComponent } from '../../type/shared/components/type-button/type-button.component';
-import { TypeSlotNamesPipe } from '../../type/shared/pipes/type-slot-names.pipe';
-import { WithVersionGroupDirective } from '../../version/shared/directives/with-version-group.directive';
 import { ItemDetailInfoComponent } from '../shared/components/item-detail-info.component';
 
 @Component({
@@ -21,11 +18,8 @@ import { ItemDetailInfoComponent } from '../shared/components/item-detail-info.c
     ImgFallbackDirective,
     MatCardModule,
     TranslocoDirective,
-    TypeButtonComponent,
-    TypeSlotNamesPipe,
     NgOptimizedImage,
     MatDividerModule,
-    WithVersionGroupDirective,
     ItemDetailInfoComponent,
   ],
   templateUrl: './item-detail.component.html',

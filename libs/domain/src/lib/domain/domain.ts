@@ -1,4 +1,4 @@
-import { HashMap } from '@ngneat/transloco';
+import { HashMap } from '@jsverse/transloco';
 import { Language } from './language';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type

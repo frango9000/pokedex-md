@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject } from '@angular/core';
-import { TranslocoService } from '@ngneat/transloco';
+import { TranslocoService } from '@jsverse/transloco';
 import { ApiResourceList, IdApiEntity, NamedApiEntity, NamedApiResource } from '@pokedex-md/domain';
 import { BehaviorSubject, Observable, of, shareReplay, switchMap } from 'rxjs';
 import { catchError, map, take, tap } from 'rxjs/operators';

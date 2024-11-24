@@ -4,15 +4,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { TranslocoDirective } from '@ngneat/transloco';
+import { TranslocoDirective } from '@jsverse/transloco';
 import { PxItem } from '@pokedex-md/domain';
-import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { InfiniteScrollDirective } from 'ngx-infinite-scroll';
 import { take } from 'rxjs/operators';
 import { ItemService } from '../../../../api/items/item.service';
 import { BottomBarFabComponent } from '../../../../shared/components/bottom-bar-fab/bottom-bar-fab.component';
-import { ImgFallbackDirective } from '../../../../shared/directives/img-fallback.directive';
 import { GenericDatasource } from '../../../../shared/utils/generic-datasource';
-import { TypeButtonComponent } from '../../../type/shared/components/type-button/type-button.component';
 import { ItemFilterService } from '../item-filter.service';
 
 @Component({
@@ -21,16 +19,14 @@ import { ItemFilterService } from '../item-filter.service';
   imports: [
     CommonModule,
     BottomBarFabComponent,
-    InfiniteScrollModule,
     MatCardModule,
     MatSortModule,
     MatTableModule,
     TranslocoDirective,
-    TypeButtonComponent,
-    ImgFallbackDirective,
     NgOptimizedImage,
     RouterLink,
     RouterLinkActive,
+    InfiniteScrollDirective,
   ],
   templateUrl: './item-list.component.html',
   styleUrls: ['./item-list.component.scss'],

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { TranslocoModule } from '@ngneat/transloco';
+import { TranslocoModule } from '@jsverse/transloco';
 import { VersionGroupPickerComponent } from '../../modules/version/shared/components/version-group-picker/version-group-picker.component';
 import { IsMobileModule } from '../../shared/modules/is-mobile';
 import { SidebarService } from '../services/sidebar.service';
