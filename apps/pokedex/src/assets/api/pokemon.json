@@ -22112,5 +22112,39 @@
     },
     "types": ["normal"],
     "generation": "generation-ix"
+  },
+  {
+    "id": 10278,
+    "name": "frillish-female",
+    "names": {
+      "ja-Hrkt": "プルリル",
+      "roomaji": "Pururill",
+      "ko": "탱그릴",
+      "zh-Hant": "輕飄飄",
+      "fr": "Viskuse",
+      "de": "Quabbel",
+      "es": "Frillish",
+      "it": "Frillish",
+      "en": "Frillish"
+    },
+    "types": [],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10279,
+    "name": "jellicent-female",
+    "names": {
+      "ja-Hrkt": "ブルンゲル",
+      "roomaji": "Burungel",
+      "ko": "탱탱겔",
+      "zh-Hant": "胖嘟嘟",
+      "fr": "Moyade",
+      "de": "Apoquallyp",
+      "es": "Jellicent",
+      "it": "Jellicent",
+      "en": "Jellicent"
+    },
+    "types": [],
+    "generation": "generation-v"
   }
 ]
