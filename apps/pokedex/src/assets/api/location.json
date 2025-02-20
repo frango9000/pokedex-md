@@ -5863,5 +5863,8 @@
   { "id": 1050, "name": "ultra-megalopolis", "names": {}, "region": "alola" },
   { "id": 1051, "name": "ultra-space-wilds", "names": {}, "region": "alola" },
   { "id": 1052, "name": "poke-pelago", "names": {}, "region": "alola" },
-  { "id": 1053, "name": "team-rockets-castle", "names": {}, "region": "alola" }
+  { "id": 1053, "name": "team-rockets-castle", "names": {}, "region": "alola" },
+  { "id": 1054, "name": "roaming-unova", "names": {}, "region": "unova" },
+  { "id": 1055, "name": "mauville-space-center", "names": {}, "region": "hoenn" },
+  { "id": 1056, "name": "roaming-kalos", "names": {}, "region": "kalos" }
 ]
