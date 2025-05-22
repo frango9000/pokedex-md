@@ -18,7 +18,7 @@
     "id": 2,
     "name": "blue",
     "names": {
-      "ja-Hrkt": "緑",
+      "ja-Hrkt": "青",
       "ko": "블루",
       "zh-Hant": "藍",
       "fr": "Bleu",
@@ -611,5 +611,31 @@
       "en": "The indigo disk"
     },
     "version_group": "the-indigo-disk"
+  },
+  {
+    "id": 44,
+    "name": "red-japan",
+    "names": { "ja-Hrkt": "赤", "ko": "레드", "fr": "Rouge", "de": "Rot", "es": "Rojo", "it": "Rossa", "en": "Red" },
+    "version_group": "red-green-japan"
+  },
+  {
+    "id": 45,
+    "name": "green-japan",
+    "names": {
+      "ja-Hrkt": "緑",
+      "ko": "그린",
+      "fr": "Vert",
+      "de": "Grüne",
+      "es": "Verde",
+      "it": "Verde",
+      "en": "Green"
+    },
+    "version_group": "red-green-japan"
+  },
+  {
+    "id": 46,
+    "name": "blue-japan",
+    "names": { "ja-Hrkt": "青", "ko": "블루", "fr": "Bleu", "de": "Blau", "es": "Azul", "it": "Blu", "en": "Blue" },
+    "version_group": "blue-japan"
   }
 ]
