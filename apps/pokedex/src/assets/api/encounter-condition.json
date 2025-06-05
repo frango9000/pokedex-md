@@ -15,5 +15,6 @@
   { "id": 10, "name": "other", "names": { "en": "Miscellaneous" } },
   { "id": 11, "name": "item", "names": {} },
   { "id": 12, "name": "weekday", "names": {} },
-  { "id": 13, "name": "first-party-pokemon", "names": {} }
+  { "id": 13, "name": "first-party-pokemon", "names": {} },
+  { "id": 14, "name": "special-encounter", "names": {} }
 ]
