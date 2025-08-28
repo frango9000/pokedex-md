@@ -21,15 +21,15 @@
     "id": 3,
     "name": "ally",
     "names": { "de": "Partner", "en": "Ally" },
-    "descriptions": { "de": "Die Partner des Anwenders (wenn vorhanden).", "en": "The user's ally (if any)." }
+    "descriptions": { "de": "Die Partner des Anwenders (wenn vorhanden).", "en": "The user’s ally (if any)." }
   },
   {
     "id": 4,
     "name": "users-field",
-    "names": { "de": "Seite des Anwenders", "en": "User's field" },
+    "names": { "de": "Seite des Anwenders", "en": "User’s field" },
     "descriptions": {
       "de": "Die Seite des Anwenders auf dem Feld.  Betrifft den Anwender und seine Partner (wenn vorhanden).",
-      "en": "The user's side of the field.  Affects the user and its ally (if any)."
+      "en": "The user’s side of the field.  Affects the user and its ally (if any)."
     }
   },
   {
@@ -44,7 +44,7 @@
   {
     "id": 6,
     "name": "opponents-field",
-    "names": { "de": "Gegnerisches Feld", "en": "Opponent's field" },
+    "names": { "de": "Gegnerisches Feld", "en": "Opponent’s field" },
     "descriptions": {
       "de": "Die andere Seite des Feldes.  Betrifft gegnerische Pokémon.",
       "en": "The opposing side of the field.  Affects opposing Pokémon."
@@ -108,7 +108,7 @@
     "id": 15,
     "name": "all-allies",
     "names": { "en": "All allies" },
-    "descriptions": { "en": "All of the user's allies." }
+    "descriptions": { "en": "All of the user’s allies." }
   },
   { "id": 16, "name": "fainting-pokemon", "names": {}, "descriptions": {} }
 ]
