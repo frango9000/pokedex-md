@@ -8,12 +8,12 @@
   {
     "id": 3,
     "name": "use-item",
-    "names": { "fr": "Utilisation d'un objet", "de": "Gegenstand nutzen", "en": "Use item" }
+    "names": { "fr": "Utilisation d’un objet", "de": "Gegenstand nutzen", "en": "Use item" }
   },
   {
     "id": 4,
     "name": "shed",
-    "names": { "fr": "Place dans l'équipe et une Poké Ball", "de": "Platz im Team und ein Pokéball", "en": "Shed" }
+    "names": { "fr": "Place dans l’équipe et une Poké Ball", "de": "Platz im Team und ein Pokéball", "en": "Shed" }
   },
   { "id": 5, "name": "spin", "names": { "en": "Spin" } },
   { "id": 6, "name": "tower-of-darkness", "names": { "en": "Train in the Tower of Darkness" } },
