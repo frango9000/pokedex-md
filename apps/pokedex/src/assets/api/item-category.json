@@ -37,10 +37,10 @@
   { "id": 37, "name": "all-machines", "names": { "en": "All machines" }, "pocket": "machines" },
   { "id": 38, "name": "flutes", "names": { "en": "Flutes" }, "pocket": "battle" },
   { "id": 39, "name": "apricorn-balls", "names": { "en": "Apricorn balls" }, "pocket": "pokeballs" },
-  { "id": 40, "name": "apricorn-box", "names": { "en": "Apricorn Box" }, "pocket": "key" },
-  { "id": 41, "name": "data-cards", "names": { "en": "Data Cards" }, "pocket": "key" },
+  { "id": 40, "name": "apricorn-box", "names": { "en": "Apricorn box" }, "pocket": "key" },
+  { "id": 41, "name": "data-cards", "names": { "en": "Data cards" }, "pocket": "key" },
   { "id": 42, "name": "jewels", "names": { "en": "Jewels" }, "pocket": "misc" },
-  { "id": 43, "name": "miracle-shooter", "names": { "en": "Miracle Shooter" }, "pocket": "battle" },
+  { "id": 43, "name": "miracle-shooter", "names": { "en": "Miracle shooter" }, "pocket": "battle" },
   { "id": 44, "name": "mega-stones", "names": { "en": "Mega Stones" }, "pocket": "misc" },
   { "id": 45, "name": "memories", "names": { "en": "Memories" }, "pocket": "misc" },
   { "id": 46, "name": "z-crystals", "names": { "en": "Z-Crystals" }, "pocket": "key" },
@@ -49,8 +49,8 @@
   { "id": 49, "name": "dynamax-crystals", "names": { "en": "Dynamax crystals" }, "pocket": "misc" },
   { "id": 50, "name": "nature-mints", "names": { "en": "Nature mints" }, "pocket": "medicine" },
   { "id": 51, "name": "curry-ingredients", "names": { "en": "Curry ingredients" }, "pocket": "misc" },
-  { "id": 52, "name": "tera-shard", "names": {}, "pocket": "misc" },
-  { "id": 53, "name": "sandwich-ingredients", "names": {}, "pocket": "misc" },
-  { "id": 54, "name": "tm-materials", "names": {}, "pocket": "misc" },
-  { "id": 55, "name": "picnic", "names": {}, "pocket": "misc" }
+  { "id": 52, "name": "tera-shard", "names": { "en": "Tera Shard" }, "pocket": "misc" },
+  { "id": 53, "name": "sandwich-ingredients", "names": { "en": "Sandwich ingredients" }, "pocket": "misc" },
+  { "id": 54, "name": "tm-materials", "names": { "en": "TM materials" }, "pocket": "misc" },
+  { "id": 55, "name": "picnic", "names": { "en": "Picnic" }, "pocket": "misc" }
 ]

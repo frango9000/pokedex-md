@@ -22112,5 +22112,821 @@
     },
     "types": ["normal"],
     "generation": "generation-ix"
+  },
+  {
+    "id": 10278,
+    "name": "clefable-mega",
+    "names": {
+      "ja-Hrkt": "ピクシー",
+      "roomaji": "Pixy",
+      "ko": "픽시",
+      "zh-Hant": "皮可西",
+      "fr": "Mélodelfe",
+      "de": "Pixi",
+      "es": "Clefable",
+      "it": "Clefable",
+      "en": "Clefable"
+    },
+    "types": ["fairy", "flying"],
+    "generation": "generation-i"
+  },
+  {
+    "id": 10279,
+    "name": "victreebel-mega",
+    "names": {
+      "ja-Hrkt": "ウツボット",
+      "roomaji": "Utsubot",
+      "ko": "우츠보트",
+      "zh-Hant": "大食花",
+      "fr": "Empiflor",
+      "de": "Sarzenia",
+      "es": "Victreebel",
+      "it": "Victreebel",
+      "en": "Victreebel"
+    },
+    "types": ["grass", "poison"],
+    "generation": "generation-i"
+  },
+  {
+    "id": 10280,
+    "name": "starmie-mega",
+    "names": {
+      "ja-Hrkt": "スターミー",
+      "roomaji": "Starmie",
+      "ko": "아쿠스타",
+      "zh-Hant": "寶石海星",
+      "fr": "Staross",
+      "de": "Starmie",
+      "es": "Starmie",
+      "it": "Starmie",
+      "en": "Starmie"
+    },
+    "types": ["water", "psychic"],
+    "generation": "generation-i"
+  },
+  {
+    "id": 10281,
+    "name": "dragonite-mega",
+    "names": {
+      "ja-Hrkt": "カイリュー",
+      "roomaji": "Kairyu",
+      "ko": "망나뇽",
+      "zh-Hant": "快龍",
+      "fr": "Dracolosse",
+      "de": "Dragoran",
+      "es": "Dragonite",
+      "it": "Dragonite",
+      "en": "Dragonite"
+    },
+    "types": ["dragon", "flying"],
+    "generation": "generation-i"
+  },
+  {
+    "id": 10282,
+    "name": "meganium-mega",
+    "names": {
+      "ja-Hrkt": "メガニウム",
+      "roomaji": "Meganium",
+      "ko": "메가니움",
+      "zh-Hant": "大竺葵",
+      "fr": "Méganium",
+      "de": "Meganie",
+      "es": "Meganium",
+      "it": "Meganium",
+      "en": "Meganium"
+    },
+    "types": ["grass", "fairy"],
+    "generation": "generation-ii"
+  },
+  {
+    "id": 10283,
+    "name": "feraligatr-mega",
+    "names": {
+      "ja-Hrkt": "オーダイル",
+      "roomaji": "Ordile",
+      "ko": "장크로다일",
+      "zh-Hant": "大力鱷",
+      "fr": "Aligatueur",
+      "de": "Impergator",
+      "es": "Feraligatr",
+      "it": "Feraligatr",
+      "en": "Feraligatr"
+    },
+    "types": ["water", "dragon"],
+    "generation": "generation-ii"
+  },
+  {
+    "id": 10284,
+    "name": "skarmory-mega",
+    "names": {
+      "ja-Hrkt": "エアームド",
+      "roomaji": "Airmd",
+      "ko": "무장조",
+      "zh-Hant": "盔甲鳥",
+      "fr": "Airmure",
+      "de": "Panzaeron",
+      "es": "Skarmory",
+      "it": "Skarmory",
+      "en": "Skarmory"
+    },
+    "types": ["steel", "flying"],
+    "generation": "generation-ii"
+  },
+  {
+    "id": 10285,
+    "name": "froslass-mega",
+    "names": {
+      "ja-Hrkt": "ユキメノコ",
+      "roomaji": "Yukimenoko",
+      "ko": "눈여아",
+      "zh-Hant": "雪妖女",
+      "fr": "Momartik",
+      "de": "Frosdedje",
+      "es": "Froslass",
+      "it": "Froslass",
+      "en": "Froslass"
+    },
+    "types": ["ice", "ghost"],
+    "generation": "generation-iv"
+  },
+  {
+    "id": 10286,
+    "name": "emboar-mega",
+    "names": {
+      "ja-Hrkt": "エンブオー",
+      "roomaji": "Enbuoh",
+      "ko": "염무왕",
+      "zh-Hant": "炎武王",
+      "fr": "Roitiflam",
+      "de": "Flambirex",
+      "es": "Emboar",
+      "it": "Emboar",
+      "en": "Emboar"
+    },
+    "types": ["fire", "fighting"],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10287,
+    "name": "excadrill-mega",
+    "names": {
+      "ja-Hrkt": "ドリュウズ",
+      "roomaji": "Doryuzu",
+      "ko": "몰드류",
+      "zh-Hant": "龍頭地鼠",
+      "fr": "Minotaupe",
+      "de": "Stalobor",
+      "es": "Excadrill",
+      "it": "Excadrill",
+      "en": "Excadrill"
+    },
+    "types": ["ground", "steel"],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10288,
+    "name": "scolipede-mega",
+    "names": {
+      "ja-Hrkt": "ペンドラー",
+      "roomaji": "Pendror",
+      "ko": "펜드라",
+      "zh-Hant": "蜈蚣王",
+      "fr": "Brutapode",
+      "de": "Cerapendra",
+      "es": "Scolipede",
+      "it": "Scolipede",
+      "en": "Scolipede"
+    },
+    "types": ["bug", "poison"],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10289,
+    "name": "scrafty-mega",
+    "names": {
+      "ja-Hrkt": "ズルズキン",
+      "roomaji": "Zuruzukin",
+      "ko": "곤율거니",
+      "zh-Hant": "頭巾混混",
+      "fr": "Baggaïd",
+      "de": "Irokex",
+      "es": "Scrafty",
+      "it": "Scrafty",
+      "en": "Scrafty"
+    },
+    "types": ["dark", "fighting"],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10290,
+    "name": "eelektross-mega",
+    "names": {
+      "ja-Hrkt": "シビルドン",
+      "roomaji": "Shibirudon",
+      "ko": "저리더프",
+      "zh-Hant": "麻麻鰻魚王",
+      "fr": "Ohmassacre",
+      "de": "Zapplarang",
+      "es": "Eelektross",
+      "it": "Eelektross",
+      "en": "Eelektross"
+    },
+    "types": ["electric"],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10291,
+    "name": "chandelure-mega",
+    "names": {
+      "ja-Hrkt": "シャンデラ",
+      "roomaji": "Chandela",
+      "ko": "샹델라",
+      "zh-Hant": "水晶燈火靈",
+      "fr": "Lugulabre",
+      "de": "Skelabra",
+      "es": "Chandelure",
+      "it": "Chandelure",
+      "en": "Chandelure"
+    },
+    "types": ["ghost", "fire"],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10292,
+    "name": "chesnaught-mega",
+    "names": {
+      "ja-Hrkt": "ブリガロン",
+      "roomaji": "Brigarron",
+      "ko": "브리가론",
+      "zh-Hant": "布里卡隆",
+      "fr": "Blindépique",
+      "de": "Brigaron",
+      "es": "Chesnaught",
+      "it": "Chesnaught",
+      "en": "Chesnaught"
+    },
+    "types": ["grass", "fighting"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10293,
+    "name": "delphox-mega",
+    "names": {
+      "ja-Hrkt": "マフォクシー",
+      "roomaji": "Mahoxy",
+      "ko": "마폭시",
+      "zh-Hant": "妖火紅狐",
+      "fr": "Goupelin",
+      "de": "Fennexis",
+      "es": "Delphox",
+      "it": "Delphox",
+      "en": "Delphox"
+    },
+    "types": ["fire", "psychic"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10294,
+    "name": "greninja-mega",
+    "names": {
+      "ja-Hrkt": "ゲッコウガ",
+      "roomaji": "Gekkouga",
+      "ko": "개굴닌자",
+      "zh-Hant": "甲賀忍蛙",
+      "fr": "Amphinobi",
+      "de": "Quajutsu",
+      "es": "Greninja",
+      "it": "Greninja",
+      "en": "Greninja"
+    },
+    "types": ["water", "dark"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10295,
+    "name": "pyroar-mega",
+    "names": {
+      "ja-Hrkt": "カエンジシ",
+      "roomaji": "Kaenjishi",
+      "ko": "화염레오",
+      "zh-Hant": "火炎獅",
+      "fr": "Némélios",
+      "de": "Pyroleo",
+      "es": "Pyroar",
+      "it": "Pyroar",
+      "en": "Pyroar"
+    },
+    "types": ["fire", "normal"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10296,
+    "name": "floette-mega",
+    "names": {
+      "ja-Hrkt": "フラエッテ",
+      "roomaji": "Floette",
+      "ko": "플라엣테",
+      "zh-Hant": "花葉蒂",
+      "fr": "Floette",
+      "de": "Floette",
+      "es": "Floette",
+      "it": "Floette",
+      "en": "Floette"
+    },
+    "types": ["fairy"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10297,
+    "name": "malamar-mega",
+    "names": {
+      "ja-Hrkt": "カラマネロ",
+      "roomaji": "Calamanero",
+      "ko": "칼라마네로",
+      "zh-Hant": "烏賊王",
+      "fr": "Sepiatroce",
+      "de": "Calamanero",
+      "es": "Malamar",
+      "it": "Malamar",
+      "en": "Malamar"
+    },
+    "types": ["dark", "psychic"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10298,
+    "name": "barbaracle-mega",
+    "names": {
+      "ja-Hrkt": "ガメノデス",
+      "roomaji": "Gamenodes",
+      "ko": "거북손데스",
+      "zh-Hant": "龜足巨鎧",
+      "fr": "Golgopathe",
+      "de": "Thanathora",
+      "es": "Barbaracle",
+      "it": "Barbaracle",
+      "en": "Barbaracle"
+    },
+    "types": ["rock", "fighting"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10299,
+    "name": "dragalge-mega",
+    "names": {
+      "ja-Hrkt": "ドラミドロ",
+      "roomaji": "Dramidoro",
+      "ko": "드래캄",
+      "zh-Hant": "毒藻龍",
+      "fr": "Kravarech",
+      "de": "Tandrak",
+      "es": "Dragalge",
+      "it": "Dragalge",
+      "en": "Dragalge"
+    },
+    "types": ["poison", "dragon"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10300,
+    "name": "hawlucha-mega",
+    "names": {
+      "ja-Hrkt": "ルチャブル",
+      "roomaji": "Luchabull",
+      "ko": "루차불",
+      "zh-Hant": "摔角鷹人",
+      "fr": "Brutalibré",
+      "de": "Resladero",
+      "es": "Hawlucha",
+      "it": "Hawlucha",
+      "en": "Hawlucha"
+    },
+    "types": ["fighting", "flying"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10301,
+    "name": "zygarde-mega",
+    "names": {
+      "ja-Hrkt": "ジガルデ",
+      "roomaji": "Zygarde",
+      "ko": "지가르데",
+      "zh-Hant": "基格爾德",
+      "fr": "Zygarde",
+      "de": "Zygarde",
+      "es": "Zygarde",
+      "it": "Zygarde",
+      "en": "Zygarde"
+    },
+    "types": ["dragon", "ground"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10302,
+    "name": "drampa-mega",
+    "names": {
+      "ja-Hrkt": "ジジーロン",
+      "roomaji": "Jijilong",
+      "ko": "할비롱",
+      "zh-Hant": "老翁龍",
+      "fr": "Draïeul",
+      "de": "Sen-Long",
+      "es": "Drampa",
+      "it": "Drampa",
+      "en": "Drampa"
+    },
+    "types": ["normal", "dragon"],
+    "generation": "generation-vii"
+  },
+  {
+    "id": 10303,
+    "name": "falinks-mega",
+    "names": {
+      "ja-Hrkt": "タイレーツ",
+      "roomaji": "Tairetsu",
+      "ko": "대여르",
+      "zh-Hant": "列陣兵",
+      "fr": "Hexadron",
+      "de": "Legios",
+      "es": "Falinks",
+      "it": "Falinks",
+      "en": "Falinks"
+    },
+    "types": ["fighting"],
+    "generation": "generation-viii"
+  },
+  {
+    "id": 10304,
+    "name": "mega-raichu-x",
+    "names": {
+      "ja-Hrkt": "ライチュウ",
+      "roomaji": "Raichu",
+      "ko": "라이츄",
+      "zh-Hant": "雷丘",
+      "fr": "Raichu",
+      "de": "Raichu",
+      "es": "Raichu",
+      "it": "Raichu",
+      "en": "Raichu"
+    },
+    "types": ["electric"],
+    "generation": "generation-i"
+  },
+  {
+    "id": 10305,
+    "name": "mega-raichu-y",
+    "names": {
+      "ja-Hrkt": "ライチュウ",
+      "roomaji": "Raichu",
+      "ko": "라이츄",
+      "zh-Hant": "雷丘",
+      "fr": "Raichu",
+      "de": "Raichu",
+      "es": "Raichu",
+      "it": "Raichu",
+      "en": "Raichu"
+    },
+    "types": ["electric"],
+    "generation": "generation-i"
+  },
+  {
+    "id": 10306,
+    "name": "mega-chimecho",
+    "names": {
+      "ja-Hrkt": "チリーン",
+      "roomaji": "Chirean",
+      "ko": "치렁",
+      "zh-Hant": "風鈴鈴",
+      "fr": "Éoko",
+      "de": "Palimpalim",
+      "es": "Chimecho",
+      "it": "Chimecho",
+      "en": "Chimecho"
+    },
+    "types": ["psychic", "steel"],
+    "generation": "generation-iii"
+  },
+  {
+    "id": 10307,
+    "name": "mega-absol-z",
+    "names": {
+      "ja-Hrkt": "アブソル",
+      "roomaji": "Absol",
+      "ko": "앱솔",
+      "zh-Hant": "阿勃梭魯",
+      "fr": "Absol",
+      "de": "Absol",
+      "es": "Absol",
+      "it": "Absol",
+      "en": "Absol"
+    },
+    "types": ["dark", "ghost"],
+    "generation": "generation-iii"
+  },
+  {
+    "id": 10308,
+    "name": "mega-staraptor",
+    "names": {
+      "ja-Hrkt": "ムクホーク",
+      "roomaji": "Mukuhawk",
+      "ko": "찌르호크",
+      "zh-Hant": "姆克鷹",
+      "fr": "Étouraptor",
+      "de": "Staraptor",
+      "es": "Staraptor",
+      "it": "Staraptor",
+      "en": "Staraptor"
+    },
+    "types": ["fighting", "flying"],
+    "generation": "generation-iv"
+  },
+  {
+    "id": 10309,
+    "name": "mega-garchomp-z",
+    "names": {
+      "ja-Hrkt": "ガブリアス",
+      "roomaji": "Gablias",
+      "ko": "한카리아스",
+      "zh-Hant": "烈咬陸鯊",
+      "fr": "Carchacrok",
+      "de": "Knakrack",
+      "es": "Garchomp",
+      "it": "Garchomp",
+      "en": "Garchomp"
+    },
+    "types": ["dragon"],
+    "generation": "generation-iv"
+  },
+  {
+    "id": 10310,
+    "name": "mega-lucario-z",
+    "names": {
+      "ja-Hrkt": "ルカリオ",
+      "roomaji": "Lucario",
+      "ko": "루카리오",
+      "zh-Hant": "路卡利歐",
+      "fr": "Lucario",
+      "de": "Lucario",
+      "es": "Lucario",
+      "it": "Lucario",
+      "en": "Lucario"
+    },
+    "types": ["fighting", "steel"],
+    "generation": "generation-iv"
+  },
+  {
+    "id": 10311,
+    "name": "mega-heatran",
+    "names": {
+      "ja-Hrkt": "ヒードラン",
+      "roomaji": "Heatran",
+      "ko": "히드런",
+      "zh-Hant": "席多藍恩",
+      "fr": "Heatran",
+      "de": "Heatran",
+      "es": "Heatran",
+      "it": "Heatran",
+      "en": "Heatran"
+    },
+    "types": ["fire", "steel"],
+    "generation": "generation-iv"
+  },
+  {
+    "id": 10312,
+    "name": "mega-darkrai",
+    "names": {
+      "ja-Hrkt": "ダークライ",
+      "roomaji": "Darkrai",
+      "ko": "다크라이",
+      "zh-Hant": "達克萊伊",
+      "fr": "Darkrai",
+      "de": "Darkrai",
+      "es": "Darkrai",
+      "it": "Darkrai",
+      "en": "Darkrai"
+    },
+    "types": ["dark"],
+    "generation": "generation-iv"
+  },
+  {
+    "id": 10313,
+    "name": "mega-golurk",
+    "names": {
+      "ja-Hrkt": "ゴルーグ",
+      "roomaji": "Goloog",
+      "ko": "골루그",
+      "zh-Hant": "泥偶巨人",
+      "fr": "Golemastoc",
+      "de": "Golgantes",
+      "es": "Golurk",
+      "it": "Golurk",
+      "en": "Golurk"
+    },
+    "types": ["ground", "ghost"],
+    "generation": "generation-v"
+  },
+  {
+    "id": 10314,
+    "name": "mega-meowstic",
+    "names": {
+      "ja-Hrkt": "ニャオニクス",
+      "roomaji": "Nyaonix",
+      "ko": "냐오닉스",
+      "zh-Hant": "超能妙喵",
+      "fr": "Mistigrix",
+      "de": "Psiaugon",
+      "es": "Meowstic",
+      "it": "Meowstic",
+      "en": "Meowstic"
+    },
+    "types": ["psychic"],
+    "generation": "generation-vi"
+  },
+  {
+    "id": 10315,
+    "name": "mega-crabominable",
+    "names": {
+      "ja-Hrkt": "ケケンカニ",
+      "roomaji": "Kekenkani",
+      "ko": "모단단게",
+      "zh-Hant": "好勝毛蟹",
+      "fr": "Crabominable",
+      "de": "Krawell",
+      "es": "Crabominable",
+      "it": "Crabominable",
+      "en": "Crabominable"
+    },
+    "types": ["fighting", "ice"],
+    "generation": "generation-vii"
+  },
+  {
+    "id": 10316,
+    "name": "mega-golisopod",
+    "names": {
+      "ja-Hrkt": "グソクムシャ",
+      "roomaji": "Gusokumusha",
+      "ko": "갑주무사",
+      "zh-Hant": "具甲武者",
+      "fr": "Sarmuraï",
+      "de": "Tectass",
+      "es": "Golisopod",
+      "it": "Golisopod",
+      "en": "Golisopod"
+    },
+    "types": ["bug", "steel"],
+    "generation": "generation-vii"
+  },
+  {
+    "id": 10317,
+    "name": "mega-magearna",
+    "names": {
+      "ja-Hrkt": "マギアナ",
+      "roomaji": "Magearna",
+      "ko": "마기아나",
+      "zh-Hant": "瑪機雅娜",
+      "fr": "Magearna",
+      "de": "Magearna",
+      "es": "Magearna",
+      "it": "Magearna",
+      "en": "Magearna"
+    },
+    "types": ["steel", "fairy"],
+    "generation": "generation-vii"
+  },
+  {
+    "id": 10318,
+    "name": "mega-magearna-original",
+    "names": {
+      "ja-Hrkt": "マギアナ",
+      "roomaji": "Magearna",
+      "ko": "마기아나",
+      "zh-Hant": "瑪機雅娜",
+      "fr": "Magearna",
+      "de": "Magearna",
+      "es": "Magearna",
+      "it": "Magearna",
+      "en": "Magearna"
+    },
+    "types": ["steel", "fairy"],
+    "generation": "generation-vii"
+  },
+  {
+    "id": 10319,
+    "name": "mega-zeraora",
+    "names": {
+      "ja-Hrkt": "ゼラオラ",
+      "roomaji": "Zeraora",
+      "ko": "제라오라",
+      "zh-Hant": "捷拉奧拉",
+      "fr": "Zeraora",
+      "de": "Zeraora",
+      "es": "Zeraora",
+      "it": "Zeraora",
+      "en": "Zeraora"
+    },
+    "types": ["electric"],
+    "generation": "generation-vii"
+  },
+  {
+    "id": 10320,
+    "name": "mega-scovillain",
+    "names": {
+      "ja-Hrkt": "スコヴィラン",
+      "roomaji": "Scovillain",
+      "ko": "스코빌런",
+      "zh-Hant": "狠辣椒",
+      "fr": "Scovilain",
+      "de": "Halupenjo",
+      "es": "Scovillain",
+      "it": "Scovillain",
+      "en": "Scovillain"
+    },
+    "types": ["grass", "fire"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 10321,
+    "name": "mega-glimmora",
+    "names": {
+      "ja-Hrkt": "キラフロル",
+      "roomaji": "Kiraflor",
+      "ko": "킬라플로르",
+      "zh-Hant": "晶光花",
+      "fr": "Floréclat",
+      "de": "Lumiflora",
+      "es": "Glimmora",
+      "it": "Glimmora",
+      "en": "Glimmora"
+    },
+    "types": ["rock", "poison"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 10322,
+    "name": "mega-tatsugiri-curly",
+    "names": {
+      "ja-Hrkt": "シャリタツ",
+      "roomaji": "Syaritatsu",
+      "ko": "싸리용",
+      "zh-Hant": "米立龍",
+      "fr": "Nigirigon",
+      "de": "Nigiragi",
+      "es": "Tatsugiri",
+      "it": "Tatsugiri",
+      "en": "Tatsugiri"
+    },
+    "types": ["dragon", "water"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 10323,
+    "name": "mega-tatsugiri-droopy",
+    "names": {
+      "ja-Hrkt": "シャリタツ",
+      "roomaji": "Syaritatsu",
+      "ko": "싸리용",
+      "zh-Hant": "米立龍",
+      "fr": "Nigirigon",
+      "de": "Nigiragi",
+      "es": "Tatsugiri",
+      "it": "Tatsugiri",
+      "en": "Tatsugiri"
+    },
+    "types": ["dragon", "water"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 10324,
+    "name": "mega-tatsugiri-stretchy",
+    "names": {
+      "ja-Hrkt": "シャリタツ",
+      "roomaji": "Syaritatsu",
+      "ko": "싸리용",
+      "zh-Hant": "米立龍",
+      "fr": "Nigirigon",
+      "de": "Nigiragi",
+      "es": "Tatsugiri",
+      "it": "Tatsugiri",
+      "en": "Tatsugiri"
+    },
+    "types": ["dragon", "water"],
+    "generation": "generation-ix"
+  },
+  {
+    "id": 10325,
+    "name": "mega-baxcalibur",
+    "names": {
+      "ja-Hrkt": "セグレイブ",
+      "roomaji": "Seglaive",
+      "ko": "드닐레이브",
+      "zh-Hant": "戟脊龍",
+      "fr": "Glaivodo",
+      "de": "Espinodon",
+      "es": "Baxcalibur",
+      "it": "Baxcalibur",
+      "en": "Baxcalibur"
+    },
+    "types": ["dragon", "ice"],
+    "generation": "generation-ix"
   }
 ]
