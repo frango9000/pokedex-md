@@ -9696,7 +9696,7 @@
       "de": "Eichs Paket",
       "es": "Correo-Oak",
       "it": "Pacco di Oak",
-      "en": "Oak's Parcel"
+      "en": "Oak’s Parcel"
     },
     "sprite": "oaks-parcel.png",
     "pocket": "key"
@@ -31791,7 +31791,7 @@
   },
   {
     "id": 2104,
-    "name": "cyrstal-cluster",
+    "name": "crystal-cluster",
     "category": "event-items",
     "cost": 0,
     "names": { "ja-Hrkt": "けっしょうのかけら", "en": "Crystal Cluster" },
