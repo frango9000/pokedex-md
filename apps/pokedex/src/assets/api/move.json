@@ -16654,7 +16654,7 @@
     "name": "esper-wing",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "ja-Hrkt": "オーラウイング", "zh-Hant": "气场之翼", "it": "Ali d'Aura", "en": "Esper Wing" },
+    "names": { "ja-Hrkt": "オーラウイング", "zh-Hant": "气场之翼", "it": "Ali d’Aura", "en": "Esper Wing" },
     "power": 80,
     "pp": 10,
     "type": "psychic"
@@ -16999,7 +16999,7 @@
     "name": "make-it-rain",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "ja-Hrkt": "ゴールドラッシュ", "zh-Hant": "淘金潮", "it": "Corsa all'Oro", "en": "Make It Rain" },
+    "names": { "ja-Hrkt": "ゴールドラッシュ", "zh-Hant": "淘金潮", "it": "Corsa all’Oro", "en": "Make It Rain" },
     "power": 120,
     "pp": 5,
     "type": "steel"
@@ -17306,6 +17306,7 @@
     "id": 903,
     "name": "syrup-bomb",
     "accuracy": 85,
+    "crit_rate": 0,
     "generation": "generation-ix",
     "names": { "ja-Hrkt": "みずあめボム", "en": "Syrup Bomb" },
     "power": 60,
