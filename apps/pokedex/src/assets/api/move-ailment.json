@@ -19,6 +19,6 @@
   { "id": 19, "name": "embargo", "names": { "fr": "Embargo", "es": "Embargo", "en": "Embargo" } },
   { "id": 20, "name": "perish-song", "names": { "fr": "Requiem", "es": "Canto mortal", "en": "Perish Song" } },
   { "id": 21, "name": "ingrain", "names": { "fr": "Racines", "es": "Arraigo", "en": "Ingrain" } },
-  { "id": 24, "name": "silence", "names": { "es": "Silenciado", "en": "Silence" } },
-  { "id": 42, "name": "tar-shot", "names": { "en": "Tar shot" } }
+  { "id": 24, "name": "silence", "names": { "fr": "Silence", "es": "Silenciado", "en": "Silence" } },
+  { "id": 42, "name": "tar-shot", "names": { "fr": "Vulnérable au feu", "en": "Tar shot" } }
 ]

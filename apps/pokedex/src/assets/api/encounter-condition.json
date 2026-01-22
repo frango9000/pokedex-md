@@ -9,11 +9,16 @@
   },
   { "id": 5, "name": "radio", "names": { "fr": "Radio", "de": "Radio", "en": "Radio" } },
   { "id": 6, "name": "season", "names": { "fr": "Saison", "de": "Jahreszeit", "en": "Season" } },
-  { "id": 7, "name": "starter", "names": { "en": "Chosen Starter" } },
-  { "id": 8, "name": "tv-option", "names": { "en": "Chosen dialogue at the news report" } },
-  { "id": 9, "name": "story-progress", "names": { "en": "Story Progress" } },
-  { "id": 10, "name": "other", "names": { "en": "Miscellaneous" } },
+  { "id": 7, "name": "starter", "names": { "fr": "Starter choisi", "en": "Chosen Starter" } },
+  {
+    "id": 8,
+    "name": "tv-option",
+    "names": { "fr": "Dialogue choisi dans le reportage", "en": "Chosen dialogue at the news report" }
+  },
+  { "id": 9, "name": "story-progress", "names": { "fr": "Progression dans l’histoire", "en": "Story Progress" } },
+  { "id": 10, "name": "other", "names": { "fr": "Divers", "en": "Miscellaneous" } },
   { "id": 11, "name": "item", "names": {} },
   { "id": 12, "name": "weekday", "names": {} },
-  { "id": 13, "name": "first-party-pokemon", "names": {} }
+  { "id": 13, "name": "first-party-pokemon", "names": {} },
+  { "id": 14, "name": "special-encounter", "names": {} }
 ]

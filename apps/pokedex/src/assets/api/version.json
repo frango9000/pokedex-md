@@ -18,7 +18,7 @@
     "id": 2,
     "name": "blue",
     "names": {
-      "ja-Hrkt": "緑",
+      "ja-Hrkt": "青",
       "ko": "블루",
       "zh-Hant": "藍",
       "fr": "Bleu",
@@ -425,14 +425,14 @@
     "id": 31,
     "name": "lets-go-pikachu",
     "names": {
-      "ja-Hrkt": "Let's Go! ピカチュウ",
+      "ja-Hrkt": "Let’s Go! ピカチュウ",
       "ko": "레츠고! 피카츄",
-      "zh-Hant": "Let's Go！皮卡丘",
-      "fr": "Let's Go, Pikachu",
-      "de": "Let's Go, Pikachu!",
-      "es": "Let's Go, Pikachu!",
-      "it": "Let's Go, Pikachu!",
-      "en": "Let's Go, Pikachu!"
+      "zh-Hant": "Let’s Go！皮卡丘",
+      "fr": "Let’s Go, Pikachu",
+      "de": "Let’s Go, Pikachu!",
+      "es": "Let’s Go, Pikachu!",
+      "it": "Let’s Go, Pikachu!",
+      "en": "Let’s Go, Pikachu!"
     },
     "version_group": "lets-go-pikachu-lets-go-eevee"
   },
@@ -440,14 +440,14 @@
     "id": 32,
     "name": "lets-go-eevee",
     "names": {
-      "ja-Hrkt": "Let's Go! イーブイ",
+      "ja-Hrkt": "Let’s Go! イーブイ",
       "ko": "레츠고! 이브이",
-      "zh-Hant": "Let's Go！伊布",
-      "fr": "Let's Go, Évoli",
-      "de": "Let's Go, Evoli!",
-      "it": "Let's Go, Eevee!",
-      "es": "Let's Go, Eevee!",
-      "en": "Let's Go, Eevee!"
+      "zh-Hant": "Let’s Go！伊布",
+      "fr": "Let’s Go, Évoli",
+      "de": "Let’s Go, Evoli!",
+      "it": "Let’s Go, Eevee!",
+      "es": "Let’s Go, Eevee!",
+      "en": "Let’s Go, Eevee!"
     },
     "version_group": "lets-go-pikachu-lets-go-eevee"
   },
@@ -455,13 +455,13 @@
     "id": 33,
     "name": "sword",
     "names": {
-      "ja-Hrkt": " ソード",
+      "ja-Hrkt": "ソード",
       "ko": "소드",
       "zh-Hant": "劍",
       "fr": "Épée",
       "de": "Schwert",
       "es": "Espada",
-      "it": "çSpada",
+      "it": "Spada",
       "en": "Sword"
     },
     "version_group": "sword-shield"
@@ -476,7 +476,7 @@
       "fr": "Bouclier",
       "de": "Schild",
       "es": "Escudo",
-      "it": "Spada",
+      "it": "Scudo",
       "en": "Shield"
     },
     "version_group": "sword-shield"
@@ -488,10 +488,10 @@
       "ja-Hrkt": "鎧の孤島",
       "ko": "갑옷의 외딴섬",
       "zh-Hant": "鎧之孤島",
-      "fr": "L'île solitaire de l'Armure",
+      "fr": "L’île solitaire de l’Armure",
       "de": "Die Insel der Rüstung",
       "es": "La isla de la armadura",
-      "it": "L'isola solitaria dell'armatura",
+      "it": "L’isola solitaria dell’armatura",
       "en": "The Isle of Armor"
     },
     "version_group": "the-isle-of-armor"
@@ -524,7 +524,7 @@
       "it": "Diamante Lucente",
       "en": "Brilliant Diamond"
     },
-    "version_group": "brilliant-diamond-and-shining-pearl"
+    "version_group": "brilliant-diamond-shining-pearl"
   },
   {
     "id": 38,
@@ -539,7 +539,7 @@
       "it": "Perla Splendente",
       "en": "Shining Pearl"
     },
-    "version_group": "brilliant-diamond-and-shining-pearl"
+    "version_group": "brilliant-diamond-shining-pearl"
   },
   {
     "id": 39,
@@ -590,12 +590,12 @@
     "id": 42,
     "name": "the-teal-mask",
     "names": {
-      "ja-Hrkt": "みどりのかめん",
-      "fr": "Le masque turquoise",
-      "de": "Die türkisgrüne maske",
+      "ja-Hrkt": "碧の仮面",
+      "fr": "Le Masque Turquoise",
+      "de": "Die Türkisgrüne Maske",
       "es": "La máscara turquesa",
       "it": "La maschera turchese",
-      "en": "The teal mask"
+      "en": "The Teal Mask"
     },
     "version_group": "the-teal-mask"
   },
@@ -603,13 +603,51 @@
     "id": 43,
     "name": "the-indigo-disk",
     "names": {
-      "ja-Hrkt": "あおのえんばん",
-      "fr": "Le disque indigo",
-      "de": "Die indigoblaue scheibe",
+      "ja-Hrkt": "藍の円盤",
+      "fr": "Le Disque Indigo",
+      "de": "Die Indigoblaue Scheibe",
       "es": "El disco índigo",
       "it": "Il disco indaco",
-      "en": "The indigo disk"
+      "en": "The Indigo Disk"
     },
     "version_group": "the-indigo-disk"
+  },
+  {
+    "id": 44,
+    "name": "red-japan",
+    "names": { "ja-Hrkt": "赤", "ko": "레드", "fr": "Rouge", "de": "Rot", "es": "Rojo", "it": "Rossa", "en": "Red" },
+    "version_group": "red-green-japan"
+  },
+  {
+    "id": 45,
+    "name": "green-japan",
+    "names": {
+      "ja-Hrkt": "緑",
+      "ko": "그린",
+      "fr": "Vert",
+      "de": "Grüne",
+      "es": "Verde",
+      "it": "Verde",
+      "en": "Green"
+    },
+    "version_group": "red-green-japan"
+  },
+  {
+    "id": 46,
+    "name": "blue-japan",
+    "names": { "ja-Hrkt": "青", "ko": "블루", "fr": "Bleu", "de": "Blau", "es": "Azul", "it": "Blu", "en": "Blue" },
+    "version_group": "blue-japan"
+  },
+  {
+    "id": 47,
+    "name": "legends-za",
+    "names": { "fr": "Légendes : Z-A", "en": "Legends: ZA" },
+    "version_group": "legends-za"
+  },
+  {
+    "id": 48,
+    "name": "mega-dimension",
+    "names": { "fr": "Méga-Dimension", "en": "Mega Dimension" },
+    "version_group": "mega-dimension"
   }
 ]
