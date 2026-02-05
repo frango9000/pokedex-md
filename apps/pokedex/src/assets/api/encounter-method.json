@@ -199,5 +199,11 @@
   { "id": 34, "name": "bubbling-spots", "names": {} },
   { "id": 35, "name": "berry-piles", "names": {} },
   { "id": 36, "name": "npc-trade", "names": {} },
-  { "id": 37, "name": "sos-from-bubbling-spot", "names": {} }
+  { "id": 37, "name": "sos-from-bubbling-spot", "names": {} },
+  { "id": 38, "name": "overworld", "names": { "en": "Walking in the overworld" } },
+  { "id": 39, "name": "overworld-water", "names": { "en": "Surfing in the overworld" } },
+  { "id": 40, "name": "overworld-flying", "names": { "en": "Flying Pokemon in the sky" } },
+  { "id": 41, "name": "overworld-special", "names": { "en": "Rare spawn in grass with lure or catch combo" } },
+  { "id": 42, "name": "overworld-flying-special", "names": { "en": "Rare spawn in the sky with lure or catch combo" } },
+  { "id": 43, "name": "overworld-water-special", "names": { "en": "Rare spawn in water with lure or catch combo" } }
 ]

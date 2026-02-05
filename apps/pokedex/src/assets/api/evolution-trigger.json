@@ -8,20 +8,42 @@
   {
     "id": 3,
     "name": "use-item",
-    "names": { "fr": "Utilisation d'un objet", "de": "Gegenstand nutzen", "en": "Use item" }
+    "names": { "fr": "Utilisation d’un objet", "de": "Gegenstand nutzen", "en": "Use item" }
   },
   {
     "id": 4,
     "name": "shed",
-    "names": { "fr": "Place dans l'équipe et une Poké Ball", "de": "Platz im Team und ein Pokéball", "en": "Shed" }
+    "names": { "fr": "Place dans l’équipe et une Poké Ball", "de": "Platz im Team und ein Pokéball", "en": "Shed" }
   },
-  { "id": 5, "name": "spin", "names": { "en": "Spin" } },
-  { "id": 6, "name": "tower-of-darkness", "names": { "en": "Train in the Tower of Darkness" } },
-  { "id": 7, "name": "tower-of-waters", "names": { "en": "Train in the Tower of Waters" } },
-  { "id": 8, "name": "three-critical-hits", "names": { "en": "Land three critical hits in a battle" } },
-  { "id": 9, "name": "take-damage", "names": { "en": "Go somewhere after taking damage" } },
-  { "id": 10, "name": "other", "names": { "en": "Other" } },
+  { "id": 5, "name": "spin", "names": { "fr": "Tourner sur soi-même", "en": "Spin" } },
+  {
+    "id": 6,
+    "name": "tower-of-darkness",
+    "names": {
+      "fr": "Interagir avec le Rouleau des Ténèbres dans la Tour des Ténèbres",
+      "en": "Train in the Tower of Darkness"
+    }
+  },
+  {
+    "id": 7,
+    "name": "tower-of-waters",
+    "names": { "fr": "Interagir avec le Rouleau de l’Eau dans la Tour de l’Eau", "en": "Train in the Tower of Waters" }
+  },
+  {
+    "id": 8,
+    "name": "three-critical-hits",
+    "names": { "fr": "Faire 3 coups critiques en un combat", "en": "Land three critical hits in a battle" }
+  },
+  {
+    "id": 9,
+    "name": "take-damage",
+    "names": { "fr": "Aller quelque part après avoir encaissé des dommages", "en": "Go somewhere after taking damage" }
+  },
+  { "id": 10, "name": "other", "names": { "fr": "Autre", "en": "Other" } },
   { "id": 11, "name": "agile-style-move", "names": {} },
   { "id": 12, "name": "strong-style-move", "names": {} },
-  { "id": 13, "name": "recoil-damage", "names": {} }
+  { "id": 13, "name": "recoil-damage", "names": {} },
+  { "id": 14, "name": "use-move", "names": { "en": "Use move" } },
+  { "id": 15, "name": "three-defeated-bisharp", "names": { "en": "Defeat three Bisharp that hold a Leader's Crest" } },
+  { "id": 16, "name": "gimmmighoul-coins", "names": { "en": "Collect 999 Gimmighoul Coins" } }
 ]
