@@ -417,5 +417,227 @@
     "name": "other-event-arceus-in-party",
     "names": { "en": "Have an Event Arceus in the party", "fr": "En ayant un Arceus événementiel dans l’équipe" },
     "condition": "other"
-  }
+  },
+  {
+    "id": 72,
+    "name": "special-encounter-couldnt-capture-before",
+    "names": {
+      "en": "This special Pokémon couldn’t be captured in previous encounters (either fainted or ran from battle)",
+      "fr": "Ce Pokémon spécial ne pouvait pas être capturé auparavant (doit avoir été vaincu ou avoir fui le combat)"
+    },
+    "condition": "special-encounter"
+  },
+  {
+    "id": 73,
+    "name": "item-ice-key",
+    "names": { "en": "Have Ice Key in bag", "fr": "Avoir la Clé Iceberg dans le sac" },
+    "condition": "item"
+  },
+  {
+    "id": 74,
+    "name": "item-iron-key",
+    "names": { "en": "Have Iron Key in bag", "fr": "Avoir la Clé Fer dans le sac" },
+    "condition": "item"
+  },
+  {
+    "id": 75,
+    "name": "story-progress-juniper-cave-of-being",
+    "names": {
+      "en": "Spoke to Professor Juniper in the Cave of Being",
+      "fr": "Parler au Professeur Keteleeria dans la Caverne des Esprits"
+    },
+    "condition": "story-progress"
+  },
+  {
+    "id": 76,
+    "name": "item-lunar-wing",
+    "names": { "en": "Have Lunar Wing in bag", "fr": "Avoir la Plume Lune dans le sac" },
+    "condition": "item"
+  },
+  {
+    "id": 77,
+    "name": "story-progress-quake-badge",
+    "names": { "en": "Obtained Quake Badge", "fr": "Obtenir le Badge Sismique" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 78,
+    "name": "item-light-stone",
+    "names": { "en": "Have Light Stone in bag", "fr": "Avoir le Galet Blanc dans le sac" },
+    "condition": "item"
+  },
+  {
+    "id": 79,
+    "name": "item-dark-stone",
+    "names": { "en": "Have Dark Stone in bag", "fr": "Avoir le Galet Noir dans le sac" },
+    "condition": "item"
+  },
+  {
+    "id": 80,
+    "name": "other-captured-reshiram-or-zekrom",
+    "names": { "en": "Captured Reshiram or Zekrom previously", "fr": "Avoir capturé Reshiram ou Zekrom précédemment" },
+    "condition": "other"
+  },
+  {
+    "id": 81,
+    "name": "defeated-ghetsis",
+    "names": { "en": "Defeated Ghetsis", "fr": "Avoir battu Ghetis" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 82,
+    "name": "other-found-11-times-roaming",
+    "names": {
+      "en": "Has been unsuccesfully battled 11 times before",
+      "fr": "A été combattu 11 fois avant sans succès"
+    },
+    "condition": "other"
+  },
+  {
+    "id": 83,
+    "name": "time-minute-00-to-19",
+    "names": { "en": "The current minute is between 00 and 19", "fr": "La minute actuelle est entre 00 et 19" },
+    "condition": "time"
+  },
+  {
+    "id": 84,
+    "name": "time-minute-20-to-39",
+    "names": { "en": "The current minute is between 20 and 39", "fr": "La minute actuelle est entre 20 et 39" },
+    "condition": "time"
+  },
+  {
+    "id": 85,
+    "name": "time-minute-40-to-59",
+    "names": { "en": "The current minute is between 40 and 59", "fr": "La minute actuelle est entre 40 et 59" },
+    "condition": "time"
+  },
+  {
+    "id": 86,
+    "name": "time-04-00-to-19-59",
+    "names": { "en": "The current time is between 04:00 and 19:59", "fr": "L'heure actuelle est entre 04:00 et 19:59" },
+    "condition": "time"
+  },
+  {
+    "id": 87,
+    "name": "time-20-00-to-21-59",
+    "names": { "en": "The current time is between 20:00 and 21:59", "fr": "L'heure actuelle est entre 20:00 et 21:59" },
+    "condition": "time"
+  },
+  {
+    "id": 88,
+    "name": "time-21-00-to-03-59",
+    "names": { "en": "The current time is between 22:00 and 03:59", "fr": "L'heure actuelle est entre 22:00 et 03:59" },
+    "condition": "time"
+  },
+  {
+    "id": 89,
+    "name": "item-tidal-bell",
+    "names": { "en": "Have Tidal Bell in bag", "fr": "Avoir le Glas Tempête dans le sac" },
+    "condition": "item"
+  },
+  {
+    "id": 90,
+    "name": "item-clear-bell",
+    "names": { "en": "Have Clear Bell in bag", "fr": "Avoir le Glas Transparent dans le sac" },
+    "condition": "item"
+  },
+  {
+    "id": 91,
+    "name": "story-progress-defeated-groudon-or-kyogre",
+    "names": { "en": "Defeated or captured Groudon or Kyogre", "fr": "Avoir battu ou capturé Groudon ou Kyogre" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 92,
+    "name": "other-uxie-mesprit-azelf-in-party",
+    "names": {
+      "en": "Have Uxie, Mesprit, and Azelf in the party",
+      "fr": "Avoir Créhelf, Créfollet et Créfadet dans l'équipe"
+    },
+    "condition": "other"
+  },
+  {
+    "id": 93,
+    "name": "other-nicknamed-cold-item-regice-regirock-registeel3",
+    "names": {
+      "en": "After capturing the three regis in the game, have a nicknamed Regice holding a cold-based item, plus Regirock and Registeel in the party",
+      "fr": "Après avoir capturé les trois Régis du jeu, avoir un Regice surnommé portant un objet relatif à la glace, plus Regirock et Registeel dans l'équipe"
+    },
+    "condition": "other"
+  },
+  {
+    "id": 94,
+    "name": "other-dialga-or-palkia-in-party",
+    "names": { "en": "Have Dialga or Palkia in the party", "fr": "Avoir Dialga ou Palkia dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 95,
+    "name": "other-castform-in-party",
+    "names": { "en": "Have Castform in party", "fr": "Avoir Morphéo dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 96,
+    "name": "other-level-100-pokemon-in-party",
+    "names": { "en": "Have a Level 100 Pokémon in party", "fr": "Avoir un Pokémon Niveau 100 dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 97,
+    "name": "other-tornadus-thundurus-in-party",
+    "names": { "en": "Have Tornadus and Thundurus in party", "fr": "Avoir Boréas et Fulguris dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 98,
+    "name": "other-reshiram-zekrom-in-party",
+    "names": { "en": "Have Reshiram and Zekrom in party", "fr": "Avoir Reshiram et Zekrom dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 99,
+    "name": "other-captured-all-ultra-beasts",
+    "names": { "en": "Captured all Ultra Beasts", "fr": "Avoir capturé toutes les Ultra-Chimères" },
+    "condition": "other"
+  },
+  {
+    "id": 100,
+    "name": "story-progress-finished-looker-sidequest",
+    "names": { "en": "Finished Looker’s Sidequest", "fr": "Avoir fini la quête secondaire de Beladonis" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 101,
+    "name": "story-progress-beat-olivias-trial",
+    "names": { "en": "After finishing Olivia’s trial", "fr": "Après avoir fini l'Épreuve d'Alyxia" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 102,
+    "name": "other-raikou-entei-in-party",
+    "names": { "en": "Have Raikou and Entei in party", "fr": "Avoir Raikou et Entei dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 103,
+    "name": "other-groudon-kyogre-in-party",
+    "names": { "en": "Have Groudon and Kyogre in party", "fr": "Avoir Groudon et Kyogre dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 104,
+    "name": "other-dialga-palkia-in-party",
+    "names": { "en": "Have Dialga and Palkia in party", "fr": "Avoir Dialga et Palkia dans l'équipe" },
+    "condition": "other"
+  },
+  {
+    "id": 105,
+    "name": "other-scan-qr-code",
+    "names": { "en": "Scan a specific QR Code", "fr": "Scanner un code QR spécifique" },
+    "condition": "other"
+  },
+  { "id": 106, "name": "other-caught-articuno", "names": {}, "condition": "other" },
+  { "id": 107, "name": "other-caught-zapdos", "names": {}, "condition": "other" },
+  { "id": 108, "name": "other-caught-moltres", "names": {}, "condition": "other" }
 ]
