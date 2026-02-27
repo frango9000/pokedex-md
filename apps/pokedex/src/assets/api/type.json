@@ -10,16 +10,7 @@
       "no_damage_from": ["ghost"],
       "no_damage_to": ["ghost"]
     },
-    "names": {
-      "ja-Hrkt": "ノーマル",
-      "ko": "노말",
-      "zh-Hant": "一般",
-      "fr": "Normal",
-      "de": "Normal",
-      "es": "Normal",
-      "it": "Normale",
-      "en": "Normal"
-    },
+    "names": { "ko": "노말", "fr": "Normal", "de": "Normal", "es": "Normal", "it": "Normale", "en": "Normal" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -34,16 +25,7 @@
       "no_damage_from": [],
       "no_damage_to": ["ghost"]
     },
-    "names": {
-      "ja-Hrkt": "かくとう",
-      "ko": "격투",
-      "zh-Hant": "格鬥",
-      "fr": "Combat",
-      "de": "Kampf",
-      "es": "Lucha",
-      "it": "Lotta",
-      "en": "Fighting"
-    },
+    "names": { "ko": "격투", "fr": "Combat", "de": "Kampf", "es": "Lucha", "it": "Lotta", "en": "Fighting" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -58,16 +40,7 @@
       "no_damage_from": ["ground"],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "ひこう",
-      "ko": "비행",
-      "zh-Hant": "飛行",
-      "fr": "Vol",
-      "de": "Flug",
-      "es": "Volador",
-      "it": "Volante",
-      "en": "Flying"
-    },
+    "names": { "ko": "비행", "fr": "Vol", "de": "Flug", "es": "Volador", "it": "Volante", "en": "Flying" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -82,16 +55,7 @@
       "no_damage_from": [],
       "no_damage_to": ["steel"]
     },
-    "names": {
-      "ja-Hrkt": "どく",
-      "ko": "독",
-      "zh-Hant": "毒",
-      "fr": "Poison",
-      "de": "Gift",
-      "es": "Veneno",
-      "it": "Veleno",
-      "en": "Poison"
-    },
+    "names": { "ko": "독", "fr": "Poison", "de": "Gift", "es": "Veneno", "it": "Veleno", "en": "Poison" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -106,16 +70,7 @@
       "no_damage_from": ["electric"],
       "no_damage_to": ["flying"]
     },
-    "names": {
-      "ja-Hrkt": "じめん",
-      "ko": "땅",
-      "zh-Hant": "地面",
-      "fr": "Sol",
-      "de": "Boden",
-      "es": "Tierra",
-      "it": "Terra",
-      "en": "Ground"
-    },
+    "names": { "ko": "땅", "fr": "Sol", "de": "Boden", "es": "Tierra", "it": "Terra", "en": "Ground" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -130,16 +85,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "いわ",
-      "ko": "바위",
-      "zh-Hant": "岩石",
-      "fr": "Roche",
-      "de": "Gestein",
-      "es": "Roca",
-      "it": "Roccia",
-      "en": "Rock"
-    },
+    "names": { "ko": "바위", "fr": "Roche", "de": "Gestein", "es": "Roca", "it": "Roccia", "en": "Rock" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -154,16 +100,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "むし",
-      "ko": "벌레",
-      "zh-Hant": "蟲",
-      "fr": "Insecte",
-      "de": "Käfer",
-      "es": "Bicho",
-      "it": "Coleottero",
-      "en": "Bug"
-    },
+    "names": { "ko": "벌레", "fr": "Insecte", "de": "Käfer", "es": "Bicho", "it": "Coleottero", "en": "Bug" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -178,16 +115,7 @@
       "no_damage_from": ["normal", "fighting"],
       "no_damage_to": ["normal"]
     },
-    "names": {
-      "ja-Hrkt": "ゴースト",
-      "ko": "고스트",
-      "zh-Hant": "幽靈",
-      "fr": "Spectre",
-      "de": "Geist",
-      "es": "Fantasma",
-      "it": "Spettro",
-      "en": "Ghost"
-    },
+    "names": { "ko": "고스트", "fr": "Spectre", "de": "Geist", "es": "Fantasma", "it": "Spettro", "en": "Ghost" },
     "generation": "generation-i",
     "move_damage_class": "physical"
   },
@@ -202,16 +130,7 @@
       "no_damage_from": ["poison"],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "はがね",
-      "ko": "강철",
-      "zh-Hant": "鋼",
-      "fr": "Acier",
-      "de": "Stahl",
-      "es": "Acero",
-      "it": "Acciaio",
-      "en": "Steel"
-    },
+    "names": { "ko": "강철", "fr": "Acier", "de": "Stahl", "es": "Acero", "it": "Acciaio", "en": "Steel" },
     "generation": "generation-ii",
     "move_damage_class": "physical"
   },
@@ -226,16 +145,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "ほのお",
-      "ko": "불꽃",
-      "zh-Hant": "火",
-      "fr": "Feu",
-      "de": "Feuer",
-      "es": "Fuego",
-      "it": "Fuoco",
-      "en": "Fire"
-    },
+    "names": { "ko": "불꽃", "fr": "Feu", "de": "Feuer", "es": "Fuego", "it": "Fuoco", "en": "Fire" },
     "generation": "generation-i",
     "move_damage_class": "special"
   },
@@ -250,16 +160,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "みず",
-      "ko": "물",
-      "zh-Hant": "水",
-      "fr": "Eau",
-      "de": "Wasser",
-      "es": "Agua",
-      "it": "Acqua",
-      "en": "Water"
-    },
+    "names": { "ko": "물", "fr": "Eau", "de": "Wasser", "es": "Agua", "it": "Acqua", "en": "Water" },
     "generation": "generation-i",
     "move_damage_class": "special"
   },
@@ -274,16 +175,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "くさ",
-      "ko": "풀",
-      "zh-Hant": "草",
-      "fr": "Plante",
-      "de": "Pflanze",
-      "es": "Planta",
-      "it": "Erba",
-      "en": "Grass"
-    },
+    "names": { "ko": "풀", "fr": "Plante", "de": "Pflanze", "es": "Planta", "it": "Erba", "en": "Grass" },
     "generation": "generation-i",
     "move_damage_class": "special"
   },
@@ -298,16 +190,7 @@
       "no_damage_from": [],
       "no_damage_to": ["ground"]
     },
-    "names": {
-      "ja-Hrkt": "でんき",
-      "ko": "전기",
-      "zh-Hant": "電",
-      "fr": "Électrik",
-      "de": "Elektro",
-      "es": "Eléctrico",
-      "it": "Elettro",
-      "en": "Electric"
-    },
+    "names": { "ko": "전기", "fr": "Électrik", "de": "Elektro", "es": "Eléctrico", "it": "Elettro", "en": "Electric" },
     "generation": "generation-i",
     "move_damage_class": "special"
   },
@@ -322,16 +205,7 @@
       "no_damage_from": [],
       "no_damage_to": ["dark"]
     },
-    "names": {
-      "ja-Hrkt": "エスパー",
-      "ko": "에스퍼",
-      "zh-Hant": "超能力",
-      "fr": "Psy",
-      "de": "Psycho",
-      "es": "Psíquico",
-      "it": "Psico",
-      "en": "Psychic"
-    },
+    "names": { "ko": "에스퍼", "fr": "Psy", "de": "Psycho", "es": "Psíquico", "it": "Psico", "en": "Psychic" },
     "generation": "generation-i",
     "move_damage_class": "special"
   },
@@ -346,16 +220,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "こおり",
-      "ko": "얼음",
-      "zh-Hant": "冰",
-      "fr": "Glace",
-      "de": "Eis",
-      "es": "Hielo",
-      "it": "Ghiaccio",
-      "en": "Ice"
-    },
+    "names": { "ko": "얼음", "fr": "Glace", "de": "Eis", "es": "Hielo", "it": "Ghiaccio", "en": "Ice" },
     "generation": "generation-i",
     "move_damage_class": "special"
   },
@@ -370,16 +235,7 @@
       "no_damage_from": [],
       "no_damage_to": ["fairy"]
     },
-    "names": {
-      "ja-Hrkt": "ドラゴン",
-      "ko": "드래곤",
-      "zh-Hant": "龍",
-      "fr": "Dragon",
-      "de": "Drache",
-      "es": "Dragón",
-      "it": "Drago",
-      "en": "Dragon"
-    },
+    "names": { "ko": "드래곤", "fr": "Dragon", "de": "Drache", "es": "Dragón", "it": "Drago", "en": "Dragon" },
     "generation": "generation-i",
     "move_damage_class": "special"
   },
@@ -394,16 +250,7 @@
       "no_damage_from": ["psychic"],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "あく",
-      "ko": "악",
-      "zh-Hant": "惡",
-      "fr": "Ténèbres",
-      "de": "Unlicht",
-      "es": "Siniestro",
-      "it": "Buio",
-      "en": "Dark"
-    },
+    "names": { "ko": "악", "fr": "Ténèbres", "de": "Unlicht", "es": "Siniestro", "it": "Buio", "en": "Dark" },
     "generation": "generation-ii",
     "move_damage_class": "special"
   },
@@ -418,16 +265,7 @@
       "no_damage_from": ["dragon"],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "フェアリー",
-      "ko": "페어리",
-      "zh-Hant": "妖精",
-      "fr": "Fée",
-      "de": "Fee",
-      "es": "Hada",
-      "it": "Folletto",
-      "en": "Fairy"
-    },
+    "names": { "ko": "페어리", "fr": "Fée", "de": "Fee", "es": "Hada", "it": "Folletto", "en": "Fairy" },
     "generation": "generation-vi",
     "move_damage_class": "special"
   },
@@ -442,17 +280,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "ステラ",
-      "roomaji": " Stella",
-      "ko": " 스텔라",
-      "zh-Hant": "星晶",
-      "fr": "Stellaire",
-      "de": "Stellar",
-      "es": "Astral",
-      "it": "Astrale",
-      "en": "Stellar"
-    },
+    "names": { "ko": " 스텔라", "fr": "Stellaire", "de": "Stellar", "es": "Astral", "it": "Astrale", "en": "Stellar" },
     "generation": "generation-ix",
     "move_damage_class": "special"
   },
@@ -467,16 +295,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "？？？",
-      "ko": "???",
-      "zh-Hant": "???",
-      "fr": "???",
-      "de": "???",
-      "es": "???",
-      "it": "???",
-      "en": "???"
-    },
+    "names": { "ko": "???", "fr": "???", "de": "???", "es": "???", "it": "???", "en": "???" },
     "generation": "generation-ii",
     "move_damage_class": "special"
   },
@@ -491,15 +310,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": {
-      "ja-Hrkt": "ダーク",
-      "ko": "다크",
-      "zh-Hant": "暗",
-      "fr": "Obscur",
-      "de": "Crypto",
-      "it": "Ombra",
-      "en": "Shadow"
-    },
+    "names": { "ko": "다크", "fr": "Obscur", "de": "Crypto", "it": "Ombra", "en": "Shadow" },
     "generation": "generation-iii",
     "move_damage_class": "special"
   }

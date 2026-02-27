@@ -2,85 +2,38 @@
   {
     "id": 1,
     "name": "red",
-    "names": {
-      "ja-Hrkt": "赤",
-      "ko": "레드",
-      "zh-Hant": "紅",
-      "fr": "Rouge",
-      "de": "Rot",
-      "es": "Rojo",
-      "it": "Rossa",
-      "en": "Red"
-    },
+    "names": { "ko": "레드", "fr": "Rouge", "de": "Rot", "es": "Rojo", "it": "Rossa", "en": "Red" },
     "version_group": "red-blue"
   },
   {
     "id": 2,
     "name": "blue",
-    "names": {
-      "ja-Hrkt": "緑",
-      "ko": "블루",
-      "zh-Hant": "藍",
-      "fr": "Bleu",
-      "de": "Blau",
-      "es": "Azul",
-      "it": "Blu",
-      "en": "Blue"
-    },
+    "names": { "ko": "블루", "fr": "Bleu", "de": "Blau", "es": "Azul", "it": "Blu", "en": "Blue" },
     "version_group": "red-blue"
   },
   {
     "id": 3,
     "name": "yellow",
-    "names": {
-      "ja-Hrkt": "ピカチュウ",
-      "ko": "피카츄",
-      "zh-Hant": "皮卡丘",
-      "fr": "Jaune",
-      "de": "Gelb",
-      "es": "Amarillo",
-      "it": "Gialla",
-      "en": "Yellow"
-    },
+    "names": { "ko": "피카츄", "fr": "Jaune", "de": "Gelb", "es": "Amarillo", "it": "Gialla", "en": "Yellow" },
     "version_group": "yellow"
   },
   {
     "id": 4,
     "name": "gold",
-    "names": {
-      "ja-Hrkt": "金",
-      "ko": "골드",
-      "zh-Hant": "金",
-      "fr": "Or",
-      "de": "Gold",
-      "es": "Oro",
-      "it": "Oro",
-      "en": "Gold"
-    },
+    "names": { "ko": "골드", "fr": "Or", "de": "Gold", "es": "Oro", "it": "Oro", "en": "Gold" },
     "version_group": "gold-silver"
   },
   {
     "id": 5,
     "name": "silver",
-    "names": {
-      "ja-Hrkt": "銀",
-      "ko": "실버",
-      "zh-Hant": "銀",
-      "fr": "Argent",
-      "de": "Silber",
-      "es": "Plata",
-      "it": "Argento",
-      "en": "Silver"
-    },
+    "names": { "ko": "실버", "fr": "Argent", "de": "Silber", "es": "Plata", "it": "Argento", "en": "Silver" },
     "version_group": "gold-silver"
   },
   {
     "id": 6,
     "name": "crystal",
     "names": {
-      "ja-Hrkt": "クリスタル",
       "ko": "크리스탈",
-      "zh-Hant": "水晶",
       "fr": "Cristal",
       "de": "Kristall",
       "es": "Cristal",
@@ -92,40 +45,20 @@
   {
     "id": 7,
     "name": "ruby",
-    "names": {
-      "ja-Hrkt": "ルビー",
-      "ko": "루비",
-      "zh-Hant": "紅寶石",
-      "fr": "Rubis",
-      "de": "Rubin",
-      "es": "Rubí",
-      "it": "Rubino",
-      "en": "Ruby"
-    },
+    "names": { "ko": "루비", "fr": "Rubis", "de": "Rubin", "es": "Rubí", "it": "Rubino", "en": "Ruby" },
     "version_group": "ruby-sapphire"
   },
   {
     "id": 8,
     "name": "sapphire",
-    "names": {
-      "ja-Hrkt": "サファイア",
-      "ko": "사파이어",
-      "zh-Hant": "藍寶石",
-      "fr": "Saphir",
-      "de": "Saphir",
-      "es": "Zafiro",
-      "it": "Zaffiro",
-      "en": "Sapphire"
-    },
+    "names": { "ko": "사파이어", "fr": "Saphir", "de": "Saphir", "es": "Zafiro", "it": "Zaffiro", "en": "Sapphire" },
     "version_group": "ruby-sapphire"
   },
   {
     "id": 9,
     "name": "emerald",
     "names": {
-      "ja-Hrkt": "エメラルド",
       "ko": "에메랄드",
-      "zh-Hant": "綠寶石",
       "fr": "Émeraude",
       "de": "Smaragd",
       "es": "Esmeralda",
@@ -138,9 +71,7 @@
     "id": 10,
     "name": "firered",
     "names": {
-      "ja-Hrkt": "ファイアレッド",
       "ko": "파이어레드",
-      "zh-Hant": "火紅",
       "fr": "Rouge Feu",
       "de": "Feuerrot",
       "es": "Rojo Fuego",
@@ -153,9 +84,7 @@
     "id": 11,
     "name": "leafgreen",
     "names": {
-      "ja-Hrkt": "リーフグリーン",
       "ko": "리프그린",
-      "zh-Hant": "葉綠",
       "fr": "Vert Feuille",
       "de": "Blattgrün",
       "es": "Verde Hoja",
@@ -168,9 +97,7 @@
     "id": 12,
     "name": "diamond",
     "names": {
-      "ja-Hrkt": "ダイヤモンド",
       "ko": "디아루가",
-      "zh-Hant": "鑽石",
       "fr": "Diamant",
       "de": "Diamant",
       "es": "Diamante",
@@ -182,40 +109,20 @@
   {
     "id": 13,
     "name": "pearl",
-    "names": {
-      "ja-Hrkt": "パール",
-      "ko": "펄기아",
-      "zh-Hant": "珍珠",
-      "fr": "Perle",
-      "de": "Perl",
-      "es": "Perla",
-      "it": "Perla",
-      "en": "Pearl"
-    },
+    "names": { "ko": "펄기아", "fr": "Perle", "de": "Perl", "es": "Perla", "it": "Perla", "en": "Pearl" },
     "version_group": "diamond-pearl"
   },
   {
     "id": 14,
     "name": "platinum",
-    "names": {
-      "ja-Hrkt": "プラチナ",
-      "ko": "기라티나",
-      "zh-Hant": "白金",
-      "fr": "Platine",
-      "de": "Platin",
-      "es": "Platino",
-      "it": "Platino",
-      "en": "Platinum"
-    },
+    "names": { "ko": "기라티나", "fr": "Platine", "de": "Platin", "es": "Platino", "it": "Platino", "en": "Platinum" },
     "version_group": "platinum"
   },
   {
     "id": 15,
     "name": "heartgold",
     "names": {
-      "ja-Hrkt": "ハートゴールド",
       "ko": "하트골드",
-      "zh-Hant": "心金",
       "fr": "Or HeartGold",
       "de": "HeartGold",
       "es": "Oro HeartGold",
@@ -228,9 +135,7 @@
     "id": 16,
     "name": "soulsilver",
     "names": {
-      "ja-Hrkt": "ソウルシルバー",
       "ko": "소울실버",
-      "zh-Hant": "魂銀",
       "fr": "Argent SoulSilver",
       "de": "SoulSilver",
       "es": "Plata SoulSilver",
@@ -242,38 +147,19 @@
   {
     "id": 17,
     "name": "black",
-    "names": {
-      "ja-Hrkt": "ブラック",
-      "ko": "블랙",
-      "zh-Hant": "黑",
-      "fr": "Noir",
-      "de": "Schwarz",
-      "es": "Negro",
-      "it": "Nera",
-      "en": "Black"
-    },
+    "names": { "ko": "블랙", "fr": "Noir", "de": "Schwarz", "es": "Negro", "it": "Nera", "en": "Black" },
     "version_group": "black-white"
   },
   {
     "id": 18,
     "name": "white",
-    "names": {
-      "ja-Hrkt": "ホワイト",
-      "ko": "화이트",
-      "zh-Hant": "白",
-      "fr": "Blanc",
-      "de": "Weiß",
-      "es": "Blanco",
-      "it": "Bianca",
-      "en": "White"
-    },
+    "names": { "ko": "화이트", "fr": "Blanc", "de": "Weiß", "es": "Blanco", "it": "Bianca", "en": "White" },
     "version_group": "black-white"
   },
   {
     "id": 19,
     "name": "colosseum",
     "names": {
-      "ja-Hrkt": "コロシアム",
       "ko": "콜로세움",
       "fr": "Colosseum",
       "de": "Colosseum",
@@ -286,58 +172,38 @@
   {
     "id": 20,
     "name": "xd",
-    "names": { "ja-Hrkt": "XD", "ko": "XD", "fr": "XD", "de": "XD", "es": "XD", "it": "XD", "en": "XD" },
+    "names": { "ko": "XD", "fr": "XD", "de": "XD", "es": "XD", "it": "XD", "en": "XD" },
     "version_group": "xd"
   },
   {
     "id": 21,
     "name": "black-2",
-    "names": {
-      "ja-Hrkt": "ブラック2",
-      "ko": "블랙 2",
-      "zh-Hant": "黑2",
-      "fr": "Noir 2",
-      "de": "Schwarz 2",
-      "es": "Negro 2",
-      "it": "Nera 2",
-      "en": "Black 2"
-    },
+    "names": { "ko": "블랙 2", "fr": "Noir 2", "de": "Schwarz 2", "es": "Negro 2", "it": "Nera 2", "en": "Black 2" },
     "version_group": "black-2-white-2"
   },
   {
     "id": 22,
     "name": "white-2",
-    "names": {
-      "ja-Hrkt": "ホワイト2",
-      "ko": "화이트 2",
-      "zh-Hant": "白",
-      "fr": "Blanc 2",
-      "de": "Weiß 2",
-      "es": "Blanco 2",
-      "it": "Bianca 2",
-      "en": "White 2"
-    },
+    "names": { "ko": "화이트 2", "fr": "Blanc 2", "de": "Weiß 2", "es": "Blanco 2", "it": "Bianca 2", "en": "White 2" },
     "version_group": "black-2-white-2"
   },
   {
     "id": 23,
     "name": "x",
-    "names": { "ja-Hrkt": "X", "ko": "X", "zh-Hant": "X", "fr": "X", "de": "X", "es": "X", "it": "X", "en": "X" },
+    "names": { "ko": "X", "fr": "X", "de": "X", "es": "X", "it": "X", "en": "X" },
     "version_group": "x-y"
   },
   {
     "id": 24,
     "name": "y",
-    "names": { "ja-Hrkt": "Y", "ko": "Y", "zh-Hant": "Y", "fr": "Y", "de": "Y", "es": "Y", "it": "Y", "en": "Y" },
+    "names": { "ko": "Y", "fr": "Y", "de": "Y", "es": "Y", "it": "Y", "en": "Y" },
     "version_group": "x-y"
   },
   {
     "id": 25,
     "name": "omega-ruby",
     "names": {
-      "ja-Hrkt": "オメガルビー",
       "ko": "오메가루비",
-      "zh-Hant": "歐米加紅寶石",
       "fr": "Rubis Oméga",
       "de": "Omega Rubin",
       "es": "Rubí Omega",
@@ -350,9 +216,7 @@
     "id": 26,
     "name": "alpha-sapphire",
     "names": {
-      "ja-Hrkt": "アルファサファイア",
       "ko": "알파사파이어",
-      "zh-Hant": "阿爾法藍寶石",
       "fr": "Saphir Alpha",
       "de": "Alpha Saphir",
       "es": "Zafiro Alfa",
@@ -364,40 +228,20 @@
   {
     "id": 27,
     "name": "sun",
-    "names": {
-      "ja-Hrkt": "サン",
-      "ko": "썬",
-      "zh-Hant": "太陽",
-      "fr": "Soleil",
-      "de": "Sonne",
-      "es": "Sol",
-      "it": "Sole",
-      "en": "Sun"
-    },
+    "names": { "ko": "썬", "fr": "Soleil", "de": "Sonne", "es": "Sol", "it": "Sole", "en": "Sun" },
     "version_group": "sun-moon"
   },
   {
     "id": 28,
     "name": "moon",
-    "names": {
-      "ja-Hrkt": "ムーン",
-      "ko": "문",
-      "zh-Hant": "月亮",
-      "fr": "Lune",
-      "de": "Mond",
-      "es": "Luna",
-      "it": "Luna",
-      "en": "Moon"
-    },
+    "names": { "ko": "문", "fr": "Lune", "de": "Mond", "es": "Luna", "it": "Luna", "en": "Moon" },
     "version_group": "sun-moon"
   },
   {
     "id": 29,
     "name": "ultra-sun",
     "names": {
-      "ja-Hrkt": "ウルトラサン",
       "ko": "울트라썬",
-      "zh-Hant": "究極之日",
       "fr": "Ultra-Soleil",
       "de": "Ultrasonne",
       "es": "Ultrasol",
@@ -410,9 +254,7 @@
     "id": 30,
     "name": "ultra-moon",
     "names": {
-      "ja-Hrkt": "ウルトラムーン",
       "ko": "울트라문",
-      "zh-Hant": "究極之月",
       "fr": "Ultra-Lune",
       "de": "Ultramond",
       "es": "Ultraluna",
@@ -425,14 +267,12 @@
     "id": 31,
     "name": "lets-go-pikachu",
     "names": {
-      "ja-Hrkt": "Let's Go! ピカチュウ",
       "ko": "레츠고! 피카츄",
-      "zh-Hant": "Let's Go！皮卡丘",
-      "fr": "Let's Go, Pikachu",
-      "de": "Let's Go, Pikachu!",
-      "es": "Let's Go, Pikachu!",
-      "it": "Let's Go, Pikachu!",
-      "en": "Let's Go, Pikachu!"
+      "fr": "Let’s Go, Pikachu",
+      "de": "Let’s Go, Pikachu!",
+      "es": "Let’s Go, Pikachu!",
+      "it": "Let’s Go, Pikachu!",
+      "en": "Let’s Go, Pikachu!"
     },
     "version_group": "lets-go-pikachu-lets-go-eevee"
   },
@@ -440,58 +280,36 @@
     "id": 32,
     "name": "lets-go-eevee",
     "names": {
-      "ja-Hrkt": "Let's Go! イーブイ",
       "ko": "레츠고! 이브이",
-      "zh-Hant": "Let's Go！伊布",
-      "fr": "Let's Go, Évoli",
-      "de": "Let's Go, Evoli!",
-      "it": "Let's Go, Eevee!",
-      "es": "Let's Go, Eevee!",
-      "en": "Let's Go, Eevee!"
+      "fr": "Let’s Go, Évoli",
+      "de": "Let’s Go, Evoli!",
+      "it": "Let’s Go, Eevee!",
+      "es": "Let’s Go, Eevee!",
+      "en": "Let’s Go, Eevee!"
     },
     "version_group": "lets-go-pikachu-lets-go-eevee"
   },
   {
     "id": 33,
     "name": "sword",
-    "names": {
-      "ja-Hrkt": " ソード",
-      "ko": "소드",
-      "zh-Hant": "劍",
-      "fr": "Épée",
-      "de": "Schwert",
-      "es": "Espada",
-      "it": "çSpada",
-      "en": "Sword"
-    },
+    "names": { "ko": "소드", "fr": "Épée", "de": "Schwert", "es": "Espada", "it": "Spada", "en": "Sword" },
     "version_group": "sword-shield"
   },
   {
     "id": 34,
     "name": "shield",
-    "names": {
-      "ja-Hrkt": "シールド",
-      "ko": "실드",
-      "zh-Hant": "盾",
-      "fr": "Bouclier",
-      "de": "Schild",
-      "es": "Escudo",
-      "it": "Spada",
-      "en": "Shield"
-    },
+    "names": { "ko": "실드", "fr": "Bouclier", "de": "Schild", "es": "Escudo", "it": "Scudo", "en": "Shield" },
     "version_group": "sword-shield"
   },
   {
     "id": 35,
     "name": "the-isle-of-armor",
     "names": {
-      "ja-Hrkt": "鎧の孤島",
       "ko": "갑옷의 외딴섬",
-      "zh-Hant": "鎧之孤島",
-      "fr": "L'île solitaire de l'Armure",
+      "fr": "L’île solitaire de l’Armure",
       "de": "Die Insel der Rüstung",
       "es": "La isla de la armadura",
-      "it": "L'isola solitaria dell'armatura",
+      "it": "L’isola solitaria dell’armatura",
       "en": "The Isle of Armor"
     },
     "version_group": "the-isle-of-armor"
@@ -500,9 +318,7 @@
     "id": 36,
     "name": "the-crown-tundra",
     "names": {
-      "ja-Hrkt": "冠の雪原",
       "ko": "왕관의 설원",
-      "zh-Hant": "冠之雪原",
       "fr": "Les terres enneigées de la Couronne",
       "de": "Die Schneelande der Krone",
       "es": "Las nieves de la corona",
@@ -515,39 +331,33 @@
     "id": 37,
     "name": "brilliant-diamond",
     "names": {
-      "ja-Hrkt": "ブリリアントダイヤモンド",
       "ko": "브릴리언트 다이아몬드",
-      "zh-Hant": "晶燦鑽石",
       "fr": "Diamant Étincelant",
       "de": "Strahlender Diamant",
       "es": "Diamante Brillante",
       "it": "Diamante Lucente",
       "en": "Brilliant Diamond"
     },
-    "version_group": "brilliant-diamond-and-shining-pearl"
+    "version_group": "brilliant-diamond-shining-pearl"
   },
   {
     "id": 38,
     "name": "shining-pearl",
     "names": {
-      "ja-Hrkt": "シャイニングパール",
       "ko": "샤이닝 펄",
-      "zh-Hant": "明亮珍珠",
       "fr": "Perle Scintillante",
       "de": "Leuchtende Perle",
       "es": "Perla Reluciente",
       "it": "Perla Splendente",
       "en": "Shining Pearl"
     },
-    "version_group": "brilliant-diamond-and-shining-pearl"
+    "version_group": "brilliant-diamond-shining-pearl"
   },
   {
     "id": 39,
     "name": "legends-arceus",
     "names": {
-      "ja-Hrkt": "LEGENDS アルセウス",
       "ko": "LEGENDS 아르세우스",
-      "zh-Hant": "傳說 阿爾宙斯",
       "fr": "Légendes : Arceus",
       "de": "Legenden: Arceus",
       "es": "Leyendas: Arceus",
@@ -560,9 +370,7 @@
     "id": 40,
     "name": "scarlet",
     "names": {
-      "ja-Hrkt": "スカーレット",
       "ko": "스칼렛",
-      "zh-Hant": "朱",
       "fr": "Écarlate",
       "de": "Karmesin",
       "es": "Escarlata",
@@ -574,28 +382,18 @@
   {
     "id": 41,
     "name": "violet",
-    "names": {
-      "ja-Hrkt": "バイオレット",
-      "ko": "바이올렛",
-      "zh-Hant": "紫",
-      "fr": "Violet",
-      "de": "Purpur",
-      "es": "Púrpura",
-      "it": "Violetto",
-      "en": "Violet"
-    },
+    "names": { "ko": "바이올렛", "fr": "Violet", "de": "Purpur", "es": "Púrpura", "it": "Violetto", "en": "Violet" },
     "version_group": "scarlet-violet"
   },
   {
     "id": 42,
     "name": "the-teal-mask",
     "names": {
-      "ja-Hrkt": "みどりのかめん",
-      "fr": "Le masque turquoise",
-      "de": "Die türkisgrüne maske",
+      "fr": "Le Masque Turquoise",
+      "de": "Die Türkisgrüne Maske",
       "es": "La máscara turquesa",
       "it": "La maschera turchese",
-      "en": "The teal mask"
+      "en": "The Teal Mask"
     },
     "version_group": "the-teal-mask"
   },
@@ -603,13 +401,42 @@
     "id": 43,
     "name": "the-indigo-disk",
     "names": {
-      "ja-Hrkt": "あおのえんばん",
-      "fr": "Le disque indigo",
-      "de": "Die indigoblaue scheibe",
+      "fr": "Le Disque Indigo",
+      "de": "Die Indigoblaue Scheibe",
       "es": "El disco índigo",
       "it": "Il disco indaco",
-      "en": "The indigo disk"
+      "en": "The Indigo Disk"
     },
     "version_group": "the-indigo-disk"
+  },
+  {
+    "id": 44,
+    "name": "red-japan",
+    "names": { "ko": "레드", "fr": "Rouge", "de": "Rot", "es": "Rojo", "it": "Rossa", "en": "Red" },
+    "version_group": "red-green-japan"
+  },
+  {
+    "id": 45,
+    "name": "green-japan",
+    "names": { "ko": "그린", "fr": "Vert", "de": "Grüne", "es": "Verde", "it": "Verde", "en": "Green" },
+    "version_group": "red-green-japan"
+  },
+  {
+    "id": 46,
+    "name": "blue-japan",
+    "names": { "ko": "블루", "fr": "Bleu", "de": "Blau", "es": "Azul", "it": "Blu", "en": "Blue" },
+    "version_group": "blue-japan"
+  },
+  {
+    "id": 47,
+    "name": "legends-za",
+    "names": { "fr": "Légendes : Z-A", "en": "Legends: ZA" },
+    "version_group": "legends-za"
+  },
+  {
+    "id": 48,
+    "name": "mega-dimension",
+    "names": { "fr": "Méga-Dimension", "en": "Mega Dimension" },
+    "version_group": "mega-dimension"
   }
 ]
