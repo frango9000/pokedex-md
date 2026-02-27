@@ -3,7 +3,11 @@ name: Rebuild Api
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 1 * *'
+    - cron: '0 4 * * 4'
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   rebuild:
@@ -48,7 +52,11 @@ jobs:
         run: |
           git config user.name "Poke Bot"
           git config user.email "frango9000@users.noreply.github.com"
-          CURRENT_BRANCH=api/$(date +%Y-%m)
+          git ls-remote --heads origin 'api/*' | awk '{print $2}' | sed 's|refs/heads/||' | while read -r branch; do
+            gh pr list --head "$branch" --state open --json number --jq '.[].number' | xargs -r -I{} gh pr close {} --comment "Superseded by new weekly API build" || true
+            git push origin --delete "$branch" || true
+          done
+          CURRENT_BRANCH=api/$(date +%Y-%U)
           git checkout -b $CURRENT_BRANCH
           git add ./apps/pokedex/src/assets/api
           git commit -m "Chore(api): $CURRENT_BRANCH"
