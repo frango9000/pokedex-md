@@ -2,9 +2,6 @@ name: Delete Api Branches
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - copilot/delete-branches-starting-with-api
 
 permissions:
   contents: write
