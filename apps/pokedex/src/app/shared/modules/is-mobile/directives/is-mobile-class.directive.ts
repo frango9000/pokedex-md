@@ -8,7 +8,7 @@ import { IsMobileService } from '../is-mobile.service';
 export class IsMobileClassDirective {
   private readonly isMobileService: IsMobileService = inject(IsMobileService);
   private readonly cdr: ChangeDetectorRef = inject(ChangeDetectorRef);
-  @HostBinding('class.mobile') private isMobile = false;
+  @HostBinding('class.mobile') isMobile = false;
 
   constructor() {
     this.isMobileService.isMobile$.pipe(untilDestroyed(this)).subscribe((isMobile) => {

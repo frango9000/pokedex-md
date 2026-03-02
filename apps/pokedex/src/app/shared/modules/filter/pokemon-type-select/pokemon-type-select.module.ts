@@ -8,11 +8,11 @@ import { TypeButtonComponent } from '../../../../modules/type/shared/components/
 import { PokemonTypeSelectComponent } from './pokemon-type-select.component';
 
 @NgModule({
-  declarations: [PokemonTypeSelectComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     MatSelectModule,
+    PokemonTypeSelectComponent,
 
     FormlyMatFormFieldModule,
     FormlyModule.forChild({

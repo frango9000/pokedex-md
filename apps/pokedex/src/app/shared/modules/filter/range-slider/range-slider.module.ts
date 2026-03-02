@@ -9,12 +9,12 @@ import { FormlyMatFormFieldModule } from '@ngx-formly/material/form-field';
 import { FormlyFieldRangeSlider } from './range-slider.type';
 
 @NgModule({
-  declarations: [FormlyFieldRangeSlider],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     MatSliderModule,
     FormlyMatFormFieldModule,
+    FormlyFieldRangeSlider,
     FormlyModule.forChild({
       types: [
         {

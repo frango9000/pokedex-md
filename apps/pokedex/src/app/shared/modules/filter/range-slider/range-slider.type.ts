@@ -1,7 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, OnInit, Type } from '@angular/core';
-import { FieldTypeConfig, FormlyFieldConfig } from '@ngx-formly/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSliderModule } from '@angular/material/slider';
+import { FieldTypeConfig, FormlyFieldConfig, FormlyModule } from '@ngx-formly/core';
 import { FieldType, FormlyFieldProps } from '@ngx-formly/material/form-field';
-import { FormlyFieldSlider } from '@ngx-formly/material/slider/slider.type';
 import { startWith } from 'rxjs';
 
 interface SliderProps extends FormlyFieldProps {
@@ -11,12 +15,22 @@ interface SliderProps extends FormlyFieldProps {
 }
 
 export interface FormlySliderFieldConfig extends FormlyFieldConfig<SliderProps> {
-  type: 'range-slider' | Type<FormlyFieldSlider>;
+  type: 'range-slider' | Type<FormlyFieldRangeSlider>;
 }
 
 @Component({
   // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'formly-field-mat-range-slider',
+  standalone: true,
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatSliderModule,
+    MatButtonModule,
+    MatIconModule,
+    FormlyModule,
+  ],
   template: `
     <mat-slider
       [id]="id"

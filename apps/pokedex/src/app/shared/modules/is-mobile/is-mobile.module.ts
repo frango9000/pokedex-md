@@ -7,7 +7,7 @@ import { IsMobilePipe } from './is-mobile.pipe';
 import { IsMobileService } from './is-mobile.service';
 
 @NgModule({
-  declarations: [IsMobilePipe, IsMobileDirective, IfIsMobileDirective, IfIsDesktopDirective, IsMobileClassDirective],
+  imports: [IsMobilePipe, IsMobileDirective, IfIsMobileDirective, IfIsDesktopDirective, IsMobileClassDirective],
   exports: [IsMobilePipe, IsMobileDirective, IfIsMobileDirective, IfIsDesktopDirective, IsMobileClassDirective],
   providers: [IsMobileService],
 })

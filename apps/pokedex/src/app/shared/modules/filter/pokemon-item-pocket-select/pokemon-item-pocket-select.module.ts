@@ -8,11 +8,11 @@ import { FormlyMatFormFieldModule } from '@ngx-formly/material/form-field';
 import { PokemonItemPocketSelectComponent } from './pokemon-item-pocket-select.component';
 
 @NgModule({
-  declarations: [PokemonItemPocketSelectComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     MatSelectModule,
+    PokemonItemPocketSelectComponent,
 
     FormlyMatFormFieldModule,
     FormlyModule.forChild({

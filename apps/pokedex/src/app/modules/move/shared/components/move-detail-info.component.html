@@ -6,7 +6,7 @@
         <div class="mat-cell">{{ t('ui.move.detail.info.name') }}</div>
         <div class="mat-cell">{{ t('move.' + move.name + '.name') }}</div>
       </div>
-      @if (move.meta?.category) {
+      @if (move.meta.category) {
         <mat-divider></mat-divider>
         <div class="mat-row">
           <div class="mat-cell">{{ t('ui.move.detail.info.category') }}</div>
@@ -58,7 +58,7 @@
             <div class="mat-cell">{{ move.priority }}</div>
           </div>
         }
-        @if (move.meta?.stat_chance) {
+        @if (move.meta.stat_chance) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">{{ t('ui.move.detail.info.stat_change_chance') }}</div>
@@ -74,21 +74,21 @@
             </div>
           }
         }
-        @if (move.meta?.crit_rate) {
+        @if (move.meta.crit_rate) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">{{ t('ui.move.detail.info.critical_rate') }}</div>
             <div class="mat-cell">{{ move.meta.crit_rate / 100 | percent }}</div>
           </div>
         }
-        @if (move.meta?.healing) {
+        @if (move.meta.healing) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">{{ t('ui.move.detail.info.healing') }}</div>
             <div class="mat-cell">{{ move.meta.healing }}</div>
           </div>
         }
-        @if (move.meta?.drain) {
+        @if (move.meta.drain) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">
@@ -97,7 +97,7 @@
             <div class="mat-cell">{{ move.meta.drain / 100 | percent }}</div>
           </div>
         }
-        @if (move.meta?.ailment_chance) {
+        @if (move.meta.ailment_chance) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">{{ t('ui.move.detail.info.ailment') }}</div>
@@ -111,7 +111,7 @@
             <div class="mat-cell">{{ move.meta.ailment_chance / 100 | percent }}</div>
           </div>
         }
-        @if (move.meta?.flinch_chance) {
+        @if (move.meta.flinch_chance) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">{{ t('ui.move.detail.info.flinch_chance') }}</div>
@@ -126,21 +126,21 @@
             {{ t('move_target.' + move.target.name + '.description') }}
           </div>
         </div>
-        @if (move.meta?.min_hits && move.meta.min_hits === move.meta.max_hits) {
+        @if (move.meta.min_hits && move.meta.min_hits === move.meta.max_hits) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">{{ t('ui.move.detail.info.hits') }}</div>
             <div class="mat-cell">{{ move.meta.min_hits }}</div>
           </div>
         } @else {
-          @if (move.meta?.min_hits) {
+          @if (move.meta.min_hits) {
             <mat-divider></mat-divider>
             <div class="mat-row">
               <div class="mat-cell">{{ t('ui.move.detail.info.min_hits') }}</div>
               <div class="mat-cell">{{ move.meta.min_hits }}</div>
             </div>
           }
-          @if (move.meta?.max_hits) {
+          @if (move.meta.max_hits) {
             <mat-divider></mat-divider>
             <div class="mat-row">
               <div class="mat-cell">{{ t('ui.move.detail.info.max_hits') }}</div>
@@ -148,21 +148,21 @@
             </div>
           }
         }
-        @if (move.meta?.min_turns && move.meta.min_turns === move.meta.max_turns) {
+        @if (move.meta.min_turns && move.meta.min_turns === move.meta.max_turns) {
           <mat-divider></mat-divider>
           <div class="mat-row">
             <div class="mat-cell">{{ t('ui.move.detail.info.turns') }}</div>
             <div class="mat-cell">{{ move.meta.min_turns }}</div>
           </div>
         } @else {
-          @if (move.meta?.min_turns) {
+          @if (move.meta.min_turns) {
             <mat-divider></mat-divider>
             <div class="mat-row">
               <div class="mat-cell">{{ t('ui.move.detail.info.min_turns') }}</div>
               <div class="mat-cell">{{ move.meta.min_turns }}</div>
             </div>
           }
-          @if (move.meta?.max_turns) {
+          @if (move.meta.max_turns) {
             <mat-divider></mat-divider>
             <div class="mat-row">
               <div class="mat-cell">{{ t('ui.move.detail.info.max_turns') }}</div>

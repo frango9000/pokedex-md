@@ -9,7 +9,7 @@ interface IsMobileContext {
 
 @UntilDestroy()
 // eslint-disable-next-line @angular-eslint/directive-selector
-@Directive({ selector: '[isMobile]' })
+@Directive({ selector: '[isMobile]', standalone: true })
 export class IsMobileDirective implements OnInit {
   private readonly context: IsMobileContext = { isMobile: false, $implicit: false };
   private embeddedViewRef?: EmbeddedViewRef<IsMobileContext>;

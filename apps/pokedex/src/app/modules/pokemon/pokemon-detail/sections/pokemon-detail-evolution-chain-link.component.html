@@ -82,7 +82,7 @@
         @if (detail.relative_physical_stats || detail.relative_physical_stats === 0) {
           <span>{{ t('ui.pokemon.detail.evolution.relative_physical_stats.' + detail.relative_physical_stats) }}</span>
         }
-        @if (detail.time_of_day?.length && detail.time_of_day.length > 0) {
+        @if (detail.time_of_day.length && detail.time_of_day.length > 0) {
           <span>{{ t('ui.pokemon.detail.evolution.time_of_day.' + detail.time_of_day) }}</span>
         }
         @if (detail.trade_species) {

@@ -1,36 +1,25 @@
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { MatDialogModule } from '@angular/material/dialog';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule } from '@angular/router';
+import { provideAnimations } from '@angular/platform-browser/animations';
+import { provideRouter } from '@angular/router';
 import { FormlyModule } from '@ngx-formly/core';
 import { appRoutes } from './app.routes';
 import { AppComponent } from './core/components/app.component';
-import { BottomBarComponent } from './core/components/bottom-bar.component';
-import { SidenavComponent } from './core/components/sidenav.component';
-import { ToolbarComponent } from './core/components/toolbar.component';
 import { InitializationProvider } from './core/services/initialization.service';
 import { TranslocoRootModule } from './core/transloco-root.module';
-import { IsMobileModule } from './shared/modules/is-mobile';
-import { NgLetModule } from './shared/modules/ng-let';
 
+/**
+ * Angular 21 Standalone Application Configuration
+ * This module serves as the root configuration for the application.
+ * All providers are centralized here for better tree-shaking and performance.
+ */
 @NgModule({
-  declarations: [AppComponent],
-  bootstrap: [AppComponent],
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
-    BrowserAnimationsModule,
-    IsMobileModule,
-    NgLetModule,
-    TranslocoRootModule,
-    FormlyModule.forRoot(),
-    MatDialogModule,
-    SidenavComponent,
-    ToolbarComponent,
-    BottomBarComponent,
+  imports: [AppComponent, TranslocoRootModule, FormlyModule.forRoot()],
+  providers: [
+    InitializationProvider,
+    provideRouter(appRoutes),
+    provideAnimations(),
+    provideHttpClient(withInterceptorsFromDi()),
   ],
-  providers: [InitializationProvider, provideHttpClient(withInterceptorsFromDi())],
 })
 export class AppModule {}
