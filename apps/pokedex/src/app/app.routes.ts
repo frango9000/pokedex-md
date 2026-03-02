@@ -1,8 +1,12 @@
 import { Route } from '@angular/router';
 import { itemResolver } from './modules/item/item-detail/item.resolver';
+import { itemProviders, itemRoutes } from './modules/item/item-home/item.routes';
 import { machineDetailResolver } from './modules/machine/machine-detail/machine.resolver';
+import { machineProviders, machineRoutes } from './modules/machine/machine-home/machine.routes';
 import { moveResolver } from './modules/move/move-detail/move.resolver';
+import { moveProviders, moveRoutes } from './modules/move/move-home/move.routes';
 import { pokemonDetailResolver } from './modules/pokemon/pokemon-detail/pokemon-detail.resolver';
+import { pokemonProviders, pokemonRoutes } from './modules/pokemon/pokemon-home/pokemon.routes';
 
 export const appRoutes: Route[] = [
   {
@@ -12,9 +16,9 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'pokemon',
-    pathMatch: 'full',
+    children: pokemonRoutes,
+    providers: pokemonProviders,
     data: { title: 'Pokemon' },
-    loadChildren: () => import('./modules/pokemon/pokemon-home/pokemon-home.module').then((m) => m.PokemonHomeModule),
   },
   {
     path: 'pokemon/:pokemon',
@@ -25,9 +29,9 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'move',
-    pathMatch: 'full',
+    children: moveRoutes,
+    providers: moveProviders,
     data: { title: 'Move' },
-    loadChildren: () => import('./modules/move/move-home/move-home.module').then((m) => m.MoveHomeModule),
   },
   {
     path: 'move/:move',
@@ -37,9 +41,9 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'item',
-    pathMatch: 'full',
+    children: itemRoutes,
+    providers: itemProviders,
     data: { title: 'Item' },
-    loadChildren: () => import('./modules/item/item-home/item-home.module').then((m) => m.ItemHomeModule),
   },
   {
     path: 'item/:item',
@@ -49,9 +53,9 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'machine',
-    pathMatch: 'full',
+    children: machineRoutes,
+    providers: machineProviders,
     data: { title: 'Machine' },
-    loadChildren: () => import('./modules/machine/machine-home/machine-home.module').then((m) => m.MachineHomeModule),
   },
   {
     path: 'machine/:machine',
