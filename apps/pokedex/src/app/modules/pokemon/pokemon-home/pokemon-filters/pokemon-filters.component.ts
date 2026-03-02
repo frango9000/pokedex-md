@@ -1,25 +1,22 @@
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { FormlyFieldConfig, FormlyModule } from '@ngx-formly/core';
-import { FormlyMaterialModule } from '@ngx-formly/material';
-import { FormlyMatToggleModule } from '@ngx-formly/material/toggle';
+import { FormlyFieldConfig, FormlyForm, provideFormlyConfig } from '@ngx-formly/core';
+import { withFormlyFieldToggle } from '@ngx-formly/material/toggle';
 import { BottomBarService } from '../../../../core/services/bottom-bar.service';
-import { PokemonGenerationSelectModule } from '../../../../shared/modules/filter/pokemon-generation-select/pokemon-generation-select.module';
-import { PokemonTypeSelectModule } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
+import { providePokemonGenerationSelect } from '../../../../shared/modules/filter/pokemon-generation-select/pokemon-generation-select.module';
+import { providePokemonTypeSelect } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
 import { PokemonFilterModel, PokemonFilterService } from '../pokemon-filter.service';
 
 @UntilDestroy()
 @Component({
   selector: 'pokedex-pokemon-filters',
   standalone: true,
-  imports: [
-    ReactiveFormsModule,
-    FormlyModule,
-    FormlyMaterialModule,
-    FormlyMatToggleModule,
-    PokemonTypeSelectModule,
-    PokemonGenerationSelectModule,
+  imports: [ReactiveFormsModule, FormlyForm],
+  providers: [
+    providePokemonGenerationSelect(),
+    providePokemonTypeSelect(),
+    provideFormlyConfig(withFormlyFieldToggle()),
   ],
   templateUrl: './pokemon-filters.component.html',
   styleUrls: ['./pokemon-filters.component.scss'],

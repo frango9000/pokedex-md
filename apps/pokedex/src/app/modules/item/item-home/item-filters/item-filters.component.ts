@@ -1,26 +1,19 @@
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { FormlyFieldConfig, FormlyModule } from '@ngx-formly/core';
-import { FormlyMaterialModule } from '@ngx-formly/material';
+import { FormlyFieldConfig, FormlyForm } from '@ngx-formly/core';
 import { BottomBarService } from '../../../../core/services/bottom-bar.service';
-import { PokemonItemCategorySelectModule } from '../../../../shared/modules/filter/pokemon-item-category-select/pokemon-item-category-select.module';
-import { PokemonItemPocketSelectModule } from '../../../../shared/modules/filter/pokemon-item-pocket-select/pokemon-item-pocket-select.module';
-import { FormlyMatRangeSliderModule } from '../../../../shared/modules/filter/range-slider/range-slider.module';
+import { providePokemonItemCategorySelect } from '../../../../shared/modules/filter/pokemon-item-category-select/pokemon-item-category-select.module';
+import { providePokemonItemPocketSelect } from '../../../../shared/modules/filter/pokemon-item-pocket-select/pokemon-item-pocket-select.module';
+import { provideFormlyMatRangeSlider } from '../../../../shared/modules/filter/range-slider/range-slider.module';
 import { ItemFilterModel, ItemFilterService } from '../item-filter.service';
 
 @UntilDestroy()
 @Component({
   selector: 'pokedex-item-filters',
   standalone: true,
-  imports: [
-    ReactiveFormsModule,
-    FormlyModule,
-    FormlyMaterialModule,
-    FormlyMatRangeSliderModule,
-    PokemonItemCategorySelectModule,
-    PokemonItemPocketSelectModule,
-  ],
+  imports: [ReactiveFormsModule, FormlyForm],
+  providers: [providePokemonItemCategorySelect(), providePokemonItemPocketSelect(), provideFormlyMatRangeSlider()],
   templateUrl: './item-filters.component.html',
   styleUrls: ['./item-filters.component.scss'],
 })

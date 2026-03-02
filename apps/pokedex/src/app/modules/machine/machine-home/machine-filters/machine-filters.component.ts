@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { FormlyFieldConfig, FormlyModule } from '@ngx-formly/core';
-import { FormlyMaterialModule } from '@ngx-formly/material';
+import { FormlyFieldConfig, FormlyForm } from '@ngx-formly/core';
 import { BottomBarService } from '../../../../core/services/bottom-bar.service';
-import { PokemonTypeSelectModule } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
-import { FormlyMatRangeSliderModule } from '../../../../shared/modules/filter/range-slider/range-slider.module';
+import { providePokemonTypeSelect } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
+import { provideFormlyMatRangeSlider } from '../../../../shared/modules/filter/range-slider/range-slider.module';
 import { MoveFilterModel } from '../../../move/move-home/move-filter.service';
 import { MachineFilterService } from '../machine-filter.service';
 
@@ -13,13 +12,8 @@ import { MachineFilterService } from '../machine-filter.service';
 @Component({
   selector: 'pokedex-machine-filters',
   standalone: true,
-  imports: [
-    ReactiveFormsModule,
-    FormlyModule,
-    FormlyMaterialModule,
-    FormlyMatRangeSliderModule,
-    PokemonTypeSelectModule,
-  ],
+  imports: [ReactiveFormsModule, FormlyForm],
+  providers: [providePokemonTypeSelect(), provideFormlyMatRangeSlider()],
   templateUrl: './machine-filters.component.html',
   styleUrls: ['./machine-filters.component.scss'],
 })

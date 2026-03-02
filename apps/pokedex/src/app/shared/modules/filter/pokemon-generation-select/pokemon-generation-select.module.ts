@@ -1,30 +1,15 @@
-import { CommonModule } from '@angular/common';
-import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
-import { MatSelectModule } from '@angular/material/select';
-import { TranslocoModule } from '@jsverse/transloco';
-import { FormlyModule } from '@ngx-formly/core';
-import { FormlyMatFormFieldModule } from '@ngx-formly/material/form-field';
+import { Provider } from '@angular/core';
+import { provideFormlyConfig } from '@ngx-formly/core';
 import { PokemonGenerationSelectComponent } from './pokemon-generation-select.component';
 
-@NgModule({
-  imports: [
-    CommonModule,
-    ReactiveFormsModule,
-    MatSelectModule,
-    PokemonGenerationSelectComponent,
-
-    FormlyMatFormFieldModule,
-    FormlyModule.forChild({
-      types: [
-        {
-          name: 'pokemon-generation-select',
-          component: PokemonGenerationSelectComponent,
-          wrappers: ['form-field'],
-        },
-      ],
-    }),
-    TranslocoModule,
-  ],
-})
-export class PokemonGenerationSelectModule {}
+export function providePokemonGenerationSelect(): Provider {
+  return provideFormlyConfig({
+    types: [
+      {
+        name: 'pokemon-generation-select',
+        component: PokemonGenerationSelectComponent,
+        wrappers: ['form-field'],
+      },
+    ],
+  });
+}
