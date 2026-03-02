@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -19,7 +19,6 @@ import { TypeColorPipe } from '../../pipes/type-color.pipe';
     MatIconModule,
     MatRippleModule,
   ],
-  providers: [TypeDetailService],
   templateUrl: './type-button.component.html',
   styleUrls: ['./type-button.component.scss'],
 })
@@ -30,5 +29,5 @@ export class TypeButtonComponent {
   @Input() public defending: boolean | undefined = false;
   @Input() public attacking: boolean | undefined = false;
 
-  constructor(protected readonly typeDetailService: TypeDetailService) {}
+  protected readonly typeDetailService = inject(TypeDetailService);
 }

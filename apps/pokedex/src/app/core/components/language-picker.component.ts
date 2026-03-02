@@ -1,16 +1,18 @@
 import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { TranslocoModule } from '@jsverse/transloco';
 import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'pokedex-language-picker',
-  imports: [CommonModule, MatMenuModule, MatButtonModule, TranslocoModule, NgOptimizedImage],
+  standalone: true,
+  imports: [CommonModule, MatMenuModule, MatIconModule, MatButtonModule, TranslocoModule, NgOptimizedImage],
   templateUrl: './language-picker.component.html',
   styleUrls: ['./language-picker.component.scss'],
 })
 export class LanguagePickerComponent {
-  constructor(protected readonly languageService: LanguageService) {}
+  protected readonly languageService = inject(LanguageService);
 }

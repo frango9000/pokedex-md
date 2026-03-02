@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, inject, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { TranslocoModule } from '@jsverse/transloco';
 import { TypeDamages } from '@pokedex-md/domain';
 import { TypeService } from '../../../../../api/pokemon/type.service';
@@ -8,7 +10,14 @@ import { TypeButtonComponent } from '../type-button/type-button.component';
 
 @Component({
   selector: 'pokedex-type-damages',
-  imports: [CommonModule, TranslocoModule, TypeButtonComponent, TypeDamagesMultiplierColorPipe],
+  imports: [
+    CommonModule,
+    MatCardModule,
+    MatProgressBarModule,
+    TranslocoModule,
+    TypeButtonComponent,
+    TypeDamagesMultiplierColorPipe,
+  ],
   templateUrl: './type-damages.component.html',
   styleUrls: ['./type-damages.component.scss'],
 })
@@ -22,7 +31,7 @@ export class TypeDamagesComponent implements OnChanges {
 
   protected typeDamages?: TypeDamages;
 
-  constructor(private readonly typeService: TypeService) {}
+  private readonly typeService = inject(TypeService);
 
   private generateTypeDamages(): TypeDamages {
     const allTypes = this.typeService.getAll();

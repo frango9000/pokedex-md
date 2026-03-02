@@ -1,21 +1,21 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, NavigationEnd, Router } from '@angular/router';
-import { BehaviorSubject, combineLatest, distinctUntilChanged, filter, Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { filter, map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
 })
 export class SidebarService {
-  private readonly _isOpen$: BehaviorSubject<boolean> = new BehaviorSubject(false);
-  private readonly _isActive$: BehaviorSubject<boolean> = new BehaviorSubject(false);
+  private readonly _router = inject(Router);
+  private readonly _isOpen$ = new BehaviorSubject(true);
+  private readonly _isActive$ = new BehaviorSubject(false);
 
-  constructor(private readonly _router: Router) {
+  constructor() {
     this._router.events
       .pipe(
         filter((event) => event instanceof NavigationEnd),
         map(() => this._isSidebarConfigured(this._router.routerState.snapshot.root)),
-        distinctUntilChanged(),
       )
       .subscribe((isActive: boolean) => {
         this._isActive$.next(isActive);
@@ -30,7 +30,7 @@ export class SidebarService {
   }
 
   get isOpen$(): Observable<boolean> {
-    return combineLatest([this._isOpen$, this._isActive$]).pipe(map(([isOpen, isActive]) => isOpen && isActive));
+    return this._isOpen$.asObservable();
   }
 
   get isActive$(): Observable<boolean> {

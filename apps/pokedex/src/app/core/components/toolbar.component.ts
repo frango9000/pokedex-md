@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -29,9 +29,7 @@ import { ThemePickerComponent } from './theme-picker.component';
   styleUrls: ['./toolbar.component.scss'],
 })
 export class ToolbarComponent {
-  constructor(
-    protected readonly sidenavService: SidenavService,
-    protected readonly sidebarService: SidebarService,
-    protected readonly titleService: TitleService,
-  ) {}
+  protected readonly sidenavService = inject(SidenavService);
+  protected readonly sidebarService = inject(SidebarService);
+  protected readonly titleService = inject(TitleService);
 }

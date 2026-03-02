@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { Species } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
 import { MergingMap } from '../../shared/utils/merge-map';
@@ -13,9 +13,7 @@ export class SpeciesService extends TranslatedService<Species> {
     return 'pokemon-species';
   }
 
-  constructor(private readonly versionGroupService: VersionGroupService) {
-    super();
-  }
+  private readonly versionGroupService = inject(VersionGroupService);
 
   protected override _parseOneTranslation(specie: Species): Observable<MergingMap> {
     const translations = new MergingMap();

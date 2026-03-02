@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { IsMobileService } from '../../shared/modules/is-mobile';
 
@@ -6,9 +6,10 @@ import { IsMobileService } from '../../shared/modules/is-mobile';
   providedIn: 'root',
 })
 export class SidenavService {
+  private readonly isMobileService = inject(IsMobileService);
   private readonly _isOpen$ = new BehaviorSubject(true);
 
-  constructor(private readonly isMobileService: IsMobileService) {
+  constructor() {
     this.isMobileService.isMobile$.subscribe((isMobile) => this._isOpen$.next(!isMobile));
   }
 

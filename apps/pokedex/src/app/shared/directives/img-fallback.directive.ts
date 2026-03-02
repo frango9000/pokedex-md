@@ -1,4 +1,4 @@
-import { Directive, ElementRef, HostListener, Input } from '@angular/core';
+import { Directive, ElementRef, HostListener, inject, Input } from '@angular/core';
 
 @Directive({
   // eslint-disable-next-line @angular-eslint/directive-selector
@@ -7,7 +7,7 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 export class ImgFallbackDirective {
   @Input() imgFallback = '';
 
-  constructor(private readonly elementRef: ElementRef) {}
+  private readonly elementRef = inject(ElementRef);
 
   @HostListener('error') loadFallbackOnError() {
     const element: HTMLImageElement = <HTMLImageElement>this.elementRef.nativeElement;

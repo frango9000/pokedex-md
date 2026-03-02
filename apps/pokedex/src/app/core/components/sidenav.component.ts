@@ -1,27 +1,18 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { RouterModule } from '@angular/router';
+import { TranslocoModule } from '@jsverse/transloco';
 import { IsMobileModule } from '../../shared/modules/is-mobile';
 import { SidenavService } from '../services/sidenav.service';
 
 @Component({
   selector: 'pokedex-sidenav',
-  imports: [
-    CommonModule,
-    MatSidenavModule,
-    MatToolbarModule,
-    MatListModule,
-    MatIconModule,
-    RouterModule,
-    IsMobileModule,
-  ],
+  imports: [CommonModule, MatSidenavModule, MatListModule, MatIconModule, TranslocoModule, IsMobileModule],
   templateUrl: './sidenav.component.html',
   styleUrls: ['./sidenav.component.scss'],
 })
 export class SidenavComponent {
-  constructor(protected readonly sidenavService: SidenavService) {}
+  protected readonly sidenavService = inject(SidenavService);
 }
