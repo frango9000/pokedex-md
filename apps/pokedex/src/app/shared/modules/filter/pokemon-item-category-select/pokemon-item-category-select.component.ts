@@ -16,7 +16,6 @@ export interface PokemonItemCategorySelectFieldConfig extends FormlyFieldConfig<
   templateUrl: './pokemon-item-category-select.component.html',
   styleUrls: ['./pokemon-item-category-select.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [CommonModule, ReactiveFormsModule, MatSelectModule, FormlyModule, TranslocoModule],
 })
 export class PokemonItemCategorySelectComponent extends FieldType<FieldTypeConfig<FormlyFieldProps>> {

@@ -16,7 +16,6 @@ import { ToolbarComponent } from './toolbar.component';
   selector: 'pokedex-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  standalone: true,
   imports: [CommonModule, RouterModule, ToolbarComponent, SidenavComponent, IsMobileModule, NgLetModule],
 })
 export class AppComponent implements OnInit {

@@ -12,7 +12,6 @@ import { ItemDetailInfoComponent } from '../shared/components/item-detail-info.c
 
 @Component({
   selector: 'pokedex-item-detail',
-  standalone: true,
   imports: [
     CommonModule,
     ImgFallbackDirective,

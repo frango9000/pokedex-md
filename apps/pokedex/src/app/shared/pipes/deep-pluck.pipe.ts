@@ -2,7 +2,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'deepPluck',
-  standalone: true,
 })
 export class DeepPluckPipe implements PipeTransform {
   transform(items: never[], propertyPath: string): string[] {

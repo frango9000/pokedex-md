@@ -15,7 +15,6 @@ import { MoveFilterService } from '../move-filter.service';
 
 @Component({
   selector: 'pokedex-move-list',
-  standalone: true,
   imports: [
     BottomBarFabComponent,
     MatCardModule,

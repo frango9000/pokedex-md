@@ -21,7 +21,6 @@ import { PokemonDetailTypeDamagesComponent } from './sections/pokemon-detail-typ
 
 @Component({
   selector: 'pokedex-pokemon-detail',
-  standalone: true,
   imports: [
     CommonModule,
     MatExpansionModule,

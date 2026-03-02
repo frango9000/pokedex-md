@@ -19,7 +19,6 @@ import { PokemonFilterService } from '../pokemon-filter.service';
 @UntilDestroy()
 @Component({
   selector: 'pokedex-pokemon-list',
-  standalone: true,
   imports: [
     MatTableModule,
     NgOptimizedImage,

@@ -10,7 +10,6 @@ import { BottomBarService } from '../services/bottom-bar.service';
 
 @Component({
   selector: 'pokedex-bottom-bar',
-  standalone: true,
   imports: [
     MatButtonModule,
     MatIconModule,

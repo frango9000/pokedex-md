@@ -11,7 +11,6 @@ import { MoveFilterModel, MoveFilterService } from '../move-filter.service';
 @UntilDestroy()
 @Component({
   selector: 'pokedex-move-filters',
-  standalone: true,
   imports: [ReactiveFormsModule, FormlyForm],
   providers: [providePokemonGenerationSelect(), providePokemonTypeSelect(), provideFormlyMatRangeSlider()],
   templateUrl: './move-filters.component.html',

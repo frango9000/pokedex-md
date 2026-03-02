@@ -5,7 +5,6 @@ import { Pokemon } from '@pokedex-md/domain';
 
 @Component({
   selector: 'pokedex-pokemon-detail-stats',
-  standalone: true,
   imports: [MatDividerModule, TranslocoModule],
   templateUrl: './pokemon-detail-stats.component.html',
   styleUrls: ['./pokemon-detail-stats.component.scss'],

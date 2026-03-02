@@ -5,7 +5,6 @@ import { AbilityService } from '../../../../api/pokemon/ability.service';
 
 @Pipe({
   name: 'abilityResolver',
-  standalone: true,
 })
 export class AbilityResolverPipe implements PipeTransform {
   constructor(private readonly service: AbilityService) {}

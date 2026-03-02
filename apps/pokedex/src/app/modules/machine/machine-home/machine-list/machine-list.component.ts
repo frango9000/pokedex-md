@@ -16,7 +16,6 @@ import { MachineFilterService } from '../machine-filter.service';
 
 @Component({
   selector: 'pokedex-machine-list',
-  standalone: true,
   imports: [
     MatCardModule,
     MatTableModule,

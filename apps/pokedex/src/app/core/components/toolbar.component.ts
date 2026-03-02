@@ -14,7 +14,6 @@ import { ThemePickerComponent } from './theme-picker.component';
 
 @Component({
   selector: 'pokedex-toolbar',
-  standalone: true,
   imports: [
     CommonModule,
     MatToolbarModule,

@@ -9,7 +9,6 @@ import { WithVersionGroupDirective } from '../../../version/shared/directives/wi
 
 @Component({
   selector: 'pokedex-move-detail-info',
-  standalone: true,
   imports: [
     CommonModule,
     MatDividerModule,

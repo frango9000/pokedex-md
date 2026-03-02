@@ -6,7 +6,6 @@ import { WithVersionGroupDirective } from '../../../version/shared/directives/wi
 
 @Component({
   selector: 'pokedex-ability-detail-info',
-  standalone: true,
   imports: [TranslocoModule, MatDividerModule, WithVersionGroupDirective],
   templateUrl: './ability-detail-info.component.html',
   styleUrls: ['./ability-detail-info.component.scss'],

@@ -16,7 +16,6 @@ export interface PokemonItemPocketSelectFieldConfig extends FormlyFieldConfig<Fo
   templateUrl: './pokemon-item-pocket-select.component.html',
   styleUrls: ['./pokemon-item-pocket-select.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [CommonModule, ReactiveFormsModule, MatSelectModule, FormlyModule, TranslocoModule],
 })
 export class PokemonItemPocketSelectComponent extends FieldType<FieldTypeConfig<FormlyFieldProps>> {

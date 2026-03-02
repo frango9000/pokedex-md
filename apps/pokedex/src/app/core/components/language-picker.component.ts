@@ -7,7 +7,6 @@ import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'pokedex-language-picker',
-  standalone: true,
   imports: [CommonModule, MatMenuModule, MatButtonModule, TranslocoModule, NgOptimizedImage],
   templateUrl: './language-picker.component.html',
   styleUrls: ['./language-picker.component.scss'],

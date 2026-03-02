@@ -11,7 +11,6 @@ import { PokemonFilterModel, PokemonFilterService } from '../pokemon-filter.serv
 @UntilDestroy()
 @Component({
   selector: 'pokedex-pokemon-filters',
-  standalone: true,
   imports: [ReactiveFormsModule, FormlyForm],
   providers: [
     providePokemonGenerationSelect(),

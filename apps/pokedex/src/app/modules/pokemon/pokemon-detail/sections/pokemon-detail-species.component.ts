@@ -9,7 +9,6 @@ import { WithVersionGroupDirective } from '../../../version/shared/directives/wi
 
 @Component({
   selector: 'pokedex-pokemon-detail-species',
-  standalone: true,
   imports: [CommonModule, MatDividerModule, TranslocoModule, MatTooltipModule, PluckPipe, WithVersionGroupDirective],
   templateUrl: './pokemon-detail-species.component.html',
   styleUrls: ['./pokemon-detail-species.component.scss'],

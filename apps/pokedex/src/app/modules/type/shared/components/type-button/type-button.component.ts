@@ -10,7 +10,6 @@ import { TypeColorPipe } from '../../pipes/type-color.pipe';
 
 @Component({
   selector: 'pokedex-type-button',
-  standalone: true,
   imports: [
     CommonModule,
     MatButtonModule,

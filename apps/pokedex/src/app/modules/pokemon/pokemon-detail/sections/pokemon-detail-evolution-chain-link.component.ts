@@ -11,7 +11,6 @@ import { ResourceIdPipe } from '../../../../shared/pipes/resource-id.pipe';
 
 @Component({
   selector: 'pokedex-pokemon-detail-evolution-chain-link',
-  standalone: true,
   imports: [
     CommonModule,
     MatIconModule,

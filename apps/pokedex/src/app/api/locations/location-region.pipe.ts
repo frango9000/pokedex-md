@@ -3,7 +3,6 @@ import { LocationService } from './location.service';
 
 @Pipe({
   name: 'locationRegion',
-  standalone: true,
 })
 export class LocationRegionPipe implements PipeTransform {
   constructor(private readonly locationService: LocationService) {}

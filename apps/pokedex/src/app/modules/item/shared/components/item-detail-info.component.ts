@@ -6,7 +6,6 @@ import { WithVersionGroupDirective } from '../../../version/shared/directives/wi
 
 @Component({
   selector: 'pokedex-item-detail-info',
-  standalone: true,
   imports: [MatDividerModule, WithVersionGroupDirective, TranslocoDirective],
   templateUrl: './item-detail-info.component.html',
   styleUrls: ['./item-detail-info.component.scss'],

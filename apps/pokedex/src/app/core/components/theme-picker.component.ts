@@ -7,7 +7,6 @@ import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'pokedex-theme-picker',
-  standalone: true,
   imports: [CommonModule, NgLetModule, MatButtonModule, MatIconModule],
   templateUrl: './theme-picker.component.html',
 })

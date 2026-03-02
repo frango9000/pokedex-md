@@ -17,7 +17,6 @@ export interface PokemonTypeSelectFieldConfig extends FormlyFieldConfig<FormlyFi
   templateUrl: './pokemon-type-select.component.html',
   styleUrls: ['./pokemon-type-select.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [CommonModule, ReactiveFormsModule, MatSelectModule, TypeButtonComponent, FormlyModule, TranslocoModule],
 })
 export class PokemonTypeSelectComponent extends FieldType<FieldTypeConfig<FormlyFieldProps>> {

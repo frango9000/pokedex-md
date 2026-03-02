@@ -15,7 +15,6 @@ import { ItemFilterService } from '../item-filter.service';
 
 @Component({
   selector: 'pokedex-item-list',
-  standalone: true,
   imports: [
     BottomBarFabComponent,
     MatCardModule,

@@ -9,7 +9,6 @@ import { InitialsPipe } from '../../../../../shared/pipes/initials.pipe';
 
 @Component({
   selector: 'pokedex-version-group-picker',
-  standalone: true,
   imports: [CommonModule, MatButtonModule, MatMenuModule, MatIconModule, InitialsPipe, TranslocoModule],
   templateUrl: './version-group-picker.component.html',
   styleUrls: ['./version-group-picker.component.scss'],

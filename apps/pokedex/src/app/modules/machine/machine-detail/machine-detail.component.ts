@@ -13,7 +13,6 @@ import { MoveDetailInfoComponent } from '../../move/shared/components/move-detai
 
 @Component({
   selector: 'pokedex-machine-detail',
-  standalone: true,
   imports: [
     CommonModule,
     MatExpansionModule,

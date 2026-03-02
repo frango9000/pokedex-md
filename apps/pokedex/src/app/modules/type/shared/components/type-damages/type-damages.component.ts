@@ -8,7 +8,6 @@ import { TypeButtonComponent } from '../type-button/type-button.component';
 
 @Component({
   selector: 'pokedex-type-damages',
-  standalone: true,
   imports: [CommonModule, TranslocoModule, TypeButtonComponent, TypeDamagesMultiplierColorPipe],
   templateUrl: './type-damages.component.html',
   styleUrls: ['./type-damages.component.scss'],

@@ -3,7 +3,6 @@ import { PokeSlotType } from '@pokedex-md/domain';
 
 @Pipe({
   name: 'typeSlotNames',
-  standalone: true,
 })
 export class TypeSlotNamesPipe implements PipeTransform {
   transform(types: PokeSlotType[]): string[] {

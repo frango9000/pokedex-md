@@ -6,7 +6,6 @@ import { TypeDamagesComponent } from '../../../type/shared/components/type-damag
 
 @Component({
   selector: 'pokedex-pokemon-detail-type-damages',
-  standalone: true,
   imports: [TypeDamagesComponent, PluckPipe, TypeButtonComponent],
   templateUrl: './pokemon-detail-type-damages.component.html',
   styleUrls: ['./pokemon-detail-type-damages.component.scss'],

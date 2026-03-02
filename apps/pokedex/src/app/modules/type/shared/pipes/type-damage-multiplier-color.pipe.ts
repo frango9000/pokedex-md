@@ -2,7 +2,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'typeDamagesMultiplierColor',
-  standalone: true,
 })
 export class TypeDamagesMultiplierColorPipe implements PipeTransform {
   transform(multiplier: number): string {

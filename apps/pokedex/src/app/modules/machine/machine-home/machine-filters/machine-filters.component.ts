@@ -11,7 +11,6 @@ import { MachineFilterService } from '../machine-filter.service';
 @UntilDestroy()
 @Component({
   selector: 'pokedex-machine-filters',
-  standalone: true,
   imports: [ReactiveFormsModule, FormlyForm],
   providers: [providePokemonTypeSelect(), provideFormlyMatRangeSlider()],
   templateUrl: './machine-filters.component.html',

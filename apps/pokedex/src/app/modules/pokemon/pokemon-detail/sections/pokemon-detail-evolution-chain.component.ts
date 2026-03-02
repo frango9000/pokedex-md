@@ -5,7 +5,6 @@ import { PokemonDetailEvolutionChainLinkComponent } from './pokemon-detail-evolu
 
 @Component({
   selector: 'pokedex-pokemon-detail-evolution-chain',
-  standalone: true,
   imports: [PokemonDetailEvolutionChainLinkComponent, MatDividerModule],
   templateUrl: './pokemon-detail-evolution-chain.component.html',
   styleUrls: ['./pokemon-detail-evolution-chain.component.scss'],

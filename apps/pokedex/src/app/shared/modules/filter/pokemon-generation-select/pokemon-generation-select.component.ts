@@ -16,7 +16,6 @@ export interface PokemonGenerationSelectFieldConfig extends FormlyFieldConfig<Fo
   templateUrl: './pokemon-generation-select.component.html',
   styleUrls: ['./pokemon-generation-select.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [CommonModule, ReactiveFormsModule, MatSelectModule, FormlyModule, TranslocoModule],
 })
 export class PokemonGenerationSelectComponent extends FieldType<FieldTypeConfig<FormlyFieldProps>> {

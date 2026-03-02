@@ -11,7 +11,6 @@ import { VersionService } from '../../../../../api/games/version.service';
 
 @Component({
   selector: 'pokedex-version-menu',
-  standalone: true,
   imports: [CommonModule, MatButtonModule, MatMenuModule, TranslocoModule],
   templateUrl: './version-menu.component.html',
   styleUrls: ['./version-menu.component.scss'],

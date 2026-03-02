@@ -12,7 +12,6 @@ import { TypeSlotNamesPipe } from '../../../type/shared/pipes/type-slot-names.pi
 
 @Component({
   selector: 'pokedex-pokemon-detail-profile',
-  standalone: true,
   imports: [CommonModule, MatCardModule, TranslocoModule, ImgFallbackDirective, TypeButtonComponent, TypeSlotNamesPipe],
   templateUrl: './pokemon-detail-profile.component.html',
   styleUrls: ['./pokemon-detail-profile.component.scss'],

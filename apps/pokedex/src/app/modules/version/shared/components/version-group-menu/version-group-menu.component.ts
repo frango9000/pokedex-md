@@ -10,7 +10,6 @@ import { VersionGroupService } from '../../../../../api/games/version-group.serv
 
 @Component({
   selector: 'pokedex-version-group-menu',
-  standalone: true,
   imports: [CommonModule, MatButtonModule, MatMenuModule, TranslocoModule],
   templateUrl: './version-group-menu.component.html',
   styleUrls: ['./version-group-menu.component.scss'],

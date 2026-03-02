@@ -10,7 +10,6 @@ import { MoveDetailInfoComponent } from '../shared/components/move-detail-info.c
 
 @Component({
   selector: 'pokedex-move-detail',
-  standalone: true,
   imports: [CommonModule, MoveDetailInfoComponent, MatCardModule, TranslocoDirective],
   templateUrl: './move-detail.component.html',
   styleUrls: ['./move-detail.component.scss'],

@@ -11,7 +11,6 @@ import { ItemFilterModel, ItemFilterService } from '../item-filter.service';
 @UntilDestroy()
 @Component({
   selector: 'pokedex-item-filters',
-  standalone: true,
   imports: [ReactiveFormsModule, FormlyForm],
   providers: [providePokemonItemCategorySelect(), providePokemonItemPocketSelect(), provideFormlyMatRangeSlider()],
   templateUrl: './item-filters.component.html',

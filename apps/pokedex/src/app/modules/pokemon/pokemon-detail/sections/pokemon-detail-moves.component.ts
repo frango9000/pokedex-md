@@ -9,7 +9,6 @@ import { MoveVersionGroupDetail } from '../pokemon-detail.component';
 
 @Component({
   selector: 'pokedex-pokemon-detail-moves',
-  standalone: true,
   imports: [
     CommonModule,
     MatExpansionModule,

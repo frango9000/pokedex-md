@@ -21,7 +21,6 @@ export interface FormlySliderFieldConfig extends FormlyFieldConfig<SliderProps> 
 @Component({
   // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'formly-field-mat-range-slider',
-  standalone: true,
   imports: [
     CommonModule,
     FormsModule,

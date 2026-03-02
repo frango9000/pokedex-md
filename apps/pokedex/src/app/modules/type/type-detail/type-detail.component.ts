@@ -9,7 +9,6 @@ import { TypeDamagesComponent } from '../shared/components/type-damages/type-dam
 
 @Component({
   selector: 'pokedex-type-detail',
-  standalone: true,
   imports: [
     MatCardModule,
     MatIconModule,

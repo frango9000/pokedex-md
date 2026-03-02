@@ -2,7 +2,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'typeColor',
-  standalone: true,
 })
 export class TypeColorPipe implements PipeTransform {
   transform(type: string, mixWithType = '', inverted = false): string {

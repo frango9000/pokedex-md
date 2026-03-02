@@ -10,7 +10,6 @@ import { SidenavService } from '../services/sidenav.service';
 
 @Component({
   selector: 'pokedex-sidenav',
-  standalone: true,
   imports: [
     CommonModule,
     MatSidenavModule,

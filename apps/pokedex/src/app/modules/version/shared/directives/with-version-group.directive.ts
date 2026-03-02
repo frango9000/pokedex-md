@@ -12,7 +12,6 @@ interface WithVersionGroupContext {
 @Directive({
   // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[withVersionGroup]',
-  standalone: true,
 })
 export class WithVersionGroupDirective implements OnInit {
   private readonly context: WithVersionGroupContext = {

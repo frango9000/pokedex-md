@@ -9,7 +9,6 @@ import { AbilityResolverPipe } from '../../../ability/shared/pipes/ability-resol
 
 @Component({
   selector: 'pokedex-pokemon-detail-abilities',
-  standalone: true,
   imports: [
     CommonModule,
     AbilityDetailInfoComponent,
