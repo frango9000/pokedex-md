@@ -1,23 +1,23 @@
 <ng-container *transloco="let t">
-  <ng-container *ngIf="item$ | async as item">
+  @if (item$ | async; as item) {
     <mat-card appearance="outlined">
       <mat-card-header>
         <mat-card-title>{{ t('item.' + item.name + '.name') }}</mat-card-title>
       </mat-card-header>
-      <img
-        *ngIf="item.sprites?.default"
-        mat-card-image
-        ngSrc="{{ item.sprites.default }}"
-        [alt]="item.name"
-        width="96"
-        height="96"
-        priority
-        imgFallback="assets/images/default-pokemon.png"
-      />
-
+      @if (item.sprites?.default) {
+        <img
+          mat-card-image
+          ngSrc="{{ item.sprites.default }}"
+          [alt]="item.name"
+          width="96"
+          height="96"
+          priority
+          imgFallback="assets/images/default-pokemon.png"
+        />
+      }
       <mat-card-content>
         <pokedex-item-detail-info [item]="item"></pokedex-item-detail-info>
       </mat-card-content>
     </mat-card>
-  </ng-container>
+  }
 </ng-container>

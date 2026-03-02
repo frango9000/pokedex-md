@@ -1,8 +1,10 @@
-<mat-card appearance="outlined" *ngIf="move$ | async as move">
-  <mat-card-header>
-    <mat-card-title *transloco="let t">{{ t('ui.move.detail.info.title') }}</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
-    <pokedex-move-detail-info [move]="move"></pokedex-move-detail-info>
-  </mat-card-content>
-</mat-card>
+@if (move$ | async; as move) {
+  <mat-card appearance="outlined">
+    <mat-card-header>
+      <mat-card-title *transloco="let t">{{ t('ui.move.detail.info.title') }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <pokedex-move-detail-info [move]="move"></pokedex-move-detail-info>
+    </mat-card-content>
+  </mat-card>
+}

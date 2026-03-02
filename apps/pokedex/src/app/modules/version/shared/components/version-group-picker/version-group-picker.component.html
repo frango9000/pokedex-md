@@ -5,12 +5,10 @@
     }}</span>
   </button>
   <mat-menu #menu="matMenu">
-    <button
-      mat-menu-item
-      *ngFor="let versionGroup of service.getAll$() | async"
-      (click)="service.versionGroup = versionGroup"
-    >
-      {{ t(versionGroup.name) }}
-    </button>
+    @for (versionGroup of service.getAll$() | async; track versionGroup) {
+      <button mat-menu-item (click)="service.versionGroup = versionGroup">
+        {{ t(versionGroup.name) }}
+      </button>
+    }
   </mat-menu>
 </ng-container>

@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
 import { TranslocoModule } from '@jsverse/transloco';
@@ -8,7 +7,7 @@ import { WithVersionGroupDirective } from '../../../version/shared/directives/wi
 @Component({
   selector: 'pokedex-ability-detail-info',
   standalone: true,
-  imports: [CommonModule, TranslocoModule, MatDividerModule, WithVersionGroupDirective],
+  imports: [TranslocoModule, MatDividerModule, WithVersionGroupDirective],
   templateUrl: './ability-detail-info.component.html',
   styleUrls: ['./ability-detail-info.component.scss'],
 })

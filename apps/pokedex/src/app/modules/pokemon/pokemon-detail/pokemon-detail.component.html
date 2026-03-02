@@ -64,7 +64,7 @@
     </ng-template>
   </mat-expansion-panel>
 
-  <ng-container *ngFor="let moveByLearnMethod of movesByLearnMethods$ | async">
+  @for (moveByLearnMethod of movesByLearnMethods$ | async; track moveByLearnMethod) {
     <mat-expansion-panel>
       <mat-expansion-panel-header>
         <mat-panel-title>{{
@@ -78,5 +78,5 @@
         <pokedex-pokemon-detail-moves [moves]="moveByLearnMethod.moves"></pokedex-pokemon-detail-moves>
       </ng-template>
     </mat-expansion-panel>
-  </ng-container>
+  }
 </mat-accordion>

@@ -1,4 +1,4 @@
-import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
@@ -21,7 +21,6 @@ import { PokemonFilterService } from '../pokemon-filter.service';
   selector: 'pokedex-pokemon-list',
   standalone: true,
   imports: [
-    CommonModule,
     MatTableModule,
     NgOptimizedImage,
     MatSortModule,

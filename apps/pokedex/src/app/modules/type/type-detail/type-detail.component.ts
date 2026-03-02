@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component, Inject, ViewEncapsulation } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -12,7 +11,6 @@ import { TypeDamagesComponent } from '../shared/components/type-damages/type-dam
   selector: 'pokedex-type-detail',
   standalone: true,
   imports: [
-    CommonModule,
     MatCardModule,
     MatIconModule,
     MatButtonModule,

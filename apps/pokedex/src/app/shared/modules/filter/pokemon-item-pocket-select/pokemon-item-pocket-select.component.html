@@ -11,7 +11,9 @@
   [disableOptionCentering]="true"
   *transloco="let t"
 >
-  <mat-option *ngFor="let itemPocket of service.getAll$() | async" [value]="itemPocket.name">
-    {{ t('item_pocket.' + itemPocket.name) }}
-  </mat-option>
+  @for (itemPocket of service.getAll$() | async; track itemPocket) {
+    <mat-option [value]="itemPocket.name">
+      {{ t('item_pocket.' + itemPocket.name) }}
+    </mat-option>
+  }
 </mat-select>

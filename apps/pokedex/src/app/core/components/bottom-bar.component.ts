@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatBottomSheetModule, MatBottomSheetRef } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
@@ -13,7 +12,6 @@ import { BottomBarService } from '../services/bottom-bar.service';
   selector: 'pokedex-bottom-bar',
   standalone: true,
   imports: [
-    CommonModule,
     MatButtonModule,
     MatIconModule,
     MatDividerModule,

@@ -7,14 +7,11 @@
   <pokedex-version-group-picker></pokedex-version-group-picker>
   <pokedex-language-picker></pokedex-language-picker>
   <pokedex-theme-picker></pokedex-theme-picker>
-  <button
-    mat-icon-button
-    aria-label="Toggle Side Bar"
-    (click)="sidebarService.toggle()"
-    *ngIf="sidebarService.isActive$ | async"
-  >
-    <mat-icon>{{
-      (sidebarService.isOpen$ | async) ? 'keyboard_double_arrow_right' : 'keyboard_double_arrow_left'
-    }}</mat-icon>
-  </button>
+  @if (sidebarService.isActive$ | async) {
+    <button mat-icon-button aria-label="Toggle Side Bar" (click)="sidebarService.toggle()">
+      <mat-icon>{{
+        (sidebarService.isOpen$ | async) ? 'keyboard_double_arrow_right' : 'keyboard_double_arrow_left'
+      }}</mat-icon>
+    </button>
+  }
 </mat-toolbar>

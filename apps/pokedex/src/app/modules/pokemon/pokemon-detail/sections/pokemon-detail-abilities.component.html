@@ -1,21 +1,21 @@
-<ng-container *ngIf="abilities?.length; else noAbilities">
+@if (abilities?.length) {
   <mat-accordion *transloco="let t" class="mat-icon-accordion">
-    <mat-expansion-panel class="unpadded" *ngFor="let abilityName of abilities">
-      <mat-expansion-panel-header>
-        <mat-panel-title>{{ t('ability.' + abilityName + '.name') }}</mat-panel-title>
-        <mat-panel-description> &nbsp;</mat-panel-description>
-      </mat-expansion-panel-header>
-      <ng-template matExpansionPanelContent>
-        <ng-container *ngIf="abilityName | abilityResolver | async as ability; else loading">
-          <pokedex-ability-detail-info [ability]="ability"></pokedex-ability-detail-info>
-        </ng-container>
-        <ng-template #loading>
-          <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    @for (abilityName of abilities; track abilityName) {
+      <mat-expansion-panel class="unpadded">
+        <mat-expansion-panel-header>
+          <mat-panel-title>{{ t('ability.' + abilityName + '.name') }}</mat-panel-title>
+          <mat-panel-description> &nbsp;</mat-panel-description>
+        </mat-expansion-panel-header>
+        <ng-template matExpansionPanelContent>
+          @if (abilityName | abilityResolver | async; as ability) {
+            <pokedex-ability-detail-info [ability]="ability"></pokedex-ability-detail-info>
+          } @else {
+            <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+          }
         </ng-template>
-      </ng-template>
-    </mat-expansion-panel>
+      </mat-expansion-panel>
+    }
   </mat-accordion>
-</ng-container>
-<ng-template #noAbilities>
+} @else {
   <div>No abilities</div>
-</ng-template>
+}

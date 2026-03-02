@@ -10,7 +10,9 @@
   [aria-label]="'Select Pokemon Types'"
   [disableOptionCentering]="true"
 >
-  <mat-option *ngFor="let type of service.getAll$() | async" [value]="type.name">
-    <pokedex-type-button [types]="[type.name]"></pokedex-type-button>
-  </mat-option>
+  @for (type of service.getAll$() | async; track type) {
+    <mat-option [value]="type.name">
+      <pokedex-type-button [types]="[type.name]"></pokedex-type-button>
+    </mat-option>
+  }
 </mat-select>

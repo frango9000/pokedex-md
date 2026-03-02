@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -16,7 +15,6 @@ import { MoveFilterModel, MoveFilterService } from '../move-filter.service';
   selector: 'pokedex-move-filters',
   standalone: true,
   imports: [
-    CommonModule,
     ReactiveFormsModule,
     FormlyModule,
     FormlyMaterialModule,

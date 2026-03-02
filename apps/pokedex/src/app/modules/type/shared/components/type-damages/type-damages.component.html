@@ -1,52 +1,58 @@
 <ng-container *transloco="let t">
-  <div *ngIf="attacking && typeDamages?.attacking" class="type-damages-type">
-    <span class="type-damages-title">{{ t('type.damages.attacking.title') }}</span>
-    <div class="type-damages">
-      <ng-container
-        [ngTemplateOutlet]="typeDamagesTemplate"
-        [ngTemplateOutletContext]="{
-          title: t('type.damages.attacking.weaknesses'),
-          damages: typeDamages!.attacking.weaknesses,
-        }"
-      ></ng-container>
-      <ng-container
-        [ngTemplateOutlet]="typeDamagesTemplate"
-        [ngTemplateOutletContext]="{
-          title: t('type.damages.attacking.strengths'),
-          damages: typeDamages!.attacking.strengths,
-        }"
-      ></ng-container>
+  @if (attacking && typeDamages?.attacking) {
+    <div class="type-damages-type">
+      <span class="type-damages-title">{{ t('type.damages.attacking.title') }}</span>
+      <div class="type-damages">
+        <ng-container
+          [ngTemplateOutlet]="typeDamagesTemplate"
+          [ngTemplateOutletContext]="{
+            title: t('type.damages.attacking.weaknesses'),
+            damages: typeDamages!.attacking.weaknesses,
+          }"
+        ></ng-container>
+        <ng-container
+          [ngTemplateOutlet]="typeDamagesTemplate"
+          [ngTemplateOutletContext]="{
+            title: t('type.damages.attacking.strengths'),
+            damages: typeDamages!.attacking.strengths,
+          }"
+        ></ng-container>
+      </div>
     </div>
-  </div>
-  <div *ngIf="defending && typeDamages?.defending" class="type-damages-type">
-    <span class="type-damages-title">{{ t('type.damages.defending.title') }}</span>
-    <div class="type-damages">
-      <ng-container
-        [ngTemplateOutlet]="typeDamagesTemplate"
-        [ngTemplateOutletContext]="{
-          title: t('type.damages.defending.weaknesses'),
-          damages: typeDamages!.defending.weaknesses,
-        }"
-      ></ng-container>
-      <ng-container
-        [ngTemplateOutlet]="typeDamagesTemplate"
-        [ngTemplateOutletContext]="{
-          title: t('type.damages.defending.resistances'),
-          damages: typeDamages!.defending.resistances,
-        }"
-      ></ng-container>
+  }
+  @if (defending && typeDamages?.defending) {
+    <div class="type-damages-type">
+      <span class="type-damages-title">{{ t('type.damages.defending.title') }}</span>
+      <div class="type-damages">
+        <ng-container
+          [ngTemplateOutlet]="typeDamagesTemplate"
+          [ngTemplateOutletContext]="{
+            title: t('type.damages.defending.weaknesses'),
+            damages: typeDamages!.defending.weaknesses,
+          }"
+        ></ng-container>
+        <ng-container
+          [ngTemplateOutlet]="typeDamagesTemplate"
+          [ngTemplateOutletContext]="{
+            title: t('type.damages.defending.resistances'),
+            damages: typeDamages!.defending.resistances,
+          }"
+        ></ng-container>
+      </div>
     </div>
-  </div>
+  }
 </ng-container>
 
 <ng-template #typeDamagesTemplate let-title="title" let-damages="damages">
   <div class="type-damages-block">
     <span class="type-damages-block-title">{{ title }}</span>
-    <div *ngFor="let typeDamage of damages" class="type-damage">
-      <pokedex-type-button [types]="[typeDamage.name + '']" [fullWidth]="true"></pokedex-type-button>
-      <span class="type-damage-multiplier" [style.color]="typeDamage.multiplier | typeDamagesMultiplierColor"
-        >x{{ typeDamage.multiplier }}</span
-      >
-    </div>
+    @for (typeDamage of damages; track typeDamage) {
+      <div class="type-damage">
+        <pokedex-type-button [types]="[typeDamage.name + '']" [fullWidth]="true"></pokedex-type-button>
+        <span class="type-damage-multiplier" [style.color]="typeDamage.multiplier | typeDamagesMultiplierColor"
+          >x{{ typeDamage.multiplier }}</span
+        >
+      </div>
+    }
   </div>
 </ng-template>

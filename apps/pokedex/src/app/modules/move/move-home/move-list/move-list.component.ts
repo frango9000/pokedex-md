@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
@@ -18,7 +17,6 @@ import { MoveFilterService } from '../move-filter.service';
   selector: 'pokedex-move-list',
   standalone: true,
   imports: [
-    CommonModule,
     BottomBarFabComponent,
     MatCardModule,
     MatSortModule,

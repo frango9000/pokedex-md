@@ -1,6 +1,6 @@
-<ng-container *ngIf="evolutionChain">
+@if (evolutionChain) {
   <mat-divider></mat-divider>
   <pokedex-pokemon-detail-evolution-chain-link
     [link]="evolutionChain.chain"
   ></pokedex-pokemon-detail-evolution-chain-link>
-</ng-container>
+}

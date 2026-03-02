@@ -26,14 +26,15 @@
       <ng-container matColumnDef="item.sprite">
         <th mat-header-cell *matHeaderCellDef></th>
         <td mat-cell *matCellDef="let machine">
-          <img
-            *ngIf="machine.item.sprite?.length"
-            ngSrc="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/{{ machine.item.sprite }}"
-            [alt]="machine.item.name"
-            width="48"
-            height="48"
-            priority
-          />
+          @if (machine.item.sprite?.length) {
+            <img
+              ngSrc="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/{{ machine.item.sprite }}"
+              [alt]="machine.item.name"
+              width="48"
+              height="48"
+              priority
+            />
+          }
         </td>
       </ng-container>
 

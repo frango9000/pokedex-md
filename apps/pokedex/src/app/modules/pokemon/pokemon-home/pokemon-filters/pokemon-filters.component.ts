@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -15,7 +14,6 @@ import { PokemonFilterModel, PokemonFilterService } from '../pokemon-filter.serv
   selector: 'pokedex-pokemon-filters',
   standalone: true,
   imports: [
-    CommonModule,
     ReactiveFormsModule,
     FormlyModule,
     FormlyMaterialModule,

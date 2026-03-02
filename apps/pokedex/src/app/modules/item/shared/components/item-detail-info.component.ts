@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
 import { TranslocoDirective } from '@jsverse/transloco';
@@ -8,7 +7,7 @@ import { WithVersionGroupDirective } from '../../../version/shared/directives/wi
 @Component({
   selector: 'pokedex-item-detail-info',
   standalone: true,
-  imports: [CommonModule, MatDividerModule, WithVersionGroupDirective, TranslocoDirective],
+  imports: [MatDividerModule, WithVersionGroupDirective, TranslocoDirective],
   templateUrl: './item-detail-info.component.html',
   styleUrls: ['./item-detail-info.component.scss'],
 })
