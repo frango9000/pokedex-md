@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any,@typescript-eslint/member-ordering */
-import { Directive, EmbeddedViewRef, Input, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
+import { Directive, EmbeddedViewRef, inject, Input, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
 
 interface NgLetContext<T> {
   ngLet: T;
@@ -9,15 +9,10 @@ interface NgLetContext<T> {
 // eslint-disable-next-line @angular-eslint/directive-selector
 @Directive({ selector: '[ngLet]' })
 export class NgLetDirective<T> implements OnInit {
+  private readonly viewContainer: ViewContainerRef = inject(ViewContainerRef);
+  private readonly templateRef: TemplateRef<NgLetContext<T>> = inject(TemplateRef);
   private context: NgLetContext<T | null> = { ngLet: null, $implicit: null };
   private embeddedViewRef?: EmbeddedViewRef<NgLetContext<T | null>>;
-
-  // @formatter:off
-  constructor(
-    private readonly viewContainer: ViewContainerRef,
-    private readonly templateRef: TemplateRef<NgLetContext<T>>,
-  ) {}
-  // @formatter:on
 
   @Input()
   set ngLet(value: T) {

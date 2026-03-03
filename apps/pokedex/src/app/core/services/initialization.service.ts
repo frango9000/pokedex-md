@@ -1,4 +1,4 @@
-import { APP_INITIALIZER, Injectable } from '@angular/core';
+import { APP_INITIALIZER, inject, Injectable } from '@angular/core';
 import { forkJoin, Observable } from 'rxjs';
 import { EvolutionTriggerService } from '../../api/evolution/evolution-trigger.service';
 import { GenerationService } from '../../api/games/generation.service';
@@ -32,35 +32,33 @@ import { LanguageService } from './language.service';
   providedIn: 'root',
 })
 export class InitializationService {
-  constructor(
-    private readonly pokemonService: PokemonService,
-    private readonly pokemonAbilityService: AbilityService,
-    private readonly pokemonTypeService: TypeService,
-    private readonly generationService: GenerationService,
-    private readonly languageService: LanguageService,
-    private readonly versionService: VersionService,
-    private readonly versionGroupService: VersionGroupService,
-    private readonly eggGroupService: EggGroupService,
-    private readonly growthRateService: GrowthRateService,
-    private readonly pokemonColorService: PokemonColorService,
-    private readonly pokemonShapeService: PokemonShapeService,
-    private readonly pokemonHabitatService: PokemonHabitatService,
-    private readonly statService: StatService,
-    private readonly itemService: ItemService,
-    private readonly itemCategoryService: ItemCategoryService,
-    private readonly itemAttributeService: ItemAttributeService,
-    private readonly itemPocketService: ItemPocketService,
-    private readonly evolutionTriggerService: EvolutionTriggerService,
-    private readonly moveService: MoveService,
-    private readonly moveLearnMethodService: MoveLearnMethodService,
-    private readonly moveTargetService: MoveTargetService,
-    private readonly moveCategoryService: MoveCategoryService,
-    private readonly moveAilmentService: MoveAilmentService,
-    private readonly moveDamageClassService: MoveDamageClassService,
-    private readonly locationService: LocationService,
-    private readonly regionService: RegionService,
-    private readonly machineService: MachineService,
-  ) {}
+  private readonly pokemonService: PokemonService = inject(PokemonService);
+  private readonly pokemonAbilityService: AbilityService = inject(AbilityService);
+  private readonly pokemonTypeService: TypeService = inject(TypeService);
+  private readonly generationService: GenerationService = inject(GenerationService);
+  private readonly languageService: LanguageService = inject(LanguageService);
+  private readonly versionService: VersionService = inject(VersionService);
+  private readonly versionGroupService: VersionGroupService = inject(VersionGroupService);
+  private readonly eggGroupService: EggGroupService = inject(EggGroupService);
+  private readonly growthRateService: GrowthRateService = inject(GrowthRateService);
+  private readonly pokemonColorService: PokemonColorService = inject(PokemonColorService);
+  private readonly pokemonShapeService: PokemonShapeService = inject(PokemonShapeService);
+  private readonly pokemonHabitatService: PokemonHabitatService = inject(PokemonHabitatService);
+  private readonly statService: StatService = inject(StatService);
+  private readonly itemService: ItemService = inject(ItemService);
+  private readonly itemCategoryService: ItemCategoryService = inject(ItemCategoryService);
+  private readonly itemAttributeService: ItemAttributeService = inject(ItemAttributeService);
+  private readonly itemPocketService: ItemPocketService = inject(ItemPocketService);
+  private readonly evolutionTriggerService: EvolutionTriggerService = inject(EvolutionTriggerService);
+  private readonly moveService: MoveService = inject(MoveService);
+  private readonly moveLearnMethodService: MoveLearnMethodService = inject(MoveLearnMethodService);
+  private readonly moveTargetService: MoveTargetService = inject(MoveTargetService);
+  private readonly moveCategoryService: MoveCategoryService = inject(MoveCategoryService);
+  private readonly moveAilmentService: MoveAilmentService = inject(MoveAilmentService);
+  private readonly moveDamageClassService: MoveDamageClassService = inject(MoveDamageClassService);
+  private readonly locationService: LocationService = inject(LocationService);
+  private readonly regionService: RegionService = inject(RegionService);
+  private readonly machineService: MachineService = inject(MachineService);
 
   initialize(): Observable<unknown> {
     return forkJoin([

@@ -14,5 +14,5 @@ import { InitialsPipe } from '../../../../../shared/pipes/initials.pipe';
   styleUrls: ['./version-group-picker.component.scss'],
 })
 export class VersionGroupPickerComponent {
-  constructor(protected readonly service: VersionGroupService) {}
+  protected readonly service: VersionGroupService = new VersionGroupService();
 }

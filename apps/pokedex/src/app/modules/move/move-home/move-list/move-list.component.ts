@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
@@ -30,13 +30,12 @@ import { MoveFilterService } from '../move-filter.service';
   styleUrls: ['./move-list.component.scss'],
 })
 export class MoveListComponent {
+  private readonly moveService: MoveService = inject(MoveService);
+  private readonly filterService: MoveFilterService = inject(MoveFilterService);
   protected readonly dataSource: GenericDatasource<PxMove> = new GenericDatasource<PxMove>();
   protected readonly displayedColumns: string[] = ['id', 'name', 'generation', 'type', 'power', 'pp', 'accuracy'];
 
-  constructor(
-    private readonly moveService: MoveService,
-    private readonly filterService: MoveFilterService,
-  ) {
+  constructor() {
     this.moveService
       .getAll$()
       .pipe(take(1))

@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
@@ -30,13 +30,12 @@ import { ItemFilterService } from '../item-filter.service';
   styleUrls: ['./item-list.component.scss'],
 })
 export class ItemListComponent {
+  private readonly itemService: ItemService = inject(ItemService);
+  private readonly filterService: ItemFilterService = inject(ItemFilterService);
   protected readonly dataSource: GenericDatasource<PxItem> = new GenericDatasource<PxItem>();
   protected readonly displayedColumns: string[] = ['id', 'sprite', 'name', 'cost', 'category', 'pocket'];
 
-  constructor(
-    private readonly itemService: ItemService,
-    private readonly filterService: ItemFilterService,
-  ) {
+  constructor() {
     this.itemService
       .getAll$()
       .pipe(take(1))

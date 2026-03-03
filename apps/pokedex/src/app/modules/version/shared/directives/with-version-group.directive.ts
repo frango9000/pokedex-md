@@ -1,4 +1,4 @@
-import { Directive, EmbeddedViewRef, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
+import { Directive, EmbeddedViewRef, inject, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { PxVersionGroup } from '@pokedex-md/domain';
 import { VersionGroupService } from '../../../../api/games/version-group.service';
@@ -14,17 +14,14 @@ interface WithVersionGroupContext {
   selector: '[withVersionGroup]',
 })
 export class WithVersionGroupDirective implements OnInit {
+  private readonly templateRef: TemplateRef<WithVersionGroupContext> = inject(TemplateRef);
+  private readonly viewContainer: ViewContainerRef = inject(ViewContainerRef);
+  private readonly service: VersionGroupService = inject(VersionGroupService);
   private readonly context: WithVersionGroupContext = {
     versionGroup: this.service.versionGroup,
     $implicit: this.service.versionGroup,
   };
   private embeddedViewRef?: EmbeddedViewRef<WithVersionGroupContext>;
-
-  constructor(
-    private readonly templateRef: TemplateRef<WithVersionGroupContext>,
-    private readonly viewContainer: ViewContainerRef,
-    private readonly service: VersionGroupService,
-  ) {}
 
   ngOnInit(): void {
     this.embeddedViewRef = this.viewContainer.createEmbeddedView(this.templateRef, this.context);

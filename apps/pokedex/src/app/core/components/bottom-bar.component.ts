@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatBottomSheetModule, MatBottomSheetRef } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
@@ -23,8 +23,6 @@ import { BottomBarService } from '../services/bottom-bar.service';
   styleUrls: ['./bottom-bar.component.scss'],
 })
 export class BottomBarComponent {
-  constructor(
-    protected readonly bottomSheetRef: MatBottomSheetRef<BottomBarComponent>,
-    protected readonly bottomBarService: BottomBarService,
-  ) {}
+  protected readonly bottomSheetRef: MatBottomSheetRef<BottomBarComponent> = inject(MatBottomSheetRef);
+  protected readonly bottomBarService: BottomBarService = inject(BottomBarService);
 }

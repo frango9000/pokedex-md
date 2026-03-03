@@ -11,7 +11,7 @@ import { BottomBarService } from '../../../core/services/bottom-bar.service';
   styleUrls: ['./bottom-bar-fab.component.scss'],
 })
 export class BottomBarFabComponent {
-  @Input() routerLink: string | any[] | null = null;
+  @Input() routerLink: string | string[] | null = null;
 
   protected readonly bottomBarService = inject(BottomBarService);
 }

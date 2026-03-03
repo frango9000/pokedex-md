@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { ActivatedRoute } from '@angular/router';
 import { TranslocoModule } from '@jsverse/transloco';
@@ -17,9 +17,8 @@ import { TypeSlotNamesPipe } from '../../../type/shared/pipes/type-slot-names.pi
   styleUrls: ['./pokemon-detail-profile.component.scss'],
 })
 export class PokemonDetailProfileComponent {
+  private readonly route: ActivatedRoute = inject(ActivatedRoute);
   public readonly pokemon$: Observable<Pokemon> = this.route.data.pipe(
     map(({ pokemonDetail }) => pokemonDetail.pokemon),
   );
-
-  constructor(private readonly route: ActivatedRoute) {}
 }

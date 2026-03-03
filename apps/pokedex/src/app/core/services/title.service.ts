@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { BehaviorSubject, filter, Observable } from 'rxjs';
@@ -8,12 +8,11 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class TitleService {
+  private readonly router: Router = inject(Router);
+  private readonly titleService: Title = inject(Title);
   private readonly _title$: BehaviorSubject<string> = new BehaviorSubject<string>('');
 
-  constructor(
-    private readonly router: Router,
-    private readonly titleService: Title,
-  ) {
+  constructor() {
     this.router.events
       .pipe(
         filter((event) => event instanceof NavigationEnd),

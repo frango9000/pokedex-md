@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { Ability, PxAbility } from '@pokedex-md/domain';
 import { Observable, of } from 'rxjs';
 import { MergingMap } from '../../shared/utils/merge-map';
@@ -9,10 +9,7 @@ import { VersionGroupService } from '../games/version-group.service';
   providedIn: 'root',
 })
 export class AbilityService extends TranslatedService<Ability, PxAbility> {
-  constructor(protected readonly versionGroupService: VersionGroupService) {
-    super();
-  }
-
+  protected readonly versionGroupService: VersionGroupService = inject(VersionGroupService);
   protected get name(): string {
     return 'ability';
   }

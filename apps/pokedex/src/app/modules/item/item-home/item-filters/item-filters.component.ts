@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { FormlyFieldConfig, FormlyForm } from '@ngx-formly/core';
@@ -17,6 +17,8 @@ import { ItemFilterModel, ItemFilterService } from '../item-filter.service';
   styleUrls: ['./item-filters.component.scss'],
 })
 export class ItemFiltersComponent {
+  protected readonly filterService: ItemFilterService = inject(ItemFilterService);
+  protected readonly bottomBarService: BottomBarService = inject(BottomBarService);
   model: ItemFilterModel = this.filterService.filterModel;
   fields: FormlyFieldConfig[] = [
     {
@@ -47,10 +49,7 @@ export class ItemFiltersComponent {
     },
   ];
 
-  constructor(
-    protected readonly filterService: ItemFilterService,
-    protected readonly bottomBarService: BottomBarService,
-  ) {
+  constructor() {
     this.bottomBarService.onClear$.pipe(untilDestroyed(this)).subscribe(() => {
       this.model = {};
       this.filterService.filterModel = this.model;

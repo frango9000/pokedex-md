@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Output } from '@angular/core';
+import { Component, inject, Output } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { TranslocoModule } from '@jsverse/transloco';
@@ -16,6 +16,8 @@ import { VersionService } from '../../../../../api/games/version.service';
   styleUrls: ['./version-menu.component.scss'],
 })
 export class VersionMenuComponent {
+  private readonly versionService: VersionService = inject(VersionService);
+  private readonly versionGroupService: VersionGroupService = inject(VersionGroupService);
   protected readonly versions$: Observable<PxGameVersion[]> = this.versionService.getAll$();
 
   @Output() readonly version$ = new BehaviorSubject<PxGameVersion>(this.versionService.getAll()[0]);
@@ -26,9 +28,4 @@ export class VersionMenuComponent {
     map((versionName) => this.versionGroupService.findByVersion(versionName)!),
   );
   @Output() readonly versionGroupName$ = this.versionGroup$.pipe(map((version) => version?.name));
-
-  constructor(
-    private readonly versionService: VersionService,
-    private readonly versionGroupService: VersionGroupService,
-  ) {}
 }

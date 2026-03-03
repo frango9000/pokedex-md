@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
@@ -32,6 +32,8 @@ import { MachineFilterService } from '../machine-filter.service';
   styleUrls: ['./machine-list.component.scss'],
 })
 export class MachineListComponent {
+  private readonly machineService: MachineService = inject(MachineService);
+  private readonly filterService: MachineFilterService = inject(MachineFilterService);
   protected readonly dataSource: GenericDatasource<PxMachine> = new GenericDatasource<PxMachine>();
   protected readonly displayedColumns: string[] = [
     'id',
@@ -45,10 +47,7 @@ export class MachineListComponent {
     'move.accuracy',
   ];
 
-  constructor(
-    private readonly machineService: MachineService,
-    private readonly filterService: MachineFilterService,
-  ) {
+  constructor() {
     this.machineService
       .getAll$()
       .pipe(take(1))

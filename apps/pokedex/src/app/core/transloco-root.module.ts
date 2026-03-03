@@ -1,14 +1,12 @@
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Inject, Injectable, isDevMode, NgModule } from '@angular/core';
+import { Injectable, isDevMode, NgModule, inject } from '@angular/core';
 import { provideTransloco, Translation, TranslocoLoader, TranslocoModule } from '@jsverse/transloco';
 
 @Injectable({ providedIn: 'root' })
 export class TranslocoHttpLoader implements TranslocoLoader {
-  constructor(
-    private readonly http: HttpClient,
-    @Inject(APP_BASE_HREF) private readonly baseHref: string,
-  ) {}
+  private readonly http = inject(HttpClient);
+  private readonly baseHref = inject(APP_BASE_HREF);
 
   getTranslation(lang: string) {
     return this.http.get<Translation>(`${this.baseHref}assets/i18n/${lang}.json`);

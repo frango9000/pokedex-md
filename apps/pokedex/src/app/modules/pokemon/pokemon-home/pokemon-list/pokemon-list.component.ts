@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
@@ -36,14 +36,13 @@ import { PokemonFilterService } from '../pokemon-filter.service';
   styleUrls: ['./pokemon-list.component.scss'],
 })
 export class PokemonListComponent {
+  private readonly pokemonService: PokemonService = inject(PokemonService);
+  private readonly filterService: PokemonFilterService = inject(PokemonFilterService);
   protected readonly dataSource: GenericDatasource<PxPokemon> = new GenericDatasource<PxPokemon>();
 
   protected readonly displayedColumns: string[] = ['id', 'sprite', 'name', 'generation', 'types'];
 
-  constructor(
-    private readonly pokemonService: PokemonService,
-    private readonly filterService: PokemonFilterService,
-  ) {
+  constructor() {
     this.pokemonService
       .getAll$()
       .pipe(take(1))

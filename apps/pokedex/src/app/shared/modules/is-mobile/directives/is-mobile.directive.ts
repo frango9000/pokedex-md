@@ -1,4 +1,4 @@
-import { Directive, EmbeddedViewRef, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
+import { Directive, EmbeddedViewRef, inject, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { IsMobileService } from '../is-mobile.service';
 
@@ -11,14 +11,11 @@ interface IsMobileContext {
 // eslint-disable-next-line @angular-eslint/directive-selector
 @Directive({ selector: '[isMobile]', standalone: true })
 export class IsMobileDirective implements OnInit {
+  private readonly templateRef: TemplateRef<IsMobileContext> = inject(TemplateRef);
+  private readonly viewContainer: ViewContainerRef = inject(ViewContainerRef);
+  private readonly isMobileService: IsMobileService = inject(IsMobileService);
   private readonly context: IsMobileContext = { isMobile: false, $implicit: false };
   private embeddedViewRef?: EmbeddedViewRef<IsMobileContext>;
-
-  constructor(
-    private readonly templateRef: TemplateRef<IsMobileContext>,
-    private readonly viewContainer: ViewContainerRef,
-    private readonly isMobileService: IsMobileService,
-  ) {}
 
   ngOnInit(): void {
     this.embeddedViewRef = this.viewContainer.createEmbeddedView(this.templateRef, this.context);

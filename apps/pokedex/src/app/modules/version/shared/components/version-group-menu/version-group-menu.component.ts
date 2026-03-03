@@ -21,6 +21,4 @@ export class VersionGroupMenuComponent {
 
   @Output() readonly versionGroup$ = new BehaviorSubject<PxVersionGroup>(this.service.getAll()[0]);
   @Output() readonly versionGroupName$ = this.versionGroup$.pipe(map((version) => version.name));
-
-  constructor() {}
 }

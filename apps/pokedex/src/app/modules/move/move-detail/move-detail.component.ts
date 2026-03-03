@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { ActivatedRoute } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
@@ -15,7 +15,6 @@ import { MoveDetailInfoComponent } from '../shared/components/move-detail-info.c
   styleUrls: ['./move-detail.component.scss'],
 })
 export class MoveDetailComponent {
+  private readonly route: ActivatedRoute = inject(ActivatedRoute);
   public readonly move$: Observable<Move> = this.route.data.pipe(map(({ move }) => move));
-
-  constructor(private readonly route: ActivatedRoute) {}
 }

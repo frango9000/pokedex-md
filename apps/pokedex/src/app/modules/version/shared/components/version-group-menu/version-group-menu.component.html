@@ -1,12 +1,10 @@
 <ng-container *transloco="let t; read: 'api.version-group'">
   <button mat-button [matMenuTriggerFor]="menu">{{ t((versionGroup$ | async)?.name + '') }}</button>
   <mat-menu #menu="matMenu">
-    <button
-      mat-menu-item
-      *ngFor="let versionGroup of versionsGroups$ | async"
-      (click)="versionGroup$.next(versionGroup)"
-    >
-      {{ t(versionGroup.name) }}
-    </button>
+    @for (versionGroup of versionsGroups$ | async; track versionGroup.id) {
+      <button mat-menu-item (click)="versionGroup$.next(versionGroup)">
+        {{ t(versionGroup.name) }}
+      </button>
+    }
   </mat-menu>
 </ng-container>

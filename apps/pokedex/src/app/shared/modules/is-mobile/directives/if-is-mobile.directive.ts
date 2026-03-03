@@ -1,4 +1,4 @@
-import { Directive, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
+import { Directive, inject, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { IsMobileService } from '../is-mobile.service';
 
@@ -6,11 +6,9 @@ import { IsMobileService } from '../is-mobile.service';
 // eslint-disable-next-line @angular-eslint/directive-selector
 @Directive({ selector: '[ifIsMobile]' })
 export class IfIsMobileDirective implements OnInit {
-  constructor(
-    private readonly templateRef: TemplateRef<unknown>,
-    private readonly viewContainer: ViewContainerRef,
-    private readonly isMobileService: IsMobileService,
-  ) {}
+  private readonly templateRef: TemplateRef<unknown> = inject(TemplateRef);
+  private readonly viewContainer: ViewContainerRef = inject(ViewContainerRef);
+  private readonly isMobileService: IsMobileService = inject(IsMobileService);
 
   ngOnInit(): void {
     this.isMobileService.isMobile$.pipe(untilDestroyed(this)).subscribe((isMobile) => {
