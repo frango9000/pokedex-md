@@ -6084,14 +6084,14 @@
   },
   {
     "id": 592,
-    "name": "frillish",
+    "name": "frillish-male",
     "names": { "ko": "탱그릴", "fr": "Viskuse", "de": "Quabbel", "es": "Frillish", "it": "Frillish", "en": "Frillish" },
     "types": ["water", "ghost"],
     "generation": "generation-v"
   },
   {
     "id": 593,
-    "name": "jellicent",
+    "name": "jellicent-male",
     "names": {
       "ko": "탱탱겔",
       "fr": "Moyade",
@@ -6931,7 +6931,7 @@
   },
   {
     "id": 668,
-    "name": "pyroar",
+    "name": "pyroar-male",
     "names": { "ko": "화염레오", "fr": "Némélios", "de": "Pyroleo", "es": "Pyroar", "it": "Pyroar", "en": "Pyroar" },
     "types": ["fire", "normal"],
     "generation": "generation-vi"
