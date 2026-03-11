@@ -5,11 +5,11 @@
     "iso3166": "jp",
     "names": {
       "ko": "일본어 히라가나와 가타카나",
-      "fr": "Japonais hiragana et katakana",
+      "fr": "Japonais Hiragana et Katakana",
       "de": "Japanisch Hiragana und Katakana",
-      "es": "Japonés hiragana y katakana",
-      "it": "Giapponese hiragana e katakana",
-      "en": "Japanese hiragana and katakana"
+      "es": "Japonés Hiragana y Katakana",
+      "it": "Giapponese Hiragana e Katakana",
+      "en": "Japanese Hiragana and Katakana"
     }
   },
   {
@@ -34,7 +34,7 @@
       "de": "Chinesisch",
       "es": "Chino",
       "it": "Cinese tradizionale",
-      "en": "Traditional Chinese"
+      "en": "Traditional chinese"
     }
   },
   {
@@ -82,5 +82,5 @@
     "names": { "ko": "영어", "fr": "Anglais", "de": "Englisch", "es": "Inglés", "it": "Inglese", "en": "English" }
   },
   { "id": 11, "name": "ja", "iso3166": "jp", "names": { "it": "Giapponese", "en": "Japanese" } },
-  { "id": 12, "name": "zh-hans", "iso3166": "cn", "names": { "it": "Cinese semplificato", "en": "Simplified Chinese" } }
+  { "id": 12, "name": "zh-hans", "iso3166": "cn", "names": { "it": "Cinese semplificato", "en": "Simplified chinese" } }
 ]
