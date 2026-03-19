@@ -3452,7 +3452,7 @@
   },
   {
     "id": 577,
-    "name": "mirage-island",
+    "name": "mirage-spot-island",
     "names": {
       "ko": "환상섬",
       "fr": "Île Mirage",
@@ -3818,7 +3818,7 @@
   },
   {
     "id": 610,
-    "name": "rivière-walk",
+    "name": "riviere-walk",
     "names": {
       "ko": "리비에르 라인",
       "fr": "Chemin des Berges",
@@ -4376,7 +4376,7 @@
   },
   {
     "id": 654,
-    "name": "dernière-way",
+    "name": "derniere-way",
     "names": {
       "ko": "데르니에 도로",
       "fr": "Chemin Final",
@@ -4935,7 +4935,7 @@
   },
   {
     "id": 697,
-    "name": "mirage-forest",
+    "name": "mirage-spot-forest",
     "names": {
       "ko": "환상숲",
       "fr": "Forêt Mirage",
@@ -4948,7 +4948,7 @@
   },
   {
     "id": 698,
-    "name": "mirage-cave",
+    "name": "mirage-spot-cave",
     "names": {
       "ko": "환상동굴",
       "fr": "Grotte Mirage",
@@ -4961,7 +4961,7 @@
   },
   {
     "id": 699,
-    "name": "mirage-mountain",
+    "name": "mirage-spot-mountain",
     "names": {
       "ko": "환상산",
       "fr": "Mont Mirage",
@@ -7898,5 +7898,6 @@
   { "id": 1090, "name": "kanto-pokemart", "names": {}, "region": "kanto" },
   { "id": 1091, "name": "kanto-pokecenter", "names": {}, "region": "kanto" },
   { "id": 1092, "name": "sinnoh-pokemart", "names": {}, "region": "sinnoh" },
-  { "id": 1093, "name": "johto-pokemart", "names": {}, "region": "johto" }
+  { "id": 1093, "name": "johto-pokemart", "names": {}, "region": "johto" },
+  { "id": 1094, "name": "mirage-island", "names": {}, "region": "hoenn" }
 ]
