@@ -22991,7 +22991,7 @@
   },
   {
     "id": 1672,
-    "name": "kofu’s-wallet",
+    "name": "kofus-wallet",
     "category": "plot-advancement",
     "cost": 0,
     "names": { "fr": "Portefeuille de Kombu", "en": "Kofu’s Wallet" },
@@ -23663,7 +23663,7 @@
   },
   {
     "id": 1756,
-    "name": "jalapeño",
+    "name": "jalapeno",
     "category": "sandwich-ingredients",
     "cost": 220,
     "names": { "fr": "Piment", "en": "Jalapeño" },
@@ -26014,7 +26014,7 @@
   },
   {
     "id": 2046,
-    "name": "leader’s-crest",
+    "name": "leaders-crest",
     "category": "picnic",
     "cost": 3000,
     "names": { "fr": "Emblème du Général", "en": "Leader’s Crest" },
@@ -26046,7 +26046,7 @@
   },
   {
     "id": 2050,
-    "name": "steel-bottle-(r)",
+    "name": "steel-bottle-r",
     "category": "picnic",
     "cost": 1500,
     "names": { "fr": "Gourde Inox (Rouge)", "en": "Steel Bottle (R)" },
@@ -26054,7 +26054,7 @@
   },
   {
     "id": 2051,
-    "name": "steel-bottle-(y)",
+    "name": "steel-bottle-y",
     "category": "picnic",
     "cost": 1500,
     "names": { "fr": "Gourde Inox (Jaune)", "en": "Steel Bottle (Y)" },
@@ -26062,7 +26062,7 @@
   },
   {
     "id": 2052,
-    "name": "steel-bottle-(b)",
+    "name": "steel-bottle-b",
     "category": "picnic",
     "cost": 1500,
     "names": { "fr": "Gourde Inox (Bleue)", "en": "Steel Bottle (B)" },
@@ -26166,7 +26166,7 @@
   },
   {
     "id": 2065,
-    "name": "plaid-tablecloth-(y)",
+    "name": "plaid-tablecloth-y",
     "category": "picnic",
     "cost": 3000,
     "names": { "fr": "Nappe Tartan Jaune", "en": "Plaid Tablecloth (Y)" },
@@ -26174,7 +26174,7 @@
   },
   {
     "id": 2066,
-    "name": "plaid-tablecloth-(b)",
+    "name": "plaid-tablecloth-b",
     "category": "picnic",
     "cost": 3000,
     "names": { "fr": "Nappe Tartan Bleue", "en": "Plaid Tablecloth (B)" },
@@ -26182,7 +26182,7 @@
   },
   {
     "id": 2067,
-    "name": "plaid-tablecloth-(r)",
+    "name": "plaid-tablecloth-r",
     "category": "picnic",
     "cost": 3000,
     "names": { "fr": "Nappe Tartan Rouge", "en": "Plaid Tablecloth (R)" },
@@ -26190,7 +26190,7 @@
   },
   {
     "id": 2068,
-    "name": "b&w-grass-tablecloth",
+    "name": "bw-grass-tablecloth",
     "category": "picnic",
     "cost": 0,
     "names": { "fr": "Nappe Hautes Herbes", "en": "B&W Grass Tablecloth" },

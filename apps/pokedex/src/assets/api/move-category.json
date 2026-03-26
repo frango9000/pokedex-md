@@ -23,7 +23,7 @@
   },
   {
     "id": 4,
-    "name": "damage+ailment",
+    "name": "damage-ailment",
     "descriptions": {
       "fr": "Inflige des dégâts; inflige une altération de statut",
       "en": "Inflicts damage; inflicts status ailment"
@@ -39,7 +39,7 @@
   },
   {
     "id": 6,
-    "name": "damage+lower",
+    "name": "damage-lower",
     "descriptions": {
       "fr": "Inflige des dégâts; diminue les stats de la cible",
       "en": "Inflicts damage; lowers target’s stats"
@@ -47,7 +47,7 @@
   },
   {
     "id": 7,
-    "name": "damage+raise",
+    "name": "damage-raise",
     "descriptions": {
       "fr": "Inflige des dégâts; augmente les stats du lanceur",
       "en": "Inflicts damage; raises user’s stats"
@@ -55,7 +55,7 @@
   },
   {
     "id": 8,
-    "name": "damage+heal",
+    "name": "damage-heal",
     "descriptions": {
       "fr": "Inflige des dégâts; absorbe les dégâts infligés pour soigner l’utilisateur",
       "en": "Inflicts damage; absorbs damage done to heal the user"

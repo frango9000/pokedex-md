@@ -265,5 +265,17 @@
     "id": 50,
     "name": "new-york-pokecenter-wish-eggs",
     "names": { "en": "Receiving an egg from the Pokemon center in New York City that contains the special move Wish." }
+  },
+  {
+    "id": 51,
+    "name": "snag",
+    "names": { "en": "Snagging a Pokemon from a trainer in Pokemon Colosseum or Pokemon XD: Gale of Darkness." }
+  },
+  {
+    "id": 52,
+    "name": "snag-rematch",
+    "names": {
+      "en": "Snagging a Pokemon from a trainer in Pokemon Colosseum or Pokemon XD: Gale of Darkness, after you have failed to capture them once."
+    }
   }
 ]
