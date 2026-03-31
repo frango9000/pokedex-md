@@ -11,7 +11,7 @@
   </button>
 }
 <mat-menu #menu="matMenu">
-  @for (language of languageService.getAll$() | async; track language) {
+  @for (language of languageService.getAll$() | async; track language.id) {
     <button mat-menu-item (click)="languageService.activeLanguage = language.name">
       <img
         ngSrc="https://flagcdn.com/16x12/{{ language.iso3166 }}.png"

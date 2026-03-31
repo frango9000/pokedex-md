@@ -11,7 +11,7 @@
   [disableOptionCentering]="true"
   *transloco="let t"
 >
-  @for (generation of service.getAll$() | async; track generation) {
+  @for (generation of service.getAll$() | async; track generation.id) {
     <mat-option [value]="generation.name">
       {{ t('generation.' + generation.name) }}
     </mat-option>

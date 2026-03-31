@@ -8,7 +8,7 @@ import { filter, map } from 'rxjs/operators';
 })
 export class SidebarService {
   private readonly _router = inject(Router);
-  private readonly _isOpen$ = new BehaviorSubject(true);
+  private readonly _isOpen$ = new BehaviorSubject(false);
   private readonly _isActive$ = new BehaviorSubject(false);
 
   constructor() {

@@ -5,7 +5,7 @@
     }}</span>
   </button>
   <mat-menu #menu="matMenu">
-    @for (versionGroup of service.getAll$() | async; track versionGroup) {
+    @for (versionGroup of service.getAll$() | async; track versionGroup.id) {
       <button mat-menu-item (click)="service.versionGroup = versionGroup">
         {{ t(versionGroup.name) }}
       </button>

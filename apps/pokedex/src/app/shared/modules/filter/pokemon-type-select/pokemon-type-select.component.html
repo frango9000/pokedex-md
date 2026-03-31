@@ -10,7 +10,7 @@
   [aria-label]="'Select Pokemon Types'"
   [disableOptionCentering]="true"
 >
-  @for (type of service.getAll$() | async; track type) {
+  @for (type of service.getAll$() | async; track type.id) {
     <mat-option [value]="type.name">
       <pokedex-type-button [types]="[type.name]"></pokedex-type-button>
     </mat-option>

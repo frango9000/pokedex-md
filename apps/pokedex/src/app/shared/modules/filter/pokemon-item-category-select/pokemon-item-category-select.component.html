@@ -11,7 +11,7 @@
   [disableOptionCentering]="true"
   *transloco="let t"
 >
-  @for (itemCategory of service.getAll$() | async; track itemCategory) {
+  @for (itemCategory of service.getAll$() | async; track itemCategory.id) {
     <mat-option [value]="itemCategory.name">
       {{ t('item_category.' + itemCategory.name) }}
     </mat-option>
