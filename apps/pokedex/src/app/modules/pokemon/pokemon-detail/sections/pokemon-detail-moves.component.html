@@ -3,10 +3,19 @@
     @for (moveDetail of moves; track moveDetail) {
       <mat-expansion-panel class="unpadded">
         <mat-expansion-panel-header>
-          <mat-panel-title>{{ t('move.' + moveDetail.move + '.name') }}</mat-panel-title>
-          @if (moveDetail.levelLearnedAt) {
-            <mat-panel-description>{{ moveDetail.levelLearnedAt }}</mat-panel-description>
-          }
+          <mat-panel-title>{{ t('move.' + moveDetail.move + '.name') }}</mat-panel-title
+          ><mat-panel-description>
+            @if (moveDetail.levelLearnedAt) {
+              {{ 'L' + moveDetail.levelLearnedAt }}
+            }
+            <button
+              matIconButton
+              [routerLink]="['/', { outlets: { primary: ['move'], sidebar: ['move', moveDetail.move] } }]"
+              (click)="$event.stopPropagation()"
+            >
+              <mat-icon>open_in_new</mat-icon>
+            </button>
+          </mat-panel-description>
         </mat-expansion-panel-header>
         <ng-template matExpansionPanelContent>
           @if (moveDetail.move | moveResolver | async; as move) {

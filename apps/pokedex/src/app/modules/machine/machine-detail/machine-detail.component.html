@@ -20,21 +20,39 @@
           <mat-expansion-panel class="unpadded" expanded>
             <mat-expansion-panel-header>
               <mat-panel-title>{{ t('ui.item.detail.info.title') }}</mat-panel-title>
-              <mat-panel-description> &nbsp;</mat-panel-description>
+              <mat-panel-description>
+                <button
+                  matIconButton
+                  [routerLink]="['/', { outlets: { primary: ['item'], sidebar: ['item', item.name] } }]"
+                  (click)="$event.stopPropagation()"
+                >
+                  <mat-icon>open_in_new</mat-icon>
+                </button>
+              </mat-panel-description>
             </mat-expansion-panel-header>
             <ng-template matExpansionPanelContent>
               <pokedex-item-detail-info [item]="item"></pokedex-item-detail-info>
             </ng-template>
           </mat-expansion-panel>
-          <mat-expansion-panel class="unpadded" expanded>
-            <mat-expansion-panel-header>
-              <mat-panel-title>{{ t('ui.move.detail.info.title') }}</mat-panel-title>
-              <mat-panel-description> &nbsp;</mat-panel-description>
-            </mat-expansion-panel-header>
-            <ng-template matExpansionPanelContent>
-              <pokedex-move-detail-info [move]="move$ | async"></pokedex-move-detail-info>
-            </ng-template>
-          </mat-expansion-panel>
+          @if (move$ | async; as move) {
+            <mat-expansion-panel class="unpadded" expanded>
+              <mat-expansion-panel-header>
+                <mat-panel-title>{{ t('ui.move.detail.info.title') }}</mat-panel-title>
+                <mat-panel-description>
+                  <button
+                    matIconButton
+                    [routerLink]="['/', { outlets: { primary: ['move'], sidebar: ['move', move.name] } }]"
+                    (click)="$event.stopPropagation()"
+                  >
+                    <mat-icon>open_in_new</mat-icon>
+                  </button>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <ng-template matExpansionPanelContent>
+                <pokedex-move-detail-info [move]="move"></pokedex-move-detail-info>
+              </ng-template>
+            </mat-expansion-panel>
+          }
         </mat-accordion>
       </mat-card-content>
     </mat-card>

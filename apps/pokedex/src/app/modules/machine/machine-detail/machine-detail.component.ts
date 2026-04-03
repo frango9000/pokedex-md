@@ -1,8 +1,10 @@
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component, inject } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { ActivatedRoute } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
 import { Item, Machine, Move } from '@pokedex-md/domain';
 import { Observable } from 'rxjs';
@@ -21,6 +23,9 @@ import { MoveDetailInfoComponent } from '../../move/shared/components/move-detai
     MoveDetailInfoComponent,
     ImgFallbackDirective,
     MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    RouterLink,
     NgOptimizedImage,
   ],
   templateUrl: './machine-detail.component.html',
