@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
@@ -14,5 +14,5 @@ import { InitialsPipe } from '../../../../../shared/pipes/initials.pipe';
   styleUrls: ['./version-group-picker.component.scss'],
 })
 export class VersionGroupPickerComponent {
-  protected readonly service: VersionGroupService = new VersionGroupService();
+  protected readonly service: VersionGroupService = inject(VersionGroupService);
 }

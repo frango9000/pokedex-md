@@ -1,12 +1,11 @@
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
-import { NgModule } from '@angular/core';
-import { provideAnimations } from '@angular/platform-browser/animations';
+import { inject, NgModule, provideAppInitializer } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideFormlyCore } from '@ngx-formly/core';
 import { withFormlyMaterial } from '@ngx-formly/material';
 import { appRoutes } from './app.routes';
 import { AppComponent } from './core/components/app.component';
-import { InitializationProvider } from './core/services/initialization.service';
+import { InitializationService } from './core/services/initialization.service';
 import { TranslocoRootModule } from './core/transloco-root.module';
 
 /**
@@ -17,9 +16,8 @@ import { TranslocoRootModule } from './core/transloco-root.module';
 @NgModule({
   imports: [AppComponent, TranslocoRootModule],
   providers: [
-    InitializationProvider,
+    provideAppInitializer(() => inject(InitializationService).initialize()),
     provideRouter(appRoutes),
-    provideAnimations(),
     provideHttpClient(withInterceptorsFromDi()),
     provideFormlyCore(withFormlyMaterial()),
   ],

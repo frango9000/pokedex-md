@@ -1,4 +1,4 @@
-import { APP_INITIALIZER, inject, Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { forkJoin, Observable } from 'rxjs';
 import { EvolutionTriggerService } from '../../api/evolution/evolution-trigger.service';
 import { GenerationService } from '../../api/games/generation.service';
@@ -125,16 +125,3 @@ export class InitializationService {
     ];
   }
 }
-
-function initializeApp(appInitService: InitializationService) {
-  return (): Observable<unknown> => {
-    return appInitService.initialize();
-  };
-}
-
-export const InitializationProvider = {
-  provide: APP_INITIALIZER,
-  useFactory: initializeApp,
-  deps: [InitializationService],
-  multi: true,
-};
