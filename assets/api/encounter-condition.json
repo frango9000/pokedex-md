@@ -1,1 +1,28 @@
-[{"id":1,"name":"swarm","names":{"fr":"Essaim","de":"Schwarm","en":"Swarm"}},{"id":2,"name":"time","names":{"fr":"Période horaire","de":"Tageszeit","en":"Time of day"}},{"id":3,"name":"radar","names":{"fr":"Poké Radar","de":"PokeRadar","en":"PokeRadar"}},{"id":4,"name":"slot2","names":{"fr":"Jeu GBA dans le Slot 2","de":"Spiel der 3. Generation in Slot 2","en":"Gen 3 game in slot 2"}},{"id":5,"name":"radio","names":{"fr":"Radio","de":"Radio","en":"Radio"}},{"id":6,"name":"season","names":{"fr":"Saison","de":"Jahreszeit","en":"Season"}},{"id":7,"name":"starter","names":{"fr":"Starter choisi","en":"Chosen Starter"}},{"id":8,"name":"tv-option","names":{"fr":"Dialogue choisi dans le reportage","en":"Chosen dialogue at the news report"}},{"id":9,"name":"story-progress","names":{"fr":"Progression dans l’histoire","en":"Story Progress"}},{"id":10,"name":"other","names":{"fr":"Divers","en":"Miscellaneous"}},{"id":11,"name":"item","names":{"fr":"Objet","en":"Item"}},{"id":12,"name":"weekday","names":{"fr":"Jour de la semaine","en":"Weekday"}},{"id":13,"name":"first-party-pokemon","names":{"fr":"Premier Pokemon de l'équipe","en":"First party Pokemon"}},{"id":14,"name":"special-encounter","names":{"fr":"Rencontre spéciale","en":"Special encounter"}}]
+[
+  { "id": 1, "name": "swarm", "names": { "fr": "Essaim", "de": "Schwarm", "en": "Swarm" } },
+  { "id": 2, "name": "time", "names": { "fr": "Période horaire", "de": "Tageszeit", "en": "Time of day" } },
+  { "id": 3, "name": "radar", "names": { "fr": "Poké Radar", "de": "PokeRadar", "en": "PokeRadar" } },
+  {
+    "id": 4,
+    "name": "slot2",
+    "names": { "fr": "Jeu GBA dans le Slot 2", "de": "Spiel der 3. Generation in Slot 2", "en": "Gen 3 game in slot 2" }
+  },
+  { "id": 5, "name": "radio", "names": { "fr": "Radio", "de": "Radio", "en": "Radio" } },
+  { "id": 6, "name": "season", "names": { "fr": "Saison", "de": "Jahreszeit", "en": "Season" } },
+  { "id": 7, "name": "starter", "names": { "fr": "Starter choisi", "en": "Chosen Starter" } },
+  {
+    "id": 8,
+    "name": "tv-option",
+    "names": { "fr": "Dialogue choisi dans le reportage", "en": "Chosen dialogue at the news report" }
+  },
+  { "id": 9, "name": "story-progress", "names": { "fr": "Progression dans l’histoire", "en": "Story Progress" } },
+  { "id": 10, "name": "other", "names": { "fr": "Divers", "en": "Miscellaneous" } },
+  { "id": 11, "name": "item", "names": { "fr": "Objet", "en": "Item" } },
+  { "id": 12, "name": "weekday", "names": { "fr": "Jour de la semaine", "en": "Weekday" } },
+  {
+    "id": 13,
+    "name": "first-party-pokemon",
+    "names": { "fr": "Premier Pokemon de l'équipe", "en": "First party Pokemon" }
+  },
+  { "id": 14, "name": "special-encounter", "names": { "fr": "Rencontre spéciale", "en": "Special encounter" } }
+]
