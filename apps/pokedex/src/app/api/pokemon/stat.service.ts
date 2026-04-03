@@ -15,7 +15,7 @@ export class StatService extends TranslatedService<Stat, PxStat> {
   protected override _parseAllTranslations(resources: PxStat[]): Observable<MergingMap> {
     return of(
       MergingMap.ofMultipleResources(resources, 'names', (stat, localized) => ({
-        STAT: { [stat.name]: localized },
+        stat: { [stat.name]: localized },
       })),
     );
   }
