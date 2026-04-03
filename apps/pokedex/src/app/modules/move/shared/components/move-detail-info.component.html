@@ -69,8 +69,8 @@
           <mat-divider></mat-divider>
           @for (statChange of move.stat_changes; track statChange) {
             <div class="mat-row">
-              <div class="mat-cell">{{ t('STAT.' + statChange.stat.name) }}</div>
-              <div class="mat-cell">{{ statChange.change }}</div>
+              <div class="mat-cell">Stat Change</div>
+              <div class="mat-cell">{{ t('STAT.' + statChange.stat.name) + ' ' + statChange.change }}</div>
             </div>
           }
         }

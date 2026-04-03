@@ -27,7 +27,14 @@ export class MoveService extends TranslatedService<Move, PxMove> {
     const translations = new MergingMap();
     move.effect_entries.forEach(({ language, effect, short_effect }) => {
       translations.merge(language.name, {
-        move: { [move.name]: { effect_entry: { short: short_effect, effect: effect } } },
+        move: {
+          [move.name]: {
+            effect_entry: {
+              short: short_effect.replace('$effect_chance', '{{effect_chance}}'),
+              effect: effect.replace('$effect_chance', '{{effect_chance}}'),
+            },
+          },
+        },
       });
     });
     const defaultFlavorText =

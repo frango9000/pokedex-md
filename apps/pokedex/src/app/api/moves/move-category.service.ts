@@ -15,7 +15,7 @@ export class MoveCategoryService extends TranslatedService<MoveCategory, PxMoveC
   protected override _parseAllTranslations(categories: PxMoveCategory[]): Observable<MergingMap | null> {
     return of(
       MergingMap.ofMultipleResources(categories, 'descriptions', (category, localized) => ({
-        move_category: { [category.name]: localized },
+        move_category: { [category.name]: localized, [category.name.replace('+', '-')]: localized },
       })),
     );
   }
