@@ -5,7 +5,9 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root',
 })
 export class ThemeService {
-  private readonly _darkMode$ = new BehaviorSubject<boolean>(false);
+  private static readonly STORAGE_KEY = 'dark-mode';
+
+  private readonly _darkMode$ = new BehaviorSubject<boolean>(localStorage.getItem(ThemeService.STORAGE_KEY) === 'true');
 
   get darkMode$(): BehaviorSubject<boolean> {
     return this._darkMode$;
@@ -16,6 +18,7 @@ export class ThemeService {
   }
 
   set darkMode(value: boolean) {
+    localStorage.setItem(ThemeService.STORAGE_KEY, String(value));
     this._darkMode$.next(value);
   }
 

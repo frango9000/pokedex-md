@@ -9,6 +9,8 @@ import { TranslatedNamedService } from '../base.service';
   providedIn: 'root',
 })
 export class VersionGroupService extends TranslatedNamedService<VersionGroup, PxVersionGroup> {
+  private static readonly STORAGE_KEY = 'selected-version-group';
+
   private readonly _versionGroup$: BehaviorSubject<PxVersionGroup> = new BehaviorSubject<PxVersionGroup>(
     {} as PxVersionGroup,
   );
@@ -18,9 +20,14 @@ export class VersionGroupService extends TranslatedNamedService<VersionGroup, Px
   }
 
   override initialize(): Observable<PxVersionGroup[]> {
-    return super
-      .initialize()
-      .pipe(tap((versionGroups) => versionGroups?.[0] && this._versionGroup$.next(versionGroups[0])));
+    return super.initialize().pipe(
+      tap((versionGroups) => {
+        if (!versionGroups?.length) return;
+        const savedName = localStorage.getItem(VersionGroupService.STORAGE_KEY);
+        const restored = savedName ? versionGroups.find((vg) => vg.name === savedName) : undefined;
+        this._versionGroup$.next(restored ?? versionGroups[0]);
+      }),
+    );
   }
 
   get versionGroup$(): Observable<PxVersionGroup> {
@@ -28,6 +35,7 @@ export class VersionGroupService extends TranslatedNamedService<VersionGroup, Px
   }
 
   set versionGroup(versionGroup: PxVersionGroup) {
+    localStorage.setItem(VersionGroupService.STORAGE_KEY, versionGroup.name);
     this._versionGroup$.next(versionGroup);
   }
 
