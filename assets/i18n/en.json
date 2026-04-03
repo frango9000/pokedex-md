@@ -136,7 +136,8 @@
           "description": "Description",
           "effect_chance": "Effect Chance",
           "effect": "Effect",
-          "effect_short": "Short"
+          "effect_short": "Short",
+          "machine": "Machine"
         }
       }
     },
@@ -150,7 +151,8 @@
           "cost": "Cost",
           "effect": "Effect",
           "effect_short": "Short",
-          "description": "Description"
+          "description": "Description",
+          "machine": "Machine"
         }
       }
     }
