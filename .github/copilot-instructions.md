@@ -86,26 +86,30 @@ pokedex-md/
 ### Data Flow
 
 1. **App Initialization** (`main.ts` → `app.config.ts`)
-  - Registers providers: router, HTTP client, Transloco, ngx-formly, error handlers
-  - `InitializationService` runs before bootstrap
+
+- Registers providers: router, HTTP client, Transloco, ngx-formly, error handlers
+- `InitializationService` runs before bootstrap
 
 2. **Data Loading** (`InitializationService`)
-  - Parallel `forkJoin` calls to all API services
-  - Services fetch data from PokéAPI
-  - JSON responses cached in `assets/api/*.json` for offline access
-  - Language service initializes UI language from browser/UI selection
+
+- Parallel `forkJoin` calls to all API services
+- Services fetch data from PokéAPI
+- JSON responses cached in `assets/api/*.json` for offline access
+- Language service initializes UI language from browser/UI selection
 
 3. **Routing** (`app.routes.ts`)
-  - Standalone routing: `pokemon`, `move`, `item`, `machine` (main outlets)
-  - Sidebar outlet: detail views (`pokemon/:pokemon`, `move/:move`, etc.)
-  - Lazy loading of detail components
-  - Resolvers pre-fetch data before component initialization
+
+- Standalone routing: `pokemon`, `move`, `item`, `machine` (main outlets)
+- Sidebar outlet: detail views (`pokemon/:pokemon`, `move/:move`, etc.)
+- Lazy loading of detail components
+- Resolvers pre-fetch data before component initialization
 
 4. **Modules** (feature-based organization)
-  - Each module manages list & detail views for one entity type
-  - Smart components handle state via services
-  - Presentational components receive data via `@Input` / `@Output`
-  - RxJS `takeUntil(destroy$)` for subscription cleanup
+
+- Each module manages list & detail views for one entity type
+- Smart components handle state via services
+- Presentational components receive data via `@Input` / `@Output`
+- RxJS `takeUntil(destroy$)` for subscription cleanup
 
 ## Development Conventions
 
