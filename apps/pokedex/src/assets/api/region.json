@@ -16,5 +16,6 @@
     "id": 10,
     "name": "paldea",
     "names": { "ko": "팔데아", "fr": "Paldea", "de": "Paldea", "it": "Paldea", "en": "Paldea" }
-  }
+  },
+  { "id": 11, "name": "orre", "names": { "en": "Orre" } }
 ]

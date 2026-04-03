@@ -430,13 +430,27 @@
   {
     "id": 47,
     "name": "legends-za",
-    "names": { "fr": "Légendes : Z-A", "en": "Legends: ZA" },
+    "names": {
+      "ko": "LEGENDS Z-A",
+      "fr": "Légendes : Z-A",
+      "de": "Legenden: Z-A",
+      "es": "Leyendas: Z-A",
+      "it": "Leggende: Z-A",
+      "en": "Legends: Z-A"
+    },
     "version_group": "legends-za"
   },
   {
     "id": 48,
     "name": "mega-dimension",
-    "names": { "fr": "Méga-Dimension", "en": "Mega Dimension" },
+    "names": {
+      "ko": "메가 차원 러시",
+      "fr": "Méga-Dimension",
+      "de": "Mega-Dimension",
+      "es": "Megadimensión",
+      "it": "Megadimensione",
+      "en": "Mega Dimension"
+    },
     "version_group": "mega-dimension"
   }
 ]
