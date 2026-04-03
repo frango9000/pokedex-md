@@ -12,7 +12,6 @@
       "options": {
         "outputPath": { "base": "dist/apps/pokedex", "browser": "" },
         "browser": "apps/pokedex/src/main.ts",
-        "polyfills": ["zone.js"],
         "tsConfig": "apps/pokedex/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/pokedex/src/favicon.ico", "apps/pokedex/src/assets"],
