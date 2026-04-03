@@ -1,6 +1,28 @@
 <ng-container *transloco="let t">
   @if (item) {
-    <div class="mat-table mat-static-table">
+    <div class="mat-table mat-static-table" *withVersionGroup="let versionGroup">
+      @if (showMachineLink()) {
+        @for (machine of item.machines; track machine.version_group.name) {
+          @if (machine.version_group.name === versionGroup.name) {
+            <mat-divider></mat-divider>
+            <div class="mat-row">
+              <div class="mat-cell">{{ t('ui.item.detail.info.machine') }}</div>
+              <div class="mat-cell">
+                <button
+                  matIconButton
+                  [routerLink]="[
+                    '/',
+                    { outlets: { primary: ['machine'], sidebar: ['machine', machine.machine.url | resourceId] } },
+                  ]"
+                  (click)="$event.stopPropagation()"
+                >
+                  <mat-icon>open_in_new</mat-icon>
+                </button>
+              </div>
+            </div>
+          }
+        }
+      }
       <mat-divider></mat-divider>
       <div class="mat-header-row">
         <div class="mat-header-cell">{{ t('ui.item.detail.info.id') }}</div>
@@ -33,7 +55,7 @@
       <mat-divider></mat-divider>
       <div class="mat-row">
         <div class="mat-cell">{{ t('ui.item.detail.info.description') }}</div>
-        <div class="mat-cell" *withVersionGroup="let versionGroup">
+        <div class="mat-cell">
           {{ t('item.' + item.name + '.flavor_text.' + versionGroup.name) }}
         </div>
       </div>

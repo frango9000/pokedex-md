@@ -6,8 +6,7 @@ import { BottomBarService } from '../../../../core/services/bottom-bar.service';
 import { providePokemonGenerationSelect } from '../../../../shared/modules/filter/pokemon-generation-select/pokemon-generation-select.module';
 import { providePokemonTypeSelect } from '../../../../shared/modules/filter/pokemon-type-select/pokemon-type-select.module';
 import { provideFormlyMatRangeSlider } from '../../../../shared/modules/filter/range-slider/range-slider.module';
-import { MachineFilterService } from '../../../machine/machine-home/machine-filter.service';
-import { MoveFilterModel } from '../move-filter.service';
+import { MoveFilterModel, MoveFilterService } from '../move-filter.service';
 
 @UntilDestroy()
 @Component({
@@ -18,7 +17,7 @@ import { MoveFilterModel } from '../move-filter.service';
   styleUrls: ['./move-filters.component.scss'],
 })
 export class MoveFiltersComponent {
-  protected readonly filterService: MachineFilterService = inject(MachineFilterService);
+  protected readonly filterService: MoveFilterService = inject(MoveFilterService);
   protected readonly bottomBarService: BottomBarService = inject(BottomBarService);
 
   model: MoveFilterModel = this.filterService.filterModel;

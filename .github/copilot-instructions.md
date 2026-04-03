@@ -204,7 +204,7 @@ pokedex-md/
 ## Code Quality Standards
 
 - **Functions:** < 25 lines; single responsibility
-- **Comments:** Explain *why*, not *what*; use JSDoc on public APIs
+- **Comments:** Explain _why_, not _what_; use JSDoc on public APIs
 - **Error Handling:** Fail fast; validate inputs early
 - **Performance:**
   - Paginate unbounded collections

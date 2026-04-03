@@ -31,7 +31,7 @@
               </mat-panel-description>
             </mat-expansion-panel-header>
             <ng-template matExpansionPanelContent>
-              <pokedex-item-detail-info [item]="item"></pokedex-item-detail-info>
+              <pokedex-item-detail-info [item]="item" [showMachineLink]="false"></pokedex-item-detail-info>
             </ng-template>
           </mat-expansion-panel>
           @if (move$ | async; as move) {
@@ -49,7 +49,7 @@
                 </mat-panel-description>
               </mat-expansion-panel-header>
               <ng-template matExpansionPanelContent>
-                <pokedex-move-detail-info [move]="move"></pokedex-move-detail-info>
+                <pokedex-move-detail-info [move]="move" [showMachineLink]="false"></pokedex-move-detail-info>
               </ng-template>
             </mat-expansion-panel>
           }

@@ -40,7 +40,7 @@ export interface Move extends NamedApiEntity {
     machine: NamedApiResource;
     version_group: NamedApiResource;
   }[];
-  meta: PokemonMoveMetadata;
+  meta?: PokemonMoveMetadata;
   names: ApiNameLocalization[];
   past_values: [];
   stat_changes: {
