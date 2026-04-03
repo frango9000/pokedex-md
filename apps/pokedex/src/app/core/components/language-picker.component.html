@@ -1,5 +1,10 @@
 @if (languageService.activeLanguage$ | async; as activeLanguage) {
-  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Change the active language">
+  <button
+    mat-icon-button
+    [matMenuTriggerFor]="menu"
+    aria-label="Change the active language"
+    [matTooltip]="'LANGUAGE.' + activeLanguage.name + '.NAME' | transloco"
+  >
     <img
       class="active-language-button"
       src="https://flagcdn.com/20x15/{{ activeLanguage.iso3166 }}.png"

@@ -1,14 +1,19 @@
 <ng-container *transloco="let t; prefix: 'version-group'">
-  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Version Group Picker">
-    <span class="version-group-initials">{{
-      t((service.versionGroup$ | async)?.name + '') | initials: 3 : ' / ' : '/'
-    }}</span>
-  </button>
-  <mat-menu #menu="matMenu">
-    @for (versionGroup of service.getAll$() | async; track versionGroup.id) {
-      <button mat-menu-item (click)="service.versionGroup = versionGroup">
-        {{ t(versionGroup.name) }}
-      </button>
-    }
-  </mat-menu>
+  @if (t((service.versionGroup$ | async)?.name + ''); as versionGroupName) {
+    <button
+      mat-icon-button
+      [matMenuTriggerFor]="menu"
+      aria-label="Version Group Picker"
+      [matTooltip]="versionGroupName"
+    >
+      <span class="version-group-initials">{{ versionGroupName | initials: 3 : ' / ' : '/' }}</span>
+    </button>
+    <mat-menu #menu="matMenu">
+      @for (versionGroup of service.getAll$() | async; track versionGroup.id) {
+        <button mat-menu-item (click)="service.versionGroup = versionGroup">
+          {{ t(versionGroup.name) }}
+        </button>
+      }
+    </mat-menu>
+  }
 </ng-container>
