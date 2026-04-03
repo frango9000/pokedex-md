@@ -81,7 +81,6 @@
         "name": "Github Deploy Workflow",
         "email": "frango9000@gmail.com",
         "cname": "",
-        "noSilent": true,
         "noBuild": true,
         "dir": "dist/apps/pokedex"
       }
