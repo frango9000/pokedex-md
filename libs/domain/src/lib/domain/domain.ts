@@ -1,4 +1,3 @@
-import { HashMap } from '@jsverse/transloco';
 import { Language } from './language';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
@@ -42,5 +41,5 @@ export interface ApiDescriptionLocalization extends ApiLocalization {
 }
 
 //Non Api Content
-
+export type HashMap<T = unknown> = Record<string, T>;
 export type LocalizedNames = HashMap<string>;

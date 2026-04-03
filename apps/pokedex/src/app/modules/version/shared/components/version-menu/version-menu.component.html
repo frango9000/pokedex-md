@@ -1,4 +1,4 @@
-<ng-container *transloco="let t; read: 'version'">
+<ng-container *transloco="let t; prefix: 'version'">
   <button mat-button [matMenuTriggerFor]="menu">{{ t((version$ | async)?.name + '') }}</button>
   <mat-menu #menu="matMenu">
     @for (version of versions$ | async; track version.id) {

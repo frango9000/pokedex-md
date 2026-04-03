@@ -1,5 +1,4 @@
-import { HashMap } from '@jsverse/transloco';
-import { LocalizedNames } from '@pokedex-md/domain';
+import { HashMap, LocalizedNames } from '@pokedex-md/domain';
 import { merge } from 'lodash-es';
 
 export class MergingMap extends Map<string, HashMap> {
