@@ -1,0 +1,1 @@
+import{Ga as a,ea as r,rd as i}from"./chunk-6UJCTDIY.js";var c=class e extends i{get name(){return"machine"}static \u0275fac=(()=>{let t;return function(n){return(t||(t=a(e)))(n||e)}})();static \u0275prov=r({token:e,factory:e.\u0275fac,providedIn:"root"})};export{c as a};
