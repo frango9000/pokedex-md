@@ -2316,7 +2316,11 @@
       "tera-shift",
       "tera-shell",
       "teraform-zero",
-      "poison-puppeteer"
+      "poison-puppeteer",
+      "piercing-drill",
+      "dragonize",
+      "mega-sol",
+      "spicy-spray"
     ],
     "main_region": "paldea",
     "moves": [
@@ -2520,6 +2524,13 @@
       "hydrapple"
     ],
     "types": ["stellar"],
-    "version_groups": ["scarlet-violet", "the-teal-mask", "the-indigo-disk", "legends-za", "mega-dimension"]
+    "version_groups": [
+      "scarlet-violet",
+      "the-teal-mask",
+      "the-indigo-disk",
+      "legends-za",
+      "mega-dimension",
+      "champions"
+    ]
   }
 ]

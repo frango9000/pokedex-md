@@ -452,5 +452,6 @@
       "en": "Mega Dimension"
     },
     "version_group": "mega-dimension"
-  }
+  },
+  { "id": 49, "name": "champions", "names": { "en": "Champions" }, "version_group": "champions" }
 ]

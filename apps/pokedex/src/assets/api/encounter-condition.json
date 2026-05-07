@@ -24,5 +24,8 @@
     "name": "first-party-pokemon",
     "names": { "fr": "Premier Pokemon de l'équipe", "en": "First party Pokemon" }
   },
-  { "id": 14, "name": "special-encounter", "names": { "fr": "Rencontre spéciale", "en": "Special encounter" } }
+  { "id": 14, "name": "special-encounter", "names": { "fr": "Rencontre spéciale", "en": "Special encounter" } },
+  { "id": 15, "name": "trade", "names": { "en": "Trade a specific Pokemon to an NPC" } },
+  { "id": 16, "name": "coins", "names": { "en": "Redeem Coins for a Pokemon at the Prize Corner or Game Corner" } },
+  { "id": 17, "name": "friend-safari-slot", "names": { "en": "Friend Safari Slot assignment" } }
 ]
