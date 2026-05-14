@@ -26521,7 +26521,7 @@
     "name": "syrupy-apple",
     "category": "evolution",
     "cost": 500,
-    "names": { "fr": "Pomme Nectar", "en": "Syrupy Apple" },
+    "names": { "fr": "Pomme Nectar", "de": "Saftiger Apfel", "en": "Syrupy Apple" },
     "pocket": "misc"
   },
   {
@@ -27553,6 +27553,28 @@
     "sprite": "laorigin-ball.png",
     "pocket": "pokeballs"
   },
-  { "id": 10001, "name": "black-augurite", "category": "evolution", "cost": 0, "names": {}, "pocket": "misc" },
-  { "id": 10002, "name": "peat-block", "category": "evolution", "cost": 0, "names": {}, "pocket": "misc" }
+  {
+    "id": 2230,
+    "name": "black-augurite",
+    "category": "evolution",
+    "cost": 0,
+    "names": { "de": "Schwarzaugit", "en": "Black Augurite" },
+    "pocket": "misc"
+  },
+  {
+    "id": 2231,
+    "name": "peat-block",
+    "category": "evolution",
+    "cost": 0,
+    "names": { "de": "Torfblock", "en": "Peat Block" },
+    "pocket": "misc"
+  },
+  {
+    "id": 2232,
+    "name": "metal-alloy",
+    "category": "evolution",
+    "cost": 0,
+    "names": { "de": "Legierungsmetall", "en": "Metal Alloy" },
+    "pocket": "misc"
+  }
 ]

@@ -277,5 +277,16 @@
     "names": {
       "en": "Snagging a Pokemon from a trainer in Pokemon Colosseum or Pokemon XD: Gale of Darkness, after you have failed to capture them once."
     }
+  },
+  {
+    "id": 53,
+    "name": "pokespot",
+    "names": { "en": "Finding a Wild Pokemon at any of the three Pokespots in Pokemon XD: Gale of Darkness." }
+  },
+  { "id": 54, "name": "hidden-grotto", "names": { "en": "Finding a Pokemon in a Hidden Grotto" } },
+  {
+    "id": 55,
+    "name": "honey-tree",
+    "names": { "en": "Slathering a Honey Tree with Honey and waiting for a Pokémon to appear." }
   }
 ]

@@ -426,5 +426,13 @@
       "it": "Megadimensione",
       "en": "Mega Dimension"
     }
+  },
+  {
+    "id": 32,
+    "name": "champions",
+    "generation": "generation-ix",
+    "order": 32,
+    "versions": ["champions"],
+    "names": { "en": "Champions" }
   }
 ]

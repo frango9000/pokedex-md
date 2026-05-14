@@ -2167,6 +2167,12 @@
       "en": "Generation VIII"
     },
     "pokemon_species": [
+      "perrserker",
+      "runerigus",
+      "alcremie",
+      "frosmoth",
+      "copperajah",
+      "drakloak",
       "grookey",
       "scorbunny",
       "sobble",
@@ -2198,14 +2204,23 @@
       "carkol",
       "coalossal",
       "flapple",
+      "grimmsnarl",
       "silicobra",
+      "obstagoon",
       "cramorant",
       "arrokuda",
+      "cursola",
       "toxel",
+      "sirfetchd",
       "sizzlipede",
+      "mr-rime",
       "clobbopus",
+      "dragapult",
       "sinistea",
+      "urshifu",
       "hatenna",
+      "wyrdeer",
+      "kleavor",
       "impidimp",
       "milcery",
       "falinks",
@@ -2239,30 +2254,15 @@
       "centiskorch",
       "grapploct",
       "polteageist",
-      "hattrem",
-      "hatterene",
       "morgrem",
-      "obstagoon",
-      "perrserker",
-      "cursola",
-      "sirfetchd",
-      "mr-rime",
-      "runerigus",
-      "alcremie",
-      "frosmoth",
-      "copperajah",
-      "drakloak",
-      "dragapult",
-      "urshifu",
-      "wyrdeer",
-      "kleavor",
+      "ursaluna",
       "basculegion",
       "sneasler",
       "overqwil",
       "orbeetle",
       "appletun",
-      "grimmsnarl",
-      "ursaluna"
+      "hattrem",
+      "hatterene"
     ],
     "types": [],
     "version_groups": [
@@ -2316,7 +2316,11 @@
       "tera-shift",
       "tera-shell",
       "teraform-zero",
-      "poison-puppeteer"
+      "poison-puppeteer",
+      "piercing-drill",
+      "dragonize",
+      "mega-sol",
+      "spicy-spray"
     ],
     "main_region": "paldea",
     "moves": [
@@ -2520,6 +2524,13 @@
       "hydrapple"
     ],
     "types": ["stellar"],
-    "version_groups": ["scarlet-violet", "the-teal-mask", "the-indigo-disk", "legends-za", "mega-dimension"]
+    "version_groups": [
+      "scarlet-violet",
+      "the-teal-mask",
+      "the-indigo-disk",
+      "legends-za",
+      "mega-dimension",
+      "champions"
+    ]
   }
 ]
