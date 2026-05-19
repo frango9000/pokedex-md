@@ -907,8 +907,8 @@
   },
   {
     "id": 158,
-    "name": "power-plant",
-    "names": { "fr": "Centrale", "de": "Kraftwerk", "en": "Power Plant" },
+    "name": "kanto-power-plant",
+    "names": { "fr": "Centrale", "de": "Kraftwerk", "en": "Kanto Power Plant" },
     "region": "kanto"
   },
   {
@@ -7910,5 +7910,13 @@
   { "id": 1102, "name": "realgam-tower", "names": { "en": "Realgam Tower" }, "region": "orre" },
   { "id": 1103, "name": "agate-village", "names": { "en": "Agate Village" }, "region": "orre" },
   { "id": 1104, "name": "the-under", "names": { "en": "The Under" }, "region": "orre" },
-  { "id": 1105, "name": "mt-battle", "names": { "en": "Mt. Battle" }, "region": "orre" }
+  { "id": 1105, "name": "mt-battle", "names": { "en": "Mt. Battle" }, "region": "orre" },
+  { "id": 1106, "name": "pokemon-hq-lab", "names": { "en": "Pokemon Hq Lab" }, "region": "orre" },
+  { "id": 1107, "name": "gateon-port", "names": { "en": "Gateon Port" }, "region": "orre" },
+  { "id": 1108, "name": "cipher-lab", "names": { "en": "Cipher Lab" }, "region": "orre" },
+  { "id": 1109, "name": "pokespot", "names": { "en": "Pokespot" }, "region": "orre" },
+  { "id": 1110, "name": "onbs", "names": { "en": "ONBS" }, "region": "orre" },
+  { "id": 1111, "name": "cipher-key-lair", "names": { "en": "Cipher Key Lair" }, "region": "orre" },
+  { "id": 1112, "name": "citadark-isle", "names": { "en": "Citadark Isle" }, "region": "orre" },
+  { "id": 1113, "name": "kanto-underground-path", "names": { "en": "Kanto Underground Path" }, "region": "kanto" }
 ]

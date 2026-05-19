@@ -3682,6 +3682,10 @@
       "en": "Poison Puppeteer"
     }
   },
+  { "id": 308, "name": "piercing-drill", "generation": "generation-ix", "names": { "en": "Piercing Drill" } },
+  { "id": 309, "name": "dragonize", "generation": "generation-ix", "names": { "en": "Dragonize" } },
+  { "id": 310, "name": "mega-sol", "generation": "generation-ix", "names": { "en": "Mega Sol" } },
+  { "id": 311, "name": "spicy-spray", "generation": "generation-ix", "names": { "en": "Spicy Spray" } },
   { "id": 10001, "name": "mountaineer", "generation": "generation-v", "names": { "en": "Mountaineer" } },
   { "id": 10002, "name": "wave-rider", "generation": "generation-v", "names": { "en": "Wave Rider" } },
   { "id": 10003, "name": "skater", "generation": "generation-v", "names": { "en": "Skater" } },

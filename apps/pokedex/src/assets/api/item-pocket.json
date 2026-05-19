@@ -10,5 +10,5 @@
     "name": "battle",
     "names": { "fr": "Objets de combat", "es": "Objetos de combate", "en": "Battle Items" }
   },
-  { "id": 8, "name": "key", "names": { "fr": "Object rares", "es": "Objetos clave", "en": "Key Items" } }
+  { "id": 8, "name": "key", "names": { "fr": "Objets rares", "es": "Objetos clave", "en": "Key Items" } }
 ]
