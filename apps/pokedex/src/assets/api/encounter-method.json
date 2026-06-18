@@ -196,7 +196,7 @@
   },
   { "id": 32, "name": "island-scan", "names": {} },
   { "id": 33, "name": "sos-encounter", "names": {} },
-  { "id": 34, "name": "bubbling-spots", "names": {} },
+  { "id": 34, "name": "bubbling-spots", "names": { "en": "Fishing at bubbling spots in the water" } },
   { "id": 35, "name": "berry-piles", "names": {} },
   { "id": 36, "name": "npc-trade", "names": {} },
   { "id": 37, "name": "sos-from-bubbling-spot", "names": {} },

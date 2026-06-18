@@ -957,5 +957,49 @@
     "name": "honey-tree-group-c",
     "names": { "en": "Honey Tree Group C (0% on normal trees / 1% on Munchlax trees)" },
     "condition": "honey-tree-group"
+  },
+  {
+    "id": 192,
+    "name": "headbutt-tree-common",
+    "names": { "en": "Headbutt Tree (Common)" },
+    "condition": "headbutt-tree"
+  },
+  { "id": 193, "name": "headbutt-tree-rare", "names": { "en": "Headbutt Tree (Rare)" }, "condition": "headbutt-tree" },
+  {
+    "id": 194,
+    "name": "headbutt-tree-secret",
+    "names": { "en": "Headbutt Tree (Secret)" },
+    "condition": "headbutt-tree"
+  },
+  { "id": 195, "name": "trade-cottonee", "names": { "en": "Give Cottonee in a Trade" }, "condition": "trade" },
+  { "id": 196, "name": "trade-petilil", "names": { "en": "Give Petilil in a Trade" }, "condition": "trade" },
+  { "id": 197, "name": "trade-emolga", "names": { "en": "Give Emolga in a Trade" }, "condition": "trade" },
+  { "id": 198, "name": "trade-mantine", "names": { "en": "Give Mantine in a Trade" }, "condition": "trade" },
+  { "id": 199, "name": "trade-ditto", "names": { "en": "Give Ditto in a Trade" }, "condition": "trade" },
+  { "id": 200, "name": "trade-excadrill", "names": { "en": "Give Excadrill in a Trade" }, "condition": "trade" },
+  { "id": 201, "name": "trade-hippowdon", "names": { "en": "Give Hippowdon in a Trade" }, "condition": "trade" },
+  {
+    "id": 202,
+    "name": "backlot-not-mentioned",
+    "names": { "en": "Mr. Backlot hasn't mentioned any Pokemon" },
+    "condition": "backlot"
+  },
+  {
+    "id": 203,
+    "name": "backlot-mentioned",
+    "names": { "en": "Mr. Backlot has mentioned seeing this Pokemon in the garden" },
+    "condition": "backlot"
+  },
+  {
+    "id": 204,
+    "name": "bug-catching-contest-no",
+    "names": { "en": "Not during the Bug-Catching Contest" },
+    "condition": "bug-catching-contest"
+  },
+  {
+    "id": 205,
+    "name": "bug-catching-contest-yes",
+    "names": { "en": "During the Bug-Catching Contest" },
+    "condition": "bug-catching-contest"
   }
 ]
