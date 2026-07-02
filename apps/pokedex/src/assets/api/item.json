@@ -3159,7 +3159,7 @@
       "ko": "기합의머리띠",
       "fr": "Bandeau",
       "de": "Fokusband",
-      "es": "Cinta Focus",
+      "es": "Cinta Aguante",
       "it": "Bandana",
       "en": "Focus Band"
     },
@@ -3408,7 +3408,7 @@
       "ko": "녹지않는얼음",
       "fr": "Glace Éternelle",
       "de": "Ewiges Eis",
-      "es": "Antiderretir",
+      "es": "Hielo Perpetuo",
       "it": "Gelomai",
       "en": "Never-Melt Ice"
     },
@@ -3465,7 +3465,7 @@
       "ko": "용의이빨",
       "fr": "Croc Dragon",
       "de": "Drachenzahn",
-      "es": "Colmillo Dragón",
+      "es": "Colmillo de Dragón",
       "it": "Dentedidrago",
       "en": "Dragon Fang"
     },
@@ -3858,7 +3858,7 @@
       "ko": "기합의띠",
       "fr": "Ceinture Force",
       "de": "Fokusgurt",
-      "es": "Banda Focus",
+      "es": "Banda Aguante",
       "it": "Focalnastro",
       "en": "Focus Sash"
     },
@@ -26489,7 +26489,7 @@
     "name": "fairy-feather",
     "category": "held-items",
     "cost": 750,
-    "names": { "fr": "Plume Enchantée", "en": "Fairy Feather" },
+    "names": { "fr": "Plume Enchantée", "en": "Fairy Feather", "es": "Pluma Feérica" },
     "pocket": "misc"
   },
   {

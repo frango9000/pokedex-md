@@ -6659,7 +6659,7 @@
   },
   {
     "id": 881,
-    "name": "battle-tower",
+    "name": "galar-battle-tower",
     "names": { "fr": "Tour de Combat", "de": "Duellturm", "en": "Battle Tower" },
     "region": "galar"
   },
@@ -7918,5 +7918,13 @@
   { "id": 1110, "name": "onbs", "names": { "en": "ONBS" }, "region": "orre" },
   { "id": 1111, "name": "cipher-key-lair", "names": { "en": "Cipher Key Lair" }, "region": "orre" },
   { "id": 1112, "name": "citadark-isle", "names": { "en": "Citadark Isle" }, "region": "orre" },
-  { "id": 1113, "name": "kanto-underground-path", "names": { "en": "Kanto Underground Path" }, "region": "kanto" }
+  { "id": 1113, "name": "kanto-underground-path", "names": { "en": "Kanto Underground Path" }, "region": "kanto" },
+  { "id": 1114, "name": "energy-plant", "names": { "en": "Energy Plant" }, "region": "galar" },
+  { "id": 1115, "name": "meetup-spot", "names": { "en": "Meetup Spot" }, "region": "galar" },
+  {
+    "id": 1116,
+    "name": "isle-of-armor-caves",
+    "names": { "en": "Random caves across the Isle of Armor" },
+    "region": "galar"
+  }
 ]

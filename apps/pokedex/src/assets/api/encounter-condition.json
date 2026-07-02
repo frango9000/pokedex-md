@@ -29,5 +29,15 @@
   { "id": 16, "name": "coins", "names": { "en": "Redeem Coins for a Pokemon at the Prize Corner or Game Corner" } },
   { "id": 17, "name": "friend-safari-slot", "names": { "en": "Friend Safari Slot assignment" } },
   { "id": 18, "name": "great-marsh-daily-slot", "names": { "en": "Great Marsh Daily Slot" } },
-  { "id": 19, "name": "honey-tree-group", "names": { "en": "Honey Tree Group" } }
+  { "id": 19, "name": "honey-tree-group", "names": { "en": "Honey Tree Group" } },
+  { "id": 20, "name": "headbutt-tree", "names": { "en": "Headbutt Tree Type" } },
+  { "id": 21, "name": "backlot", "names": { "en": "Listen to Mr. Backlot" } },
+  { "id": 22, "name": "bug-catching-contest", "names": { "en": "Bug-Catching Contest" } },
+  { "id": 23, "name": "save-data", "names": { "en": "Have save data from another Pokémon game" } },
+  {
+    "id": 24,
+    "name": "alolan-diglett-found",
+    "names": { "en": "Find a certain number of Alolan Diglett in Isle of Armor" }
+  },
+  { "id": 25, "name": "weather", "names": { "en": "During specific weather conditions like sun, rain, or snow" } }
 ]
