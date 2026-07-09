@@ -1717,7 +1717,7 @@
   {
     "id": 175,
     "name": "togepi",
-    "names": { "ko": "토게피", "fr": "Togepi", "de": "Togepi", "es": "Togepi", "it": "Togepi", "en": "Togepi" },
+    "names": { "es": "Togepi", "ko": "토게피", "fr": "Togepi", "de": "Togepi", "it": "Togepi", "en": "Togepi" },
     "types": ["fairy"],
     "generation": "generation-ii"
   },
@@ -3300,9 +3300,9 @@
     "id": 339,
     "name": "barboach",
     "names": {
+      "de": "Schmerbe",
       "ko": "미꾸리",
       "fr": "Barloche",
-      "de": "Schmerbe",
       "es": "Barboach",
       "it": "Barboach",
       "en": "Barboach"
@@ -4259,10 +4259,10 @@
     "id": 432,
     "name": "purugly",
     "names": {
-      "es": "Purugly",
       "ko": "몬냥이",
       "fr": "Chaffreux",
       "de": "Shnurgarst",
+      "es": "Purugly",
       "it": "Purugly",
       "en": "Purugly"
     },
@@ -4714,11 +4714,11 @@
     "id": 473,
     "name": "mamoswine",
     "names": {
+      "it": "Mamoswine",
       "ko": "맘모꾸리",
       "fr": "Mammochon",
       "de": "Mamutel",
       "es": "Mamoswine",
-      "it": "Mamoswine",
       "en": "Mamoswine"
     },
     "types": ["ice", "ground"],
@@ -5035,7 +5035,7 @@
   {
     "id": 505,
     "name": "watchog",
-    "names": { "es": "Watchog", "ko": "보르그", "fr": "Miradar", "de": "Kukmarda", "it": "Watchog", "en": "Watchog" },
+    "names": { "ko": "보르그", "fr": "Miradar", "de": "Kukmarda", "es": "Watchog", "it": "Watchog", "en": "Watchog" },
     "types": ["normal"],
     "generation": "generation-v"
   },
@@ -7282,7 +7282,7 @@
   {
     "id": 700,
     "name": "sylveon",
-    "names": { "ko": "님피아", "fr": "Nymphali", "de": "Feelinara", "es": "Sylveon", "it": "Sylveon", "en": "Sylveon" },
+    "names": { "es": "Sylveon", "it": "Sylveon", "ko": "님피아", "fr": "Nymphali", "de": "Feelinara", "en": "Sylveon" },
     "types": ["fairy"],
     "generation": "generation-vi"
   },
@@ -7975,7 +7975,7 @@
   {
     "id": 762,
     "name": "steenee",
-    "names": { "it": "Steenee", "ko": "달무리나", "fr": "Candine", "de": "Frubaila", "es": "Steenee", "en": "Steenee" },
+    "names": { "ko": "달무리나", "fr": "Candine", "de": "Frubaila", "es": "Steenee", "it": "Steenee", "en": "Steenee" },
     "types": ["grass"],
     "generation": "generation-vii"
   },
@@ -9803,9 +9803,9 @@
     "id": 917,
     "name": "tarountula",
     "names": {
-      "de": "Tarundel",
       "ko": "타랜툴라",
       "fr": "Tissenboule",
+      "de": "Tarundel",
       "es": "Tarountula",
       "it": "Tarountula",
       "en": "Tarountula"
@@ -14484,7 +14484,7 @@
   },
   {
     "id": 10314,
-    "name": "meowstic-mega",
+    "name": "meowstic-male-mega",
     "names": {
       "ko": "냐오닉스",
       "fr": "Mistigrix",
@@ -14642,5 +14642,19 @@
     },
     "types": ["dragon", "ice"],
     "generation": "generation-ix"
+  },
+  {
+    "id": 10326,
+    "name": "meowstic-female-mega",
+    "names": {
+      "ko": "냐오닉스",
+      "fr": "Mistigrix",
+      "de": "Psiaugon",
+      "es": "Meowstic",
+      "it": "Meowstic",
+      "en": "Meowstic"
+    },
+    "types": ["psychic"],
+    "generation": "generation-vi"
   }
 ]
