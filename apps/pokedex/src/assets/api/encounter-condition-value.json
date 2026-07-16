@@ -957,5 +957,627 @@
     "name": "honey-tree-group-c",
     "names": { "en": "Honey Tree Group C (0% on normal trees / 1% on Munchlax trees)" },
     "condition": "honey-tree-group"
+  },
+  {
+    "id": 192,
+    "name": "headbutt-tree-common",
+    "names": { "en": "Headbutt Tree (Common)" },
+    "condition": "headbutt-tree"
+  },
+  { "id": 193, "name": "headbutt-tree-rare", "names": { "en": "Headbutt Tree (Rare)" }, "condition": "headbutt-tree" },
+  {
+    "id": 194,
+    "name": "headbutt-tree-secret",
+    "names": { "en": "Headbutt Tree (Secret)" },
+    "condition": "headbutt-tree"
+  },
+  { "id": 195, "name": "trade-cottonee", "names": { "en": "Give Cottonee in a Trade" }, "condition": "trade" },
+  { "id": 196, "name": "trade-petilil", "names": { "en": "Give Petilil in a Trade" }, "condition": "trade" },
+  { "id": 197, "name": "trade-emolga", "names": { "en": "Give Emolga in a Trade" }, "condition": "trade" },
+  { "id": 198, "name": "trade-mantine", "names": { "en": "Give Mantine in a Trade" }, "condition": "trade" },
+  { "id": 199, "name": "trade-ditto", "names": { "en": "Give Ditto in a Trade" }, "condition": "trade" },
+  { "id": 200, "name": "trade-excadrill", "names": { "en": "Give Excadrill in a Trade" }, "condition": "trade" },
+  { "id": 201, "name": "trade-hippowdon", "names": { "en": "Give Hippowdon in a Trade" }, "condition": "trade" },
+  {
+    "id": 202,
+    "name": "backlot-not-mentioned",
+    "names": { "en": "Mr. Backlot hasn't mentioned any Pokemon" },
+    "condition": "backlot"
+  },
+  {
+    "id": 203,
+    "name": "backlot-mentioned",
+    "names": { "en": "Mr. Backlot has mentioned seeing this Pokemon in the garden" },
+    "condition": "backlot"
+  },
+  {
+    "id": 204,
+    "name": "bug-catching-contest-no",
+    "names": { "en": "Not during the Bug-Catching Contest" },
+    "condition": "bug-catching-contest"
+  },
+  {
+    "id": 205,
+    "name": "bug-catching-contest-yes",
+    "names": { "en": "During the Bug-Catching Contest" },
+    "condition": "bug-catching-contest"
+  },
+  {
+    "id": 206,
+    "name": "save-data-from-lets-go-pikachu",
+    "names": { "en": "Have save data from Let's Go Pikachu" },
+    "condition": "save-data"
+  },
+  {
+    "id": 207,
+    "name": "save-data-from-lets-go-eevee",
+    "names": { "en": "Have save data from Let's Go Eevee" },
+    "condition": "save-data"
+  },
+  { "id": 208, "name": "item-fossilized-bird", "names": { "en": "Have Fossilized Bird in bag" }, "condition": "item" },
+  {
+    "id": 209,
+    "name": "item-fossilized-drake",
+    "names": { "en": "Have Fossilized Drake in bag" },
+    "condition": "item"
+  },
+  { "id": 210, "name": "item-fossilized-dino", "names": { "en": "Have Fossilized Dino in bag" }, "condition": "item" },
+  { "id": 211, "name": "item-fossilized-fish", "names": { "en": "Have Fossilized Fish in bag" }, "condition": "item" },
+  {
+    "id": 212,
+    "name": "story-progress-master-dojo-complete-first-trial",
+    "names": { "en": "Complete the Master Dojo's first trial" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 213,
+    "name": "story-progress-master-dojo-complete-third-trial",
+    "names": { "en": "Complete all three Master Dojo trials" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 214,
+    "name": "alolan-diglett-found-5",
+    "names": { "en": "Find 5 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 215,
+    "name": "alolan-diglett-found-10",
+    "names": { "en": "Find 10 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 216,
+    "name": "alolan-diglett-found-20",
+    "names": { "en": "Find 20 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 217,
+    "name": "alolan-diglett-found-30",
+    "names": { "en": "Find 30 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 218,
+    "name": "alolan-diglett-found-40",
+    "names": { "en": "Find 40 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 219,
+    "name": "alolan-diglett-found-50",
+    "names": { "en": "Find 50 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 220,
+    "name": "alolan-diglett-found-75",
+    "names": { "en": "Find 75 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 221,
+    "name": "alolan-diglett-found-100",
+    "names": { "en": "Find 100 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  {
+    "id": 222,
+    "name": "alolan-diglett-found-150",
+    "names": { "en": "Find 150 Alolan Diglett in Isle of Armor" },
+    "condition": "alolan-diglett-found"
+  },
+  { "id": 223, "name": "starter-grookey", "names": { "en": "Grookey as starter" }, "condition": "starter" },
+  { "id": 224, "name": "starter-scorbunny", "names": { "en": "Scorbunny as starter" }, "condition": "starter" },
+  { "id": 225, "name": "starter-sobble", "names": { "en": "Sobble as starter" }, "condition": "starter" },
+  {
+    "id": 226,
+    "name": "story-progress-save-village-from-glastrier-spectrier",
+    "names": { "en": "Save Freezington from the onslaught from Glastrier or Spectrier" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 227,
+    "name": "story-progress-catch-five-ultra-beasts",
+    "names": { "en": "Catch 5 Ultra Beasts in Dynamax Adventures" },
+    "condition": "story-progress"
+  },
+  { "id": 228, "name": "trade-bunnelby", "names": { "en": "Give Bunnelby in a Trade" }, "condition": "trade" },
+  {
+    "id": 229,
+    "name": "trade-meowth-galar",
+    "names": { "en": "Give Galarian Meowth in a Trade" },
+    "condition": "trade"
+  },
+  { "id": 230, "name": "trade-minccino", "names": { "en": "Give Minccino in a Trade" }, "condition": "trade" },
+  { "id": 231, "name": "trade-toxel", "names": { "en": "Give Toxel in a Trade" }, "condition": "trade" },
+  { "id": 232, "name": "trade-maractus", "names": { "en": "Give Maractus in a Trade" }, "condition": "trade" },
+  {
+    "id": 233,
+    "name": "trade-yamask-galar",
+    "names": { "en": "Give Galarian Yamask in a Trade" },
+    "condition": "trade"
+  },
+  { "id": 234, "name": "trade-vanillish", "names": { "en": "Give Vanillish in a Trade" }, "condition": "trade" },
+  { "id": 235, "name": "trade-obstagoon", "names": { "en": "Give Obstagoon in a Trade" }, "condition": "trade" },
+  { "id": 236, "name": "trade-frosmoth", "names": { "en": "Give Frosmoth in a Trade" }, "condition": "trade" },
+  {
+    "id": 237,
+    "name": "trade-farfetchd-galar",
+    "names": { "en": "Give Galarian Farfetch'd in a Trade" },
+    "condition": "trade"
+  },
+  {
+    "id": 238,
+    "name": "trade-corsola-galar",
+    "names": { "en": "Give Galarian Corsola in a Trade" },
+    "condition": "trade"
+  },
+  {
+    "id": 239,
+    "name": "trade-ponyta-galar",
+    "names": { "en": "Give Galarian Ponyta in a Trade" },
+    "condition": "trade"
+  },
+  {
+    "id": 240,
+    "name": "trade-mr-mime-galar",
+    "names": { "en": "Give Galarian Mr. Mime in a Trade" },
+    "condition": "trade"
+  },
+  {
+    "id": 241,
+    "name": "trade-darumaka-galar",
+    "names": { "en": "Give Galarian Darumaka in a Trade" },
+    "condition": "trade"
+  },
+  {
+    "id": 242,
+    "name": "trade-zigzagoon-galar",
+    "names": { "en": "Give Galarian Zigzagoon in a Trade" },
+    "condition": "trade"
+  },
+  {
+    "id": 243,
+    "name": "trade-stunfisk-galar",
+    "names": { "en": "Give Galarian Stunfisk in a Trade" },
+    "condition": "trade"
+  },
+  {
+    "id": 244,
+    "name": "trade-weezing-galar",
+    "names": { "en": "Give Galarian Weezing in a Trade" },
+    "condition": "trade"
+  },
+  { "id": 245, "name": "trade-exeggutor", "names": { "en": "Give Exeggutor in a Trade" }, "condition": "trade" },
+  { "id": 246, "name": "trade-marowak", "names": { "en": "Give Marowak in a Trade" }, "condition": "trade" },
+  { "id": 247, "name": "weather-normal", "names": { "en": "During normal weather" }, "condition": "weather" },
+  { "id": 248, "name": "weather-overcast", "names": { "en": "During overcast weather" }, "condition": "weather" },
+  { "id": 249, "name": "weather-raining", "names": { "en": "During rainy weather" }, "condition": "weather" },
+  { "id": 250, "name": "weather-thunderstorm", "names": { "en": "During a thunderstorm" }, "condition": "weather" },
+  { "id": 251, "name": "weather-snowing", "names": { "en": "During snowy weather" }, "condition": "weather" },
+  { "id": 252, "name": "weather-snowstorm", "names": { "en": "During a snowstorm" }, "condition": "weather" },
+  { "id": 253, "name": "weather-sandstorm", "names": { "en": "During a sandstorm" }, "condition": "weather" },
+  { "id": 254, "name": "weather-intense-sun", "names": { "en": "During intense sun" }, "condition": "weather" },
+  { "id": 255, "name": "weather-fog", "names": { "en": "During foggy weather" }, "condition": "weather" },
+  {
+    "id": 256,
+    "name": "story-progress-before-hall-of-fame",
+    "names": { "en": "Before entering the Hall of Fame" },
+    "condition": "story-progress"
+  },
+  {
+    "id": 257,
+    "name": "johto-safari-blocks-inactive",
+    "names": { "en": "Not replaced by block-based encounter" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 258,
+    "name": "johto-safari-blocks-plains-min-2",
+    "names": { "en": "At least 2 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 259,
+    "name": "johto-safari-blocks-plains-min-3",
+    "names": { "en": "At least 3 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 260,
+    "name": "johto-safari-blocks-plains-min-4",
+    "names": { "en": "At least 4 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 261,
+    "name": "johto-safari-blocks-plains-min-5",
+    "names": { "en": "At least 5 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 262,
+    "name": "johto-safari-blocks-plains-min-6",
+    "names": { "en": "At least 6 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 263,
+    "name": "johto-safari-blocks-plains-min-10",
+    "names": { "en": "At least 10 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 264,
+    "name": "johto-safari-blocks-plains-min-12",
+    "names": { "en": "At least 12 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 265,
+    "name": "johto-safari-blocks-plains-min-14",
+    "names": { "en": "At least 14 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 266,
+    "name": "johto-safari-blocks-plains-min-15",
+    "names": { "en": "At least 15 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 267,
+    "name": "johto-safari-blocks-plains-min-24",
+    "names": { "en": "At least 24 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 268,
+    "name": "johto-safari-blocks-plains-min-28",
+    "names": { "en": "At least 28 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 269,
+    "name": "johto-safari-blocks-plains-min-35",
+    "names": { "en": "At least 35 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 270,
+    "name": "johto-safari-blocks-plains-min-49",
+    "names": { "en": "At least 49 Plains block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 271,
+    "name": "johto-safari-blocks-forest-min-3",
+    "names": { "en": "At least 3 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 272,
+    "name": "johto-safari-blocks-forest-min-4",
+    "names": { "en": "At least 4 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 273,
+    "name": "johto-safari-blocks-forest-min-5",
+    "names": { "en": "At least 5 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 274,
+    "name": "johto-safari-blocks-forest-min-8",
+    "names": { "en": "At least 8 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 275,
+    "name": "johto-safari-blocks-forest-min-10",
+    "names": { "en": "At least 10 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 276,
+    "name": "johto-safari-blocks-forest-min-14",
+    "names": { "en": "At least 14 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 277,
+    "name": "johto-safari-blocks-forest-min-15",
+    "names": { "en": "At least 15 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 278,
+    "name": "johto-safari-blocks-forest-min-18",
+    "names": { "en": "At least 18 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 279,
+    "name": "johto-safari-blocks-forest-min-20",
+    "names": { "en": "At least 20 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 280,
+    "name": "johto-safari-blocks-forest-min-28",
+    "names": { "en": "At least 28 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 281,
+    "name": "johto-safari-blocks-forest-min-35",
+    "names": { "en": "At least 35 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 282,
+    "name": "johto-safari-blocks-forest-min-42",
+    "names": { "en": "At least 42 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 283,
+    "name": "johto-safari-blocks-forest-min-49",
+    "names": { "en": "At least 49 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 284,
+    "name": "johto-safari-blocks-forest-min-56",
+    "names": { "en": "At least 56 Forest block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 285,
+    "name": "johto-safari-blocks-peak-min-3",
+    "names": { "en": "At least 3 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 286,
+    "name": "johto-safari-blocks-peak-min-4",
+    "names": { "en": "At least 4 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 287,
+    "name": "johto-safari-blocks-peak-min-5",
+    "names": { "en": "At least 5 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 288,
+    "name": "johto-safari-blocks-peak-min-6",
+    "names": { "en": "At least 6 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 289,
+    "name": "johto-safari-blocks-peak-min-8",
+    "names": { "en": "At least 8 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 290,
+    "name": "johto-safari-blocks-peak-min-10",
+    "names": { "en": "At least 10 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 291,
+    "name": "johto-safari-blocks-peak-min-15",
+    "names": { "en": "At least 15 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 292,
+    "name": "johto-safari-blocks-peak-min-21",
+    "names": { "en": "At least 21 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 293,
+    "name": "johto-safari-blocks-peak-min-24",
+    "names": { "en": "At least 24 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 294,
+    "name": "johto-safari-blocks-peak-min-28",
+    "names": { "en": "At least 28 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 295,
+    "name": "johto-safari-blocks-peak-min-35",
+    "names": { "en": "At least 35 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 296,
+    "name": "johto-safari-blocks-peak-min-42",
+    "names": { "en": "At least 42 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 297,
+    "name": "johto-safari-blocks-peak-min-49",
+    "names": { "en": "At least 49 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 298,
+    "name": "johto-safari-blocks-peak-min-56",
+    "names": { "en": "At least 56 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 299,
+    "name": "johto-safari-blocks-peak-min-63",
+    "names": { "en": "At least 63 Peak block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 300,
+    "name": "johto-safari-blocks-water-min-2",
+    "names": { "en": "At least 2 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 301,
+    "name": "johto-safari-blocks-water-min-3",
+    "names": { "en": "At least 3 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 302,
+    "name": "johto-safari-blocks-water-min-4",
+    "names": { "en": "At least 4 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 303,
+    "name": "johto-safari-blocks-water-min-5",
+    "names": { "en": "At least 5 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 304,
+    "name": "johto-safari-blocks-water-min-6",
+    "names": { "en": "At least 6 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 305,
+    "name": "johto-safari-blocks-water-min-7",
+    "names": { "en": "At least 7 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 306,
+    "name": "johto-safari-blocks-water-min-8",
+    "names": { "en": "At least 8 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 307,
+    "name": "johto-safari-blocks-water-min-9",
+    "names": { "en": "At least 9 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 308,
+    "name": "johto-safari-blocks-water-min-10",
+    "names": { "en": "At least 10 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 309,
+    "name": "johto-safari-blocks-water-min-12",
+    "names": { "en": "At least 12 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 310,
+    "name": "johto-safari-blocks-water-min-13",
+    "names": { "en": "At least 13 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 311,
+    "name": "johto-safari-blocks-water-min-14",
+    "names": { "en": "At least 14 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 312,
+    "name": "johto-safari-blocks-water-min-15",
+    "names": { "en": "At least 15 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 313,
+    "name": "johto-safari-blocks-water-min-16",
+    "names": { "en": "At least 16 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 314,
+    "name": "johto-safari-blocks-water-min-18",
+    "names": { "en": "At least 18 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 315,
+    "name": "johto-safari-blocks-water-min-20",
+    "names": { "en": "At least 20 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 316,
+    "name": "johto-safari-blocks-water-min-24",
+    "names": { "en": "At least 24 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 317,
+    "name": "johto-safari-blocks-water-min-28",
+    "names": { "en": "At least 28 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 318,
+    "name": "johto-safari-blocks-water-min-35",
+    "names": { "en": "At least 35 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 319,
+    "name": "johto-safari-blocks-water-min-42",
+    "names": { "en": "At least 42 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  {
+    "id": 320,
+    "name": "johto-safari-blocks-water-min-49",
+    "names": { "en": "At least 49 Water block points placed" },
+    "condition": "johto-safari-blocks"
+  },
+  { "id": 321, "name": "item-cover-fossil", "names": { "en": "Have Cover Fossil in bag" }, "condition": "item" },
+  { "id": 322, "name": "item-plume-fossil", "names": { "en": "Have Plume Fossil in bag" }, "condition": "item" },
+  {
+    "id": 323,
+    "name": "other-giratina-not-caught-in-distortion-world",
+    "names": { "en": "Did not catch Giratina in the Distortion World" },
+    "condition": "other"
   }
 ]

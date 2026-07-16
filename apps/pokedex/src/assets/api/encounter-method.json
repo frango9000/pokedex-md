@@ -196,8 +196,8 @@
   },
   { "id": 32, "name": "island-scan", "names": {} },
   { "id": 33, "name": "sos-encounter", "names": {} },
-  { "id": 34, "name": "bubbling-spots", "names": {} },
-  { "id": 35, "name": "berry-piles", "names": {} },
+  { "id": 34, "name": "bubbling-spots", "names": { "en": "Fishing at bubbling spots in the water" } },
+  { "id": 35, "name": "berry-trees", "names": {} },
   { "id": 36, "name": "npc-trade", "names": {} },
   { "id": 37, "name": "sos-from-bubbling-spot", "names": {} },
   {
@@ -288,5 +288,17 @@
     "id": 55,
     "name": "honey-tree",
     "names": { "en": "Slathering a Honey Tree with Honey and waiting for a Pokémon to appear." }
-  }
+  },
+  {
+    "id": 56,
+    "name": "overworld-dirt",
+    "names": { "en": "Overworld spawn coming from underground or within a swamp." }
+  },
+  { "id": 57, "name": "wanderer", "names": { "en": "Special overworld spawn in a fixed location." } },
+  {
+    "id": 58,
+    "name": "wanderer-water",
+    "names": { "en": "Special overworld spawn in a fixed location in the water." }
+  },
+  { "id": 59, "name": "chase-water", "names": { "en": "Get chased by territorial Pokémon when entering the water." } }
 ]
