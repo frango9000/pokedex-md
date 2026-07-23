@@ -37,7 +37,7 @@
     "category": "standard-balls",
     "cost": 600,
     "names": {
-      "ko": "수퍼볼",
+      "ko": "슈퍼볼",
       "fr": "Super Ball",
       "de": "Superball",
       "es": "Super Ball",
@@ -85,7 +85,7 @@
     "category": "special-balls",
     "cost": 1000,
     "names": {
-      "ko": "넷트볼",
+      "ko": "네트볼",
       "fr": "Filet Ball",
       "de": "Netzball",
       "es": "Malla Ball",
@@ -133,7 +133,7 @@
     "category": "special-balls",
     "cost": 1000,
     "names": {
-      "ko": "리피드볼",
+      "ko": "리피트볼",
       "fr": "Bis Ball",
       "de": "Wiederball",
       "es": "Acopio Ball",
@@ -149,7 +149,7 @@
     "category": "special-balls",
     "cost": 1000,
     "names": {
-      "ko": "타이마볼",
+      "ko": "타이머볼",
       "fr": "Chrono Ball",
       "de": "Timerball",
       "es": "Turno Ball",
@@ -181,7 +181,7 @@
     "category": "special-balls",
     "cost": 20,
     "names": {
-      "ko": "프레미어볼",
+      "ko": "프리미어볼",
       "fr": "Honor Ball",
       "de": "Premierball",
       "es": "Honor Ball",
@@ -3159,7 +3159,7 @@
       "ko": "기합의머리띠",
       "fr": "Bandeau",
       "de": "Fokusband",
-      "es": "Cinta Focus",
+      "es": "Cinta Aguante",
       "it": "Bandana",
       "en": "Focus Band"
     },
@@ -3408,7 +3408,7 @@
       "ko": "녹지않는얼음",
       "fr": "Glace Éternelle",
       "de": "Ewiges Eis",
-      "es": "Antiderretir",
+      "es": "Hielo Perpetuo",
       "it": "Gelomai",
       "en": "Never-Melt Ice"
     },
@@ -3465,7 +3465,7 @@
       "ko": "용의이빨",
       "fr": "Croc Dragon",
       "de": "Drachenzahn",
-      "es": "Colmillo Dragón",
+      "es": "Colmillo de Dragón",
       "it": "Dentedidrago",
       "en": "Dragon Fang"
     },
@@ -3858,7 +3858,7 @@
       "ko": "기합의띠",
       "fr": "Ceinture Force",
       "de": "Fokusgurt",
-      "es": "Banda Focus",
+      "es": "Banda Aguante",
       "it": "Focalnastro",
       "en": "Focus Sash"
     },
@@ -3951,7 +3951,7 @@
     "category": "held-items",
     "cost": 4000,
     "names": {
-      "ko": "검은진흙",
+      "ko": "검은오물",
       "fr": "Boue Noire",
       "de": "Giftschleim",
       "es": "Lodo Negro",
@@ -4255,7 +4255,7 @@
     "category": "plates",
     "cost": 1000,
     "names": {
-      "ko": "우뢰플레이트",
+      "ko": "우레플레이트",
       "fr": "Plaque Volt",
       "de": "Blitztafel",
       "es": "Tabla Trueno",
@@ -5982,7 +5982,7 @@
     "category": "event-items",
     "cost": 0,
     "names": {
-      "ko": "초승달날개",
+      "ko": "초승달깃털",
       "fr": "Lun’Aile",
       "de": "Lunarfeder",
       "es": "Pluma Lunar",
@@ -6386,7 +6386,7 @@
     "category": "standard-balls",
     "cost": 300,
     "names": {
-      "ko": "콤페볼",
+      "ko": "컴퍼티션볼",
       "fr": "Compét’Ball",
       "de": "Turnierball",
       "es": "Competi Ball",
@@ -6770,7 +6770,7 @@
     "category": "plot-advancement",
     "cost": 0,
     "names": {
-      "ko": "은빛날개",
+      "ko": "은빛깃털",
       "fr": "Argent’Aile",
       "de": "Silberflügel",
       "es": "Ala Plateada",
@@ -6786,7 +6786,7 @@
     "category": "plot-advancement",
     "cost": 0,
     "names": {
-      "ko": "무지갯빛날개",
+      "ko": "무지갯빛깃털",
       "fr": "Arc-en-Ci’Aile",
       "de": "Buntschwinge",
       "es": "Ala Arcoíris",
@@ -8626,7 +8626,7 @@
     "category": "vitamins",
     "cost": 300,
     "names": {
-      "ko": "체력날개",
+      "ko": "체력깃털",
       "fr": "Plume Santé",
       "de": "Heilfeder",
       "es": "Pluma Vigor",
@@ -8642,7 +8642,7 @@
     "category": "vitamins",
     "cost": 300,
     "names": {
-      "ko": "근력날개",
+      "ko": "근력깃털",
       "fr": "Plume Force",
       "de": "Kraftfeder",
       "es": "Pluma Músculo",
@@ -8658,7 +8658,7 @@
     "category": "vitamins",
     "cost": 300,
     "names": {
-      "ko": "저항력날개",
+      "ko": "저항력깃털",
       "fr": "Plume Armure",
       "de": "Abwehrfeder",
       "es": "Pluma Aguante",
@@ -8674,7 +8674,7 @@
     "category": "vitamins",
     "cost": 300,
     "names": {
-      "ko": "지력날개",
+      "ko": "지력깃털",
       "fr": "Plume Esprit",
       "de": "Geniefeder",
       "es": "Pluma Intelecto",
@@ -8690,7 +8690,7 @@
     "category": "vitamins",
     "cost": 300,
     "names": {
-      "ko": "정신력날개",
+      "ko": "정신력깃털",
       "fr": "Plume Mental",
       "de": "Espritfeder",
       "es": "Pluma Mente",
@@ -8706,7 +8706,7 @@
     "category": "vitamins",
     "cost": 300,
     "names": {
-      "ko": "순발력날개",
+      "ko": "순발력깃털",
       "fr": "Plume Sprint",
       "de": "Flinkfeder",
       "es": "Pluma Ímpetu",
@@ -8722,7 +8722,7 @@
     "category": "loot",
     "cost": 1000,
     "names": {
-      "ko": "고운날개",
+      "ko": "고운깃털",
       "fr": "Jolie Plume",
       "de": "Prachtfeder",
       "es": "Pluma Bella",
@@ -8754,7 +8754,7 @@
     "category": "dex-completion",
     "cost": 7000,
     "names": {
-      "ko": "날개화석",
+      "ko": "깃털화석",
       "fr": "Fossile Plume",
       "de": "Federfossil",
       "es": "Fósil Pluma",
@@ -10956,7 +10956,7 @@
     "category": "gameplay",
     "cost": 0,
     "names": {
-      "ko": "포켓몬스넥키트",
+      "ko": "포켓몬스낵키트",
       "fr": "Kit Pokébloc",
       "de": "Pokériegel-Set",
       "es": "Kit de Pokécubos",
@@ -11196,7 +11196,7 @@
     "category": "unused",
     "cost": 0,
     "names": {
-      "ko": "메가티아러",
+      "ko": "메가티아라",
       "fr": "Méga-Tiare",
       "de": "Mega-Diadem",
       "es": "Megatiara",
@@ -11452,7 +11452,7 @@
     "category": "unused",
     "cost": 0,
     "names": {
-      "ko": "메가블레스",
+      "ko": "메가브레스",
       "fr": "Méga-Manchette",
       "de": "Mega-Armband",
       "es": "Megabrazalete",
@@ -11884,7 +11884,7 @@
     "category": "loot",
     "cost": 5000,
     "names": {
-      "ko": "은왕관",
+      "ko": "은색병뚜껑",
       "fr": "Capsule d’Argent",
       "de": "Silberkronkorken",
       "es": "Chapa Plateada",
@@ -11900,7 +11900,7 @@
     "category": "loot",
     "cost": 10000,
     "names": {
-      "ko": "금왕관",
+      "ko": "금색병뚜껑",
       "fr": "Capsule d’Or",
       "de": "Goldkronkorken",
       "es": "Chapa Dorada",
@@ -12526,7 +12526,7 @@
     "category": "memories",
     "cost": 1000,
     "names": {
-      "ko": "락메모리",
+      "ko": "록메모리",
       "fr": "ROM Roche",
       "de": "Gesteins-Disc",
       "es": "Disco Roca",
@@ -26489,7 +26489,7 @@
     "name": "fairy-feather",
     "category": "held-items",
     "cost": 750,
-    "names": { "fr": "Plume Enchantée", "en": "Fairy Feather" },
+    "names": { "fr": "Plume Enchantée", "en": "Fairy Feather", "es": "Pluma Feérica" },
     "pocket": "misc"
   },
   {
@@ -27576,5 +27576,50 @@
     "cost": 0,
     "names": { "de": "Legierungsmetall", "en": "Metal Alloy" },
     "pocket": "misc"
-  }
+  },
+  { "id": 2233, "name": "clefablite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2234, "name": "victreebelite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2235, "name": "starminite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2236, "name": "dragoninite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2237, "name": "meganiumite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2238, "name": "feraligite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2239, "name": "skarmorite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2240, "name": "froslassite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2241, "name": "heatranite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2242, "name": "darkranite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2243, "name": "emboarite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2244, "name": "excadrite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2245, "name": "scolipite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2246, "name": "scraftinite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2247, "name": "eelektrossite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2248, "name": "chandelurite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2249, "name": "chesnaughtite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2250, "name": "delphoxite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2251, "name": "greninjite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2252, "name": "pyroarite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2253, "name": "floettite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2254, "name": "malamarite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2255, "name": "barbaracite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2256, "name": "dragalgite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2257, "name": "hawluchanite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2258, "name": "zygardite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2259, "name": "drampanite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2260, "name": "zeraorite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2261, "name": "falinksite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2262, "name": "raichunite-x", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2263, "name": "raichunite-y", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2264, "name": "chimechite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2265, "name": "absolite-z", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2266, "name": "staraptite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2267, "name": "garchompite-z", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2268, "name": "lucarionite-z", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2269, "name": "golurkite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2270, "name": "meowsticite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2271, "name": "crabominite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2272, "name": "golisopite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2273, "name": "magearnite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2274, "name": "scovillainite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2275, "name": "baxcalibrite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2276, "name": "tatsugirinite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" },
+  { "id": 2277, "name": "glimmoranite", "category": "mega-stones", "cost": 0, "names": {}, "pocket": "misc" }
 ]

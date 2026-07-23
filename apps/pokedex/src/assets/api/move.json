@@ -371,7 +371,7 @@
     "crit_rate": 0,
     "generation": "generation-i",
     "names": {
-      "ko": "두번치기",
+      "ko": "두번차기",
       "fr": "Double Pied",
       "de": "Doppelkick",
       "es": "Doble Patada",
@@ -590,7 +590,7 @@
     "accuracy": 100,
     "crit_rate": 0,
     "generation": "generation-i",
-    "names": { "ko": "난동부리기", "fr": "Mania", "de": "Fuchtler", "es": "Golpe", "it": "Colpo", "en": "Thrash" },
+    "names": { "ko": "난동부리기", "fr": "Mania", "de": "Fuchtler", "es": "Saña", "it": "Colpo", "en": "Thrash" },
     "power": 120,
     "pp": 10,
     "type": "normal"
@@ -623,7 +623,7 @@
       "ko": "꼬리흔들기",
       "fr": "Mimi-Queue",
       "de": "Rutenschlag",
-      "es": "Látigo",
+      "es": "Agitacola",
       "it": "Colpocoda",
       "en": "Tail Whip"
     },
@@ -2068,7 +2068,7 @@
       "ko": "스피드스타",
       "fr": "Météores",
       "de": "Sternschauer",
-      "es": "Rapidez",
+      "es": "Meteoros",
       "it": "Comete",
       "en": "Swift"
     },
@@ -2083,7 +2083,7 @@
     "crit_rate": 0,
     "generation": "generation-i",
     "names": {
-      "ko": "로케트박치기",
+      "ko": "로켓박치기",
       "fr": "Coud’Krâne",
       "de": "Schädelwumme",
       "es": "Cabezazo",
@@ -2169,7 +2169,7 @@
       "ko": "알낳기",
       "fr": "E-Coque",
       "de": "Weichei",
-      "es": "Amortiguador",
+      "es": "Ovocuración",
       "it": "Covauova",
       "en": "Soft-Boiled"
     },
@@ -2187,7 +2187,7 @@
       "ko": "무릎차기",
       "fr": "Pied Voltige",
       "de": "Turmkick",
-      "es": "Pat. Salto Alta",
+      "es": "Patada Salto Alta",
       "it": "Calcinvolo",
       "en": "High Jump Kick"
     },
@@ -2451,7 +2451,7 @@
     "crit_rate": 1,
     "generation": "generation-i",
     "names": {
-      "ko": "찝게햄머",
+      "ko": "집게해머",
       "fr": "Pince-Masse",
       "de": "Krabbhammer",
       "es": "Martillazo",
@@ -2797,7 +2797,7 @@
     "crit_rate": 0,
     "generation": "generation-ii",
     "names": {
-      "ko": "화염자동차",
+      "ko": "화염바퀴",
       "fr": "Roue de Feu",
       "de": "Flammenrad",
       "es": "Rueda Fuego",
@@ -2872,7 +2872,7 @@
       "ko": "텍스처2",
       "fr": "Conversion 2",
       "de": "Umwandlung2",
-      "es": "Conversión2",
+      "es": "Conversión 2",
       "it": "Conversione2",
       "en": "Conversion 2"
     },
@@ -3208,7 +3208,7 @@
     "crit_rate": 0,
     "generation": "generation-ii",
     "names": {
-      "ko": "얼다바람",
+      "ko": "얼어붙은바람",
       "fr": "Vent Glace",
       "de": "Eissturm",
       "es": "Viento Hielo",
@@ -3237,7 +3237,7 @@
     "crit_rate": 0,
     "generation": "generation-ii",
     "names": {
-      "ko": "본러쉬",
+      "ko": "본러시",
       "fr": "Charge Os",
       "de": "Knochenhatz",
       "es": "Ataque Óseo",
@@ -3287,7 +3287,7 @@
       "ko": "모래바람",
       "fr": "Tempête de Sable",
       "de": "Sandsturm",
-      "es": "Tormenta Arena",
+      "es": "Tormenta de Arena",
       "it": "Terrempesta",
       "en": "Sandstorm"
     },
@@ -3381,7 +3381,7 @@
       "ko": "뽐내기",
       "fr": "Vantardise",
       "de": "Angeberei",
-      "es": "Contoneo",
+      "es": "Fanfarronear",
       "it": "Bullo",
       "en": "Swagger"
     },
@@ -3525,7 +3525,7 @@
       "ko": "치료방울",
       "fr": "Glas de Soin",
       "de": "Vitalglocke",
-      "es": "Campana Cura",
+      "es": "Cascabel Cura",
       "it": "Rintoccasana",
       "en": "Heal Bell"
     },
@@ -3684,7 +3684,7 @@
     "crit_rate": 0,
     "generation": "generation-ii",
     "names": {
-      "ko": "메가폰",
+      "ko": "메가혼",
       "fr": "Mégacorne",
       "de": "Vielender",
       "es": "Megacuerno",
@@ -3720,7 +3720,7 @@
     "crit_rate": 0,
     "generation": "generation-ii",
     "names": {
-      "ko": "바톤터치",
+      "ko": "배턴터치",
       "fr": "Relais",
       "de": "Stafette",
       "es": "Relevo",
@@ -3737,7 +3737,7 @@
     "accuracy": 100,
     "crit_rate": 0,
     "generation": "generation-ii",
-    "names": { "ko": "앵콜", "fr": "Encore", "de": "Zugabe", "es": "Otra Vez", "it": "Ripeti", "en": "Encore" },
+    "names": { "ko": "앙코르", "fr": "Encore", "de": "Zugabe", "es": "Otra Vez", "it": "Ripeti", "en": "Encore" },
     "power": null,
     "pp": 5,
     "type": "normal"
@@ -3821,7 +3821,7 @@
     "crit_rate": 0,
     "generation": "generation-ii",
     "names": {
-      "ko": "메탈크로우",
+      "ko": "메탈클로",
       "fr": "Griffe Acier",
       "de": "Metallklaue",
       "es": "Garra Metal",
@@ -3842,7 +3842,7 @@
       "ko": "받아던지기",
       "fr": "Corps Perdu",
       "de": "Überwurf",
-      "es": "Tiro Vital",
+      "es": "Llave Vital",
       "it": "Vitaltiro",
       "en": "Vital Throw"
     },
@@ -3878,7 +3878,7 @@
       "ko": "광합성",
       "fr": "Synthèse",
       "de": "Synthese",
-      "es": "Síntesis",
+      "es": "Fotosíntesis",
       "it": "Sintesi",
       "en": "Synthesis"
     },
@@ -3893,7 +3893,7 @@
     "crit_rate": 0,
     "generation": "generation-ii",
     "names": {
-      "ko": "달의불빛",
+      "ko": "달빛",
       "fr": "Rayon Lune",
       "de": "Mondschein",
       "es": "Luz Lunar",
@@ -4033,7 +4033,7 @@
       "ko": "자기암시",
       "fr": "Boost",
       "de": "Psycho-Plus",
-      "es": "Más Psique",
+      "es": "Autosugestión",
       "it": "Psicamisù",
       "en": "Psych Up"
     },
@@ -4051,7 +4051,7 @@
       "ko": "신속",
       "fr": "Vitesse Extrême",
       "de": "Turbotempo",
-      "es": "Veloc. Extrema",
+      "es": "Velocidad Extrema",
       "it": "Extrarapido",
       "en": "Extreme Speed"
     },
@@ -4174,7 +4174,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "속이다",
+      "ko": "속이기",
       "fr": "Bluff",
       "de": "Mogelhieb",
       "es": "Sorpresa",
@@ -4357,7 +4357,7 @@
     "accuracy": 100,
     "crit_rate": 0,
     "generation": "generation-iii",
-    "names": { "ko": "객기", "fr": "Façade", "de": "Fassade", "es": "Imagen", "it": "Facciata", "en": "Facade" },
+    "names": { "ko": "객기", "fr": "Façade", "de": "Fassade", "es": "Fachada", "it": "Facciata", "en": "Facade" },
     "power": 70,
     "pp": 20,
     "type": "normal"
@@ -4636,7 +4636,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "깨트리다",
+      "ko": "깨뜨리다",
       "fr": "Casse-Brique",
       "de": "Durchbruch",
       "es": "Demolición",
@@ -4719,7 +4719,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "스킬스웹",
+      "ko": "스킬스왑",
       "fr": "Échange",
       "de": "Fähigkeitstausch",
       "es": "Intercambio",
@@ -4755,7 +4755,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "리프레쉬",
+      "ko": "리프레시",
       "fr": "Régénération",
       "de": "Heilung",
       "es": "Alivio",
@@ -4783,7 +4783,7 @@
     "accuracy": null,
     "crit_rate": 0,
     "generation": "generation-iii",
-    "names": { "ko": "가로챔", "fr": "Saisie", "de": "Übernahme", "es": "Robo", "it": "Scippo", "en": "Snatch" },
+    "names": { "ko": "가로채기", "fr": "Saisie", "de": "Übernahme", "es": "Robo", "it": "Scippo", "en": "Snatch" },
     "power": null,
     "pp": 10,
     "type": "dark"
@@ -4863,7 +4863,7 @@
       "ko": "반딧불",
       "fr": "Lumi-Queue",
       "de": "Schweifglanz",
-      "es": "Ráfaga",
+      "es": "Luminicola",
       "it": "Codadiluce",
       "en": "Tail Glow"
     },
@@ -4878,7 +4878,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "라스트버지",
+      "ko": "러스터퍼지",
       "fr": "Lumi-Éclat",
       "de": "Scheinwerfer",
       "es": "Resplandor",
@@ -4950,7 +4950,7 @@
     "crit_rate": 1,
     "generation": "generation-iii",
     "names": {
-      "ko": "브레이즈킥",
+      "ko": "블레이즈킥",
       "fr": "Pied Brûleur",
       "de": "Feuerfeger",
       "es": "Patada Ígnea",
@@ -5021,7 +5021,14 @@
     "accuracy": null,
     "crit_rate": 0,
     "generation": "generation-iii",
-    "names": { "ko": "태만함", "fr": "Paresse", "de": "Tagedieb", "es": "Relajo", "it": "Pigro", "en": "Slack Off" },
+    "names": {
+      "ko": "게으름피우기",
+      "fr": "Paresse",
+      "de": "Tagedieb",
+      "es": "Relajo",
+      "it": "Pigro",
+      "en": "Slack Off"
+    },
     "power": null,
     "pp": 5,
     "type": "normal"
@@ -5051,7 +5058,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "독엄니",
+      "ko": "맹독엄니",
       "fr": "Crochet Venin",
       "de": "Giftzahn",
       "es": "Colmillo Veneno",
@@ -5069,7 +5076,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "브레이크크루",
+      "ko": "브레이크클로",
       "fr": "Éclate Griffe",
       "de": "Zermalmklaue",
       "es": "Garra Brutal",
@@ -5087,7 +5094,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "블러스트번",
+      "ko": "블라스트번",
       "fr": "Rafale Feu",
       "de": "Lohekanonade",
       "es": "Anillo Ígneo",
@@ -5213,7 +5220,7 @@
     "crit_rate": 1,
     "generation": "generation-iii",
     "names": {
-      "ko": "에어컷터",
+      "ko": "에어커터",
       "fr": "Tranch’Air",
       "de": "Windschnitt",
       "es": "Aire Afilado",
@@ -5396,7 +5403,7 @@
       "ko": "시그널빔",
       "fr": "Rayon Signal",
       "de": "Ampelleuchte",
-      "es": "Doble Rayo",
+      "es": "Rayo Señal",
       "it": "Segnoraggio",
       "en": "Signal Beam"
     },
@@ -5447,7 +5454,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "스카이업퍼",
+      "ko": "스카이어퍼",
       "fr": "Stratopercut",
       "de": "Himmelhieb",
       "es": "Gancho Alto",
@@ -5519,7 +5526,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "기관총",
+      "ko": "씨기관총",
       "fr": "Balle Graine",
       "de": "Kugelsaat",
       "es": "Semilladora",
@@ -5602,7 +5609,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "멀리짖음",
+      "ko": "멀리짖기",
       "fr": "Grondement",
       "de": "Jauler",
       "es": "Aullido",
@@ -5620,7 +5627,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "드래곤크루",
+      "ko": "드래곤클로",
       "fr": "Draco-Griffe",
       "de": "Drachenklaue",
       "es": "Garra Dragón",
@@ -5674,7 +5681,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "뛰어오르다",
+      "ko": "뛰어오르기",
       "fr": "Rebond",
       "de": "Sprungfeder",
       "es": "Bote",
@@ -5692,7 +5699,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "머드숏",
+      "ko": "머드샷",
       "fr": "Tir de Boue",
       "de": "Lehmschuss",
       "es": "Disparo Lodo",
@@ -5742,7 +5749,7 @@
       "ko": "볼트태클",
       "fr": "Électacle",
       "de": "Volttackle",
-      "es": "Placaje Eléc",
+      "es": "Placaje Eléctrico",
       "it": "Locomovolt",
       "en": "Volt Tackle"
     },
@@ -5757,7 +5764,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "메지컬리프",
+      "ko": "매지컬리프",
       "fr": "Feuille Magik",
       "de": "Zauberblatt",
       "es": "Hoja Mágica",
@@ -5847,7 +5854,7 @@
     "crit_rate": 0,
     "generation": "generation-iii",
     "names": {
-      "ko": "락블레스트",
+      "ko": "록블라스트",
       "fr": "Boule Roc",
       "de": "Felswurf",
       "es": "Pedrada",
@@ -6431,7 +6438,7 @@
     "crit_rate": 0,
     "generation": "generation-iv",
     "names": {
-      "ko": "파워스웹",
+      "ko": "파워스왑",
       "fr": "Permuforce",
       "de": "Krafttausch",
       "es": "Cambiafuerza",
@@ -6449,7 +6456,7 @@
     "crit_rate": 0,
     "generation": "generation-iv",
     "names": {
-      "ko": "가드스웹",
+      "ko": "가드스왑",
       "fr": "Permugarde",
       "de": "Schutztausch",
       "es": "Cambiadefensa",
@@ -6485,7 +6492,7 @@
     "crit_rate": 0,
     "generation": "generation-iv",
     "names": {
-      "ko": "뒀다쓰기",
+      "ko": "비장의무기",
       "fr": "Dernier Recours",
       "de": "Zuflucht",
       "es": "Última Baza",
@@ -6557,10 +6564,10 @@
     "crit_rate": 0,
     "generation": "generation-iv",
     "names": {
-      "ko": "하트스웹",
+      "ko": "하트스왑",
       "fr": "Permucœur",
       "de": "Statustausch",
-      "es": "Cambia Almas",
+      "es": "Cambiaalmas",
       "it": "Cuorbaratto",
       "en": "Heart Swap"
     },
@@ -7075,7 +7082,7 @@
       "ko": "얼음뭉치",
       "fr": "Éclats Glace",
       "de": "Eissplitter",
-      "es": "Canto Helado",
+      "es": "Esquirla Helada",
       "it": "Geloscheggia",
       "en": "Ice Shard"
     },
@@ -7090,7 +7097,7 @@
     "crit_rate": 1,
     "generation": "generation-iv",
     "names": {
-      "ko": "섀도크루",
+      "ko": "섀도클로",
       "fr": "Griffe Ombre",
       "de": "Dunkelklaue",
       "es": "Garra Umbría",
@@ -7234,7 +7241,7 @@
     "crit_rate": 0,
     "generation": "generation-iv",
     "names": {
-      "ko": "미러숏",
+      "ko": "미러샷",
       "fr": "Miroi-Tir",
       "de": "Spiegelsalve",
       "es": "Disparo Espejo",
@@ -7255,7 +7262,7 @@
       "ko": "러스터캐논",
       "fr": "Luminocanon",
       "de": "Lichtkanone",
-      "es": "Foco Resplandor",
+      "es": "Cañón Resplandor",
       "it": "Cannonflash",
       "en": "Flash Cannon"
     },
@@ -7270,7 +7277,7 @@
     "crit_rate": 0,
     "generation": "generation-iv",
     "names": {
-      "ko": "락클라임",
+      "ko": "록클라임",
       "fr": "Escalade",
       "de": "Kraxler",
       "es": "Treparrocas",
@@ -7605,7 +7612,7 @@
     "crit_rate": 0,
     "generation": "generation-iv",
     "names": {
-      "ko": "벌레먹음",
+      "ko": "벌레먹기",
       "fr": "Piqûre",
       "de": "Käferbiss",
       "es": "Picadura",
@@ -7878,7 +7885,7 @@
       "ko": "시드플레어",
       "fr": "Fulmigraine",
       "de": "Schocksamen",
-      "es": "Fogonazo",
+      "es": "Fulgor Semilla",
       "it": "Infuriaseme",
       "en": "Seed Flare"
     },
@@ -7950,7 +7957,7 @@
       "ko": "와이드가드",
       "fr": "Garde Large",
       "de": "Rundumschutz",
-      "es": "Vastaguardia",
+      "es": "Vasta Guardia",
       "it": "Bodyguard",
       "en": "Wide Guard"
     },
@@ -8274,7 +8281,7 @@
       "ko": "물붓기",
       "fr": "Détrempage",
       "de": "Überflutung",
-      "es": "Anegar",
+      "es": "Empapar",
       "it": "Inondazione",
       "en": "Soak"
     },
@@ -8516,7 +8523,7 @@
     "crit_rate": 0,
     "generation": "generation-v",
     "names": {
-      "ko": "퍼스트가드",
+      "ko": "패스트가드",
       "fr": "Prévention",
       "de": "Rapidschutz",
       "es": "Anticipo",
@@ -9067,7 +9074,7 @@
     "crit_rate": 0,
     "generation": "generation-v",
     "names": {
-      "ko": "우드호른",
+      "ko": "우드혼",
       "fr": "Encornebois",
       "de": "Holzgeweih",
       "es": "Asta Drenaje",
@@ -9366,7 +9373,7 @@
     "crit_rate": 0,
     "generation": "generation-v",
     "names": {
-      "ko": "얼다세계",
+      "ko": "얼어붙은세계",
       "fr": "Ère Glaciaire",
       "de": "Eiszeit",
       "es": "Mundo Gélido",
@@ -10118,7 +10125,7 @@
       "ko": "다이아스톰",
       "fr": "Orage Adamantin",
       "de": "Diamantsturm",
-      "es": "Torm. Diamantes",
+      "es": "Tormenta de Diamantes",
       "it": "Diamantempesta",
       "en": "Diamond Storm"
     },
@@ -10151,7 +10158,7 @@
     "crit_rate": 0,
     "generation": "generation-vi",
     "names": {
-      "ko": "다른차원홀",
+      "ko": "이차원홀",
       "fr": "TrouDimensionnel",
       "de": "Dimensionsloch",
       "es": "Paso Dimensional",
@@ -10655,7 +10662,7 @@
     "crit_rate": 0,
     "generation": "generation-vi",
     "names": {
-      "ko": "다른차원러시",
+      "ko": "이차원러시",
       "fr": "Furie Dimension",
       "de": "Dimensionswahn",
       "es": "Cerco Dimensión",
@@ -11663,7 +11670,7 @@
     "crit_rate": 0,
     "generation": "generation-vii",
     "names": {
-      "ko": "앵커숏",
+      "ko": "앵커샷",
       "fr": "Ancrage",
       "de": "Ankerschuss",
       "es": "Anclaje",
@@ -11771,7 +11778,7 @@
     "crit_rate": 0,
     "generation": "generation-vii",
     "names": {
-      "ko": "스피드스웹",
+      "ko": "스피드스왑",
       "fr": "Permuvitesse",
       "de": "Initiativetausch",
       "es": "Cambiavelocidad",
@@ -11789,7 +11796,7 @@
     "crit_rate": 0,
     "generation": "generation-vii",
     "names": {
-      "ko": "스마트호른",
+      "ko": "스마트혼",
       "fr": "Estocorne",
       "de": "Schmalhorn",
       "es": "Cuerno Certero",
@@ -12959,7 +12966,7 @@
     "crit_rate": 0,
     "generation": "generation-viii",
     "names": {
-      "ko": "타르숏",
+      "ko": "타르샷",
       "fr": "Goudronnage",
       "de": "Teerschuss",
       "es": "Alquitranazo",
@@ -14354,7 +14361,13 @@
     "name": "dire-claw",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Griffes Funestes", "it": "Artigli Fatali", "en": "Dire Claw" },
+    "names": {
+      "ko": "페이탈클로",
+      "fr": "Griffes Funestes",
+      "it": "Artigli Fatali",
+      "en": "Dire Claw",
+      "es": "Garra Nociva"
+    },
     "power": 80,
     "pp": 15,
     "type": "poison"
@@ -14364,7 +14377,13 @@
     "name": "psyshield-bash",
     "accuracy": 90,
     "generation": "generation-viii",
-    "names": { "fr": "Sprint Bouclier", "it": "Barrierassalto", "en": "Psyshield Bash" },
+    "names": {
+      "ko": "배리어러시",
+      "fr": "Sprint Bouclier",
+      "it": "Barrierassalto",
+      "en": "Psyshield Bash",
+      "es": "Asalto Barrera"
+    },
     "power": 70,
     "pp": 10,
     "type": "psychic"
@@ -14374,7 +14393,13 @@
     "name": "power-shift",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": { "fr": "Échange Force", "it": "Scambioforza", "en": "Power Shift" },
+    "names": {
+      "ko": "파워시프트",
+      "fr": "Échange Force",
+      "it": "Scambioforza",
+      "en": "Power Shift",
+      "es": "Cambiapoder"
+    },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -14384,7 +14409,13 @@
     "name": "stone-axe",
     "accuracy": 90,
     "generation": "generation-viii",
-    "names": { "fr": "Hache de Pierre", "it": "Rocciascure", "en": "Stone Axe" },
+    "names": {
+      "ko": "암석액스",
+      "fr": "Hache de Pierre",
+      "it": "Rocciascure",
+      "en": "Stone Axe",
+      "es": "Hachazo Pétreo"
+    },
     "power": 65,
     "pp": 15,
     "type": "rock"
@@ -14394,7 +14425,13 @@
     "name": "springtide-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": { "fr": "Typhon Passionné", "it": "Tempesta Zefirea", "en": "Springtide Storm" },
+    "names": {
+      "ko": "봄의폭풍",
+      "fr": "Typhon Passionné",
+      "it": "Tempesta Zefirea",
+      "en": "Springtide Storm",
+      "es": "Ciclón Primavera"
+    },
     "power": 100,
     "pp": 5,
     "type": "fairy"
@@ -14404,7 +14441,13 @@
     "name": "mystical-power",
     "accuracy": 90,
     "generation": "generation-viii",
-    "names": { "fr": "Force Mystique", "it": "Forza Mistica", "en": "Mystical Power" },
+    "names": {
+      "ko": "신비의힘",
+      "fr": "Force Mystique",
+      "it": "Forza Mistica",
+      "en": "Mystical Power",
+      "es": "Poder Místico"
+    },
     "power": 70,
     "pp": 10,
     "type": "psychic"
@@ -14414,7 +14457,13 @@
     "name": "raging-fury",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Grand Courroux", "it": "Ira Furente", "en": "Raging Fury" },
+    "names": {
+      "ko": "대격분",
+      "fr": "Grand Courroux",
+      "it": "Ira Furente",
+      "en": "Raging Fury",
+      "es": "Erupción de Ira"
+    },
     "power": 120,
     "pp": 10,
     "type": "fire"
@@ -14424,7 +14473,13 @@
     "name": "wave-crash",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Aquatacle", "it": "Ondaschianto", "en": "Wave Crash" },
+    "names": {
+      "ko": "웨이브태클",
+      "fr": "Aquatacle",
+      "it": "Ondaschianto",
+      "en": "Wave Crash",
+      "es": "Envite Acuático"
+    },
     "power": 120,
     "pp": 10,
     "type": "water"
@@ -14434,7 +14489,13 @@
     "name": "chloroblast",
     "accuracy": 95,
     "generation": "generation-viii",
-    "names": { "fr": "Herblast", "it": "Clorofillaser", "en": "Chloroblast" },
+    "names": {
+      "ko": "클로로블라스트",
+      "fr": "Herblast",
+      "it": "Clorofillaser",
+      "en": "Chloroblast",
+      "es": "Clorofiláser"
+    },
     "power": 150,
     "pp": 5,
     "type": "grass"
@@ -14444,7 +14505,13 @@
     "name": "mountain-gale",
     "accuracy": 85,
     "generation": "generation-viii",
-    "names": { "fr": "Bise Glaciaire", "it": "Soffio d’Iceberg", "en": "Mountain Gale" },
+    "names": {
+      "ko": "빙산바람",
+      "fr": "Bise Glaciaire",
+      "it": "Soffio d’Iceberg",
+      "en": "Mountain Gale",
+      "es": "Viento Carámbano"
+    },
     "power": 100,
     "pp": 10,
     "type": "ice"
@@ -14454,7 +14521,13 @@
     "name": "victory-dance",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": { "fr": "Danse Victoire", "it": "Danzavittoria", "en": "Victory Dance" },
+    "names": {
+      "ko": "승리의춤",
+      "fr": "Danse Victoire",
+      "it": "Danzavittoria",
+      "en": "Victory Dance",
+      "es": "Danza Triunfal"
+    },
     "power": 0,
     "pp": 10,
     "type": "fighting"
@@ -14464,7 +14537,13 @@
     "name": "headlong-rush",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Assaut Frontal", "it": "Scontro Frontale", "en": "Headlong Rush" },
+    "names": {
+      "ko": "들이받기",
+      "fr": "Assaut Frontal",
+      "it": "Scontro Frontale",
+      "en": "Headlong Rush",
+      "es": "Arremetida"
+    },
     "power": 120,
     "pp": 5,
     "type": "ground"
@@ -14474,7 +14553,13 @@
     "name": "barb-barrage",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Multitoxik", "it": "Mille Fielespine", "en": "Barb Barrage" },
+    "names": {
+      "ko": "독침천발",
+      "fr": "Multitoxik",
+      "it": "Mille Fielespine",
+      "en": "Barb Barrage",
+      "es": "Mil Púas Tóxicas"
+    },
     "power": 60,
     "pp": 10,
     "type": "poison"
@@ -14484,7 +14569,7 @@
     "name": "esper-wing",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Ailes Psycho", "it": "Ali d’Aura", "en": "Esper Wing" },
+    "names": { "ko": "오라윙", "fr": "Ailes Psycho", "it": "Ali d’Aura", "en": "Esper Wing", "es": "Ala Aural" },
     "power": 80,
     "pp": 10,
     "type": "psychic"
@@ -14494,7 +14579,13 @@
     "name": "bitter-malice",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Cœur de Rancœur", "it": "Livore", "en": "Bitter Malice" },
+    "names": {
+      "ko": "천추지한",
+      "fr": "Cœur de Rancœur",
+      "it": "Livore",
+      "en": "Bitter Malice",
+      "es": "Rencor Reprimido"
+    },
     "power": 75,
     "pp": 10,
     "type": "ghost"
@@ -14504,7 +14595,7 @@
     "name": "shelter",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": { "fr": "Mur Fumigène", "it": "Barricata", "en": "Shelter" },
+    "names": { "ko": "농성", "fr": "Mur Fumigène", "it": "Barricata", "en": "Shelter", "es": "Retracción" },
     "power": 0,
     "pp": 10,
     "type": "steel"
@@ -14514,7 +14605,13 @@
     "name": "triple-arrows",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Triple Flèche", "it": "Triplodardo", "en": "Triple Arrows" },
+    "names": {
+      "ko": "3연화살",
+      "fr": "Triple Flèche",
+      "it": "Triplodardo",
+      "en": "Triple Arrows",
+      "es": "Triple Flecha"
+    },
     "power": 90,
     "pp": 10,
     "type": "fighting"
@@ -14524,7 +14621,13 @@
     "name": "infernal-parade",
     "accuracy": 100,
     "generation": "generation-viii",
-    "names": { "fr": "Cortège Funèbre", "it": "Corteo Spettrale", "en": "Infernal Parade" },
+    "names": {
+      "ko": "백귀야행",
+      "fr": "Cortège Funèbre",
+      "it": "Corteo Spettrale",
+      "en": "Infernal Parade",
+      "es": "Marcha Espectral"
+    },
     "power": 60,
     "pp": 15,
     "type": "ghost"
@@ -14534,7 +14637,13 @@
     "name": "ceaseless-edge",
     "accuracy": 90,
     "generation": "generation-viii",
-    "names": { "fr": "Vagues à Lames", "it": "Lama Milleflutti", "en": "Ceaseless Edge" },
+    "names": {
+      "ko": "비검천중파",
+      "fr": "Vagues à Lames",
+      "it": "Lama Milleflutti",
+      "en": "Ceaseless Edge",
+      "es": "Tajo Metralla"
+    },
     "power": 65,
     "pp": 15,
     "type": "dark"
@@ -14544,7 +14653,13 @@
     "name": "bleakwind-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": { "fr": "Typhon Hivernal", "it": "Tempesta Boreale", "en": "Bleakwind Storm" },
+    "names": {
+      "ko": "찬바람폭풍",
+      "fr": "Typhon Hivernal",
+      "it": "Tempesta Boreale",
+      "en": "Bleakwind Storm",
+      "es": "Vendaval Gélido"
+    },
     "power": 100,
     "pp": 10,
     "type": "flying"
@@ -14554,7 +14669,13 @@
     "name": "wildbolt-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": { "fr": "Typhon Fulgurant", "it": "Tempesta Tonante", "en": "Wildbolt Storm" },
+    "names": {
+      "ko": "번개폭풍",
+      "fr": "Typhon Fulgurant",
+      "it": "Tempesta Tonante",
+      "en": "Wildbolt Storm",
+      "es": "Electormenta"
+    },
     "power": 100,
     "pp": 10,
     "type": "electric"
@@ -14564,7 +14685,13 @@
     "name": "sandsear-storm",
     "accuracy": 80,
     "generation": "generation-viii",
-    "names": { "fr": "Typhon Pyrosable", "it": "Tempesta Ardente", "en": "Sandsear Storm" },
+    "names": {
+      "ko": "열사의폭풍",
+      "fr": "Typhon Pyrosable",
+      "it": "Tempesta Ardente",
+      "en": "Sandsear Storm",
+      "es": "Simún de Arena"
+    },
     "power": 100,
     "pp": 10,
     "type": "ground"
@@ -14574,7 +14701,13 @@
     "name": "lunar-blessing",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": { "fr": "Prière Lunaire", "it": "Invocaluna", "en": "Lunar Blessing" },
+    "names": {
+      "ko": "초승달의기도",
+      "fr": "Prière Lunaire",
+      "it": "Invocaluna",
+      "en": "Lunar Blessing",
+      "es": "Plegaria Lunar"
+    },
     "power": 0,
     "pp": 5,
     "type": "psychic"
@@ -14584,7 +14717,13 @@
     "name": "take-heart",
     "accuracy": null,
     "generation": "generation-viii",
-    "names": { "fr": "Extravaillance", "it": "Baldimpulso", "en": "Take Heart" },
+    "names": {
+      "ko": "브레이브차지",
+      "fr": "Extravaillance",
+      "it": "Baldimpulso",
+      "en": "Take Heart",
+      "es": "Bálsamo Osado"
+    },
     "power": 0,
     "pp": 10,
     "type": "psychic"
@@ -14594,7 +14733,13 @@
     "name": "tera-blast",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Téra Explosion", "it": "Terascoppio", "en": "Tera Blast" },
+    "names": {
+      "ko": "테라버스트",
+      "fr": "Téra Explosion",
+      "it": "Terascoppio",
+      "en": "Tera Blast",
+      "es": "Teraexplosión"
+    },
     "power": 80,
     "pp": 10,
     "type": "normal"
@@ -14604,7 +14749,7 @@
     "name": "silk-trap",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Piège de Fil", "it": "Telatrappola", "en": "Silk Trap" },
+    "names": { "ko": "스레드트랩", "fr": "Piège de Fil", "it": "Telatrappola", "en": "Silk Trap", "es": "Telatrampa" },
     "power": 0,
     "pp": 10,
     "type": "bug"
@@ -14614,7 +14759,13 @@
     "name": "axe-kick",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": { "fr": "Talon-Marteau", "it": "Calcio ad Ascia", "en": "Axe Kick" },
+    "names": {
+      "ko": "발꿈치찍기",
+      "fr": "Talon-Marteau",
+      "it": "Calcio ad Ascia",
+      "en": "Axe Kick",
+      "es": "Patada Hacha"
+    },
     "power": 120,
     "pp": 10,
     "type": "fighting"
@@ -14624,7 +14775,13 @@
     "name": "last-respects",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Hommage Posthume", "it": "Omaggio ai KO", "en": "Last Respects" },
+    "names": {
+      "ko": "성묘",
+      "fr": "Hommage Posthume",
+      "it": "Omaggio ai KO",
+      "en": "Last Respects",
+      "es": "Homenaje Póstumo"
+    },
     "power": 50,
     "pp": 10,
     "type": "ghost"
@@ -14634,7 +14791,13 @@
     "name": "lumina-crash",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Lumino-Impact", "it": "Fotocollisione", "en": "Lumina Crash" },
+    "names": {
+      "ko": "루미나콜리전",
+      "fr": "Lumino-Impact",
+      "it": "Fotocollisione",
+      "en": "Lumina Crash",
+      "es": "Fotocolisión"
+    },
     "power": 80,
     "pp": 10,
     "type": "psychic"
@@ -14644,7 +14807,7 @@
     "name": "order-up",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Plat du Jour", "it": "Alta Cucina", "en": "Order Up" },
+    "names": { "ko": "한판내기", "fr": "Plat du Jour", "it": "Alta Cucina", "en": "Order Up", "es": "Oído Cocina" },
     "power": 80,
     "pp": 10,
     "type": "dragon"
@@ -14654,7 +14817,7 @@
     "name": "jet-punch",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Poing Sonique", "it": "Pugnojet", "en": "Jet Punch" },
+    "names": { "ko": "제트펀치", "fr": "Poing Sonique", "it": "Pugnojet", "en": "Jet Punch", "es": "Puño Jet" },
     "power": 60,
     "pp": 15,
     "type": "water"
@@ -14664,7 +14827,13 @@
     "name": "spicy-extract",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Habanerage", "it": "Essenza Piccante", "en": "Spicy Extract" },
+    "names": {
+      "ko": "하바네로엑기스",
+      "fr": "Habanerage",
+      "it": "Essenza Piccante",
+      "en": "Spicy Extract",
+      "es": "Extracto Picante"
+    },
     "power": 0,
     "pp": 15,
     "type": "grass"
@@ -14674,7 +14843,7 @@
     "name": "spin-out",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Dérapage", "it": "Slittaruote", "en": "Spin Out" },
+    "names": { "ko": "휠스핀", "fr": "Dérapage", "it": "Slittaruote", "en": "Spin Out", "es": "Quemarrueda" },
     "power": 100,
     "pp": 5,
     "type": "steel"
@@ -14684,7 +14853,13 @@
     "name": "population-bomb",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": { "fr": "Prolifération", "it": "Infestazione", "en": "Population Bomb" },
+    "names": {
+      "ko": "찍찍베기",
+      "fr": "Prolifération",
+      "it": "Infestazione",
+      "en": "Population Bomb",
+      "es": "Proliferación"
+    },
     "power": 20,
     "pp": 10,
     "type": "normal"
@@ -14694,7 +14869,13 @@
     "name": "ice-spinner",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Cryo-Pirouette", "it": "Vortighiaccio", "en": "Ice Spinner" },
+    "names": {
+      "ko": "아이스스피너",
+      "fr": "Cryo-Pirouette",
+      "it": "Vortighiaccio",
+      "en": "Ice Spinner",
+      "es": "Pirueta Helada"
+    },
     "power": 80,
     "pp": 15,
     "type": "ice"
@@ -14704,7 +14885,13 @@
     "name": "glaive-rush",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Charge Glaive", "it": "Spadoncarica", "en": "Glaive Rush" },
+    "names": {
+      "ko": "대검돌격",
+      "fr": "Charge Glaive",
+      "it": "Spadoncarica",
+      "en": "Glaive Rush",
+      "es": "Asalto Espadón"
+    },
     "power": 120,
     "pp": 5,
     "type": "dragon"
@@ -14714,7 +14901,13 @@
     "name": "revival-blessing",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Second Souffle", "it": "Preghiera Vitale", "en": "Revival Blessing" },
+    "names": {
+      "ko": "회생의기도",
+      "fr": "Second Souffle",
+      "it": "Preghiera Vitale",
+      "en": "Revival Blessing",
+      "es": "Plegaria Vital"
+    },
     "power": 0,
     "pp": 1,
     "type": "normal"
@@ -14724,7 +14917,7 @@
     "name": "salt-cure",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Salaison", "it": "Sotto Sale", "en": "Salt Cure" },
+    "names": { "ko": "소금절이", "fr": "Salaison", "it": "Sotto Sale", "en": "Salt Cure", "es": "Salazón" },
     "power": 40,
     "pp": 15,
     "type": "rock"
@@ -14734,7 +14927,13 @@
     "name": "triple-dive",
     "accuracy": 95,
     "generation": "generation-ix",
-    "names": { "fr": "Triple Plongeon", "it": "Triplo Tuffo", "en": "Triple Dive" },
+    "names": {
+      "ko": "트리플다이브",
+      "fr": "Triple Plongeon",
+      "it": "Triplo Tuffo",
+      "en": "Triple Dive",
+      "es": "Triple Inmersión"
+    },
     "power": 30,
     "pp": 10,
     "type": "water"
@@ -14744,7 +14943,13 @@
     "name": "mortal-spin",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Toupie Éclat", "it": "Glitturbine", "en": "Mortal Spin" },
+    "names": {
+      "ko": "킬러스핀",
+      "fr": "Toupie Éclat",
+      "it": "Glitturbine",
+      "en": "Mortal Spin",
+      "es": "Giro Mortífero"
+    },
     "power": 30,
     "pp": 15,
     "type": "poison"
@@ -14754,7 +14959,7 @@
     "name": "doodle",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Décalquage", "it": "Ricalco", "en": "Doodle" },
+    "names": { "ko": "배껴그리기", "fr": "Décalquage", "it": "Ricalco", "en": "Doodle", "es": "Decalcomanía" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -14764,7 +14969,7 @@
     "name": "fillet-away",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Décharnement", "it": "Alleggerimento", "en": "Fillet Away" },
+    "names": { "ko": "제살깎기", "fr": "Décharnement", "it": "Alleggerimento", "en": "Fillet Away", "es": "Deslome" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -14774,7 +14979,13 @@
     "name": "kowtow-cleave",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Génusection", "it": "Genufendente", "en": "Kowtow Cleave" },
+    "names": {
+      "ko": "도각참",
+      "fr": "Génusection",
+      "it": "Genufendente",
+      "en": "Kowtow Cleave",
+      "es": "Genufendiente"
+    },
     "power": 85,
     "pp": 10,
     "type": "dark"
@@ -14784,7 +14995,13 @@
     "name": "flower-trick",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Magie Florale", "it": "Prestigiafiore", "en": "Flower Trick" },
+    "names": {
+      "ko": "트릭플라워",
+      "fr": "Magie Florale",
+      "it": "Prestigiafiore",
+      "en": "Flower Trick",
+      "es": "Truco Floral"
+    },
     "power": 70,
     "pp": 10,
     "type": "grass"
@@ -14794,7 +15011,13 @@
     "name": "torch-song",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Chant Flamboyant", "it": "Canzone Ardente", "en": "Torch Song" },
+    "names": {
+      "ko": "플레어송",
+      "fr": "Chant Flamboyant",
+      "it": "Canzone Ardente",
+      "en": "Torch Song",
+      "es": "Canto Ardiente"
+    },
     "power": 80,
     "pp": 10,
     "type": "fire"
@@ -14804,7 +15027,13 @@
     "name": "aqua-step",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Danse Aquatique", "it": "Idroballetto", "en": "Aqua Step" },
+    "names": {
+      "ko": "아쿠아스텝",
+      "fr": "Danse Aquatique",
+      "it": "Idroballetto",
+      "en": "Aqua Step",
+      "es": "Danza Acuática"
+    },
     "power": 80,
     "pp": 10,
     "type": "water"
@@ -14814,7 +15043,7 @@
     "name": "raging-bull",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Taurogne", "it": "Scatenatoro", "en": "Raging Bull" },
+    "names": { "ko": "레이징불", "fr": "Taurogne", "it": "Scatenatoro", "en": "Raging Bull", "es": "Furia Taurina" },
     "power": 90,
     "pp": 10,
     "type": "normal"
@@ -14824,7 +15053,13 @@
     "name": "make-it-rain",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Ruée d'Or", "it": "Corsa all’Oro", "en": "Make It Rain" },
+    "names": {
+      "ko": "골드러시",
+      "fr": "Ruée d'Or",
+      "it": "Corsa all’Oro",
+      "en": "Make It Rain",
+      "es": "Fiebre Dorada"
+    },
     "power": 120,
     "pp": 5,
     "type": "steel"
@@ -14868,7 +15103,7 @@
     "name": "ruination",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": { "fr": "Cataclysme", "it": "Catastrofe", "en": "Ruination" },
+    "names": { "ko": "카타스트로피", "fr": "Cataclysme", "it": "Catastrofe", "en": "Ruination", "es": "Calamidad" },
     "power": 1,
     "pp": 10,
     "type": "dark"
@@ -14878,7 +15113,13 @@
     "name": "collision-course",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Nitro Crash", "it": "Turboschianto", "en": "Collision Course" },
+    "names": {
+      "ko": "엑셀브레이크",
+      "fr": "Nitro Crash",
+      "it": "Turboschianto",
+      "en": "Collision Course",
+      "es": "Nitrochoque"
+    },
     "power": 100,
     "pp": 5,
     "type": "fighting"
@@ -14888,7 +15129,13 @@
     "name": "electro-drift",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Turbo Volt", "it": "Fulmiscatto", "en": "Electro Drift" },
+    "names": {
+      "ko": "라이트닝드라이브",
+      "fr": "Turbo Volt",
+      "it": "Fulmiscatto",
+      "en": "Electro Drift",
+      "es": "Electroderrape"
+    },
     "power": 100,
     "pp": 5,
     "type": "electric"
@@ -14898,7 +15145,7 @@
     "name": "shed-tail",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Queulonage", "it": "Tagliacoda", "en": "Shed Tail" },
+    "names": { "ko": "꼬리자르기", "fr": "Queulonage", "it": "Tagliacoda", "en": "Shed Tail", "es": "Autotomía" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -14908,7 +15155,13 @@
     "name": "chilly-reception",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Neigeux de Mots", "it": "Freddura", "en": "Chilly Reception" },
+    "names": {
+      "ko": "썰렁개그",
+      "fr": "Neigeux de Mots",
+      "it": "Freddura",
+      "en": "Chilly Reception",
+      "es": "Fría Acogida"
+    },
     "power": 0,
     "pp": 10,
     "type": "ice"
@@ -14918,7 +15171,7 @@
     "name": "tidy-up",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Grand Nettoyage", "it": "Pulizie", "en": "Tidy Up" },
+    "names": { "ko": "정리정돈", "fr": "Grand Nettoyage", "it": "Pulizie", "en": "Tidy Up", "es": "Limpieza General" },
     "power": 0,
     "pp": 10,
     "type": "normal"
@@ -14928,7 +15181,13 @@
     "name": "snowscape",
     "accuracy": null,
     "generation": "generation-ix",
-    "names": { "fr": "Chute de Neige", "it": "Vista Innevata", "en": "Snowscape" },
+    "names": {
+      "ko": "설경",
+      "fr": "Chute de Neige",
+      "it": "Vista Innevata",
+      "en": "Snowscape",
+      "es": "Paisaje Nevado"
+    },
     "power": 0,
     "pp": 10,
     "type": "ice"
@@ -14938,7 +15197,7 @@
     "name": "pounce",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Bond", "it": "Balzo", "en": "Pounce" },
+    "names": { "ko": "달려들기", "fr": "Bond", "it": "Balzo", "en": "Pounce", "es": "Brinco" },
     "power": 50,
     "pp": 20,
     "type": "bug"
@@ -14948,7 +15207,7 @@
     "name": "trailblaze",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Désherbaffe", "it": "Apripista", "en": "Trailblaze" },
+    "names": { "ko": "개척하기", "fr": "Désherbaffe", "it": "Apripista", "en": "Trailblaze", "es": "Abrecaminos" },
     "power": 50,
     "pp": 20,
     "type": "grass"
@@ -14958,7 +15217,13 @@
     "name": "chilling-water",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Douche Froide", "it": "Doccia Fredda", "en": "Chilling Water" },
+    "names": {
+      "ko": "찬물끼얹기",
+      "fr": "Douche Froide",
+      "it": "Doccia Fredda",
+      "en": "Chilling Water",
+      "es": "Agua Fría"
+    },
     "power": 50,
     "pp": 20,
     "type": "water"
@@ -14968,7 +15233,7 @@
     "name": "hyper-drill",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Hyperceuse", "it": "Ipertrapano", "en": "Hyper Drill" },
+    "names": { "ko": "하이퍼드릴", "fr": "Hyperceuse", "it": "Ipertrapano", "en": "Hyper Drill", "es": "Hipertaladro" },
     "power": 100,
     "pp": 5,
     "type": "normal"
@@ -14978,7 +15243,7 @@
     "name": "twin-beam",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Double Laser", "it": "Doppioraggio", "en": "Twin Beam" },
+    "names": { "ko": "트윈빔", "fr": "Double Laser", "it": "Doppioraggio", "en": "Twin Beam", "es": "Láser Doble" },
     "power": 40,
     "pp": 10,
     "type": "psychic"
@@ -14988,7 +15253,13 @@
     "name": "rage-fist",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Poing de Colère", "it": "Pugno Furibondo", "en": "Rage Fist" },
+    "names": {
+      "ko": "분노의주먹",
+      "fr": "Poing de Colère",
+      "it": "Pugno Furibondo",
+      "en": "Rage Fist",
+      "es": "Puño Furia"
+    },
     "power": 50,
     "pp": 10,
     "type": "ghost"
@@ -14998,7 +15269,13 @@
     "name": "armor-cannon",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Canon Blindé", "it": "Corazza Cannone", "en": "Armor Cannon" },
+    "names": {
+      "ko": "아머캐논",
+      "fr": "Canon Blindé",
+      "it": "Corazza Cannone",
+      "en": "Armor Cannon",
+      "es": "Cañón Armadura"
+    },
     "power": 120,
     "pp": 5,
     "type": "fire"
@@ -15008,7 +15285,13 @@
     "name": "bitter-blade",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Lame en Peine", "it": "Lama del Rimorso", "en": "Bitter Blade" },
+    "names": {
+      "ko": "원념의칼",
+      "fr": "Lame en Peine",
+      "it": "Lama del Rimorso",
+      "en": "Bitter Blade",
+      "es": "Espada Lamento"
+    },
     "power": 90,
     "pp": 10,
     "type": "fire"
@@ -15018,7 +15301,13 @@
     "name": "double-shock",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Double Décharge", "it": "Doppiolampo", "en": "Double Shock" },
+    "names": {
+      "ko": "전광쌍격",
+      "fr": "Double Décharge",
+      "it": "Doppiolampo",
+      "en": "Double Shock",
+      "es": "Electropalmas"
+    },
     "power": 120,
     "pp": 5,
     "type": "electric"
@@ -15028,7 +15317,13 @@
     "name": "gigaton-hammer",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Marteau Mastoc", "it": "Granmartello", "en": "Gigaton Hammer" },
+    "names": {
+      "ko": "거대해머",
+      "fr": "Marteau Mastoc",
+      "it": "Granmartello",
+      "en": "Gigaton Hammer",
+      "es": "Martillo Colosal"
+    },
     "power": 160,
     "pp": 5,
     "type": "steel"
@@ -15038,7 +15333,7 @@
     "name": "comeuppance",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Vindicte", "it": "Ritorsione", "en": "Comeuppance" },
+    "names": { "ko": "앙갚음", "fr": "Vindicte", "it": "Ritorsione", "en": "Comeuppance", "es": "Resarcimiento" },
     "power": 1,
     "pp": 10,
     "type": "dark"
@@ -15048,7 +15343,13 @@
     "name": "aqua-cutter",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Tranch'Aqua", "it": "Idrotaglio", "en": "Aqua Cutter" },
+    "names": {
+      "ko": "아쿠아커터",
+      "fr": "Tranch'Aqua",
+      "it": "Idrotaglio",
+      "en": "Aqua Cutter",
+      "es": "Tajo Acuático"
+    },
     "power": 70,
     "pp": 20,
     "type": "water"
@@ -15058,7 +15359,13 @@
     "name": "blazing-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Crash Brûlant", "it": "Turboustione", "en": "Blazing Torque" },
+    "names": {
+      "ko": "번액셀",
+      "fr": "Crash Brûlant",
+      "it": "Turboustione",
+      "en": "Blazing Torque",
+      "es": "Pirochoque"
+    },
     "power": 80,
     "pp": 10,
     "type": "fire"
@@ -15068,7 +15375,13 @@
     "name": "wicked-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Crash Obscur", "it": "Turbotenebra", "en": "Wicked Torque" },
+    "names": {
+      "ko": "다크액셀",
+      "fr": "Crash Obscur",
+      "it": "Turbotenebra",
+      "en": "Wicked Torque",
+      "es": "Ominochoque"
+    },
     "power": 80,
     "pp": 10,
     "type": "dark"
@@ -15078,7 +15391,13 @@
     "name": "noxious-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Crash Toxique", "it": "Turbotossina", "en": "Noxious Torque" },
+    "names": {
+      "ko": "포이즌액셀",
+      "fr": "Crash Toxique",
+      "it": "Turbotossina",
+      "en": "Noxious Torque",
+      "es": "Ponzochoque"
+    },
     "power": 100,
     "pp": 10,
     "type": "poison"
@@ -15088,7 +15407,13 @@
     "name": "combat-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Crash Musclé", "it": "Turborissa", "en": "Combat Torque" },
+    "names": {
+      "ko": "파이트액셀",
+      "fr": "Crash Musclé",
+      "it": "Turborissa",
+      "en": "Combat Torque",
+      "es": "Pugnachoque"
+    },
     "power": 100,
     "pp": 10,
     "type": "fighting"
@@ -15098,7 +15423,13 @@
     "name": "magical-torque",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Crash Magique", "it": "Turboincanto", "en": "Magical Torque" },
+    "names": {
+      "ko": "매지컬액셀",
+      "fr": "Crash Magique",
+      "it": "Turboincanto",
+      "en": "Magical Torque",
+      "es": "Feerichoque"
+    },
     "power": 100,
     "pp": 10,
     "type": "fairy"
@@ -15108,7 +15439,7 @@
     "name": "blood-moon",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Lune Rouge", "en": "Blood Moon" },
+    "names": { "ko": "블러드문", "fr": "Lune Rouge", "en": "Blood Moon", "es": "Luna Roja" },
     "power": 140,
     "pp": 5,
     "type": "normal"
@@ -15118,7 +15449,7 @@
     "name": "matcha-gotcha",
     "accuracy": 90,
     "generation": "generation-ix",
-    "names": { "fr": "Mortier Matcha", "en": "Matcha Gotcha" },
+    "names": { "ko": "휘적휘적포", "fr": "Mortier Matcha", "en": "Matcha Gotcha", "es": "Cañón Batidor" },
     "power": 80,
     "pp": 15,
     "type": "grass"
@@ -15129,7 +15460,7 @@
     "accuracy": 85,
     "crit_rate": 0,
     "generation": "generation-ix",
-    "names": { "fr": "Bombe au Sirop", "en": "Syrup Bomb" },
+    "names": { "ko": "시럽봄", "fr": "Bombe au Sirop", "en": "Syrup Bomb", "es": "Bomba Caramelo" },
     "power": 60,
     "pp": 10,
     "type": "grass"
@@ -15139,7 +15470,7 @@
     "name": "ivy-cudgel",
     "accuracy": 100,
     "generation": "generation-ix",
-    "names": { "fr": "Massue Liane", "en": "Ivy Cudgel" },
+    "names": { "ko": "덩굴방망이", "fr": "Massue Liane", "en": "Ivy Cudgel", "es": "Garrote Liana" },
     "power": 100,
     "pp": 10,
     "type": "grass"

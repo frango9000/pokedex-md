@@ -105,5 +105,11 @@
       "fr": "Peut être appris avec la Boîte Zygarde. Doît d’abord trouver les cellules Zygardes correspondantes dans Soleil/Lune. Toutes les capacités sont disponibles directement dans Ultra Soleil/Ultra Lune.",
       "en": "Can be taught using the Zygarde Cube.  Must find the corresponding Zygarde Core first in Sun/Moon.  All moves are available immediately in Ultra Sun/Ultra Moon."
     }
+  },
+  {
+    "id": 12,
+    "name": "train",
+    "names": { "en": "Train" },
+    "descriptions": { "en": "Taught via the training menu in Pokémon Champions." }
   }
 ]

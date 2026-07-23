@@ -276,14 +276,14 @@
     "name": "the-isle-of-armor",
     "generation": "generation-viii",
     "order": 23,
-    "versions": ["the-isle-of-armor"],
+    "versions": ["the-isle-of-armor-sword", "the-isle-of-armor-shield"],
     "names": {
-      "ko": "갑옷의 외딴섬",
-      "fr": "L’île solitaire de l’Armure",
-      "de": "Die Insel der Rüstung",
-      "es": "La isla de la armadura",
-      "it": "L’isola solitaria dell’armatura",
-      "en": "The Isle of Armor"
+      "ko": "소드: 갑옷의 외딴섬 / 실드: 갑옷의 외딴섬",
+      "fr": "Épée: L’île solitaire de l’Armure / Bouclier: L’île solitaire de l’Armure",
+      "de": "Schwert: Die Insel der Rüstung / Schild: Die Insel der Rüstung",
+      "es": "Espada: La isla de la armadura / Escudo: La isla de la armadura",
+      "it": "Spada: L’isola solitaria dell’armatura / Scudo: L’isola solitaria dell’armatura",
+      "en": "Sword: The Isle of Armor / Shield: The Isle of Armor"
     }
   },
   {
@@ -291,14 +291,14 @@
     "name": "the-crown-tundra",
     "generation": "generation-viii",
     "order": 24,
-    "versions": ["the-crown-tundra"],
+    "versions": ["the-crown-tundra-sword", "the-crown-tundra-shield"],
     "names": {
-      "ko": "왕관의 설원",
-      "fr": "Les terres enneigées de la Couronne",
-      "de": "Die Schneelande der Krone",
-      "es": "Las nieves de la corona",
-      "it": "Le terre innevate della corona",
-      "en": "The Crown Tundra"
+      "ko": "소드: 왕관의 설원 / 실드: 왕관의 설원",
+      "fr": "Épée: Les terres enneigées de la Couronne / Bouclier: Les terres enneigées de la Couronne",
+      "de": "Schwert: Die Schneelande der Krone / Schild: Die Schneelande der Krone",
+      "es": "Espada: Las nieves de la corona / Escudo: Las nieves de la corona",
+      "it": "Spada: Le terre innevate della corona / Scudo: Le terre innevate della corona",
+      "en": "Sword: The Crown Tundra / Shield: The Crown Tundra"
     }
   },
   {
@@ -351,13 +351,13 @@
     "name": "the-teal-mask",
     "generation": "generation-ix",
     "order": 28,
-    "versions": ["the-teal-mask"],
+    "versions": ["the-teal-mask-scarlet", "the-teal-mask-violet"],
     "names": {
-      "fr": "Le Masque Turquoise",
-      "de": "Die Türkisgrüne Maske",
-      "es": "La máscara turquesa",
-      "it": "La maschera turchese",
-      "en": "The Teal Mask"
+      "fr": "Écarlate: Le Masque Turquoise / Violet: Le Masque Turquoise",
+      "de": "Karmesin: Die Türkisgrüne Maske / Purpur: Die Türkisgrüne Maske",
+      "es": "Escarlata: La máscara turquesa / Púrpura: La máscara turquesa",
+      "it": "Scarlatto: La maschera turchese / Violetto: La maschera turchese",
+      "en": "Scarlet: The Teal Mask / Violet: The Teal Mask"
     }
   },
   {
@@ -365,13 +365,13 @@
     "name": "the-indigo-disk",
     "generation": "generation-ix",
     "order": 29,
-    "versions": ["the-indigo-disk"],
+    "versions": ["the-indigo-disk-scarlet", "the-indigo-disk-violet"],
     "names": {
-      "fr": "Le Disque Indigo",
-      "de": "Die Indigoblaue Scheibe",
-      "es": "El disco índigo",
-      "it": "Il disco indaco",
-      "en": "The Indigo Disk"
+      "fr": "Écarlate: Le Disque Indigo / Violet: Le Disque Indigo",
+      "de": "Karmesin: Die Indigoblaue Scheibe / Purpur: Die Indigoblaue Scheibe",
+      "es": "Escarlata: El disco índigo / Púrpura: El disco índigo",
+      "it": "Scarlatto: Il disco indaco / Violetto: Il disco indaco",
+      "en": "Scarlet: The Indigo Disk / Violet: The Indigo Disk"
     }
   },
   {
