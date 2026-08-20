@@ -142,11 +142,7 @@
   },
   { "id": 18, "name": "gift", "names": { "en": "Receive as a gift", "fr": "Reçu en cadeau" } },
   { "id": 19, "name": "gift-egg", "names": { "en": "Receive egg as a gift", "fr": "Œuf reçu en cadeau" } },
-  {
-    "id": 20,
-    "name": "only-one",
-    "names": { "en": "Static encounter, only one chance", "fr": "Rencontre statique, chance unique" }
-  },
+  { "id": 20, "name": "static", "names": { "en": "Static encounter", "fr": "Rencontre statique" } },
   { "id": 21, "name": "pokeflute", "names": { "en": "Playing Pokéflute", "fr": "En jouant de la Pokéflûte" } },
   {
     "id": 22,
@@ -195,9 +191,9 @@
     "names": { "en": "Fishing in a Feebas Tile", "fr": "En pêchant sur une tuile à Barpau" }
   },
   { "id": 32, "name": "island-scan", "names": {} },
-  { "id": 33, "name": "sos-encounter", "names": {} },
-  { "id": 34, "name": "bubbling-spots", "names": {} },
-  { "id": 35, "name": "berry-piles", "names": {} },
+  { "id": 33, "name": "sos", "names": {} },
+  { "id": 34, "name": "bubbling-spots", "names": { "en": "Fishing at bubbling spots in the water" } },
+  { "id": 35, "name": "berry-trees", "names": { "en": "Interacting with a Berry Tree" } },
   { "id": 36, "name": "npc-trade", "names": {} },
   { "id": 37, "name": "sos-from-bubbling-spot", "names": {} },
   {
@@ -288,5 +284,28 @@
     "id": 55,
     "name": "honey-tree",
     "names": { "en": "Slathering a Honey Tree with Honey and waiting for a Pokémon to appear." }
-  }
+  },
+  {
+    "id": 56,
+    "name": "overworld-dirt",
+    "names": { "en": "Overworld spawn coming from underground or within a swamp." }
+  },
+  { "id": 57, "name": "wanderer", "names": { "en": "Special overworld spawn in a fixed location." } },
+  {
+    "id": 58,
+    "name": "wanderer-water",
+    "names": { "en": "Special overworld spawn in a fixed location in the water." }
+  },
+  { "id": 59, "name": "chase-water", "names": { "en": "Get chased by territorial Pokémon when entering the water." } },
+  { "id": 60, "name": "dynamax-adventure", "names": { "en": "Capture during a Dynamax Adventure." } },
+  {
+    "id": 61,
+    "name": "max-raid",
+    "names": { "en": "Catch a wild Dynamax or Gigantamax Pokémon in a Max Raid battle." }
+  },
+  { "id": 62, "name": "trash-can-ambush", "names": { "en": "Ambushed by a Wild Pokemon from a Trash Can" } },
+  { "id": 63, "name": "rustling-bush-ambush", "names": { "en": "Ambushed by a Wild Pokemon from a Rustling Bush" } },
+  { "id": 64, "name": "ceiling-ambush", "names": { "en": "Ambushed by a Wild Pokemon from the Ceiling of a Cave" } },
+  { "id": 65, "name": "ground-ambush", "names": { "en": "Ambushed by a Wild Pokemon from the Ground" } },
+  { "id": 66, "name": "sky-ambush", "names": { "en": "Ambushed by a Wild Pokemon from the Sky" } }
 ]
