@@ -303,27 +303,27 @@
   },
   {
     "id": 35,
-    "name": "the-isle-of-armor",
+    "name": "the-isle-of-armor-sword",
     "names": {
-      "ko": "갑옷의 외딴섬",
-      "fr": "L’île solitaire de l’Armure",
-      "de": "Die Insel der Rüstung",
-      "es": "La isla de la armadura",
-      "it": "L’isola solitaria dell’armatura",
-      "en": "The Isle of Armor"
+      "ko": "소드: 갑옷의 외딴섬",
+      "fr": "Épée: L’île solitaire de l’Armure",
+      "de": "Schwert: Die Insel der Rüstung",
+      "es": "Espada: La isla de la armadura",
+      "it": "Spada: L’isola solitaria dell’armatura",
+      "en": "Sword: The Isle of Armor"
     },
     "version_group": "the-isle-of-armor"
   },
   {
     "id": 36,
-    "name": "the-crown-tundra",
+    "name": "the-crown-tundra-sword",
     "names": {
-      "ko": "왕관의 설원",
-      "fr": "Les terres enneigées de la Couronne",
-      "de": "Die Schneelande der Krone",
-      "es": "Las nieves de la corona",
-      "it": "Le terre innevate della corona",
-      "en": "The Crown Tundra"
+      "ko": "소드: 왕관의 설원",
+      "fr": "Épée: Les terres enneigées de la Couronne",
+      "de": "Schwert: Die Schneelande der Krone",
+      "es": "Espada: Las nieves de la corona",
+      "it": "Spada: Le terre innevate della corona",
+      "en": "Sword: The Crown Tundra"
     },
     "version_group": "the-crown-tundra"
   },
@@ -387,25 +387,25 @@
   },
   {
     "id": 42,
-    "name": "the-teal-mask",
+    "name": "the-teal-mask-scarlet",
     "names": {
-      "fr": "Le Masque Turquoise",
-      "de": "Die Türkisgrüne Maske",
-      "es": "La máscara turquesa",
-      "it": "La maschera turchese",
-      "en": "The Teal Mask"
+      "fr": "Écarlate: Le Masque Turquoise",
+      "de": "Karmesin: Die Türkisgrüne Maske",
+      "es": "Escarlata: La máscara turquesa",
+      "it": "Scarlatto: La maschera turchese",
+      "en": "Scarlet: The Teal Mask"
     },
     "version_group": "the-teal-mask"
   },
   {
     "id": 43,
-    "name": "the-indigo-disk",
+    "name": "the-indigo-disk-scarlet",
     "names": {
-      "fr": "Le Disque Indigo",
-      "de": "Die Indigoblaue Scheibe",
-      "es": "El disco índigo",
-      "it": "Il disco indaco",
-      "en": "The Indigo Disk"
+      "fr": "Écarlate: Le Disque Indigo",
+      "de": "Karmesin: Die Indigoblaue Scheibe",
+      "es": "Escarlata: El disco índigo",
+      "it": "Scarlatto: Il disco indaco",
+      "en": "Scarlet: The Indigo Disk"
     },
     "version_group": "the-indigo-disk"
   },
@@ -453,5 +453,55 @@
     },
     "version_group": "mega-dimension"
   },
-  { "id": 49, "name": "champions", "names": { "en": "Champions" }, "version_group": "champions" }
+  { "id": 49, "name": "champions", "names": { "en": "Champions" }, "version_group": "champions" },
+  {
+    "id": 50,
+    "name": "the-isle-of-armor-shield",
+    "names": {
+      "ko": "실드: 갑옷의 외딴섬",
+      "fr": "Bouclier: L’île solitaire de l’Armure",
+      "de": "Schild: Die Insel der Rüstung",
+      "es": "Escudo: La isla de la armadura",
+      "it": "Scudo: L’isola solitaria dell’armatura",
+      "en": "Shield: The Isle of Armor"
+    },
+    "version_group": "the-isle-of-armor"
+  },
+  {
+    "id": 51,
+    "name": "the-crown-tundra-shield",
+    "names": {
+      "ko": "실드: 왕관의 설원",
+      "fr": "Bouclier: Les terres enneigées de la Couronne",
+      "de": "Schild: Die Schneelande der Krone",
+      "es": "Escudo: Las nieves de la corona",
+      "it": "Scudo: Le terre innevate della corona",
+      "en": "Shield: The Crown Tundra"
+    },
+    "version_group": "the-crown-tundra"
+  },
+  {
+    "id": 52,
+    "name": "the-teal-mask-violet",
+    "names": {
+      "fr": "Violet: Le Masque Turquoise",
+      "de": "Purpur: Die Türkisgrüne Maske",
+      "es": "Púrpura: La máscara turquesa",
+      "it": "Violetto: La maschera turchese",
+      "en": "Violet: The Teal Mask"
+    },
+    "version_group": "the-teal-mask"
+  },
+  {
+    "id": 53,
+    "name": "the-indigo-disk-violet",
+    "names": {
+      "fr": "Violet: Le Disque Indigo",
+      "de": "Purpur: Die Indigoblaue Scheibe",
+      "es": "Púrpura: El disco índigo",
+      "it": "Violetto: Il disco indaco",
+      "en": "Violet: The Indigo Disk"
+    },
+    "version_group": "the-indigo-disk"
+  }
 ]

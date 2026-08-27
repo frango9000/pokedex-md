@@ -5303,14 +5303,14 @@
   },
   {
     "id": 728,
-    "name": "berry-fields",
+    "name": "alola-berry-fields",
     "names": {
       "ko": "나무열매 밭",
-      "fr": "Champ de Baies",
-      "de": "Beerenfelder",
-      "es": "Huerto de Bayas",
-      "it": "Orto delle Bacche",
-      "en": "Berry Fields"
+      "fr": "Champ de Baies d'Alola",
+      "de": "Alola-Beerenfelder",
+      "es": "Huerto de Bayas de Alola",
+      "it": "Orto delle Bacche di Alola",
+      "en": "Alola Berry Fields"
     },
     "region": "alola"
   },
@@ -6659,7 +6659,7 @@
   },
   {
     "id": 881,
-    "name": "battle-tower",
+    "name": "galar-battle-tower",
     "names": { "fr": "Tour de Combat", "de": "Duellturm", "en": "Battle Tower" },
     "region": "galar"
   },
@@ -7918,5 +7918,23 @@
   { "id": 1110, "name": "onbs", "names": { "en": "ONBS" }, "region": "orre" },
   { "id": 1111, "name": "cipher-key-lair", "names": { "en": "Cipher Key Lair" }, "region": "orre" },
   { "id": 1112, "name": "citadark-isle", "names": { "en": "Citadark Isle" }, "region": "orre" },
-  { "id": 1113, "name": "kanto-underground-path", "names": { "en": "Kanto Underground Path" }, "region": "kanto" }
+  { "id": 1113, "name": "kanto-underground-path", "names": { "en": "Kanto Underground Path" }, "region": "kanto" },
+  { "id": 1114, "name": "energy-plant", "names": { "en": "Energy Plant" }, "region": "galar" },
+  { "id": 1115, "name": "meetup-spot", "names": { "en": "Meetup Spot" }, "region": "galar" },
+  {
+    "id": 1116,
+    "name": "isle-of-armor-caves",
+    "names": { "en": "Random caves across the Isle of Armor" },
+    "region": "galar"
+  },
+  { "id": 1117, "name": "roaming-galar-wild-area", "names": { "en": "Roaming Galar Wild Areas" }, "region": "galar" },
+  { "id": 1118, "name": "roaming-isle-of-armor", "names": { "en": "Roaming the Isle of Armor" }, "region": "galar" },
+  { "id": 1119, "name": "roaming-crown-tundra", "names": { "en": "Roaming the Crown Tundra" }, "region": "galar" },
+  {
+    "id": 1120,
+    "name": "galar-wild-area-max-dens",
+    "names": { "en": "Max Dens in the Galar Wild Area" },
+    "region": "galar"
+  },
+  { "id": 1121, "name": "kalos-berry-fields", "names": { "de": "Kalos Berry Fields" }, "region": "kalos" }
 ]
