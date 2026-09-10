@@ -142,11 +142,7 @@
   },
   { "id": 18, "name": "gift", "names": { "en": "Receive as a gift", "fr": "Reçu en cadeau" } },
   { "id": 19, "name": "gift-egg", "names": { "en": "Receive egg as a gift", "fr": "Œuf reçu en cadeau" } },
-  {
-    "id": 20,
-    "name": "only-one",
-    "names": { "en": "Static encounter, only one chance", "fr": "Rencontre statique, chance unique" }
-  },
+  { "id": 20, "name": "static", "names": { "en": "Static encounter", "fr": "Rencontre statique" } },
   { "id": 21, "name": "pokeflute", "names": { "en": "Playing Pokéflute", "fr": "En jouant de la Pokéflûte" } },
   {
     "id": 22,
@@ -194,12 +190,24 @@
     "name": "feebas-tile-fishing",
     "names": { "en": "Fishing in a Feebas Tile", "fr": "En pêchant sur une tuile à Barpau" }
   },
-  { "id": 32, "name": "island-scan", "names": {} },
-  { "id": 33, "name": "sos-encounter", "names": {} },
-  { "id": 34, "name": "bubbling-spots", "names": {} },
-  { "id": 35, "name": "berry-piles", "names": {} },
-  { "id": 36, "name": "npc-trade", "names": {} },
-  { "id": 37, "name": "sos-from-bubbling-spot", "names": {} },
+  { "id": 32, "name": "island-scan", "names": { "en": "Island Scan", "fr": "Scan des Îles" } },
+  { "id": 33, "name": "sos", "names": { "en": "SOS Battle", "fr": "Combat SOS" } },
+  {
+    "id": 34,
+    "name": "bubbling-spots",
+    "names": { "en": "Fishing at bubbling spots in the water", "fr": "En pêchant sur un point à bulles" }
+  },
+  {
+    "id": 35,
+    "name": "berry-trees",
+    "names": { "en": "Interacting with a Berry Tree", "fr": "En interagissant avec un arbre à baies" }
+  },
+  { "id": 36, "name": "npc-trade", "names": { "en": "Trade with an NPC", "fr": "Échange avec un PNJ" } },
+  {
+    "id": 37,
+    "name": "sos-from-bubbling-spot",
+    "names": { "en": "SOS Battle from bubbling spots", "fr": "Combat SOS dans les points à bulles" }
+  },
   {
     "id": 38,
     "name": "overworld",
@@ -239,54 +247,161 @@
       "en": "Rare spawn in water with lure or catch combo"
     }
   },
-  { "id": 44, "name": "horde", "names": { "en": "Encountering 5 Pokemon within grass, flowers, or within a cave" } },
+  {
+    "id": 44,
+    "name": "horde",
+    "names": {
+      "en": "Encountering 5 Pokemon within grass, flowers, or within a cave",
+      "fr": "Rencontrer 5 Pokémon dans l'herbe, les fleurs ou une grotte"
+    }
+  },
   {
     "id": 45,
     "name": "colosseum-bonus-disc-us",
-    "names": { "en": "Receiving a Jirachi from the USA Colosseum Bonus Disc" }
+    "names": {
+      "en": "Receiving a Jirachi from the USA Colosseum Bonus Disc",
+      "fr": "Recevoir un Jirachi depuis le disque bonus Pokémon Colosseum aux États-Unis"
+    }
   },
   {
     "id": 46,
     "name": "colosseum-bonus-disc-jpn",
-    "names": { "en": "Receiving a Celebi or Pikachu from the Japanese Colosseum Bonus Disc" }
+    "names": {
+      "en": "Receiving a Celebi or Pikachu from the Japanese Colosseum Bonus Disc",
+      "fr": "Recevoir depuis le disque bonus Pokemon Colosseum au Japon"
+    }
   },
   {
     "id": 47,
     "name": "pokemon-channel-pal",
-    "names": { "en": "Receiving a Jirachi from the PAL copy of Pokemon channel" }
+    "names": {
+      "en": "Receiving a Jirachi from the PAL copy of Pokemon channel",
+      "fr": "Recevoir depuis la version PAL de Pokémon Channel"
+    }
   },
-  { "id": 48, "name": "pokemon-ranger", "names": { "en": "Receiving a Manaphy from Pokemon Ranger" } },
+  {
+    "id": 48,
+    "name": "pokemon-ranger",
+    "names": { "en": "Receiving a Manaphy from Pokemon Ranger", "fr": "Recevoir un œuf depuis Pokémon Ranger" }
+  },
   {
     "id": 49,
     "name": "pokemon-battle-revolution",
-    "names": { "en": "Receiving a Pikachu, Electivire, or Magmar from Pokemon Battle Revolution" }
+    "names": {
+      "en": "Receiving a Pikachu, Electivire, or Magmar from Pokemon Battle Revolution",
+      "fr": "Recevoir depuis Pokémon Battle Revolution"
+    }
   },
   {
     "id": 50,
     "name": "new-york-pokecenter-wish-eggs",
-    "names": { "en": "Receiving an egg from the Pokemon center in New York City that contains the special move Wish." }
+    "names": {
+      "en": "Receiving an egg from the Pokemon center in New York City that contains the special move Wish.",
+      "fr": "Recevoir un œuf du Pokémon Center de New York contenant l'attaque spéciale Vœu"
+    }
   },
   {
     "id": 51,
     "name": "snag",
-    "names": { "en": "Snagging a Pokemon from a trainer in Pokemon Colosseum or Pokemon XD: Gale of Darkness." }
+    "names": {
+      "en": "Snagging a Pokemon from a trainer in Pokemon Colosseum or Pokemon XD: Gale of Darkness.",
+      "fr": "Snatcher un Pokémon d'un dresseur"
+    }
   },
   {
     "id": 52,
     "name": "snag-rematch",
     "names": {
-      "en": "Snagging a Pokemon from a trainer in Pokemon Colosseum or Pokemon XD: Gale of Darkness, after you have failed to capture them once."
+      "en": "Snagging a Pokemon from a trainer in Pokemon Colosseum or Pokemon XD: Gale of Darkness, after you have failed to capture them once.",
+      "fr": "Snatcher un Pokémon d'un dresseur, après avoir manqué la capture une première fois"
     }
   },
   {
     "id": 53,
     "name": "pokespot",
-    "names": { "en": "Finding a Wild Pokemon at any of the three Pokespots in Pokemon XD: Gale of Darkness." }
+    "names": {
+      "en": "Finding a Wild Pokemon at any of the three Pokespots in Pokemon XD: Gale of Darkness.",
+      "fr": "Poké Place"
+    }
   },
-  { "id": 54, "name": "hidden-grotto", "names": { "en": "Finding a Pokemon in a Hidden Grotto" } },
+  {
+    "id": 54,
+    "name": "hidden-grotto",
+    "names": { "en": "Finding a Pokemon in a Hidden Grotto", "fr": "Trouée cachée" }
+  },
   {
     "id": 55,
     "name": "honey-tree",
-    "names": { "en": "Slathering a Honey Tree with Honey and waiting for a Pokémon to appear." }
+    "names": { "en": "Slathering a Honey Tree with Honey and waiting for a Pokémon to appear.", "fr": "Arbre à Miel" }
+  },
+  {
+    "id": 56,
+    "name": "overworld-dirt",
+    "names": {
+      "en": "Overworld spawn coming from underground or within a swamp.",
+      "fr": "Apparition dans le monde extérieur depuis sous-terre ou un marais"
+    }
+  },
+  {
+    "id": 57,
+    "name": "wanderer",
+    "names": {
+      "en": "Special overworld spawn in a fixed location.",
+      "fr": "Apparition sur un emplacement fixe dans le monde extérieur"
+    }
+  },
+  {
+    "id": 58,
+    "name": "wanderer-water",
+    "names": {
+      "en": "Special overworld spawn in a fixed location in the water.",
+      "fr": "Apparition sur un emplacement fixe sur l'eau dans le monde extérieur"
+    }
+  },
+  {
+    "id": 59,
+    "name": "chase-water",
+    "names": {
+      "en": "Get chased by territorial Pokémon when entering the water.",
+      "fr": "Se faire poursuivre par un Pokémon territorial dans l'eau"
+    }
+  },
+  {
+    "id": 60,
+    "name": "dynamax-adventure",
+    "names": { "en": "Capture during a Dynamax Adventure.", "fr": "Expédition Dynamax" }
+  },
+  {
+    "id": 61,
+    "name": "max-raid",
+    "names": { "en": "Catch a wild Dynamax or Gigantamax Pokémon in a Max Raid battle.", "fr": "Raid Dynamax" }
+  },
+  {
+    "id": 62,
+    "name": "trash-can-ambush",
+    "names": { "en": "Ambushed by a Wild Pokemon from a Trash Can", "fr": "Embuscade depuis une poubelle" }
+  },
+  {
+    "id": 63,
+    "name": "rustling-bush-ambush",
+    "names": { "en": "Ambushed by a Wild Pokemon from a Rustling Bush", "fr": "Embuscade depuis un buisson qui remue" }
+  },
+  {
+    "id": 64,
+    "name": "ceiling-ambush",
+    "names": {
+      "en": "Ambushed by a Wild Pokemon from the Ceiling of a Cave",
+      "fr": "Embuscade depuis le plafond d'une grotte"
+    }
+  },
+  {
+    "id": 65,
+    "name": "ground-ambush",
+    "names": { "en": "Ambushed by a Wild Pokemon from the Ground", "fr": "Embuscade depuis la terre" }
+  },
+  {
+    "id": 66,
+    "name": "sky-ambush",
+    "names": { "en": "Ambushed by a Wild Pokemon from the Sky", "fr": "Embuscade depuis le ciel" }
   }
 ]
