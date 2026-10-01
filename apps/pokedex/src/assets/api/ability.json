@@ -79,7 +79,14 @@
     "id": 9,
     "name": "static",
     "generation": "generation-iii",
-    "names": { "ko": "정전기", "fr": "Statik", "de": "Statik", "es": "Elec. Estática", "it": "Statico", "en": "Static" }
+    "names": {
+      "ko": "정전기",
+      "fr": "Statik",
+      "de": "Statik",
+      "es": "Electricidad Estática",
+      "it": "Statico",
+      "en": "Static"
+    }
   },
   {
     "id": 10,
@@ -89,7 +96,7 @@
       "ko": "축전",
       "fr": "Absorbe-Volt",
       "de": "Voltabsorber",
-      "es": "Absorbe Elec",
+      "es": "Absorbe Electricidad",
       "it": "Assorbivolt",
       "en": "Volt Absorb"
     }
@@ -409,7 +416,7 @@
     "id": 36,
     "name": "trace",
     "generation": "generation-iii",
-    "names": { "ko": "트레이스", "fr": "Calque", "de": "Erfassen", "es": "Rastro", "it": "Traccia", "en": "Trace" }
+    "names": { "ko": "트레이스", "fr": "Calque", "de": "Erfassen", "es": "Calco", "it": "Traccia", "en": "Trace" }
   },
   {
     "id": 37,
@@ -445,7 +452,7 @@
       "ko": "정신력",
       "fr": "Attention",
       "de": "Konzentrator",
-      "es": "Foco Interno",
+      "es": "Fuerza Mental",
       "it": "Forza Interiore",
       "en": "Inner Focus"
     }
@@ -3265,6 +3272,7 @@
     "name": "lingering-aroma",
     "generation": "generation-ix",
     "names": {
+      "ko": "가시지않는향기",
       "fr": "Odeur Tenace",
       "de": "Duftschwade",
       "es": "Olor Persistente",
@@ -3276,16 +3284,24 @@
     "id": 269,
     "name": "seed-sower",
     "generation": "generation-ix",
-    "names": { "fr": "Semencier", "de": "Streusaat", "es": "Disemillar", "it": "Spargisemi", "en": "Seed Sower" }
+    "names": {
+      "ko": "넘치는씨",
+      "fr": "Semencier",
+      "de": "Streusaat",
+      "es": "Disemillar",
+      "it": "Spargisemi",
+      "en": "Seed Sower"
+    }
   },
   {
     "id": 270,
     "name": "thermal-exchange",
     "generation": "generation-ix",
     "names": {
+      "ko": "열교환",
       "fr": "Thermodynamique",
       "de": "Thermowandel",
-      "es": "Termoscambio",
+      "es": "Termoconversión",
       "it": "Termoscambio",
       "en": "Thermal Exchange"
     }
@@ -3294,13 +3310,21 @@
     "id": 271,
     "name": "anger-shell",
     "generation": "generation-ix",
-    "names": { "fr": "Courroupace", "de": "Wutpanzer", "es": "Coraza Ira", "it": "Iraguscio", "en": "Anger Shell" }
+    "names": {
+      "ko": "분노의껍질",
+      "fr": "Courroupace",
+      "de": "Wutpanzer",
+      "es": "Coraza Ira",
+      "it": "Iraguscio",
+      "en": "Anger Shell"
+    }
   },
   {
     "id": 272,
     "name": "purifying-salt",
     "generation": "generation-ix",
     "names": {
+      "ko": "정화의소금",
       "fr": "Sel Purificateur",
       "de": "Läutersalz",
       "es": "Sal Purificadora",
@@ -3313,6 +3337,7 @@
     "name": "well-baked-body",
     "generation": "generation-ix",
     "names": {
+      "ko": "노릇노릇바디",
       "fr": "Bien Cuit",
       "de": "Knusperkruste",
       "es": "Cuerpo Horneado",
@@ -3324,13 +3349,21 @@
     "id": 274,
     "name": "wind-rider",
     "generation": "generation-ix",
-    "names": { "fr": "Aéroporté", "de": "Windreiter", "es": "Surcavientos", "it": "Vento Propizio", "en": "Wind Rider" }
+    "names": {
+      "ko": "바람타기",
+      "fr": "Aéroporté",
+      "de": "Windreiter",
+      "es": "Surcavientos",
+      "it": "Vento Propizio",
+      "en": "Wind Rider"
+    }
   },
   {
     "id": 275,
     "name": "guard-dog",
     "generation": "generation-ix",
     "names": {
+      "ko": "파수견",
       "fr": "Chien de Garde",
       "de": "Wachhund",
       "es": "Perro Guardián",
@@ -3343,6 +3376,7 @@
     "name": "rocky-payload",
     "generation": "generation-ix",
     "names": {
+      "ko": "바위나르기",
       "fr": "Porte-Roche",
       "de": "Steinträger",
       "es": "Transportarrocas",
@@ -3355,6 +3389,7 @@
     "name": "wind-power",
     "generation": "generation-ix",
     "names": {
+      "ko": "풍력발전",
       "fr": "Turbine Éolienne",
       "de": "Windkraft",
       "es": "Energía Eólica",
@@ -3367,6 +3402,7 @@
     "name": "zero-to-hero",
     "generation": "generation-ix",
     "names": {
+      "ko": "마이티체인지",
       "fr": "Supermutation",
       "de": "Superwechsel",
       "es": "Cambio Heroico",
@@ -3378,19 +3414,34 @@
     "id": 279,
     "name": "commander",
     "generation": "generation-ix",
-    "names": { "fr": "Commandant", "de": "Kommandant", "es": "Comandar", "it": "Torre di Comando", "en": "Commander" }
+    "names": {
+      "ko": "사령탑",
+      "fr": "Commandant",
+      "de": "Kommandant",
+      "es": "Comandar",
+      "it": "Torre di Comando",
+      "en": "Commander"
+    }
   },
   {
     "id": 280,
     "name": "electromorphosis",
     "generation": "generation-ix",
-    "names": { "fr": "Grecharge", "de": "Dynamo", "es": "Dinamo", "it": "Convertivolt", "en": "Electromorphosis" }
+    "names": {
+      "ko": "전기로바꾸기",
+      "fr": "Grecharge",
+      "de": "Dynamo",
+      "es": "Dinamo",
+      "it": "Convertivolt",
+      "en": "Electromorphosis"
+    }
   },
   {
     "id": 281,
     "name": "protosynthesis",
     "generation": "generation-ix",
     "names": {
+      "ko": "고대활성",
       "fr": "Paléosynthèse",
       "de": "Paläosynthese",
       "es": "Paleosíntesis",
@@ -3403,6 +3454,7 @@
     "name": "quark-drive",
     "generation": "generation-ix",
     "names": {
+      "ko": "쿼크차지",
       "fr": "Charge Quantique",
       "de": "Quantenantrieb",
       "es": "Carga Cuark",
@@ -3415,6 +3467,7 @@
     "name": "good-as-gold",
     "generation": "generation-ix",
     "names": {
+      "ko": "황금몸",
       "fr": "Corps en Or",
       "de": "Goldkörper",
       "es": "Cuerpo Áureo",
@@ -3427,6 +3480,7 @@
     "name": "vessel-of-ruin",
     "generation": "generation-ix",
     "names": {
+      "ko": "재앙의그릇",
       "fr": "Urne du Fléau",
       "de": "Unheilsgefäß",
       "es": "Caldero Debacle",
@@ -3439,6 +3493,7 @@
     "name": "sword-of-ruin",
     "generation": "generation-ix",
     "names": {
+      "ko": "재앙의검",
       "fr": "Épée du Fléau",
       "de": "Unheilsschwert",
       "es": "Espada Debacle",
@@ -3451,6 +3506,7 @@
     "name": "tablets-of-ruin",
     "generation": "generation-ix",
     "names": {
+      "ko": "재앙의목간",
       "fr": "Bois du Fléau",
       "de": "Unheilstafeln",
       "es": "Tablilla Debacle",
@@ -3463,6 +3519,7 @@
     "name": "beads-of-ruin",
     "generation": "generation-ix",
     "names": {
+      "ko": "재앙의구슬",
       "fr": "Perles du Fléau",
       "de": "Unheilsjuwelen",
       "es": "Abalorio Debacle",
@@ -3475,6 +3532,7 @@
     "name": "orichalcum-pulse",
     "generation": "generation-ix",
     "names": {
+      "ko": "진홍빛고동",
       "fr": "Pouls Orichalque",
       "de": "Orichalkum-Puls",
       "es": "Latido Oricalco",
@@ -3487,6 +3545,7 @@
     "name": "hadron-engine",
     "generation": "generation-ix",
     "names": {
+      "ko": "하드론엔진",
       "fr": "Moteur à Hadrons",
       "de": "Hadronen-Motor",
       "es": "Motor Hadrónico",
@@ -3498,25 +3557,47 @@
     "id": 290,
     "name": "opportunist",
     "generation": "generation-ix",
-    "names": { "fr": "Opportuniste", "de": "Profiteur", "es": "Oportunista", "it": "Scrocco", "en": "Opportunist" }
+    "names": {
+      "ko": "편승",
+      "fr": "Opportuniste",
+      "de": "Profiteur",
+      "es": "Oportunista",
+      "it": "Scrocco",
+      "en": "Opportunist"
+    }
   },
   {
     "id": 291,
     "name": "cud-chew",
     "generation": "generation-ix",
-    "names": { "fr": "Ruminant", "de": "Wiederkäuer", "es": "Rumia", "it": "Ruminante", "en": "Cud Chew" }
+    "names": {
+      "ko": "되새김질",
+      "fr": "Ruminant",
+      "de": "Wiederkäuer",
+      "es": "Rumia",
+      "it": "Ruminante",
+      "en": "Cud Chew"
+    }
   },
   {
     "id": 292,
     "name": "sharpness",
     "generation": "generation-ix",
-    "names": { "fr": "Incisif", "de": "Scharfkantig", "es": "Cortante", "it": "Affilama", "en": "Sharpness" }
+    "names": {
+      "ko": "예리함",
+      "fr": "Incisif",
+      "de": "Scharfkantig",
+      "es": "Cortante",
+      "it": "Affilama",
+      "en": "Sharpness"
+    }
   },
   {
     "id": 293,
     "name": "supreme-overlord",
     "generation": "generation-ix",
     "names": {
+      "ko": "총대장",
       "fr": "Général Suprême",
       "de": "Feldherr",
       "es": "General Supremo",
@@ -3528,19 +3609,34 @@
     "id": 294,
     "name": "costar",
     "generation": "generation-ix",
-    "names": { "fr": "Collab", "de": "Synchronauftritt", "es": "Unísono", "it": "Coprotagonismo", "en": "Costar" }
+    "names": {
+      "ko": "협연",
+      "fr": "Collab",
+      "de": "Synchronauftritt",
+      "es": "Unísono",
+      "it": "Coprotagonismo",
+      "en": "Costar"
+    }
   },
   {
     "id": 295,
     "name": "toxic-debris",
     "generation": "generation-ix",
-    "names": { "fr": "Dépôt Toxique", "de": "Giftbelag", "es": "Capa Tóxica", "it": "Mantossina", "en": "Toxic Debris" }
+    "names": {
+      "ko": "독치장",
+      "fr": "Dépôt Toxique",
+      "de": "Giftbelag",
+      "es": "Capa Tóxica",
+      "it": "Mantossina",
+      "en": "Toxic Debris"
+    }
   },
   {
     "id": 296,
     "name": "armor-tail",
     "generation": "generation-ix",
     "names": {
+      "ko": "테일아머",
       "fr": "Armure Caudale",
       "de": "Schweifrüstung",
       "es": "Cola Armadura",
@@ -3552,13 +3648,21 @@
     "id": 297,
     "name": "earth-eater",
     "generation": "generation-ix",
-    "names": { "fr": "Absorbe-Terre", "de": "Bodenschmaus", "es": "Geofagia", "it": "Mangiaterra", "en": "Earth Eater" }
+    "names": {
+      "ko": "흙먹기",
+      "fr": "Absorbe-Terre",
+      "de": "Bodenschmaus",
+      "es": "Geofagia",
+      "it": "Mangiaterra",
+      "en": "Earth Eater"
+    }
   },
   {
     "id": 298,
     "name": "mycelium-might",
     "generation": "generation-ix",
     "names": {
+      "ko": "균사의힘",
       "fr": "Force Fongique",
       "de": "Myzelienkraft",
       "es": "Poder Fúngico",
@@ -3573,8 +3677,9 @@
     "names": {
       "ko": "심안",
       "fr": "Œil Révélateur",
-      "es": "Ojo Mental ",
-      "it": "Occhio Interiore ",
+      "de": "Geistiges Auge",
+      "es": "Ojo Mental",
+      "it": "Occhio Interiore",
       "en": "Mind’s Eye"
     }
   },
@@ -3682,10 +3787,61 @@
       "en": "Poison Puppeteer"
     }
   },
-  { "id": 308, "name": "piercing-drill", "generation": "generation-ix", "names": { "en": "Piercing Drill" } },
-  { "id": 309, "name": "dragonize", "generation": "generation-ix", "names": { "en": "Dragonize" } },
-  { "id": 310, "name": "mega-sol", "generation": "generation-ix", "names": { "en": "Mega Sol" } },
-  { "id": 311, "name": "spicy-spray", "generation": "generation-ix", "names": { "en": "Spicy Spray" } },
+  {
+    "id": 308,
+    "name": "piercing-drill",
+    "generation": "generation-ix",
+    "names": {
+      "ko": "관통드릴",
+      "fr": "Transperceuse",
+      "de": "Stichbohrer",
+      "es": "Turbotaladro",
+      "it": "Punta Perforante",
+      "en": "Piercing Drill"
+    }
+  },
+  {
+    "id": 309,
+    "name": "dragonize",
+    "generation": "generation-ix",
+    "names": {
+      "ko": "드래곤스킨",
+      "fr": "Peau Draconique",
+      "de": "Drachenschicht",
+      "es": "Piel Dragontina",
+      "it": "Pelledrago",
+      "en": "Dragonize"
+    }
+  },
+  {
+    "id": 310,
+    "name": "mega-sol",
+    "generation": "generation-ix",
+    "names": {
+      "ko": "메가솔라",
+      "fr": "Méga-Soleil",
+      "de": "Mega-Solarladung",
+      "es": "Megasolar",
+      "it": "Megasolar",
+      "en": "Mega Sol"
+    }
+  },
+  {
+    "id": 311,
+    "name": "spicy-spray",
+    "generation": "generation-ix",
+    "names": {
+      "ko": "하바네로분출",
+      "fr": "Habanéruption",
+      "de": "Chilispritzer",
+      "es": "Salpicante",
+      "it": "Spargipiccante",
+      "en": "Spicy Spray"
+    }
+  },
+  { "id": 312, "name": "eelevate", "generation": "generation-ix", "names": { "en": "Eelevate" } },
+  { "id": 313, "name": "fire-mane", "generation": "generation-ix", "names": { "en": "Fire Mane" } },
+  { "id": 314, "name": "aura-guard", "generation": "generation-ix", "names": { "en": "Aura Guard" } },
   { "id": 10001, "name": "mountaineer", "generation": "generation-v", "names": { "en": "Mountaineer" } },
   { "id": 10002, "name": "wave-rider", "generation": "generation-v", "names": { "en": "Wave Rider" } },
   { "id": 10003, "name": "skater", "generation": "generation-v", "names": { "en": "Skater" } },
