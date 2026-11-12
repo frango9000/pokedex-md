@@ -16,7 +16,14 @@
     "id": 2,
     "name": "ja-roma",
     "iso3166": "jp",
-    "names": { "ko": "정식 로마자", "fr": "Romaji", "de": "Rōmaji", "it": "Giapponese rōmaji", "en": "Japanese romaji" }
+    "names": {
+      "ko": "정식 로마자",
+      "fr": "Romaji",
+      "de": "Rōmaji",
+      "es": "Romaji",
+      "it": "Giapponese rōmaji",
+      "en": "Japanese romaji"
+    }
   },
   {
     "id": 3,
@@ -32,7 +39,7 @@
       "ko": "중국어",
       "fr": "Chinois",
       "de": "Chinesisch",
-      "es": "Chino",
+      "es": "Chino tradicional",
       "it": "Cinese tradizionale",
       "en": "Traditional chinese"
     }
@@ -81,6 +88,37 @@
     "iso3166": "us",
     "names": { "ko": "영어", "fr": "Anglais", "de": "Englisch", "es": "Inglés", "it": "Inglese", "en": "English" }
   },
-  { "id": 11, "name": "ja", "iso3166": "jp", "names": { "it": "Giapponese", "en": "Japanese" } },
-  { "id": 12, "name": "zh-hans", "iso3166": "cn", "names": { "it": "Cinese semplificato", "en": "Simplified chinese" } }
+  { "id": 11, "name": "ja", "iso3166": "jp", "names": { "es": "Japonés", "it": "Giapponese", "en": "Japanese" } },
+  {
+    "id": 12,
+    "name": "zh-hans",
+    "iso3166": "cn",
+    "names": { "es": "Chino simplificado", "it": "Cinese semplificato", "en": "Simplified chinese" }
+  },
+  {
+    "id": 13,
+    "name": "pt-br",
+    "iso3166": "br",
+    "names": {
+      "ko": "브라질 포르투갈어",
+      "fr": "Portugais brésilien",
+      "de": "Brasilianisches portugiesisch",
+      "es": "Portugués brasileño",
+      "it": "Portoghese brasiliano",
+      "en": "Brazilian portuguese"
+    }
+  },
+  {
+    "id": 14,
+    "name": "es-419",
+    "iso3166": "mx",
+    "names": {
+      "ko": "라틴 아메리카 스페인어",
+      "fr": "Espagnol latino américain",
+      "de": "Lateinamerikanisches Spanisch",
+      "es": "Español latinoamericano",
+      "it": "Spagnolo latinoamericano",
+      "en": "Latin American Spanish"
+    }
+  }
 ]
