@@ -39,7 +39,11 @@
     "name": "take-damage",
     "names": { "fr": "Aller quelque part après avoir encaissé des dommages", "en": "Go somewhere after taking damage" }
   },
-  { "id": 10, "name": "other", "names": { "fr": "Autre", "en": "Other" } },
+  {
+    "id": 10,
+    "name": "in-battle-level-up",
+    "names": { "fr": "Montée de niveau en combat", "en": "Level up in battle" }
+  },
   {
     "id": 11,
     "name": "agile-style-move",
@@ -68,5 +72,11 @@
     "id": 16,
     "name": "gimmighoul-coins",
     "names": { "fr": "Collectionner 999 Pièces Mordudor", "en": "Collect 999 Gimmighoul Coins" }
-  }
+  },
+  {
+    "id": 17,
+    "name": "meltan-candies",
+    "names": { "fr": "Donner 400 Bonbons Meltan dans Pokémon GO", "en": "Feed 400 Meltan Candies in Pokémon GO" }
+  },
+  { "id": 18, "name": "unclassified", "names": { "fr": "Non classé", "en": "Unclassified" } }
 ]

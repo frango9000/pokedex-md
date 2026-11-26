@@ -310,7 +310,7 @@
       "no_damage_from": [],
       "no_damage_to": []
     },
-    "names": { "ko": "다크", "fr": "Obscur", "de": "Crypto", "it": "Ombra", "en": "Shadow" },
+    "names": { "ko": "다크", "fr": "Obscur", "de": "Crypto", "es": "Oscuro", "it": "Ombra", "en": "Shadow" },
     "generation": "generation-iii",
     "move_damage_class": "special"
   }
